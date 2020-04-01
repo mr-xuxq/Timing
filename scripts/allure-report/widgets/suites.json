@@ -1,17 +1,6 @@
 {
-  "total" : 7,
+  "total" : 8,
   "items" : [ {
-    "uid" : "a75e9e80197bd07dd87ad9566971bd90",
-    "name" : "test_001_registerAccount",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 2,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 2
-    }
-  }, {
     "uid" : "f76c65c15dede6f3dfc7d3b86c6f091d",
     "name" : "test_loginByCaptcha",
     "statistic" : {
@@ -45,6 +34,28 @@
       "total" : 2
     }
   }, {
+    "uid" : "f65d8430e230c34c20f407744f256727",
+    "name" : "test_004_browsesVlog",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "a75e9e80197bd07dd87ad9566971bd90",
+    "name" : "test_001_registerAccount",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
     "uid" : "3183b646a4be569afb5752d7e055d1d1",
     "name" : "test_002_loginByCaptcha",
     "statistic" : {
@@ -56,8 +67,8 @@
       "total" : 2
     }
   }, {
-    "uid" : "f65d8430e230c34c20f407744f256727",
-    "name" : "test_004_browsesVlog",
+    "uid" : "2c515da14c8fe5220e3749d3837973cc",
+    "name" : "test_005_videoRoom",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
