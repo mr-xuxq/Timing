@@ -20,17 +20,6 @@ class Test_browsesVlog():
     sourse = []
     # @pytest.mark.parametrize("args", analyze_file("address_data.yaml", "test_address"))                               # 装饰器
     #长视频列表页浏览测试用例
-    # def test_loginByPwd(self):
-    #     self.page.login().click_phone_login()
-    #     self.page.login_phone().click_loginByPwd()
-    #     self.page.login_phone_pwd().input_phone(str(phone))
-    #     self.page.login_phone_pwd().input_pwd(str(pwd))
-    #     self.page.login_phone_pwd().back()
-    #     self.page.login_phone_pwd().click_loginBtn()
-    #     #断言
-    #     #consult = Test_loginByPwd.findItem(self,target)
-    #     assert self.page.login_phone_pwd().waitAndFind() == True
-
     def test_browsesVlog(self):
         self.page.shouye().click_sVlog()                                                                                # 点击sVlog标题
         time.sleep(2)
@@ -39,9 +28,3 @@ class Test_browsesVlog():
         #断言
         assert self.page.sVlog_list().waitAndFind() == True
 
-    def test_logout(self):
-        self.page.setting().click_more()                                                                                # 点击更多
-        self.page.setting().click_setting()                                                                             # 点击设置
-        self.page.setting().click_logout()                                                                              # 点击退出登录
-        self.page.setting().click_confirmLogout()                                                                       # 点击确定
-        assert self.page.setting().findLogin() == True                                                                  # 断言
