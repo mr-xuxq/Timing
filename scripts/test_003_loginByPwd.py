@@ -1,7 +1,7 @@
 #coding:utf-8
 from Pages.page import Page
 from base.base_driver import Base
-
+import allure
 sourse = []
 phone = 10000000100                                         # 登录手机
 pwd = 111111                                                # 登录密码
@@ -24,22 +24,21 @@ class Test_loginByPwd():
     # @pytest.mark.parametrize("args", analyze_file("address_data.yaml", "test_address"))
     #手机号密码登录测试用例
     def test_loginByPwd(self):
-        self.page.login().click_phone_login()
-        self.page.login_phone().click_loginByPwd()
-        self.page.login_phone_pwd().input_phone(str(phone))
-        self.page.login_phone_pwd().input_pwd(str(pwd))
-        self.page.login_phone_pwd().back()
-        self.page.login_phone_pwd().click_loginBtn()
-        #断言
-        #consult = Test_loginByPwd.findItem(self,target)
-        assert self.page.login_phone_pwd().waitAndFind() == True
+        with allure.step('点击手机号登录'):
+            self.page.login().click_phone_login()
+        with allure.step('点击密码登录'):
+            self.page.login_phone().click_loginByPwd()
+        with allure.step('输入手机号'):
+            self.page.login_phone_pwd().input_phone(str(phone))
+        with allure.step('输入密码'):
+            self.page.login_phone_pwd().input_pwd(str(pwd))
+        with allure.step('关闭小键盘'):
+            self.page.login_phone_pwd().back()
+        with allure.step('点击登录按钮'):
+            self.page.login_phone_pwd().click_loginBtn()
+        with allure.step('断言:登录成功'):
+            assert self.page.login_phone_pwd().waitAndFind() == True
 
-    # def test_logout(self):
-    #     self.page.setting().click_more()
-    #     self.page.setting().click_setting()
-    #     self.page.setting().click_logout()
-    #     self.page.setting().click_confirmLogout()
-    #     assert self.page.setting().findLogin() == True
 
 
 
