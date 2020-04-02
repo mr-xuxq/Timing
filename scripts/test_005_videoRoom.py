@@ -1,5 +1,5 @@
 #coding:utf-8
-import time
+import time,allure
 from Pages.page import Page
 from base.base_driver import Base
 phone = 10000000100                                         # 登录手机
@@ -21,15 +21,22 @@ class Test_videoRoom():
     # @pytest.mark.parametrize("args", analyze_file("address_data.yaml", "test_address"))                               # 装饰器
     #长视频列表页浏览测试用例
     def test_videoRoom(self):
-        self.page.shouye().click_videoRoom()                                                                            # 点击Timing自习室
-        time.sleep(3)
-        self.page.videoRoom_list().check_join()                                                                         # 检测是否存在自习室，并点击
-        #断言
-        assert self.page.videoHall().waitAndFind() == True
+        with allure.step('点击自习室按钮'):
+            self.page.shouye().click_videoRoom()
+            time.sleep(3)
+        with allure.step('检测是否存在自习室，并点击'):
+            self.page.videoRoom_list().check_join()
+        with allure.step('断言:成功进入自习室大厅'):
+            assert self.page.videoHall().waitAndFind() == True
 
     def test_logout(self):
-        self.page.setting().click_more()                                                                                # 点击更多
-        self.page.setting().click_setting()                                                                             # 点击设置
-        self.page.setting().click_logout()                                                                              # 点击退出登录
-        self.page.setting().click_confirmLogout()                                                                       # 点击确定
-        assert self.page.setting().findLogin() == True                                                                  # 断言
+        with allure.step('点击更多按钮'):
+            self.page.setting().click_more()
+        with allure.step('点击设置按钮'):
+            self.page.setting().click_setting()
+        with allure.step('点击退出登录按钮'):
+            self.page.setting().click_logout()
+        with allure.step('确定退出'):
+            self.page.setting().click_confirmLogout()
+        with allure.step('断言:退出登录成功'):
+            assert self.page.setting().findLogin() == True
