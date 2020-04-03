@@ -29,5 +29,3 @@ class Test_browsesVlog():
                 self.page.sVlog_list().swipeUp()
         with allure.step('断言:无任何崩溃闪退'):
             assert self.page.sVlog_list().waitAndFind() == True
-
-s
