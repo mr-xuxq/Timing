@@ -27,3 +27,4 @@ class Test_videoRoom():
             self.page.video_room_list().check_join()
         with allure.step('断言:成功进入自习室大厅'):
             assert self.page.video_hall().waitAndFind() == True
+
