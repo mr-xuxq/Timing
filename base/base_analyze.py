@@ -1,4 +1,4 @@
-import os
+# import os
 # import yaml
 #
 # def analyze_file(file_name, key):

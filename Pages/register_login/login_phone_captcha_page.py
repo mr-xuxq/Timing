@@ -1,4 +1,4 @@
-#——————手机号密码登录页面——————#
+#——————手机号验证码登录页面——————#
 from selenium.webdriver.common.by import By
 from base.base_action import BaseAction
 

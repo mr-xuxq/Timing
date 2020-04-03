@@ -56,9 +56,9 @@ class Test_videoRoom():
 
     # def test_logout(self):
     #     with allure.step('点击更多按钮'):
-    #         self.page.setting().click_more()
+    #         self.page.more().click_more()
     #     with allure.step('点击设置按钮'):
-    #         self.page.setting().click_setting()
+    #         self.page.more().click_setting()
     #     with allure.step('点击退出登录按钮'):
     #         self.page.setting().click_logout()
     #     with allure.step('确定退出'):

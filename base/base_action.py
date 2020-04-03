@@ -1,6 +1,7 @@
+from selenium.common.exceptions import TimeoutException
+from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 from base.base_driver import Base
-from selenium.common.exceptions import TimeoutException
 import time
 sourse = []
 
@@ -41,6 +42,9 @@ class BaseAction(Base):
     def input(self, feature, content):
         self.find_element(feature).send_keys(content)
 
+    def get_text(self, feature):
+        return self.find_element(feature).text
+
     # 清空
     def clear(self, feature):
         self.find_element(feature).clear()
@@ -74,6 +78,7 @@ class BaseAction(Base):
             return True
         except TimeoutException:
             return False
+
 
     def waitLoading(self, target, t):
         i = 0

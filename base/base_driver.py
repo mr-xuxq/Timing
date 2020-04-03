@@ -16,6 +16,8 @@ class Base(object):
             'appActivity': '.view.activity.StartupActivity',
             # 应用持续开启时间
             'newCommandTimeout': '28888',
+            # 'unicodeKeyboard': True,
+            # 'resetKeyboard': True
         }
         driver = webdriver.Remote('http://127.0.0.1:4723/wd/hub', desired_caps)
         return driver

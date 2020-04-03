@@ -9,7 +9,6 @@ phone = 10000000773
 nickName = 9527
 # 此处填入服务器连接
 
-
 class Test_registerAccount():
     #setup函数是在一个类里面最先被调用的函数，而且每执行完一个函数都要从setUp()调用开始后再执行下一个函数，有几个函数就调用他几次，与位置无关，随便放在那里都是他先被调用。
     #放一些准备的工作，或者准备一些测试数据。
@@ -53,9 +52,9 @@ class Test_registerAccount():
         with allure.step('点击选择头像按钮'):
             self.page.register_fillInformation().click_selectPhotoBtn()
         with allure.step('点击图片，进入图片详情页'):
-            self.page.selectPhoto().click_photoBtn()
+            self.page.select_photo().click_photoBtn()
         with allure.step('点击选取按钮，完成图片选择'):
-            self.page.selectPhoto().click_selectBtn()
+            self.page.select_photo().click_selectBtn()
         with allure.step('输入昵称'):
             self.page.register_fillInformation().input_nickNameBox(str(nickName))
         with allure.step('选择男性'):
@@ -79,9 +78,9 @@ class Test_registerAccount():
 
     def test_logout(self):
         with allure.step('点击更多按钮'):
-            self.page.setting().click_more()
+            self.page.more().click_more()
         with allure.step('点击设置按钮'):
-            self.page.setting().click_setting()
+            self.page.more().click_setting()
         with allure.step('点击退出登录按钮'):
             self.page.setting().click_logout()
         with allure.step('确定退出'):
