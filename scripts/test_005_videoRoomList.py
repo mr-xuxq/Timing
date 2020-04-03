@@ -19,24 +19,11 @@ class Test_videoRoom():
     #判断元素是否在当前页面内
     sourse = []
     # @pytest.mark.parametrize("args", analyze_file("address_data.yaml", "test_address"))                               # 装饰器
-    #长视频列表页浏览测试用例
     def test_videoRoom(self):
         with allure.step('点击自习室按钮'):
             self.page.shouye().click_videoRoom()
             time.sleep(3)
         with allure.step('检测是否存在自习室，并点击'):
-            self.page.videoRoom_list().check_join()
+            self.page.video_room_list().check_join()
         with allure.step('断言:成功进入自习室大厅'):
-            assert self.page.videoHall().waitAndFind() == True
-
-    def test_logout(self):
-        with allure.step('点击更多按钮'):
-            self.page.setting().click_more()
-        with allure.step('点击设置按钮'):
-            self.page.setting().click_setting()
-        with allure.step('点击退出登录按钮'):
-            self.page.setting().click_logout()
-        with allure.step('确定退出'):
-            self.page.setting().click_confirmLogout()
-        with allure.step('断言:退出登录成功'):
-            assert self.page.setting().findLogin() == True
+            assert self.page.video_hall().waitAndFind() == True

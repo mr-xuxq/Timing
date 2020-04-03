@@ -9,8 +9,9 @@ from Pages.register_login.selectPhoto_page import SelectPhoto
 from Pages.register_login.guide_page import Guide
 from Pages.browse_information.shouye_page import Shouye
 from Pages.browse_information.sVlog_list_page import List_sVlog
-from Pages.browse_information.videoRoom_list_page import VideoRoom_list
-from Pages.browse_information.video_hall_page import VideoHall
+from Pages.browse_information.video_room_list_page import Video_room_list
+from Pages.browse_information.video_hall_page import Video_hall
+from Pages.browse_information.video_room_page import Video_room
 
 class Page:
 
@@ -50,12 +51,14 @@ class Page:
     def sVlog_list(self):
         return List_sVlog(self.driver)
 
-    def videoRoom_list(self):
-        return VideoRoom_list(self.driver)
+    def video_room_list(self):
+        return Video_room_list(self.driver)
 
-    def videoHall(self):
-        return VideoHall(self.driver)
+    def video_hall(self):
+        return Video_hall(self.driver)
 
+    def video_room(self):
+        return Video_room(self.driver)
 
 
     # def more_page(self):

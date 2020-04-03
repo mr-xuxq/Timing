@@ -1,7 +1,7 @@
 from selenium.webdriver.common.by import By
 from base.base_action import BaseAction
 
-class VideoRoom_list(BaseAction):
+class Video_room_list(BaseAction):
     # 【加入按钮】
     joinBtn = By.ID, 'com.huiian.timing:id/btn_join_room'
 
