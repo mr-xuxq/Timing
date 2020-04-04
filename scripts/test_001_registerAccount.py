@@ -53,9 +53,9 @@ class Test_registerAccount():
         with allure.step('点击选择头像按钮'):
             self.page.register_fillInformation().click_selectPhotoBtn()
         with allure.step('点击图片，进入图片详情页'):
-            self.page.selectPhoto().click_photoBtn()
+            self.page.select_photo().click_photoBtn()
         with allure.step('点击选取按钮，完成图片选择'):
-            self.page.selectPhoto().click_selectBtn()
+            self.page.select_photo().click_selectBtn()
         with allure.step('输入昵称'):
             self.page.register_fillInformation().input_nickNameBox(str(nickName))
         with allure.step('选择男性'):
@@ -79,9 +79,9 @@ class Test_registerAccount():
 
     def test_logout(self):
         with allure.step('点击更多按钮'):
-            self.page.setting().click_more()
+            self.page.more().click_more()
         with allure.step('点击设置按钮'):
-            self.page.setting().click_setting()
+            self.page.more().click_setting()
         with allure.step('点击退出登录按钮'):
             self.page.setting().click_logout()
         with allure.step('确定退出'):

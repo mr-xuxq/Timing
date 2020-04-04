@@ -1,4 +1,4 @@
-#——————注册的添加标签页面——————#
+#——————注册的填写个人信息页面——————#
 from selenium.webdriver.common.by import By
 from base.base_action import BaseAction
 

@@ -1,4 +1,4 @@
-#——————手机号/qq/微信登录页面——————#
+#——————新手引导页——————#
 from selenium.webdriver.common.by import By
 from base.base_action import BaseAction
 

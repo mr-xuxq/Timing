@@ -4,7 +4,7 @@ from Pages.page import Page
 from base.base_driver import Base
 phone = 10000000100                                         # 登录手机
 pwd = 111111                                                # 登录密码
-class Test_browsesVlog():
+class Test_videoRoom():
     #setup函数是在一个类里面最先被调用的函数，而且每执行完一个函数都要从setUp()调用开始后再执行下一个函数，有几个函数就调用他几次，与位置无关，随便放在那里都是他先被调用。
     #放一些准备的工作，或者准备一些测试数据。
     def setup(self):
@@ -19,15 +19,12 @@ class Test_browsesVlog():
     #判断元素是否在当前页面内
     sourse = []
     # @pytest.mark.parametrize("args", analyze_file("address_data.yaml", "test_address"))                               # 装饰器
-    #长视频列表页浏览测试用例
-    def test_browsesVlog(self):
-        with allure.step('点击sVlog标题'):
-            self.page.shouye().click_sVlog()
-            time.sleep(2)
-        with allure.step('浏览长视频列表'):
-            for i in range(1,100):
-                self.page.sVlog_list().swipeUp()
-        with allure.step('断言:无任何崩溃闪退'):
-            assert self.page.sVlog_list().waitAndFind() == True
+    def test_videoRoom(self):
+        with allure.step('点击自习室按钮'):
+            self.page.shouye().click_videoRoom()
+            time.sleep(3)
+        with allure.step('检测是否存在自习室，并点击'):
+            self.page.video_room_list().check_join()
+        with allure.step('断言:成功进入自习室大厅'):
+            assert self.page.video_hall().waitAndFind() == True
 
-s

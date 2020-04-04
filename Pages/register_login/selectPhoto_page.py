@@ -1,8 +1,8 @@
-#——————手机号密码登录页面——————#
+#——————注册的选择照片页面——————#
 from selenium.webdriver.common.by import By
 from base.base_action import BaseAction
 
-class SelectPhoto(BaseAction):
+class Select_photo(BaseAction):
     # 照片选择按钮
     photoBtn =By.ID,'com.huiian.timing:id/photo_list_item_img'
     # 照片详情【选取按钮】
