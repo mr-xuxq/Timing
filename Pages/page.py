@@ -17,7 +17,7 @@ from Pages.personal_information.editPersonInfo_page import Edit_personal_info
 from Pages.personal_information.nameInfo_page import Name_info
 from Pages.personal_information.person_home_page import Person_home
 # ——————————————————————-—————-Post_content————————————————————-—-——#
-from Pages.post_content.publish_page import Post_content
+from Pages.post_content.post_page import Post_content
 # ———————————————————————————-Register_login————————————————-———-—-——#
 from Pages.register_login.login_page import Login
 from Pages.register_login.login_phone_page import Login_phone

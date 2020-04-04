@@ -3,7 +3,7 @@ import time,allure
 from Pages.page import Page
 from base.base_driver import Base
 
-class Test_browsesVlog():
+class Test_postDiary():
     #setup函数是在一个类里面最先被调用的函数，而且每执行完一个函数都要从setUp()调用开始后再执行下一个函数，有几个函数就调用他几次，与位置无关，随便放在那里都是他先被调用。
     #放一些准备的工作，或者准备一些测试数据。
     def setup(self):
@@ -19,7 +19,7 @@ class Test_browsesVlog():
     sourse = []
     # @pytest.mark.parametrize("args", analyze_file("address_data.yaml", "test_address"))                               # 装饰器
     #长视频列表页浏览测试用例
-    def test_browsesVlog(self):
+    def test_postDiary(self):
         with allure.step('点击sVlog标题'):
             self.page.shouye().click_sVlog()
             time.sleep(2)
