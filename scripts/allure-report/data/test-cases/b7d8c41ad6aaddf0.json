@@ -1,0 +1,255 @@
+{
+  "uid" : "b7d8c41ad6aaddf0",
+  "name" : "test_loginByPwd",
+  "fullName" : "test_003_loginByPwd.Test_loginByPwd#test_loginByPwd",
+  "historyId" : "76c961366b12e653ec2b05ce63fed8e1",
+  "time" : {
+    "start" : 1585821899155,
+    "stop" : 1585821916921,
+    "duration" : 17766
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "点击手机号登录",
+      "time" : {
+        "start" : 1585821899155,
+        "stop" : 1585821902254,
+        "duration" : 3099
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "点击密码登录",
+      "time" : {
+        "start" : 1585821902254,
+        "stop" : 1585821902699,
+        "duration" : 445
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "输入手机号",
+      "time" : {
+        "start" : 1585821902699,
+        "stop" : 1585821908226,
+        "duration" : 5527
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "输入密码",
+      "time" : {
+        "start" : 1585821908226,
+        "stop" : 1585821913609,
+        "duration" : 5383
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "关闭小键盘",
+      "time" : {
+        "start" : 1585821913609,
+        "stop" : 1585821914130,
+        "duration" : 521
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "点击登录按钮",
+      "time" : {
+        "start" : 1585821914130,
+        "stop" : 1585821914580,
+        "duration" : 450
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "断言:登录成功",
+      "time" : {
+        "start" : 1585821914580,
+        "stop" : 1585821916921,
+        "duration" : 2341
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 7
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_003_loginByPwd"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_loginByPwd"
+  }, {
+    "name" : "host",
+    "value" : "PV-X00232293"
+  }, {
+    "name" : "thread",
+    "value" : "4068-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_003_loginByPwd"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "a9225e9712a46bdb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585818162264,
+        "stop" : 1585818183093,
+        "duration" : 20829
+      }
+    }, {
+      "uid" : "5121d5073e1bb18",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585741038618,
+        "stop" : 1585741056249,
+        "duration" : 17631
+      }
+    }, {
+      "uid" : "1f2b474f7ded4c59",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585723357393,
+        "stop" : 1585723376971,
+        "duration" : 19578
+      }
+    }, {
+      "uid" : "f053645a9254808b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585722360987,
+        "stop" : 1585722379699,
+        "duration" : 18712
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 6,
+        "unknown" : 0,
+        "total" : 6
+      },
+      "items" : [ {
+        "uid" : "354034d4b1e443dc",
+        "reportUrl" : "http://192.168.88.58:8080/job/Timing/11/allure/#testresult/354034d4b1e443dc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1585818162264,
+          "stop" : 1585818183093,
+          "duration" : 20829
+        }
+      }, {
+        "uid" : "90a1df740a42e228",
+        "reportUrl" : "http://192.168.88.58:8080/job/Timing/10/allure/#testresult/90a1df740a42e228",
+        "status" : "passed",
+        "time" : {
+          "start" : 1585741038618,
+          "stop" : 1585741056249,
+          "duration" : 17631
+        }
+      }, {
+        "uid" : "4e7808f56390244",
+        "reportUrl" : "http://192.168.88.58:8080/job/Timing/9/allure/#testresult/4e7808f56390244",
+        "status" : "passed",
+        "time" : {
+          "start" : 1585723357393,
+          "stop" : 1585723376971,
+          "duration" : 19578
+        }
+      }, {
+        "uid" : "c0c3dc5ff35b068",
+        "reportUrl" : "http://192.168.88.58:8080/job/Timing/8/allure/#testresult/c0c3dc5ff35b068",
+        "status" : "passed",
+        "time" : {
+          "start" : 1585723357393,
+          "stop" : 1585723376971,
+          "duration" : 19578
+        }
+      }, {
+        "uid" : "d9d4a026601a6288",
+        "reportUrl" : "http://192.168.88.58:8080/job/Timing/7/allure/#testresult/d9d4a026601a6288",
+        "status" : "passed",
+        "time" : {
+          "start" : 1585723357393,
+          "stop" : 1585723376971,
+          "duration" : 19578
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "b7d8c41ad6aaddf0.json",
+  "parameterValues" : [ ]
+}
