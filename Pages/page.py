@@ -1,5 +1,6 @@
 # ——————————————————————-——-browse_information——————————-——————-———-—-——#
 from Pages.browse_information.shouye_page import Shouye
+from Pages.browse_information.follow_page import Follow
 from Pages.browse_information.sVlog_list_page import List_sVlog
 from Pages.browse_information.video_room_list_page import Video_room_list
 from Pages.browse_information.video_hall_page import Video_hall
@@ -18,6 +19,10 @@ from Pages.personal_information.nameInfo_page import Name_info
 from Pages.personal_information.person_home_page import Person_home
 # ——————————————————————-—————-Post_content————————————————————-—-——#
 from Pages.post_content.post_page import Post_content
+from Pages.post_content.post_diary_page import Post_diary
+from Pages.post_content.selectPhoto_page import Select_diary_photo
+from Pages.post_content.topic_page import Topic
+from Pages.post_content.select_cover_page import Select_cover
 # ———————————————————————————-Register_login————————————————-———-—-——#
 from Pages.register_login.login_page import Login
 from Pages.register_login.login_phone_page import Login_phone
@@ -39,6 +44,9 @@ class Page:
 # ——————————————————————-——-browse_information——————————-——————-———-—-——#
     def shouye(self):
         return Shouye(self.driver)
+
+    def follow(self):
+        return Follow(self.driver)
 
     def sVlog_list(self):
         return List_sVlog(self.driver)
@@ -84,6 +92,18 @@ class Page:
 # ——————————————————————-—————-Post_content————————————————————-—-——#
     def post_content(self):
         return Post_content(self.driver)
+
+    def post_diary(self):
+        return Post_diary(self.driver)
+
+    def select_diary_photo(self):
+        return Select_diary_photo(self.driver)
+
+    def topic(self):
+        return Topic(self.driver)
+
+    def select_cover(self):
+        return Select_cover(self.driver)
 # ———————————————————————————-Register_login————————————————-———-—-——#
     def login(self):
         return Login(self.driver)
