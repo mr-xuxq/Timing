@@ -28,11 +28,8 @@ class More(BaseAction):
     # 我的已购按钮
     shopBtn = By.XPATH, '//*[@text="我的已购"]'
 
-    def click_more(self):
-        self.click(self.moreBtn)
-
-    def click_setting(self):
-        self.click(self.settingBtn)
+    def click_more(self,target):
+        self.click(target)
 
     #上滑更多页面至计时区域
     def swipeByMy(self,x1, y1, x2, y2, t):

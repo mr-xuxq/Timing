@@ -7,6 +7,8 @@ class Shouye(BaseAction):
     sVlogBtn = By.ID, 'com.huiian.timing:id/tv_svlog_title'
     # 【自习室按钮】
     videoRoomBtn = By.ID, 'com.huiian.timing:id/cl_zxs_entrance'
+    #【首页tab按钮】
+    shouyeBtn = By.XPATH, '//*[@text="首页"]'
 
     def click_sVlog(self):
         self.click(self.sVlogBtn)
