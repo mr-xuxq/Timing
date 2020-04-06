@@ -1,11 +1,11 @@
 import time, allure
-from Pages.timing_page import Timing
-from Pages.more_page import More
+from Pages.timed_learning.timing_page import Timing
+from Pages.personal_information.more_page import More
 from Pages.page import Page
 from base.base_driver import Base
 #如果你想重复执行测试模块(.py文件)，直接在模块上方（导入pytest包下面）加入下面一行代码即可：pytestmark变量名是固定的~
 #pytestmark=pytest.mark.repeat(2)
-@allure.feature('计时功能')
+@allure.feature('睡觉后起床功能')
 class Test_sleepRecord():
     def setup(self):
         self.driver = Base().init_driver()

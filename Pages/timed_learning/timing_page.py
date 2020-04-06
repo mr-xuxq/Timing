@@ -12,6 +12,11 @@ class Timing(BaseAction):
     timingEndDialog = By.XPATH, '//*[@text="知道了"]'
     # 计时结算页右上角【完成】按钮
     timingEndSuccess = By.XPATH, '//*[@text="完成"]'
+    #计时不足1min点击结束出现的弹窗_【确定】按钮
+    timingEndConfirmRight = By.XPATH, '//*[@text="确定"]'
+    #计时不足1min点击结束出现的弹窗_【取消】按钮
+    timingEndConfirmLeft = By.XPATH, '//*[@text="取消"]'
+
     # 第一次点击视频打开，出现视频录制权限弹窗
     videoStartDialog = By.XPATH, '//*[@text="始终允许"]'
     # 视频打卡结束后_分享视频打卡按钮
@@ -22,6 +27,7 @@ class Timing(BaseAction):
     videoEndDialog = By.XPATH, '//*[@text="确定"]'
     # 学习目标输入框
     studyContentBox = By.ID, 'com.huiian.timing:id/et_common_title'
+
     # 番茄学习目标输入框
     tomatoContentBox = By.ID, 'com.huiian.timing:id/et_title'
     # 视频打卡目标输入框
@@ -32,6 +38,7 @@ class Timing(BaseAction):
     studySettingsuccessBtn = By.XPATH, '//*[@text="完成"]'
     # 学习计时_开始学习按钮
     startTimingBtn = By.ID, 'com.huiian.timing:id/tv_confirm_common'
+
     # 番茄计时_开始学习按钮
     startTomatoBtn = By.XPATH, '//*[@text="开始学习"]'
     # 视频打卡_确定并开启摄像头按钮
