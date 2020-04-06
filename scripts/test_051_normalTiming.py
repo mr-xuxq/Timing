@@ -19,12 +19,12 @@ class Test_normalTiming():
     @allure.story('学习计时达1min操作')
     def test_normalTiming(self):
         with allure.step('进入更多页面'):
-            self.page.more().click_more(More.moreBtn)
+            self.page.more().click_more()
             time.sleep(5)
         with allure.step('滑动更多页面至底部'):
             self.page.more().swipeByMy(0.5, 0.9, 0.5, 0.4, 200)
         with allure.step('点击学习计时按钮，设定内容后开始'):
-            self.page.more().click_more(More.timingBtn)
+            self.page.more().click_timing()
             self.page.timing().input_ContentBox(Timing.studyContentBox, 'This is Timing')
             self.page.timing().click_timing(Timing.studySettingBtn)
             time.sleep(5)
@@ -47,12 +47,12 @@ class Test_normalTiming():
     @allure.story('学习计不足1min操作')
     def test_normalTiming_exit(self):
         with allure.step('进入更多页面'):
-            self.page.more().click_more(More.moreBtn)
+            self.page.more().click_more()
             time.sleep(5)
         with allure.step('滑动更多页面至底部'):
             self.page.more().swipeByMy(0.5, 0.9, 0.5, 0.4, 200)
         with allure.step('点击学习计时按钮，设定内容后开始'):
-            self.page.more().click_more(More.timingBtn)
+            self.page.more().click_timing()
             self.page.timing().input_ContentBox(Timing.studyContentBox, 'This is Timing')
             self.page.timing().click_timing(Timing.studySettingBtn)
             time.sleep(5)

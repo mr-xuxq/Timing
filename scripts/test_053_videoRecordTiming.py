@@ -22,12 +22,12 @@ class Test_videoRecordTiming():
     @allure.story('视频打卡操作')
     def test_videoRecordTiming(self):
         with allure.step('进入更多页面'):
-            self.page.more().click_more(More.moreBtn)
+            self.page.more().click_more()
             time.sleep(5)
         with allure.step('滑动更多页面至底部'):
             self.page.more().swipeByMy(0.5, 0.9, 0.5, 0.4, 200)
         with allure.step('点击视频打卡按钮，设定内容后开始'):
-            self.page.more().click_more(More.videoBtn)
+            self.page.more().click_video()
             self.page.timing().input_ContentBox(Timing.videoContentBox, 'This is videoTiming')
             time.sleep(3)
             self.page.timing().click_timing(Timing.startVideoBtn)

@@ -18,7 +18,7 @@ class Test_browseShowye():
         i = 0
         while i<50:
         #while True:
-            self.page.shouye().swipeByMy(0.5, 0.7, 0.5, 0.3, 150)
+            self.page.shouye().swipeUp()
             i += 1
         #断言
         assert self.page.shouye().waitAndfind(Shouye.shouyeBtn) == True

@@ -1,5 +1,189 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
-  "children" : [ ]
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "TypeError: click_more() missing 1 required positional argument: 'target'",
+      "children" : [ {
+        "name" : "test_logout",
+        "uid" : "4dd07d2f712be8e2",
+        "parentUid" : "e5ea5821a9f59628d5835a283b0c70a2",
+        "status" : "broken",
+        "time" : {
+          "start" : 1586146404140,
+          "stop" : 1586146404141,
+          "duration" : 1
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_logout",
+        "uid" : "7a210f2fc231e6ab",
+        "parentUid" : "e5ea5821a9f59628d5835a283b0c70a2",
+        "status" : "broken",
+        "time" : {
+          "start" : 1586146462372,
+          "stop" : 1586146462372,
+          "duration" : 0
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e5ea5821a9f59628d5835a283b0c70a2"
+    }, {
+      "name" : "selenium.common.exceptions.TimeoutException: Message:",
+      "children" : [ {
+        "name" : "test_loginByCaptcha",
+        "uid" : "5bf97ed8b82ecc11",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1586146407874,
+          "stop" : 1586146458883,
+          "duration" : 51009
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_loginByPwd",
+        "uid" : "c437f98925d2f9b2",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1586146465793,
+          "stop" : 1586146517228,
+          "duration" : 51435
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_videoRoom_visitor",
+        "uid" : "ed80639637ff76c5",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1586146608179,
+          "stop" : 1586146720977,
+          "duration" : 112798
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_chatWord",
+        "uid" : "99061bd3c4b7a9e8",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1586146752922,
+          "stop" : 1586146915061,
+          "duration" : 162139
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_chatImage",
+        "uid" : "ea331341582f337b",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1586146918575,
+          "stop" : 1586147080845,
+          "duration" : 162270
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_chatVideo",
+        "uid" : "2c2e5b8c358ed1ed",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1586147084413,
+          "stop" : 1586147244677,
+          "duration" : 160264
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_normalTiming",
+        "uid" : "d12ed79a8daeb5fc",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1586147577567,
+          "stop" : 1586147680389,
+          "duration" : 102822
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_normalTiming_exit",
+        "uid" : "4b7170438014e42c",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1586147684241,
+          "stop" : 1586147748378,
+          "duration" : 64137
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_tomatoTiming",
+        "uid" : "b21d70efbf57ce54",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1586147752100,
+          "stop" : 1586147814082,
+          "duration" : 61982
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_videoRecordTiming",
+        "uid" : "870eea7357be16be",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1586147817930,
+          "stop" : 1586147892837,
+          "duration" : 74907
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_sleepRecord",
+        "uid" : "6642e1faaea1eb1c",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1586147896403,
+          "stop" : 1586147958924,
+          "duration" : 62521
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "31bb78a6a95ede3f78b260ed048910d8"
+    }, {
+      "name" : "AttributeError: 'Shouye' object has no attribute 'swipeByMy'",
+      "children" : [ {
+        "name" : "test_swipeO",
+        "uid" : "80114f1db9fd8e08",
+        "parentUid" : "6da71b306ebeafef7232c7e168668991",
+        "status" : "broken",
+        "time" : {
+          "start" : 1586146724523,
+          "stop" : 1586146729523,
+          "duration" : 5000
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6da71b306ebeafef7232c7e168668991"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
 }

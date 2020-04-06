@@ -26,7 +26,7 @@ class Test_friendChat():
             self.page.message().click_message(Message.messageBtn)
         with allure.step('滑动页面找红点，找到就点击进入再返回'):
             i = 0
-            while i < 1:
+            while i < 3:
                 #如果消息页面channel红点存在
                 if self.page.message().waitAndfind(Message.messagePoint, 1) == True:
                     #点击进入

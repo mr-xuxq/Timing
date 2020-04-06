@@ -8,6 +8,7 @@ from sqlalchemy import create_engine
 phone = 10000000773
 nickName = 9527
 # 此处填入服务器连接
+engine = create_engine('mysql+pymysql://timing_read_only:db_only_hsyt21@rr-bp12u85w22spt5976do.mysql.rds.aliyuncs.com:3306/timing?charset=utf8')  # 正式服
 
 
 class Test_registerAccount():

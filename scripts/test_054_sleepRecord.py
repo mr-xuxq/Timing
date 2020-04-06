@@ -19,12 +19,12 @@ class Test_sleepRecord():
     @allure.story('睡觉后再起床操作')
     def test_sleepRecord(self):
         with allure.step('进入更多页面'):
-            self.page.more().click_more(More.moreBtn)
+            self.page.more().click_more()
             time.sleep(5)
         with allure.step('滑动更多页面至底部'):
             self.page.more().swipeByMy(0.5, 0.9, 0.5, 0.4, 200)
         with allure.step('点击睡觉按钮，进入睡觉页面'):
-            self.page.more().click_more(More.sleepBtn)
+            self.page.more().click_sleep()
             # 点击【睡觉actionbar】
             self.driver.tap([(329, 1969), (481, 2013)], 500)
             time.sleep(5)
