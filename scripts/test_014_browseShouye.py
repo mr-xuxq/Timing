@@ -21,4 +21,4 @@ class Test_browseShowye():
             self.page.shouye().swipeUp()
             i += 1
         #断言
-        assert self.page.shouye().waitAndfind(Shouye.shouyeBtn) == True
+        assert self.page.shouye().waitAndfind() == True

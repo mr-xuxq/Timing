@@ -1,0 +1,141 @@
+{
+  "uid" : "60b3e038818237ea",
+  "name" : "test_interaction",
+  "fullName" : "test_021_channelCheck.Test_channelCheck#test_interaction",
+  "historyId" : "7756e9d1712a198e75d266281d84377e",
+  "time" : {
+    "start" : 1586158964934,
+    "stop" : 1586158984541,
+    "duration" : 19607
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "进入消息页面",
+      "time" : {
+        "start" : 1586158964934,
+        "stop" : 1586158981468,
+        "duration" : 16534
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "滑动寻找互动通知",
+      "time" : {
+        "start" : 1586158981468,
+        "stop" : 1586158984268,
+        "duration" : 2800
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "校验结果",
+      "time" : {
+        "start" : 1586158984268,
+        "stop" : 1586158984541,
+        "duration" : 273
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "消息页channel展示"
+  }, {
+    "name" : "story",
+    "value" : "互动通知channel"
+  }, {
+    "name" : "suite",
+    "value" : "test_021_channelCheck"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_channelCheck"
+  }, {
+    "name" : "host",
+    "value" : "PV-X00232293"
+  }, {
+    "name" : "thread",
+    "value" : "6744-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_021_channelCheck"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "e80f5db8d2ab389d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1586146742274,
+        "stop" : 1586146749126,
+        "duration" : 6852
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "be2120c51f50be0",
+        "reportUrl" : "http://192.168.88.58:8080/job/Timing/13/allure/#testresult/be2120c51f50be0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1586146742274,
+          "stop" : 1586146749126,
+          "duration" : 6852
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "60b3e038818237ea.json",
+  "parameterValues" : [ ]
+}

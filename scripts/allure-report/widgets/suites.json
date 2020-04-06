@@ -1,26 +1,26 @@
 {
   "total" : 22,
   "items" : [ {
+    "uid" : "398d65f7f625df45db5997ff0001cf74",
+    "name" : "test_011_browsesVlog",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
     "uid" : "f4b53d28ddd4786979c527a436b433fd",
     "name" : "test_022_friendChat",
     "statistic" : {
       "failed" : 0,
-      "broken" : 3,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 3
-    }
-  }, {
-    "uid" : "3183b646a4be569afb5752d7e055d1d1",
-    "name" : "test_002_loginByCaptcha",
-    "statistic" : {
-      "failed" : 0,
       "broken" : 2,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
-      "total" : 2
+      "total" : 3
     }
   }, {
     "uid" : "e18a1f755cd338a08eb7b82df7eedcdc",
@@ -45,37 +45,15 @@
       "total" : 2
     }
   }, {
-    "uid" : "8f36eabb2c1fbe1e2d4e1ee51546c4c3",
-    "name" : "test_003_loginByPwd",
+    "uid" : "3183b646a4be569afb5752d7e055d1d1",
+    "name" : "test_002_loginByCaptcha",
     "statistic" : {
       "failed" : 0,
       "broken" : 1,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
-      "total" : 1
-    }
-  }, {
-    "uid" : "956faec2d7a4363664a9d5c899779ff4",
-    "name" : "test_013_videoRoom",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 1,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    }
-  }, {
-    "uid" : "bf38b6b779d25246e041f9c5c485b1c3",
-    "name" : "test_014_browseShouye",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 1,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
+      "total" : 2
     }
   }, {
     "uid" : "63879c0cabda4466ae4a8c0ec496e27c",
@@ -102,6 +80,28 @@
   }, {
     "uid" : "2d4b4d2af528b9f3eec6c3e979971434",
     "name" : "test_054_sleepRecord",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "956faec2d7a4363664a9d5c899779ff4",
+    "name" : "test_013_videoRoom",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "bf38b6b779d25246e041f9c5c485b1c3",
+    "name" : "test_014_browseShouye",
     "statistic" : {
       "failed" : 0,
       "broken" : 1,
