@@ -34,6 +34,36 @@ class More(BaseAction):
     def click_setting(self):
         self.click(self.settingBtn)
 
+    def click_person(self):
+        self.click(self.personBtn)
+
+    def click_timing(self):
+        self.click(self.timingBtn)
+
+    def click_video(self):
+        self.click(self.videoBtn)
+
+    def click_sleep(self):
+        self.click(self.sleepBtn)
+
+    def click_tomato(self):
+        self.click(self.tomatoBtn)
+
+    def click_farm(self):
+        self.click(self.farmBtn)
+
+    def click_plan(self):
+        self.click(self.planBtn)
+
+    def click_groupBtn(self):
+        self.click(self.groupBtn)
+
+    def click_plibrary(self):
+        self.click(self.libraryBtn)
+
+    def click_shop(self):
+        self.click(self.shopBtn)
+
     #上滑更多页面至计时区域
     def swipeByMy(self,x1, y1, x2, y2, t):
         self.swipeOperat(x1, y1, x2, y2, t)

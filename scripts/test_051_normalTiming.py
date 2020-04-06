@@ -1,6 +1,6 @@
 import time, allure
-from Pages.timing_page import Timing
-from Pages.more_page import More
+from Pages.timed_learning.timing_page import Timing
+from Pages.personal_information.more_page import More
 from Pages.page import Page
 from base.base_driver import Base
 #如果你想重复执行测试模块(.py文件)，直接在模块上方（导入pytest包下面）加入下面一行代码即可：pytestmark变量名是固定的~
@@ -16,19 +16,19 @@ class Test_normalTiming():
     def teardown(self):
         self.driver.quit()
 
-    @allure.story('学习计时操作')
+    @allure.story('学习计时达1min操作')
     def test_normalTiming(self):
         with allure.step('进入更多页面'):
-            self.page.more().click_more(More.moreBtn)
+            self.page.more().click_more()
             time.sleep(5)
         with allure.step('滑动更多页面至底部'):
             self.page.more().swipeByMy(0.5, 0.9, 0.5, 0.4, 200)
         with allure.step('点击学习计时按钮，设定内容后开始'):
-            self.page.more().click_more(More.timingBtn)
+            self.page.more().click_timing()
             self.page.timing().input_ContentBox(Timing.studyContentBox, 'This is Timing')
             self.page.timing().click_timing(Timing.studySettingBtn)
             time.sleep(5)
-            #滑动选择1min
+            #滑动选择1min,概率性的选不中
             self.page.more().swipeByMy(0.6, 0.8, 0.6, 0.75, 150)
             self.page.timing().click_timing(Timing.studySettingsuccessBtn)
             self.page.timing().click_timing(Timing.startTimingBtn)
@@ -43,3 +43,27 @@ class Test_normalTiming():
                 self.page.timing().click_timing(Timing.timingEndDialog)
             else:
                 assert self.page.timing().waitAndfind(Timing.timingEndSuccess,1) == True
+
+    @allure.story('学习计不足1min操作')
+    def test_normalTiming_exit(self):
+        with allure.step('进入更多页面'):
+            self.page.more().click_more()
+            time.sleep(5)
+        with allure.step('滑动更多页面至底部'):
+            self.page.more().swipeByMy(0.5, 0.9, 0.5, 0.4, 200)
+        with allure.step('点击学习计时按钮，设定内容后开始'):
+            self.page.more().click_timing()
+            self.page.timing().input_ContentBox(Timing.studyContentBox, 'This is Timing')
+            self.page.timing().click_timing(Timing.studySettingBtn)
+            time.sleep(5)
+            #滑动选择1min
+            self.page.more().swipeByMy(0.6, 0.8, 0.6, 0.75, 150)
+            self.page.timing().click_timing(Timing.studySettingsuccessBtn)
+            self.page.timing().click_timing(Timing.startTimingBtn)
+            time.sleep(5)
+        with allure.step('计时不足1min后关闭计时'):
+            self.page.timing().click_timing(Timing.timingEnd)
+            self.page.timing().click_timing(Timing.timingEndConfirmRight)
+        with allure.step('校验结果：计时不足1min后关闭计时的判断该段计时是否没有记录'):
+            #点击【结束】后，是否快速返回至更多页面
+            assert self.page.more().waitAndfind(More.moreBtn,1) == True

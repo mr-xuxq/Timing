@@ -40,3 +40,11 @@ class Shouye(BaseAction):
     def click_videoRoom(self):
         self.click(self.videoRoomBtn)
 
+    def swipeUp(self):
+        self.swipeOperat(0.5,0.8,0.5,0.2,500)
+
+    def waitAndFind(self):
+        if  self.waitLoading(self.shouyeBtn,t=5) == True:
+            return True
+        else:
+            return False

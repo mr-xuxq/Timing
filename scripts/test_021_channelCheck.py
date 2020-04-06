@@ -1,7 +1,7 @@
 import allure
 from Pages.page import Page
 from base.base_driver import Base
-from Pages.message_page import Message
+from Pages.message_interaction.message_page import Message
 
 #用feature说明产品需求
 @allure.feature('消息页channel展示')

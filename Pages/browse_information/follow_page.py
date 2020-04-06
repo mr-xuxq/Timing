@@ -14,7 +14,6 @@ class Follow(BaseAction):
     def click_deleteDiaryBtn(self):
         self.click(self.taget)
 
-
     def waitAndFind(self):
         if  self.waitLoading(self.taget,t=5) == True:
             return True

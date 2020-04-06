@@ -19,7 +19,7 @@ class Friend_chat(BaseAction):
     # 契约群-【群聊】
     groupChat = By.XPATH, '//*[@text="群聊"]'
     # 发送消息失败
-    failSend = By.ID, 'com.huiian.timing: id / message_item_alert'
+    failSend = By.ID, 'com.huiian.timing:id/message_item_alert'
     # 聊天页面输入框
     messageBox = By.ID, 'com.huiian.timing:id/editTextMessage'
     # 发送
