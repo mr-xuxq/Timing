@@ -2,11 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e293f98-54c3-4594-8bb1-635543f6b429" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Pages/browse_information/follow_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pages/post_content/post_diary_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pages/post_content/selectPhoto_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pages/post_content/select_cover_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pages/post_content/topic_page.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/test_001_registerAccount.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/test_001_registerAccount.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/test_002_loginByCaptcha.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/test_002_loginByCaptcha.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/test_011_browsesVlog.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/test_011_browsesVlog.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/test_014_browseShouye.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/test_014_browseShouye.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/page.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/post_content/post_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/post_content/post_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/test_031_postDiary.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/test_031_postDiary.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,6 +24,7 @@
     <SUITE FILE_PATH="coverage/mr_xuxq$insertFile.coverage" NAME="insertFile Coverage Results" MODIFIED="1579274294902" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/小奇的共享文件/Timing未注册账号管理" />
     <SUITE FILE_PATH="coverage/Timing$pytest_for_test_browsesVlog_Test_loginByCaptcha_test_browsesVlog.coverage" NAME="pytest for test_browsesVlog.Test_loginByCaptcha.test_browsesVlog Coverage Results" MODIFIED="1585714514015" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
     <SUITE FILE_PATH="coverage/xuxq$pytest_for_test_shouye_Test_loginByCaptcha_test_scanf.coverage" NAME="pytest for test_shouye.Test_loginByCaptcha.test_scanf Coverage Results" MODIFIED="1579682575774" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
+    <SUITE FILE_PATH="coverage/Timing$pytest_for_test_031_postDiary_Test_postDiary_test_postDiary.coverage" NAME="pytest for test_031_postDiary.Test_postDiary.test_postDiary Coverage Results" MODIFIED="1586145122293" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
     <SUITE FILE_PATH="coverage/Timing$pytest_for_test_browsesVlog_Test_browsesVlog_test_loginByPwd.coverage" NAME="pytest for test_browsesVlog.Test_browsesVlog.test_loginByPwd Coverage Results" MODIFIED="1585714944097" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
     <SUITE FILE_PATH="coverage/Timing_UI_automatic_test_V9_8_1$pytest_for_test_loginByPwd_Test_loginByPwd_test_loginByPwd.coverage" NAME="pytest for test_loginByPwd.Test_loginByPwd.test_loginByPwd Coverage Results" MODIFIED="1578400195467" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
     <SUITE FILE_PATH="coverage/Timing_UI_automatic_test_V9_8_1$pytest_in_test_loginByCaptcha_py.coverage" NAME="pytest in test_loginByCaptcha.py Coverage Results" MODIFIED="1578469494036" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
@@ -70,35 +75,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Pages/page.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scripts/test_013_videoRoom.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1083">
-              <caret line="59" column="37" selection-start-line="59" selection-start-column="37" selection-end-line="59" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/scripts/test_001_registerAccount.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scripts/test_011_browsesVlog.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="551">
-              <caret line="31" selection-start-line="31" selection-end-line="31" />
+            <state relative-caret-position="38">
+              <caret line="2" column="55" selection-start-line="2" selection-start-column="55" selection-end-line="2" selection-end-column="55" />
             </state>
           </provider>
         </entry>
@@ -106,29 +84,50 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scripts/test_002_loginByCaptcha.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="319">
+              <caret line="52" column="46" lean-forward="true" selection-start-line="52" selection-start-column="46" selection-end-line="52" selection-end-column="46" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scripts/test_014_browseShouye.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/scripts/test_031_postDiary.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
+            <state relative-caret-position="432">
+              <caret line="38" column="35" lean-forward="true" selection-start-line="38" selection-start-column="35" selection-end-line="38" selection-end-column="35" />
               <folding>
-                <element signature="e#0#25#0" expanded="true" />
+                <element signature="e#14#32#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Pages/browse_information/shouye_page.py">
+        <entry file="file://$PROJECT_DIR$/scripts/test_001_registerAccount.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+            <state relative-caret-position="390">
+              <caret line="77" column="36" lean-forward="true" selection-start-line="77" selection-start-column="36" selection-end-line="77" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scripts/test_055_getupRecord.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="12" column="39" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Pages/browse_information/follow_page.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="399">
+              <caret line="21" column="24" lean-forward="true" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
               <folding>
                 <element signature="e#25#68#0" expanded="true" />
               </folding>
@@ -137,22 +136,43 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scripts/test_021_channelCheck.py">
+        <entry file="file://$PROJECT_DIR$/Pages/register_login/login_phone_captcha_page.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="950">
-              <caret line="53" selection-start-line="53" selection-end-line="53" />
+            <state relative-caret-position="418">
+              <caret line="23" column="23" lean-forward="true" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Pages/register_login/login_phone_pwd_page.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="437">
+              <caret line="23" column="19" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
               <folding>
-                <element signature="e#0#13#0" expanded="true" />
+                <element signature="e#24#67#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Pages/post_content/publish_page.py">
+        <entry file="file://$PROJECT_DIR$/Pages/browse_information/shouye_page.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="3" column="18" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="18" />
+            <state relative-caret-position="185">
+              <caret line="12" column="61" selection-start-line="12" selection-start-column="61" selection-end-line="12" selection-end-column="61" />
+              <folding>
+                <element signature="e#25#68#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Pages/post_content/post_page.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="731">
+              <caret line="52" selection-start-line="52" selection-end-line="52" />
               <folding>
                 <element signature="e#19#62#0" expanded="true" />
               </folding>
@@ -176,14 +196,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/scripts/test_006_videoRoom.py" />
-        <option value="$PROJECT_DIR$/scripts/test_005_videoRoomList.py" />
-        <option value="$PROJECT_DIR$/Pages/timed_learning/free_timing.py" />
-        <option value="$PROJECT_DIR$/scripts/test_012_videoRoom.py" />
-        <option value="$PROJECT_DIR$/scripts/test_013_videoRoomList.py" />
-        <option value="$PROJECT_DIR$/scripts/test_012_videoRoomList.py" />
-        <option value="$PROJECT_DIR$/test_054_sleepRecord.py" />
-        <option value="$PROJECT_DIR$/scripts/test_052_tomatoTiming.py" />
         <option value="$PROJECT_DIR$/scripts/test_051_normalTiming.py" />
         <option value="$PROJECT_DIR$/scripts/test_021_channelCheck.py" />
         <option value="$PROJECT_DIR$/scripts/test_022_friendChat.py" />
@@ -200,15 +212,12 @@
         <option value="$PROJECT_DIR$/Pages/personal_information/chat_chooseVideo_page.py" />
         <option value="$PROJECT_DIR$/Pages/message_interaction/message_page.py" />
         <option value="$PROJECT_DIR$/Pages/personal_information/personInfo_page.py" />
-        <option value="$PROJECT_DIR$/Pages/browse_information/shouye_page.py" />
         <option value="$PROJECT_DIR$/Pages/browse_information/sVlog_list_page.py" />
         <option value="$PROJECT_DIR$/Pages/browse_information/video_hall_page.py" />
         <option value="$PROJECT_DIR$/Pages/browse_information/video_room_list_page.py" />
         <option value="$PROJECT_DIR$/Pages/browse_information/video_room_page.py" />
-        <option value="$PROJECT_DIR$/Pages/personal_information/more_page.py" />
         <option value="$PROJECT_DIR$/Pages/register_login/guide_page.py" />
         <option value="$PROJECT_DIR$/Pages/register_login/login_phone_page.py" />
-        <option value="$PROJECT_DIR$/Pages/register_login/login_phone_captcha_page.py" />
         <option value="$PROJECT_DIR$/Pages/register_login/register_fillInformation_page.py" />
         <option value="$PROJECT_DIR$/Pages/timed_learning/timing_page.py" />
         <option value="$PROJECT_DIR$/Pages/message_interaction/group_page.py" />
@@ -222,17 +231,28 @@
         <option value="$PROJECT_DIR$/Pages/personal_information/setting_page.py" />
         <option value="$PROJECT_DIR$/scripts/test_013_videoRoom.py" />
         <option value="$PROJECT_DIR$/Pages/post_content/publish_page.py" />
-        <option value="$PROJECT_DIR$/Pages/page.py" />
-        <option value="$PROJECT_DIR$/scripts/test_011_browsesVlog.py" />
         <option value="$PROJECT_DIR$/scripts/test_014_browseShouye.py" />
         <option value="$PROJECT_DIR$/scripts/test_001_registerAccount.py" />
         <option value="$PROJECT_DIR$/scripts/test_002_loginByCaptcha.py" />
+        <option value="$PROJECT_DIR$/Pages/personal_information/more_page.py" />
+        <option value="$PROJECT_DIR$/Pages/browse_information/shouye_page.py" />
+        <option value="$PROJECT_DIR$/scripts/test_011_browsesVlog.py" />
+        <option value="$PROJECT_DIR$/scripts/test_032_postVideo.py" />
+        <option value="$PROJECT_DIR$/Pages/register_login/login_phone_captcha_page.py" />
+        <option value="$PROJECT_DIR$/Pages/post_content/selectPhoto_page.py" />
+        <option value="$PROJECT_DIR$/Pages/post_content/post_diary_page.py" />
+        <option value="$PROJECT_DIR$/Pages/post_content/topic_page.py" />
+        <option value="$PROJECT_DIR$/Pages/post_content/select_cover_page.py" />
+        <option value="$PROJECT_DIR$/Pages/page.py" />
+        <option value="$PROJECT_DIR$/Pages/post_content/post_page.py" />
+        <option value="$PROJECT_DIR$/scripts/test_031_postDiary.py" />
+        <option value="$PROJECT_DIR$/Pages/browse_information/follow_page.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+    <option name="x" value="1815" />
+    <option name="y" value="39" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
@@ -244,7 +264,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -266,30 +285,38 @@
             <path>
               <item name="Timing" type="b2602c69:ProjectViewProjectNode" />
               <item name="Timing" type="462c0819:PsiDirectoryNode" />
+              <item name="Pages" type="462c0819:PsiDirectoryNode" />
+              <item name="register_login" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Timing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Timing" type="462c0819:PsiDirectoryNode" />
               <item name="scripts" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="D:/荣幸如/rxr (3)" />
+    <property name="last_opened_file_path" value="C:/Temp/Timing/complete/Timing9.0.py" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\jenkins\workspace\Timing\Pages\post_content" />
+      <recent name="D:\jenkins\workspace\Timing\scripts" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\jenkins\workspace\Timing\Pages\message_interaction" />
       <recent name="D:\jenkins\workspace\Timing\Pages\browse_information" />
       <recent name="D:\jenkins\workspace\xuxq\Pages\register_login" />
       <recent name="D:\jenkins\workspace\xuxq\Pages" />
       <recent name="D:\jenkins\workspace\xuxq\Pages\more" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\jenkins\workspace\Timing\scripts" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -304,7 +331,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.pytest for test_011_browsesVlog.Test_browsesVlog.test_browsesVlog">
+  <component name="RunManager" selected="Python tests.pytest for test_031_postDiary.Test_postDiary.test_postDiary">
     <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python">
       <module name="testDemo_test" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -341,22 +368,6 @@
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;$PROJECT_DIR$/test.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest for scripts.test_011_browsesVlog.Test_browsesVlog" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="testDemo_test" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="C:\Anaconda3\envs\learn\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scripts" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;scripts.test_011_browsesVlog.Test_browsesVlog&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <configuration name="pytest for scripts.test_012_videoRoomList.Test_videoRoom" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
@@ -423,6 +434,22 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="pytest for test_031_postDiary.Test_postDiary.test_postDiary" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="testDemo_test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="C:\Anaconda3\envs\learn\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scripts" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_031_postDiary.Test_postDiary.test_postDiary&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="pytest in D:/jenkins/workspace/Timing/scripts/test_LoginByPwd2.py" type="tests" factoryName="py.test" nameIsGenerated="true">
       <module name="testDemo_test" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -459,19 +486,19 @@
       <item itemvalue="Python.main (1)" />
       <item itemvalue="Python tests.pytest in D:/jenkins/workspace/Timing/scripts/test_LoginByPwd2.py" />
       <item itemvalue="Python tests.pytest in D:/jenkins/workspace/Timing/test.py" />
-      <item itemvalue="Python tests.pytest for scripts.test_011_browsesVlog.Test_browsesVlog" />
       <item itemvalue="Python tests.pytest for scripts.test_012_videoRoomList.Test_videoRoom" />
       <item itemvalue="Python tests.pytest for scripts.test_013_videoRoom.Test_videoRoom" />
       <item itemvalue="Python tests.pytest for scripts.test_013_videoRoom.Test_videoRoom.test_videoRoom_visitor" />
       <item itemvalue="Python tests.pytest for test_011_browsesVlog.Test_browsesVlog.test_browsesVlog" />
+      <item itemvalue="Python tests.pytest for test_031_postDiary.Test_postDiary.test_postDiary" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest for test_031_postDiary.Test_postDiary.test_postDiary" />
         <item itemvalue="Python tests.pytest for test_011_browsesVlog.Test_browsesVlog.test_browsesVlog" />
         <item itemvalue="Python tests.pytest for scripts.test_013_videoRoom.Test_videoRoom.test_videoRoom_visitor" />
         <item itemvalue="Python tests.pytest for scripts.test_013_videoRoom.Test_videoRoom" />
         <item itemvalue="Python tests.pytest for scripts.test_012_videoRoomList.Test_videoRoom" />
-        <item itemvalue="Python tests.pytest for scripts.test_011_browsesVlog.Test_browsesVlog" />
       </list>
     </recent_temporary>
   </component>
@@ -517,28 +544,14 @@
       <workItem from="1585900392854" duration="6258000" />
       <workItem from="1585907264275" duration="1843000" />
       <workItem from="1585912259956" duration="29000" />
+      <workItem from="1585984970213" duration="12000" />
+      <workItem from="1585991615906" duration="607000" />
+      <workItem from="1586002709423" duration="1094000" />
+      <workItem from="1586136672460" duration="6869000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_for_test_browsesVlog_Test_browsesVlog - 2020.04.01 at 12h 19m 56s.xml">
-      <configuration name="pytest for test_browsesVlog.Test_browsesVlog" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_browsesVlog_Test_browsesVlog_test_browsesVlog - 2020.04.01 at 12h 21m 03s.xml">
-      <configuration name="pytest for test_browsesVlog.Test_browsesVlog.test_browsesVlog" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_browsesVlog_Test_browsesVlog_test_loginByPwd - 2020.04.01 at 12h 22m 50s.xml">
-      <configuration name="pytest for test_browsesVlog.Test_browsesVlog.test_loginByPwd" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_005_videoRoom_Test_videoRoom - 2020.04.01 at 19h 08m 20s.xml">
-      <configuration name="pytest for test_005_videoRoom.Test_videoRoom" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_005_videoRoom_Test_videoRoom - 2020.04.01 at 19h 28m 48s.xml">
-      <configuration name="pytest for test_005_videoRoom.Test_videoRoom" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_006_videoRoom_Test_videoRoom_test_videoRoom - 2020.04.03 at 11h 30m 43s.xml">
-      <configuration name="pytest for test_006_videoRoom.Test_videoRoom.test_videoRoom" configurationId="tests" />
-    </history-entry>
     <history-entry file="pytest_for_test_006_videoRoom_Test_videoRoom_test_videoRoom - 2020.04.03 at 11h 32m 14s.xml">
       <configuration name="pytest for test_006_videoRoom.Test_videoRoom.test_videoRoom" configurationId="tests" />
     </history-entry>
@@ -551,9 +564,27 @@
     <history-entry file="pytest_for_test_011_browsesVlog_Test_browsesVlog_test_browsesVlog - 2020.04.03 at 19h 02m 59s.xml">
       <configuration name="pytest for test_011_browsesVlog.Test_browsesVlog.test_browsesVlog" configurationId="tests" />
     </history-entry>
+    <history-entry file="pytest_for_test_031_postDiary_Test_postDiary_test_postDiary - 2020.04.06 at 11h 38m 06s.xml">
+      <configuration name="pytest for test_031_postDiary.Test_postDiary.test_postDiary" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_031_postDiary_Test_postDiary_test_postDiary - 2020.04.06 at 11h 40m 21s.xml">
+      <configuration name="pytest for test_031_postDiary.Test_postDiary.test_postDiary" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_031_postDiary_Test_postDiary_test_postDiary - 2020.04.06 at 11h 42m 23s.xml">
+      <configuration name="pytest for test_031_postDiary.Test_postDiary.test_postDiary" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_031_postDiary_Test_postDiary_test_postDiary - 2020.04.06 at 11h 45m 25s.xml">
+      <configuration name="pytest for test_031_postDiary.Test_postDiary.test_postDiary" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_031_postDiary_Test_postDiary_test_postDiary - 2020.04.06 at 11h 47m 33s.xml">
+      <configuration name="pytest for test_031_postDiary.Test_postDiary.test_postDiary" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_031_postDiary_Test_postDiary_test_postDiary - 2020.04.06 at 11h 53m 02s.xml">
+      <configuration name="pytest for test_031_postDiary.Test_postDiary.test_postDiary" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="137482000" />
+    <option name="totallyTimeSpent" value="146064000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -565,10 +596,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24147122" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2521322" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -595,65 +626,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://D:/python/Lib/site-packages/pluggy/callers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="186" selection-start-line="186" selection-end-line="186" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://D:/python/Lib/site-packages/_pytest/python.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="165" selection-start-line="165" selection-end-line="165" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pages/timed_learning/free_timing.py" />
-    <entry file="file://$PROJECT_DIR$/test_054_sleepRecord.py" />
-    <entry file="file://$PROJECT_DIR$/scripts/test_022_friendChat.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="37" lean-forward="true" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/test_041_changePersonalInformation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="20" lean-forward="true" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/test_051_normalTiming.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="26" lean-forward="true" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/test_052_tomatoTiming.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="14" lean-forward="true" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scripts/test_053_videoRecordTiming.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="475">
@@ -668,16 +640,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
           <caret line="18" column="29" lean-forward="true" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/test_055_getupRecord.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="39" lean-forward="true" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
@@ -797,13 +759,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Pages/register_login/login_phone_captcha_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Pages/register_login/login_phone_page.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
@@ -814,40 +769,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Pages/register_login/login_phone_pwd_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <element signature="e#24#67#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pages/register_login/register_add_tags_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <element signature="e#24#67#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Pages/register_login/register_fillInformation_page.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
           <caret line="9" column="12" lean-forward="true" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pages/register_login/login_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="33" lean-forward="true" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
-          <folding>
-            <element signature="e#28#71#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -878,16 +803,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Pages/register_login/selectPhoto_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
-          <folding>
-            <element signature="e#24#67#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Pages/timed_learning/timing_page.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
@@ -902,16 +817,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
           <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pages/personal_information/more_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="26" column="45" lean-forward="true" selection-start-line="26" selection-start-column="45" selection-end-line="26" selection-end-column="45" />
-          <folding>
-            <element signature="e#18#61#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -939,27 +844,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Pages/page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/test_013_videoRoom.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1083">
-          <caret line="59" column="37" selection-start-line="59" selection-start-column="37" selection-end-line="59" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/test_011_browsesVlog.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scripts/test_014_browseShouye.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -980,37 +864,215 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Pages/post_content/publish_page.py">
+    <entry file="file://$PROJECT_DIR$/scripts/test_013_videoRoom.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1083">
+          <caret line="59" column="37" selection-start-line="59" selection-start-column="37" selection-end-line="59" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/test_011_browsesVlog.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
-          <caret line="3" column="18" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="18" />
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/test_022_friendChat.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/test_032_postVideo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="25" column="36" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
+          <folding>
+            <element signature="e#14#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pages/personal_information/more_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="14" column="44" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
+          <folding>
+            <element signature="e#18#61#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pages/register_login/login_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="33" lean-forward="true" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+          <folding>
+            <element signature="e#28#71#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pages/register_login/register_add_tags_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="e#24#67#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pages/register_login/selectPhoto_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="34" lean-forward="true" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+          <folding>
+            <element signature="e#24#67#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Temp/Timing/complete/Timing9.0.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="712">
+          <caret line="137" selection-start-line="137" selection-end-line="138" />
+          <folding>
+            <element signature="e#0#60#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pages/post_content/selectPhoto_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="35" lean-forward="true" selection-end-line="26" selection-end-column="40" />
+          <folding>
+            <element signature="e#24#67#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pages/post_content/select_cover_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#26#69#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pages/post_content/topic_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="34" lean-forward="true" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
+          <folding>
+            <element signature="e#26#69#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pages/post_content/post_diary_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="693">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
           <folding>
             <element signature="e#19#62#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Pages/post_content/post_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="52" selection-start-line="52" selection-end-line="52" />
+          <folding>
+            <element signature="e#19#62#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pages/register_login/login_phone_pwd_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" column="19" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
+          <folding>
+            <element signature="e#24#67#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Pages/browse_information/shouye_page.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+        <state relative-caret-position="185">
+          <caret line="12" column="61" selection-start-line="12" selection-start-column="61" selection-end-line="12" selection-end-column="61" />
           <folding>
             <element signature="e#25#68#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/test_055_getupRecord.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="39" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/scripts/test_002_loginByCaptcha.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="319">
+          <caret line="52" column="46" lean-forward="true" selection-start-line="52" selection-start-column="46" selection-end-line="52" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pages/register_login/login_phone_captcha_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="23" column="23" lean-forward="true" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pages/browse_information/follow_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="24" lean-forward="true" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+          <folding>
+            <element signature="e#25#68#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pages/page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="55" selection-start-line="2" selection-start-column="55" selection-end-line="2" selection-end-column="55" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/scripts/test_001_registerAccount.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="390">
+          <caret line="77" column="36" lean-forward="true" selection-start-line="77" selection-start-column="36" selection-end-line="77" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/test_031_postDiary.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="38" column="35" lean-forward="true" selection-start-line="38" selection-start-column="35" selection-end-line="38" selection-end-column="35" />
+          <folding>
+            <element signature="e#14#32#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
