@@ -22,14 +22,17 @@ class Edit_personal_info(BaseAction):
     #右上角的【保存】按钮
     infoSubmit = By.XPATH,'//*[@text="保存"]'
 
-    def click_personInfo(self,target):
-        self.click(target)
-    #上滑更多页面至计时区域
-    def swipeByMy(self,x1, y1, x2, y2, t):
-        self.swipeOperat(x1, y1, x2, y2, t)
-
-    def waitAndfind(self, target, t):
-        if self.waitLoading(target, t) == True:
-            return True
-        else:
-            return False
+    def click_myimg(self):
+        self.click(self.myimgBtn)
+    def click_name(self):
+        self.click(self.nameBtn)
+    def click_gender(self):
+        self.click(self.genderBtn)
+    def click_birthday(self):
+        self.click(self.birthdayBtn)
+    def click_genderSubmit(self):
+        self.click(self.genderSubmit)
+    def click_infoSubmit(self):
+        self.click(self.infoSubmit)
+    def swipeByGender(self):
+        self.swipeOperat(0.6, 0.8, 0.6, 0.75, 150)

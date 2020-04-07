@@ -28,18 +28,41 @@ class More(BaseAction):
     # 我的已购按钮
     shopBtn = By.XPATH, '//*[@text="我的已购"]'
 
-    def click_more(self,target):
-        self.click(target)
+    def click_more(self):
+        self.click(self.moreBtn)
 
-    #上滑更多页面至计时区域
-    def swipeByMy(self,x1, y1, x2, y2, t):
+    def click_setting(self):
+        self.click(self.settingBtn)
+
+    def click_person(self):
+        self.click(self.personBtn)
+
+    def click_timing(self):
+        self.click(self.timingBtn)
+
+    def click_video(self):
+        self.click(self.videoBtn)
+
+    def click_sleep(self):
+        self.click(self.sleepBtn)
+
+    def click_tomato(self):
+        self.click(self.tomatoBtn)
+
+    def click_farm(self):
+        self.click(self.farmBtn)
+
+    def swipeByMore(self):
+        self.swipeOperat(0.5, 0.9, 0.5, 0.4, t = 200)
+
+    def swipeBy(self,x1, y1, x2, y2, t):
         self.swipeOperat(x1, y1, x2, y2, t)
 
     def input_ContentBox(self,target,content):
         self.input(target,content)
 
-    def waitAndfind(self, target, t):
-        if self.waitLoading(target, t) == True:
+    def waitAndfind(self):
+        if self.waitLoading(self.moreBtn, t=2) == True:
             return True
         else:
             return False

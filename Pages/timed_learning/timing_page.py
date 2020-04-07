@@ -38,7 +38,6 @@ class Timing(BaseAction):
     studySettingsuccessBtn = By.XPATH, '//*[@text="完成"]'
     # 学习计时_开始学习按钮
     startTimingBtn = By.ID, 'com.huiian.timing:id/tv_confirm_common'
-
     # 番茄计时_开始学习按钮
     startTomatoBtn = By.XPATH, '//*[@text="开始学习"]'
     # 视频打卡_确定并开启摄像头按钮
@@ -48,21 +47,68 @@ class Timing(BaseAction):
     # 睡觉时_起床按钮
     sleepingWake = By.ID, 'com.huiian.timing:id/wake_tv'
 
-    # 在规定时间内是否找到元素
-    def waitAndfind(self, target, t):
-        if self.waitLoading(target, t) == True:
+    def swipeByMy(self, x1, y1, x2, y2, t):
+        self.swipeOperat(x1, y1, x2, y2, t)
+
+    def click_timingDialog(self):
+        self.click(self.timingDialog)
+    def click_timingEnd(self):
+        self.click(self.timingEnd)
+    def click_timingEndDialog(self):
+        self.click(self.timingEndDialog)
+    def click_timingEndSuccess(self):
+        self.click(self.timingEndSuccess)
+    def click_videoStartDialog(self):
+        self.click(self.videoStartDialog)
+    def click_videoSuccess(self):
+        self.click(self.videoSuccess)
+    def click_videoStartBtn(self):
+        self.click(self.videoStartBtn)
+    def click_videoEndDialog(self):
+        self.click(self.videoEndDialog)
+
+    def click_studySettingBtn(self):
+        self.click(self.studySettingBtn)
+    def click_studySettingsuccessBtn(self):
+        self.click(self.studySettingsuccessBtn)
+    def click_startTimingBtn(self):
+        self.click(self.startTimingBtn)
+    def click_startTomatoBtn(self):
+        self.click(self.startTomatoBtn)
+    def click_startVideoBtn(self):
+        self.click(self.startVideoBtn)
+    def click_sleepingClose(self):
+        self.click(self.sleepingClose)
+    def click_sleepingWake(self):
+        self.click(self.sleepingWake)
+
+    def input_studyContentBox(self,content):
+        self.input(self.studyContentBox,content)
+    def input_tomatoContentBox(self,content):
+        self.input(self.tomatoContentBox,content)
+    def input_videoContentBox(self, content):
+        self.input(self.videoContentBox, content)
+
+    def waitAndfind(self):
+        if self.waitLoading(self.timingEndSuccess, t=2) == True:
             return True
         else:
             return False
 
-    def swipeByMy(self, x1, y1, x2, y2, t):
-        self.swipeOperat(x1, y1, x2, y2, t)
+    def check_timingDialog(self):
+        if self.find_element(self.timingDialog,timeout=2, poll=1) == "":
+            return False
+        else:
+            return True
 
-    def click_timing(self, target):
-        self.click(target)
+    def check_timingDialog(self):
+        if self.find_element(self.timingDialog,timeout=2, poll=1) == "":
+            return False
+        else:
+            return True
 
-    def input_ContentBox(self,target,content):
-        self.input(target,content)
-
-
-
+    def check_timingEndDialog(self):
+        if self.find_element(self.timingDialog,timeout=2, poll=1) == "":
+            return False
+        else:
+            return True

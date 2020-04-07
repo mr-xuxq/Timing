@@ -14,18 +14,69 @@ class Message(BaseAction):
     messageFriend = By.ID, 'com.huiian.timing:id/iv_friend'
     # 红点
     messagePoint = By.ID, 'com.huiian.timing:id/friend_msg_new_iv'
-    # 道友标志
-    messageDao = By.ID, 'com.huiian.timing:id/iv_friend'
 
-    def click_message(self,target):
-        self.click(target)
+    def click_messageBtn(self):
+        self.click(self.messageBtn)
+
+    def click_timingService(self):
+        self.click(self.timingService)
+
+    def click_interaction(self):
+        self.click(self.interaction)
+
+    def click_messageFriend(self):
+        self.click(self.messageFriend)
+
+    def click_messagePoint(self):
+        self.click(self.messagePoint)
+
+    def click_interaction(self):
+        self.click(self.interaction)
 
     #在规定时间内是否找到元素
-    def waitAndfind(self,target,t):
-        if self.waitLoading(target,t) == True:
+    def waitAndfind_timingService(self):
+        if self.waitLoading(self.timingService,t = 1) == True:
             return True
         else:
             return False
 
-    def swipeByMy(self,x1, y1, x2, y2, t):
-        self.swipeOperat(x1, y1, x2, y2, t)
+    #在规定时间内是否找到元素
+    def waitAndfind_interaction(self):
+        if self.waitLoading(self.interaction,t = 1) == True:
+            return True
+        else:
+            return False
+
+    #在规定时间内是否找到元素
+    def waitAndfind_messagePoint(self):
+        if self.waitLoading(self.messagePoint,t = 1) == True:
+            return True
+        else:
+            return False
+
+    def swipeByMessage(self):
+        self.swipeOperat(0.5, 0.7, 0.5, 0.3, 1500)
+
+    def check_messageFriend(self):
+        if self.find_element(self.messageFriend, timeout=2, poll=1) == "":
+            return False
+        else:
+            return True
+
+    def check_messagePoint(self):
+        if self.find_element(self.messagePoint, timeout=2, poll=1) == "":
+            return False
+        else:
+            return True
+
+    def check_timingService(self):
+        if self.find_element(self.timingService, timeout=2, poll=1) == "":
+            return False
+        else:
+            return True
+
+    def check_interaction(self):
+        if self.find_element(self.interaction, timeout=2, poll=1) == "":
+            return False
+        else:
+            return True

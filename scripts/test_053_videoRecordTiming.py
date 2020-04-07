@@ -15,10 +15,8 @@ class Test_videoRecordTiming():
 
     def teardown(self):
         self.driver.quit()
-
         # 如果想让一条用例执行两次，在用例上方加上以下代码
         # @pytest.mark.repeat(2)
-
     @allure.story('视频打卡操作')
     def test_videoRecordTiming(self):
         with allure.step('进入更多页面'):
