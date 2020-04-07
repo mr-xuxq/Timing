@@ -4,10 +4,8 @@ from base.base_driver import Base
 
 @allure.feature('修改个人资料功能，前提：非认证账号')
 class Test_changePersonalInformation():
-
     def setup(self):
         self.driver = Base().init_driver()
-        # 设定全局等待
         self.driver.implicitly_wait(50)
         self.page = Page(self.driver)
 

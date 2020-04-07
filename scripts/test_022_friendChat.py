@@ -4,20 +4,13 @@ from base.base_driver import Base
 
 @allure.feature('聊天页功能')
 class Test_friendChat():
-
-    #setup函数是在一个类里面最先被调用的函数，而且每执行完一个函数都要从setUp()调用开始后再执行下一个函数，有几个函数就调用他几次，与位置无关，随便放在那里都是他先被调用。
-    #放一些准备的工作，或者准备一些测试数据。
     def setup(self):
         self.driver = Base().init_driver()
         #设定全局等待
         self.driver.implicitly_wait(50)
         self.page = Page(self.driver)
-
-    #tearDown(）函数是在众多函数执行完后他才被执行，意思就是不管这个类里面有多少函数，他总是最后一个被执行的，与位置无关，最后不管测试函数是否执行成功都执行tearDown()方法；如果setUp()方法失败，则认为这个测试项目失败，不会执行测试函数也不执行tearDown()方法。
-    #当我在测试完的时候我要对测试有一个销毁的过程比如说关闭浏览器，那么我们就写在tearDown当中
     def teardown(self):
         self.driver.quit()
-
     # def test_skip_1(self):
     #     # 当消息页面没有道友时，跳过执行以下测试用例
     #     self.page.message().click_message(Message.messageBtn)
@@ -27,7 +20,6 @@ class Test_friendChat():
     #         pytest.skip("test_chatVideo")
     #     else:
     #         # @不执行下面用例时，加上pytest.mark.skip(reason="不想执行的理由")
-
     @allure.story('文字聊天')
     def test_chatWord(self):
         with allure.step('进入消息页面'):

@@ -7,10 +7,8 @@ from base.base_driver import Base
 class Test_channelCheck():
     def setup(self):
         self.driver = Base().init_driver()
-        #设定全局等待
         self.driver.implicitly_wait(30)
         self.page = Page(self.driver)
-
     def teardown(self):
         self.driver.quit()
 

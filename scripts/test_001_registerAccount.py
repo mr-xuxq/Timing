@@ -8,8 +8,6 @@ from sqlalchemy import create_engine
 phone = 10000000830
 nickName = 9527
 # 此处填入服务器连接
-engine = create_engine('mysql+pymysql://timing_read_only:db_only_hsyt21@rr-bp12u85w22spt5976do.mysql.rds.aliyuncs.com:3306/timing?charset=utf8')  # 正式服
-
 
 
 class Test_registerAccount():
@@ -27,7 +25,7 @@ class Test_registerAccount():
     #判断元素是否在当前页面内
     sourse = []
     # @pytest.mark.parametrize("args", analyze_file("address_data.yaml", "test_address"))                               # 装饰器
-    #手机号密码登录测试用例
+    #手机号注册测试用例
     def test_registerAccount(self):
         # with allure.step('检测用户授权情况'):
         #     result = self.page.login().check_phone()
