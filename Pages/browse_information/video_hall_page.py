@@ -9,11 +9,8 @@ class Video_hall(BaseAction):
     quicklyJoinBtn = By.ID, 'com.huiian.timing:id/iv_quickly_enter'
     # 【房间进入按钮】
     joinBtn = By.ID, 'com.huiian.timing:id/btn_enter_room'
-
-    #点击知道了按钮
-    def coordinateClick(self):
-        L = self.getSize()
-        self.driver.tap(L[0]*0.5,L[1]*0.92)
+    # 【知道了按钮】
+    agreeBtn = By.XPATH, '//*[@text="知道了"]'
 
     def click_quicklyJoin(self):
         self.click(self.quicklyJoinBtn)
@@ -24,6 +21,9 @@ class Video_hall(BaseAction):
     def swipeUp(self):
         self.swipeOperat(0.5,0.8,0.5,0.2,500)
 
+    def coordinateClick(self):
+        L = self.getSize()
+        self.driver.tap([(L[0]* 0.5, L[1]* 0.92)],1)
 
     def waitAndFind(self):
         if  self.waitLoading(self.SPlabel,t=5) == True:
