@@ -19,49 +19,24 @@ class Test_videoRoom():
     #判断元素是否在当前页面内
     sourse = []
     # @pytest.mark.parametrize("args", analyze_file("address_data.yaml", "test_address"))                               # 装饰器
-    # def test_videoRoom_onMic(self):
-    #     with allure.step('点击自习室按钮'):
-    #         self.page.shouye().click_videoRoom()
-    #         time.sleep(3)
-    #     with allure.step('检测是否存在自习室，并点击'):
-    #         self.page.video_room_list().check_join()
-    #         time.sleep(2)
-    #     with allure.step('点击快速进入按钮'):
-    #         self.page.video_hall().click_quicklyJoin()
-    #         time.sleep(5)
-    #     with allure.step('点击关闭按钮'):
-    #         self.page.video_room().click_close()
-    #     with allure.step('点击关闭视频'):
-    #         self.page.video_room().click_leaveRoom()
-    #     with allure.step('确定关闭视频'):
-    #         self.page.video_room().click_leaveYes()
-    #         time.sleep(3)
-    #     with allure.step('断言:成功退出自习室'):
-    #         assert self.page.video_hall().waitAndFind() == True
-
     def test_videoRoom_visitor(self):
         with allure.step('点击自习室按钮'):
             self.page.shouye().click_videoRoom()
             time.sleep(3)
         with allure.step('检测是否存在自习室，并点击'):
-            self.page.video_room_list().check_join()
-            time.sleep(2)
-        with allure.step('点击快速进入按钮'):
-            self.page.video_hall().click_quicklyJoin()
-            time.sleep(5)
-        with allure.step('点击退出按钮'):
-            self.page.video_room().click_exit()
-        with allure.step('断言:成功退出自习室'):
-            assert self.page.video_hall().waitAndFind() == True
-
-    # def test_logout(self):
-    #     with allure.step('点击更多按钮'):
-    #         self.page.more().click_more()
-    #     with allure.step('点击设置按钮'):
-    #         self.page.more().click_setting()
-    #     with allure.step('点击退出登录按钮'):
-    #         self.page.setting().click_logout()
-    #     with allure.step('确定退出'):
-    #         self.page.setting().click_confirmLogout()
-    #     with allure.step('断言:退出登录成功'):
-    #         assert self.page.setting().findLogin() == True
+            result = self.page.video_room_list().check_join()
+            if result == "":
+                with allure.step('当前没有开启的自习室，用例结束'):
+                    pass
+            else:
+                self.page.video_room_list().click_joinBtn()
+                time.sleep(2)
+                with allure.step('点击快速进入按钮'):
+                    self.page.video_hall().click_quicklyJoin()
+                    time.sleep(2)
+                    self.page.video_hall().coordinateClick()
+                    time.sleep(5)
+                with allure.step('点击退出按钮'):
+                    self.page.video_room().click_exit()
+                with allure.step('断言:成功退出自习室'):
+                    assert self.page.video_hall().waitAndFind() == True
