@@ -1,4 +1,4 @@
-#——————聊天消息页——————
+#——————消息页——————
 from selenium.webdriver.common.by import By
 from base.base_action import BaseAction
 
@@ -14,6 +14,8 @@ class Message(BaseAction):
     messageFriend = By.ID, 'com.huiian.timing:id/iv_friend'
     # 红点
     messagePoint = By.ID, 'com.huiian.timing:id/friend_msg_new_iv'
+    #群组标志
+    messageTeam = By.ID,'com.huiian.timing:id/team_type_iv'
 
     def click_messageBtn(self):
         self.click(self.messageBtn)
@@ -77,3 +79,10 @@ class Message(BaseAction):
             return False
         else:
             return True
+
+    #检查是否存在群组，存在则点击，存在就滑动
+    def check_messageTeam(self):
+        if self.find_element(self.messageTeam, timeout=2, poll=1) == "":
+            return False
+        else:
+            self.click(self.messageTeam)

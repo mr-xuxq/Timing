@@ -14,46 +14,46 @@ class Test_changePersonalInformation():
     def teardown(self):
         self.driver.quit()
 
-    # @allure.story('选择昵称进行修改')
-    # def test_nameInfo(self):
-    #     with allure.step('进入更多页面'):
-    #         self.page.more().click_more()
-    #         time.sleep(3)
-    #     with allure.step('进入个人主页'):
-    #         self.page.more().click_person()
-    #     with allure.step('进入修改资料页'):
-    #         self.page.person_home().click_personInfo()
-    #     with allure.step('进入修改姓名页，输入新昵称并保存'):
-    #         self.page.edit_personal_info().click_name()
-    #         #输入修改后的姓名
-    #         self.page.name_info().input_nameBox("new name")
-    #         #保存修改后的姓名
-    #         time.sleep(5)
-    #         self.page.name_info().click_nameRight()
-    #     with allure.step('点击保存'):
-    #         self.page.edit_personal_info().click_infoSubmit()
-    #     with allure.step('校验结果：新昵称保存成功——>成功'):
-    #         assert self.page.person_home().waitAndfind_personInfo() == True
+    @allure.story('选择昵称进行修改')
+    def test_nameInfo(self):
+        with allure.step('进入更多页面'):
+            self.page.more().click_more()
+            time.sleep(3)
+        with allure.step('进入个人主页'):
+            self.page.more().click_person()
+        with allure.step('进入修改资料页'):
+            self.page.person_home().click_personInfo()
+        with allure.step('进入修改姓名页，输入新昵称并保存'):
+            self.page.edit_personal_info().click_name()
+            #输入修改后的姓名
+            self.page.name_info().input_nameBox("new name")
+            #保存修改后的姓名
+            time.sleep(5)
+            self.page.name_info().click_nameRight()
+        with allure.step('点击保存'):
+            self.page.edit_personal_info().click_infoSubmit()
+        with allure.step('校验结果：新昵称保存成功——>成功'):
+            assert self.page.person_home().waitAndfind_personInfo() == True
 
-    # @allure.story('修改性别信息')
-    # def test_genderInfo(self):
-    #     with allure.step('进入更多页面'):
-    #         self.page.more().click_more()
-    #         time.sleep(3)
-    #     with allure.step('进入个人主页'):
-    #         self.page.more().click_person()
-    #     with allure.step('进入修改资料页'):
-    #         self.page.person_home().click_personInfo()
-    #     with allure.step('修改性别栏'):
-    #         self.page.edit_personal_info().click_gender()
-    #     with allure.step('滑动选择性别'):
-    #         self.page.edit_personal_info().swipeByGender()
-    #     with allure.step('提交修改后的性别选择'):
-    #         self.page.edit_personal_info().click_genderSubmit()
-    #     with allure.step('点击保存'):
-    #         self.page.edit_personal_info().click_infoSubmit()
-    #     with allure.step('校验结果：性别保存成功——>成功'):
-    #         assert self.page.person_home().waitAndfind_personInfo() == True
+    @allure.story('修改性别信息')
+    def test_genderInfo(self):
+        with allure.step('进入更多页面'):
+            self.page.more().click_more()
+            time.sleep(3)
+        with allure.step('进入个人主页'):
+            self.page.more().click_person()
+        with allure.step('进入修改资料页'):
+            self.page.person_home().click_personInfo()
+        with allure.step('修改性别栏'):
+            self.page.edit_personal_info().click_gender()
+        with allure.step('滑动选择性别'):
+            self.page.edit_personal_info().swipeByGender()
+        with allure.step('提交修改后的性别选择'):
+            self.page.edit_personal_info().click_genderSubmit()
+        with allure.step('点击保存'):
+            self.page.edit_personal_info().click_infoSubmit()
+        with allure.step('校验结果：性别保存成功——>成功'):
+            assert self.page.person_home().waitAndfind_personInfo() == True
 
     @allure.story('修改头像信息')
     def test_imgInfo(self):

@@ -3,12 +3,6 @@ from selenium.webdriver.common.by import By
 from base.base_action import BaseAction
 
 class Friend_chat(BaseAction):
-    # 输入的聊天消息
-    targetWord = By.XPATH, '//*[@text="I am a message!"]'
-    # 发送的图片
-    targetImage = By.ID, 'com.huiian.timing:id/message_item_thumb_thumbnail'
-    # 发送的视频
-    targetVideo = By.CLASS_NAME, 'android.widget.ImageView'
     # 道友右上角【更多】按钮
     friendMore = By.ID, 'com.huiian.timing:id/team_history_fl'
     # 群组右上角【更多】按钮
@@ -25,6 +19,10 @@ class Friend_chat(BaseAction):
     messageSend = By.ID, 'com.huiian.timing:id/buttonSendMessage'
     #选择发布的内容类型
     chooseType = By.ID,'com.huiian.timing:id/buttonMoreFuntionInText'
+    #相册按钮
+    imageBtn = By.XPATH,'//*[@text="相册"]'
+    #视频按钮
+    videoBtn = By.XPATH,'//*[@text="视频"]'
 
     def input_messageBox(self,content):
         self.input(self.messageBox,content)
@@ -39,6 +37,15 @@ class Friend_chat(BaseAction):
         self.click(self.groupActive)
     def click_groupChat(self):
         self.click(self.groupChat)
+
+    def click_messageBox(self):
+        self.click(self.messageBox)
+
+    def click_imageBtn(self):
+        self.click(self.imageBtn)
+
+    def click_videoBtn(self):
+        self.click(self.videoBtn)
 
         # 在规定时间内是否找到元素
     def waitAndfind_failSend(self):
