@@ -5,9 +5,10 @@ from base.base_driver import Base
 #from base.base_analyze import analyze_file
 import pandas as pd
 from sqlalchemy import create_engine
-phone = 10000000790
+phone = 10000000830
 nickName = 9527
 # 此处填入服务器连接
+engine = create_engine('mysql+pymysql://timing_read_only:db_only_hsyt21@rr-bp12u85w22spt5976do.mysql.rds.aliyuncs.com:3306/timing?charset=utf8')  # 正式服
 
 
 
@@ -95,7 +96,7 @@ class Test_registerAccount():
         with allure.step('新手引导-开启Timing之旅'):
             self.page.guide().click_yesBtn()
         with allure.step('断言:注册完成'):
-            assert self.page.register_fillInformation().waitAndFind() == True
+            assert self.page.login().waitAndFind() == True
 
     def test_logout(self):
         with allure.step('点击更多按钮'):
