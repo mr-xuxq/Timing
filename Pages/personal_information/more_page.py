@@ -52,27 +52,20 @@ class More(BaseAction):
     def click_farm(self):
         self.click(self.farmBtn)
 
-    def click_plan(self):
-        self.click(self.planBtn)
+    def swipeByMore(self):
+        self.swipeOperat(0.5, 0.9, 0.5, 0.4, 200)
 
-    def click_groupBtn(self):
-        self.click(self.groupBtn)
+    def swipeByTime(self):
+        self.swipeOperat(0.6, 0.8, 0.6, 0.76, 150)
 
-    def click_plibrary(self):
-        self.click(self.libraryBtn)
+    def waitAndfind_moreBtn(self):
+        if self.waitLoading(self.moreBtn, t=2) == True:
+            return True
+        else:
+            return False
 
-    def click_shop(self):
-        self.click(self.shopBtn)
-
-    #上滑更多页面至计时区域
-    def swipeByMy(self,x1, y1, x2, y2, t):
-        self.swipeOperat(x1, y1, x2, y2, t)
-
-    def input_ContentBox(self,target,content):
-        self.input(target,content)
-
-    def waitAndfind(self, target, t):
-        if self.waitLoading(target, t) == True:
+    def waitAndfind_sleepBtn(self):
+        if self.waitLoading(self.sleepBtn, t=2) == True:
             return True
         else:
             return False

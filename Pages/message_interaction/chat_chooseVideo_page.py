@@ -9,5 +9,8 @@ class Choose_video(BaseAction):
     # 选中视频
     chooseVideo = By.ID, 'com.huiian.timing:id/video_item_img'
 
-    def click_chooseVideo(self,target):
-        self.click(target)
+    def click_chooseVideo(self):
+        self.click(self.chooseVideo)
+
+    def click_nextStep(self):
+        self.click(self.nextStep)
