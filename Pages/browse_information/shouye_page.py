@@ -20,7 +20,7 @@ class Shouye(BaseAction):
         self.swipeOperat(0.5, 0.7, 0.5, 0.3, 1500)
 
     # 在规定时间内是否找到tab首页按钮
-    def waitAndfind(self):
+    def waitAndfind_shouye(self):
         if self.waitLoading(self.shouyeBtn, t = 5) == True:
             return True
         else:

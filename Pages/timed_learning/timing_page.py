@@ -16,6 +16,13 @@ class Timing(BaseAction):
     timingEndConfirmRight = By.XPATH, '//*[@text="确定"]'
     #计时不足1min点击结束出现的弹窗_【取消】按钮
     timingEndConfirmLeft = By.XPATH, '//*[@text="取消"]'
+    # 学习计时_时长设置按钮
+    studySettingBtn = By.ID, 'com.huiian.timing:id/tv_setting_time_common'
+    # 学习计时_时长设置完成
+    studySettingsuccessBtn = By.XPATH, '//*[@text="完成"]'
+    # 学习计时_开始学习按钮
+    startTimingBtn = By.ID, 'com.huiian.timing:id/tv_confirm_common'
+
 
     # 第一次点击视频打开，出现视频录制权限弹窗
     videoStartDialog = By.XPATH, '//*[@text="始终允许"]'
@@ -32,23 +39,16 @@ class Timing(BaseAction):
     tomatoContentBox = By.ID, 'com.huiian.timing:id/et_title'
     # 视频打卡目标输入框
     videoContentBox = By.ID, 'com.huiian.timing:id/et_title'
-    # 学习计时_时长设置按钮
-    studySettingBtn = By.ID, 'com.huiian.timing:id/tv_setting_time_common'
-    # 学习计时_时长设置完成
-    studySettingsuccessBtn = By.XPATH, '//*[@text="完成"]'
-    # 学习计时_开始学习按钮
-    startTimingBtn = By.ID, 'com.huiian.timing:id/tv_confirm_common'
     # 番茄计时_开始学习按钮
     startTomatoBtn = By.XPATH, '//*[@text="开始学习"]'
     # 视频打卡_确定并开启摄像头按钮
     startVideoBtn = By.ID, 'com.huiian.timing:id/tv_confirm'
+
     # 睡觉时_分享弹窗中的关注按钮
     sleepingClose = By.ID, 'com.huiian.timing:id/close_iv'
     # 睡觉时_起床按钮
     sleepingWake = By.ID, 'com.huiian.timing:id/wake_tv'
 
-    def swipeByMy(self, x1, y1, x2, y2, t):
-        self.swipeOperat(x1, y1, x2, y2, t)
 
     def click_timingDialog(self):
         self.click(self.timingDialog)
@@ -66,7 +66,6 @@ class Timing(BaseAction):
         self.click(self.videoStartBtn)
     def click_videoEndDialog(self):
         self.click(self.videoEndDialog)
-
     def click_studySettingBtn(self):
         self.click(self.studySettingBtn)
     def click_studySettingsuccessBtn(self):
@@ -81,6 +80,8 @@ class Timing(BaseAction):
         self.click(self.sleepingClose)
     def click_sleepingWake(self):
         self.click(self.sleepingWake)
+    def click_timingEndConfirmRight(self):
+        self.click(self.timingEndConfirmRight)
 
     def input_studyContentBox(self,content):
         self.input(self.studyContentBox,content)
@@ -89,17 +90,23 @@ class Timing(BaseAction):
     def input_videoContentBox(self, content):
         self.input(self.videoContentBox, content)
 
-    def waitAndfind(self):
+    def waitAndfind_timingEndSuccess(self):
         if self.waitLoading(self.timingEndSuccess, t=2) == True:
             return True
         else:
             return False
 
-    def check_timingDialog(self):
-        if self.find_element(self.timingDialog,timeout=2, poll=1) == "":
-            return False
-        else:
+    def waitAndfind_timingEndConfirmLeft(self):
+        if self.waitLoading(self.timingEndConfirmLeft, t=2) == True:
             return True
+        else:
+            return False
+
+    def waitAndfind_videoSuccess(self):
+        if self.waitLoading(self.videoSuccess, t=2) == True:
+            return True
+        else:
+            return False
 
     def check_timingDialog(self):
         if self.find_element(self.timingDialog,timeout=2, poll=1) == "":
@@ -109,6 +116,18 @@ class Timing(BaseAction):
 
     def check_timingEndDialog(self):
         if self.find_element(self.timingDialog,timeout=2, poll=1) == "":
+            return False
+        else:
+            return True
+
+    def check_videoStartDialog(self):
+        if self.find_element(self.videoStartDialog,timeout=2, poll=1) == "":
+            return False
+        else:
+            return True
+
+    def check_sleepingClose(self):
+        if self.find_element(self.sleepingClose, timeout=2, poll=1) == "":
             return False
         else:
             return True

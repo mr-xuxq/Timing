@@ -53,16 +53,19 @@ class More(BaseAction):
         self.click(self.farmBtn)
 
     def swipeByMore(self):
-        self.swipeOperat(0.5, 0.9, 0.5, 0.4, t = 200)
+        self.swipeOperat(0.5, 0.9, 0.5, 0.4, 200)
 
-    def swipeBy(self,x1, y1, x2, y2, t):
-        self.swipeOperat(x1, y1, x2, y2, t)
+    def swipeByTime(self):
+        self.swipeOperat(0.6, 0.8, 0.6, 0.76, 150)
 
-    def input_ContentBox(self,target,content):
-        self.input(target,content)
-
-    def waitAndfind(self):
+    def waitAndfind_moreBtn(self):
         if self.waitLoading(self.moreBtn, t=2) == True:
+            return True
+        else:
+            return False
+
+    def waitAndfind_sleepBtn(self):
+        if self.waitLoading(self.sleepBtn, t=2) == True:
             return True
         else:
             return False

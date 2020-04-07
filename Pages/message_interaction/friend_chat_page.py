@@ -23,7 +23,7 @@ class Friend_chat(BaseAction):
     messageBox = By.ID, 'com.huiian.timing:id/editTextMessage'
     # 发送
     messageSend = By.ID, 'com.huiian.timing:id/buttonSendMessage'
-    #选择发布的内容
+    #选择发布的内容类型
     chooseType = By.ID,'com.huiian.timing:id/buttonMoreFuntionInText'
 
     def input_messageBox(self,content):

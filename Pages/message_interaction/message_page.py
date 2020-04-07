@@ -30,9 +30,6 @@ class Message(BaseAction):
     def click_messagePoint(self):
         self.click(self.messagePoint)
 
-    def click_interaction(self):
-        self.click(self.interaction)
-
     #在规定时间内是否找到元素
     def waitAndfind_timingService(self):
         if self.waitLoading(self.timingService,t = 1) == True:

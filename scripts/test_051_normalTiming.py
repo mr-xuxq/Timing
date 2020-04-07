@@ -21,27 +21,25 @@ class Test_normalTiming():
             self.page.more().click_more()
             time.sleep(5)
         with allure.step('滑动更多页面至底部'):
-            self.page.more().swipeByMy(0.5, 0.9, 0.5, 0.4, 200)
+            self.page.more().swipeByMore()
         with allure.step('点击学习计时按钮，设定内容后开始'):
             self.page.more().click_timing()
             self.page.timing().input_studyContentBox('This is Timing')
             self.page.timing().click_studySettingBtn()
-            time.sleep(5)
+            time.sleep(3)
             #滑动选择1min,概率性的选不中
-            self.page.more().swipeByMy(0.6, 0.8, 0.6, 0.75, 150)
+            self.page.more().swipeByTime()
             self.page.timing().click_studySettingsuccessBtn()
             self.page.timing().click_startTimingBtn()
             time.sleep(62)
         with allure.step('校验结果：计时1min后关闭计时的后续操作执行后判断计时是否正常结束'):
-            if self.page.timing().check_timingDialog() == True:
-                self.page.timing().click_timingDialog()
-                self.page.timing().click_timingEnd()
-            else:
-                self.page.timing().click_timingEnd()
-            if self.page.timing().check_timingEndDialog() == True:
-                self.page.timing().click_timingEndDialog()
-            else:
-                assert self.page.timing().waitAndfind_timingEndSuccess() == True
+            #if self.page.timing().check_timingDialog() == True:
+            self.page.timing().click_timingDialog()
+                #self.page.timing().click_timingEnd()
+            #else:
+            self.page.timing().click_timingEnd()
+            #self.page.timing().click_timingEndDialog()
+            assert self.page.timing().waitAndfind_timingEndSuccess() == True
 
     @allure.story('学习计不足1min操作')
     def test_normalTiming_exit(self):
@@ -49,14 +47,14 @@ class Test_normalTiming():
             self.page.more().click_more()
             time.sleep(5)
         with allure.step('滑动更多页面至底部'):
-            self.page.more().swipeByMy(0.5, 0.9, 0.5, 0.4, 200)
+            self.page.more().swipeByMore()
         with allure.step('点击学习计时按钮，设定内容后开始'):
             self.page.more().click_timing()
             self.page.timing().input_studyContentBox('This is Timing')
             self.page.timing().click_studySettingBtn()
             time.sleep(5)
             #滑动选择1min
-            self.page.more().swipeByMy(0.6, 0.8, 0.6, 0.75, 150)
+            self.page.more().swipeByTime()
             self.page.timing().click_studySettingsuccessBtn()
             self.page.timing().click_startTimingBtn()
             time.sleep(5)
