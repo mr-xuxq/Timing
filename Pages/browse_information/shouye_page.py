@@ -15,6 +15,9 @@ class Shouye(BaseAction):
     moreBtn = By.ID, 'com.huiian.timing:id/tab_mine_ll'
     # 【sVlog标题按钮】
     sVlogBtn = By.ID, 'com.huiian.timing:id/tv_svlog_title'
+    # 【树洞对讲机按钮】
+    treeHoleBtn = By.ID, 'com.huiian.timing:id/cl_entry'
+
     # 【自习室按钮】
     videoRoomBtn = By.ID, 'com.huiian.timing:id/cl_zxs_entrance'
 
@@ -37,11 +40,18 @@ class Shouye(BaseAction):
     def click_sVlog(self):
         self.click(self.sVlogBtn)
 
+    def click_treeHole(self):
+        self.click(self.treeHoleBtn)
+
     def click_videoRoom(self):
         self.click(self.videoRoomBtn)
 
     def swipeUp(self):
         self.swipeOperat(0.5,0.8,0.5,0.2,500)
+
+    def tapScreen(self,x,y):
+        L = self.getSize()
+        self.driver.tap([(L[0]*x,L[1]*y)],1)
 
     def waitAndFind(self):
         if  self.waitLoading(self.shouyeBtn,t=5) == True:

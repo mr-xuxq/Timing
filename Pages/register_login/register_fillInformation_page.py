@@ -15,8 +15,7 @@ class Register_fillInformation(BaseAction):
     okBtn =By.ID,'com.huiian.timing:id/tv_ok'
     # 【生成学习档案】
     generateBtn = By.ID, 'com.huiian.timing:id/tv_commit'
-    # 【目标】
-    target =By.ID, 'com.huiian.timing:id/message_img'
+
 
 
     def click_selectPhotoBtn(self):
@@ -38,8 +37,4 @@ class Register_fillInformation(BaseAction):
     def click_generateBtn(self):
         self.click(self.generateBtn)
 
-    def waitAndFind(self):
-        if  self.waitLoading(self.target,t=20) == True:
-            return True
-        else:
-            return False
+
