@@ -4,6 +4,7 @@ from Pages.browse_information.sVlog_list_page import List_sVlog
 from Pages.browse_information.video_room_list_page import Video_room_list
 from Pages.browse_information.video_hall_page import Video_hall
 from Pages.browse_information.video_room_page import Video_room
+from Pages.browse_information.daily_page import Daily
 # ———————————————————————————-Message_interaction—————-—————————————-——#
 from Pages.message_interaction.chat_chooseImage_page import Choose_image
 from Pages.message_interaction.chat_chooseVideo_page import Choose_video
@@ -52,6 +53,9 @@ class Page:
 
     def video_room(self):
         return Video_room(self.driver)
+
+    def daily(self):
+        return Daily(self.driver)
 # ———————————————————————————-Message_interaction—————-—————————————-——#
     def choose_image(self):
         return Choose_image(self.driver)

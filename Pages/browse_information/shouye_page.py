@@ -8,13 +8,16 @@ class Shouye(BaseAction):
     # 【自习室按钮】
     videoRoomBtn = By.ID, 'com.huiian.timing:id/cl_zxs_entrance'
     #【首页tab按钮】
-    shouyeBtn = By.XPATH, '//*[@text="首页"]'
+    shouyeBtn = By.ID, 'com.huiian.timing:id/learning_home_img'
 
     def click_sVlog(self):
         self.click(self.sVlogBtn)
 
     def click_videoRoom(self):
         self.click(self.videoRoomBtn)
+
+    def click_shouyeBtn(self):
+        self.click(self.shouyeBtn)
 
     def swipeByShouye(self):
         self.swipeOperat(0.5, 0.7, 0.5, 0.3, 1500)

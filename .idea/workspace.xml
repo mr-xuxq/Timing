@@ -6,25 +6,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4e293f98-54c3-4594-8bb1-635543f6b429" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Pages/message_interaction/create_group_page.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/test_024_groupChat.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/test_025_createGroup.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Pages/browse_information/daily_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/test_043_checkFollowList.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/test_044_checkFansList.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Pages/browse_information/shouye_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/browse_information/shouye_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/message_interaction/friend_chat_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/message_interaction/friend_chat_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/message_interaction/message_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/message_interaction/message_page.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Pages/page.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/page.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Pages/personal_information/more_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/personal_information/more_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/base_action.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/base_action.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/test_014_browseShouye.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/test_014_browseShouye.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/test_021_channelCheck.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/test_021_channelCheck.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/test_022_friendChat.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/test_022_friendChat.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/test_041_changePersonalInformation.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/test_041_changePersonalInformation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/test_051_normalTiming.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/test_051_normalTiming.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/test_052_tomatoTiming.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/test_052_tomatoTiming.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/test_053_videoRecordTiming.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/test_053_videoRecordTiming.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/test_054_sleepRecord.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/test_054_sleepRecord.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/test_055_getupRecord.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/test_055_getupRecord.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -86,70 +74,22 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scripts/test_022_friendChat.py">
+        <entry file="file://$PROJECT_DIR$/scripts/test_041_changePersonalInformation.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1040">
-              <caret line="41" selection-start-line="41" selection-end-line="66" selection-end-column="76" />
+            <state relative-caret-position="312">
+              <caret line="36" lean-forward="true" selection-end-line="36" />
               <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Pages/message_interaction/create_group_page.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="883">
-              <caret line="36" column="36" lean-forward="true" selection-start-line="36" selection-start-column="36" selection-end-line="36" selection-end-column="36" />
-              <folding>
-                <element signature="e#22#65#0" expanded="true" />
+                <element signature="e#0#19#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Pages/message_interaction/friend_chat_page.py">
+        <entry file="file://$PROJECT_DIR$/scripts/test_043_checkFollowList.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="338">
-              <caret line="35" column="32" lean-forward="true" selection-end-line="68" />
-              <folding>
-                <element signature="e#20#63#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scripts/test_024_groupChat.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="597">
-              <caret line="42" column="56" selection-start-line="42" selection-start-column="56" selection-end-line="42" selection-end-column="56" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Pages/message_interaction/chat_chooseVideo_page.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="8" column="10" lean-forward="true" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
-              <folding>
-                <element signature="e#22#65#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scripts/test_051_normalTiming.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="962">
-              <caret line="64" column="26" selection-start-line="64" selection-start-column="26" selection-end-line="64" selection-end-column="26" />
+            <state relative-caret-position="416">
+              <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -158,12 +98,69 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scripts/test_021_channelCheck.py">
+        <entry file="file://$PROJECT_DIR$/scripts/test_044_checkFansList.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="26">
-              <caret line="24" column="17" lean-forward="true" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+            <state relative-caret-position="-52">
+              <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
               <folding>
-                <element signature="e#0#13#0" expanded="true" />
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scripts/test_025_createGroup.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="597">
+              <caret line="35" column="37" selection-start-line="35" selection-start-column="37" selection-end-line="35" selection-end-column="37" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Pages/page.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="338">
+              <caret line="13" column="18" lean-forward="true" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Pages/browse_information/daily_page.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="9" column="34" lean-forward="true" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+              <folding>
+                <element signature="e#25#68#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Pages/browse_information/shouye_page.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-260">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+              <folding>
+                <element signature="e#25#68#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Pages/personal_information/more_page.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="957">
+              <caret line="94" column="22" lean-forward="true" selection-start-line="94" selection-start-column="22" selection-end-line="94" selection-end-column="22" />
+              <folding>
+                <element signature="e#18#61#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -172,8 +169,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scripts/test_054_sleepRecord.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="28" column="54" lean-forward="true" selection-start-line="28" selection-start-column="54" selection-end-line="28" selection-end-column="54" />
+            <state relative-caret-position="494">
+              <caret line="26" column="60" lean-forward="true" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="60" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -182,22 +179,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/base/base_action.py">
+        <entry file="file://$PROJECT_DIR$/scripts/test_055_getupRecord.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="76" column="38" lean-forward="true" selection-start-line="76" selection-start-column="38" selection-end-line="76" selection-end-column="38" />
-              <folding>
-                <element signature="e#0#55#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scripts/test_053_videoRecordTiming.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="780">
-              <caret line="30" column="52" lean-forward="true" selection-start-line="30" selection-start-column="52" selection-end-line="30" selection-end-column="52" />
+            <state relative-caret-position="337">
+              <caret line="21" column="42" lean-forward="true" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -221,7 +206,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/base/base_driver.py" />
         <option value="$PROJECT_DIR$/Pages/personal_information/friend_chat_page.py" />
         <option value="$PROJECT_DIR$/Pages/personal_information/chooseImage.py" />
         <option value="$PROJECT_DIR$/Pages/personal_information/chat_chooseImage_page.py" />
@@ -252,34 +236,34 @@
         <option value="$PROJECT_DIR$/Pages/timed_learning/timing_page.py" />
         <option value="$PROJECT_DIR$/Pages/message_interaction/message_page.py" />
         <option value="$PROJECT_DIR$/scripts/test_014_browseShouye.py" />
-        <option value="$PROJECT_DIR$/Pages/browse_information/shouye_page.py" />
-        <option value="$PROJECT_DIR$/Pages/page.py" />
         <option value="$PROJECT_DIR$/scripts/test_052_tomatoTiming.py" />
         <option value="$PROJECT_DIR$/scripts/test_041_changePersonalInformation.py" />
         <option value="$PROJECT_DIR$/Pages/message_interaction/create_group_page.py" />
         <option value="$PROJECT_DIR$/scripts/test_025_createGroup.py" />
         <option value="$PROJECT_DIR$/scripts/test_042_checkFriendList.py" />
         <option value="$PROJECT_DIR$/scripts/test_043_checkFollowList" />
-        <option value="$PROJECT_DIR$/scripts/test_044_checkFansList.py" />
         <option value="$PROJECT_DIR$/scripts/test_021_channelCheck.py" />
-        <option value="$PROJECT_DIR$/scripts/test_043_checkFollowList.py" />
         <option value="$PROJECT_DIR$/scripts/test_053_videoRecordTiming.py" />
         <option value="$PROJECT_DIR$/scripts/test_054_sleepRecord.py" />
         <option value="$PROJECT_DIR$/scripts/test_055_getupRecord.py" />
         <option value="$PROJECT_DIR$/scripts/test_051_normalTiming.py" />
-        <option value="$PROJECT_DIR$/Pages/personal_information/more_page.py" />
         <option value="$PROJECT_DIR$/scripts/test_024_groupChat.py" />
         <option value="$PROJECT_DIR$/base/base_action.py" />
-        <option value="$PROJECT_DIR$/Pages/message_interaction/friend_chat_page.py" />
         <option value="$PROJECT_DIR$/scripts/test_022_friendChat.py" />
+        <option value="$PROJECT_DIR$/Pages/message_interaction/friend_chat_page.py" />
+        <option value="$PROJECT_DIR$/Pages/page.py" />
+        <option value="$PROJECT_DIR$/Pages/browse_information/shouye_page.py" />
+        <option value="$PROJECT_DIR$/Pages/browse_information/daily_page.py" />
+        <option value="$PROJECT_DIR$/scripts/test_044_checkFansList.py" />
+        <option value="$PROJECT_DIR$/Pages/personal_information/more_page.py" />
+        <option value="$PROJECT_DIR$/scripts/test_043_checkFollowList.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="2105" />
-    <option name="y" value="22" />
+    <option name="x" value="1977" />
     <option name="width" value="1813" />
-    <option name="height" value="1096" />
+    <option name="height" value="1091" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -310,6 +294,12 @@
               <item name="Timing" type="b2602c69:ProjectViewProjectNode" />
               <item name="Timing" type="462c0819:PsiDirectoryNode" />
               <item name="Pages" type="462c0819:PsiDirectoryNode" />
+              <item name="browse_information" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Timing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Timing" type="462c0819:PsiDirectoryNode" />
+              <item name="Pages" type="462c0819:PsiDirectoryNode" />
               <item name="message_interaction" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -317,6 +307,12 @@
               <item name="Timing" type="462c0819:PsiDirectoryNode" />
               <item name="Pages" type="462c0819:PsiDirectoryNode" />
               <item name="personal_information" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Timing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Timing" type="462c0819:PsiDirectoryNode" />
+              <item name="Pages" type="462c0819:PsiDirectoryNode" />
+              <item name="post_content" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Timing" type="b2602c69:ProjectViewProjectNode" />
@@ -366,7 +362,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.pytest in test_022_friendChat.py">
+  <component name="RunManager" selected="Python tests.pytest for test_043_checkFollowList.Test_CheckFollowList.test_checkFollowList">
     <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python">
       <module name="testDemo_test" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -403,22 +399,6 @@
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;$PROJECT_DIR$/test.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest for scripts.test_012_videoRoomList.Test_videoRoom" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="testDemo_test" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="C:\Anaconda3\envs\learn\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scripts" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;scripts.test_012_videoRoomList.Test_videoRoom&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <configuration name="pytest for scripts.test_013_videoRoom.Test_videoRoom" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
@@ -482,6 +462,22 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;test_021_channelCheck.Test_channelCheck.test_interaction&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_043_checkFollowList.Test_CheckFollowList.test_checkFollowList" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="testDemo_test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="C:\Anaconda3\envs\learn\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scripts" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_043_checkFollowList.Test_CheckFollowList.test_checkFollowList&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -645,6 +641,22 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="pytest in test_043_checkFollowList.py" type="tests" factoryName="py.test" nameIsGenerated="true">
+      <module name="testDemo_test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scripts" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/scripts/test_043_checkFollowList.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="pytest in test_051_normalTiming.py" type="tests" factoryName="py.test" nameIsGenerated="true">
       <module name="testDemo_test" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -734,6 +746,7 @@
       <item itemvalue="Python tests.pytest in test_052_tomatoTiming.py" />
       <item itemvalue="Python tests.pytest in test_054_sleepRecord.py" />
       <item itemvalue="Python tests.pytest in test_024_groupChat.py" />
+      <item itemvalue="Python tests.pytest in test_043_checkFollowList.py" />
       <item itemvalue="Python tests.pytest in test_025_createGroup.py" />
       <item itemvalue="Python tests.pytest in test_023_pointVanish.py" />
       <item itemvalue="Python tests.pytest in test_022_friendChat.py" />
@@ -742,19 +755,19 @@
       <item itemvalue="Python tests.pytest in test_055_getupRecord.py" />
       <item itemvalue="Python tests.pytest in test_053_videoRecordTiming.py" />
       <item itemvalue="Python tests.pytest in test_021_channelCheck.py" />
-      <item itemvalue="Python tests.pytest for scripts.test_012_videoRoomList.Test_videoRoom" />
       <item itemvalue="Python tests.pytest for scripts.test_013_videoRoom.Test_videoRoom" />
       <item itemvalue="Python tests.pytest for scripts.test_013_videoRoom.Test_videoRoom.test_videoRoom_visitor" />
       <item itemvalue="Python tests.pytest for test_011_browsesVlog.Test_browsesVlog.test_browsesVlog" />
       <item itemvalue="Python tests.pytest for test_021_channelCheck.Test_channelCheck.test_interaction" />
+      <item itemvalue="Python tests.pytest for test_043_checkFollowList.Test_CheckFollowList.test_checkFollowList" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest for test_043_checkFollowList.Test_CheckFollowList.test_checkFollowList" />
         <item itemvalue="Python tests.pytest for test_021_channelCheck.Test_channelCheck.test_interaction" />
         <item itemvalue="Python tests.pytest for test_011_browsesVlog.Test_browsesVlog.test_browsesVlog" />
         <item itemvalue="Python tests.pytest for scripts.test_013_videoRoom.Test_videoRoom.test_videoRoom_visitor" />
         <item itemvalue="Python tests.pytest for scripts.test_013_videoRoom.Test_videoRoom" />
-        <item itemvalue="Python tests.pytest for scripts.test_012_videoRoomList.Test_videoRoom" />
       </list>
     </recent_temporary>
   </component>
@@ -804,35 +817,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_in_test_051_normalTiming_py - 2020.04.07 at 19h 43m 13s.xml">
-      <configuration name="pytest in test_051_normalTiming.py" configurationId="tests" />
+    <history-entry file="pytest_in_test_043_checkFollowList_py - 2020.04.08 at 10h 53m 01s.xml">
+      <configuration name="pytest in test_043_checkFollowList.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_051_normalTiming_py - 2020.04.07 at 19h 49m 10s.xml">
-      <configuration name="pytest in test_051_normalTiming.py" configurationId="tests" />
+    <history-entry file="pytest_in_test_043_checkFollowList_py - 2020.04.08 at 10h 54m 19s.xml">
+      <configuration name="pytest in test_043_checkFollowList.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_051_normalTiming_py - 2020.04.07 at 19h 51m 00s.xml">
-      <configuration name="pytest in test_051_normalTiming.py" configurationId="tests" />
+    <history-entry file="pytest_in_test_043_checkFollowList_py - 2020.04.08 at 10h 55m 54s.xml">
+      <configuration name="pytest in test_043_checkFollowList.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_051_normalTiming_py - 2020.04.07 at 19h 53m 51s.xml">
-      <configuration name="pytest in test_051_normalTiming.py" configurationId="tests" />
+    <history-entry file="pytest_in_test_043_checkFollowList_py - 2020.04.08 at 10h 57m 40s.xml">
+      <configuration name="pytest in test_043_checkFollowList.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_051_normalTiming_py - 2020.04.07 at 19h 59m 51s.xml">
-      <configuration name="pytest in test_051_normalTiming.py" configurationId="tests" />
+    <history-entry file="pytest_in_test_043_checkFollowList_py - 2020.04.08 at 11h 00m 56s.xml">
+      <configuration name="pytest in test_043_checkFollowList.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_022_friendChat_py - 2020.04.07 at 20h 06m 00s.xml">
-      <configuration name="pytest in test_022_friendChat.py" configurationId="tests" />
+    <history-entry file="pytest_in_test_043_checkFollowList_py - 2020.04.08 at 11h 02m 23s.xml">
+      <configuration name="pytest in test_043_checkFollowList.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_023_pointVanish_py - 2020.04.07 at 20h 11m 45s.xml">
-      <configuration name="pytest in test_023_pointVanish.py" configurationId="tests" />
+    <history-entry file="pytest_in_test_043_checkFollowList_py - 2020.04.08 at 11h 07m 52s.xml">
+      <configuration name="pytest in test_043_checkFollowList.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_022_friendChat_py - 2020.04.07 at 20h 24m 58s.xml">
-      <configuration name="pytest in test_022_friendChat.py" configurationId="tests" />
+    <history-entry file="pytest_in_test_043_checkFollowList_py - 2020.04.08 at 11h 10m 14s.xml">
+      <configuration name="pytest in test_043_checkFollowList.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_022_friendChat_py - 2020.04.07 at 20h 39m 16s.xml">
-      <configuration name="pytest in test_022_friendChat.py" configurationId="tests" />
+    <history-entry file="pytest_for_test_043_checkFollowList_Test_CheckFollowList_test_checkFollowList - 2020.04.08 at 11h 11m 03s.xml">
+      <configuration name="pytest for test_043_checkFollowList.Test_CheckFollowList.test_checkFollowList" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_test_022_friendChat_py - 2020.04.07 at 20h 41m 57s.xml">
-      <configuration name="pytest in test_022_friendChat.py" configurationId="tests" />
+    <history-entry file="pytest_for_test_043_checkFollowList_Test_CheckFollowList_test_checkFollowList - 2020.04.08 at 11h 13m 07s.xml">
+      <configuration name="pytest for test_043_checkFollowList.Test_CheckFollowList.test_checkFollowList" configurationId="tests" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
@@ -848,7 +861,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="2105" y="22" width="1813" height="1096" extended-state="0" />
+    <frame x="1977" y="0" width="1813" height="1091" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18760563" />
@@ -856,7 +869,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.31737193" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.27301928" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2744887" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.29443255" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -901,13 +914,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Pages/browse_information/video_room_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="11" selection-start-column="11" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Pages/register_login/login_phone_captcha_page.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
@@ -1067,32 +1073,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Pages/browse_information/shouye_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="13" column="33" lean-forward="true" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
-          <folding>
-            <element signature="e#25#68#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scripts/test_014_browseShouye.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="468">
           <caret line="22" column="48" selection-start-line="22" selection-start-column="48" selection-end-line="22" selection-end-column="48" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pages/page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="65" column="33" lean-forward="true" selection-start-line="65" selection-start-column="33" selection-end-line="65" selection-end-column="33" />
-          <folding>
-            <element signature="e#74#129#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1116,9 +1102,6 @@
           </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/test_044_checkFansList.py">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/scripts/test_012_videoRoomList.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -1154,26 +1137,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/test_043_checkFollowList.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="20" column="25" lean-forward="true" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/test_055_getupRecord.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="415">
-          <caret line="21" column="42" lean-forward="true" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scripts/test_052_tomatoTiming.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="676">
@@ -1204,30 +1167,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Pages/personal_information/more_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="60" column="46" selection-start-line="60" selection-start-column="46" selection-end-line="60" selection-end-column="46" />
-          <folding>
-            <element signature="e#18#61#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Pages/message_interaction/chat_chooseImage_page.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="52">
           <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/test_041_changePersonalInformation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1241,40 +1184,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/test_025_createGroup.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-286">
-          <caret line="24" column="39" lean-forward="true" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/test_051_normalTiming.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="962">
-          <caret line="64" column="26" selection-start-line="64" selection-start-column="26" selection-end-line="64" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scripts/test_053_videoRecordTiming.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="780">
           <caret line="30" column="52" lean-forward="true" selection-start-line="30" selection-start-column="52" selection-end-line="30" selection-end-column="52" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/test_054_sleepRecord.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="28" column="54" lean-forward="true" selection-start-line="28" selection-start-column="54" selection-end-line="28" selection-end-column="54" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
@@ -1321,20 +1234,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/test_024_groupChat.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="597">
-          <caret line="42" column="56" selection-start-line="42" selection-start-column="56" selection-end-line="42" selection-end-column="56" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scripts/test_022_friendChat.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1040">
-          <caret line="41" selection-start-line="41" selection-end-line="66" selection-end-column="76" />
+        <state relative-caret-position="338">
+          <caret line="94" lean-forward="true" selection-start-line="94" selection-end-line="94" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -1343,10 +1246,127 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Pages/message_interaction/friend_chat_page.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="35" column="32" lean-forward="true" selection-end-line="68" />
+        <state relative-caret-position="182">
+          <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
           <folding>
             <element signature="e#20#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/test_024_groupChat.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="15" column="16" lean-forward="true" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/test_051_normalTiming.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="597">
+          <caret line="64" column="26" selection-start-line="64" selection-start-column="26" selection-end-line="64" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/test_041_changePersonalInformation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="36" lean-forward="true" selection-end-line="36" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/test_055_getupRecord.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="21" column="42" lean-forward="true" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/test_054_sleepRecord.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="26" column="60" lean-forward="true" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="60" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/test_025_createGroup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="597">
+          <caret line="35" column="37" selection-start-line="35" selection-start-column="37" selection-end-line="35" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pages/page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="13" column="18" lean-forward="true" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pages/browse_information/shouye_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-260">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+          <folding>
+            <element signature="e#25#68#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pages/browse_information/daily_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="9" column="34" lean-forward="true" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+          <folding>
+            <element signature="e#25#68#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/test_044_checkFansList.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-52">
+          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pages/personal_information/more_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="957">
+          <caret line="94" column="22" lean-forward="true" selection-start-line="94" selection-start-column="22" selection-end-line="94" selection-end-column="22" />
+          <folding>
+            <element signature="e#18#61#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/test_043_checkFollowList.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
           </folding>
         </state>
       </provider>

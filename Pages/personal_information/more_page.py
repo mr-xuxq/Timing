@@ -28,41 +28,35 @@ class More(BaseAction):
     # 我的已购按钮
     shopBtn = By.XPATH, '//*[@text="我的已购"]'
 #-----------------------------------------------------------------------------
+    #关注列表的人数
     followCount = By.ID,'com.huiian.timing:id/tv_follow_count'
+    #粉丝列表人数
+    fansCount = By.ID,'com.huiian.timing:id/tv_fans_count'
+
 
     def click_more(self):
         self.click(self.moreBtn)
-
     def click_setting(self):
         self.click(self.settingBtn)
-
     def click_person(self):
         self.click(self.personBtn)
-
     def click_normalTiming(self):
         self.click(self.normalTimingBtn)
-
     def click_video(self):
         self.click(self.videoBtn)
-
     def click_sleep(self):
         self.click(self.sleepBtn)
-
     def click_tomato(self):
         self.click(self.tomatoBtn)
-
     def click_farm(self):
         self.click(self.farmBtn)
-
     def click_group(self):
         self.click(self.groupBtn)
-
     def swipeByMore(self):
         self.swipeOperat(0.5, 0.9, 0.5, 0.4, 500)
-#500 = 0.5S
+    #500 = 0.5S
     def swipeByTime(self):
         self.swipeOperat(0.6, 0.8, 0.6, 0.76, 500)
-
     def waitAndfind_moreBtn(self):
         if self.waitLoading(self.moreBtn, t=2) == True:
             return True
@@ -74,3 +68,38 @@ class More(BaseAction):
             return True
         else:
             return False
+# --------------------------------------------------------------------------
+    def get_followCount(self):
+        count = self.driver.find_element_by_id('com.huiian.timing:id/tv_follow_count').text
+        return count
+    def get_fansCount(self):
+        count = self.driver.find_element_by_id('com.huiian.timing:id/tv_fans_count').text
+        return count
+
+    def swipeByRefresh(self):
+        self.swipeOperat(0.5, 0.5, 0.5, 0.7, 500)
+    def compare_count(self,x1,x2):
+        if x1 == x2:
+            return True
+        else:
+            return False
+
+
+    # def getCountByResourceId():
+    #     num = 0
+    #     for (int i=0;i < 100;i++){
+    #         try {
+    #         getUiObjectByResourceIdIntance("com.gaotu100.superclass:id/assignmentitemview_upload_text", i).getText();
+    #         } catch (UiObjectNotFoundException e) {
+    #         // e.printStackTrace();
+    #         num = i;
+    #     break;
+    # }
+    # }
+    #     return num;
+    #     }
+    # def getCountByResourceId(self):
+    #     num = 0
+    #     i = 0
+    #     for i < 100:
+    #         self.driver.find_element_by_id('com.huiian.timing:id/tv_fans_count').getText()
