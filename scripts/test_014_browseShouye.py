@@ -7,13 +7,12 @@ from Pages.page import Shouye
 class Test_browseShowye():
     def setup(self):
         self.driver = Base().init_driver()
-        #设定全局等待
         self.driver.implicitly_wait(50)
         self.page = Page(self.driver)
     def teardown(self):
         self.driver.quit()
 
-    def test_swipeO(self):
+    def test_browseShowye(self):
         time.sleep(5)
         i = 0
         while i<50:
