@@ -10,7 +10,7 @@ class More(BaseAction):
     # 更多_用户区域
     personBtn = By.ID, 'com.huiian.timing:id/view_info'
     # 学习计时按钮
-    timingBtn = By.XPATH, '//*[@text="学习计时"]'
+    normalTimingBtn = By.XPATH, '//*[@text="学习计时"]'
     # 视频打卡按钮
     videoBtn = By.XPATH, '//*[@text="视频打卡"]'
     # 起床睡觉按钮
@@ -27,7 +27,8 @@ class More(BaseAction):
     libraryBtn = By.XPATH, '//*[@text="图书馆"]'
     # 我的已购按钮
     shopBtn = By.XPATH, '//*[@text="我的已购"]'
-
+#-----------------------------------------------------------------------------
+    followCount = By.ID,'com.huiian.timing:id/tv_follow_count'
 
     def click_more(self):
         self.click(self.moreBtn)
@@ -39,7 +40,7 @@ class More(BaseAction):
         self.click(self.personBtn)
 
     def click_normalTiming(self):
-        self.click(self.timingBtn)
+        self.click(self.normalTimingBtn)
 
     def click_video(self):
         self.click(self.videoBtn)
@@ -53,9 +54,12 @@ class More(BaseAction):
     def click_farm(self):
         self.click(self.farmBtn)
 
+    def click_group(self):
+        self.click(self.groupBtn)
+
     def swipeByMore(self):
         self.swipeOperat(0.5, 0.9, 0.5, 0.4, 500)
-
+#500 = 0.5S
     def swipeByTime(self):
         self.swipeOperat(0.6, 0.8, 0.6, 0.76, 500)
 

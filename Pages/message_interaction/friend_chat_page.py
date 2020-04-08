@@ -65,3 +65,4 @@ class Friend_chat(BaseAction):
             return False
         else:
             return True
+

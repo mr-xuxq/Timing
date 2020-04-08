@@ -17,10 +17,10 @@ class Test_sleepRecord():
     def test_sleepRecord(self):
         with allure.step('进入更多页面'):
             self.page.more().click_more()
-            time.sleep(3)
+            time.sleep(5)
         with allure.step('滑动更多页面至底部'):
             self.page.more().swipeByMore()
-            time.sleep(5)
+            time.sleep(3)
         with allure.step('点击睡觉按钮，进入睡觉页面'):
             self.page.more().click_sleep()
             # 点击【睡觉actionbar】
