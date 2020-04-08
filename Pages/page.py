@@ -5,6 +5,7 @@ from Pages.browse_information.sVlog_list_page import List_sVlog
 from Pages.browse_information.video_room_list_page import Video_room_list
 from Pages.browse_information.video_hall_page import Video_hall
 from Pages.browse_information.video_room_page import Video_room
+from Pages.browse_information.daily_page import Daily
 from Pages.browse_information.tree_hole_page import Tree_hole
 # ———————————————————————————-Message_interaction—————-—————————————-——#
 from Pages.message_interaction.chat_chooseImage_page import Choose_image
@@ -12,6 +13,7 @@ from Pages.message_interaction.chat_chooseVideo_page import Choose_video
 from Pages.message_interaction.friend_chat_page import Friend_chat
 from Pages.message_interaction.group_page import Group
 from Pages.message_interaction.message_page import Message
+from Pages.message_interaction.create_group_page import Create_group
 # ——————————————————————————-Personal_information———————————-——————-—-——#
 from Pages.personal_information.more_page import More
 from Pages.personal_information.setting_page import Setting
@@ -61,6 +63,9 @@ class Page:
     def video_room(self):
         return Video_room(self.driver)
 
+    def daily(self):
+        return Daily(self.driver)
+        
     def tree_hole(self):
         return Tree_hole(self.driver)
 # ———————————————————————————-Message_interaction—————-—————————————-——#
@@ -78,7 +83,10 @@ class Page:
 
     def message(self):
         return Message(self.driver)
-# ——————————————————————————-Personal_information———————————-——————-—-——#
+
+    def create_group(self):
+        return Create_group(self.driver)
+# ——————————————————————————-Personal_information———————————-—————-—-——#
     def more(self):
         return More(self.driver)
 
