@@ -1,8 +1,6 @@
 import time, allure
 from Pages.page import Page
 from base.base_driver import Base
-from Pages.message_interaction.friend_chat_page import Friend_chat
-from Pages.message_interaction.message_page import Message
 
 @allure.feature('聊天页功能')
 class Test_friendChat():
@@ -23,28 +21,28 @@ class Test_friendChat():
     @allure.story('聊天页面红点')
     def test_pointVanish(self):
         with allure.step('进入消息页面'):
-            self.page.message().click_message(Message.messageBtn)
+            self.page.message().click_messageBtn()
         with allure.step('滑动页面找红点，找到就点击进入再返回'):
             i = 0
             while i < 3:
                 #如果消息页面channel红点存在
-                if self.page.message().waitAndfind(Message.messagePoint, 1) == True:
+                if self.page.message().check_messagePoint() == True:
                     #点击进入
-                    self.page.message().click_message(Message.messagePoint)
-                    if self.page.friend_chat().waitAndfind(Friend_chat.groupMore, 1) == True:
+                    self.page.message().click_messagePoint()
+                    if self.page.friend_chat().check_groupMore() == True:
                         with allure.step('如果红点类型是讨论组和打卡群时，点击进入成员动态页，再返回至消息页'):
-                            self.page.friend_chat().click_chat(Friend_chat.groupMore)
-                            self.page.friend_chat().click_chat(Friend_chat.groupActive)
+                            self.page.friend_chat().click_groupMore()
+                            self.page.friend_chat().click_groupActive()
                             time.sleep(10)
                             # 返回至消息页
                             self.driver.press_keycode(4)
                             self.driver.press_keycode(4)
                             self.driver.press_keycode(4)
-                    elif self.page.friend_chat().waitAndfind(Friend_chat.groupChat, 1) == True:
+                    elif self.page.friend_chat().check_groupChat() == True:
                         with allure.step('如果红点类型是契约群时，点击进入聊天页，再返回至消息页'):
-                            self.page.friend_chat().click_chat(Friend_chat.groupActive)
+                            self.page.friend_chat().click_groupActive()
                             time.sleep(5)
-                            self.page.friend_chat().click_chat(Friend_chat.groupChat)
+                            self.page.friend_chat().click_groupChat()
                             time.sleep(5)
                             self.driver.press_keycode(4)
                     else:
@@ -52,7 +50,7 @@ class Test_friendChat():
                             self.driver.press_keycode(4)
                 else:
                     with allure.step('如果没有找到红点，上滑页面继续找红点'):
-                        self.page.message().swipeByMy(0.5, 0.7, 0.5, 0.3, 150)
+                        self.page.message().swipeByMessage()
                         i += 1
         with allure.step('校验结果：如果页面还存在红点——>失败'):
-            assert self.page.message().waitAndfind(Message.messagePoint,1) == False
+            assert self.page.message().waitAndfind_messagePoint() == False
