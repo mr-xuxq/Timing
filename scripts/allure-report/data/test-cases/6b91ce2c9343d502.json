@@ -1,0 +1,147 @@
+{
+  "uid" : "6b91ce2c9343d502",
+  "name" : "test_logout",
+  "fullName" : "test_registerAccount.Test_registerAccount#test_logout",
+  "historyId" : "ce3c218261ade1c9dee09b2e835951a6",
+  "time" : {
+    "start" : 1579351418285,
+    "stop" : 1579351430435,
+    "duration" : 12150
+  },
+  "status" : "passed",
+  "flaky" : true,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_registerAccount"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_registerAccount"
+  }, {
+    "name" : "host",
+    "value" : "PV-X00232293"
+  }, {
+    "name" : "thread",
+    "value" : "7264-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_registerAccount"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "41025e8d8d82403",
+      "status" : "passed",
+      "time" : {
+        "start" : 1579292224872,
+        "stop" : 1579292239748,
+        "duration" : 14876
+      }
+    }, {
+      "uid" : "b4633b27bf770393",
+      "status" : "passed",
+      "time" : {
+        "start" : 1579291957126,
+        "stop" : 1579291980967,
+        "duration" : 23841
+      }
+    }, {
+      "uid" : "b84fdc74ba2d94cf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1579291197656,
+        "stop" : 1579291214008,
+        "duration" : 16352
+      }
+    }, {
+      "uid" : "70a94b21bb19cd55",
+      "status" : "passed",
+      "time" : {
+        "start" : 1579290883469,
+        "stop" : 1579290898410,
+        "duration" : 14941
+      }
+    }, {
+      "uid" : "1232459745fe5993",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1579290443702,
+        "stop" : 1579290495335,
+        "duration" : 51633
+      }
+    }, {
+      "uid" : "5f49a8779802d010",
+      "status" : "passed",
+      "time" : {
+        "start" : 1579289935239,
+        "stop" : 1579289951831,
+        "duration" : 16592
+      }
+    }, {
+      "uid" : "1b4ff8c8f0ebc2fc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1579289618755,
+        "stop" : 1579289634774,
+        "duration" : 16019
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "3cfce7765d3cf933",
+        "reportUrl" : "http://192.168.88.58:8080/job/Timing/9/allure/#testresult/3cfce7765d3cf933",
+        "status" : "passed",
+        "time" : {
+          "start" : 1579351418285,
+          "stop" : 1579351430435,
+          "duration" : 12150
+        }
+      }, {
+        "uid" : "70f5daf1665c8416",
+        "reportUrl" : "http://192.168.88.58:8080/job/Timing/8/allure/#testresult/70f5daf1665c8416",
+        "status" : "passed",
+        "time" : {
+          "start" : 1579351418285,
+          "stop" : 1579351430435,
+          "duration" : 12150
+        }
+      }, {
+        "uid" : "7f24e4fd631189bb",
+        "reportUrl" : "http://192.168.88.58:8080/job/Timing/7/allure/#testresult/7f24e4fd631189bb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1579351418285,
+          "stop" : 1579351430435,
+          "duration" : 12150
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "6b91ce2c9343d502.json",
+  "parameterValues" : [ ]
+}

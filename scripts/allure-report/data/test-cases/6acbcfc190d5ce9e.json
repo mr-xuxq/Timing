@@ -1,0 +1,96 @@
+{
+  "uid" : "6acbcfc190d5ce9e",
+  "name" : "test_registerAccount",
+  "fullName" : "test_001_registerAccount.Test_registerAccount#test_registerAccount",
+  "historyId" : "70208ecb89cae63421bdb3a7ce67b14a",
+  "time" : {
+    "start" : 1586250918999,
+    "stop" : 1586250933060,
+    "duration" : 14061
+  },
+  "status" : "broken",
+  "statusMessage" : "NameError: name 'engine' is not defined",
+  "statusTrace" : "self = <scripts.test_001_registerAccount.Test_registerAccount object at 0x000001236C0BBB70>\n\n    def test_registerAccount(self):\n        # with allure.step('检测用户授权情况'):\n        #     result = self.page.login().check_phone()\n        #     if result == \"\":\n        #         with allure.step('用户当前已完成授权'):\n        #             pass\n        #     else:\n        #         with allure.step('用户当前未授权'):\n        #             time.sleep(2)\n        #             self.page.login().check_location()\n        #             if result == \"\":\n        #                 with allure.step('用户当前已同意定位'):\n        #                     pass\n        #             else:\n        #                 with allure.step('用户当前未授权定位'):\n        #                     self.page.login().click_allowLocation()\n        #             self.page.login().click_agree()\n        #             time.sleep(3)\n        #             self.page.login().click_phone_ignore()\n        #             time.sleep(2)\n        with allure.step('点击手机号登录'):\n            self.page.login().click_phone_login()\n        with allure.step('查询尚未注册的手机号并填入'):\n            ID = \"1\"\n            Phone = phone\n            while len(ID) == 1:\n                Phone = Phone + 1\n>               ID = pd.read_sql('SELECT ID FROM t_user where phone=\"' + str(Phone) + '\" ', engine)\nE               NameError: name 'engine' is not defined\n\ntest_001_registerAccount.py:56: NameError",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "NameError: name 'engine' is not defined",
+    "statusTrace" : "self = <scripts.test_001_registerAccount.Test_registerAccount object at 0x000001236C0BBB70>\n\n    def test_registerAccount(self):\n        # with allure.step('检测用户授权情况'):\n        #     result = self.page.login().check_phone()\n        #     if result == \"\":\n        #         with allure.step('用户当前已完成授权'):\n        #             pass\n        #     else:\n        #         with allure.step('用户当前未授权'):\n        #             time.sleep(2)\n        #             self.page.login().check_location()\n        #             if result == \"\":\n        #                 with allure.step('用户当前已同意定位'):\n        #                     pass\n        #             else:\n        #                 with allure.step('用户当前未授权定位'):\n        #                     self.page.login().click_allowLocation()\n        #             self.page.login().click_agree()\n        #             time.sleep(3)\n        #             self.page.login().click_phone_ignore()\n        #             time.sleep(2)\n        with allure.step('点击手机号登录'):\n            self.page.login().click_phone_login()\n        with allure.step('查询尚未注册的手机号并填入'):\n            ID = \"1\"\n            Phone = phone\n            while len(ID) == 1:\n                Phone = Phone + 1\n>               ID = pd.read_sql('SELECT ID FROM t_user where phone=\"' + str(Phone) + '\" ', engine)\nE               NameError: name 'engine' is not defined\n\ntest_001_registerAccount.py:56: NameError",
+    "steps" : [ {
+      "name" : "点击手机号登录",
+      "time" : {
+        "start" : 1586250918999,
+        "stop" : 1586250933060,
+        "duration" : 14061
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "查询尚未注册的手机号并填入",
+      "time" : {
+        "start" : 1586250933060,
+        "stop" : 1586250933060,
+        "duration" : 0
+      },
+      "status" : "broken",
+      "statusMessage" : "NameError: name 'engine' is not defined\n",
+      "statusTrace" : "  File \"D:\\jenkins\\workspace\\Timing\\scripts\\test_001_registerAccount.py\", line 56, in test_registerAccount\n    ID = pd.read_sql('SELECT ID FROM t_user where phone=\"' + str(Phone) + '\" ', engine)\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_001_registerAccount"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_registerAccount"
+  }, {
+    "name" : "host",
+    "value" : "PV-X00232293"
+  }, {
+    "name" : "thread",
+    "value" : "6048-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_001_registerAccount"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6acbcfc190d5ce9e.json",
+  "parameterValues" : [ ]
+}

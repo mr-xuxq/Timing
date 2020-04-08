@@ -17,9 +17,10 @@ class Test_getupRecord():
     def test_getupRecord(self):
         with allure.step('进入更多页面'):
             self.page.more().click_more()
-            time.sleep(5)
+            time.sleep(3)
         with allure.step('滑动更多页面至底部'):
             self.page.more().swipeByMore()
+            time.sleep(5)
         with allure.step('点击起床，关闭起床打卡弹窗'):
             self.page.more().click_sleep()
             #点击【起床】按钮

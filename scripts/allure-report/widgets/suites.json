@@ -1,17 +1,6 @@
 {
-  "total" : 22,
+  "total" : 26,
   "items" : [ {
-    "uid" : "398d65f7f625df45db5997ff0001cf74",
-    "name" : "test_011_browsesVlog",
-    "statistic" : {
-      "failed" : 1,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    }
-  }, {
     "uid" : "f4b53d28ddd4786979c527a436b433fd",
     "name" : "test_022_friendChat",
     "statistic" : {
@@ -21,6 +10,17 @@
       "passed" : 1,
       "unknown" : 0,
       "total" : 3
+    }
+  }, {
+    "uid" : "bf38b6b779d25246e041f9c5c485b1c3",
+    "name" : "test_014_browseShouye",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 2,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
     }
   }, {
     "uid" : "e18a1f755cd338a08eb7b82df7eedcdc",
@@ -34,8 +34,8 @@
       "total" : 2
     }
   }, {
-    "uid" : "a75e9e80197bd07dd87ad9566971bd90",
-    "name" : "test_001_registerAccount",
+    "uid" : "12142777dc0ad13d441a25ffbc36972e",
+    "name" : "test_021_channelCheck",
     "statistic" : {
       "failed" : 0,
       "broken" : 1,
@@ -45,15 +45,15 @@
       "total" : 2
     }
   }, {
-    "uid" : "3183b646a4be569afb5752d7e055d1d1",
-    "name" : "test_002_loginByCaptcha",
+    "uid" : "956faec2d7a4363664a9d5c899779ff4",
+    "name" : "test_013_videoRoom",
     "statistic" : {
       "failed" : 0,
       "broken" : 1,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 0,
       "unknown" : 0,
-      "total" : 2
+      "total" : 1
     }
   }, {
     "uid" : "63879c0cabda4466ae4a8c0ec496e27c",
@@ -89,8 +89,8 @@
       "total" : 1
     }
   }, {
-    "uid" : "956faec2d7a4363664a9d5c899779ff4",
-    "name" : "test_013_videoRoom",
+    "uid" : "b21da2c75e45b4fab2c43649b49d120d",
+    "name" : "test_055_getupRecord",
     "statistic" : {
       "failed" : 0,
       "broken" : 1,
@@ -100,15 +100,15 @@
       "total" : 1
     }
   }, {
-    "uid" : "bf38b6b779d25246e041f9c5c485b1c3",
-    "name" : "test_014_browseShouye",
+    "uid" : "f76c65c15dede6f3dfc7d3b86c6f091d",
+    "name" : "test_loginByCaptcha",
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     }
   } ]
 }

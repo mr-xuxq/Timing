@@ -28,6 +28,7 @@ class More(BaseAction):
     # 我的已购按钮
     shopBtn = By.XPATH, '//*[@text="我的已购"]'
 
+
     def click_more(self):
         self.click(self.moreBtn)
 
@@ -37,7 +38,7 @@ class More(BaseAction):
     def click_person(self):
         self.click(self.personBtn)
 
-    def click_timing(self):
+    def click_normalTiming(self):
         self.click(self.timingBtn)
 
     def click_video(self):
@@ -53,10 +54,10 @@ class More(BaseAction):
         self.click(self.farmBtn)
 
     def swipeByMore(self):
-        self.swipeOperat(0.5, 0.9, 0.5, 0.4, 200)
+        self.swipeOperat(0.5, 0.9, 0.5, 0.4, 500)
 
     def swipeByTime(self):
-        self.swipeOperat(0.6, 0.8, 0.6, 0.76, 150)
+        self.swipeOperat(0.6, 0.8, 0.6, 0.76, 500)
 
     def waitAndfind_moreBtn(self):
         if self.waitLoading(self.moreBtn, t=2) == True:

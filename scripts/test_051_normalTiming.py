@@ -1,6 +1,7 @@
 import time, allure
 from base.base_driver import Base
 from Pages.page import Page
+from appium.webdriver.common.touch_action import TouchAction
 
 #如果你想重复执行测试模块(.py文件)，直接在模块上方（导入pytest包下面）加入下面一行代码即可：pytestmark变量名是固定的~
 #pytestmark=pytest.mark.repeat(2)
@@ -11,6 +12,7 @@ class Test_normalTiming():
         # 设定全局等待
         self.driver.implicitly_wait(50)
         self.page = Page(self.driver)
+        self.action = TouchAction(self.driver)
 
     def teardown(self):
         self.driver.quit()
@@ -19,42 +21,46 @@ class Test_normalTiming():
     def test_normalTiming(self):
         with allure.step('进入更多页面'):
             self.page.more().click_more()
-            time.sleep(5)
+            time.sleep(3)
         with allure.step('滑动更多页面至底部'):
             self.page.more().swipeByMore()
+            time.sleep(5)
         with allure.step('点击学习计时按钮，设定内容后开始'):
-            self.page.more().click_timing()
+            self.page.more().click_normalTiming()
             self.page.timing().input_studyContentBox('This is Timing')
             self.page.timing().click_studySettingBtn()
-            time.sleep(3)
-            #滑动选择1min,概率性的选不中
-            self.page.more().swipeByTime()
+            e1 = self.driver.find_element_by_xpath("//*[@text='01']")
+            self.action.long_press(e1, None, None, 800).perform()
             self.page.timing().click_studySettingsuccessBtn()
             self.page.timing().click_startTimingBtn()
             time.sleep(62)
         with allure.step('校验结果：计时1min后关闭计时的后续操作执行后判断计时是否正常结束'):
-            #if self.page.timing().check_timingDialog() == True:
-            self.page.timing().click_timingDialog()
-                #self.page.timing().click_timingEnd()
-            #else:
-            self.page.timing().click_timingEnd()
-            #self.page.timing().click_timingEndDialog()
-            assert self.page.timing().waitAndfind_timingEndSuccess() == True
+            if self.page.timing().check_timingDialog() == True:
+                self.page.timing().click_timingDialog()
+                self.page.timing().click_timingEnd()
+            else:
+                self.page.timing().click_timingEnd()
+                if self.page.timing().check_timingEndDialog() == True:
+                    self.page.timing().click_timingEndDialog()
+                else:
+                    assert self.page.timing().waitAndfind_timingEndSuccess() == True
 
     @allure.story('学习计不足1min操作')
     def test_normalTiming_exit(self):
         with allure.step('进入更多页面'):
             self.page.more().click_more()
-            time.sleep(5)
+            time.sleep(3)
         with allure.step('滑动更多页面至底部'):
             self.page.more().swipeByMore()
+            time.sleep(5)
         with allure.step('点击学习计时按钮，设定内容后开始'):
-            self.page.more().click_timing()
+            self.page.more().click_normalTiming()
             self.page.timing().input_studyContentBox('This is Timing')
             self.page.timing().click_studySettingBtn()
             time.sleep(5)
             #滑动选择1min
-            self.page.more().swipeByTime()
+            e1 = self.driver.find_element_by_xpath("//*[@text='01']")
+            self.action.long_press(e1, None, None, 800).perform()
             self.page.timing().click_studySettingsuccessBtn()
             self.page.timing().click_startTimingBtn()
             time.sleep(5)

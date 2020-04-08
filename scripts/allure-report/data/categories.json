@@ -4,134 +4,10 @@
   "children" : [ {
     "name" : "Test defects",
     "children" : [ {
-      "name" : "selenium.common.exceptions.TimeoutException: Message:",
-      "children" : [ {
-        "name" : "test_normalTiming",
-        "uid" : "64188a0bf44cc9b4",
-        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
-        "status" : "broken",
-        "time" : {
-          "start" : 1586147577567,
-          "stop" : 1586147680389,
-          "duration" : 102822
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "test_normalTiming_exit",
-        "uid" : "3c593d229d02b6ae",
-        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
-        "status" : "broken",
-        "time" : {
-          "start" : 1586147684241,
-          "stop" : 1586147748378,
-          "duration" : 64137
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "test_tomatoTiming",
-        "uid" : "6ead23db40072b7d",
-        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
-        "status" : "broken",
-        "time" : {
-          "start" : 1586147752100,
-          "stop" : 1586147814082,
-          "duration" : 61982
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "test_videoRecordTiming",
-        "uid" : "2be4c79301c1694d",
-        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
-        "status" : "broken",
-        "time" : {
-          "start" : 1586147817930,
-          "stop" : 1586147892837,
-          "duration" : 74907
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "test_sleepRecord",
-        "uid" : "8574ee933e2b9ceb",
-        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
-        "status" : "broken",
-        "time" : {
-          "start" : 1586147896403,
-          "stop" : 1586147958924,
-          "duration" : 62521
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "test_logout",
-        "uid" : "4733cd463a25b004",
-        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
-        "status" : "broken",
-        "time" : {
-          "start" : 1586158116963,
-          "stop" : 1586158174259,
-          "duration" : 57296
-        },
-        "flaky" : true,
-        "parameters" : [ ]
-      }, {
-        "name" : "test_loginByCaptcha",
-        "uid" : "506e588a6a122798",
-        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
-        "status" : "broken",
-        "time" : {
-          "start" : 1586158177878,
-          "stop" : 1586158229303,
-          "duration" : 51425
-        },
-        "flaky" : true,
-        "parameters" : [ ]
-      }, {
-        "name" : "test_videoRoom_visitor",
-        "uid" : "cb63c63328da1e36",
-        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
-        "status" : "broken",
-        "time" : {
-          "start" : 1586158779459,
-          "stop" : 1586158910102,
-          "duration" : 130643
-        },
-        "flaky" : true,
-        "parameters" : [ ]
-      }, {
-        "name" : "test_chatImage",
-        "uid" : "9b1988ae1791fb9",
-        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
-        "status" : "broken",
-        "time" : {
-          "start" : 1586159102041,
-          "stop" : 1586159175497,
-          "duration" : 73456
-        },
-        "flaky" : true,
-        "parameters" : [ ]
-      }, {
-        "name" : "test_chatVideo",
-        "uid" : "80e98cf25a42085",
-        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
-        "status" : "broken",
-        "time" : {
-          "start" : 1586159179434,
-          "stop" : 1586159249663,
-          "duration" : 70229
-        },
-        "flaky" : true,
-        "parameters" : [ ]
-      } ],
-      "uid" : "31bb78a6a95ede3f78b260ed048910d8"
-    }, {
       "name" : "AttributeError: 'Shouye' object has no attribute 'waitAndfind'",
       "children" : [ {
         "name" : "test_swipeO",
-        "uid" : "cc6e8a62af7b984b",
+        "uid" : "ca15ba45dfa9deb8",
         "parentUid" : "f6709ebc2dd7facecd6aa793f622aa36",
         "status" : "broken",
         "time" : {
@@ -143,27 +19,155 @@
         "parameters" : [ ]
       } ],
       "uid" : "f6709ebc2dd7facecd6aa793f622aa36"
-    } ],
-    "uid" : "bdbf199525818fae7a8651db9eafe741"
-  }, {
-    "name" : "Product defects",
-    "children" : [ {
-      "name" : "AssertionError: assert False == True\n  -False\n  +True",
+    }, {
+      "name" : "selenium.common.exceptions.WebDriverException: Message: UiAutomator died while responding to command, please check appium logs!",
       "children" : [ {
-        "name" : "test_browsesVlog",
-        "uid" : "c24cbc20dc413078",
-        "parentUid" : "9ec8f191b848aac8e79241d2720739a9",
-        "status" : "failed",
+        "name" : "test_videoRoom_visitor",
+        "uid" : "ce20dbe146b91433",
+        "parentUid" : "dad1aa0b9d77d07a6ca3426807410cac",
+        "status" : "broken",
         "time" : {
-          "start" : 1586158277082,
-          "stop" : 1586158693456,
-          "duration" : 416374
+          "start" : 1586251574929,
+          "stop" : 1586251629056,
+          "duration" : 54127
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "dad1aa0b9d77d07a6ca3426807410cac"
+    }, {
+      "name" : "AttributeError: 'Shouye' object has no attribute 'swipeByShouye'",
+      "children" : [ {
+        "name" : "test_browseShowye",
+        "uid" : "f95a3bbefa77108d",
+        "parentUid" : "b2515b2aef43e6da33bdb4736f8a19e4",
+        "status" : "broken",
+        "time" : {
+          "start" : 1586251632333,
+          "stop" : 1586251637334,
+          "duration" : 5001
         },
         "flaky" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "9ec8f191b848aac8e79241d2720739a9"
+      "uid" : "b2515b2aef43e6da33bdb4736f8a19e4"
+    }, {
+      "name" : "selenium.common.exceptions.TimeoutException: Message:",
+      "children" : [ {
+        "name" : "test_interaction",
+        "uid" : "50e77504d084d38b",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1586251687108,
+          "stop" : 1586251730138,
+          "duration" : 43030
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_chatImage",
+        "uid" : "e5e79922a32a326d",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1586251811445,
+          "stop" : 1586251877440,
+          "duration" : 65995
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_chatVideo",
+        "uid" : "ab17cb45350700b4",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1586251881276,
+          "stop" : 1586251946970,
+          "duration" : 65694
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_normalTiming",
+        "uid" : "dc046589f3e635d8",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1586252031211,
+          "stop" : 1586252091534,
+          "duration" : 60323
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_normalTiming_exit",
+        "uid" : "768459e1ac0cde27",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1586252095168,
+          "stop" : 1586252167065,
+          "duration" : 71897
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_tomatoTiming",
+        "uid" : "bad2778a5a8bc252",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1586252170725,
+          "stop" : 1586252233553,
+          "duration" : 62828
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_getupRecord",
+        "uid" : "5107a677dfd3d0df",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1586252317645,
+          "stop" : 1586252378836,
+          "duration" : 61191
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "31bb78a6a95ede3f78b260ed048910d8"
+    }, {
+      "name" : "selenium.common.exceptions.WebDriverException: Message: An unknown server-side error occurred while processing the command.",
+      "children" : [ {
+        "name" : "test_videoRecordTiming",
+        "uid" : "269e129acd652110",
+        "parentUid" : "5d1504822a3dbd84ccb84831fdb36d2f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1586252237347,
+          "stop" : 1586252299229,
+          "duration" : 61882
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_sleepRecord",
+        "uid" : "cbf4a16682356fb",
+        "parentUid" : "5d1504822a3dbd84ccb84831fdb36d2f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1586252302190,
+          "stop" : 1586252313930,
+          "duration" : 11740
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5d1504822a3dbd84ccb84831fdb36d2f"
     } ],
-    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
   } ]
 }

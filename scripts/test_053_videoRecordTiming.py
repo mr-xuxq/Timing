@@ -18,9 +18,10 @@ class Test_videoRecordTiming():
     def test_videoRecordTiming(self):
         with allure.step('进入更多页面'):
             self.page.more().click_more()
-            time.sleep(5)
+            time.sleep(3)
         with allure.step('滑动更多页面至底部'):
             self.page.more().swipeByMore()
+            time.sleep(5)
         with allure.step('点击视频打卡按钮，设定内容后开始'):
             self.page.more().click_video()
             self.page.timing().input_videoContentBox('This is videoTiming')
