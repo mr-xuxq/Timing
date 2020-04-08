@@ -84,6 +84,8 @@ class Page:
     def message(self):
         return Message(self.driver)
 
+    def create_group(self):
+        return Create_group(self.driver)
 # ——————————————————————————-Personal_information———————————-—————-—-——#
     def more(self):
         return More(self.driver)
