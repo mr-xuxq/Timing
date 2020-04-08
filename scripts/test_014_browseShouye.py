@@ -1,7 +1,6 @@
-import time,pytest,allure
+import time,allure
 from Pages.page import Page
 from base.base_driver import Base
-from Pages.page import Shouye
 
 @allure.feature('刷首页算法')
 class Test_browseShowye():
@@ -13,12 +12,12 @@ class Test_browseShowye():
     def teardown(self):
         self.driver.quit()
 
-    def test_swipeO(self):
+    def test_browseShowye(self):
         time.sleep(5)
         i = 0
         while i<50:
         #while True:
-            self.page.shouye().swipeUp()
+            self.page.shouye().swipeByShouye()
             i += 1
         #断言
         assert self.page.shouye().waitAndfind() == True
