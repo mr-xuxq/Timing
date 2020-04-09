@@ -14,5 +14,17 @@ class Choose_image(BaseAction):
     #左下角_【取消】
     imgCancel = By.XPATH,'//*[@text="取消"]'
 
-    def click_chooseImage(self,target):
-        self.click(target)
+    def click_chooseImage(self):
+        self.click(self.chooseImage)
+
+    def click_nextStep(self):
+        self.click(self.nextStep)
+
+    def click_chooseMyimg(self):
+        self.click(self.chooseMyimg)
+
+    def click_imgSummit(self):
+        self.click(self.imgSummit)
+
+    def click_imgCancel(self):
+        self.click(self.imgCancel)

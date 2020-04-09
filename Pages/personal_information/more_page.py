@@ -40,7 +40,6 @@ class More(BaseAction):
         self.click(self.settingBtn)
     def click_person(self):
         self.click(self.personBtn)
-
     def click_normalTiming(self):
         self.click(self.normalTimingBtn)
     def click_video(self):
@@ -51,28 +50,34 @@ class More(BaseAction):
         self.click(self.tomatoBtn)
     def click_farm(self):
         self.click(self.farmBtn)
-
-    def click_plan(self):
-        self.click(self.planBtn)
-
     def click_group(self):
         self.click(self.groupBtn)
-
     def click_plibrary(self):
         self.click(self.libraryBtn)
-
     def click_shop(self):
         self.click(self.shopBtn)
+    def swipeByMore(self):
+        self.swipeOperat(0.5, 0.8, 0.5, 0.4, 500)
+    #500 = 0.5S
+    def swipeByTime(self):
+        self.swipeOperat(0.6, 0.8, 0.6, 0.76, 500)
 
-    #上滑更多页面至计时区域
-    def swipeByMy(self,x1, y1, x2, y2, t):
-        self.swipeOperat(x1, y1, x2, y2, t)
+        # 坐标点击睡觉
+    def clickCoordinate_sleep(self):
+        self.clickOperat(0.30,0.87,0.44,0.87,500)
 
-    def input_ContentBox(self,target,content):
-        self.input(target,content)
+        # 坐标点击起床
+    def clickCoordinate_sleep(self):
+        self.clickOperat(0.30,0.87,0.44,0.87,500)
 
-    def waitAndfind(self, target, t):
-        if self.waitLoading(target, t) == True:
+    def waitAndfind_moreBtn(self):
+        if self.waitLoading(self.moreBtn, t=2) == True:
+            return True
+        else:
+            return False
+
+    def waitAndfind_sleepBtn(self):
+        if self.waitLoading(self.sleepBtn, t=2) == True:
             return True
         else:
             return False

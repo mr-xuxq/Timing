@@ -5,11 +5,9 @@ from base.base_driver import Base
 #from base.base_analyze import analyze_file
 import pandas as pd
 from sqlalchemy import create_engine
-phone = 10000000830
+phone = 10000000860
 nickName = 9527
 # 此处填入服务器连接
-
-
 
 
 class Test_registerAccount():
@@ -68,6 +66,7 @@ class Test_registerAccount():
         with allure.step('点击完成，进入学习标签页'):
             self.page.login_phone_captcha().click_loginBtn()
         with allure.step('点击选择标签'):
+            time.sleep(2)
             self.page.register_add_tags().click_labelBtn()
         with allure.step('点击下一步'):
             self.page.register_add_tags().click_nextBtn()

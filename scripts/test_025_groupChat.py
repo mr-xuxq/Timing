@@ -3,8 +3,8 @@ from Pages.page import Page
 from base.base_driver import Base
 from appium.webdriver.common.touch_action import TouchAction
 
-@allure.feature('聊天页功能')
-class Test_friendChat():
+@allure.feature('群组聊天功能')
+class Test_teamChat():
 
     #setup函数是在一个类里面最先被调用的函数，而且每执行完一个函数都要从setUp()调用开始后再执行下一个函数，有几个函数就调用他几次，与位置无关，随便放在那里都是他先被调用。
     #放一些准备的工作，或者准备一些测试数据。
@@ -21,51 +21,35 @@ class Test_friendChat():
         self.driver.quit()
 
     @allure.story('文字聊天')
-    def test_chatWord(self):
-        with allure.step('进入消息页面'):
-            self.page.message().click_messageBtn()
-        with allure.step('滑动消息页面寻找第一个道友'):
-            i = 0
-            while i < 2:
-                if self.page.message().check_messageFriend() == True:
-                    break
-                else:
-                    self.page.message().swipeByMessage()
-                    i += 1
-        with allure.step('找到道友后点击channel进入聊天页面'):
-            e1 = self.driver.find_element_by_id("com.huiian.timing:id/iv_friend")
+    def test_teamChatWord(self):
+        self.page.message().click_messageBtn()
+        if self.page.message().check_messageTeam() == False:
+            print('当前页面没有群组')
+        else:
+            e1 = self.driver.find_element_by_id("com.huiian.timing:id/team_type_iv")
             self.action.long_press(e1, None, None, 3000).perform()
             time.sleep(2)
             self.page.message().click_setTop()
             time.sleep(1)
-            self.page.message().click_messageFriend()
-        with allure.step('输入聊天消息并点击发送'):
+            self.page.message().click_messageTeam()
+            time.sleep(2)
             self.page.friend_chat().click_messageBox()
             self.page.friend_chat().input_messageBox("I am a message!")
             self.page.friend_chat().click_messageSend()
             time.sleep(5)
-            self.page.friend_chat().click_back()
+            self.page.friend_chat().click_backTeam()
             count = self.driver.find_element_by_id('com.huiian.timing:id/friend_msg_content_tv').text
-        with allure.step('校验结果：若发送成功，消息页会显示最新消息'):
-            assert count == "I am a message!"
+            with allure.step('校验结果：若发送成功，消息页会显示最新消息'):
+                assert count == "I am a message!"
 
     @allure.story('图片聊天')
     def test_chatImage(self):
-        with allure.step('进入消息页面'):
-            self.page.message().click_messageBtn()
-        with allure.step('滑动消息页面寻找第一个道友'):
-            i = 0
-            while i < 2:
-                if self.page.message().check_messageFriend() == True:
-                    break
-                else:
-                    self.page.message().swipeByMessage()
-                    i += 1
-        with allure.step('找到道友后点击channel进入聊天页面'):
-            self.page.message().click_messageFriend()
+        self.page.message().click_messageBtn()
         with allure.step('点击聊天页面添加按钮'):
-            self.page.friend_chat().click_chooseType()
+            self.page.message().click_messageTeam()
             time.sleep(2)
+            self.page.friend_chat().click_chooseType()
+            time.sleep(1)
         with allure.step('选择相册'):
             # 点击聊天页面【相册】按钮
             self.page.friend_chat().click_imageBtn()
@@ -74,35 +58,28 @@ class Test_friendChat():
             self.page.choose_image().click_chooseImage()
             self.page.choose_image().click_nextStep()
             time.sleep(5)
-            self.page.friend_chat().click_back()
+            self.page.friend_chat().click_backTeam()
+            self.page.friend_chat().click_backTeam()
             count = self.driver.find_element_by_id('com.huiian.timing:id/friend_msg_content_tv').text
         with allure.step('校验结果：若发送成功，消息页会显示最新图片'):
             assert count == "[图片]"
 
     @allure.story('视频聊天')
     def test_chatVideo(self):
-        with allure.step('进入消息页面'):
-            self.page.message().click_messageBtn()
-        with allure.step('滑动消息页面寻找第一个道友'):
-            i = 0
-            while i < 2:
-                if self.page.message().check_messageFriend() == True:
-                    break
-                else:
-                    self.page.message().swipeByMessage()
-                    i += 1
-        with allure.step('找到道友后点击channel进入聊天页面'):
-            self.page.message().click_messageFriend()
+        self.page.message().click_messageBtn()
         with allure.step('点击聊天页面添加按钮'):
-            self.page.friend_chat().click_chooseType()
+            self.page.message().click_messageTeam()
             time.sleep(2)
+            self.page.friend_chat().click_chooseType()
+            time.sleep(1)
         with allure.step('选择视频'):
             self.page.friend_chat().click_videoBtn()
         with allure.step('视频选择页选中一个视频并发送'):
             time.sleep(3)
             self.page.choose_video().click_chooseVideo()
-            time.sleep(10)
-            self.page.friend_chat().click_back()
+            time.sleep(5)
+            self.page.friend_chat().click_backTeam()
+            self.page.friend_chat().click_backTeam()
             count = self.driver.find_element_by_id('com.huiian.timing:id/friend_msg_content_tv').text
             e1 = self.driver.find_element_by_id("com.huiian.timing:id/iv_friend")
             self.action.long_press(e1, None, None, 3000).perform()
@@ -111,11 +88,3 @@ class Test_friendChat():
             time.sleep(1)
         with allure.step('校验结果：若发送成功，消息页会显示最新视频'):
             assert count == "[视频]"
-    #
-
-
-
-
-
-
-

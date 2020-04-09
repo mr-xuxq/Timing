@@ -17,7 +17,6 @@ class Shouye(BaseAction):
     sVlogBtn = By.ID, 'com.huiian.timing:id/tv_svlog_title'
     # 【树洞对讲机按钮】
     treeHoleBtn = By.ID, 'com.huiian.timing:id/cl_entry'
-
     # 【自习室按钮】
     videoRoomBtn = By.ID, 'com.huiian.timing:id/cl_zxs_entrance'
 
@@ -48,6 +47,9 @@ class Shouye(BaseAction):
 
     def swipeUp(self):
         self.swipeOperat(0.5,0.8,0.5,0.2,500)
+
+    def swipeByShouye(self):
+        self.swipeOperat(0.5, 0.8, 0.5, 0.2,500)
 
     def tapScreen(self,x,y):
         L = self.getSize()

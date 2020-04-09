@@ -23,7 +23,7 @@ class Test_tomatoTiming():
             self.page.more().swipeByMore()
             time.sleep(3)
         with allure.step('点击学习计时按钮，设定内容后开始'):
-            self.page.more().click_timing()
+            self.page.more().click_normalTiming()
             self.page.more().click_tomato()
             self.page.timing().input_tomatoContentBox('This is tomatoTiming')
             self.page.timing().click_startTomatoBtn()
