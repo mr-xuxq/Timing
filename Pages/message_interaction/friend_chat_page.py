@@ -13,6 +13,10 @@ class Friend_chat(BaseAction):
     groupChat = By.XPATH, '//*[@text="群聊"]'
     # 发送消息失败
     failSend = By.ID, 'com.huiian.timing: id/message_item_alert'
+    # 道友页后退按钮
+    backBtn = By.ID, 'com.huiian.timing:id/team_back_fl'
+    # 群组页后退按钮
+    backTeamBtn = By.ID, 'com.huiian.timing:id/iv_back'
     # 聊天页面输入框
     messageBox = By.ID, 'com.huiian.timing:id/editTextMessage'
     # 发送
@@ -37,7 +41,10 @@ class Friend_chat(BaseAction):
         self.click(self.groupActive)
     def click_groupChat(self):
         self.click(self.groupChat)
-
+    def click_back(self):
+        self.click(self.backBtn)
+    def click_backTeam(self):
+        self.click(self.backTeamBtn)
     def click_messageBox(self):
         self.click(self.messageBox)
 

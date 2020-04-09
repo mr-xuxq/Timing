@@ -121,10 +121,7 @@ class Timing(BaseAction):
             return True
 
     def check_videoStartDialog(self):
-        if self.find_element(self.videoStartDialog,timeout=2, poll=1) == "":
-            return False
-        else:
-            return True
+        return self.is_feature_exist(self.videoStartDialog)
 
     def check_sleepingClose(self):
         if self.find_element(self.sleepingClose, timeout=2, poll=1) == "":

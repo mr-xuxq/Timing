@@ -16,9 +16,14 @@ class Message(BaseAction):
     messagePoint = By.ID, 'com.huiian.timing:id/friend_msg_new_iv'
     #群组标志
     messageTeam = By.ID,'com.huiian.timing:id/team_type_iv'
+    # 置顶按钮
+    setTopBtn = By.ID, 'com.huiian.timing:id/popupwindow_set_top_tv'
 
     def click_messageBtn(self):
         self.click(self.messageBtn)
+
+    def click_messageTeam(self):
+        self.click(self.messageTeam)
 
     def click_timingService(self):
         self.click(self.timingService)
@@ -31,6 +36,9 @@ class Message(BaseAction):
 
     def click_messagePoint(self):
         self.click(self.messagePoint)
+
+    def click_setTop(self):
+        self.click(self.setTopBtn)
 
     #在规定时间内是否找到元素
     def waitAndfind_timingService(self):
@@ -85,4 +93,9 @@ class Message(BaseAction):
         if self.find_element(self.messageTeam, timeout=2, poll=1) == "":
             return False
         else:
-            self.click(self.messageTeam)
+            return True
+
+
+    def get_followCount(self):
+        count = self.driver.find_element_by_id('com.huiian.timing:id/friend_msg_content_tv').text
+        return count

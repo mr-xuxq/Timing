@@ -1,6 +1,7 @@
 import time,pytest, allure
 from Pages.page import Page
 from base.base_driver import Base
+from appium.webdriver.common.touch_action import TouchAction
 
 @allure.feature('聊天页功能')
 class Test_friendChat():
@@ -12,6 +13,7 @@ class Test_friendChat():
         #设定全局等待
         self.driver.implicitly_wait(50)
         self.page = Page(self.driver)
+        self.action = TouchAction(self.driver)
 
     #tearDown(）函数是在众多函数执行完后他才被执行，意思就是不管这个类里面有多少函数，他总是最后一个被执行的，与位置无关，最后不管测试函数是否执行成功都执行tearDown()方法；如果setUp()方法失败，则认为这个测试项目失败，不会执行测试函数也不执行tearDown()方法。
     #当我在测试完的时候我要对测试有一个销毁的过程比如说关闭浏览器，那么我们就写在tearDown当中
@@ -31,14 +33,21 @@ class Test_friendChat():
                     self.page.message().swipeByMessage()
                     i += 1
         with allure.step('找到道友后点击channel进入聊天页面'):
+            e1 = self.driver.find_element_by_id("com.huiian.timing:id/iv_friend")
+            self.action.long_press(e1, None, None, 3000).perform()
+            time.sleep(2)
+            self.page.message().click_setTop()
+            time.sleep(1)
             self.page.message().click_messageFriend()
         with allure.step('输入聊天消息并点击发送'):
             self.page.friend_chat().click_messageBox()
             self.page.friend_chat().input_messageBox("I am a message!")
             self.page.friend_chat().click_messageSend()
-        with allure.step('校验结果：如果出现发送失败红点——>失败'):
-            #判断时间过长.......需要优化
-            assert self.page.friend_chat().waitAndfind_failSend() == False
+            time.sleep(5)
+            self.page.friend_chat().click_back()
+            count = self.driver.find_element_by_id('com.huiian.timing:id/friend_msg_content_tv').text
+        with allure.step('校验结果：若发送成功，消息页会显示最新消息'):
+            assert count == "I am a message!"
 
     @allure.story('图片聊天')
     def test_chatImage(self):
@@ -64,8 +73,11 @@ class Test_friendChat():
             time.sleep(3)
             self.page.choose_image().click_chooseImage()
             self.page.choose_image().click_nextStep()
-        with allure.step('校验结果：如果出现发送失败红点——>失败'):
-            assert self.page.friend_chat().waitAndfind_failSend() == False
+            time.sleep(5)
+            self.page.friend_chat().click_back()
+            count = self.driver.find_element_by_id('com.huiian.timing:id/friend_msg_content_tv').text
+        with allure.step('校验结果：若发送成功，消息页会显示最新图片'):
+            assert count == "[图片]"
 
     @allure.story('视频聊天')
     def test_chatVideo(self):
@@ -89,9 +101,17 @@ class Test_friendChat():
         with allure.step('视频选择页选中一个视频并发送'):
             time.sleep(3)
             self.page.choose_video().click_chooseVideo()
-        with allure.step('校验结果：如果出现发送失败红点——>失败'):
-            assert self.page.friend_chat().waitAndfind_failSend() == False
-
+            time.sleep(10)
+            self.page.friend_chat().click_back()
+            count = self.driver.find_element_by_id('com.huiian.timing:id/friend_msg_content_tv').text
+            e1 = self.driver.find_element_by_id("com.huiian.timing:id/iv_friend")
+            self.action.long_press(e1, None, None, 3000).perform()
+            time.sleep(2)
+            self.page.message().click_setTop()
+            time.sleep(1)
+        with allure.step('校验结果：若发送成功，消息页会显示最新视频'):
+            assert count == "[视频]"
+    #
 
 
 

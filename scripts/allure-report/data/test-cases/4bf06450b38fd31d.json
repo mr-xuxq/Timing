@@ -1,0 +1,195 @@
+{
+  "uid" : "4bf06450b38fd31d",
+  "name" : "test_browsesVlog",
+  "fullName" : "test_004_browsesVlog.Test_browsesVlog#test_browsesVlog",
+  "historyId" : "790727842bfa5ad8cb622c1098d694cf",
+  "time" : {
+    "start" : 1585821921015,
+    "stop" : 1585822000625,
+    "duration" : 79610
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "点击sVlog标题",
+      "time" : {
+        "start" : 1585821921015,
+        "stop" : 1585821958531,
+        "duration" : 37516
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "浏览长视频列表",
+      "time" : {
+        "start" : 1585821958531,
+        "stop" : 1585821990522,
+        "duration" : 31991
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "断言:无任何崩溃闪退",
+      "time" : {
+        "start" : 1585821990522,
+        "stop" : 1585822000625,
+        "duration" : 10103
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_004_browsesVlog"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_browsesVlog"
+  }, {
+    "name" : "host",
+    "value" : "PV-X00232293"
+  }, {
+    "name" : "thread",
+    "value" : "4068-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_004_browsesVlog"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "8f9dae6c75c1a058",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585818187302,
+        "stop" : 1585818256710,
+        "duration" : 69408
+      }
+    }, {
+      "uid" : "85f275f2454d3b28",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585741059794,
+        "stop" : 1585741117520,
+        "duration" : 57726
+      }
+    }, {
+      "uid" : "5bc97464c93afd05",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585723380358,
+        "stop" : 1585723450123,
+        "duration" : 69765
+      }
+    }, {
+      "uid" : "6f83672d408e5c3c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585722384661,
+        "stop" : 1585722441513,
+        "duration" : 56852
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 8,
+        "unknown" : 0,
+        "total" : 8
+      },
+      "items" : [ {
+        "uid" : "683b2ca144753084",
+        "reportUrl" : "http://192.168.88.58:8080/job/Timing/13/allure/#testresult/683b2ca144753084",
+        "status" : "passed",
+        "time" : {
+          "start" : 1585821921015,
+          "stop" : 1585822000625,
+          "duration" : 79610
+        }
+      }, {
+        "uid" : "ac6b40719a6d7c28",
+        "reportUrl" : "http://192.168.88.58:8080/job/Timing/12/allure/#testresult/ac6b40719a6d7c28",
+        "status" : "passed",
+        "time" : {
+          "start" : 1585821921015,
+          "stop" : 1585822000625,
+          "duration" : 79610
+        }
+      }, {
+        "uid" : "c7288a57a77cb938",
+        "reportUrl" : "http://192.168.88.58:8080/job/Timing/11/allure/#testresult/c7288a57a77cb938",
+        "status" : "passed",
+        "time" : {
+          "start" : 1585818187302,
+          "stop" : 1585818256710,
+          "duration" : 69408
+        }
+      }, {
+        "uid" : "884d842b30c88ced",
+        "reportUrl" : "http://192.168.88.58:8080/job/Timing/10/allure/#testresult/884d842b30c88ced",
+        "status" : "passed",
+        "time" : {
+          "start" : 1585741059794,
+          "stop" : 1585741117520,
+          "duration" : 57726
+        }
+      }, {
+        "uid" : "dd1764280a521b3b",
+        "reportUrl" : "http://192.168.88.58:8080/job/Timing/9/allure/#testresult/dd1764280a521b3b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1585723380358,
+          "stop" : 1585723450123,
+          "duration" : 69765
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "4bf06450b38fd31d.json",
+  "parameterValues" : [ ]
+}

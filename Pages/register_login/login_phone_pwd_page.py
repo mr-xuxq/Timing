@@ -9,8 +9,7 @@ class Login_phone_pwd(BaseAction):
     pwdBox =By.ID,'com.huiian.timing:id/et_password'
     #【登录】
     loginBtn =By.ID,'com.huiian.timing:id/tv_login_verify'
-    # 【目标】
-    target =By.ID, 'com.huiian.timing:id/message_img'
+
 
     def input_phone(self, content):
         self.input(self.phoneBox,content)
@@ -23,10 +22,4 @@ class Login_phone_pwd(BaseAction):
 
     def back(self):
         self.press_back()
-
-    def waitAndFind(self):
-        if  self.waitLoading(self.target,t=20) == True:
-            return True
-        else:
-            return False
 

@@ -40,6 +40,7 @@ class Test_channelCheck():
     def test_interaction(self):
         with allure.step('进入消息页面'):
             self.page.message().click_messageBtn()
+
         with allure.step('滑动寻找互动通知'):
             i = 0
             while i < 3:
