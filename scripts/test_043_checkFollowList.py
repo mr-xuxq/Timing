@@ -25,12 +25,13 @@ class Test_CheckFollowList():
             #print(number1)
         with allure.step('点击进入首页'):
             time.sleep(2)
-            self.page.shouye().click_shouyeBtn()
+            self.page.shouye().click_shouye()
         with allure.step('点击一篇日记,进入详情页'):
             time.sleep(2)
-            self.driver.tap([(105,1550),(291,1628)],500)
+            self.page.shouye().tapScreen(0.23,0.84)
         with allure.step('日记进详情页,点击关注'):
-            self.page.daily().click_followBtn()
+            time.sleep(3)
+            self.page.daily().click_follow()
         with allure.step('点击返回,回到首页'):
             self.driver.press_keycode(4)
         with allure.step('点击进入更多页面'):
@@ -43,7 +44,8 @@ class Test_CheckFollowList():
             time.sleep(2)
             number2 = self.page.more().get_followCount()
             temp2 = int(number2) - 1
-        assert self.page.more().compare_count(temp1,temp2) == True
+        with allure.step('判断关注人数变化是否正确'):
+            assert self.page.more().compare_count(temp1,temp2) == True
 
 
 
