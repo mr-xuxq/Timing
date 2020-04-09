@@ -14,7 +14,7 @@ class Test_CheckFollowList():
     def teardown(self):
         self.driver.quit()
 
-    @allure.story('')
+    @allure.story('关注一位陌生用户，查看用户数量变化是否正确')
     def test_checkFollowList(self):
         with allure.step('进入更多页面'):
             self.page.more().click_more()
@@ -44,6 +44,33 @@ class Test_CheckFollowList():
             number2 = self.page.more().get_followCount()
             temp2 = int(number2) - 1
         assert self.page.more().compare_count(temp1,temp2) == True
+
+    @allure.story('取消关注一位人数，查看用户数量变化是否正确')
+    def test_checkFollowList(self):
+        with allure.step('进入更多页面'):
+            self.page.more().click_more()
+            time.sleep(3)
+        with allure.step('获取关注列表的人数'):
+            number1 = self.page.more().get_followCount()
+            temp1 = int(number1)
+            # print(number1)
+        with allure.step('进入我的关注页面'):
+            self.page.more().click_followCount()
+            time.sleep(2)
+        with allure.step('点击已关注按钮，取消关注'):
+            self.page.follow().cancel_followed()
+            self.page.follow().cancelFollowedRight()
+        with allure.step('返回更多页面'):
+            self.driver.press_keycode(4)
+            time.sleep(5)
+            self.page.more().swipeByRefresh()
+        with allure.step('再次获取关注人数'):
+            time.sleep(2)
+            number2 = self.page.more().get_followCount()
+            temp2 = int(number2) + 1
+        assert self.page.more().compare_count(temp1, temp2) == True
+
+
 
 
 

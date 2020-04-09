@@ -23,8 +23,13 @@ class Test_getupRecord():
             time.sleep(3)
         with allure.step('点击起床，关闭起床打卡弹窗'):
             self.page.more().click_sleep()
+            time.sleep(2)
             #点击【起床】按钮
-            self.driver.tap([(355, 1866), (456, 1900)], 500)
+            self.page.more().clickCoordinate_getUp()
+            time.sleep(4)
+            # 分享弹窗不能被定位，点击返回
+            self.driver.press_keycode(4)
+            time.sleep(4)
             # 分享弹窗不能被定位，点击返回
             self.driver.press_keycode(4)
         with allure.step('判断是否成功起床'):

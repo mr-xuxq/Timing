@@ -71,6 +71,14 @@ class BaseAction(Base):
         Y2 = int(l[1] * y2)
         self.driver.swipe(X1, Y1, X2, Y2, t)
 
+    def clickOperat(self,x1, y1, x2, y2, t):
+        l = self.getSize()
+        X1 = int(l[0] * x1)
+        X2 = int(l[0] * x2)
+        Y1 = int(l[1] * y1)
+        Y2 = int(l[1] * y2)
+        self.driver.tap([(X1,Y1), (X2, Y2)], t)
+
     #判断元素是否在当前页面内
     def is_feature_exist(self, feature):
         try:

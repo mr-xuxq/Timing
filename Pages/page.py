@@ -18,6 +18,8 @@ from Pages.personal_information.setting_page import Setting
 from Pages.personal_information.editPersonInfo_page import Edit_personal_info
 from Pages.personal_information.nameInfo_page import Name_info
 from Pages.personal_information.person_home_page import Person_home
+from Pages.personal_information.follow_page import Follow
+from Pages.personal_information.identification_page import Identification
 # ——————————————————————-—————-Post_content————————————————————-—-——#
 from Pages.post_content.publish_page import Post_content
 # ———————————————————————————-Register_login————————————————-———-—-——#
@@ -89,6 +91,12 @@ class Page:
 
     def person_home(self):
         return Person_home(self.driver)
+
+    def follow(self):
+        return Follow(self.driver)
+
+    def identification(self):
+        return Identification(self.driver)
 # ——————————————————————-—————-Post_content————————————————————-—-——#
     def post_content(self):
         return Post_content(self.driver)
