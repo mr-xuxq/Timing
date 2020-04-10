@@ -1,0 +1,160 @@
+{
+  "uid" : "93b65e67cf857b56",
+  "name" : "test_interaction",
+  "fullName" : "test_021_channelCheck.Test_channelCheck#test_interaction",
+  "historyId" : "7756e9d1712a198e75d266281d84377e",
+  "time" : {
+    "start" : 1586507762674,
+    "stop" : 1586507808310,
+    "duration" : 45636
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert False == True\n  -False\n  +True",
+  "statusTrace" : "self = <scripts.test_021_channelCheck.Test_channelCheck object at 0x000001481326B978>\n\n    @allure.story('互动通知channel')\n    def test_interaction(self):\n        with allure.step('进入消息页面'):\n            self.page.message().click_messageBtn()\n    \n        with allure.step('滑动寻找互动通知'):\n            i = 0\n            while i < 3:\n                if self.page.message().check_interaction()== True:\n                    break\n                else:\n                    self.page.message().swipeByMessage()\n                    i += 1\n        with allure.step('校验结果'):\n>           assert self.page.message().waitAndfind_interaction()== True\nE           assert False == True\nE             -False\nE             +True\n\ntest_021_channelCheck.py:53: AssertionError",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert False == True\n  -False\n  +True",
+    "statusTrace" : "self = <scripts.test_021_channelCheck.Test_channelCheck object at 0x000001481326B978>\n\n    @allure.story('互动通知channel')\n    def test_interaction(self):\n        with allure.step('进入消息页面'):\n            self.page.message().click_messageBtn()\n    \n        with allure.step('滑动寻找互动通知'):\n            i = 0\n            while i < 3:\n                if self.page.message().check_interaction()== True:\n                    break\n                else:\n                    self.page.message().swipeByMessage()\n                    i += 1\n        with allure.step('校验结果'):\n>           assert self.page.message().waitAndfind_interaction()== True\nE           assert False == True\nE             -False\nE             +True\n\ntest_021_channelCheck.py:53: AssertionError",
+    "steps" : [ {
+      "name" : "进入消息页面",
+      "time" : {
+        "start" : 1586507762674,
+        "stop" : 1586507776663,
+        "duration" : 13989
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "滑动寻找互动通知",
+      "time" : {
+        "start" : 1586507776663,
+        "stop" : 1586507777022,
+        "duration" : 359
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "校验结果",
+      "time" : {
+        "start" : 1586507777022,
+        "stop" : 1586507808310,
+        "duration" : 31288
+      },
+      "status" : "failed",
+      "statusMessage" : "AssertionError: assert False == True\n  -False\n  +True\n",
+      "statusTrace" : "  File \"D:\\jenkins\\workspace\\Timing\\scripts\\test_021_channelCheck.py\", line 53, in test_interaction\n    assert self.page.message().waitAndfind_interaction()== True\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 3,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "消息页channel展示"
+  }, {
+    "name" : "story",
+    "value" : "互动通知channel"
+  }, {
+    "name" : "suite",
+    "value" : "test_021_channelCheck"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_channelCheck"
+  }, {
+    "name" : "host",
+    "value" : "PV-X00232293"
+  }, {
+    "name" : "thread",
+    "value" : "11500-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_021_channelCheck"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "5b2b08a5f3669991",
+      "status" : "passed",
+      "time" : {
+        "start" : 1586158964934,
+        "stop" : 1586158984541,
+        "duration" : 19607
+      }
+    }, {
+      "uid" : "456725d94d9b288a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1586146742274,
+        "stop" : 1586146749126,
+        "duration" : 6852
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "50e77504d084d38b",
+        "reportUrl" : "http://192.168.88.58:8080/job/Timing/16/allure/#testresult/50e77504d084d38b",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+        "time" : {
+          "start" : 1586251687108,
+          "stop" : 1586251730138,
+          "duration" : 43030
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "93b65e67cf857b56.json",
+  "parameterValues" : [ ]
+}

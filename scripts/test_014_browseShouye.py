@@ -14,10 +14,17 @@ class Test_browseShowye():
 
     def test_browseShowye(self):
         time.sleep(5)
-        i = 0
-        while i<50:
-        #while True:
-            self.page.shouye().swipeByShouye()
-            i += 1
-        #断言
-        assert self.page.shouye().waitAndFind() == True
+        with allure.step('检测登陆状态'):
+            result = self.page.shouye().check_shouye()
+            if result == True:
+                with allure.step('登陆到首页成功，开始浏览'):
+                    i = 0
+                    while i<50:
+                    #while True:
+                        self.page.shouye().swipeByShouye()
+                        i += 1
+                    #断言
+                    assert self.page.shouye().check_shouye() == True
+            else:
+                with allure.step('登陆到首页超时或失败，结束用例'):
+                    pass
