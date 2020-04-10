@@ -34,6 +34,7 @@ from Pages.register_login.login_phone_captcha_page import Login_phone_captcha
 from Pages.register_login.register_add_tags_page import Register_add_tags
 from Pages.register_login.register_fillInformation_page import Register_fillInformation
 from Pages.register_login.selectPhoto_page import Select_photo
+from Pages.register_login.binding_phone_page import Banding_phone
 from Pages.register_login.guide_page import Guide
 # —————————————————————————————-Timed_learning—————-————————————-—-——#
 from Pages.timed_learning.timing_page import Timing
@@ -137,6 +138,9 @@ class Page:
 
     def select_photo(self):
         return Select_photo(self.driver)
+
+    def banding_phone(self):
+        return Banding_phone(self.driver)
 
     def guide(self):
         return Guide(self.driver)

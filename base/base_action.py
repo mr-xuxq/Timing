@@ -83,7 +83,7 @@ class BaseAction(Base):
     #判断元素是否在当前页面内
     def is_feature_exist(self, feature):
         try:
-            self.find_element(feature)
+            self.driver.find_element_by_id(feature)
         except Exception as e:
             return False
         else:
