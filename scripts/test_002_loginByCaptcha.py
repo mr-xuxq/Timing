@@ -7,7 +7,7 @@ import pandas as pd
 from sqlalchemy import create_engine
 phone = 10000000099
 #此处填入数据库连接
-engine = create_engine('mysql+pymysql://timing_read_only:db_only_hsyt21@rr-bp12u85w22spt5976do.mysql.rds.aliyuncs.com:3306/timing?charset=utf8')  # 正式服
+
 
 
 class Test_loginByCaptcha():
