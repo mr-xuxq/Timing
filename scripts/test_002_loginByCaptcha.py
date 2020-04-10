@@ -7,6 +7,7 @@ import pandas as pd
 from sqlalchemy import create_engine
 phone = 10000000099
 #此处填入数据库连接
+engine = create_engine('mysql+pymysql://timing_read_only:db_only_hsyt21@rr-bp12u85w22spt5976do.mysql.rds.aliyuncs.com:3306/timing?charset=utf8')  # 正式服
 
 
 class Test_loginByCaptcha():
@@ -41,7 +42,7 @@ class Test_loginByCaptcha():
         with allure.step('点击完成'):
             self.page.login_phone_captcha().click_loginBtn()
         with allure.step('断言:登录成功'):
-            assert self.page.login().waitAndFind() == True
+            assert self.page.shouye().check_shouye() == True
 
     def test_logout(self):
         with allure.step('点击更多按钮'):

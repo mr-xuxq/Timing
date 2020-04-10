@@ -8,6 +8,7 @@ from sqlalchemy import create_engine
 phone = 10000000860
 nickName = 9527
 # 此处填入服务器连接
+engine = create_engine('mysql+pymysql://timing_read_only:db_only_hsyt21@rr-bp12u85w22spt5976do.mysql.rds.aliyuncs.com:3306/timing?charset=utf8')  # 正式服
 
 
 class Test_registerAccount():
@@ -27,25 +28,6 @@ class Test_registerAccount():
     # @pytest.mark.parametrize("args", analyze_file("address_data.yaml", "test_address"))                               # 装饰器
     #手机号密码登录测试用例
     def test_registerAccount(self):
-        # with allure.step('第'):
-        #     result = self.page.login().check_fristPage()
-        #     if result == False:
-        #         with allure.step('用户当前已完成授权'):
-        #             pass
-        #     else:
-        #         with allure.step('用户当前未授权'):
-        #             time.sleep(2)
-        #             self.page.login().check_location()
-        #             if result == False:
-        #                 with allure.step('用户当前已同意定位'):
-        #                     pass
-        #             else:
-        #                 with allure.step('用户当前未授权定位'):
-        #                     self.page.login().click_allowLocation()
-        #             self.page.login().click_agree()
-        #             time.sleep(3)
-        #             self.page.login().click_ignore()
-        #             time.sleep(2)
         with allure.step('点击手机号登录'):
             self.page.login().click_phone_login()
         with allure.step('查询尚未注册的手机号并填入'):

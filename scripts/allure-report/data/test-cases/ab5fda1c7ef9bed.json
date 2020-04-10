@@ -1,0 +1,168 @@
+{
+  "uid" : "ab5fda1c7ef9bed",
+  "name" : "test_videoRecordTiming",
+  "fullName" : "test_053_videoRecordTiming.Test_videoRecordTiming#test_videoRecordTiming",
+  "historyId" : "51867c13abb9a21a0481d8e2b12818f2",
+  "time" : {
+    "start" : 1586509174638,
+    "stop" : 1586509435944,
+    "duration" : 261306
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert False == True\n  -False\n  +True",
+  "statusTrace" : "self = <scripts.test_053_videoRecordTiming.Test_videoRecordTiming object at 0x0000014814497A20>\n\n    @allure.story('视频打卡操作')\n    def test_videoRecordTiming(self):\n        with allure.step('进入更多页面'):\n            self.page.more().click_more()\n            time.sleep(5)\n        with allure.step('滑动更多页面至底部'):\n            self.page.more().swipeByMore()\n            time.sleep(3)\n            self.page.more().swipeByMore()\n            time.sleep(1)\n        with allure.step('点击视频打卡按钮，设定内容后开始'):\n            self.page.more().click_video()\n            self.page.timing().input_videoContentBox('This is videoTiming')\n            time.sleep(3)\n            self.page.timing().click_startVideoBtn()\n            while self.page.timing().check_videoStartDialog() == True:\n                self.page.timing().click_videoStartDialog()\n                break\n            self.page.timing().click_videoStartBtn()\n            time.sleep(70)\n            self.page.timing().click_timingEnd()\n            self.page.timing().click_videoEndDialog()\n        with allure.step('校验结果：视频打卡1min后判断计时是否正常结束'):\n>           assert self.page.timing().waitAndfind_videoSuccess()== True\nE           assert False == True\nE             -False\nE             +True\n\ntest_053_videoRecordTiming.py:40: AssertionError",
+  "flaky" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert False == True\n  -False\n  +True",
+    "statusTrace" : "self = <scripts.test_053_videoRecordTiming.Test_videoRecordTiming object at 0x0000014814497A20>\n\n    @allure.story('视频打卡操作')\n    def test_videoRecordTiming(self):\n        with allure.step('进入更多页面'):\n            self.page.more().click_more()\n            time.sleep(5)\n        with allure.step('滑动更多页面至底部'):\n            self.page.more().swipeByMore()\n            time.sleep(3)\n            self.page.more().swipeByMore()\n            time.sleep(1)\n        with allure.step('点击视频打卡按钮，设定内容后开始'):\n            self.page.more().click_video()\n            self.page.timing().input_videoContentBox('This is videoTiming')\n            time.sleep(3)\n            self.page.timing().click_startVideoBtn()\n            while self.page.timing().check_videoStartDialog() == True:\n                self.page.timing().click_videoStartDialog()\n                break\n            self.page.timing().click_videoStartBtn()\n            time.sleep(70)\n            self.page.timing().click_timingEnd()\n            self.page.timing().click_videoEndDialog()\n        with allure.step('校验结果：视频打卡1min后判断计时是否正常结束'):\n>           assert self.page.timing().waitAndfind_videoSuccess()== True\nE           assert False == True\nE             -False\nE             +True\n\ntest_053_videoRecordTiming.py:40: AssertionError",
+    "steps" : [ {
+      "name" : "进入更多页面",
+      "time" : {
+        "start" : 1586509174638,
+        "stop" : 1586509190731,
+        "duration" : 16093
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "滑动更多页面至底部",
+      "time" : {
+        "start" : 1586509190731,
+        "stop" : 1586509195299,
+        "duration" : 4568
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "点击视频打卡按钮，设定内容后开始",
+      "time" : {
+        "start" : 1586509195299,
+        "stop" : 1586509333042,
+        "duration" : 137743
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "校验结果：视频打卡1min后判断计时是否正常结束",
+      "time" : {
+        "start" : 1586509333042,
+        "stop" : 1586509435944,
+        "duration" : 102902
+      },
+      "status" : "failed",
+      "statusMessage" : "AssertionError: assert False == True\n  -False\n  +True\n",
+      "statusTrace" : "  File \"D:\\jenkins\\workspace\\Timing\\scripts\\test_053_videoRecordTiming.py\", line 40, in test_videoRecordTiming\n    assert self.page.timing().waitAndfind_videoSuccess()== True\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 4,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "视频打卡功能"
+  }, {
+    "name" : "story",
+    "value" : "视频打卡操作"
+  }, {
+    "name" : "suite",
+    "value" : "test_053_videoRecordTiming"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_videoRecordTiming"
+  }, {
+    "name" : "host",
+    "value" : "PV-X00232293"
+  }, {
+    "name" : "thread",
+    "value" : "11500-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_053_videoRecordTiming"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "35d18dac17c39e18",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1586147817930,
+        "stop" : 1586147892837,
+        "duration" : 74907
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "269e129acd652110",
+        "reportUrl" : "http://192.168.88.58:8080/job/Timing/16/allure/#testresult/269e129acd652110",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: An unknown server-side error occurred while processing the command.",
+        "time" : {
+          "start" : 1586252237347,
+          "stop" : 1586252299229,
+          "duration" : 61882
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "ab5fda1c7ef9bed.json",
+  "parameterValues" : [ ]
+}
