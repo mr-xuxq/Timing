@@ -9,8 +9,6 @@ class Tree_hole(BaseAction):
     matchHoleBtn = By.ID, 'com.huiian.timing:id/tv_mood_type'
     # 【树洞频道】
     holeChannelBtn = By.ID, 'com.huiian.timing:id/intercom_current_fm_value'
-    # 【切换频道按钮】
-    switchChannelBtn = By.ID, 'com.huiian.timing:id/intercom_fm_change'
 
 
 
@@ -20,12 +18,14 @@ class Tree_hole(BaseAction):
     def click_matchHole(self):
         self.click(self.matchHoleBtn)
 
-    def click_switchChannelBtn(self):
-        self.click(self.switchChannelBtn)
 
     def tapScreen(self,x,y):
         L = self.getSize()
         self.driver.tap([(L[0]*x,L[1]*y)],1)
 
-    def check_channel(self):
-        return self.is_feature_exist(self.holeChannelBtn[1])
+
+    def findChannel(self):
+        if  self.waitLoading(self.holeChannelBtn,t=5) == True:
+            return True
+        else:
+            return False

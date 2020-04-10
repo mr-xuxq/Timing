@@ -1,0 +1,210 @@
+{
+  "uid" : "4733cd463a25b004",
+  "name" : "test_logout",
+  "fullName" : "test_001_registerAccount.Test_registerAccount#test_logout",
+  "historyId" : "afd790239c990a2f0e6479c27d247442",
+  "time" : {
+    "start" : 1586158116963,
+    "stop" : 1586158174259,
+    "duration" : 57296
+  },
+  "status" : "broken",
+  "statusMessage" : "selenium.common.exceptions.TimeoutException: Message:",
+  "statusTrace" : "self = <scripts.test_001_registerAccount.Test_registerAccount object at 0x000001BC9FBF9198>\n\n    def test_logout(self):\n        with allure.step('点击更多按钮'):\n            self.page.more().click_more()\n        with allure.step('点击设置按钮'):\n>           self.page.more().click_setting()\n\ntest_001_registerAccount.py:85: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n..\\Pages\\personal_information\\more_page.py:35: in click_setting\n    self.click(self.settingBtn)\n..\\base\\base_action.py:39: in click\n    self.find_element(feature).click()\n..\\base\\base_action.py:22: in find_element\n    element = WebDriverWait(self.driver, timeout, poll).until(lambda x: x.find_element(feature_by, feature_value))\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <selenium.webdriver.support.wait.WebDriverWait (session=\"a3ec5cbc-fc4a-4bec-bd7e-265a75904313\")>\nmethod = <function BaseAction.find_element.<locals>.<lambda> at 0x000001BC9FD81C80>\nmessage = ''\n\n    def until(self, method, message=''):\n        \"\"\"Calls the method provided with the driver as an argument until the \\\n        return value is not False.\"\"\"\n        screen = None\n        stacktrace = None\n    \n        end_time = time.time() + self._timeout\n        while True:\n            try:\n                value = method(self._driver)\n                if value:\n                    return value\n            except self._ignored_exceptions as exc:\n                screen = getattr(exc, 'screen', None)\n                stacktrace = getattr(exc, 'stacktrace', None)\n            time.sleep(self._poll)\n            if time.time() > end_time:\n                break\n>       raise TimeoutException(message, screen, stacktrace)\nE       selenium.common.exceptions.TimeoutException: Message:\n\nd:\\python\\lib\\site-packages\\selenium\\webdriver\\support\\wait.py:80: TimeoutException",
+  "flaky" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "selenium.common.exceptions.TimeoutException: Message:",
+    "statusTrace" : "self = <scripts.test_001_registerAccount.Test_registerAccount object at 0x000001BC9FBF9198>\n\n    def test_logout(self):\n        with allure.step('点击更多按钮'):\n            self.page.more().click_more()\n        with allure.step('点击设置按钮'):\n>           self.page.more().click_setting()\n\ntest_001_registerAccount.py:85: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n..\\Pages\\personal_information\\more_page.py:35: in click_setting\n    self.click(self.settingBtn)\n..\\base\\base_action.py:39: in click\n    self.find_element(feature).click()\n..\\base\\base_action.py:22: in find_element\n    element = WebDriverWait(self.driver, timeout, poll).until(lambda x: x.find_element(feature_by, feature_value))\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <selenium.webdriver.support.wait.WebDriverWait (session=\"a3ec5cbc-fc4a-4bec-bd7e-265a75904313\")>\nmethod = <function BaseAction.find_element.<locals>.<lambda> at 0x000001BC9FD81C80>\nmessage = ''\n\n    def until(self, method, message=''):\n        \"\"\"Calls the method provided with the driver as an argument until the \\\n        return value is not False.\"\"\"\n        screen = None\n        stacktrace = None\n    \n        end_time = time.time() + self._timeout\n        while True:\n            try:\n                value = method(self._driver)\n                if value:\n                    return value\n            except self._ignored_exceptions as exc:\n                screen = getattr(exc, 'screen', None)\n                stacktrace = getattr(exc, 'stacktrace', None)\n            time.sleep(self._poll)\n            if time.time() > end_time:\n                break\n>       raise TimeoutException(message, screen, stacktrace)\nE       selenium.common.exceptions.TimeoutException: Message:\n\nd:\\python\\lib\\site-packages\\selenium\\webdriver\\support\\wait.py:80: TimeoutException",
+    "steps" : [ {
+      "name" : "点击更多按钮",
+      "time" : {
+        "start" : 1586158116963,
+        "stop" : 1586158122875,
+        "duration" : 5912
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "点击设置按钮",
+      "time" : {
+        "start" : 1586158122875,
+        "stop" : 1586158174259,
+        "duration" : 51384
+      },
+      "status" : "broken",
+      "statusMessage" : "selenium.common.exceptions.TimeoutException: Message: \n\n",
+      "statusTrace" : "  File \"D:\\jenkins\\workspace\\Timing\\scripts\\test_001_registerAccount.py\", line 85, in test_logout\n    self.page.more().click_setting()\n  File \"D:\\jenkins\\workspace\\Timing\\Pages\\personal_information\\more_page.py\", line 35, in click_setting\n    self.click(self.settingBtn)\n  File \"D:\\jenkins\\workspace\\Timing\\base\\base_action.py\", line 39, in click\n    self.find_element(feature).click()\n  File \"D:\\jenkins\\workspace\\Timing\\base\\base_action.py\", line 22, in find_element\n    element = WebDriverWait(self.driver, timeout, poll).until(lambda x: x.find_element(feature_by, feature_value))\n  File \"d:\\python\\lib\\site-packages\\selenium\\webdriver\\support\\wait.py\", line 80, in until\n    raise TimeoutException(message, screen, stacktrace)\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 2,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_001_registerAccount"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_registerAccount"
+  }, {
+    "name" : "host",
+    "value" : "PV-X00232293"
+  }, {
+    "name" : "thread",
+    "value" : "6744-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_001_registerAccount"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "1b82bc1b9f8babd2",
+      "status" : "broken",
+      "statusDetails" : "TypeError: click_more() missing 1 required positional argument: 'target'",
+      "time" : {
+        "start" : 1586146404140,
+        "stop" : 1586146404141,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "b8065bec6d88ae7d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585821842015,
+        "stop" : 1585821853491,
+        "duration" : 11476
+      }
+    }, {
+      "uid" : "42793dad084446d1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585818146951,
+        "stop" : 1585818158355,
+        "duration" : 11404
+      }
+    }, {
+      "uid" : "83ac194f6bb3fa80",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585740981785,
+        "stop" : 1585740996143,
+        "duration" : 14358
+      }
+    }, {
+      "uid" : "84bf57f14dee3013",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.SessionNotCreatedException: Message: A new session could not be created. (Original error: com.huiian.timing/.view.activity.StartupActivity never started. Current: com.huiian.timing/com.huiian.login.activity.RegisterActivity)",
+      "time" : {
+        "start" : 1585723282909,
+        "stop" : 1585723282909,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "24ff3450db27fbb4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585722301595,
+        "stop" : 1585722312840,
+        "duration" : 11245
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 5,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 8
+      },
+      "items" : [ {
+        "uid" : "4dd07d2f712be8e2",
+        "reportUrl" : "http://192.168.88.58:8080/job/Timing/13/allure/#testresult/4dd07d2f712be8e2",
+        "status" : "broken",
+        "statusDetails" : "TypeError: click_more() missing 1 required positional argument: 'target'",
+        "time" : {
+          "start" : 1586146404140,
+          "stop" : 1586146404141,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "136054ab113c22f0",
+        "reportUrl" : "http://192.168.88.58:8080/job/Timing/12/allure/#testresult/136054ab113c22f0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1585821842015,
+          "stop" : 1585821853491,
+          "duration" : 11476
+        }
+      }, {
+        "uid" : "823097a683395f69",
+        "reportUrl" : "http://192.168.88.58:8080/job/Timing/11/allure/#testresult/823097a683395f69",
+        "status" : "passed",
+        "time" : {
+          "start" : 1585818146951,
+          "stop" : 1585818158355,
+          "duration" : 11404
+        }
+      }, {
+        "uid" : "35e4050995b956d3",
+        "reportUrl" : "http://192.168.88.58:8080/job/Timing/10/allure/#testresult/35e4050995b956d3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1585740981785,
+          "stop" : 1585740996143,
+          "duration" : 14358
+        }
+      }, {
+        "uid" : "389d962500f925b5",
+        "reportUrl" : "http://192.168.88.58:8080/job/Timing/9/allure/#testresult/389d962500f925b5",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.SessionNotCreatedException: Message: A new session could not be created. (Original error: com.huiian.timing/.view.activity.StartupActivity never started. Current: com.huiian.timing/com.huiian.login.activity.RegisterActivity)",
+        "time" : {
+          "start" : 1585723282909,
+          "stop" : 1585723282909,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "4733cd463a25b004.json",
+  "parameterValues" : [ ]
+}

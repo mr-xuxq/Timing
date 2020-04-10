@@ -25,8 +25,12 @@ class Video_hall(BaseAction):
         L = self.getSize()
         self.driver.tap([(L[0]* 0.5, L[1]* 0.92)],1)
 
-    def check_label(self):
-        return self.is_feature_exist(self.SPlabel[1])
+    def waitAndFind(self):
+        if  self.waitLoading(self.SPlabel,t=5) == True:
+            return True
+        else:
+            return False
+
 
 
 

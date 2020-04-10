@@ -48,7 +48,5 @@ class Post_content(BaseAction):
     def click_close(self):
         self.click(self.closeBtn)
 
-    def tapScreen(self,x,y):
-        L = self.getSize()
-        self.driver.tap([(L[0]*x,L[1]*y)],1)
+
 

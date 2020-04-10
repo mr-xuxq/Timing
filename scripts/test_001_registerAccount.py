@@ -10,7 +10,6 @@ nickName = 9527
 # 此处填入服务器连接
 
 
-
 class Test_registerAccount():
     #setup函数是在一个类里面最先被调用的函数，而且每执行完一个函数都要从setUp()调用开始后再执行下一个函数，有几个函数就调用他几次，与位置无关，随便放在那里都是他先被调用。
     #放一些准备的工作，或者准备一些测试数据。
@@ -28,6 +27,25 @@ class Test_registerAccount():
     # @pytest.mark.parametrize("args", analyze_file("address_data.yaml", "test_address"))                               # 装饰器
     #手机号密码登录测试用例
     def test_registerAccount(self):
+        # with allure.step('第'):
+        #     result = self.page.login().check_fristPage()
+        #     if result == False:
+        #         with allure.step('用户当前已完成授权'):
+        #             pass
+        #     else:
+        #         with allure.step('用户当前未授权'):
+        #             time.sleep(2)
+        #             self.page.login().check_location()
+        #             if result == False:
+        #                 with allure.step('用户当前已同意定位'):
+        #                     pass
+        #             else:
+        #                 with allure.step('用户当前未授权定位'):
+        #                     self.page.login().click_allowLocation()
+        #             self.page.login().click_agree()
+        #             time.sleep(3)
+        #             self.page.login().click_ignore()
+        #             time.sleep(2)
         with allure.step('点击手机号登录'):
             self.page.login().click_phone_login()
         with allure.step('查询尚未注册的手机号并填入'):

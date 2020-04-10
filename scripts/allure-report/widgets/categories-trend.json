@@ -1,18 +1,35 @@
 [ {
-  "buildOrder" : 17,
-  "reportUrl" : "http://192.168.88.58:8080/job/Timing/17/allure",
+  "buildOrder" : 14,
+  "reportUrl" : "http://192.168.88.58:8080/job/Timing/14/allure",
   "reportName" : "AllureReport",
   "data" : {
-    "Product defects" : 10,
+    "Product defects" : 1,
+    "Test defects" : 11
+  }
+}, {
+  "buildOrder" : 13,
+  "reportUrl" : "http://192.168.88.58:8080/job/Timing/13/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "Test defects" : 14
+  }
+}, {
+  "buildOrder" : 12,
+  "reportUrl" : "http://192.168.88.58:8080/job/Timing/12/allure",
+  "reportName" : "AllureReport",
+  "data" : { }
+}, {
+  "buildOrder" : 11,
+  "reportUrl" : "http://192.168.88.58:8080/job/Timing/11/allure",
+  "reportName" : "AllureReport",
+  "data" : {
     "Test defects" : 2
   }
 }, {
-  "buildOrder" : 16,
-  "reportUrl" : "http://192.168.88.58:8080/job/Timing/16/allure",
+  "buildOrder" : 10,
+  "reportUrl" : "http://192.168.88.58:8080/job/Timing/10/allure",
   "reportName" : "AllureReport",
-  "data" : {
-    "Test defects" : 12
-  }
+  "data" : { }
 }, {
   "buildOrder" : 9,
   "reportUrl" : "http://192.168.88.58:8080/job/Timing/9/allure",
