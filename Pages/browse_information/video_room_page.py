@@ -15,6 +15,10 @@ class Video_room(BaseAction):
     leaveRoomBtn = By.ID, 'com.huiian.timing:id/ly_leave'
     # 【确定退出视频按钮】
     leaveYesBtn = By.ID, 'com.huiian.timing:id/popupwindow_confirm_right_tv'
+    # 【摄像头权限按钮_允许】
+    allowBtn = By.ID, 'android:id/button1'
+    # 【版聊区域】
+    messageList = By.ID, 'com.huiian.timing:id/messageListView'
 
 
 
@@ -33,8 +37,23 @@ class Video_room(BaseAction):
     def click_leaveRoom(self):
         self.click(self.leaveRoomBtn)
 
+    def click_allow(self):
+        self.click(self.allowBtn)
+
     def click_leaveYes(self):
         self.click(self.leaveYesBtn)
+
+    def check_closeBtn(self):
+        self.is_feature_exist(self.closeBtn[1])
+
+    def check_msgBtn(self):
+        self.is_feature_exist(self.msgBtn[1])
+
+    def check_exitBtn(self):
+        self.is_feature_exist(self.exitBtn[1])
+
+    def check_messageList(self):
+        self.is_feature_exist(self.messageList[1])
 
     def swipeUp(self):
         self.swipeOperat(0.5,0.8,0.5,0.2,500)

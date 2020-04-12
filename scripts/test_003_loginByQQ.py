@@ -28,22 +28,21 @@ class Test_loginByQQ():
             time.sleep(5)
         with allure.step('点击qq授权'):
             self.page.login().click_QQ_agree()
-        with allure.step('检查是否绑定手机'):
-            result = self.page.banding_phone().check_bingdingPhone()
+            time.sleep(5)
+        with allure.step('检查是否跳到首页'):
+            result = self.page.shouye().check_shouye()
             if result == True:
-                with allure.step('检查是否绑定手机，用例结束'):
-                    self.page.banding_phone().click_closeBtn()
-            else:
                 with allure.step('断言:登录成功'):
-                    assert self.page.login().waitAndFind() == True
+                    assert self.page.login().check_target() == True
+            else:
+                with allure.step('用户未绑定手机，用例结束'):
+                    self.page.banding_phone().click_closeBtn()
+
 
     def test_logout(self):
         with allure.step('检测登陆状态'):
-            result = self.page.login().check_phone()
+            result = self.page.shouye().check_shouye()
             if result == True:
-                with allure.step('处于未登录状态，用例结束'):
-                    pass
-            else:
                 with allure.step('点击更多按钮'):
                     self.page.more().click_more()
                 with allure.step('点击设置按钮'):
@@ -54,7 +53,9 @@ class Test_loginByQQ():
                     self.page.setting().click_confirmLogout()
                 with allure.step('断言:退出登录成功'):
                     assert self.page.setting().findLogin() == True
-
+            else:
+                with allure.step('处于未登录状态，用例结束'):
+                    pass
 
 
 

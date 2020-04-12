@@ -35,8 +35,11 @@ class Test_videoRoom():
                     self.page.video_hall().click_quicklyJoin()
                     time.sleep(2)
                     self.page.video_hall().coordinateClick()
+                    time.sleep(7)
+                with allure.step('初次进入自习室需要授权'):
+                    self.page.video_room().click_allow()
                     time.sleep(5)
-                with allure.step('点击退出按钮'):
-                    self.page.video_room().click_exit()
+                    self.driver.press_keycode(4)
+                    self.page.video_room().click_leaveYes()
                 with allure.step('断言:成功退出自习室'):
-                    assert self.page.video_hall().waitAndFind() == True
+                    assert self.page.video_hall().check_label() == True

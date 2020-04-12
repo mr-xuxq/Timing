@@ -20,6 +20,7 @@ class Test_postDiary():
     # @pytest.mark.parametrize("args", analyze_file("address_data.yaml", "test_address"))                               # 装饰器
     #长视频列表页浏览测试用例
     def test_postDiary(self):
+        time.sleep(5)
         with allure.step('进入发布页'):
             self.page.shouye().click_post()
         with allure.step('点击发布学习日记'):
@@ -31,6 +32,8 @@ class Test_postDiary():
         with allure.step('下一步，进入图片编辑页'):
             self.page.select_diary_photo().click_nextBtn()
         with allure.step('已确定图片，进入下一步'):
+            time.sleep(3)
+            self.page.post_content().tapScreen(0.5,0.5)
             self.page.select_diary_photo().click_selected()
         with allure.step('点击添加话题'):
             self.page.post_diary().click_addTopicBtn()
@@ -42,12 +45,22 @@ class Test_postDiary():
             self.page.post_diary().input_diaryContent("34567890JQKA2")
         with allure.step('点击发布按钮'):
             self.page.post_diary().click_post()
-        # with allure.step('完成封面选择'):
-        #     self.page.select_cover().click_next()
             time.sleep(10)
-        # with allure.step('刷新关注页'):
-        #     self.page.follow().click_follow()
-        #     time.sleep(2)
-
         with allure.step('断言:日记发布成功'):
-            assert self.page.follow().waitAndFind() == True
+            assert self.page.follow().check_deleteDiaryBtn() == True
+
+    def test_deleteDiary(self):
+        time.sleep(5)
+        with allure.step('检测登陆状态'):
+            result = self.page.shouye().check_shouye()
+            if result == True:
+                self.page.follow().click_follow()
+                self.page.follow().click_deleteDiaryBtn()
+                self.page.follow().click_yesBtn()
+                time.sleep(3)
+                result = self.page.follow().check_deleteDiaryBtn()
+                with allure.step('断言:删除日记成功'):
+                    assert result == False
+            else:
+                with allure.step('登陆到首页超时或失败，结束用例'):
+                    pass

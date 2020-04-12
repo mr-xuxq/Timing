@@ -19,6 +19,9 @@ class Shouye(BaseAction):
     treeHoleBtn = By.ID, 'com.huiian.timing:id/cl_entry'
     # 【自习室按钮】
     videoRoomBtn = By.ID, 'com.huiian.timing:id/cl_zxs_entrance'
+    # 【没有更多数据】
+    noMoreData = By.ID, 'com.huiian.timing:id/load_more_load_end_view'
+
 
 
     def click_shouye(self):
@@ -60,3 +63,10 @@ class Shouye(BaseAction):
             return True
         else:
             return False
+
+    def check_shouye(self):
+        return self.is_feature_exist(self.shouyeBtn[1])
+    def check_sVlog(self):
+        return self.is_feature_exist(self.sVlogBtn[1])
+    def check_noMoreData(self):
+        return self.is_feature_exist(self.noMoreData[1])

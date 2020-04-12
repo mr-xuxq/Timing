@@ -37,7 +37,7 @@ class Test_loginByPwd():
         with allure.step('点击登录按钮'):
             self.page.login_phone_pwd().click_loginBtn()
         with allure.step('断言:登录成功'):
-            assert self.page.login().waitAndFind() == True
+            assert self.page.shouye().check_shouye() == True
 
 
 

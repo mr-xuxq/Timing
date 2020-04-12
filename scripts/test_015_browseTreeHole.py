@@ -33,3 +33,5 @@ class Test_treeHole():
                 self.page.tree_hole().tapScreen(0.73 , 0.87)
         with allure.step('断言:树洞切换频道正常'):
             assert self.page.tree_hole().findChannel() == True
+
+#```````````````````````````````````````````````````````````````2020/4/12````````````````改到这里

@@ -18,7 +18,4 @@ class Setting(BaseAction):
         self.click(self.confirmLogoutBtn)
 
     def findLogin(self):
-        if self.waitLoading(self.target,t=5) == True:
-            return True
-        else:
-            return False
+        return self.is_feature_exist(self.target[1])

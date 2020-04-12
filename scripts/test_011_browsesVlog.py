@@ -20,11 +20,18 @@ class Test_browsesVlog():
     # @pytest.mark.parametrize("args", analyze_file("address_data.yaml", "test_address"))                               # 装饰器
     #长视频列表页浏览测试用例
     def test_browsesVlog(self):
-        with allure.step('点击sVlog标题'):
-            self.page.shouye().click_sVlog()
-            time.sleep(2)
-        with allure.step('浏览长视频列表'):
-            for i in range(1,100):
-                self.page.sVlog_list().swipeUp()
-        with allure.step('断言:无任何崩溃闪退'):
-            assert self.page.sVlog_list().waitAndFind() == True
+        with allure.step('检测首页是否有sVlog标题【服务端是否正常】'):
+            result = self.page.shouye().check_sVlog()
+            if result == True:
+                with allure.step('点击sVlog标题'):
+                    self.page.shouye().click_sVlog()
+                    time.sleep(2)
+                with allure.step('浏览长视频列表'):
+                    for i in range(1,100):
+                        self.page.sVlog_list().swipeUp()
+                with allure.step('断言:无任何崩溃闪退'):
+                    assert self.page.sVlog_list().check_sVlogTitle() == True
+            else:
+                with allure.step('服务器异常，首页无数据'):
+                    assert False == True
+
