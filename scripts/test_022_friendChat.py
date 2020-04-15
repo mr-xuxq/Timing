@@ -111,7 +111,6 @@ class Test_friendChat():
             time.sleep(1)
         with allure.step('校验结果：若发送成功，消息页会显示最新视频'):
             assert count == "[视频]"
-    #
 
 
 

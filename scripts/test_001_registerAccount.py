@@ -5,10 +5,9 @@ from base.base_driver import Base
 #from base.base_analyze import analyze_file
 import pandas as pd
 from sqlalchemy import create_engine
-phone = 10000000860
+phone = 10000000871
 nickName = 9527
 # 此处填入服务器连接
-
 
 
 class Test_registerAccount():
