@@ -3,7 +3,7 @@ from Pages.page import Page
 from base.base_driver import Base
 import allure
 sourse = []
-phone = 10000000405                                         # 登录手机
+phone = 10000000403                                         # 登录手机
 pwd = 111111                                                # 登录密码
 
 class Test_loginByPwd():
@@ -37,7 +37,7 @@ class Test_loginByPwd():
         with allure.step('点击登录按钮'):
             self.page.login_phone_pwd().click_loginBtn()
         with allure.step('断言:登录成功'):
-            assert self.page.login().waitAndFind() == True
+            assert self.page.shouye().check_shouye() == True
 
 
 

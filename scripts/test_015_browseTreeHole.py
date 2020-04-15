@@ -20,16 +20,14 @@ class Test_treeHole():
     sourse = []
     # @pytest.mark.parametrize("args", analyze_file("address_data.yaml", "test_address"))                               # 装饰器
     def test_treeHole(self):
+        time.sleep(5)
         with allure.step('点击树洞对讲机按钮'):
             self.page.tree_hole().click_treeHole()
             time.sleep(3)
-            self.page.tree_hole().tapScreen(0.39 , 0.96)
-            time.sleep(1)
-            self.page.tree_hole().tapScreen(0.39 , 0.96)
         with allure.step('点击树洞对讲机按钮'):
             self.page.tree_hole().click_matchHole()
             for i in range(1,5):
                 time.sleep(5)
-                self.page.tree_hole().tapScreen(0.73 , 0.87)
-        with allure.step('断言:树洞切换频道正常'):
-            assert self.page.tree_hole().findChannel() == True
+                self.page.tree_hole().click_switchChannelBtn()
+        with allure.step('断言:树洞频道切换正常'):
+            assert self.page.tree_hole().check_channel() == True

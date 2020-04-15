@@ -32,7 +32,6 @@ class Test_changePersonalInformation():
             self.page.name_info().click_nameRight()
         with allure.step('点击保存'):
             self.page.edit_personal_info().click_infoSubmit()
-            #待处理 time
         with allure.step('校验结果：新昵称保存成功——>成功'):
             assert self.page.person_home().waitAndfind_personInfo() == True
 

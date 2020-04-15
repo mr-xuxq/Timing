@@ -8,7 +8,7 @@ from sqlalchemy import create_engine
 phone = 10000000860
 nickName = 9527
 # 此处填入服务器连接
-engine  =  create_engine('mysql+pymysql://timing_read_only:db_only_hsyt21@rr-bp12u85w22spt5976do.mysql.rds.aliyuncs.com:3306/timing?charset=utf8')    #  正式服
+
 
 
 class Test_registerAccount():
@@ -28,25 +28,6 @@ class Test_registerAccount():
     # @pytest.mark.parametrize("args", analyze_file("address_data.yaml", "test_address"))                               # 装饰器
     #手机号密码登录测试用例
     def test_registerAccount(self):
-        # with allure.step('检测用户授权情况'):
-        #     result = self.page.login().check_phone()
-        #     if result == "":
-        #         with allure.step('用户当前已完成授权'):
-        #             pass
-        #     else:
-        #         with allure.step('用户当前未授权'):
-        #             time.sleep(2)
-        #             self.page.login().check_location()
-        #             if result == "":
-        #                 with allure.step('用户当前已同意定位'):
-        #                     pass
-        #             else:
-        #                 with allure.step('用户当前未授权定位'):
-        #                     self.page.login().click_allowLocation()
-        #             self.page.login().click_agree()
-        #             time.sleep(3)
-        #             self.page.login().click_phone_ignore()
-        #             time.sleep(2)
         with allure.step('点击手机号登录'):
             self.page.login().click_phone_login()
         with allure.step('查询尚未注册的手机号并填入'):
@@ -96,7 +77,7 @@ class Test_registerAccount():
         with allure.step('新手引导-开启Timing之旅'):
             self.page.guide().click_yesBtn()
         with allure.step('断言:注册完成'):
-            assert self.page.login().waitAndFind() == True
+            assert self.page.login().check_target() == True
 
     def test_logout(self):
         with allure.step('点击更多按钮'):

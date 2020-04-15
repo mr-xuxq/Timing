@@ -18,8 +18,6 @@ class Message(BaseAction):
     messageTeam = By.ID,'com.huiian.timing:id/team_type_iv'
     # 置顶按钮
     setTopBtn = By.ID, 'com.huiian.timing:id/popupwindow_set_top_tv'
-    #道友动态栏
-    friendDynamic = By.XPATH, '//*[@text="道友动态"]'
 
     def click_messageBtn(self):
         self.click(self.messageBtn)
@@ -90,19 +88,12 @@ class Message(BaseAction):
         else:
             return True
 
-
+    #检查是否存在群组，存在则点击，存在就滑动
     def check_messageTeam(self):
         if self.find_element(self.messageTeam, timeout=2, poll=1) == "":
             return False
         else:
             return True
-
-    #检查是否存在道友动态，存在就滑动
-    def check_friendDynamic(self):
-        if self.find_element(self.friendDynamic, timeout=2, poll=1) == "":
-            pass
-        else:
-            self.swipeOperat(0.5, 0.5, 0.5, 0.2, 1500)
 
 
     def get_followCount(self):

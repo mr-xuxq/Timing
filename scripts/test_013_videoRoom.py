@@ -25,7 +25,7 @@ class Test_videoRoom():
             time.sleep(3)
         with allure.step('检测是否存在自习室，并点击'):
             result = self.page.video_room_list().check_join()
-            if result == "":
+            if result == False:
                 with allure.step('当前没有开启的自习室，用例结束'):
                     pass
             else:
@@ -39,4 +39,4 @@ class Test_videoRoom():
                 with allure.step('点击退出按钮'):
                     self.page.video_room().click_exit()
                 with allure.step('断言:成功退出自习室'):
-                    assert self.page.video_hall().waitAndFind() == True
+                    assert self.page.video_hall().check_label() == True
