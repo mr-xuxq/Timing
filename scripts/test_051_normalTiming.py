@@ -30,7 +30,8 @@ class Test_normalTiming():
             self.page.timing().input_studyContentBox('This is Timing')
             self.page.timing().click_studySettingBtn()
             e1 = self.driver.find_element_by_xpath("//*[@text='01']")
-            self.action.long_press(e1, None, None, 800).perform()
+            #记得选择（400，800）
+            self.action.long_press(e1, None, None, 400).perform()
             self.page.timing().click_studySettingsuccessBtn()
             self.page.timing().click_startTimingBtn()
             time.sleep(62)
@@ -60,7 +61,7 @@ class Test_normalTiming():
             time.sleep(5)
             #滑动选择1min
             e1 = self.driver.find_element_by_xpath("//*[@text='01']")
-            self.action.long_press(e1, None, None, 800).perform()
+            self.action.long_press(e1, None, None, 400).perform()
             self.page.timing().click_studySettingsuccessBtn()
             self.page.timing().click_startTimingBtn()
             time.sleep(5)

@@ -62,13 +62,18 @@ class More(BaseAction):
     def swipeByTime(self):
         self.swipeOperat(0.6, 0.8, 0.6, 0.76, 500)
 
-        # 坐标点击睡觉
+    # 坐标点击睡觉
     def clickCoordinate_sleep(self):
-        self.clickOperat(0.30,0.87,0.44,0.87,500)
+        self.clickOperat(0.30, 0.87, 0.44, 0.87, 150)
 
-        # 坐标点击起床
-    def clickCoordinate_sleep(self):
-        self.clickOperat(0.30,0.87,0.44,0.87,500)
+    # self.driver.tap([(520, 2037), (521, 2037)], 500)(1080*2340)
+    # [329,1969][481,2013]
+
+    # 坐标点击起床
+    def clickCoordinate_getUp(self):
+        self.clickOperat(0.30, 0.80, 0.44, 0.80, 150)
+    # self.driver.tap([(530, 1888), (531, 1889)], 500)(1080*2340)
+    # [300, 1827][510, 2037]
 
     def waitAndfind_moreBtn(self):
         if self.waitLoading(self.moreBtn, t=2) == True:

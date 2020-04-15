@@ -17,11 +17,11 @@ class Test_createGroup():
     def test_discussTeam(self):
         with allure.step('进入更多页面'):
             self.page.more().click_more()
-            time.sleep(5)
+            time.sleep(3)
         with allure.step('滑动更多页面至底部'):
             self.page.more().swipeByMore()
         with allure.step('点击学习群'):
-            time.sleep(1)
+            time.sleep(2)
             self.page.more().click_group()
         with allure.step('选择创建学习讨论小组'):
             self.page.create_group().click_discussTeam()

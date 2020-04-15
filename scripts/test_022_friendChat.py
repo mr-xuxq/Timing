@@ -24,6 +24,12 @@ class Test_friendChat():
     def test_chatWord(self):
         with allure.step('进入消息页面'):
             self.page.message().click_messageBtn()
+        #在该用例内不用判断有没有道友动态，因为下面找不到道友会刷新页面
+        with allure.step('点击小书童后返回至消息页面，使小书童不置顶'):
+            time.sleep(2)
+            self.page.message().click_timingService()
+            time.sleep(2)
+            self.driver.press_keycode(4)
         with allure.step('滑动消息页面寻找第一个道友'):
             i = 0
             while i < 2:
@@ -32,7 +38,7 @@ class Test_friendChat():
                 else:
                     self.page.message().swipeByMessage()
                     i += 1
-        with allure.step('找到道友后点击channel进入聊天页面'):
+        with allure.step('找到道友后使channel置顶，点击channel进入聊天页面'):
             e1 = self.driver.find_element_by_id("com.huiian.timing:id/iv_friend")
             self.action.long_press(e1, None, None, 3000).perform()
             time.sleep(2)

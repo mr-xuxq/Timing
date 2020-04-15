@@ -23,24 +23,32 @@ class Test_teamChat():
     @allure.story('文字聊天')
     def test_teamChatWord(self):
         self.page.message().click_messageBtn()
-        if self.page.message().check_messageTeam() == False:
-            print('当前页面没有群组')
-        else:
-            e1 = self.driver.find_element_by_id("com.huiian.timing:id/team_type_iv")
-            self.action.long_press(e1, None, None, 3000).perform()
+        #判断当前的消息页面有没有有没有群组，没有群组时就直接pass
+        # if self.page.message().check_messageTeam() == False:
+        #     with allure.step('当前页面没有群组'):
+        #         pass
+        # else:
+        # with allure.step('当有道友动态时，滑动页面'):
+        #     self.page.message().check_friendDynamic()
+        with allure.step('点击小书童后返回至消息页面，使小书童不置顶'):
+            self.page.message().click_timingService()
             time.sleep(2)
-            self.page.message().click_setTop()
-            time.sleep(1)
-            self.page.message().click_messageTeam()
-            time.sleep(2)
-            self.page.friend_chat().click_messageBox()
-            self.page.friend_chat().input_messageBox("I am a message!")
-            self.page.friend_chat().click_messageSend()
-            time.sleep(5)
-            self.page.friend_chat().click_backTeam()
-            count = self.driver.find_element_by_id('com.huiian.timing:id/friend_msg_content_tv').text
-            with allure.step('校验结果：若发送成功，消息页会显示最新消息'):
-                assert count == "I am a message!"
+            self.driver.press_keycode(4)
+        e1 = self.driver.find_element_by_id("com.huiian.timing:id/team_type_iv")
+        self.action.long_press(e1, None, None, 3000).perform()
+        time.sleep(2)
+        self.page.message().click_setTop()
+        time.sleep(1)
+        self.page.message().click_messageTeam()
+        time.sleep(2)
+        self.page.friend_chat().click_messageBox()
+        self.page.friend_chat().input_messageBox("I am a message!")
+        self.page.friend_chat().click_messageSend()
+        time.sleep(5)
+        self.page.friend_chat().click_backTeam()
+        count = self.driver.find_element_by_id('com.huiian.timing:id/friend_msg_content_tv').text
+        with allure.step('校验结果：若发送成功，消息页会显示最新消息'):
+            assert count == "I am a message!"
 
     @allure.story('图片聊天')
     def test_chatImage(self):
