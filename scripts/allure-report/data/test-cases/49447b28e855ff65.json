@@ -1,0 +1,101 @@
+{
+  "uid" : "49447b28e855ff65",
+  "name" : "test_deleteDiary",
+  "fullName" : "test_031_postDiary.Test_postDiary#test_deleteDiary",
+  "historyId" : "12ed4c1cbb70d9a4ea5ed917fc3fc9d3",
+  "time" : {
+    "start" : 1586856915663,
+    "stop" : 1586857013098,
+    "duration" : 97435
+  },
+  "status" : "passed",
+  "flaky" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "检测登陆状态",
+      "time" : {
+        "start" : 1586856920664,
+        "stop" : 1586857013098,
+        "duration" : 92434
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "断言:删除日记成功",
+        "time" : {
+          "start" : 1586857013098,
+          "stop" : 1586857013098,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_031_postDiary"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_postDiary"
+  }, {
+    "name" : "host",
+    "value" : "PV-X00232293"
+  }, {
+    "name" : "thread",
+    "value" : "109132-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_031_postDiary"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "d40fbce8c6c17b30",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1586853703596,
+        "stop" : 1586853760868,
+        "duration" : 57272
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "49447b28e855ff65.json",
+  "parameterValues" : [ ]
+}

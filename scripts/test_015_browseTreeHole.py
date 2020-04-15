@@ -28,10 +28,11 @@ class Test_treeHole():
             self.page.tree_hole().tapScreen(0.39 , 0.96)
         with allure.step('点击树洞对讲机按钮'):
             self.page.tree_hole().click_matchHole()
+            time.sleep(8)
+            self.page.tree_hole().click_allowBtn()
+            time.sleep(3)
             for i in range(1,5):
-                time.sleep(5)
                 self.page.tree_hole().tapScreen(0.73 , 0.87)
+                time.sleep(5)
         with allure.step('断言:树洞切换频道正常'):
-            assert self.page.tree_hole().findChannel() == True
-
-#```````````````````````````````````````````````````````````````2020/4/12````````````````改到这里
+            assert self.page.tree_hole().check_channel() == True

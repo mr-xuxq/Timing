@@ -1,0 +1,168 @@
+{
+  "uid" : "70f7da0ab1021b19",
+  "name" : "test_timingService",
+  "fullName" : "test_021_channelCheck.Test_channelCheck#test_timingService",
+  "historyId" : "87a51570a60f2340ae75ec89dbbec23d",
+  "time" : {
+    "start" : 1586856377096,
+    "stop" : 1586856421225,
+    "duration" : 44129
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert False == True\n  -False\n  +True",
+  "statusTrace" : "self = <scripts.test_021_channelCheck.Test_channelCheck object at 0x00000292CB1D0048>\n\n    @allure.story('Timing小书童channel')\n    def test_timingService(self):\n        with allure.step('进入消息页面'):\n            self.page.message().click_messageBtn()\n        with allure.step('滑动寻找Timing小书童channel'):\n            i = 0\n            while i < 3:\n                # 如果在规定时间找到该元素，则跳出循环\n                if self.page.message().check_timingService()== True:\n                    break\n                # 如果没有找到，向上滑动页面继续找\n                else:\n                    self.page.message().swipeByMessage()\n                    i += 1\n        with allure.step('校验结果'):\n>           assert self.page.message().waitAndfind_timingService()== True\nE           assert False == True\nE             -False\nE             +True\n\ntest_021_channelCheck.py:37: AssertionError",
+  "flaky" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert False == True\n  -False\n  +True",
+    "statusTrace" : "self = <scripts.test_021_channelCheck.Test_channelCheck object at 0x00000292CB1D0048>\n\n    @allure.story('Timing小书童channel')\n    def test_timingService(self):\n        with allure.step('进入消息页面'):\n            self.page.message().click_messageBtn()\n        with allure.step('滑动寻找Timing小书童channel'):\n            i = 0\n            while i < 3:\n                # 如果在规定时间找到该元素，则跳出循环\n                if self.page.message().check_timingService()== True:\n                    break\n                # 如果没有找到，向上滑动页面继续找\n                else:\n                    self.page.message().swipeByMessage()\n                    i += 1\n        with allure.step('校验结果'):\n>           assert self.page.message().waitAndfind_timingService()== True\nE           assert False == True\nE             -False\nE             +True\n\ntest_021_channelCheck.py:37: AssertionError",
+    "steps" : [ {
+      "name" : "进入消息页面",
+      "time" : {
+        "start" : 1586856377097,
+        "stop" : 1586856387390,
+        "duration" : 10293
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "滑动寻找Timing小书童channel",
+      "time" : {
+        "start" : 1586856387390,
+        "stop" : 1586856389992,
+        "duration" : 2602
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "校验结果",
+      "time" : {
+        "start" : 1586856389992,
+        "stop" : 1586856421225,
+        "duration" : 31233
+      },
+      "status" : "failed",
+      "statusMessage" : "AssertionError: assert False == True\n  -False\n  +True\n",
+      "statusTrace" : "  File \"D:\\jenkins\\workspace\\Timing\\scripts\\test_021_channelCheck.py\", line 37, in test_timingService\n    assert self.page.message().waitAndfind_timingService()== True\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 3,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "消息页channel展示"
+  }, {
+    "name" : "story",
+    "value" : "Timing小书童channel"
+  }, {
+    "name" : "suite",
+    "value" : "test_021_channelCheck"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_channelCheck"
+  }, {
+    "name" : "host",
+    "value" : "PV-X00232293"
+  }, {
+    "name" : "thread",
+    "value" : "109132-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_021_channelCheck"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "b25fc44d6f4f670a",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False == True\n  -False\n  +True",
+      "time" : {
+        "start" : 1586853219210,
+        "stop" : 1586853259054,
+        "duration" : 39844
+      }
+    }, {
+      "uid" : "6b6d20da7667ec29",
+      "status" : "passed",
+      "time" : {
+        "start" : 1586158951701,
+        "stop" : 1586158961163,
+        "duration" : 9462
+      }
+    }, {
+      "uid" : "1dd8b2ced6206295",
+      "status" : "passed",
+      "time" : {
+        "start" : 1586146733018,
+        "stop" : 1586146738744,
+        "duration" : 5726
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "5de99ac2629fae2e",
+        "reportUrl" : "http://192.168.88.58:8080/job/Timing/13/allure/#testresult/5de99ac2629fae2e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1586146733018,
+          "stop" : 1586146738744,
+          "duration" : 5726
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "70f7da0ab1021b19.json",
+  "parameterValues" : [ ]
+}

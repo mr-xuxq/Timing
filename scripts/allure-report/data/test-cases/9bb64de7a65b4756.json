@@ -1,0 +1,200 @@
+{
+  "uid" : "9bb64de7a65b4756",
+  "name" : "test_chatWord",
+  "fullName" : "test_022_friendChat.Test_friendChat#test_chatWord",
+  "historyId" : "5a4fac0f9f7f7cd84f028d2da7456518",
+  "time" : {
+    "start" : 1586856483421,
+    "stop" : 1586856556014,
+    "duration" : 72593
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert '人生不能重启，但可以早起' == 'I am a message!'\n  - 人生不能重启，但可以早起\n  + I am a message!",
+  "statusTrace" : "self = <scripts.test_022_friendChat.Test_friendChat object at 0x00000292CB1D0710>\n\n    @allure.story('文字聊天')\n    def test_chatWord(self):\n        with allure.step('进入消息页面'):\n            self.page.message().click_messageBtn()\n        with allure.step('滑动消息页面寻找第一个道友'):\n            i = 0\n            while i < 2:\n                if self.page.message().check_messageFriend() == True:\n                    break\n                else:\n                    self.page.message().swipeByMessage()\n                    i += 1\n        with allure.step('找到道友后点击channel进入聊天页面'):\n            e1 = self.driver.find_element_by_id(\"com.huiian.timing:id/iv_friend\")\n            self.action.long_press(e1, None, None, 3000).perform()\n            time.sleep(2)\n            self.page.message().click_setTop()\n            time.sleep(1)\n            self.page.message().click_messageFriend()\n        with allure.step('输入聊天消息并点击发送'):\n            self.page.friend_chat().click_messageBox()\n            self.page.friend_chat().input_messageBox(\"I am a message!\")\n            self.page.friend_chat().click_messageSend()\n            time.sleep(5)\n            self.page.friend_chat().click_back()\n            count = self.driver.find_element_by_id('com.huiian.timing:id/friend_msg_content_tv').text\n        with allure.step('校验结果：若发送成功，消息页会显示最新消息'):\n>           assert count == \"I am a message!\"\nE           AssertionError: assert '人生不能重启，但可以早起' == 'I am a message!'\nE             - 人生不能重启，但可以早起\nE             + I am a message!\n\ntest_022_friendChat.py:50: AssertionError",
+  "flaky" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert '人生不能重启，但可以早起' == 'I am a message!'\n  - 人生不能重启，但可以早起\n  + I am a message!",
+    "statusTrace" : "self = <scripts.test_022_friendChat.Test_friendChat object at 0x00000292CB1D0710>\n\n    @allure.story('文字聊天')\n    def test_chatWord(self):\n        with allure.step('进入消息页面'):\n            self.page.message().click_messageBtn()\n        with allure.step('滑动消息页面寻找第一个道友'):\n            i = 0\n            while i < 2:\n                if self.page.message().check_messageFriend() == True:\n                    break\n                else:\n                    self.page.message().swipeByMessage()\n                    i += 1\n        with allure.step('找到道友后点击channel进入聊天页面'):\n            e1 = self.driver.find_element_by_id(\"com.huiian.timing:id/iv_friend\")\n            self.action.long_press(e1, None, None, 3000).perform()\n            time.sleep(2)\n            self.page.message().click_setTop()\n            time.sleep(1)\n            self.page.message().click_messageFriend()\n        with allure.step('输入聊天消息并点击发送'):\n            self.page.friend_chat().click_messageBox()\n            self.page.friend_chat().input_messageBox(\"I am a message!\")\n            self.page.friend_chat().click_messageSend()\n            time.sleep(5)\n            self.page.friend_chat().click_back()\n            count = self.driver.find_element_by_id('com.huiian.timing:id/friend_msg_content_tv').text\n        with allure.step('校验结果：若发送成功，消息页会显示最新消息'):\n>           assert count == \"I am a message!\"\nE           AssertionError: assert '人生不能重启，但可以早起' == 'I am a message!'\nE             - 人生不能重启，但可以早起\nE             + I am a message!\n\ntest_022_friendChat.py:50: AssertionError",
+    "steps" : [ {
+      "name" : "进入消息页面",
+      "time" : {
+        "start" : 1586856483421,
+        "stop" : 1586856503338,
+        "duration" : 19917
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "滑动消息页面寻找第一个道友",
+      "time" : {
+        "start" : 1586856503338,
+        "stop" : 1586856506386,
+        "duration" : 3048
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "找到道友后点击channel进入聊天页面",
+      "time" : {
+        "start" : 1586856506386,
+        "stop" : 1586856514198,
+        "duration" : 7812
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "输入聊天消息并点击发送",
+      "time" : {
+        "start" : 1586856514198,
+        "stop" : 1586856556013,
+        "duration" : 41815
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "校验结果：若发送成功，消息页会显示最新消息",
+      "time" : {
+        "start" : 1586856556013,
+        "stop" : 1586856556013,
+        "duration" : 0
+      },
+      "status" : "failed",
+      "statusMessage" : "AssertionError: assert '人生不能重启，但可以早起' == 'I am a message!'\n  - 人生不能重启，但可以早起\n  + I am a message!\n",
+      "statusTrace" : "  File \"D:\\jenkins\\workspace\\Timing\\scripts\\test_022_friendChat.py\", line 50, in test_chatWord\n    assert count == \"I am a message!\"\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 5,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "文字聊天"
+  }, {
+    "name" : "feature",
+    "value" : "聊天页功能"
+  }, {
+    "name" : "suite",
+    "value" : "test_022_friendChat"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_friendChat"
+  }, {
+    "name" : "host",
+    "value" : "PV-X00232293"
+  }, {
+    "name" : "thread",
+    "value" : "109132-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_022_friendChat"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "aef345ea7564fbf",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert '我是Timing小书童。...色的按钮来告诉我喔~^ ^' == 'I am a message!'\n  - 我是Timing小书童。你有任何问题和建议，或者想寻找学习伙伴，请点击下方蓝色的按钮来告诉我喔~^ ^\n  + I am a message!",
+      "time" : {
+        "start" : 1586853305745,
+        "stop" : 1586853337453,
+        "duration" : 31708
+      }
+    }, {
+      "uid" : "2595d21418ba5dff",
+      "status" : "passed",
+      "time" : {
+        "start" : 1586158988239,
+        "stop" : 1586159098206,
+        "duration" : 109967
+      }
+    }, {
+      "uid" : "c4b551f09201f2ca",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1586146752922,
+        "stop" : 1586146915061,
+        "duration" : 162139
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "99061bd3c4b7a9e8",
+        "reportUrl" : "http://192.168.88.58:8080/job/Timing/13/allure/#testresult/99061bd3c4b7a9e8",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+        "time" : {
+          "start" : 1586146752922,
+          "stop" : 1586146915061,
+          "duration" : 162139
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "9bb64de7a65b4756.json",
+  "parameterValues" : [ ]
+}

@@ -80,7 +80,7 @@ class Test_teamChat():
             time.sleep(5)
             self.page.friend_chat().click_backTeam()
             self.page.friend_chat().click_backTeam()
-            count = self.driver.find_element_by_id('com.huiian.timing:id/friend_msg_content_tv').text
+            count = self.driver.find_element_by_id('com.huiian.timing:id/team_type_iv').text
             e1 = self.driver.find_element_by_id("com.huiian.timing:id/iv_friend")
             self.action.long_press(e1, None, None, 3000).perform()
             time.sleep(2)

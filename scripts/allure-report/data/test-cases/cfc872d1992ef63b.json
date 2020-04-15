@@ -1,0 +1,126 @@
+{
+  "uid" : "cfc872d1992ef63b",
+  "name" : "test_chatVideo",
+  "fullName" : "test_025_groupChat.Test_teamChat#test_chatVideo",
+  "historyId" : "a3ee25ba58e5c6fea7881bab0734e793",
+  "time" : {
+    "start" : 1586853564613,
+    "stop" : 1586853601140,
+    "duration" : 36527
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "点击聊天页面添加按钮",
+      "time" : {
+        "start" : 1586853569358,
+        "stop" : 1586853582089,
+        "duration" : 12731
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "选择视频",
+      "time" : {
+        "start" : 1586853582089,
+        "stop" : 1586853582666,
+        "duration" : 577
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "视频选择页选中一个视频并发送",
+      "time" : {
+        "start" : 1586853582666,
+        "stop" : 1586853601140,
+        "duration" : 18474
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "校验结果：若发送成功，消息页会显示最新视频",
+      "time" : {
+        "start" : 1586853601140,
+        "stop" : 1586853601140,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 4,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "群组聊天功能"
+  }, {
+    "name" : "story",
+    "value" : "视频聊天"
+  }, {
+    "name" : "suite",
+    "value" : "test_025_groupChat"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_teamChat"
+  }, {
+    "name" : "host",
+    "value" : "PV-X00232293"
+  }, {
+    "name" : "thread",
+    "value" : "14340-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_025_groupChat"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "cfc872d1992ef63b.json",
+  "parameterValues" : [ ]
+}
