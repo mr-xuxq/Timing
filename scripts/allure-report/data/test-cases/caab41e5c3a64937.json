@@ -1,0 +1,164 @@
+{
+  "uid" : "caab41e5c3a64937",
+  "name" : "test_loginByPwd",
+  "fullName" : "test_loginByPwd.Test_loginByPwd#test_loginByPwd",
+  "historyId" : "d24f2dfea013e0ad01919111d120ad7e",
+  "time" : {
+    "start" : 1579351312885,
+    "stop" : 1579351330735,
+    "duration" : 17850
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_loginByPwd"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_loginByPwd"
+  }, {
+    "name" : "host",
+    "value" : "PV-X00232293"
+  }, {
+    "name" : "thread",
+    "value" : "7264-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_loginByPwd"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "dd8a572dc82d9ed6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1579292094074,
+        "stop" : 1579292115317,
+        "duration" : 21243
+      }
+    }, {
+      "uid" : "fe57f0879b8f0ea1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1579291840441,
+        "stop" : 1579291861039,
+        "duration" : 20598
+      }
+    }, {
+      "uid" : "59f46455aa1e75e2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1579291081368,
+        "stop" : 1579291102116,
+        "duration" : 20748
+      }
+    }, {
+      "uid" : "4ce2be70ad532e78",
+      "status" : "passed",
+      "time" : {
+        "start" : 1579290756682,
+        "stop" : 1579290778804,
+        "duration" : 22122
+      }
+    }, {
+      "uid" : "3d978029e101b4d4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1579290365070,
+        "stop" : 1579290388014,
+        "duration" : 22944
+      }
+    }, {
+      "uid" : "1ab12e4d60055bf2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1579289818329,
+        "stop" : 1579289838695,
+        "duration" : 20366
+      }
+    }, {
+      "uid" : "61bd2ae57be1f276",
+      "status" : "passed",
+      "time" : {
+        "start" : 1579289469276,
+        "stop" : 1579289489857,
+        "duration" : 20581
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 9,
+        "unknown" : 0,
+        "total" : 9
+      },
+      "items" : [ {
+        "uid" : "7844a92f9683d3bb",
+        "reportUrl" : "http://192.168.88.58:8080/job/Timing/17/allure/#testresult/7844a92f9683d3bb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1579351312885,
+          "stop" : 1579351330735,
+          "duration" : 17850
+        }
+      }, {
+        "uid" : "793a7bda1a36fc42",
+        "reportUrl" : "http://192.168.88.58:8080/job/Timing/16/allure/#testresult/793a7bda1a36fc42",
+        "status" : "passed",
+        "time" : {
+          "start" : 1579351312885,
+          "stop" : 1579351330735,
+          "duration" : 17850
+        }
+      }, {
+        "uid" : "2c5bb6c687363a91",
+        "reportUrl" : "http://192.168.88.58:8080/job/Timing/9/allure/#testresult/2c5bb6c687363a91",
+        "status" : "passed",
+        "time" : {
+          "start" : 1579351312885,
+          "stop" : 1579351330735,
+          "duration" : 17850
+        }
+      }, {
+        "uid" : "976a879a3b8df2a8",
+        "reportUrl" : "http://192.168.88.58:8080/job/Timing/8/allure/#testresult/976a879a3b8df2a8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1579351312885,
+          "stop" : 1579351330735,
+          "duration" : 17850
+        }
+      }, {
+        "uid" : "87d75ca466348c50",
+        "reportUrl" : "http://192.168.88.58:8080/job/Timing/7/allure/#testresult/87d75ca466348c50",
+        "status" : "passed",
+        "time" : {
+          "start" : 1579351312885,
+          "stop" : 1579351330735,
+          "duration" : 17850
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "caab41e5c3a64937.json",
+  "parameterValues" : [ ]
+}

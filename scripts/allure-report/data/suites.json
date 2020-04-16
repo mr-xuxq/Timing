@@ -7,7 +7,7 @@
       "name" : "Test_loginByCaptcha",
       "children" : [ {
         "name" : "test_loginByCaptcha",
-        "uid" : "8d6eb18a059f5a53",
+        "uid" : "165f17605c6619c0",
         "parentUid" : "d316f393751669290937b9c13e1517b4",
         "status" : "passed",
         "time" : {
@@ -19,7 +19,7 @@
         "parameters" : [ ]
       }, {
         "name" : "test_logout",
-        "uid" : "e9abfce5653d2f00",
+        "uid" : "e69c1626393cd1e7",
         "parentUid" : "d316f393751669290937b9c13e1517b4",
         "status" : "passed",
         "time" : {
@@ -39,7 +39,7 @@
       "name" : "Test_loginByPwd",
       "children" : [ {
         "name" : "test_loginByPwd",
-        "uid" : "94887fb3f478c1c2",
+        "uid" : "caab41e5c3a64937",
         "parentUid" : "30974b05a9e4a339e34cd0a67c4a46e1",
         "status" : "passed",
         "time" : {
@@ -51,7 +51,7 @@
         "parameters" : [ ]
       }, {
         "name" : "test_logout",
-        "uid" : "a52950ccb3e53fdf",
+        "uid" : "afdd102ac347469b",
         "parentUid" : "30974b05a9e4a339e34cd0a67c4a46e1",
         "status" : "passed",
         "time" : {
@@ -71,7 +71,7 @@
       "name" : "Test_registerAccount",
       "children" : [ {
         "name" : "test_registerAccount",
-        "uid" : "7c490a03947e22c",
+        "uid" : "736292482e291b48",
         "parentUid" : "bdcd1468eebc2af111f09e116993854f",
         "status" : "passed",
         "time" : {
@@ -83,7 +83,7 @@
         "parameters" : [ ]
       }, {
         "name" : "test_logout",
-        "uid" : "63771b223714d50",
+        "uid" : "3a60b4a12c4b6bcb",
         "parentUid" : "bdcd1468eebc2af111f09e116993854f",
         "status" : "passed",
         "time" : {
@@ -103,7 +103,7 @@
       "name" : "Test_browsesVlog",
       "children" : [ {
         "name" : "test_logout",
-        "uid" : "c2318b3aa3a7da65",
+        "uid" : "786786463f81ef8",
         "parentUid" : "f19e9544cd779b9b90e5d368b0e1d45b",
         "status" : "passed",
         "time" : {
@@ -115,7 +115,7 @@
         "parameters" : [ ]
       }, {
         "name" : "test_browsesVlog",
-        "uid" : "8906923bc7aa0997",
+        "uid" : "7e79349c6035df6a",
         "parentUid" : "f19e9544cd779b9b90e5d368b0e1d45b",
         "status" : "passed",
         "time" : {
@@ -135,7 +135,7 @@
       "name" : "Test_videoRoom",
       "children" : [ {
         "name" : "test_videoRoom",
-        "uid" : "6937c0ea057216b",
+        "uid" : "23579126e9162627",
         "parentUid" : "e3078619833859a5db0aaa4f9fdadc9b",
         "status" : "passed",
         "time" : {
@@ -147,7 +147,7 @@
         "parameters" : [ ]
       }, {
         "name" : "test_logout",
-        "uid" : "e47d6e606d20bc19",
+        "uid" : "fcd87bd73550c555",
         "parentUid" : "e3078619833859a5db0aaa4f9fdadc9b",
         "status" : "passed",
         "time" : {
@@ -167,7 +167,7 @@
       "name" : "Test_getupRecord",
       "children" : [ {
         "name" : "test_getupRecord",
-        "uid" : "4a488acdd4dfe9ce",
+        "uid" : "cde687cd6be97faf",
         "parentUid" : "dd48ce25b57b0ab060995753c492810c",
         "status" : "passed",
         "time" : {
@@ -187,7 +187,7 @@
       "name" : "Test_loginByPwd",
       "children" : [ {
         "name" : "test_loginByPwd",
-        "uid" : "d56d10cbd3e206f1",
+        "uid" : "e58c340d1ea3cf61",
         "parentUid" : "0c31a8645a129def59299903dca12d6a",
         "status" : "passed",
         "time" : {
@@ -207,7 +207,7 @@
       "name" : "Test_videoRoom",
       "children" : [ {
         "name" : "test_videoRoom",
-        "uid" : "540b80dda37370f4",
+        "uid" : "2876b98017aa9160",
         "parentUid" : "26038681e7b18e8ea5a42258d50d66f5",
         "status" : "passed",
         "time" : {
@@ -227,7 +227,7 @@
       "name" : "Test_browseShowye",
       "children" : [ {
         "name" : "test_swipeO",
-        "uid" : "efb9c8284d4d2faa",
+        "uid" : "33faf5c10ce1a59f",
         "parentUid" : "a841b1b74dfd90492e90635ead65d829",
         "status" : "broken",
         "time" : {
@@ -239,13 +239,13 @@
         "parameters" : [ ]
       }, {
         "name" : "test_browseShowye",
-        "uid" : "eeffc9cd09b3a419",
+        "uid" : "f61b99bb57ca8814",
         "parentUid" : "a841b1b74dfd90492e90635ead65d829",
         "status" : "passed",
         "time" : {
-          "start" : 1586856256732,
-          "stop" : 1586856295128,
-          "duration" : 38396
+          "start" : 1587003242707,
+          "stop" : 1587003294474,
+          "duration" : 51767
         },
         "flaky" : false,
         "parameters" : [ ]
@@ -259,7 +259,7 @@
       "name" : "Test_friendChat",
       "children" : [ {
         "name" : "test_pointVanish",
-        "uid" : "2eeb633b1fc50b57",
+        "uid" : "a3562a3f9acc2c2e",
         "parentUid" : "3a4d5ea977cb46055e08f29816fb719c",
         "status" : "passed",
         "time" : {
@@ -279,25 +279,25 @@
       "name" : "Test_registerAccount",
       "children" : [ {
         "name" : "test_registerAccount",
-        "uid" : "1b4cd691949b2497",
+        "uid" : "b5bbaec697a5a0b6",
         "parentUid" : "c0eb8fe272b44a0c2f669a335ab1eee9",
-        "status" : "broken",
+        "status" : "passed",
         "time" : {
-          "start" : 1586855765689,
-          "stop" : 1586855788909,
-          "duration" : 23220
+          "start" : 1587002586191,
+          "stop" : 1587002693621,
+          "duration" : 107430
         },
         "flaky" : true,
         "parameters" : [ ]
       }, {
         "name" : "test_logout",
-        "uid" : "a0d860154e20f43a",
+        "uid" : "5f88d161c3618b2e",
         "parentUid" : "c0eb8fe272b44a0c2f669a335ab1eee9",
         "status" : "broken",
         "time" : {
-          "start" : 1586855792539,
-          "stop" : 1586855843672,
-          "duration" : 51133
+          "start" : 1587002697180,
+          "stop" : 1587002767750,
+          "duration" : 70570
         },
         "flaky" : true,
         "parameters" : [ ]
@@ -311,25 +311,25 @@
       "name" : "Test_loginByCaptcha",
       "children" : [ {
         "name" : "test_loginByCaptcha",
-        "uid" : "ed493faedc98389b",
+        "uid" : "19f2f397db57e9f6",
         "parentUid" : "4246eb70788071cfdb8f814b5cd1670e",
-        "status" : "passed",
+        "status" : "broken",
         "time" : {
-          "start" : 1586855847160,
-          "stop" : 1586855870051,
-          "duration" : 22891
+          "start" : 1587002771248,
+          "stop" : 1587002864921,
+          "duration" : 93673
         },
         "flaky" : true,
         "parameters" : [ ]
       }, {
         "name" : "test_logout",
-        "uid" : "d99b186ef03f6d5a",
+        "uid" : "e97b91b058b8b7b9",
         "parentUid" : "4246eb70788071cfdb8f814b5cd1670e",
         "status" : "passed",
         "time" : {
-          "start" : 1586855873673,
-          "stop" : 1586855886864,
-          "duration" : 13191
+          "start" : 1587002868560,
+          "stop" : 1587002887376,
+          "duration" : 18816
         },
         "flaky" : true,
         "parameters" : [ ]
@@ -343,25 +343,25 @@
       "name" : "Test_loginByQQ",
       "children" : [ {
         "name" : "test_loginByQQ",
-        "uid" : "7e51fd1eb92e4005",
+        "uid" : "d4d1aa9a50aa5bf8",
         "parentUid" : "3c607b914ab476cf04889ec78d318d05",
         "status" : "passed",
         "time" : {
-          "start" : 1586855890185,
-          "stop" : 1586855907389,
-          "duration" : 17204
+          "start" : 1587002890939,
+          "stop" : 1587002911098,
+          "duration" : 20159
         },
         "flaky" : true,
         "parameters" : [ ]
       }, {
         "name" : "test_logout",
-        "uid" : "2ade1dbb4d61a735",
+        "uid" : "22357455fe5e5277",
         "parentUid" : "3c607b914ab476cf04889ec78d318d05",
         "status" : "passed",
         "time" : {
-          "start" : 1586855911193,
-          "stop" : 1586855926888,
-          "duration" : 15695
+          "start" : 1587002914964,
+          "stop" : 1587002934346,
+          "duration" : 19382
         },
         "flaky" : false,
         "parameters" : [ ]
@@ -375,25 +375,25 @@
       "name" : "Test_loginByWexin",
       "children" : [ {
         "name" : "test_loginByWexin",
-        "uid" : "39c53e2035653189",
+        "uid" : "1520995496dab01b",
         "parentUid" : "6c4fb7166724824a540b6e0e98420490",
         "status" : "passed",
         "time" : {
-          "start" : 1586855930572,
-          "stop" : 1586855967002,
-          "duration" : 36430
+          "start" : 1587002938205,
+          "stop" : 1587002975564,
+          "duration" : 37359
         },
         "flaky" : false,
         "parameters" : [ ]
       }, {
         "name" : "test_logout",
-        "uid" : "555042630b55b8ba",
+        "uid" : "dac9ddd0f9e0d19e",
         "parentUid" : "6c4fb7166724824a540b6e0e98420490",
         "status" : "passed",
         "time" : {
-          "start" : 1586855970849,
-          "stop" : 1586856004396,
-          "duration" : 33547
+          "start" : 1587002979283,
+          "stop" : 1587002998815,
+          "duration" : 19532
         },
         "flaky" : false,
         "parameters" : [ ]
@@ -407,13 +407,13 @@
       "name" : "Test_loginByPwd",
       "children" : [ {
         "name" : "test_loginByPwd",
-        "uid" : "dd5f2b1fbbda9cf0",
+        "uid" : "fcd9338d32239845",
         "parentUid" : "3bfacad316f6d4316666681b897d6eaf",
         "status" : "passed",
         "time" : {
-          "start" : 1586856007854,
-          "stop" : 1586856029532,
-          "duration" : 21678
+          "start" : 1587003002688,
+          "stop" : 1587003028335,
+          "duration" : 25647
         },
         "flaky" : false,
         "parameters" : [ ]
@@ -427,13 +427,13 @@
       "name" : "Test_browsesVlog",
       "children" : [ {
         "name" : "test_browsesVlog",
-        "uid" : "ce9e3d2fbd559fc4",
+        "uid" : "be74575c41241770",
         "parentUid" : "5b3173b99991540ef3f10a490064bbee",
         "status" : "passed",
         "time" : {
-          "start" : 1586856032964,
-          "stop" : 1586856103576,
-          "duration" : 70612
+          "start" : 1587003032192,
+          "stop" : 1587003116742,
+          "duration" : 84550
         },
         "flaky" : true,
         "parameters" : [ ]
@@ -447,13 +447,13 @@
       "name" : "Test_videoRoom",
       "children" : [ {
         "name" : "test_videoRoom_visitor",
-        "uid" : "ae0b3c977120221c",
+        "uid" : "bbe4f03683144b25",
         "parentUid" : "a73da1aa5a3a3f19eaefb2d1ef29dd02",
         "status" : "broken",
         "time" : {
-          "start" : 1586856107130,
-          "stop" : 1586856252798,
-          "duration" : 145668
+          "start" : 1587003120574,
+          "stop" : 1587003238696,
+          "duration" : 118122
         },
         "flaky" : true,
         "parameters" : [ ]
@@ -467,15 +467,15 @@
       "name" : "Test_treeHole",
       "children" : [ {
         "name" : "test_treeHole",
-        "uid" : "22eb946d38a02b9b",
+        "uid" : "cbecd7c38d182299",
         "parentUid" : "6094b3a8ec24c5e8d825bd7f47a93283",
         "status" : "broken",
         "time" : {
-          "start" : 1586856298857,
-          "stop" : 1586856373229,
-          "duration" : 74372
+          "start" : 1587003298555,
+          "stop" : 1587003375436,
+          "duration" : 76881
         },
-        "flaky" : false,
+        "flaky" : true,
         "parameters" : [ ]
       } ],
       "uid" : "6094b3a8ec24c5e8d825bd7f47a93283"
@@ -487,25 +487,25 @@
       "name" : "Test_channelCheck",
       "children" : [ {
         "name" : "test_timingService",
-        "uid" : "70f7da0ab1021b19",
+        "uid" : "c61eca89214496d3",
         "parentUid" : "fbec07a19e714553a1b9be524ad40d70",
         "status" : "failed",
         "time" : {
-          "start" : 1586856377096,
-          "stop" : 1586856421225,
-          "duration" : 44129
+          "start" : 1587003379628,
+          "stop" : 1587003425500,
+          "duration" : 45872
         },
         "flaky" : true,
         "parameters" : [ ]
       }, {
         "name" : "test_interaction",
-        "uid" : "9414003ea9106884",
+        "uid" : "1e3cbc391a77b1b2",
         "parentUid" : "fbec07a19e714553a1b9be524ad40d70",
         "status" : "failed",
         "time" : {
-          "start" : 1586856424980,
-          "stop" : 1586856479401,
-          "duration" : 54421
+          "start" : 1587003429457,
+          "stop" : 1587003476933,
+          "duration" : 47476
         },
         "flaky" : true,
         "parameters" : [ ]
@@ -519,37 +519,37 @@
       "name" : "Test_friendChat",
       "children" : [ {
         "name" : "test_chatWord",
-        "uid" : "9bb64de7a65b4756",
+        "uid" : "abe5b7e246334137",
         "parentUid" : "76c5c6376a257d6f34e925b50122579d",
         "status" : "failed",
         "time" : {
-          "start" : 1586856483421,
-          "stop" : 1586856556014,
-          "duration" : 72593
+          "start" : 1587003480721,
+          "stop" : 1587003529271,
+          "duration" : 48550
         },
         "flaky" : true,
         "parameters" : [ ]
       }, {
         "name" : "test_chatImage",
-        "uid" : "50a4ace54963ba1e",
+        "uid" : "be5961b4a2600114",
         "parentUid" : "76c5c6376a257d6f34e925b50122579d",
         "status" : "failed",
         "time" : {
-          "start" : 1586856559831,
-          "stop" : 1586856598383,
-          "duration" : 38552
+          "start" : 1587003533241,
+          "stop" : 1587003573957,
+          "duration" : 40716
         },
         "flaky" : true,
         "parameters" : [ ]
       }, {
         "name" : "test_chatVideo",
-        "uid" : "63fd1a3d63821483",
+        "uid" : "ed3536e8e7f53290",
         "parentUid" : "76c5c6376a257d6f34e925b50122579d",
         "status" : "failed",
         "time" : {
-          "start" : 1586856602149,
-          "stop" : 1586856658125,
-          "duration" : 55976
+          "start" : 1587003577865,
+          "stop" : 1587003630056,
+          "duration" : 52191
         },
         "flaky" : true,
         "parameters" : [ ]
@@ -563,13 +563,13 @@
       "name" : "Test_createGroup",
       "children" : [ {
         "name" : "test_discussTeam",
-        "uid" : "8ab282a47b390906",
+        "uid" : "9a072603d97eae4a",
         "parentUid" : "35f22e791e0069376d788858a6856f84",
         "status" : "failed",
         "time" : {
-          "start" : 1586856662015,
-          "stop" : 1586856737486,
-          "duration" : 75471
+          "start" : 1587003633726,
+          "stop" : 1587003712642,
+          "duration" : 78916
         },
         "flaky" : true,
         "parameters" : [ ]
@@ -583,39 +583,39 @@
       "name" : "Test_teamChat",
       "children" : [ {
         "name" : "test_teamChatWord",
-        "uid" : "9b401649f7f20fda",
+        "uid" : "484df46ef762bd40",
         "parentUid" : "3bfc4735c1eb9fda459c5c533904dace",
         "status" : "failed",
         "time" : {
-          "start" : 1586856741096,
-          "stop" : 1586856778099,
-          "duration" : 37003
+          "start" : 1587003716361,
+          "stop" : 1587003756666,
+          "duration" : 40305
         },
-        "flaky" : false,
+        "flaky" : true,
         "parameters" : [ ]
       }, {
         "name" : "test_chatImage",
-        "uid" : "5912ca2ef7dbab1d",
+        "uid" : "6258bf6a48590a3b",
         "parentUid" : "3bfc4735c1eb9fda459c5c533904dace",
         "status" : "failed",
         "time" : {
-          "start" : 1586856781771,
-          "stop" : 1586856812586,
-          "duration" : 30815
+          "start" : 1587003760463,
+          "stop" : 1587003795757,
+          "duration" : 35294
         },
-        "flaky" : false,
+        "flaky" : true,
         "parameters" : [ ]
       }, {
         "name" : "test_chatVideo",
-        "uid" : "5e4dd026652e8675",
+        "uid" : "4b07e0875ba766fd",
         "parentUid" : "3bfc4735c1eb9fda459c5c533904dace",
         "status" : "failed",
         "time" : {
-          "start" : 1586856816381,
-          "stop" : 1586856855084,
-          "duration" : 38703
+          "start" : 1587003799497,
+          "stop" : 1587003846805,
+          "duration" : 47308
         },
-        "flaky" : false,
+        "flaky" : true,
         "parameters" : [ ]
       } ],
       "uid" : "3bfc4735c1eb9fda459c5c533904dace"
@@ -627,25 +627,25 @@
       "name" : "Test_postDiary",
       "children" : [ {
         "name" : "test_postDiary",
-        "uid" : "c0cdba257b045d34",
+        "uid" : "9990071f95a675c0",
         "parentUid" : "34364eb8ddfed05b133e853d19dfdb30",
         "status" : "passed",
         "time" : {
-          "start" : 1586856858806,
-          "stop" : 1586856912134,
-          "duration" : 53328
+          "start" : 1587003850504,
+          "stop" : 1587003914381,
+          "duration" : 63877
         },
         "flaky" : true,
         "parameters" : [ ]
       }, {
         "name" : "test_deleteDiary",
-        "uid" : "49447b28e855ff65",
+        "uid" : "64e315cc2e39a0d",
         "parentUid" : "34364eb8ddfed05b133e853d19dfdb30",
         "status" : "passed",
         "time" : {
-          "start" : 1586856915663,
-          "stop" : 1586857013098,
-          "duration" : 97435
+          "start" : 1587003918352,
+          "stop" : 1587004027842,
+          "duration" : 109490
         },
         "flaky" : true,
         "parameters" : [ ]
@@ -659,37 +659,37 @@
       "name" : "Test_changePersonalInformation",
       "children" : [ {
         "name" : "test_nameInfo",
-        "uid" : "f7a5f8e4ed60a652",
+        "uid" : "8c84f106f586a875",
         "parentUid" : "3da7269b52b4db71b720249ca0d192b0",
         "status" : "failed",
         "time" : {
-          "start" : 1586857016448,
-          "stop" : 1586857118761,
-          "duration" : 102313
+          "start" : 1587004031677,
+          "stop" : 1587004138265,
+          "duration" : 106588
         },
         "flaky" : true,
         "parameters" : [ ]
       }, {
         "name" : "test_genderInfo",
-        "uid" : "2cb4d2970d9bcb4f",
+        "uid" : "7192b658d1894e9a",
         "parentUid" : "3da7269b52b4db71b720249ca0d192b0",
         "status" : "failed",
         "time" : {
-          "start" : 1586857122133,
-          "stop" : 1586857196252,
-          "duration" : 74119
+          "start" : 1587004141955,
+          "stop" : 1587004220325,
+          "duration" : 78370
         },
         "flaky" : true,
         "parameters" : [ ]
       }, {
         "name" : "test_imgInfo",
-        "uid" : "ea9bc0696c834266",
+        "uid" : "81d76d0ca12ffd58",
         "parentUid" : "3da7269b52b4db71b720249ca0d192b0",
         "status" : "failed",
         "time" : {
-          "start" : 1586857199579,
-          "stop" : 1586857281799,
-          "duration" : 82220
+          "start" : 1587004224024,
+          "stop" : 1587004308432,
+          "duration" : 84408
         },
         "flaky" : true,
         "parameters" : [ ]
@@ -703,13 +703,13 @@
       "name" : "Test_CheckFollowList",
       "children" : [ {
         "name" : "test_checkFollowList",
-        "uid" : "8031825ae816b4d0",
+        "uid" : "3756b2a9394a40db",
         "parentUid" : "02b05daea04ec5b53609a972e7bb0d9b",
-        "status" : "failed",
+        "status" : "broken",
         "time" : {
-          "start" : 1586857285305,
-          "stop" : 1586857368167,
-          "duration" : 82862
+          "start" : 1587004312147,
+          "stop" : 1587004386070,
+          "duration" : 73923
         },
         "flaky" : true,
         "parameters" : [ ]
@@ -723,25 +723,25 @@
       "name" : "Test_normalTiming",
       "children" : [ {
         "name" : "test_normalTiming",
-        "uid" : "dabd76a490f7b430",
+        "uid" : "34284ed2bd3d4f54",
         "parentUid" : "7605c1f9e817f9edb187ea358cc120a9",
         "status" : "passed",
         "time" : {
-          "start" : 1586857371809,
-          "stop" : 1586857463824,
-          "duration" : 92015
+          "start" : 1587004389993,
+          "stop" : 1587004483300,
+          "duration" : 93307
         },
         "flaky" : true,
         "parameters" : [ ]
       }, {
         "name" : "test_normalTiming_exit",
-        "uid" : "a936404026343321",
+        "uid" : "50a3c0f2cc235482",
         "parentUid" : "7605c1f9e817f9edb187ea358cc120a9",
-        "status" : "broken",
+        "status" : "failed",
         "time" : {
-          "start" : 1586857464665,
-          "stop" : 1586857464665,
-          "duration" : 0
+          "start" : 1587004487066,
+          "stop" : 1587004632374,
+          "duration" : 145308
         },
         "flaky" : true,
         "parameters" : [ ]
@@ -755,13 +755,13 @@
       "name" : "Test_tomatoTiming",
       "children" : [ {
         "name" : "test_tomatoTiming",
-        "uid" : "712b5af4449d5c7b",
+        "uid" : "e404e2d3d5dcda3e",
         "parentUid" : "8509f4893267b45bbdb147ca657ee355",
         "status" : "failed",
         "time" : {
-          "start" : 1586857490662,
-          "stop" : 1586857616582,
-          "duration" : 125920
+          "start" : 1587004636177,
+          "stop" : 1587004765233,
+          "duration" : 129056
         },
         "flaky" : true,
         "parameters" : [ ]
@@ -775,13 +775,13 @@
       "name" : "Test_videoRecordTiming",
       "children" : [ {
         "name" : "test_videoRecordTiming",
-        "uid" : "465f46a6fea444d0",
+        "uid" : "9ae1b8cc5bc2a857",
         "parentUid" : "0a3f95a831c030725f52d8e844a76f90",
-        "status" : "broken",
+        "status" : "failed",
         "time" : {
-          "start" : 1586857620314,
-          "stop" : 1586857769938,
-          "duration" : 149624
+          "start" : 1587004768972,
+          "stop" : 1587005027972,
+          "duration" : 259000
         },
         "flaky" : true,
         "parameters" : [ ]
@@ -795,13 +795,13 @@
       "name" : "Test_sleepRecord",
       "children" : [ {
         "name" : "test_sleepRecord",
-        "uid" : "789a299aeba2dce7",
+        "uid" : "8fd3fc7599679e44",
         "parentUid" : "e7973d0afe6a359a5459d98aa74e58e5",
         "status" : "broken",
         "time" : {
-          "start" : 1586857773376,
-          "stop" : 1586857843728,
-          "duration" : 70352
+          "start" : 1587005032012,
+          "stop" : 1587005110146,
+          "duration" : 78134
         },
         "flaky" : true,
         "parameters" : [ ]

@@ -1,0 +1,193 @@
+{
+  "uid" : "e404e2d3d5dcda3e",
+  "name" : "test_tomatoTiming",
+  "fullName" : "test_052_tomatoTiming.Test_tomatoTiming#test_tomatoTiming",
+  "historyId" : "215a606a6bd5c4b1fff76af9c931bf8f",
+  "time" : {
+    "start" : 1587004636177,
+    "stop" : 1587004765233,
+    "duration" : 129056
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert False == True\n  -False\n  +True",
+  "statusTrace" : "self = <scripts.test_052_tomatoTiming.Test_tomatoTiming object at 0x000001C6509C73C8>\n\n    def test_tomatoTiming(self):\n        with allure.step('进入更多页面'):\n            self.page.more().click_more()\n            time.sleep(2)\n        with allure.step('滑动更多页面至底部'):\n            self.page.more().swipeByMore()\n            time.sleep(3)\n        with allure.step('点击学习计时按钮，设定内容后开始'):\n            self.page.more().click_normalTiming()\n            self.page.more().click_tomato()\n            self.page.timing().input_tomatoContentBox('This is tomatoTiming')\n            self.page.timing().click_startTomatoBtn()\n        with allure.step('判断能否正常进入番茄计时页面'):\n>           assert self.page.timing().waitAndfind_timingEndConfirmLeft() == True\nE           assert False == True\nE             -False\nE             +True\n\ntest_052_tomatoTiming.py:31: AssertionError",
+  "flaky" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert False == True\n  -False\n  +True",
+    "statusTrace" : "self = <scripts.test_052_tomatoTiming.Test_tomatoTiming object at 0x000001C6509C73C8>\n\n    def test_tomatoTiming(self):\n        with allure.step('进入更多页面'):\n            self.page.more().click_more()\n            time.sleep(2)\n        with allure.step('滑动更多页面至底部'):\n            self.page.more().swipeByMore()\n            time.sleep(3)\n        with allure.step('点击学习计时按钮，设定内容后开始'):\n            self.page.more().click_normalTiming()\n            self.page.more().click_tomato()\n            self.page.timing().input_tomatoContentBox('This is tomatoTiming')\n            self.page.timing().click_startTomatoBtn()\n        with allure.step('判断能否正常进入番茄计时页面'):\n>           assert self.page.timing().waitAndfind_timingEndConfirmLeft() == True\nE           assert False == True\nE             -False\nE             +True\n\ntest_052_tomatoTiming.py:31: AssertionError",
+    "steps" : [ {
+      "name" : "进入更多页面",
+      "time" : {
+        "start" : 1587004636178,
+        "stop" : 1587004648644,
+        "duration" : 12466
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "滑动更多页面至底部",
+      "time" : {
+        "start" : 1587004648644,
+        "stop" : 1587004652044,
+        "duration" : 3400
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "点击学习计时按钮，设定内容后开始",
+      "time" : {
+        "start" : 1587004652044,
+        "stop" : 1587004662338,
+        "duration" : 10294
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "判断能否正常进入番茄计时页面",
+      "time" : {
+        "start" : 1587004662339,
+        "stop" : 1587004765233,
+        "duration" : 102894
+      },
+      "status" : "failed",
+      "statusMessage" : "AssertionError: assert False == True\n  -False\n  +True\n",
+      "statusTrace" : "  File \"D:\\jenkins\\workspace\\Timing\\scripts\\test_052_tomatoTiming.py\", line 31, in test_tomatoTiming\n    assert self.page.timing().waitAndfind_timingEndConfirmLeft() == True\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 0,
+    "stepsCount" : 4,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "番茄计时功能"
+  }, {
+    "name" : "suite",
+    "value" : "test_052_tomatoTiming"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_tomatoTiming"
+  }, {
+    "name" : "host",
+    "value" : "PV-X00232293"
+  }, {
+    "name" : "thread",
+    "value" : "10940-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_052_tomatoTiming"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "1740feaa5682b3bd",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False == True\n  -False\n  +True",
+      "time" : {
+        "start" : 1586857490662,
+        "stop" : 1586857616582,
+        "duration" : 125920
+      }
+    }, {
+      "uid" : "86debd458743dbbe",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False == True\n  -False\n  +True",
+      "time" : {
+        "start" : 1586854279633,
+        "stop" : 1586854402306,
+        "duration" : 122673
+      }
+    }, {
+      "uid" : "8cb4f90a9eaf4551",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1586147752100,
+        "stop" : 1586147814082,
+        "duration" : 61982
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 2,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "1776e4ea9c79dbcb",
+        "reportUrl" : "http://192.168.88.58:8080/job/Timing/17/allure/#testresult/1776e4ea9c79dbcb",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert False == True\n  -False\n  +True",
+        "time" : {
+          "start" : 1586509037742,
+          "stop" : 1586509170514,
+          "duration" : 132772
+        }
+      }, {
+        "uid" : "bad2778a5a8bc252",
+        "reportUrl" : "http://192.168.88.58:8080/job/Timing/16/allure/#testresult/bad2778a5a8bc252",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+        "time" : {
+          "start" : 1586252170725,
+          "stop" : 1586252233553,
+          "duration" : 62828
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "e404e2d3d5dcda3e.json",
+  "parameterValues" : [ ]
+}

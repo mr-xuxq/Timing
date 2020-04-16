@@ -1,0 +1,218 @@
+{
+  "uid" : "19f2f397db57e9f6",
+  "name" : "test_loginByCaptcha",
+  "fullName" : "test_002_loginByCaptcha.Test_loginByCaptcha#test_loginByCaptcha",
+  "historyId" : "2c4c0ff60efde21ca19a24ee615ea1aa",
+  "time" : {
+    "start" : 1587002771248,
+    "stop" : 1587002864921,
+    "duration" : 93673
+  },
+  "status" : "broken",
+  "statusMessage" : "selenium.common.exceptions.TimeoutException: Message:",
+  "statusTrace" : "self = <scripts.test_002_loginByCaptcha.Test_loginByCaptcha object at 0x000001C6509B6C50>\n\n    def test_loginByCaptcha(self):\n        with allure.step('点击手机号登录'):\n>           self.page.login().click_phone_login()\n\ntest_002_loginByCaptcha.py:31: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n..\\Pages\\register_login\\login_page.py:45: in click_phone_login\n    self.click(self.phoneBtn)\n..\\base\\base_action.py:39: in click\n    self.find_element(feature).click()\n..\\base\\base_action.py:22: in find_element\n    element = WebDriverWait(self.driver, timeout, poll).until(lambda x: x.find_element(feature_by, feature_value))\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <selenium.webdriver.support.wait.WebDriverWait (session=\"36a62f64-d8ed-4fc0-8ed2-a67282356285\")>\nmethod = <function BaseAction.find_element.<locals>.<lambda> at 0x000001C650994AE8>\nmessage = ''\n\n    def until(self, method, message=''):\n        \"\"\"Calls the method provided with the driver as an argument until the \\\n        return value is not False.\"\"\"\n        screen = None\n        stacktrace = None\n    \n        end_time = time.time() + self._timeout\n        while True:\n            try:\n                value = method(self._driver)\n                if value:\n                    return value\n            except self._ignored_exceptions as exc:\n                screen = getattr(exc, 'screen', None)\n                stacktrace = getattr(exc, 'stacktrace', None)\n            time.sleep(self._poll)\n            if time.time() > end_time:\n                break\n>       raise TimeoutException(message, screen, stacktrace)\nE       selenium.common.exceptions.TimeoutException: Message:\n\nd:\\python\\lib\\site-packages\\selenium\\webdriver\\support\\wait.py:80: TimeoutException",
+  "flaky" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "selenium.common.exceptions.TimeoutException: Message:",
+    "statusTrace" : "self = <scripts.test_002_loginByCaptcha.Test_loginByCaptcha object at 0x000001C6509B6C50>\n\n    def test_loginByCaptcha(self):\n        with allure.step('点击手机号登录'):\n>           self.page.login().click_phone_login()\n\ntest_002_loginByCaptcha.py:31: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n..\\Pages\\register_login\\login_page.py:45: in click_phone_login\n    self.click(self.phoneBtn)\n..\\base\\base_action.py:39: in click\n    self.find_element(feature).click()\n..\\base\\base_action.py:22: in find_element\n    element = WebDriverWait(self.driver, timeout, poll).until(lambda x: x.find_element(feature_by, feature_value))\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <selenium.webdriver.support.wait.WebDriverWait (session=\"36a62f64-d8ed-4fc0-8ed2-a67282356285\")>\nmethod = <function BaseAction.find_element.<locals>.<lambda> at 0x000001C650994AE8>\nmessage = ''\n\n    def until(self, method, message=''):\n        \"\"\"Calls the method provided with the driver as an argument until the \\\n        return value is not False.\"\"\"\n        screen = None\n        stacktrace = None\n    \n        end_time = time.time() + self._timeout\n        while True:\n            try:\n                value = method(self._driver)\n                if value:\n                    return value\n            except self._ignored_exceptions as exc:\n                screen = getattr(exc, 'screen', None)\n                stacktrace = getattr(exc, 'stacktrace', None)\n            time.sleep(self._poll)\n            if time.time() > end_time:\n                break\n>       raise TimeoutException(message, screen, stacktrace)\nE       selenium.common.exceptions.TimeoutException: Message:\n\nd:\\python\\lib\\site-packages\\selenium\\webdriver\\support\\wait.py:80: TimeoutException",
+    "steps" : [ {
+      "name" : "点击手机号登录",
+      "time" : {
+        "start" : 1587002771249,
+        "stop" : 1587002864921,
+        "duration" : 93672
+      },
+      "status" : "broken",
+      "statusMessage" : "selenium.common.exceptions.TimeoutException: Message: \n\n",
+      "statusTrace" : "  File \"D:\\jenkins\\workspace\\Timing\\scripts\\test_002_loginByCaptcha.py\", line 31, in test_loginByCaptcha\n    self.page.login().click_phone_login()\n  File \"D:\\jenkins\\workspace\\Timing\\Pages\\register_login\\login_page.py\", line 45, in click_phone_login\n    self.click(self.phoneBtn)\n  File \"D:\\jenkins\\workspace\\Timing\\base\\base_action.py\", line 39, in click\n    self.find_element(feature).click()\n  File \"D:\\jenkins\\workspace\\Timing\\base\\base_action.py\", line 22, in find_element\n    element = WebDriverWait(self.driver, timeout, poll).until(lambda x: x.find_element(feature_by, feature_value))\n  File \"d:\\python\\lib\\site-packages\\selenium\\webdriver\\support\\wait.py\", line 80, in until\n    raise TimeoutException(message, screen, stacktrace)\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 0,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_002_loginByCaptcha"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_loginByCaptcha"
+  }, {
+    "name" : "host",
+    "value" : "PV-X00232293"
+  }, {
+    "name" : "thread",
+    "value" : "10940-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_002_loginByCaptcha"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "d5faafad9af0269e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1586855847160,
+        "stop" : 1586855870051,
+        "duration" : 22891
+      }
+    }, {
+      "uid" : "f924588f317f1b74",
+      "status" : "passed",
+      "time" : {
+        "start" : 1586852781912,
+        "stop" : 1586852803008,
+        "duration" : 21096
+      }
+    }, {
+      "uid" : "85a2ce2f41311e65",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1586158177878,
+        "stop" : 1586158229303,
+        "duration" : 51425
+      }
+    }, {
+      "uid" : "27bea4564a3ea70f",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1586146407874,
+        "stop" : 1586146458883,
+        "duration" : 51009
+      }
+    }, {
+      "uid" : "83c4011c8b2554a8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585821857404,
+        "stop" : 1585821878068,
+        "duration" : 20664
+      }
+    }, {
+      "uid" : "1d68fb3a68a0db81",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'Base' object has no attribute 'init_driveer'",
+      "time" : {
+        "start" : 1585818158955,
+        "stop" : 1585818158955,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "3386eb59b70753af",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585740999710,
+        "stop" : 1585741018827,
+        "duration" : 19117
+      }
+    }, {
+      "uid" : "484dc46663fbc567",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585723311242,
+        "stop" : 1585723337087,
+        "duration" : 25845
+      }
+    }, {
+      "uid" : "c1196bfdc8b8ee33",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585722318063,
+        "stop" : 1585722339647,
+        "duration" : 21584
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 5,
+        "unknown" : 0,
+        "total" : 6
+      },
+      "items" : [ {
+        "uid" : "8d9ce853ae1df3e5",
+        "reportUrl" : "http://192.168.88.58:8080/job/Timing/17/allure/#testresult/8d9ce853ae1df3e5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1586507223199,
+          "stop" : 1586507248445,
+          "duration" : 25246
+        }
+      }, {
+        "uid" : "1538cbb012e3d953",
+        "reportUrl" : "http://192.168.88.58:8080/job/Timing/16/allure/#testresult/1538cbb012e3d953",
+        "status" : "passed",
+        "time" : {
+          "start" : 1586251081163,
+          "stop" : 1586251101382,
+          "duration" : 20219
+        }
+      }, {
+        "uid" : "3772aca1d2a7fdf3",
+        "reportUrl" : "http://192.168.88.58:8080/job/Timing/9/allure/#testresult/3772aca1d2a7fdf3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1585723311242,
+          "stop" : 1585723337087,
+          "duration" : 25845
+        }
+      }, {
+        "uid" : "5efae7cd7487135b",
+        "reportUrl" : "http://192.168.88.58:8080/job/Timing/8/allure/#testresult/5efae7cd7487135b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1585723311242,
+          "stop" : 1585723337087,
+          "duration" : 25845
+        }
+      }, {
+        "uid" : "8f0feb3fe93fcd1e",
+        "reportUrl" : "http://192.168.88.58:8080/job/Timing/7/allure/#testresult/8f0feb3fe93fcd1e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1585723311242,
+          "stop" : 1585723337087,
+          "duration" : 25845
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "19f2f397db57e9f6.json",
+  "parameterValues" : [ ]
+}

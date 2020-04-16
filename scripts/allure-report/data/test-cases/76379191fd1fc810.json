@@ -1,0 +1,147 @@
+{
+  "uid" : "76379191fd1fc810",
+  "name" : "test_imgInfo",
+  "fullName" : "test_041_changePersonalInformation.Test_changePersonalInformation#test_imgInfo",
+  "historyId" : "68fa90cf0127e0f6de42e964dab47791",
+  "time" : {
+    "start" : 1586853907770,
+    "stop" : 1586853973874,
+    "duration" : 66104
+  },
+  "status" : "broken",
+  "statusMessage" : "selenium.common.exceptions.TimeoutException: Message:",
+  "statusTrace" : "self = <scripts.test_041_changePersonalInformation.Test_changePersonalInformation object at 0x00000224D2FF5748>\n\n    @allure.story('修改头像信息')\n    def test_imgInfo(self):\n        with allure.step('进入更多页面'):\n            self.page.more().click_more()\n            time.sleep(3)\n        with allure.step('进入个人主页'):\n            self.page.more().click_person()\n        with allure.step('进入修改资料页'):\n            self.page.person_home().click_personInfo()\n        with allure.step('进入选择照片页'):\n            #点击头像进入选择照片页\n            self.page.edit_personal_info().click_myimg()\n        with allure.step('在选择照片页选择第一张照片，并保存'):\n            #在选择照片页选择第一张照片\n            self.driver.tap([(361,220),(719,578)], 500)\n            #保存修改的头像\n>           self.page.choose_image().click_imgSummit()\n\ntest_041_changePersonalInformation.py:74: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n..\\Pages\\message_interaction\\chat_chooseImage_page.py:27: in click_imgSummit\n    self.click(self.imgSummit)\n..\\base\\base_action.py:39: in click\n    self.find_element(feature).click()\n..\\base\\base_action.py:22: in find_element\n    element = WebDriverWait(self.driver, timeout, poll).until(lambda x: x.find_element(feature_by, feature_value))\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <selenium.webdriver.support.wait.WebDriverWait (session=\"b3cb4496-e444-4fa4-b5f0-59e322e018f6\")>\nmethod = <function BaseAction.find_element.<locals>.<lambda> at 0x00000224D1FC47B8>\nmessage = ''\n\n    def until(self, method, message=''):\n        \"\"\"Calls the method provided with the driver as an argument until the \\\n        return value is not False.\"\"\"\n        screen = None\n        stacktrace = None\n    \n        end_time = time.time() + self._timeout\n        while True:\n            try:\n                value = method(self._driver)\n                if value:\n                    return value\n            except self._ignored_exceptions as exc:\n                screen = getattr(exc, 'screen', None)\n                stacktrace = getattr(exc, 'stacktrace', None)\n            time.sleep(self._poll)\n            if time.time() > end_time:\n                break\n>       raise TimeoutException(message, screen, stacktrace)\nE       selenium.common.exceptions.TimeoutException: Message:\n\nd:\\python\\lib\\site-packages\\selenium\\webdriver\\support\\wait.py:80: TimeoutException",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "selenium.common.exceptions.TimeoutException: Message:",
+    "statusTrace" : "self = <scripts.test_041_changePersonalInformation.Test_changePersonalInformation object at 0x00000224D2FF5748>\n\n    @allure.story('修改头像信息')\n    def test_imgInfo(self):\n        with allure.step('进入更多页面'):\n            self.page.more().click_more()\n            time.sleep(3)\n        with allure.step('进入个人主页'):\n            self.page.more().click_person()\n        with allure.step('进入修改资料页'):\n            self.page.person_home().click_personInfo()\n        with allure.step('进入选择照片页'):\n            #点击头像进入选择照片页\n            self.page.edit_personal_info().click_myimg()\n        with allure.step('在选择照片页选择第一张照片，并保存'):\n            #在选择照片页选择第一张照片\n            self.driver.tap([(361,220),(719,578)], 500)\n            #保存修改的头像\n>           self.page.choose_image().click_imgSummit()\n\ntest_041_changePersonalInformation.py:74: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n..\\Pages\\message_interaction\\chat_chooseImage_page.py:27: in click_imgSummit\n    self.click(self.imgSummit)\n..\\base\\base_action.py:39: in click\n    self.find_element(feature).click()\n..\\base\\base_action.py:22: in find_element\n    element = WebDriverWait(self.driver, timeout, poll).until(lambda x: x.find_element(feature_by, feature_value))\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <selenium.webdriver.support.wait.WebDriverWait (session=\"b3cb4496-e444-4fa4-b5f0-59e322e018f6\")>\nmethod = <function BaseAction.find_element.<locals>.<lambda> at 0x00000224D1FC47B8>\nmessage = ''\n\n    def until(self, method, message=''):\n        \"\"\"Calls the method provided with the driver as an argument until the \\\n        return value is not False.\"\"\"\n        screen = None\n        stacktrace = None\n    \n        end_time = time.time() + self._timeout\n        while True:\n            try:\n                value = method(self._driver)\n                if value:\n                    return value\n            except self._ignored_exceptions as exc:\n                screen = getattr(exc, 'screen', None)\n                stacktrace = getattr(exc, 'stacktrace', None)\n            time.sleep(self._poll)\n            if time.time() > end_time:\n                break\n>       raise TimeoutException(message, screen, stacktrace)\nE       selenium.common.exceptions.TimeoutException: Message:\n\nd:\\python\\lib\\site-packages\\selenium\\webdriver\\support\\wait.py:80: TimeoutException",
+    "steps" : [ {
+      "name" : "进入更多页面",
+      "time" : {
+        "start" : 1586853907770,
+        "stop" : 1586853915572,
+        "duration" : 7802
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "进入个人主页",
+      "time" : {
+        "start" : 1586853915572,
+        "stop" : 1586853918790,
+        "duration" : 3218
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "进入修改资料页",
+      "time" : {
+        "start" : 1586853918790,
+        "stop" : 1586853921323,
+        "duration" : 2533
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "进入选择照片页",
+      "time" : {
+        "start" : 1586853921323,
+        "stop" : 1586853922425,
+        "duration" : 1102
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "在选择照片页选择第一张照片，并保存",
+      "time" : {
+        "start" : 1586853922425,
+        "stop" : 1586853973873,
+        "duration" : 51448
+      },
+      "status" : "broken",
+      "statusMessage" : "selenium.common.exceptions.TimeoutException: Message: \n\n",
+      "statusTrace" : "  File \"D:\\jenkins\\workspace\\Timing\\scripts\\test_041_changePersonalInformation.py\", line 74, in test_imgInfo\n    self.page.choose_image().click_imgSummit()\n  File \"D:\\jenkins\\workspace\\Timing\\Pages\\message_interaction\\chat_chooseImage_page.py\", line 27, in click_imgSummit\n    self.click(self.imgSummit)\n  File \"D:\\jenkins\\workspace\\Timing\\base\\base_action.py\", line 39, in click\n    self.find_element(feature).click()\n  File \"D:\\jenkins\\workspace\\Timing\\base\\base_action.py\", line 22, in find_element\n    element = WebDriverWait(self.driver, timeout, poll).until(lambda x: x.find_element(feature_by, feature_value))\n  File \"d:\\python\\lib\\site-packages\\selenium\\webdriver\\support\\wait.py\", line 80, in until\n    raise TimeoutException(message, screen, stacktrace)\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 0,
+    "stepsCount" : 5,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "修改个人资料功能，前提：非认证账号"
+  }, {
+    "name" : "story",
+    "value" : "修改头像信息"
+  }, {
+    "name" : "suite",
+    "value" : "test_041_changePersonalInformation"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_changePersonalInformation"
+  }, {
+    "name" : "host",
+    "value" : "PV-X00232293"
+  }, {
+    "name" : "thread",
+    "value" : "14340-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_041_changePersonalInformation"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "76379191fd1fc810.json",
+  "parameterValues" : [ ]
+}
