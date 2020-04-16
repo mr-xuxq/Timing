@@ -25,6 +25,7 @@ class Test_sleepRecord():
         with allure.step('点击tab【+】，选择起床睡觉按钮'):
             self.page.shouye().click_post()
         with allure.step('点击睡觉按钮，进入睡觉页面'):
+            time.sleep(3)
             self.page.more().click_sleep()
             # 点击【睡觉actionbar】
             self.page.more().clickCoordinate_sleep()

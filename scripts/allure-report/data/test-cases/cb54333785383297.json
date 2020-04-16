@@ -1,0 +1,162 @@
+{
+  "uid" : "cb54333785383297",
+  "name" : "test_nameInfo",
+  "fullName" : "test_041_changePersonalInformation.Test_changePersonalInformation#test_nameInfo",
+  "historyId" : "1b87e8c88857faa9906247842b226063",
+  "time" : {
+    "start" : 1586508464674,
+    "stop" : 1586508571080,
+    "duration" : 106406
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert False == True\n  -False\n  +True",
+  "statusTrace" : "self = <scripts.test_041_changePersonalInformation.Test_changePersonalInformation object at 0x000001481446D940>\n\n    @allure.story('选择昵称进行修改')\n    def test_nameInfo(self):\n        with allure.step('进入更多页面'):\n            self.page.more().click_more()\n            time.sleep(3)\n        with allure.step('进入个人主页'):\n            self.page.more().click_person()\n        with allure.step('进入修改资料页'):\n            self.page.person_home().click_personInfo()\n        with allure.step('进入修改姓名页，输入新昵称并保存'):\n            self.page.edit_personal_info().click_name()\n            #输入修改后的姓名\n            self.page.name_info().input_nameBox(\"952777\")\n            #保存修改后的姓名\n            time.sleep(5)\n            self.page.name_info().click_nameRight()\n        with allure.step('点击保存'):\n            self.page.edit_personal_info().click_infoSubmit()\n        with allure.step('校验结果：新昵称保存成功——>成功'):\n>           assert self.page.person_home().waitAndfind_personInfo() == True\nE           assert False == True\nE             -False\nE             +True\n\ntest_041_changePersonalInformation.py:36: AssertionError",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert False == True\n  -False\n  +True",
+    "statusTrace" : "self = <scripts.test_041_changePersonalInformation.Test_changePersonalInformation object at 0x000001481446D940>\n\n    @allure.story('选择昵称进行修改')\n    def test_nameInfo(self):\n        with allure.step('进入更多页面'):\n            self.page.more().click_more()\n            time.sleep(3)\n        with allure.step('进入个人主页'):\n            self.page.more().click_person()\n        with allure.step('进入修改资料页'):\n            self.page.person_home().click_personInfo()\n        with allure.step('进入修改姓名页，输入新昵称并保存'):\n            self.page.edit_personal_info().click_name()\n            #输入修改后的姓名\n            self.page.name_info().input_nameBox(\"952777\")\n            #保存修改后的姓名\n            time.sleep(5)\n            self.page.name_info().click_nameRight()\n        with allure.step('点击保存'):\n            self.page.edit_personal_info().click_infoSubmit()\n        with allure.step('校验结果：新昵称保存成功——>成功'):\n>           assert self.page.person_home().waitAndfind_personInfo() == True\nE           assert False == True\nE             -False\nE             +True\n\ntest_041_changePersonalInformation.py:36: AssertionError",
+    "steps" : [ {
+      "name" : "进入更多页面",
+      "time" : {
+        "start" : 1586508464674,
+        "stop" : 1586508477557,
+        "duration" : 12883
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "进入个人主页",
+      "time" : {
+        "start" : 1586508477557,
+        "stop" : 1586508482043,
+        "duration" : 4486
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "进入修改资料页",
+      "time" : {
+        "start" : 1586508482043,
+        "stop" : 1586508490210,
+        "duration" : 8167
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "进入修改姓名页，输入新昵称并保存",
+      "time" : {
+        "start" : 1586508490210,
+        "stop" : 1586508516371,
+        "duration" : 26161
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "点击保存",
+      "time" : {
+        "start" : 1586508516371,
+        "stop" : 1586508519590,
+        "duration" : 3219
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "校验结果：新昵称保存成功——>成功",
+      "time" : {
+        "start" : 1586508519590,
+        "stop" : 1586508571080,
+        "duration" : 51490
+      },
+      "status" : "failed",
+      "statusMessage" : "AssertionError: assert False == True\n  -False\n  +True\n",
+      "statusTrace" : "  File \"D:\\jenkins\\workspace\\Timing\\scripts\\test_041_changePersonalInformation.py\", line 36, in test_nameInfo\n    assert self.page.person_home().waitAndfind_personInfo() == True\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 6,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "修改个人资料功能，前提：非认证账号"
+  }, {
+    "name" : "story",
+    "value" : "选择昵称进行修改"
+  }, {
+    "name" : "suite",
+    "value" : "test_041_changePersonalInformation"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_changePersonalInformation"
+  }, {
+    "name" : "host",
+    "value" : "PV-X00232293"
+  }, {
+    "name" : "thread",
+    "value" : "11500-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_041_changePersonalInformation"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "cb54333785383297.json",
+  "parameterValues" : [ ]
+}

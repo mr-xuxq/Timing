@@ -21,10 +21,10 @@ class Follow(BaseAction):
     def click_yesBtn(self):
         self.click(self.yesBtn)
     def check_deleteDiaryBtn(self):
-        return self.is_feature_exist(self.deleteDiaryBtn[1])
+        return self.is_feature_exist(self.deleteDiaryBtn)
     def check_postSuccess(self):
-        return self.is_feature_exist(self.postSuccess[1])
+        return self.is_feature_exist(self.postSuccess)
     def check_deleteSuccess(self):
-        return self.is_feature_exist(self.deleteSuccess[1])
+        return self.is_feature_exist(self.deleteSuccess)
 
 

@@ -1,4 +1,4 @@
-import time, allure
+import time, allure,random
 from Pages.page import Page
 from base.base_driver import Base
 
@@ -26,7 +26,8 @@ class Test_changePersonalInformation():
         with allure.step('进入修改姓名页，输入新昵称并保存'):
             self.page.edit_personal_info().click_name()
             #输入修改后的姓名
-            self.page.name_info().input_nameBox("952777")
+            name = random.randint(1, 10000)
+            self.page.name_info().input_nameBox(name)
             #保存修改后的姓名
             time.sleep(5)
             self.page.name_info().click_nameRight()
