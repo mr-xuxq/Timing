@@ -2,9 +2,7 @@
 from Pages.page import Page
 from base.base_driver import Base
 import allure, time
-
 sourse = []
-
 
 class Test_loginByWexin():
     # setup函数是在一个类里面最先被调用的函数，而且每执行完一个函数都要从setUp()调用开始后再执行下一个函数，有几个函数就调用他几次，与位置无关，随便放在那里都是他先被调用。

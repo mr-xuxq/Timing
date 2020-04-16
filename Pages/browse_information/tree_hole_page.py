@@ -28,4 +28,4 @@ class Tree_hole(BaseAction):
         self.driver.tap([(L[0]*x,L[1]*y)],1)
 
     def check_channel(self):
-        return self.is_feature_exist(self.holeChannelBtn[1])
+        return self.is_feature_exist(self.holeChannelBtn)

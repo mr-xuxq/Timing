@@ -52,4 +52,4 @@ class Login(BaseAction):
     def click_Privacy_protocol(self):
         self.click(self.privacyProtocol)
     def check_target(self):
-        return self.is_feature_exist(self.target[1])
+        return self.is_feature_exist(self.target)

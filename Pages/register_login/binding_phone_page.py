@@ -28,5 +28,5 @@ class Banding_phone(BaseAction):
     # 判断是否进入了绑定手机号页面
 
     def check_bingdingPhone(self):
-        return self.is_feature_exist(self.ignoreBtn[1])
+        return self.is_feature_exist(self.ignoreBtn)
 

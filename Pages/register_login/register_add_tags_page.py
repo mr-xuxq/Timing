@@ -6,8 +6,6 @@ class Register_add_tags(BaseAction):
     # 自定义标签按钮
     customLabelBtn =By.ID,'com.huiian.timing:id/tv_go_custom'
     # 【英语标签按钮】
-    moreLabelBtn =By.ID,'com.huiian.timing:id/tv_name'
-    # 【标签详情页】
     labelBtn =By.XPATH,'//*[@text="英语"]'
     # 【下一步按钮】
     nextBtn =By.ID,'com.huiian.timing:id/tv_next'
@@ -15,9 +13,6 @@ class Register_add_tags(BaseAction):
 
     def click_labelBtn(self):
         self.click(self.labelBtn)
-
-    def click_moreLabelBtn(self):
-        self.click(self.moreLabelBtn)
 
     def click_nextBtn(self):
         self.click(self.nextBtn)

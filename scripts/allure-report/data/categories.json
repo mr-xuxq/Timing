@@ -7,7 +7,7 @@
       "name" : "AttributeError: 'Shouye' object has no attribute 'waitAndfind'",
       "children" : [ {
         "name" : "test_swipeO",
-        "uid" : "49caa0cc4fd06f30",
+        "uid" : "72d8536e781c4c9",
         "parentUid" : "f6709ebc2dd7facecd6aa793f622aa36",
         "status" : "broken",
         "time" : {
@@ -20,150 +20,54 @@
       } ],
       "uid" : "f6709ebc2dd7facecd6aa793f622aa36"
     }, {
+      "name" : "selenium.common.exceptions.WebDriverException: Message: An unknown server-side error occurred while processing the command.",
+      "children" : [ {
+        "name" : "test_browsesVlog",
+        "uid" : "e9f8478a1aa3fc8",
+        "parentUid" : "5d1504822a3dbd84ccb84831fdb36d2f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1587022509619,
+          "stop" : 1587022534169,
+          "duration" : 24550
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5d1504822a3dbd84ccb84831fdb36d2f"
+    }, {
       "name" : "selenium.common.exceptions.TimeoutException: Message:",
       "children" : [ {
-        "name" : "test_sleepRecord",
-        "uid" : "a46dbe7e0e7be58b",
+        "name" : "test_checkFollowList",
+        "uid" : "3091cf028f795dbe",
         "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
         "status" : "broken",
         "time" : {
-          "start" : 1586509439823,
-          "stop" : 1586509516105,
-          "duration" : 76282
+          "start" : 1587023460393,
+          "stop" : 1587023549068,
+          "duration" : 88675
         },
         "flaky" : true,
         "parameters" : [ ]
       } ],
       "uid" : "31bb78a6a95ede3f78b260ed048910d8"
-    } ],
-    "uid" : "bdbf199525818fae7a8651db9eafe741"
-  }, {
-    "name" : "Product defects",
-    "children" : [ {
-      "name" : "AssertionError: assert False == True\n  -False\n  +True",
+    }, {
+      "name" : "selenium.common.exceptions.SessionNotCreatedException: Message: A new session could not be created. (Original error: com.huiian.timing/.view.activity.StartupActivity never started. Current: com.huiian.timing/.view.activity.LearnResultActivity)",
       "children" : [ {
-        "name" : "test_timingService",
-        "uid" : "8c116c86e45d995b",
-        "parentUid" : "9ec8f191b848aac8e79241d2720739a9",
-        "status" : "failed",
-        "time" : {
-          "start" : 1586507712678,
-          "stop" : 1586507758410,
-          "duration" : 45732
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "test_interaction",
-        "uid" : "93b65e67cf857b56",
-        "parentUid" : "9ec8f191b848aac8e79241d2720739a9",
-        "status" : "failed",
-        "time" : {
-          "start" : 1586507762674,
-          "stop" : 1586507808310,
-          "duration" : 45636
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "test_discussTeam",
-        "uid" : "7aaf5053876ae57e",
-        "parentUid" : "9ec8f191b848aac8e79241d2720739a9",
-        "status" : "failed",
-        "time" : {
-          "start" : 1586507956349,
-          "stop" : 1586508035845,
-          "duration" : 79496
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "test_nameInfo",
-        "uid" : "c5a04a806cda1df0",
-        "parentUid" : "9ec8f191b848aac8e79241d2720739a9",
-        "status" : "failed",
-        "time" : {
-          "start" : 1586508464674,
-          "stop" : 1586508571080,
-          "duration" : 106406
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "test_genderInfo",
-        "uid" : "1e7718c465fb1e17",
-        "parentUid" : "9ec8f191b848aac8e79241d2720739a9",
-        "status" : "failed",
-        "time" : {
-          "start" : 1586508575298,
-          "stop" : 1586508655666,
-          "duration" : 80368
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "test_imgInfo",
-        "uid" : "f6813be70ad7239b",
-        "parentUid" : "9ec8f191b848aac8e79241d2720739a9",
-        "status" : "failed",
-        "time" : {
-          "start" : 1586508659781,
-          "stop" : 1586508743182,
-          "duration" : 83401
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "test_checkFollowList",
-        "uid" : "123dd0e6d12f19b0",
-        "parentUid" : "9ec8f191b848aac8e79241d2720739a9",
-        "status" : "failed",
-        "time" : {
-          "start" : 1586508747380,
-          "stop" : 1586508784502,
-          "duration" : 37122
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      }, {
         "name" : "test_normalTiming_exit",
-        "uid" : "1ef19bf2e1057ca",
-        "parentUid" : "9ec8f191b848aac8e79241d2720739a9",
-        "status" : "failed",
+        "uid" : "f8b8b14fca5c05fe",
+        "parentUid" : "c9dfb5fb2118dfa16028e10c4f2d7ef1",
+        "status" : "broken",
         "time" : {
-          "start" : 1586508889770,
-          "stop" : 1586509033676,
-          "duration" : 143906
-        },
-        "flaky" : true,
-        "parameters" : [ ]
-      }, {
-        "name" : "test_tomatoTiming",
-        "uid" : "1776e4ea9c79dbcb",
-        "parentUid" : "9ec8f191b848aac8e79241d2720739a9",
-        "status" : "failed",
-        "time" : {
-          "start" : 1586509037742,
-          "stop" : 1586509170514,
-          "duration" : 132772
-        },
-        "flaky" : true,
-        "parameters" : [ ]
-      }, {
-        "name" : "test_videoRecordTiming",
-        "uid" : "ab5fda1c7ef9bed",
-        "parentUid" : "9ec8f191b848aac8e79241d2720739a9",
-        "status" : "failed",
-        "time" : {
-          "start" : 1586509174638,
-          "stop" : 1586509435944,
-          "duration" : 261306
+          "start" : 1587023647259,
+          "stop" : 1587023647259,
+          "duration" : 0
         },
         "flaky" : true,
         "parameters" : [ ]
       } ],
-      "uid" : "9ec8f191b848aac8e79241d2720739a9"
+      "uid" : "c9dfb5fb2118dfa16028e10c4f2d7ef1"
     } ],
-    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
   } ]
 }

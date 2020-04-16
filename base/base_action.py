@@ -22,18 +22,6 @@ class BaseAction(Base):
         element = WebDriverWait(self.driver, timeout, poll).until(lambda x: x.find_element(feature_by, feature_value))
         return element
 
-    # def find_elements(self, feature, timeout=10, poll=1):
-    #     """
-    #     根据特征，找多个符合条件的元素
-    #     :param feature: 特征
-    #     :param timeout: 超时时间
-    #     :param poll: 频率
-    #     :return: 元素
-    #     """
-    #     feature_by, feature_value = feature
-    #     element = WebDriverWait(self.driver, timeout, poll).until(lambda x: x.find_elements(feature_by, feature_value))
-    #     return element
-
     # 点击操作
     def click(self, feature):
         self.find_element(feature).click()
@@ -80,10 +68,16 @@ class BaseAction(Base):
         Y2 = int(l[1] * y2)
         self.driver.tap([(X1, Y1), (X2, Y2)], t)
 
+    def tapOperat(self, x, y):
+        l = self.getSize()
+        X= int(l[0] * x)
+        Y= int(l[1] * y)
+        self.driver.tap([(X,Y)],1)
+
     #判断元素是否在当前页面内
     def is_feature_exist(self, feature):
         try:
-            self.driver.find_element_by_id(feature)
+            self.find_element(feature)
         except Exception as e:
             return False
         else:

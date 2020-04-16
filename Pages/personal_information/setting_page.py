@@ -18,4 +18,4 @@ class Setting(BaseAction):
         self.click(self.confirmLogoutBtn)
 
     def findLogin(self):
-        return self.is_feature_exist(self.target[1])
+        return self.is_feature_exist(self.target)
