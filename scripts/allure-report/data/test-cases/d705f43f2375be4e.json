@@ -1,0 +1,380 @@
+{
+  "uid" : "d705f43f2375be4e",
+  "name" : "test_postDiary",
+  "fullName" : "test_031_postDiary.Test_postDiary#test_postDiary",
+  "historyId" : "2393a1199737e7f6568d8b37e9f87f79",
+  "time" : {
+    "start" : 1587044711977,
+    "stop" : 1587044769079,
+    "duration" : 57102
+  },
+  "status" : "passed",
+  "flaky" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "进入发布页",
+      "time" : {
+        "start" : 1587044716978,
+        "stop" : 1587044721921,
+        "duration" : 4943
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "点击发布学习日记",
+      "time" : {
+        "start" : 1587044721921,
+        "stop" : 1587044722547,
+        "duration" : 626
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "点击上传图片",
+      "time" : {
+        "start" : 1587044722547,
+        "stop" : 1587044723933,
+        "duration" : 1386
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "选定图片",
+      "time" : {
+        "start" : 1587044723933,
+        "stop" : 1587044725295,
+        "duration" : 1362
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "下一步，进入图片编辑页",
+      "time" : {
+        "start" : 1587044725295,
+        "stop" : 1587044726599,
+        "duration" : 1304
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "已确定图片，进入下一步",
+      "time" : {
+        "start" : 1587044726599,
+        "stop" : 1587044730005,
+        "duration" : 3406
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "点击添加话题",
+      "time" : {
+        "start" : 1587044730005,
+        "stop" : 1587044731566,
+        "duration" : 1561
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "输入话题",
+      "time" : {
+        "start" : 1587044731566,
+        "stop" : 1587044737509,
+        "duration" : 5943
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "完成话题编辑",
+      "time" : {
+        "start" : 1587044737509,
+        "stop" : 1587044741680,
+        "duration" : 4171
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "输入日记正文",
+      "time" : {
+        "start" : 1587044741680,
+        "stop" : 1587044747686,
+        "duration" : 6006
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "点击发布按钮",
+      "time" : {
+        "start" : 1587044747686,
+        "stop" : 1587044758883,
+        "duration" : 11197
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "断言:日记发布成功",
+      "time" : {
+        "start" : 1587044758883,
+        "stop" : 1587044769079,
+        "duration" : 10196
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 12,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_031_postDiary"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_postDiary"
+  }, {
+    "name" : "host",
+    "value" : "PV-X00232293"
+  }, {
+    "name" : "thread",
+    "value" : "1600-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_031_postDiary"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "82d47919201aa209",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1587040593044,
+        "stop" : 1587040649179,
+        "duration" : 56135
+      }
+    }, {
+      "uid" : "e30b5fd719e2638a",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1587038031307,
+        "stop" : 1587038087607,
+        "duration" : 56300
+      }
+    }, {
+      "uid" : "ad4c4dc065551428",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587031379062,
+        "stop" : 1587031452181,
+        "duration" : 73119
+      }
+    }, {
+      "uid" : "a30b414463aa80e1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587023143075,
+        "stop" : 1587023210356,
+        "duration" : 67281
+      }
+    }, {
+      "uid" : "50734d72bcbdf71e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587019675281,
+        "stop" : 1587019734636,
+        "duration" : 59355
+      }
+    }, {
+      "uid" : "3b76e8b190fd5bcd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587014995216,
+        "stop" : 1587015052953,
+        "duration" : 57737
+      }
+    }, {
+      "uid" : "ec4dc994558b4249",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587011732871,
+        "stop" : 1587011801334,
+        "duration" : 68463
+      }
+    }, {
+      "uid" : "3e79b16a3c4a73e9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587008905227,
+        "stop" : 1587008973347,
+        "duration" : 68120
+      }
+    }, {
+      "uid" : "c24b91c516e9706",
+      "status" : "passed",
+      "time" : {
+        "start" : 1586508182636,
+        "stop" : 1586508284237,
+        "duration" : 101601
+      }
+    }, {
+      "uid" : "e68c003f9d9025f2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1586147466453,
+        "stop" : 1586147507691,
+        "duration" : 41238
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 14,
+        "unknown" : 0,
+        "total" : 14
+      },
+      "items" : [ {
+        "uid" : "91f75c107f272592",
+        "reportUrl" : "http://192.168.88.58:8080/job/Timing/30/allure/#testresult/91f75c107f272592",
+        "status" : "passed",
+        "time" : {
+          "start" : 1587031379062,
+          "stop" : 1587031452181,
+          "duration" : 73119
+        }
+      }, {
+        "uid" : "76a09be4a7223d58",
+        "reportUrl" : "http://192.168.88.58:8080/job/Timing/29/allure/#testresult/76a09be4a7223d58",
+        "status" : "passed",
+        "time" : {
+          "start" : 1587023143075,
+          "stop" : 1587023210356,
+          "duration" : 67281
+        }
+      }, {
+        "uid" : "1c9c4aaa4d70a468",
+        "reportUrl" : "http://192.168.88.58:8080/job/Timing/28/allure/#testresult/1c9c4aaa4d70a468",
+        "status" : "passed",
+        "time" : {
+          "start" : 1587019675281,
+          "stop" : 1587019734636,
+          "duration" : 59355
+        }
+      }, {
+        "uid" : "40ae7d3dd693e822",
+        "reportUrl" : "http://192.168.88.58:8080/job/Timing/27/allure/#testresult/40ae7d3dd693e822",
+        "status" : "passed",
+        "time" : {
+          "start" : 1587019675281,
+          "stop" : 1587019734636,
+          "duration" : 59355
+        }
+      }, {
+        "uid" : "c0ddbf5964f5032b",
+        "reportUrl" : "http://192.168.88.58:8080/job/Timing/26/allure/#testresult/c0ddbf5964f5032b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1587014995216,
+          "stop" : 1587015052953,
+          "duration" : 57737
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "d705f43f2375be4e.json",
+  "parameterValues" : [ ]
+}

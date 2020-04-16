@@ -7,6 +7,8 @@ class Tree_hole(BaseAction):
     treeHoleBtn = By.ID, 'com.huiian.timing:id/cl_entry'
     # 【树洞匹配按钮】
     matchHoleBtn = By.ID, 'com.huiian.timing:id/tv_mood_type'
+    # 【自动寻呼按钮】
+    autoMatchBtn = By.ID, 'com.huiian.timing:id/cl_auto_search'
     # 【树洞频道】
     holeChannelBtn = By.ID, 'com.huiian.timing:id/intercom_current_fm_value'
     # 【切换频道按钮】
@@ -19,6 +21,9 @@ class Tree_hole(BaseAction):
 
     def click_matchHole(self):
         self.click(self.matchHoleBtn)
+
+    def click_autoMatch(self):
+        self.click(self.autoMatchBtn)
 
     def click_switchChannelBtn(self):
         self.click(self.switchChannelBtn)

@@ -1,0 +1,90 @@
+{
+  "uid" : "22dbd4606cfc1a12",
+  "name" : "test_deleteDiary",
+  "fullName" : "test_031_postDiary.Test_postDiary#test_deleteDiary",
+  "historyId" : "12ed4c1cbb70d9a4ea5ed917fc3fc9d3",
+  "time" : {
+    "start" : 1587040652445,
+    "stop" : 1587040708550,
+    "duration" : 56105
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "检测登陆状态",
+      "time" : {
+        "start" : 1587040657445,
+        "stop" : 1587040708550,
+        "duration" : 51105
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "登陆到首页超时或失败，结束用例",
+        "time" : {
+          "start" : 1587040708550,
+          "stop" : 1587040708550,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_031_postDiary"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_postDiary"
+  }, {
+    "name" : "host",
+    "value" : "PV-X00232293"
+  }, {
+    "name" : "thread",
+    "value" : "11004-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_031_postDiary"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "22dbd4606cfc1a12.json",
+  "parameterValues" : [ ]
+}

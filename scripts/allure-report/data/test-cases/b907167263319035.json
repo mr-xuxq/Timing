@@ -1,0 +1,134 @@
+{
+  "uid" : "b907167263319035",
+  "name" : "test_chatVideo",
+  "fullName" : "test_025_groupChat.Test_teamChat#test_chatVideo",
+  "historyId" : "a3ee25ba58e5c6fea7881bab0734e793",
+  "time" : {
+    "start" : 1587019575194,
+    "stop" : 1587019671526,
+    "duration" : 96332
+  },
+  "status" : "broken",
+  "statusMessage" : "selenium.common.exceptions.TimeoutException: Message:",
+  "statusTrace" : "self = <scripts.test_025_groupChat.Test_teamChat object at 0x0000027D8B065B70>\n\n    @allure.story('视频聊天')\n    def test_chatVideo(self):\n        self.page.message().click_messageBtn()\n        with allure.step('点击聊天页面添加按钮'):\n            self.page.message().click_messageTeam()\n            time.sleep(2)\n            self.page.friend_chat().click_chooseType()\n            time.sleep(1)\n        with allure.step('选择视频'):\n            self.page.friend_chat().click_videoBtn()\n        with allure.step('视频选择页选中一个视频并发送'):\n            time.sleep(3)\n            self.page.choose_video().click_chooseVideo()\n            time.sleep(5)\n            self.page.friend_chat().click_backTeam()\n            self.page.friend_chat().click_backTeam()\n            count = self.driver.find_element_by_id('com.huiian.timing:id/friend_msg_content_tv').text\n            with allure.step('取消道友channel置顶'):\n                e1 = self.driver.find_element_by_id(\"com.huiian.timing:id/team_type_iv\")\n                self.action.long_press(e1, None, None, 3000).perform()\n                time.sleep(2)\n>               self.page.message().click_setTop()\n\ntest_025_groupChat.py:99: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n..\\Pages\\message_interaction\\message_page.py:41: in click_setTop\n    self.click(self.setTopBtn)\n..\\base\\base_action.py:27: in click\n    self.find_element(feature).click()\n..\\base\\base_action.py:22: in find_element\n    element = WebDriverWait(self.driver, timeout, poll).until(lambda x: x.find_element(feature_by, feature_value))\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <selenium.webdriver.support.wait.WebDriverWait (session=\"6223b6d4-1370-488c-adcd-8b1a26a07266\")>\nmethod = <function BaseAction.find_element.<locals>.<lambda> at 0x0000027D8AFD02F0>\nmessage = ''\n\n    def until(self, method, message=''):\n        \"\"\"Calls the method provided with the driver as an argument until the \\\n        return value is not False.\"\"\"\n        screen = None\n        stacktrace = None\n    \n        end_time = time.time() + self._timeout\n        while True:\n            try:\n                value = method(self._driver)\n                if value:\n                    return value\n            except self._ignored_exceptions as exc:\n                screen = getattr(exc, 'screen', None)\n                stacktrace = getattr(exc, 'stacktrace', None)\n            time.sleep(self._poll)\n            if time.time() > end_time:\n                break\n>       raise TimeoutException(message, screen, stacktrace)\nE       selenium.common.exceptions.TimeoutException: Message:\n\nd:\\python\\lib\\site-packages\\selenium\\webdriver\\support\\wait.py:80: TimeoutException",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "selenium.common.exceptions.TimeoutException: Message:",
+    "statusTrace" : "self = <scripts.test_025_groupChat.Test_teamChat object at 0x0000027D8B065B70>\n\n    @allure.story('视频聊天')\n    def test_chatVideo(self):\n        self.page.message().click_messageBtn()\n        with allure.step('点击聊天页面添加按钮'):\n            self.page.message().click_messageTeam()\n            time.sleep(2)\n            self.page.friend_chat().click_chooseType()\n            time.sleep(1)\n        with allure.step('选择视频'):\n            self.page.friend_chat().click_videoBtn()\n        with allure.step('视频选择页选中一个视频并发送'):\n            time.sleep(3)\n            self.page.choose_video().click_chooseVideo()\n            time.sleep(5)\n            self.page.friend_chat().click_backTeam()\n            self.page.friend_chat().click_backTeam()\n            count = self.driver.find_element_by_id('com.huiian.timing:id/friend_msg_content_tv').text\n            with allure.step('取消道友channel置顶'):\n                e1 = self.driver.find_element_by_id(\"com.huiian.timing:id/team_type_iv\")\n                self.action.long_press(e1, None, None, 3000).perform()\n                time.sleep(2)\n>               self.page.message().click_setTop()\n\ntest_025_groupChat.py:99: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n..\\Pages\\message_interaction\\message_page.py:41: in click_setTop\n    self.click(self.setTopBtn)\n..\\base\\base_action.py:27: in click\n    self.find_element(feature).click()\n..\\base\\base_action.py:22: in find_element\n    element = WebDriverWait(self.driver, timeout, poll).until(lambda x: x.find_element(feature_by, feature_value))\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <selenium.webdriver.support.wait.WebDriverWait (session=\"6223b6d4-1370-488c-adcd-8b1a26a07266\")>\nmethod = <function BaseAction.find_element.<locals>.<lambda> at 0x0000027D8AFD02F0>\nmessage = ''\n\n    def until(self, method, message=''):\n        \"\"\"Calls the method provided with the driver as an argument until the \\\n        return value is not False.\"\"\"\n        screen = None\n        stacktrace = None\n    \n        end_time = time.time() + self._timeout\n        while True:\n            try:\n                value = method(self._driver)\n                if value:\n                    return value\n            except self._ignored_exceptions as exc:\n                screen = getattr(exc, 'screen', None)\n                stacktrace = getattr(exc, 'stacktrace', None)\n            time.sleep(self._poll)\n            if time.time() > end_time:\n                break\n>       raise TimeoutException(message, screen, stacktrace)\nE       selenium.common.exceptions.TimeoutException: Message:\n\nd:\\python\\lib\\site-packages\\selenium\\webdriver\\support\\wait.py:80: TimeoutException",
+    "steps" : [ {
+      "name" : "点击聊天页面添加按钮",
+      "time" : {
+        "start" : 1587019585651,
+        "stop" : 1587019600757,
+        "duration" : 15106
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "选择视频",
+      "time" : {
+        "start" : 1587019600757,
+        "stop" : 1587019601462,
+        "duration" : 705
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "视频选择页选中一个视频并发送",
+      "time" : {
+        "start" : 1587019601462,
+        "stop" : 1587019671526,
+        "duration" : 70064
+      },
+      "status" : "broken",
+      "statusMessage" : "selenium.common.exceptions.TimeoutException: Message: \n\n",
+      "statusTrace" : "  File \"D:\\jenkins\\workspace\\Timing\\scripts\\test_025_groupChat.py\", line 99, in test_chatVideo\n    self.page.message().click_setTop()\n  File \"D:\\jenkins\\workspace\\Timing\\Pages\\message_interaction\\message_page.py\", line 41, in click_setTop\n    self.click(self.setTopBtn)\n  File \"D:\\jenkins\\workspace\\Timing\\base\\base_action.py\", line 27, in click\n    self.find_element(feature).click()\n  File \"D:\\jenkins\\workspace\\Timing\\base\\base_action.py\", line 22, in find_element\n    element = WebDriverWait(self.driver, timeout, poll).until(lambda x: x.find_element(feature_by, feature_value))\n  File \"d:\\python\\lib\\site-packages\\selenium\\webdriver\\support\\wait.py\", line 80, in until\n    raise TimeoutException(message, screen, stacktrace)\n",
+      "steps" : [ {
+        "name" : "取消道友channel置顶",
+        "time" : {
+          "start" : 1587019614877,
+          "stop" : 1587019671526,
+          "duration" : 56649
+        },
+        "status" : "broken",
+        "statusMessage" : "selenium.common.exceptions.TimeoutException: Message: \n\n",
+        "statusTrace" : "  File \"D:\\jenkins\\workspace\\Timing\\scripts\\test_025_groupChat.py\", line 99, in test_chatVideo\n    self.page.message().click_setTop()\n  File \"D:\\jenkins\\workspace\\Timing\\Pages\\message_interaction\\message_page.py\", line 41, in click_setTop\n    self.click(self.setTopBtn)\n  File \"D:\\jenkins\\workspace\\Timing\\base\\base_action.py\", line 27, in click\n    self.find_element(feature).click()\n  File \"D:\\jenkins\\workspace\\Timing\\base\\base_action.py\", line 22, in find_element\n    element = WebDriverWait(self.driver, timeout, poll).until(lambda x: x.find_element(feature_by, feature_value))\n  File \"d:\\python\\lib\\site-packages\\selenium\\webdriver\\support\\wait.py\", line 80, in until\n    raise TimeoutException(message, screen, stacktrace)\n",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 4,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "视频聊天"
+  }, {
+    "name" : "feature",
+    "value" : "群组聊天功能"
+  }, {
+    "name" : "suite",
+    "value" : "test_025_groupChat"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_teamChat"
+  }, {
+    "name" : "host",
+    "value" : "PV-X00232293"
+  }, {
+    "name" : "thread",
+    "value" : "8176-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_025_groupChat"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b907167263319035.json",
+  "parameterValues" : [ ]
+}

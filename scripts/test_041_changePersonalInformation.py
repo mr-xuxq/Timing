@@ -47,10 +47,13 @@ class Test_changePersonalInformation():
             self.page.person_home().click_personInfo()
         with allure.step('修改性别栏'):
             self.page.edit_personal_info().click_gender()
+            time.sleep(2)
         with allure.step('滑动选择性别'):
             self.page.edit_personal_info().swipeByGender()
+            time.sleep(2)
         with allure.step('提交修改后的性别选择'):
             self.page.edit_personal_info().click_genderSubmit()
+            time.sleep(2)
         with allure.step('点击保存'):
             self.page.edit_personal_info().click_infoSubmit()
         with allure.step('校验结果：性别保存成功——>成功'):

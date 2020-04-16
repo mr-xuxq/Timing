@@ -56,7 +56,7 @@ class Shouye(BaseAction):
         self.driver.tap([(L[0]*x,L[1]*y)],1)
 
     def waitAndFind(self):
-        if  self.waitLoading(self.shouyeBtn,t=5) == True:
+        if  self.waitLoading(self.moreBtn,t=5) == True:
             return True
         else:
             return False

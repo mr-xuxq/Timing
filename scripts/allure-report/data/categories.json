@@ -7,7 +7,7 @@
       "name" : "AttributeError: 'Shouye' object has no attribute 'waitAndfind'",
       "children" : [ {
         "name" : "test_swipeO",
-        "uid" : "72d8536e781c4c9",
+        "uid" : "9a018cc6fba74699",
         "parentUid" : "f6709ebc2dd7facecd6aa793f622aa36",
         "status" : "broken",
         "time" : {
@@ -20,54 +20,118 @@
       } ],
       "uid" : "f6709ebc2dd7facecd6aa793f622aa36"
     }, {
-      "name" : "selenium.common.exceptions.WebDriverException: Message: An unknown server-side error occurred while processing the command.",
-      "children" : [ {
-        "name" : "test_browsesVlog",
-        "uid" : "e9f8478a1aa3fc8",
-        "parentUid" : "5d1504822a3dbd84ccb84831fdb36d2f",
-        "status" : "broken",
-        "time" : {
-          "start" : 1587022509619,
-          "stop" : 1587022534169,
-          "duration" : 24550
-        },
-        "flaky" : true,
-        "parameters" : [ ]
-      } ],
-      "uid" : "5d1504822a3dbd84ccb84831fdb36d2f"
-    }, {
       "name" : "selenium.common.exceptions.TimeoutException: Message:",
       "children" : [ {
-        "name" : "test_checkFollowList",
-        "uid" : "3091cf028f795dbe",
+        "name" : "test_loginByWexin",
+        "uid" : "bb3b8fbbde143a1c",
         "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
         "status" : "broken",
         "time" : {
-          "start" : 1587023460393,
-          "stop" : 1587023549068,
-          "duration" : 88675
+          "start" : 1587030185381,
+          "stop" : 1587030303209,
+          "duration" : 117828
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_normalTiming_exit",
+        "uid" : "b68ca1164ecfe59f",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1587031947490,
+          "stop" : 1587032014308,
+          "duration" : 66818
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_loginByQQ",
+        "uid" : "8c1f8cd675b94332",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1587043731244,
+          "stop" : 1587043792954,
+          "duration" : 61710
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_genderInfo",
+        "uid" : "c67401b300b4ad72",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1587044927311,
+          "stop" : 1587045029105,
+          "duration" : 101794
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_sleepRecord",
+        "uid" : "de66a69828337cb8",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1587045391079,
+          "stop" : 1587045478518,
+          "duration" : 87439
         },
         "flaky" : true,
         "parameters" : [ ]
       } ],
       "uid" : "31bb78a6a95ede3f78b260ed048910d8"
     }, {
-      "name" : "selenium.common.exceptions.SessionNotCreatedException: Message: A new session could not be created. (Original error: com.huiian.timing/.view.activity.StartupActivity never started. Current: com.huiian.timing/.view.activity.LearnResultActivity)",
+      "name" : "selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.",
       "children" : [ {
-        "name" : "test_normalTiming_exit",
-        "uid" : "f8b8b14fca5c05fe",
-        "parentUid" : "c9dfb5fb2118dfa16028e10c4f2d7ef1",
+        "name" : "test_normalTiming",
+        "uid" : "d10e366af7142342",
+        "parentUid" : "7a823ebd65a5f17ad39e628108c6e522",
         "status" : "broken",
         "time" : {
-          "start" : 1587023647259,
-          "stop" : 1587023647259,
-          "duration" : 0
+          "start" : 1587045123066,
+          "stop" : 1587045192838,
+          "duration" : 69772
         },
         "flaky" : true,
         "parameters" : [ ]
       } ],
-      "uid" : "c9dfb5fb2118dfa16028e10c4f2d7ef1"
+      "uid" : "7a823ebd65a5f17ad39e628108c6e522"
     } ],
     "uid" : "bdbf199525818fae7a8651db9eafe741"
+  }, {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert False == True\n  -False\n  +True",
+      "children" : [ {
+        "name" : "test_registerAccount",
+        "uid" : "8607bd4b63d69456",
+        "parentUid" : "9ec8f191b848aac8e79241d2720739a9",
+        "status" : "failed",
+        "time" : {
+          "start" : 1587043520077,
+          "stop" : 1587043650721,
+          "duration" : 130644
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_checkFollowList",
+        "uid" : "494b1d1cbab5713b",
+        "parentUid" : "9ec8f191b848aac8e79241d2720739a9",
+        "status" : "failed",
+        "time" : {
+          "start" : 1587045069432,
+          "stop" : 1587045119772,
+          "duration" : 50340
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9ec8f191b848aac8e79241d2720739a9"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   } ]
 }

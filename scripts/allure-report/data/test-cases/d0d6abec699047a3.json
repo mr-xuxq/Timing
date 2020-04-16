@@ -1,0 +1,87 @@
+{
+  "uid" : "d0d6abec699047a3",
+  "name" : "test_videoRecordTiming",
+  "fullName" : "test_053_videoRecordTiming.Test_videoRecordTiming#test_videoRecordTiming",
+  "historyId" : "51867c13abb9a21a0481d8e2b12818f2",
+  "time" : {
+    "start" : 1587041038785,
+    "stop" : 1587041090213,
+    "duration" : 51428
+  },
+  "status" : "broken",
+  "statusMessage" : "selenium.common.exceptions.TimeoutException: Message:",
+  "statusTrace" : "self = <scripts.test_053_videoRecordTiming.Test_videoRecordTiming object at 0x000001E16979D5C0>\n\n    @allure.story('视频打卡操作')\n    def test_videoRecordTiming(self):\n        with allure.step('进入更多页面'):\n>           self.page.more().click_more()\n\ntest_053_videoRecordTiming.py:20: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n..\\Pages\\personal_information\\more_page.py:42: in click_more\n    self.click(self.moreBtn)\n..\\base\\base_action.py:27: in click\n    self.find_element(feature).click()\n..\\base\\base_action.py:22: in find_element\n    element = WebDriverWait(self.driver, timeout, poll).until(lambda x: x.find_element(feature_by, feature_value))\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <selenium.webdriver.support.wait.WebDriverWait (session=\"266804cb-8adf-4823-ba29-b185eb99d003\")>\nmethod = <function BaseAction.find_element.<locals>.<lambda> at 0x000001E1697C26A8>\nmessage = ''\n\n    def until(self, method, message=''):\n        \"\"\"Calls the method provided with the driver as an argument until the \\\n        return value is not False.\"\"\"\n        screen = None\n        stacktrace = None\n    \n        end_time = time.time() + self._timeout\n        while True:\n            try:\n                value = method(self._driver)\n                if value:\n                    return value\n            except self._ignored_exceptions as exc:\n                screen = getattr(exc, 'screen', None)\n                stacktrace = getattr(exc, 'stacktrace', None)\n            time.sleep(self._poll)\n            if time.time() > end_time:\n                break\n>       raise TimeoutException(message, screen, stacktrace)\nE       selenium.common.exceptions.TimeoutException: Message:\n\nd:\\python\\lib\\site-packages\\selenium\\webdriver\\support\\wait.py:80: TimeoutException",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "selenium.common.exceptions.TimeoutException: Message:",
+    "statusTrace" : "self = <scripts.test_053_videoRecordTiming.Test_videoRecordTiming object at 0x000001E16979D5C0>\n\n    @allure.story('视频打卡操作')\n    def test_videoRecordTiming(self):\n        with allure.step('进入更多页面'):\n>           self.page.more().click_more()\n\ntest_053_videoRecordTiming.py:20: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n..\\Pages\\personal_information\\more_page.py:42: in click_more\n    self.click(self.moreBtn)\n..\\base\\base_action.py:27: in click\n    self.find_element(feature).click()\n..\\base\\base_action.py:22: in find_element\n    element = WebDriverWait(self.driver, timeout, poll).until(lambda x: x.find_element(feature_by, feature_value))\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <selenium.webdriver.support.wait.WebDriverWait (session=\"266804cb-8adf-4823-ba29-b185eb99d003\")>\nmethod = <function BaseAction.find_element.<locals>.<lambda> at 0x000001E1697C26A8>\nmessage = ''\n\n    def until(self, method, message=''):\n        \"\"\"Calls the method provided with the driver as an argument until the \\\n        return value is not False.\"\"\"\n        screen = None\n        stacktrace = None\n    \n        end_time = time.time() + self._timeout\n        while True:\n            try:\n                value = method(self._driver)\n                if value:\n                    return value\n            except self._ignored_exceptions as exc:\n                screen = getattr(exc, 'screen', None)\n                stacktrace = getattr(exc, 'stacktrace', None)\n            time.sleep(self._poll)\n            if time.time() > end_time:\n                break\n>       raise TimeoutException(message, screen, stacktrace)\nE       selenium.common.exceptions.TimeoutException: Message:\n\nd:\\python\\lib\\site-packages\\selenium\\webdriver\\support\\wait.py:80: TimeoutException",
+    "steps" : [ {
+      "name" : "进入更多页面",
+      "time" : {
+        "start" : 1587041038785,
+        "stop" : 1587041090213,
+        "duration" : 51428
+      },
+      "status" : "broken",
+      "statusMessage" : "selenium.common.exceptions.TimeoutException: Message: \n\n",
+      "statusTrace" : "  File \"D:\\jenkins\\workspace\\Timing\\scripts\\test_053_videoRecordTiming.py\", line 20, in test_videoRecordTiming\n    self.page.more().click_more()\n  File \"D:\\jenkins\\workspace\\Timing\\Pages\\personal_information\\more_page.py\", line 42, in click_more\n    self.click(self.moreBtn)\n  File \"D:\\jenkins\\workspace\\Timing\\base\\base_action.py\", line 27, in click\n    self.find_element(feature).click()\n  File \"D:\\jenkins\\workspace\\Timing\\base\\base_action.py\", line 22, in find_element\n    element = WebDriverWait(self.driver, timeout, poll).until(lambda x: x.find_element(feature_by, feature_value))\n  File \"d:\\python\\lib\\site-packages\\selenium\\webdriver\\support\\wait.py\", line 80, in until\n    raise TimeoutException(message, screen, stacktrace)\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "视频打卡操作"
+  }, {
+    "name" : "feature",
+    "value" : "视频打卡功能"
+  }, {
+    "name" : "suite",
+    "value" : "test_053_videoRecordTiming"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_videoRecordTiming"
+  }, {
+    "name" : "host",
+    "value" : "PV-X00232293"
+  }, {
+    "name" : "thread",
+    "value" : "11004-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_053_videoRecordTiming"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d0d6abec699047a3.json",
+  "parameterValues" : [ ]
+}

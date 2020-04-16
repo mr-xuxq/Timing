@@ -1,0 +1,276 @@
+{
+  "uid" : "d1f88aea2af431f2",
+  "name" : "test_teamChatWord",
+  "fullName" : "test_025_groupChat.Test_teamChat#test_teamChatWord",
+  "historyId" : "886f72d5cbfe1f3813b2e8841e171b18",
+  "time" : {
+    "start" : 1587044586847,
+    "stop" : 1587044634917,
+    "duration" : 48070
+  },
+  "status" : "passed",
+  "flaky" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "点击小书童后返回至消息页面，使小书童不置顶",
+      "time" : {
+        "start" : 1587044603336,
+        "stop" : 1587044608246,
+        "duration" : 4910
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "找到群组后使channel置顶",
+      "time" : {
+        "start" : 1587044608246,
+        "stop" : 1587044634917,
+        "duration" : 26671
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "点击channel进入聊天页面",
+        "time" : {
+          "start" : 1587044618170,
+          "stop" : 1587044620809,
+          "duration" : 2639
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "发送聊天消息",
+        "time" : {
+          "start" : 1587044620809,
+          "stop" : 1587044633793,
+          "duration" : 12984
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "校验结果：若发送成功，消息页会显示最新消息",
+        "time" : {
+          "start" : 1587044634917,
+          "stop" : 1587044634917,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 3,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 5,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "群组聊天功能"
+  }, {
+    "name" : "story",
+    "value" : "文字聊天"
+  }, {
+    "name" : "suite",
+    "value" : "test_025_groupChat"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_teamChat"
+  }, {
+    "name" : "host",
+    "value" : "PV-X00232293"
+  }, {
+    "name" : "thread",
+    "value" : "1600-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_025_groupChat"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "dcad255ca729afcd",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1587040429429,
+        "stop" : 1587040480696,
+        "duration" : 51267
+      }
+    }, {
+      "uid" : "bdaaeb25c343b825",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1587037865268,
+        "stop" : 1587037916767,
+        "duration" : 51499
+      }
+    }, {
+      "uid" : "13b107459c179fcb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587031183938,
+        "stop" : 1587031242587,
+        "duration" : 58649
+      }
+    }, {
+      "uid" : "d306505900ba3c10",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587022998412,
+        "stop" : 1587023043954,
+        "duration" : 45542
+      }
+    }, {
+      "uid" : "a5e2c14a518da2c7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587019483587,
+        "stop" : 1587019527893,
+        "duration" : 44306
+      }
+    }, {
+      "uid" : "47b49bf127c2b8fe",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert '[视频]' == 'I am a message!'\n  - [视频]\n  + I am a message!",
+      "time" : {
+        "start" : 1587014840969,
+        "stop" : 1587014897259,
+        "duration" : 56290
+      }
+    }, {
+      "uid" : "b5eccfec9f646616",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587011595911,
+        "stop" : 1587011640359,
+        "duration" : 44448
+      }
+    }, {
+      "uid" : "ea3cc0fd63a3d89a",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert '[视频]' == 'I am a message!'\n  - [视频]\n  + I am a message!",
+      "time" : {
+        "start" : 1587008766878,
+        "stop" : 1587008812347,
+        "duration" : 45469
+      }
+    }, {
+      "uid" : "bb3e75723e347b2a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1586508040060,
+        "stop" : 1586508083948,
+        "duration" : 43888
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 3,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 10,
+        "unknown" : 0,
+        "total" : 13
+      },
+      "items" : [ {
+        "uid" : "5c3c72767bbfb0f9",
+        "reportUrl" : "http://192.168.88.58:8080/job/Timing/30/allure/#testresult/5c3c72767bbfb0f9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1587031183938,
+          "stop" : 1587031242587,
+          "duration" : 58649
+        }
+      }, {
+        "uid" : "c8711d9cff5322ef",
+        "reportUrl" : "http://192.168.88.58:8080/job/Timing/29/allure/#testresult/c8711d9cff5322ef",
+        "status" : "passed",
+        "time" : {
+          "start" : 1587022998412,
+          "stop" : 1587023043954,
+          "duration" : 45542
+        }
+      }, {
+        "uid" : "7a88a3c7f8a21fcf",
+        "reportUrl" : "http://192.168.88.58:8080/job/Timing/28/allure/#testresult/7a88a3c7f8a21fcf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1587019483587,
+          "stop" : 1587019527893,
+          "duration" : 44306
+        }
+      }, {
+        "uid" : "17d64a34a13e22ac",
+        "reportUrl" : "http://192.168.88.58:8080/job/Timing/27/allure/#testresult/17d64a34a13e22ac",
+        "status" : "passed",
+        "time" : {
+          "start" : 1587019483587,
+          "stop" : 1587019527893,
+          "duration" : 44306
+        }
+      }, {
+        "uid" : "c9a221594bdb3ba9",
+        "reportUrl" : "http://192.168.88.58:8080/job/Timing/26/allure/#testresult/c9a221594bdb3ba9",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert '[视频]' == 'I am a message!'\n  - [视频]\n  + I am a message!",
+        "time" : {
+          "start" : 1587014840969,
+          "stop" : 1587014897259,
+          "duration" : 56290
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "d1f88aea2af431f2.json",
+  "parameterValues" : [ ]
+}

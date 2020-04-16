@@ -1,0 +1,339 @@
+{
+  "uid" : "e11224e38378a9e9",
+  "name" : "test_chatVideo",
+  "fullName" : "test_022_friendChat.Test_friendChat#test_chatVideo",
+  "historyId" : "379fd30feb629b30df1e6a6bf3b5061e",
+  "time" : {
+    "start" : 1587044455199,
+    "stop" : 1587044555733,
+    "duration" : 100534
+  },
+  "status" : "passed",
+  "flaky" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "进入消息页面",
+      "time" : {
+        "start" : 1587044455199,
+        "stop" : 1587044460914,
+        "duration" : 5715
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "滑动消息页面寻找第一个道友",
+      "time" : {
+        "start" : 1587044460914,
+        "stop" : 1587044463070,
+        "duration" : 2156
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "找到道友后点击channel进入聊天页面",
+      "time" : {
+        "start" : 1587044463070,
+        "stop" : 1587044463799,
+        "duration" : 729
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "点击聊天页面添加按钮",
+      "time" : {
+        "start" : 1587044463799,
+        "stop" : 1587044476876,
+        "duration" : 13077
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "选择视频",
+      "time" : {
+        "start" : 1587044476876,
+        "stop" : 1587044497790,
+        "duration" : 20914
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "视频选择页选中一个视频并发送",
+      "time" : {
+        "start" : 1587044497791,
+        "stop" : 1587044555733,
+        "duration" : 57942
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "取消道友channel置顶",
+        "time" : {
+          "start" : 1587044545321,
+          "stop" : 1587044555733,
+          "duration" : 10412
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "校验结果：若发送成功，消息页会显示最新视频",
+      "time" : {
+        "start" : 1587044555733,
+        "stop" : 1587044555733,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 8,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "视频聊天"
+  }, {
+    "name" : "feature",
+    "value" : "聊天页功能"
+  }, {
+    "name" : "suite",
+    "value" : "test_022_friendChat"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_friendChat"
+  }, {
+    "name" : "host",
+    "value" : "PV-X00232293"
+  }, {
+    "name" : "thread",
+    "value" : "1600-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_022_friendChat"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "8b05718e7ecf2034",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1587040320341,
+        "stop" : 1587040372007,
+        "duration" : 51666
+      }
+    }, {
+      "uid" : "9198c9fb1fcd0a00",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1587037755273,
+        "stop" : 1587037806703,
+        "duration" : 51430
+      }
+    }, {
+      "uid" : "671ecd70cde8c546",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587031003900,
+        "stop" : 1587031142010,
+        "duration" : 138110
+      }
+    }, {
+      "uid" : "ddaba06056fbb7db",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587022885809,
+        "stop" : 1587022960083,
+        "duration" : 74274
+      }
+    }, {
+      "uid" : "28d6fbab092afaf3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587019373442,
+        "stop" : 1587019445980,
+        "duration" : 72538
+      }
+    }, {
+      "uid" : "19c599eded8350a2",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert '你发布了学习日记' == '[视频]'\n  - 你发布了学习日记\n  + [视频]",
+      "time" : {
+        "start" : 1587014753319,
+        "stop" : 1587014803352,
+        "duration" : 50033
+      }
+    }, {
+      "uid" : "989974ec295cce1e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587011512046,
+        "stop" : 1587011559478,
+        "duration" : 47432
+      }
+    }, {
+      "uid" : "3f805975c2a1fd8b",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert '你发布了学习日记' == '[视频]'\n  - 你发布了学习日记\n  + [视频]",
+      "time" : {
+        "start" : 1587008639156,
+        "stop" : 1587008693234,
+        "duration" : 54078
+      }
+    }, {
+      "uid" : "6728b6ac01d29284",
+      "status" : "passed",
+      "time" : {
+        "start" : 1586507900004,
+        "stop" : 1586507951967,
+        "duration" : 51963
+      }
+    }, {
+      "uid" : "a0cf542fb12067d5",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1586159179434,
+        "stop" : 1586159249663,
+        "duration" : 70229
+      }
+    }, {
+      "uid" : "e599af14ea1f09dc",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1586147084413,
+        "stop" : 1586147244677,
+        "duration" : 160264
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 3,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 10,
+        "unknown" : 0,
+        "total" : 14
+      },
+      "items" : [ {
+        "uid" : "f7c10dee6af575c2",
+        "reportUrl" : "http://192.168.88.58:8080/job/Timing/30/allure/#testresult/f7c10dee6af575c2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1587031003900,
+          "stop" : 1587031142010,
+          "duration" : 138110
+        }
+      }, {
+        "uid" : "d4ad08472c38bb75",
+        "reportUrl" : "http://192.168.88.58:8080/job/Timing/29/allure/#testresult/d4ad08472c38bb75",
+        "status" : "passed",
+        "time" : {
+          "start" : 1587022885809,
+          "stop" : 1587022960083,
+          "duration" : 74274
+        }
+      }, {
+        "uid" : "19fcae473a4006aa",
+        "reportUrl" : "http://192.168.88.58:8080/job/Timing/28/allure/#testresult/19fcae473a4006aa",
+        "status" : "passed",
+        "time" : {
+          "start" : 1587019373442,
+          "stop" : 1587019445980,
+          "duration" : 72538
+        }
+      }, {
+        "uid" : "4a31510ea77ec858",
+        "reportUrl" : "http://192.168.88.58:8080/job/Timing/27/allure/#testresult/4a31510ea77ec858",
+        "status" : "passed",
+        "time" : {
+          "start" : 1587019373442,
+          "stop" : 1587019445980,
+          "duration" : 72538
+        }
+      }, {
+        "uid" : "f146727adba497a0",
+        "reportUrl" : "http://192.168.88.58:8080/job/Timing/26/allure/#testresult/f146727adba497a0",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert '你发布了学习日记' == '[视频]'\n  - 你发布了学习日记\n  + [视频]",
+        "time" : {
+          "start" : 1587014753319,
+          "stop" : 1587014803352,
+          "duration" : 50033
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "e11224e38378a9e9.json",
+  "parameterValues" : [ ]
+}
