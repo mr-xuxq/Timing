@@ -28,6 +28,7 @@ class Test_createGroup():
             self.page.create_group().click_chooseFriendDo()
             assert self.page.create_group().waitAndfind_createdDiscussTeam() == True
 
+
 #账号条件：  粉丝50
     # @allure.story('创建打卡群')
     # def test_recordTeam(self):

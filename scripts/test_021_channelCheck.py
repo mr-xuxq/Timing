@@ -3,6 +3,8 @@ from Pages.page import Page
 from base.base_driver import Base
 from selenium.webdriver.common.by import By
 
+# 互动通知
+interaction = By.XPATH, '//*[@text="互动通知"]'
 #用feature说明产品需求
 @allure.feature('消息页channel展示')
 class Test_channelCheck():

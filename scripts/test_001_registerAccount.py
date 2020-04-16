@@ -8,7 +8,7 @@ from sqlalchemy import create_engine
 phone = 10000000860
 nickName = 9527
 # 此处填入服务器连接
-
+engine  =  create_engine('mysql+pymysql://timing_read_only:db_only_hsyt21@rr-bp12u85w22spt5976do.mysql.rds.aliyuncs.com:3306/timing?charset=utf8')    #  正式服
 
 
 class Test_registerAccount():
@@ -77,6 +77,7 @@ class Test_registerAccount():
         with allure.step('新手引导-开启Timing之旅'):
             self.page.guide().click_yesBtn()
         with allure.step('断言:注册完成'):
+            time.sleep(2)
             assert self.page.login().check_target() == True
 
     def test_logout(self):
@@ -89,4 +90,5 @@ class Test_registerAccount():
         with allure.step('确定退出'):
             self.page.setting().click_confirmLogout()
         with allure.step('断言:退出登录成功'):
+            time.sleep(2)
             assert self.page.setting().findLogin() == True

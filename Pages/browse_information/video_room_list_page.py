@@ -11,7 +11,7 @@ class Video_room_list(BaseAction):
         self.click(self.joinBtn)
 
     def check_join(self):
-        return  self.is_feature_exist(self.joinBtn[1])
+        return  self.is_feature_exist(self.joinBtn)
 
 
 

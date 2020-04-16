@@ -12,6 +12,8 @@ class Timing(BaseAction):
     timingEndDialog = By.XPATH, '//*[@text="知道了"]'
     # 计时结算页右上角【完成】按钮
     timingEndSuccess = By.XPATH, '//*[@text="完成"]'
+    #计时不足1min点击结束
+    timingStop = By.ID,'com.huiian.timing:id/timing_stop_tv'
     #计时不足1min点击结束出现的弹窗_【确定】按钮
     timingEndConfirmRight = By.XPATH, '//*[@text="确定"]'
     #计时不足1min点击结束出现的弹窗_【取消】按钮
@@ -82,6 +84,8 @@ class Timing(BaseAction):
         self.click(self.sleepingWake)
     def click_timingEndConfirmRight(self):
         self.click(self.timingEndConfirmRight)
+    def click_timingStop(self):
+        self.click(self.timingStop)
 
     def input_studyContentBox(self,content):
         self.input(self.studyContentBox,content)

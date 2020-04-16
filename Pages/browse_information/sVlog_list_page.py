@@ -16,4 +16,4 @@ class List_sVlog(BaseAction):
         self.swipeOperat(0.5,0.8,0.5,0.2,500)
 
     def check_sVlogTitle(self):
-        return self.is_feature_exist(self.sVlogTitle[1])
+        return self.is_feature_exist(self.sVlogTitle)
