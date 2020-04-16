@@ -1,0 +1,73 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "AttributeError: 'Shouye' object has no attribute 'waitAndfind'",
+      "children" : [ {
+        "name" : "test_swipeO",
+        "uid" : "72d8536e781c4c9",
+        "parentUid" : "f6709ebc2dd7facecd6aa793f622aa36",
+        "status" : "broken",
+        "time" : {
+          "start" : 1586158913916,
+          "stop" : 1586158947904,
+          "duration" : 33988
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f6709ebc2dd7facecd6aa793f622aa36"
+    }, {
+      "name" : "selenium.common.exceptions.WebDriverException: Message: An unknown server-side error occurred while processing the command.",
+      "children" : [ {
+        "name" : "test_browsesVlog",
+        "uid" : "e9f8478a1aa3fc8",
+        "parentUid" : "5d1504822a3dbd84ccb84831fdb36d2f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1587022509619,
+          "stop" : 1587022534169,
+          "duration" : 24550
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5d1504822a3dbd84ccb84831fdb36d2f"
+    }, {
+      "name" : "selenium.common.exceptions.TimeoutException: Message:",
+      "children" : [ {
+        "name" : "test_checkFollowList",
+        "uid" : "3091cf028f795dbe",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1587023460393,
+          "stop" : 1587023549068,
+          "duration" : 88675
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "31bb78a6a95ede3f78b260ed048910d8"
+    }, {
+      "name" : "selenium.common.exceptions.SessionNotCreatedException: Message: A new session could not be created. (Original error: com.huiian.timing/.view.activity.StartupActivity never started. Current: com.huiian.timing/.view.activity.LearnResultActivity)",
+      "children" : [ {
+        "name" : "test_normalTiming_exit",
+        "uid" : "f8b8b14fca5c05fe",
+        "parentUid" : "c9dfb5fb2118dfa16028e10c4f2d7ef1",
+        "status" : "broken",
+        "time" : {
+          "start" : 1587023647259,
+          "stop" : 1587023647259,
+          "duration" : 0
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c9dfb5fb2118dfa16028e10c4f2d7ef1"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

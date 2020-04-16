@@ -1,0 +1,226 @@
+{
+  "uid" : "194896f97536ca7e",
+  "name" : "test_interaction",
+  "fullName" : "test_021_channelCheck.Test_channelCheck#test_interaction",
+  "historyId" : "7756e9d1712a198e75d266281d84377e",
+  "time" : {
+    "start" : 1587022761385,
+    "stop" : 1587022776528,
+    "duration" : 15143
+  },
+  "status" : "passed",
+  "flaky" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "进入消息页面",
+      "time" : {
+        "start" : 1587022761386,
+        "stop" : 1587022773607,
+        "duration" : 12221
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "滑动寻找互动通知",
+      "time" : {
+        "start" : 1587022773607,
+        "stop" : 1587022776096,
+        "duration" : 2489
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "校验结果",
+      "time" : {
+        "start" : 1587022776096,
+        "stop" : 1587022776528,
+        "duration" : 432
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "互动通知channel"
+  }, {
+    "name" : "feature",
+    "value" : "消息页channel展示"
+  }, {
+    "name" : "suite",
+    "value" : "test_021_channelCheck"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_channelCheck"
+  }, {
+    "name" : "host",
+    "value" : "PV-X00232293"
+  }, {
+    "name" : "thread",
+    "value" : "10660-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_021_channelCheck"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "6041bca6ae56f0dd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587019204358,
+        "stop" : 1587019222124,
+        "duration" : 17766
+      }
+    }, {
+      "uid" : "436ec86f69bf7cba",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587014634195,
+        "stop" : 1587014647658,
+        "duration" : 13463
+      }
+    }, {
+      "uid" : "16b984166dcc3ac2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587011377305,
+        "stop" : 1587011391357,
+        "duration" : 14052
+      }
+    }, {
+      "uid" : "6ec738a756d06bac",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587008533896,
+        "stop" : 1587008544774,
+        "duration" : 10878
+      }
+    }, {
+      "uid" : "79cd69769a70d44b",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False == True\n  -False\n  +True",
+      "time" : {
+        "start" : 1586507762674,
+        "stop" : 1586507808310,
+        "duration" : 45636
+      }
+    }, {
+      "uid" : "ae3fee6a5a675a65",
+      "status" : "passed",
+      "time" : {
+        "start" : 1586158964934,
+        "stop" : 1586158984541,
+        "duration" : 19607
+      }
+    }, {
+      "uid" : "393fd98ded82ffc3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1586146742274,
+        "stop" : 1586146749126,
+        "duration" : 6852
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 5,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 6,
+        "unknown" : 0,
+        "total" : 12
+      },
+      "items" : [ {
+        "uid" : "1836a50f85e445c5",
+        "reportUrl" : "http://192.168.88.58:8080/job/Timing/28/allure/#testresult/1836a50f85e445c5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1587019204358,
+          "stop" : 1587019222124,
+          "duration" : 17766
+        }
+      }, {
+        "uid" : "b5b5d325b7268dc3",
+        "reportUrl" : "http://192.168.88.58:8080/job/Timing/27/allure/#testresult/b5b5d325b7268dc3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1587019204358,
+          "stop" : 1587019222124,
+          "duration" : 17766
+        }
+      }, {
+        "uid" : "17ff065506660abc",
+        "reportUrl" : "http://192.168.88.58:8080/job/Timing/26/allure/#testresult/17ff065506660abc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1587014634195,
+          "stop" : 1587014647658,
+          "duration" : 13463
+        }
+      }, {
+        "uid" : "7eeac2914f460eb3",
+        "reportUrl" : "http://192.168.88.58:8080/job/Timing/24/allure/#testresult/7eeac2914f460eb3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1587011377305,
+          "stop" : 1587011391357,
+          "duration" : 14052
+        }
+      }, {
+        "uid" : "200e57967fe25fc5",
+        "reportUrl" : "http://192.168.88.58:8080/job/Timing/23/allure/#testresult/200e57967fe25fc5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1587008533896,
+          "stop" : 1587008544774,
+          "duration" : 10878
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "194896f97536ca7e.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,244 @@
+{
+  "uid" : "c42d1c842a8abbcf",
+  "name" : "test_chatVideo",
+  "fullName" : "test_025_groupChat.Test_teamChat#test_chatVideo",
+  "historyId" : "a3ee25ba58e5c6fea7881bab0734e793",
+  "time" : {
+    "start" : 1587023092805,
+    "stop" : 1587023139223,
+    "duration" : 46418
+  },
+  "status" : "passed",
+  "flaky" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "点击聊天页面添加按钮",
+      "time" : {
+        "start" : 1587023107874,
+        "stop" : 1587023118297,
+        "duration" : 10423
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "选择视频",
+      "time" : {
+        "start" : 1587023118297,
+        "stop" : 1587023119071,
+        "duration" : 774
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "视频选择页选中一个视频并发送",
+      "time" : {
+        "start" : 1587023119071,
+        "stop" : 1587023139223,
+        "duration" : 20152
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "取消道友channel置顶",
+        "time" : {
+          "start" : 1587023131382,
+          "stop" : 1587023139223,
+          "duration" : 7841
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "校验结果：若发送成功，消息页会显示最新视频",
+      "time" : {
+        "start" : 1587023139223,
+        "stop" : 1587023139223,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 5,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "群组聊天功能"
+  }, {
+    "name" : "story",
+    "value" : "视频聊天"
+  }, {
+    "name" : "suite",
+    "value" : "test_025_groupChat"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_teamChat"
+  }, {
+    "name" : "host",
+    "value" : "PV-X00232293"
+  }, {
+    "name" : "thread",
+    "value" : "10660-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_025_groupChat"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "ad0c9cba74e9bf11",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1587019575194,
+        "stop" : 1587019671526,
+        "duration" : 96332
+      }
+    }, {
+      "uid" : "bf8ddbeff95d76a3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587014943273,
+        "stop" : 1587014991277,
+        "duration" : 48004
+      }
+    }, {
+      "uid" : "87c4eff3b6fe2d30",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert '[图片]' == '[视频]'\n  - [图片]\n  + [视频]",
+      "time" : {
+        "start" : 1587011684181,
+        "stop" : 1587011728891,
+        "duration" : 44710
+      }
+    }, {
+      "uid" : "428cbed1273912cb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587008855540,
+        "stop" : 1587008901486,
+        "duration" : 45946
+      }
+    }, {
+      "uid" : "da83d0a55957c540",
+      "status" : "passed",
+      "time" : {
+        "start" : 1586508130820,
+        "stop" : 1586508178546,
+        "duration" : 47726
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 2,
+        "broken" : 2,
+        "skipped" : 0,
+        "passed" : 7,
+        "unknown" : 0,
+        "total" : 11
+      },
+      "items" : [ {
+        "uid" : "55c752f5d623450d",
+        "reportUrl" : "http://192.168.88.58:8080/job/Timing/28/allure/#testresult/55c752f5d623450d",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+        "time" : {
+          "start" : 1587019575194,
+          "stop" : 1587019671526,
+          "duration" : 96332
+        }
+      }, {
+        "uid" : "d09b026474a32c28",
+        "reportUrl" : "http://192.168.88.58:8080/job/Timing/27/allure/#testresult/d09b026474a32c28",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+        "time" : {
+          "start" : 1587019575194,
+          "stop" : 1587019671526,
+          "duration" : 96332
+        }
+      }, {
+        "uid" : "7bd14e75004b30f0",
+        "reportUrl" : "http://192.168.88.58:8080/job/Timing/26/allure/#testresult/7bd14e75004b30f0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1587014943273,
+          "stop" : 1587014991277,
+          "duration" : 48004
+        }
+      }, {
+        "uid" : "72b511e90fc447f7",
+        "reportUrl" : "http://192.168.88.58:8080/job/Timing/24/allure/#testresult/72b511e90fc447f7",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert '[图片]' == '[视频]'\n  - [图片]\n  + [视频]",
+        "time" : {
+          "start" : 1587011684181,
+          "stop" : 1587011728891,
+          "duration" : 44710
+        }
+      }, {
+        "uid" : "58d1f85ec0f7c0c2",
+        "reportUrl" : "http://192.168.88.58:8080/job/Timing/23/allure/#testresult/58d1f85ec0f7c0c2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1587008855540,
+          "stop" : 1587008901486,
+          "duration" : 45946
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "c42d1c842a8abbcf.json",
+  "parameterValues" : [ ]
+}
