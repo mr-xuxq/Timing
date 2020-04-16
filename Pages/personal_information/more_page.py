@@ -68,7 +68,7 @@ class More(BaseAction):
     #坐标点击睡觉
     def clickCoordinate_sleep(self):
         #self.clickOperat(0.30,0.87,0.44,0.87,500)
-        self.tapOperat(0.49,0.83)
+        self.clickOperat(0.5, 0.9, 0.5, 0.9,500)
     # self.driver.tap([(520, 2037), (521, 2037)], 500)(1080*2340)
     #[329,1969][481,2013]
 
@@ -114,3 +114,9 @@ class More(BaseAction):
 #--------------------------------------------------------------------------------------------------
     def click_identification(self):
         self.click(self.identificationBtn)
+
+    def waitAndfind_more(self):
+        if self.waitLoading(self.moreBtn, t=2) == True:
+            return True
+        else:
+            return False

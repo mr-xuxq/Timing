@@ -29,8 +29,9 @@ class Test_normalTiming():
             self.page.more().click_normalTiming()
             self.page.timing().input_studyContentBox('This is Timing')
             self.page.timing().click_studySettingBtn()
+            #概率性的选取失败
             e1 = self.driver.find_element_by_xpath("//*[@text='01']")
-            self.action.long_press(e1, None, None, 800).perform()
+            self.action.long_press(e1, None, None, 400).perform()
             self.page.timing().click_studySettingsuccessBtn()
             self.page.timing().click_startTimingBtn()
             time.sleep(62)
@@ -60,7 +61,8 @@ class Test_normalTiming():
             time.sleep(5)
             #滑动选择1min
             e1 = self.driver.find_element_by_xpath("//*[@text='01']")
-            self.action.long_press(e1, None, None, 800).perform()
+            #概率性的选取失败
+            self.action.long_press(e1, None, None, 400).perform()
             self.page.timing().click_studySettingsuccessBtn()
             self.page.timing().click_startTimingBtn()
             time.sleep(5)
@@ -69,4 +71,4 @@ class Test_normalTiming():
             self.page.timing().click_timingEndConfirmRight()
         with allure.step('校验结果：计时不足1min后关闭计时的判断该段计时是否没有记录'):
             #点击【结束】后，是否快速返回至更多页面
-            assert self.page.more().waitAndfind_moreBtn() == True
+            assert self.page.more().waitAndfind_more() == True
