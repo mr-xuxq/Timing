@@ -2,7 +2,7 @@
 from selenium.webdriver.common.by import By
 from base.base_action import BaseAction
 
-class G(BaseAction):
+class Banding_phone(BaseAction):
     # 【关闭按钮】
     closeBtn = By.ID, 'com.huiian.timing:id/iv_back'
     # 【跳过按钮】
@@ -24,3 +24,9 @@ class G(BaseAction):
 
     def input_phone(self, content):
         self.input(self.phoneBox,content)
+
+    # 判断是否进入了绑定手机号页面
+
+    def check_bingdingPhone(self):
+        return self.is_feature_exist(self.ignoreBtn)
+

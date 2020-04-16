@@ -3,6 +3,8 @@ from selenium.webdriver.common.by import By
 from base.base_action import BaseAction
 
 class Login(BaseAction):
+    # 【原始页】
+    fristPage = By.ID, 'android:id/content'
     # 【手机定位权限_允许】
     allowLocation = By.ID, 'android:id/button1'
     # 【跳过按钮】
@@ -21,10 +23,17 @@ class Login(BaseAction):
     target =By.ID, 'com.huiian.timing:id/message_img'
 
 
+    def check_fristPage(self):
+        return self.is_feature_exist(self.fristPage[1])
     def check_phone(self):
-        return  self.find_element(self.phoneBtn,timeout=2, poll=1)
+        return self.is_feature_exist(self.phoneBtn[1])
     def check_location(self):
-        return  self.find_element(self.allowLocation,timeout=2, poll=1)
+        try:
+            self.driver.find_element_by_id(self.allowLocation[1])
+        except Exception as e:
+            return False
+        else:
+            return True
     def click_allowLocation(self):
         self.click(self.allowLocation)
     def click_agree(self):
@@ -42,8 +51,5 @@ class Login(BaseAction):
         self.click(self.wechatBtn)
     def click_Privacy_protocol(self):
         self.click(self.privacyProtocol)
-    def waitAndFind(self):
-        if  self.waitLoading(self.target,t=20) == True:
-            return True
-        else:
-            return False
+    def check_target(self):
+        return self.is_feature_exist(self.target)

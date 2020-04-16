@@ -43,7 +43,7 @@ class Create_group(BaseAction):
         self.input(self.introTeam,text)
 
     def waitAndfind_createdDiscussTeam(self):
-        if self.waitLoading(self.createdDiscussTeam, t=1) == True:
+        if self.waitLoading(self.createdDiscussTeam, t=2) == True:
             return True
         else:
             return False

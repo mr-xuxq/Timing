@@ -27,12 +27,16 @@ class More(BaseAction):
     libraryBtn = By.XPATH, '//*[@text="图书馆"]'
     # 我的已购按钮
     shopBtn = By.XPATH, '//*[@text="我的已购"]'
+    #【+创建学习群】按钮
+    createGroup = By.ID,'com.huiian.timing:id/tv_create'
 #-----------------------------------------------------------------------------
     #关注列表的人数
     followCount = By.ID,'com.huiian.timing:id/tv_follow_count'
     #粉丝列表人数
     fansCount = By.ID,'com.huiian.timing:id/tv_fans_count'
-
+#------------------------------------------------------------------------------
+    #身份认证按钮
+    identificationBtn = By.ID,'com.huiian.timing:id/tv_identification'
 
     def click_more(self):
         self.click(self.moreBtn)
@@ -52,29 +56,27 @@ class More(BaseAction):
         self.click(self.farmBtn)
     def click_group(self):
         self.click(self.groupBtn)
-    def click_plibrary(self):
-        self.click(self.libraryBtn)
-    def click_shop(self):
-        self.click(self.shopBtn)
+    def click_createGroup(self):
+        self.click(self.createGroup)
+
     def swipeByMore(self):
-        self.swipeOperat(0.5, 0.8, 0.5, 0.4, 500)
+        self.swipeOperat(0.5, 0.9, 0.5, 0.4, 500)
     #500 = 0.5S
     def swipeByTime(self):
         self.swipeOperat(0.6, 0.8, 0.6, 0.76, 500)
 
-        # 坐标点击睡觉
+    #坐标点击睡觉
     def clickCoordinate_sleep(self):
-        self.clickOperat(0.30,0.87,0.44,0.87,500)
+        #self.clickOperat(0.30,0.87,0.44,0.87,500)
+        self.tapOperat(0.49,0.83)
+    # self.driver.tap([(520, 2037), (521, 2037)], 500)(1080*2340)
+    #[329,1969][481,2013]
 
-        # 坐标点击起床
-    def clickCoordinate_sleep(self):
-        self.clickOperat(0.30,0.87,0.44,0.87,500)
-
-    def waitAndfind_moreBtn(self):
-        if self.waitLoading(self.moreBtn, t=2) == True:
-            return True
-        else:
-            return False
+    #坐标点击起床
+    def clickCoordinate_getUp(self):
+        self.clickOperat(0.30,0.80,0.44,0.80,500)
+    # self.driver.tap([(530, 1888), (531, 1889)], 500)(1080*2340)
+    #[300, 1827][510, 2037]
 
     def waitAndfind_sleepBtn(self):
         if self.waitLoading(self.sleepBtn, t=2) == True:
@@ -88,6 +90,8 @@ class More(BaseAction):
     def get_fansCount(self):
         count = self.driver.find_element_by_id('com.huiian.timing:id/tv_fans_count').text
         return count
+    def click_followCount(self):
+        self.driver.click(self.followCount)
 
     def swipeByRefresh(self):
         self.swipeOperat(0.5, 0.5, 0.5, 0.7, 500)
@@ -97,22 +101,16 @@ class More(BaseAction):
         else:
             return False
 
-
-    # def getCountByResourceId():
-    #     num = 0
-    #     for (int i=0;i < 100;i++){
-    #         try {
-    #         getUiObjectByResourceIdIntance("com.gaotu100.superclass:id/assignmentitemview_upload_text", i).getText();
-    #         } catch (UiObjectNotFoundException e) {
-    #         // e.printStackTrace();
-    #         num = i;
-    #     break;
-    # }
-    # }
-    #     return num;
-    #     }
     # def getCountByResourceId(self):
     #     num = 0
     #     i = 0
-    #     for i < 100:
-    #         self.driver.find_element_by_id('com.huiian.timing:id/tv_fans_count').getText()
+    #     for i in [0,100]:
+    #         self.driver.find_element_by_id('com.huiian.timing:id/tv_fans_count')
+    #         i = i+1
+    #     else:
+    #         num = i
+    #         break
+    #     return  num
+#--------------------------------------------------------------------------------------------------
+    def click_identification(self):
+        self.click(self.identificationBtn)

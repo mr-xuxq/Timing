@@ -18,11 +18,9 @@ class Test_createGroup():
         with allure.step('进入更多页面'):
             self.page.more().click_more()
             time.sleep(5)
-        with allure.step('滑动更多页面至底部'):
-            self.page.more().swipeByMore()
-        with allure.step('点击学习群'):
-            time.sleep(1)
-            self.page.more().click_group()
+        with allure.step('点击【+】学习群'):
+            self.page.shouye().click_post()
+            self.page.more().click_createGroup()
         with allure.step('选择创建学习讨论小组'):
             self.page.create_group().click_discussTeam()
             self.page.create_group().click_nextStep()

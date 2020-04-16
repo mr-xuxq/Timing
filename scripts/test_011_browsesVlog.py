@@ -27,4 +27,4 @@ class Test_browsesVlog():
             for i in range(1,100):
                 self.page.sVlog_list().swipeUp()
         with allure.step('断言:无任何崩溃闪退'):
-            assert self.page.sVlog_list().waitAndFind() == True
+            assert self.page.sVlog_list().check_sVlogTitle() == True

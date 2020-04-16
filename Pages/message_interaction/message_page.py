@@ -42,14 +42,14 @@ class Message(BaseAction):
 
     #在规定时间内是否找到元素
     def waitAndfind_timingService(self):
-        if self.waitLoading(self.timingService,t = 1) == True:
+        if self.waitLoading(self.timingService,t = 2) == True:
             return True
         else:
             return False
 
     #在规定时间内是否找到元素
     def waitAndfind_interaction(self):
-        if self.waitLoading(self.interaction,t = 1) == True:
+        if self.waitLoading(self.interaction,t = 2) == True:
             return True
         else:
             return False
