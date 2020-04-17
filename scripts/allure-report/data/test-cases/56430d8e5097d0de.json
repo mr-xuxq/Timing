@@ -1,0 +1,273 @@
+{
+  "uid" : "56430d8e5097d0de",
+  "name" : "test_loginByPwd",
+  "fullName" : "test_003_loginByPwd.Test_loginByPwd#test_loginByPwd",
+  "historyId" : "76c961366b12e653ec2b05ce63fed8e1",
+  "time" : {
+    "start" : 1586158252495,
+    "stop" : 1586158273162,
+    "duration" : 20667
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "点击手机号登录",
+      "time" : {
+        "start" : 1586158252496,
+        "stop" : 1586158258085,
+        "duration" : 5589
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "点击密码登录",
+      "time" : {
+        "start" : 1586158258085,
+        "stop" : 1586158258468,
+        "duration" : 383
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "输入手机号",
+      "time" : {
+        "start" : 1586158258468,
+        "stop" : 1586158264150,
+        "duration" : 5682
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "输入密码",
+      "time" : {
+        "start" : 1586158264150,
+        "stop" : 1586158269666,
+        "duration" : 5516
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "关闭小键盘",
+      "time" : {
+        "start" : 1586158269666,
+        "stop" : 1586158270196,
+        "duration" : 530
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "点击登录按钮",
+      "time" : {
+        "start" : 1586158270196,
+        "stop" : 1586158270671,
+        "duration" : 475
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "断言:登录成功",
+      "time" : {
+        "start" : 1586158270672,
+        "stop" : 1586158273162,
+        "duration" : 2490
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 7,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_003_loginByPwd"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_loginByPwd"
+  }, {
+    "name" : "host",
+    "value" : "PV-X00232293"
+  }, {
+    "name" : "thread",
+    "value" : "6744-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_003_loginByPwd"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "3a76acd01e017e16",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1586146465793,
+        "stop" : 1586146517228,
+        "duration" : 51435
+      }
+    }, {
+      "uid" : "26710531a28e80e3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585821899155,
+        "stop" : 1585821916921,
+        "duration" : 17766
+      }
+    }, {
+      "uid" : "5bad7a830debb87e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585818162264,
+        "stop" : 1585818183093,
+        "duration" : 20829
+      }
+    }, {
+      "uid" : "c7fb9b7e6a8a02b6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585741038618,
+        "stop" : 1585741056249,
+        "duration" : 17631
+      }
+    }, {
+      "uid" : "a583d2471584b06",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585723357393,
+        "stop" : 1585723376971,
+        "duration" : 19578
+      }
+    }, {
+      "uid" : "f865efd1f54d7065",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585722360987,
+        "stop" : 1585722379699,
+        "duration" : 18712
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 17,
+        "unknown" : 0,
+        "total" : 17
+      },
+      "items" : [ {
+        "uid" : "66c5226ea77ec119",
+        "reportUrl" : "http://192.168.88.58:8080/job/Timing/30/allure/#testresult/66c5226ea77ec119",
+        "status" : "passed",
+        "time" : {
+          "start" : 1586158252495,
+          "stop" : 1586158273162,
+          "duration" : 20667
+        }
+      }, {
+        "uid" : "735b9eea6378e942",
+        "reportUrl" : "http://192.168.88.58:8080/job/Timing/29/allure/#testresult/735b9eea6378e942",
+        "status" : "passed",
+        "time" : {
+          "start" : 1586158252495,
+          "stop" : 1586158273162,
+          "duration" : 20667
+        }
+      }, {
+        "uid" : "7ffa12b2f74bd0f4",
+        "reportUrl" : "http://192.168.88.58:8080/job/Timing/28/allure/#testresult/7ffa12b2f74bd0f4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1586158252495,
+          "stop" : 1586158273162,
+          "duration" : 20667
+        }
+      }, {
+        "uid" : "92e9999889573b8a",
+        "reportUrl" : "http://192.168.88.58:8080/job/Timing/27/allure/#testresult/92e9999889573b8a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1586158252495,
+          "stop" : 1586158273162,
+          "duration" : 20667
+        }
+      }, {
+        "uid" : "c3375679f5e15943",
+        "reportUrl" : "http://192.168.88.58:8080/job/Timing/26/allure/#testresult/c3375679f5e15943",
+        "status" : "passed",
+        "time" : {
+          "start" : 1586158252495,
+          "stop" : 1586158273162,
+          "duration" : 20667
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "56430d8e5097d0de.json",
+  "parameterValues" : [ ]
+}

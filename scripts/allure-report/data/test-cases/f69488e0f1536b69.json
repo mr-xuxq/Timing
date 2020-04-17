@@ -1,0 +1,360 @@
+{
+  "uid" : "f69488e0f1536b69",
+  "name" : "test_logout",
+  "fullName" : "test_002_loginByCaptcha.Test_loginByCaptcha#test_logout",
+  "historyId" : "ac02c59db07adf28737882e4452f7ca5",
+  "time" : {
+    "start" : 1587133417202,
+    "stop" : 1587133433616,
+    "duration" : 16414
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "点击更多按钮",
+      "time" : {
+        "start" : 1587133417203,
+        "stop" : 1587133424042,
+        "duration" : 6839
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "点击设置按钮",
+      "time" : {
+        "start" : 1587133424042,
+        "stop" : 1587133429039,
+        "duration" : 4997
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "点击退出登录按钮",
+      "time" : {
+        "start" : 1587133429039,
+        "stop" : 1587133432246,
+        "duration" : 3207
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "确定退出",
+      "time" : {
+        "start" : 1587133432246,
+        "stop" : 1587133432934,
+        "duration" : 688
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "断言:退出登录成功",
+      "time" : {
+        "start" : 1587133432934,
+        "stop" : 1587133433616,
+        "duration" : 682
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_002_loginByCaptcha"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_loginByCaptcha"
+  }, {
+    "name" : "host",
+    "value" : "PC-201905121411"
+  }, {
+    "name" : "thread",
+    "value" : "9144-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_002_loginByCaptcha"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "1f3bb5bd7e17afb8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587125581820,
+        "stop" : 1587125598388,
+        "duration" : 16568
+      }
+    }, {
+      "uid" : "e2fc229512e51acf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587123404659,
+        "stop" : 1587123420475,
+        "duration" : 15816
+      }
+    }, {
+      "uid" : "63b78be922e57879",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587043701999,
+        "stop" : 1587043728056,
+        "duration" : 26057
+      }
+    }, {
+      "uid" : "5907ab168b36569a",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1587039688932,
+        "stop" : 1587039740562,
+        "duration" : 51630
+      }
+    }, {
+      "uid" : "7167e9c43c233711",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1587037130644,
+        "stop" : 1587037181842,
+        "duration" : 51198
+      }
+    }, {
+      "uid" : "a8c914b64aaa81c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587030034896,
+        "stop" : 1587030050852,
+        "duration" : 15956
+      }
+    }, {
+      "uid" : "4df86c142cfdf7ce",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587022331410,
+        "stop" : 1587022353510,
+        "duration" : 22100
+      }
+    }, {
+      "uid" : "ad08f1ab5b62ad61",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587018762959,
+        "stop" : 1587018819587,
+        "duration" : 56628
+      }
+    }, {
+      "uid" : "eb5c92ce2f268f08",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587014134160,
+        "stop" : 1587014155912,
+        "duration" : 21752
+      }
+    }, {
+      "uid" : "4b521c5ac7e261da",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587011010943,
+        "stop" : 1587011033362,
+        "duration" : 22419
+      }
+    }, {
+      "uid" : "b79d7192d8825d7b",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False == True\n  -False\n  +True",
+      "time" : {
+        "start" : 1587008270191,
+        "stop" : 1587008288774,
+        "duration" : 18583
+      }
+    }, {
+      "uid" : "e4cf14e760e1a87a",
+      "status" : "broken",
+      "statusDetails" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=4723): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000122966B9FD0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))",
+      "time" : {
+        "start" : 1587005929903,
+        "stop" : 1587005929903,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "5c853659672be90e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1586507252492,
+        "stop" : 1586507273443,
+        "duration" : 20951
+      }
+    }, {
+      "uid" : "bcec1523e5e22a42",
+      "status" : "passed",
+      "time" : {
+        "start" : 1586158233117,
+        "stop" : 1586158248683,
+        "duration" : 15566
+      }
+    }, {
+      "uid" : "28a67617480b5e78",
+      "status" : "broken",
+      "statusDetails" : "TypeError: click_more() missing 1 required positional argument: 'target'",
+      "time" : {
+        "start" : 1586146462372,
+        "stop" : 1586146462372,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "ff89a11cf93dd8c7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585821882116,
+        "stop" : 1585821895109,
+        "duration" : 12993
+      }
+    }, {
+      "uid" : "f10368b01456739b",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'Base' object has no attribute 'init_driveer'",
+      "time" : {
+        "start" : 1585818159012,
+        "stop" : 1585818159012,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "bebd1b0a13ffed86",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585741022254,
+        "stop" : 1585741035203,
+        "duration" : 12949
+      }
+    }, {
+      "uid" : "f369e4cf327c10df",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585723340593,
+        "stop" : 1585723353788,
+        "duration" : 13195
+      }
+    }, {
+      "uid" : "d85ac7ede3aedee0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585722344830,
+        "stop" : 1585722355994,
+        "duration" : 11164
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 2,
+        "skipped" : 0,
+        "passed" : 14,
+        "unknown" : 0,
+        "total" : 17
+      },
+      "items" : [ {
+        "uid" : "2f5740576c55b0f9",
+        "reportUrl" : "http://192.168.88.58:8080/job/Timing/30/allure/#testresult/2f5740576c55b0f9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1587030034896,
+          "stop" : 1587030050852,
+          "duration" : 15956
+        }
+      }, {
+        "uid" : "fe8ba757bcccc383",
+        "reportUrl" : "http://192.168.88.58:8080/job/Timing/29/allure/#testresult/fe8ba757bcccc383",
+        "status" : "passed",
+        "time" : {
+          "start" : 1587022331410,
+          "stop" : 1587022353510,
+          "duration" : 22100
+        }
+      }, {
+        "uid" : "bb5cdce9c7d624b6",
+        "reportUrl" : "http://192.168.88.58:8080/job/Timing/28/allure/#testresult/bb5cdce9c7d624b6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1587018762959,
+          "stop" : 1587018819587,
+          "duration" : 56628
+        }
+      }, {
+        "uid" : "3d0a1b8fe42be53",
+        "reportUrl" : "http://192.168.88.58:8080/job/Timing/27/allure/#testresult/3d0a1b8fe42be53",
+        "status" : "passed",
+        "time" : {
+          "start" : 1587018762959,
+          "stop" : 1587018819587,
+          "duration" : 56628
+        }
+      }, {
+        "uid" : "cf3557beb52dca88",
+        "reportUrl" : "http://192.168.88.58:8080/job/Timing/26/allure/#testresult/cf3557beb52dca88",
+        "status" : "passed",
+        "time" : {
+          "start" : 1587014134160,
+          "stop" : 1587014155912,
+          "duration" : 21752
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "f69488e0f1536b69.json",
+  "parameterValues" : [ ]
+}

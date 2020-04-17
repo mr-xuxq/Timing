@@ -1,0 +1,223 @@
+{
+  "uid" : "fdba1ecfd7c6917d",
+  "name" : "test_pointVanish",
+  "fullName" : "test_023_pointVanish.Test_friendChat#test_pointVanish",
+  "historyId" : "b6efa7ac576641c11a33999a3e14f857",
+  "time" : {
+    "start" : 1586159253607,
+    "stop" : 1586159471147,
+    "duration" : 217540
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "进入消息页面",
+      "time" : {
+        "start" : 1586159253607,
+        "stop" : 1586159261990,
+        "duration" : 8383
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "滑动页面找红点，找到就点击进入再返回",
+      "time" : {
+        "start" : 1586159261990,
+        "stop" : 1586159419013,
+        "duration" : 157023
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "如果没有找到红点，上滑页面继续找红点",
+        "time" : {
+          "start" : 1586159314486,
+          "stop" : 1586159314628,
+          "duration" : 142
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "如果没有找到红点，上滑页面继续找红点",
+        "time" : {
+          "start" : 1586159366722,
+          "stop" : 1586159366870,
+          "duration" : 148
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "如果没有找到红点，上滑页面继续找红点",
+        "time" : {
+          "start" : 1586159418911,
+          "stop" : 1586159419013,
+          "duration" : 102
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "校验结果：如果页面还存在红点——>失败",
+      "time" : {
+        "start" : 1586159419013,
+        "stop" : 1586159471147,
+        "duration" : 52134
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "聊天页功能"
+  }, {
+    "name" : "story",
+    "value" : "聊天页面红点"
+  }, {
+    "name" : "suite",
+    "value" : "test_023_pointVanish"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_friendChat"
+  }, {
+    "name" : "host",
+    "value" : "PV-X00232293"
+  }, {
+    "name" : "thread",
+    "value" : "6744-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_023_pointVanish"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "269f99c871f4803e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1586147248230,
+        "stop" : 1586147462769,
+        "duration" : 214539
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 14,
+        "unknown" : 0,
+        "total" : 14
+      },
+      "items" : [ {
+        "uid" : "71da6562219de7fc",
+        "reportUrl" : "http://192.168.88.58:8080/job/Timing/30/allure/#testresult/71da6562219de7fc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1586159253607,
+          "stop" : 1586159471147,
+          "duration" : 217540
+        }
+      }, {
+        "uid" : "b3edadb24d290a34",
+        "reportUrl" : "http://192.168.88.58:8080/job/Timing/29/allure/#testresult/b3edadb24d290a34",
+        "status" : "passed",
+        "time" : {
+          "start" : 1586159253607,
+          "stop" : 1586159471147,
+          "duration" : 217540
+        }
+      }, {
+        "uid" : "d737bea5d9d27280",
+        "reportUrl" : "http://192.168.88.58:8080/job/Timing/28/allure/#testresult/d737bea5d9d27280",
+        "status" : "passed",
+        "time" : {
+          "start" : 1586159253607,
+          "stop" : 1586159471147,
+          "duration" : 217540
+        }
+      }, {
+        "uid" : "fc4a2f23d11a2e08",
+        "reportUrl" : "http://192.168.88.58:8080/job/Timing/27/allure/#testresult/fc4a2f23d11a2e08",
+        "status" : "passed",
+        "time" : {
+          "start" : 1586159253607,
+          "stop" : 1586159471147,
+          "duration" : 217540
+        }
+      }, {
+        "uid" : "53d9bc159d864dc6",
+        "reportUrl" : "http://192.168.88.58:8080/job/Timing/26/allure/#testresult/53d9bc159d864dc6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1586159253607,
+          "stop" : 1586159471147,
+          "duration" : 217540
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "fdba1ecfd7c6917d.json",
+  "parameterValues" : [ ]
+}

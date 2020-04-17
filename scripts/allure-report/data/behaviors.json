@@ -1,0 +1,765 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "test_loginByCaptcha",
+    "uid" : "47fdc9da46136fa1",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1579351257132,
+      "stop" : 1579351293374,
+      "duration" : 36242
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_logout",
+    "uid" : "81cda245594b424c",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1579351297096,
+      "stop" : 1579351309470,
+      "duration" : 12374
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_loginByPwd",
+    "uid" : "dffccebbbaa0729b",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1579351312885,
+      "stop" : 1579351330735,
+      "duration" : 17850
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_logout",
+    "uid" : "11c002edc2e861d0",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1579351334315,
+      "stop" : 1579351348447,
+      "duration" : 14132
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_registerAccount",
+    "uid" : "97de52d8ab26b597",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1579351352287,
+      "stop" : 1579351414583,
+      "duration" : 62296
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_logout",
+    "uid" : "c52af1020c1e96a3",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1579351418285,
+      "stop" : 1579351430435,
+      "duration" : 12150
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_logout",
+    "uid" : "2693f636d365032b",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1585723453805,
+      "stop" : 1585723474796,
+      "duration" : 20991
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_browsesVlog",
+    "uid" : "18e586e2f38ac605",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1585821921015,
+      "stop" : 1585822000625,
+      "duration" : 79610
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_videoRoom",
+    "uid" : "1feee4ceb58711b3",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1585822004736,
+      "stop" : 1585822064937,
+      "duration" : 60201
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_logout",
+    "uid" : "e295cf08843d3bd3",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1585822069087,
+      "stop" : 1585822089157,
+      "duration" : 20070
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_loginByPwd",
+    "uid" : "56430d8e5097d0de",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1586158252495,
+      "stop" : 1586158273162,
+      "duration" : 20667
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_videoRoom",
+    "uid" : "b4064df6dbf68e91",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1586158702419,
+      "stop" : 1586158775520,
+      "duration" : 73101
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "刷首页算法",
+    "children" : [ {
+      "name" : "test_swipeO",
+      "uid" : "857cea72cc2b6e16",
+      "parentUid" : "af40b6a5431044e45966a5f4bfb3a094",
+      "status" : "broken",
+      "time" : {
+        "start" : 1586158913916,
+        "stop" : 1586158947904,
+        "duration" : 33988
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_browseShowye",
+      "uid" : "fd001bfeb45044d7",
+      "parentUid" : "af40b6a5431044e45966a5f4bfb3a094",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587133696365,
+        "stop" : 1587133728312,
+        "duration" : 31947
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "af40b6a5431044e45966a5f4bfb3a094"
+  }, {
+    "name" : "聊天页功能",
+    "children" : [ {
+      "name" : "聊天页面红点",
+      "children" : [ {
+        "name" : "test_pointVanish",
+        "uid" : "fdba1ecfd7c6917d",
+        "parentUid" : "98b8c716709bd64ea9b81bdb379a8702",
+        "status" : "passed",
+        "time" : {
+          "start" : 1586159253607,
+          "stop" : 1586159471147,
+          "duration" : 217540
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "98b8c716709bd64ea9b81bdb379a8702"
+    }, {
+      "name" : "文字聊天",
+      "children" : [ {
+        "name" : "test_chatWord",
+        "uid" : "22fdd8337c425053",
+        "parentUid" : "7e4265db972613916cfb55b4b21c0bdc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1587133833292,
+          "stop" : 1587133871506,
+          "duration" : 38214
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7e4265db972613916cfb55b4b21c0bdc"
+    }, {
+      "name" : "图片聊天",
+      "children" : [ {
+        "name" : "test_chatImage",
+        "uid" : "b84e03101798a4ae",
+        "parentUid" : "8f5625fdab22bae84b1f6f07039df5a9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1587133877445,
+          "stop" : 1587133946726,
+          "duration" : 69281
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8f5625fdab22bae84b1f6f07039df5a9"
+    }, {
+      "name" : "视频聊天",
+      "children" : [ {
+        "name" : "test_chatVideo",
+        "uid" : "379866399599ca8d",
+        "parentUid" : "91c0ee8616443769d8e4e5925c72a74e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1587133952447,
+          "stop" : 1587134042904,
+          "duration" : 90457
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "91c0ee8616443769d8e4e5925c72a74e"
+    } ],
+    "uid" : "c2e36a60416cdec2124483e973cdb56b"
+  }, {
+    "name" : "test_loginByWexin",
+    "uid" : "c6b6a3438116dbe",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1587030185381,
+      "stop" : 1587030303209,
+      "duration" : 117828
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_logout",
+    "uid" : "cd1cff577667b30d",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1587030311202,
+      "stop" : 1587030363672,
+      "duration" : 52470
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "计时功能",
+    "children" : [ {
+      "name" : "学习计不足1min操作",
+      "children" : [ {
+        "name" : "test_normalTiming_exit",
+        "uid" : "a6087cf7989cd80d",
+        "parentUid" : "bfd39230e87c7fd4bab25e760660db29",
+        "status" : "broken",
+        "time" : {
+          "start" : 1587031947490,
+          "stop" : 1587032014308,
+          "duration" : 66818
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "bfd39230e87c7fd4bab25e760660db29"
+    }, {
+      "name" : "学习计时达1min操作",
+      "children" : [ {
+        "name" : "test_normalTiming",
+        "uid" : "53d2e8d13981acc8",
+        "parentUid" : "f1462013126199382f98fbd17c30cb59",
+        "status" : "broken",
+        "time" : {
+          "start" : 1587134677234,
+          "stop" : 1587134753079,
+          "duration" : 75845
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f1462013126199382f98fbd17c30cb59"
+    } ],
+    "uid" : "59d0263f5507ae5992b20516249072bb"
+  }, {
+    "name" : "test_loginByQQ",
+    "uid" : "b02d71bf1b47e428",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1587043731244,
+      "stop" : 1587043792954,
+      "duration" : 61710
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_logout",
+    "uid" : "d852612e6ee2e715",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1587043796182,
+      "stop" : 1587043847217,
+      "duration" : 51035
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_registerAccount",
+    "uid" : "2ead8edc77ad4875",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1587133283805,
+      "stop" : 1587133358825,
+      "duration" : 75020
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_logout",
+    "uid" : "3c596195968dc69",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1587133364820,
+      "stop" : 1587133380884,
+      "duration" : 16064
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_loginByCaptcha",
+    "uid" : "8810fa693f2e5c90",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1587133385664,
+      "stop" : 1587133412241,
+      "duration" : 26577
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_logout",
+    "uid" : "f69488e0f1536b69",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1587133417202,
+      "stop" : 1587133433616,
+      "duration" : 16414
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_loginByPwd",
+    "uid" : "163fb82ab2b7400b",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1587133439413,
+      "stop" : 1587133464220,
+      "duration" : 24807
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_browsesVlog",
+    "uid" : "4a2ce8ea7d991cde",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1587133469370,
+      "stop" : 1587133556006,
+      "duration" : 86636
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_videoRoom_visitor",
+    "uid" : "4f81d61a6ebf7910",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1587133562240,
+      "stop" : 1587133687611,
+      "duration" : 125371
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_treeHole",
+    "uid" : "720e8335f08aa2ec",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1587133734051,
+      "stop" : 1587133797937,
+      "duration" : 63886
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "消息页channel展示",
+    "children" : [ {
+      "name" : "Timing小书童channel",
+      "children" : [ {
+        "name" : "test_timingService",
+        "uid" : "b5e29dcca6fb7526",
+        "parentUid" : "77ba02debb08154efafa6a1694ec9a8f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1587133803743,
+          "stop" : 1587133811655,
+          "duration" : 7912
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "77ba02debb08154efafa6a1694ec9a8f"
+    }, {
+      "name" : "互动通知channel",
+      "children" : [ {
+        "name" : "test_interaction",
+        "uid" : "e37bdf7af06b37b4",
+        "parentUid" : "5aaeb4d32283ed522e60e43d261631ac",
+        "status" : "passed",
+        "time" : {
+          "start" : 1587133817770,
+          "stop" : 1587133826970,
+          "duration" : 9200
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5aaeb4d32283ed522e60e43d261631ac"
+    } ],
+    "uid" : "2f8a7916bd07f0fdf2c39a233a8bef4e"
+  }, {
+    "name" : "创建学习群功能",
+    "children" : [ {
+      "name" : "创建讨论组",
+      "children" : [ {
+        "name" : "test_discussTeam",
+        "uid" : "ca67292913e5b6a3",
+        "parentUid" : "936532d6ae57dd325a97e6becf86df55",
+        "status" : "passed",
+        "time" : {
+          "start" : 1587134048569,
+          "stop" : 1587134094893,
+          "duration" : 46324
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "936532d6ae57dd325a97e6becf86df55"
+    } ],
+    "uid" : "9fbcda4796eba892eb105427b0d72d54"
+  }, {
+    "name" : "群组聊天功能",
+    "children" : [ {
+      "name" : "文字聊天",
+      "children" : [ {
+        "name" : "test_teamChatWord",
+        "uid" : "8e0a8e4058b14fc9",
+        "parentUid" : "87395018819f51594639e0382926a746",
+        "status" : "passed",
+        "time" : {
+          "start" : 1587134100362,
+          "stop" : 1587134138887,
+          "duration" : 38525
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "87395018819f51594639e0382926a746"
+    }, {
+      "name" : "图片聊天",
+      "children" : [ {
+        "name" : "test_chatImage",
+        "uid" : "84c72c0d046a6622",
+        "parentUid" : "cb6b7b83e5047be6b8b4be07cea37f29",
+        "status" : "passed",
+        "time" : {
+          "start" : 1587134144449,
+          "stop" : 1587134211978,
+          "duration" : 67529
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "cb6b7b83e5047be6b8b4be07cea37f29"
+    }, {
+      "name" : "视频聊天",
+      "children" : [ {
+        "name" : "test_chatVideo",
+        "uid" : "277b36c937f9813",
+        "parentUid" : "71f856c9f2058dc03f05a614cd1c436d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1587134217665,
+          "stop" : 1587134267393,
+          "duration" : 49728
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "71f856c9f2058dc03f05a614cd1c436d"
+    } ],
+    "uid" : "6b682ff0134f9b24f258895168e35aca"
+  }, {
+    "name" : "test_postDiary",
+    "uid" : "8805c8d49549450a",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1587134273393,
+      "stop" : 1587134339270,
+      "duration" : 65877
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "test_deleteDiary",
+    "uid" : "26af51a616d07887",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1587134345006,
+      "stop" : 1587134460163,
+      "duration" : 115157
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "修改个人资料功能，前提：非认证账号",
+    "children" : [ {
+      "name" : "选择昵称进行修改",
+      "children" : [ {
+        "name" : "test_nameInfo",
+        "uid" : "447fbcfb8c5ad34d",
+        "parentUid" : "b3b3c6279b65d918bccb9e15b3be762b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1587134465222,
+          "stop" : 1587134507935,
+          "duration" : 42713
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b3b3c6279b65d918bccb9e15b3be762b"
+    }, {
+      "name" : "修改性别信息",
+      "children" : [ {
+        "name" : "test_genderInfo",
+        "uid" : "ecbd851c3f3ce8b2",
+        "parentUid" : "aa85fc1a840edad06ceb9a8e2a0f4f64",
+        "status" : "passed",
+        "time" : {
+          "start" : 1587134513450,
+          "stop" : 1587134537066,
+          "duration" : 23616
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "aa85fc1a840edad06ceb9a8e2a0f4f64"
+    }, {
+      "name" : "修改头像信息",
+      "children" : [ {
+        "name" : "test_imgInfo",
+        "uid" : "754afa584487dd7e",
+        "parentUid" : "7bab00316427192f2db5c9e522eb8d14",
+        "status" : "passed",
+        "time" : {
+          "start" : 1587134542712,
+          "stop" : 1587134577095,
+          "duration" : 34383
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7bab00316427192f2db5c9e522eb8d14"
+    } ],
+    "uid" : "a7738b2046306adc5253f8b60107b1cd"
+  }, {
+    "name" : "关注列表检查",
+    "children" : [ {
+      "children" : [ {
+        "name" : "test_checkFollowList",
+        "uid" : "94a7aaa7c6ed9105",
+        "parentUid" : "ace9d4a738d6d6b169604d3914b2540f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1587134583152,
+          "stop" : 1587134672025,
+          "duration" : 88873
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ace9d4a738d6d6b169604d3914b2540f"
+    } ],
+    "uid" : "3bf8fbcf61fb6064ef96745a8de1f3ac"
+  }, {
+    "name" : "番茄计时功能",
+    "children" : [ {
+      "name" : "test_tomatoTiming",
+      "uid" : "a3a12675002058c2",
+      "parentUid" : "d7610e79dfa7230d0a808d43c49f2704",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587134759087,
+        "stop" : 1587134791994,
+        "duration" : 32907
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "d7610e79dfa7230d0a808d43c49f2704"
+  }, {
+    "name" : "视频打卡功能",
+    "children" : [ {
+      "name" : "视频打卡操作",
+      "children" : [ {
+        "name" : "test_videoRecordTiming",
+        "uid" : "44730ee813a9d88b",
+        "parentUid" : "bad3dffaf12d332a2ad8c7d83309198e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1587134797916,
+          "stop" : 1587134951473,
+          "duration" : 153557
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "bad3dffaf12d332a2ad8c7d83309198e"
+    } ],
+    "uid" : "346d66f9b3bb73610f8f6993d01d48b8"
+  }, {
+    "name" : "睡觉后起床功能",
+    "children" : [ {
+      "name" : "睡觉后再起床操作",
+      "children" : [ {
+        "name" : "test_sleepRecord",
+        "uid" : "beec434f764032b0",
+        "parentUid" : "2e6d6b5e4f78857d48d58a62feac612d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1587134960832,
+          "stop" : 1587135008892,
+          "duration" : 48060
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2e6d6b5e4f78857d48d58a62feac612d"
+    } ],
+    "uid" : "971365d3abd53518ec1c66c6aa8ded25"
+  }, {
+    "name" : "起床功能",
+    "children" : [ {
+      "name" : "起床操作",
+      "children" : [ {
+        "name" : "test_getupRecord",
+        "uid" : "ec749b6cb5bb55df",
+        "parentUid" : "aefc63446ea283d5f1df44aeeb6fba32",
+        "status" : "passed",
+        "time" : {
+          "start" : 1587135016937,
+          "stop" : 1587135068673,
+          "duration" : 51736
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "aefc63446ea283d5f1df44aeeb6fba32"
+    }, {
+      "name" : "test_logout",
+      "uid" : "33ce1b97ecd27b45",
+      "parentUid" : "e245976f44b762103dfd3e41435c4df1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587135074808,
+        "stop" : 1587135090826,
+        "duration" : 16018
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "e245976f44b762103dfd3e41435c4df1"
+  } ]
+}

@@ -1,0 +1,129 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "AttributeError: 'Shouye' object has no attribute 'waitAndfind'",
+      "children" : [ {
+        "name" : "test_swipeO",
+        "uid" : "857cea72cc2b6e16",
+        "parentUid" : "f6709ebc2dd7facecd6aa793f622aa36",
+        "status" : "broken",
+        "time" : {
+          "start" : 1586158913916,
+          "stop" : 1586158947904,
+          "duration" : 33988
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f6709ebc2dd7facecd6aa793f622aa36"
+    }, {
+      "name" : "selenium.common.exceptions.TimeoutException: Message:",
+      "children" : [ {
+        "name" : "test_loginByWexin",
+        "uid" : "c6b6a3438116dbe",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1587030185381,
+          "stop" : 1587030303209,
+          "duration" : 117828
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_normalTiming_exit",
+        "uid" : "a6087cf7989cd80d",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1587031947490,
+          "stop" : 1587032014308,
+          "duration" : 66818
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_loginByQQ",
+        "uid" : "b02d71bf1b47e428",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1587043731244,
+          "stop" : 1587043792954,
+          "duration" : 61710
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_videoRoom_visitor",
+        "uid" : "4f81d61a6ebf7910",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1587133562240,
+          "stop" : 1587133687611,
+          "duration" : 125371
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_treeHole",
+        "uid" : "720e8335f08aa2ec",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1587133734051,
+          "stop" : 1587133797937,
+          "duration" : 63886
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_normalTiming",
+        "uid" : "53d2e8d13981acc8",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1587134677234,
+          "stop" : 1587134753079,
+          "duration" : 75845
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "31bb78a6a95ede3f78b260ed048910d8"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  }, {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert False == True\n  +False\n  -True",
+      "children" : [ {
+        "name" : "test_checkFollowList",
+        "uid" : "94a7aaa7c6ed9105",
+        "parentUid" : "f19633ec40fb27aad0491849b52455ff",
+        "status" : "failed",
+        "time" : {
+          "start" : 1587134583152,
+          "stop" : 1587134672025,
+          "duration" : 88873
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f19633ec40fb27aad0491849b52455ff"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

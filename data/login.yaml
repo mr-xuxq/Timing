@@ -1,0 +1,9 @@
+test_login:
+  test_login_001:
+    phone : "10000000401"
+    password : "111111"
+    toast : Null
+  test_login_002:
+    phone : "10000000402"
+    password : "222222"
+    toast : "账号密码不匹配，请重试"

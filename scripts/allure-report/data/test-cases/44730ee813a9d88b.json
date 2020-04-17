@@ -1,0 +1,293 @@
+{
+  "uid" : "44730ee813a9d88b",
+  "name" : "test_videoRecordTiming",
+  "fullName" : "test_053_videoRecordTiming.Test_videoRecordTiming#test_videoRecordTiming",
+  "historyId" : "51867c13abb9a21a0481d8e2b12818f2",
+  "time" : {
+    "start" : 1587134797916,
+    "stop" : 1587134951473,
+    "duration" : 153557
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "进入更多页面",
+      "time" : {
+        "start" : 1587134797916,
+        "stop" : 1587134808970,
+        "duration" : 11054
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "滑动更多页面至底部",
+      "time" : {
+        "start" : 1587134808970,
+        "stop" : 1587134813646,
+        "duration" : 4676
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "点击视频打卡按钮，设定内容后开始",
+      "time" : {
+        "start" : 1587134813646,
+        "stop" : 1587134947530,
+        "duration" : 133884
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "校验结果：视频打卡1min后判断计时是否正常结束",
+      "time" : {
+        "start" : 1587134947530,
+        "stop" : 1587134951473,
+        "duration" : 3943
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "视频打卡操作"
+  }, {
+    "name" : "feature",
+    "value" : "视频打卡功能"
+  }, {
+    "name" : "suite",
+    "value" : "test_053_videoRecordTiming"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_videoRecordTiming"
+  }, {
+    "name" : "host",
+    "value" : "PC-201905121411"
+  }, {
+    "name" : "thread",
+    "value" : "9144-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_053_videoRecordTiming"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "800470ec56cdd2f0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587127237437,
+        "stop" : 1587127391772,
+        "duration" : 154335
+      }
+    }, {
+      "uid" : "219e71dcf64c58fb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587124910805,
+        "stop" : 1587125063614,
+        "duration" : 152809
+      }
+    }, {
+      "uid" : "506f69ada12a52b0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587045232295,
+        "stop" : 1587045386186,
+        "duration" : 153891
+      }
+    }, {
+      "uid" : "95f7f291a5cfcb98",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1587041038785,
+        "stop" : 1587041090213,
+        "duration" : 51428
+      }
+    }, {
+      "uid" : "c6108cc401fb282d",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1587038479267,
+        "stop" : 1587038530517,
+        "duration" : 51250
+      }
+    }, {
+      "uid" : "53ad86bca544c9a4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587032062646,
+        "stop" : 1587032215950,
+        "duration" : 153304
+      }
+    }, {
+      "uid" : "4404304fbb0945db",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587023706809,
+        "stop" : 1587023869715,
+        "duration" : 162906
+      }
+    }, {
+      "uid" : "695db9357aae953a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587020252311,
+        "stop" : 1587020415390,
+        "duration" : 163079
+      }
+    }, {
+      "uid" : "a76b413fa98a323d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587015561494,
+        "stop" : 1587015725666,
+        "duration" : 164172
+      }
+    }, {
+      "uid" : "7f28d8492b3b7028",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587012236603,
+        "stop" : 1587012398208,
+        "duration" : 161605
+      }
+    }, {
+      "uid" : "e8dc21e552ebef4a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587009609551,
+        "stop" : 1587009781298,
+        "duration" : 171747
+      }
+    }, {
+      "uid" : "cccc505d4f6aab1a",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False == True\n  -False\n  +True",
+      "time" : {
+        "start" : 1586509174638,
+        "stop" : 1586509435944,
+        "duration" : 261306
+      }
+    }, {
+      "uid" : "10422fe6320aaa9e",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1586147817930,
+        "stop" : 1586147892837,
+        "duration" : 74907
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 5,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 8,
+        "unknown" : 0,
+        "total" : 14
+      },
+      "items" : [ {
+        "uid" : "29a529b95e271f6",
+        "reportUrl" : "http://192.168.88.58:8080/job/Timing/30/allure/#testresult/29a529b95e271f6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1587032062646,
+          "stop" : 1587032215950,
+          "duration" : 153304
+        }
+      }, {
+        "uid" : "61bcc6effd99bb30",
+        "reportUrl" : "http://192.168.88.58:8080/job/Timing/29/allure/#testresult/61bcc6effd99bb30",
+        "status" : "passed",
+        "time" : {
+          "start" : 1587023706809,
+          "stop" : 1587023869715,
+          "duration" : 162906
+        }
+      }, {
+        "uid" : "365b9ae9b165a522",
+        "reportUrl" : "http://192.168.88.58:8080/job/Timing/28/allure/#testresult/365b9ae9b165a522",
+        "status" : "passed",
+        "time" : {
+          "start" : 1587020252311,
+          "stop" : 1587020415390,
+          "duration" : 163079
+        }
+      }, {
+        "uid" : "cd969db421b36eb2",
+        "reportUrl" : "http://192.168.88.58:8080/job/Timing/27/allure/#testresult/cd969db421b36eb2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1587020252311,
+          "stop" : 1587020415390,
+          "duration" : 163079
+        }
+      }, {
+        "uid" : "a803eadf1e5b89bc",
+        "reportUrl" : "http://192.168.88.58:8080/job/Timing/26/allure/#testresult/a803eadf1e5b89bc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1587015561494,
+          "stop" : 1587015725666,
+          "duration" : 164172
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "44730ee813a9d88b.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,163 @@
+{
+  "uid" : "4e93dd239b6ddb4f",
+  "name" : "test_chatWord",
+  "fullName" : "test_022_friendChat.Test_friendChat#test_chatWord",
+  "historyId" : "5a4fac0f9f7f7cd84f028d2da7456518",
+  "time" : {
+    "start" : 1587008548448,
+    "stop" : 1587008591075,
+    "duration" : 42627
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert '你发布了学习日记' == 'I am a message!'\n  - 你发布了学习日记\n  + I am a message!",
+  "statusTrace" : "self = <scripts.test_022_friendChat.Test_friendChat object at 0x00000144F49A1F98>\n\n    @allure.story('文字聊天')\n    def test_chatWord(self):\n        with allure.step('进入消息页面'):\n            self.page.message().click_messageBtn()\n        #在该用例内不用判断有没有道友动态，因为下面找不到道友会刷新页面\n        with allure.step('点击小书童后返回至消息页面，使小书童不置顶'):\n            time.sleep(2)\n            self.page.message().click_timingService()\n            time.sleep(2)\n            self.driver.press_keycode(4)\n        with allure.step('滑动消息页面寻找第一个道友'):\n            i = 0\n            while i < 2:\n                if self.page.message().check_messageFriend() == True:\n                    break\n                else:\n                    self.page.message().swipeByMessage()\n                    i += 1\n        with allure.step('找到道友后使channel置顶，点击channel进入聊天页面'):\n            e1 = self.driver.find_element_by_id(\"com.huiian.timing:id/iv_friend\")\n            self.action.long_press(e1, None, None, 3000).perform()\n            time.sleep(2)\n            self.page.message().click_setTop()\n            time.sleep(1)\n            self.page.message().click_messageFriend()\n        with allure.step('输入聊天消息并点击发送'):\n            self.page.friend_chat().click_messageBox()\n            self.page.friend_chat().input_messageBox(\"I am a message!\")\n            self.page.friend_chat().click_messageSend()\n            time.sleep(5)\n            self.page.friend_chat().click_back()\n            count = self.driver.find_element_by_id('com.huiian.timing:id/friend_msg_content_tv').text\n        with allure.step('校验结果：若发送成功，消息页会显示最新消息'):\n>           assert count == \"I am a message!\"\nE           AssertionError: assert '你发布了学习日记' == 'I am a message!'\nE             - 你发布了学习日记\nE             + I am a message!\n\ntest_022_friendChat.py:56: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert '你发布了学习日记' == 'I am a message!'\n  - 你发布了学习日记\n  + I am a message!",
+    "statusTrace" : "self = <scripts.test_022_friendChat.Test_friendChat object at 0x00000144F49A1F98>\n\n    @allure.story('文字聊天')\n    def test_chatWord(self):\n        with allure.step('进入消息页面'):\n            self.page.message().click_messageBtn()\n        #在该用例内不用判断有没有道友动态，因为下面找不到道友会刷新页面\n        with allure.step('点击小书童后返回至消息页面，使小书童不置顶'):\n            time.sleep(2)\n            self.page.message().click_timingService()\n            time.sleep(2)\n            self.driver.press_keycode(4)\n        with allure.step('滑动消息页面寻找第一个道友'):\n            i = 0\n            while i < 2:\n                if self.page.message().check_messageFriend() == True:\n                    break\n                else:\n                    self.page.message().swipeByMessage()\n                    i += 1\n        with allure.step('找到道友后使channel置顶，点击channel进入聊天页面'):\n            e1 = self.driver.find_element_by_id(\"com.huiian.timing:id/iv_friend\")\n            self.action.long_press(e1, None, None, 3000).perform()\n            time.sleep(2)\n            self.page.message().click_setTop()\n            time.sleep(1)\n            self.page.message().click_messageFriend()\n        with allure.step('输入聊天消息并点击发送'):\n            self.page.friend_chat().click_messageBox()\n            self.page.friend_chat().input_messageBox(\"I am a message!\")\n            self.page.friend_chat().click_messageSend()\n            time.sleep(5)\n            self.page.friend_chat().click_back()\n            count = self.driver.find_element_by_id('com.huiian.timing:id/friend_msg_content_tv').text\n        with allure.step('校验结果：若发送成功，消息页会显示最新消息'):\n>           assert count == \"I am a message!\"\nE           AssertionError: assert '你发布了学习日记' == 'I am a message!'\nE             - 你发布了学习日记\nE             + I am a message!\n\ntest_022_friendChat.py:56: AssertionError",
+    "steps" : [ {
+      "name" : "进入消息页面",
+      "time" : {
+        "start" : 1587008548448,
+        "stop" : 1587008558465,
+        "duration" : 10017
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "点击小书童后返回至消息页面，使小书童不置顶",
+      "time" : {
+        "start" : 1587008558466,
+        "stop" : 1587008566117,
+        "duration" : 7651
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "滑动消息页面寻找第一个道友",
+      "time" : {
+        "start" : 1587008566117,
+        "stop" : 1587008566772,
+        "duration" : 655
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "找到道友后使channel置顶，点击channel进入聊天页面",
+      "time" : {
+        "start" : 1587008566772,
+        "stop" : 1587008575373,
+        "duration" : 8601
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "输入聊天消息并点击发送",
+      "time" : {
+        "start" : 1587008575373,
+        "stop" : 1587008591074,
+        "duration" : 15701
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "校验结果：若发送成功，消息页会显示最新消息",
+      "time" : {
+        "start" : 1587008591074,
+        "stop" : 1587008591075,
+        "duration" : 1
+      },
+      "status" : "failed",
+      "statusMessage" : "AssertionError: assert '你发布了学习日记' == 'I am a message!'\n  - 你发布了学习日记\n  + I am a message!\n",
+      "statusTrace" : "  File \"D:\\jenkins\\workspace\\Timing\\scripts\\test_022_friendChat.py\", line 56, in test_chatWord\n    assert count == \"I am a message!\"\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "hasContent" : true,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "聊天页功能"
+  }, {
+    "name" : "story",
+    "value" : "文字聊天"
+  }, {
+    "name" : "suite",
+    "value" : "test_022_friendChat"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_friendChat"
+  }, {
+    "name" : "host",
+    "value" : "PV-X00232293"
+  }, {
+    "name" : "thread",
+    "value" : "948-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_022_friendChat"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4e93dd239b6ddb4f.json",
+  "parameterValues" : [ ]
+}
