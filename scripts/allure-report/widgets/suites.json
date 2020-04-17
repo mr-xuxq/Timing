@@ -1,50 +1,6 @@
 {
-  "total" : 29,
+  "total" : 20,
   "items" : [ {
-    "uid" : "bf38b6b779d25246e041f9c5c485b1c3",
-    "name" : "test_014_browseShouye",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 1,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 2
-    }
-  }, {
-    "uid" : "e18a1f755cd338a08eb7b82df7eedcdc",
-    "name" : "test_051_normalTiming",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 1,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 2
-    }
-  }, {
-    "uid" : "398d65f7f625df45db5997ff0001cf74",
-    "name" : "test_011_browsesVlog",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 1,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    }
-  }, {
-    "uid" : "1bedc58c9757c09017c39eab2eed1ca8",
-    "name" : "test_043_checkFollowList",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 1,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    }
-  }, {
     "uid" : "f4b53d28ddd4786979c527a436b433fd",
     "name" : "test_022_friendChat",
     "statistic" : {
@@ -78,8 +34,8 @@
       "total" : 3
     }
   }, {
-    "uid" : "f76c65c15dede6f3dfc7d3b86c6f091d",
-    "name" : "test_loginByCaptcha",
+    "uid" : "a75e9e80197bd07dd87ad9566971bd90",
+    "name" : "test_001_registerAccount",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -89,8 +45,8 @@
       "total" : 2
     }
   }, {
-    "uid" : "7b7d8e65753c112e2ec1147823a25148",
-    "name" : "test_loginByPwd",
+    "uid" : "3183b646a4be569afb5752d7e055d1d1",
+    "name" : "test_002_loginByCaptcha",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -100,8 +56,8 @@
       "total" : 2
     }
   }, {
-    "uid" : "73a182e5919f666235b416fb2f039e7e",
-    "name" : "test_registerAccount",
+    "uid" : "bc99b46cd1c1f19c856eaaa6f74c2fec",
+    "name" : "test_003_loginByQQ",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -109,6 +65,50 @@
       "passed" : 2,
       "unknown" : 0,
       "total" : 2
+    }
+  }, {
+    "uid" : "12142777dc0ad13d441a25ffbc36972e",
+    "name" : "test_021_channelCheck",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "cabd87b6f3e2d50ff9b03d7f98febf15",
+    "name" : "test_031_postDiary",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "b21da2c75e45b4fab2c43649b49d120d",
+    "name" : "test_055_getupRecord",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "b9eaea7f886718b06979dc34b482e683",
+    "name" : "test_005_loginByPwd",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
     }
   } ]
 }

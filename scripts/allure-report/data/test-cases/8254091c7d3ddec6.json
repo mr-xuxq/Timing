@@ -1,0 +1,221 @@
+{
+  "uid" : "8254091c7d3ddec6",
+  "name" : "test_chatImage",
+  "fullName" : "test_025_groupChat.Test_teamChat#test_chatImage",
+  "historyId" : "2729f689182c9e5a084bd2295ff5a8e4",
+  "time" : {
+    "start" : 1587061528867,
+    "stop" : 1587061580055,
+    "duration" : 51188
+  },
+  "status" : "passed",
+  "flaky" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "点击聊天页面添加按钮",
+      "time" : {
+        "start" : 1587061555201,
+        "stop" : 1587061561159,
+        "duration" : 5958
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "选择相册",
+      "time" : {
+        "start" : 1587061561159,
+        "stop" : 1587061561566,
+        "duration" : 407
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "选择相册页面第一张图片并发送",
+      "time" : {
+        "start" : 1587061561566,
+        "stop" : 1587061580054,
+        "duration" : 18488
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "校验结果：若发送成功，消息页会显示最新图片",
+      "time" : {
+        "start" : 1587061580055,
+        "stop" : 1587061580055,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 4,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "图片聊天"
+  }, {
+    "name" : "feature",
+    "value" : "群组聊天功能"
+  }, {
+    "name" : "suite",
+    "value" : "test_025_groupChat"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_teamChat"
+  }, {
+    "name" : "host",
+    "value" : "PV-X00232293"
+  }, {
+    "name" : "thread",
+    "value" : "5228-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_025_groupChat"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "ac29d3c441e14aa1",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1587059051050,
+        "stop" : 1587059112572,
+        "duration" : 61522
+      }
+    }, {
+      "uid" : "4956eb1ac43b3f98",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 'I am a message!' == '[图片]'\n  - I am a message!\n  + [图片]",
+      "time" : {
+        "start" : 1587057034483,
+        "stop" : 1587057069995,
+        "duration" : 35512
+      }
+    }, {
+      "uid" : "83f063555b62e091",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1587053259785,
+        "stop" : 1587053358968,
+        "duration" : 99183
+      }
+    }, {
+      "uid" : "7641fd7cb8591ef8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587050726135,
+        "stop" : 1587050762479,
+        "duration" : 36344
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 4,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 11,
+        "unknown" : 0,
+        "total" : 16
+      },
+      "items" : [ {
+        "uid" : "6431637e7f6312ed",
+        "reportUrl" : "http://192.168.88.58:8080/job/Timing/36/allure/#testresult/6431637e7f6312ed",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 'I am a message!' == '[图片]'\n  - I am a message!\n  + [图片]",
+        "time" : {
+          "start" : 1587057034483,
+          "stop" : 1587057069995,
+          "duration" : 35512
+        }
+      }, {
+        "uid" : "438928223f4bf904",
+        "reportUrl" : "http://192.168.88.58:8080/job/Timing/34/allure/#testresult/438928223f4bf904",
+        "status" : "passed",
+        "time" : {
+          "start" : 1587050726135,
+          "stop" : 1587050762479,
+          "duration" : 36344
+        }
+      }, {
+        "uid" : "1a6b4a2322ce51a7",
+        "reportUrl" : "http://192.168.88.58:8080/job/Timing/33/allure/#testresult/1a6b4a2322ce51a7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1587044637994,
+          "stop" : 1587044664012,
+          "duration" : 26018
+        }
+      }, {
+        "uid" : "243f5b6e1d9a046e",
+        "reportUrl" : "http://192.168.88.58:8080/job/Timing/30/allure/#testresult/243f5b6e1d9a046e",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.",
+        "time" : {
+          "start" : 1587031245773,
+          "stop" : 1587031322536,
+          "duration" : 76763
+        }
+      }, {
+        "uid" : "c03503f9f0c50d3e",
+        "reportUrl" : "http://192.168.88.58:8080/job/Timing/29/allure/#testresult/c03503f9f0c50d3e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1587023047893,
+          "stop" : 1587023088604,
+          "duration" : 40711
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "8254091c7d3ddec6.json",
+  "parameterValues" : [ ]
+}

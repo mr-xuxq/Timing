@@ -1,0 +1,312 @@
+{
+  "uid" : "4b3768b2212d6d97",
+  "name" : "test_checkFollowList",
+  "fullName" : "test_043_checkFollowList.Test_CheckFollowList#test_checkFollowList",
+  "historyId" : "f262352153b3f2b8fe35179a6ec74f14",
+  "time" : {
+    "start" : 1587061939804,
+    "stop" : 1587061998630,
+    "duration" : 58826
+  },
+  "status" : "passed",
+  "flaky" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "进入更多页面",
+      "time" : {
+        "start" : 1587061939804,
+        "stop" : 1587061948619,
+        "duration" : 8815
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "获取关注列表的人数",
+      "time" : {
+        "start" : 1587061948619,
+        "stop" : 1587061949946,
+        "duration" : 1327
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "点击进入首页",
+      "time" : {
+        "start" : 1587061949946,
+        "stop" : 1587061952244,
+        "duration" : 2298
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "点击一篇日记,进入详情页",
+      "time" : {
+        "start" : 1587061952245,
+        "stop" : 1587061954321,
+        "duration" : 2076
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "日记进详情页,点击关注",
+      "time" : {
+        "start" : 1587061954321,
+        "stop" : 1587061977690,
+        "duration" : 23369
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "点击返回,回到首页",
+      "time" : {
+        "start" : 1587061977690,
+        "stop" : 1587061987773,
+        "duration" : 10083
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "点击进入更多页面",
+      "time" : {
+        "start" : 1587061987773,
+        "stop" : 1587061991116,
+        "duration" : 3343
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "下拉刷新更多页面",
+      "time" : {
+        "start" : 1587061991117,
+        "stop" : 1587061996564,
+        "duration" : 5447
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "再次获取关注人数",
+      "time" : {
+        "start" : 1587061996564,
+        "stop" : 1587061998630,
+        "duration" : 2066
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "判断关注人数是否前后一致",
+      "time" : {
+        "start" : 1587061998630,
+        "stop" : 1587061998630,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 10,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "关注列表检查"
+  }, {
+    "name" : "story"
+  }, {
+    "name" : "suite",
+    "value" : "test_043_checkFollowList"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_CheckFollowList"
+  }, {
+    "name" : "host",
+    "value" : "PV-X00232293"
+  }, {
+    "name" : "thread",
+    "value" : "5228-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_043_checkFollowList"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "d9382a9f4bf124ae",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.",
+      "time" : {
+        "start" : 1587059723192,
+        "stop" : 1587059813812,
+        "duration" : 90620
+      }
+    }, {
+      "uid" : "26da56daf4c1b246",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587057403914,
+        "stop" : 1587057484029,
+        "duration" : 80115
+      }
+    }, {
+      "uid" : "e107b06b4a9c4a69",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.",
+      "time" : {
+        "start" : 1587053981415,
+        "stop" : 1587054052388,
+        "duration" : 70973
+      }
+    }, {
+      "uid" : "fa1b1dfb2088f44",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False == True\n  -False\n  +True",
+      "time" : {
+        "start" : 1587051147322,
+        "stop" : 1587051237415,
+        "duration" : 90093
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 12,
+        "broken" : 2,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 16
+      },
+      "items" : [ {
+        "uid" : "8022cebd169f21d4",
+        "reportUrl" : "http://192.168.88.58:8080/job/Timing/36/allure/#testresult/8022cebd169f21d4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1587057403914,
+          "stop" : 1587057484029,
+          "duration" : 80115
+        }
+      }, {
+        "uid" : "ebe235a14da6c45f",
+        "reportUrl" : "http://192.168.88.58:8080/job/Timing/34/allure/#testresult/ebe235a14da6c45f",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert False == True\n  -False\n  +True",
+        "time" : {
+          "start" : 1587051147322,
+          "stop" : 1587051237415,
+          "duration" : 90093
+        }
+      }, {
+        "uid" : "494b1d1cbab5713b",
+        "reportUrl" : "http://192.168.88.58:8080/job/Timing/33/allure/#testresult/494b1d1cbab5713b",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert False == True\n  -False\n  +True",
+        "time" : {
+          "start" : 1587045069432,
+          "stop" : 1587045119772,
+          "duration" : 50340
+        }
+      }, {
+        "uid" : "27702e301055aae1",
+        "reportUrl" : "http://192.168.88.58:8080/job/Timing/30/allure/#testresult/27702e301055aae1",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert False == True\n  -False\n  +True",
+        "time" : {
+          "start" : 1587031712163,
+          "stop" : 1587031800340,
+          "duration" : 88177
+        }
+      }, {
+        "uid" : "3091cf028f795dbe",
+        "reportUrl" : "http://192.168.88.58:8080/job/Timing/29/allure/#testresult/3091cf028f795dbe",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+        "time" : {
+          "start" : 1587023460393,
+          "stop" : 1587023549068,
+          "duration" : 88675
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "4b3768b2212d6d97.json",
+  "parameterValues" : [ ]
+}

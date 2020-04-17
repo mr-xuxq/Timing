@@ -34,7 +34,7 @@ class Test_videoRoom():
                 with allure.step('点击快速进入按钮'):
                     self.page.video_hall().click_quicklyJoin()
                     time.sleep(2)
-                    self.page.video_hall().coordinateClick()
+                    self.page.video_hall().coordinateClick1()
                     time.sleep(5)
                 with allure.step('点击退出按钮'):
                     self.page.video_room().click_exit()

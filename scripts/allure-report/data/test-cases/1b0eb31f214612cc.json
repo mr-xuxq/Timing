@@ -1,0 +1,87 @@
+{
+  "uid" : "1b0eb31f214612cc",
+  "name" : "test_teamChatWord",
+  "fullName" : "test_025_groupChat.Test_teamChat#test_teamChatWord",
+  "historyId" : "886f72d5cbfe1f3813b2e8841e171b18",
+  "time" : {
+    "start" : 1587053188706,
+    "stop" : 1587053256732,
+    "duration" : 68026
+  },
+  "status" : "broken",
+  "statusMessage" : "selenium.common.exceptions.TimeoutException: Message:",
+  "statusTrace" : "self = <scripts.test_025_groupChat.Test_teamChat object at 0x00000286E539C860>\n\n    @allure.story('文字聊天')\n    def test_teamChatWord(self):\n        self.page.message().click_messageBtn()\n        #判断当前的消息页面有没有有没有群组，没有群组时就直接pass\n        # if self.page.message().check_messageTeam() == False:\n        #     with allure.step('当前页面没有群组'):\n        #         pass\n        # else:\n        # with allure.step('当有道友动态时，滑动页面'):\n        #     self.page.message().check_friendDynamic()\n        with allure.step('点击小书童后返回至消息页面，使小书童不置顶'):\n>           self.page.message().click_timingService()\n\ntest_025_groupChat.py:34: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n..\\Pages\\message_interaction\\message_page.py:29: in click_timingService\n    self.click(self.timingService)\n..\\base\\base_action.py:27: in click\n    self.find_element(feature).click()\n..\\base\\base_action.py:22: in find_element\n    element = WebDriverWait(self.driver, timeout, poll).until(lambda x: x.find_element(feature_by, feature_value))\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <selenium.webdriver.support.wait.WebDriverWait (session=\"2435b90f-83ed-4c1e-8745-89e9820a670f\")>\nmethod = <function BaseAction.find_element.<locals>.<lambda> at 0x00000286E53F51E0>\nmessage = ''\n\n    def until(self, method, message=''):\n        \"\"\"Calls the method provided with the driver as an argument until the \\\n        return value is not False.\"\"\"\n        screen = None\n        stacktrace = None\n    \n        end_time = time.time() + self._timeout\n        while True:\n            try:\n                value = method(self._driver)\n                if value:\n                    return value\n            except self._ignored_exceptions as exc:\n                screen = getattr(exc, 'screen', None)\n                stacktrace = getattr(exc, 'stacktrace', None)\n            time.sleep(self._poll)\n            if time.time() > end_time:\n                break\n>       raise TimeoutException(message, screen, stacktrace)\nE       selenium.common.exceptions.TimeoutException: Message:\n\nd:\\python\\lib\\site-packages\\selenium\\webdriver\\support\\wait.py:80: TimeoutException",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "selenium.common.exceptions.TimeoutException: Message:",
+    "statusTrace" : "self = <scripts.test_025_groupChat.Test_teamChat object at 0x00000286E539C860>\n\n    @allure.story('文字聊天')\n    def test_teamChatWord(self):\n        self.page.message().click_messageBtn()\n        #判断当前的消息页面有没有有没有群组，没有群组时就直接pass\n        # if self.page.message().check_messageTeam() == False:\n        #     with allure.step('当前页面没有群组'):\n        #         pass\n        # else:\n        # with allure.step('当有道友动态时，滑动页面'):\n        #     self.page.message().check_friendDynamic()\n        with allure.step('点击小书童后返回至消息页面，使小书童不置顶'):\n>           self.page.message().click_timingService()\n\ntest_025_groupChat.py:34: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n..\\Pages\\message_interaction\\message_page.py:29: in click_timingService\n    self.click(self.timingService)\n..\\base\\base_action.py:27: in click\n    self.find_element(feature).click()\n..\\base\\base_action.py:22: in find_element\n    element = WebDriverWait(self.driver, timeout, poll).until(lambda x: x.find_element(feature_by, feature_value))\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <selenium.webdriver.support.wait.WebDriverWait (session=\"2435b90f-83ed-4c1e-8745-89e9820a670f\")>\nmethod = <function BaseAction.find_element.<locals>.<lambda> at 0x00000286E53F51E0>\nmessage = ''\n\n    def until(self, method, message=''):\n        \"\"\"Calls the method provided with the driver as an argument until the \\\n        return value is not False.\"\"\"\n        screen = None\n        stacktrace = None\n    \n        end_time = time.time() + self._timeout\n        while True:\n            try:\n                value = method(self._driver)\n                if value:\n                    return value\n            except self._ignored_exceptions as exc:\n                screen = getattr(exc, 'screen', None)\n                stacktrace = getattr(exc, 'stacktrace', None)\n            time.sleep(self._poll)\n            if time.time() > end_time:\n                break\n>       raise TimeoutException(message, screen, stacktrace)\nE       selenium.common.exceptions.TimeoutException: Message:\n\nd:\\python\\lib\\site-packages\\selenium\\webdriver\\support\\wait.py:80: TimeoutException",
+    "steps" : [ {
+      "name" : "点击小书童后返回至消息页面，使小书童不置顶",
+      "time" : {
+        "start" : 1587053205211,
+        "stop" : 1587053256732,
+        "duration" : 51521
+      },
+      "status" : "broken",
+      "statusMessage" : "selenium.common.exceptions.TimeoutException: Message: \n\n",
+      "statusTrace" : "  File \"D:\\jenkins\\workspace\\Timing\\scripts\\test_025_groupChat.py\", line 34, in test_teamChatWord\n    self.page.message().click_timingService()\n  File \"D:\\jenkins\\workspace\\Timing\\Pages\\message_interaction\\message_page.py\", line 29, in click_timingService\n    self.click(self.timingService)\n  File \"D:\\jenkins\\workspace\\Timing\\base\\base_action.py\", line 27, in click\n    self.find_element(feature).click()\n  File \"D:\\jenkins\\workspace\\Timing\\base\\base_action.py\", line 22, in find_element\n    element = WebDriverWait(self.driver, timeout, poll).until(lambda x: x.find_element(feature_by, feature_value))\n  File \"d:\\python\\lib\\site-packages\\selenium\\webdriver\\support\\wait.py\", line 80, in until\n    raise TimeoutException(message, screen, stacktrace)\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 0,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "群组聊天功能"
+  }, {
+    "name" : "story",
+    "value" : "文字聊天"
+  }, {
+    "name" : "suite",
+    "value" : "test_025_groupChat"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_teamChat"
+  }, {
+    "name" : "host",
+    "value" : "PV-X00232293"
+  }, {
+    "name" : "thread",
+    "value" : "10744-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_025_groupChat"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1b0eb31f214612cc.json",
+  "parameterValues" : [ ]
+}

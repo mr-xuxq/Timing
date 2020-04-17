@@ -21,7 +21,11 @@ class Video_hall(BaseAction):
     def swipeUp(self):
         self.swipeOperat(0.5,0.8,0.5,0.2,500)
 
-    def coordinateClick(self):
+    def coordinateClick1(self):
+        L = self.getSize()
+        self.driver.tap([(L[0]* 0.5, L[1]* 0.92)],1)
+
+    def coordinateClick2(self):
         L = self.getSize()
         self.driver.tap([(L[0]* 0.5, L[1]* 0.92)],1)
 

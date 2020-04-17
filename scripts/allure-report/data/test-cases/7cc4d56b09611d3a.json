@@ -1,0 +1,171 @@
+{
+  "uid" : "7cc4d56b09611d3a",
+  "name" : "test_imgInfo",
+  "fullName" : "test_041_changePersonalInformation.Test_changePersonalInformation#test_imgInfo",
+  "historyId" : "68fa90cf0127e0f6de42e964dab47791",
+  "time" : {
+    "start" : 1587057376656,
+    "stop" : 1587057400811,
+    "duration" : 24155
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "进入更多页面",
+      "time" : {
+        "start" : 1587057376656,
+        "stop" : 1587057386073,
+        "duration" : 9417
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "进入个人主页",
+      "time" : {
+        "start" : 1587057386073,
+        "stop" : 1587057387829,
+        "duration" : 1756
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "进入修改资料页",
+      "time" : {
+        "start" : 1587057387830,
+        "stop" : 1587057392129,
+        "duration" : 4299
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "进入选择照片页",
+      "time" : {
+        "start" : 1587057392130,
+        "stop" : 1587057395328,
+        "duration" : 3198
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "在选择照片页选择第一张照片，并保存",
+      "time" : {
+        "start" : 1587057395328,
+        "stop" : 1587057399441,
+        "duration" : 4113
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "点击保存",
+      "time" : {
+        "start" : 1587057399441,
+        "stop" : 1587057400274,
+        "duration" : 833
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "校验结果：头像保存成功——>成功",
+      "time" : {
+        "start" : 1587057400274,
+        "stop" : 1587057400811,
+        "duration" : 537
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 7,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "修改个人资料功能，前提：非认证账号"
+  }, {
+    "name" : "story",
+    "value" : "修改头像信息"
+  }, {
+    "name" : "suite",
+    "value" : "test_041_changePersonalInformation"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_changePersonalInformation"
+  }, {
+    "name" : "host",
+    "value" : "PV-X00232293"
+  }, {
+    "name" : "thread",
+    "value" : "744-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_041_changePersonalInformation"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7cc4d56b09611d3a.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,225 @@
+{
+  "uid" : "19981e2561d2a311",
+  "name" : "test_logout",
+  "fullName" : "test_001_registerAccount.Test_registerAccount#test_logout",
+  "historyId" : "afd790239c990a2f0e6479c27d247442",
+  "time" : {
+    "start" : 1587060565567,
+    "stop" : 1587060591403,
+    "duration" : 25836
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "点击更多按钮",
+      "time" : {
+        "start" : 1587060565567,
+        "stop" : 1587060581809,
+        "duration" : 16242
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "点击设置按钮",
+      "time" : {
+        "start" : 1587060581809,
+        "stop" : 1587060586763,
+        "duration" : 4954
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "点击退出登录按钮",
+      "time" : {
+        "start" : 1587060586763,
+        "stop" : 1587060589956,
+        "duration" : 3193
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "确定退出",
+      "time" : {
+        "start" : 1587060589956,
+        "stop" : 1587060590605,
+        "duration" : 649
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "断言:退出登录成功",
+      "time" : {
+        "start" : 1587060590605,
+        "stop" : 1587060591403,
+        "duration" : 798
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 5,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_001_registerAccount"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_registerAccount"
+  }, {
+    "name" : "host",
+    "value" : "PV-X00232293"
+  }, {
+    "name" : "thread",
+    "value" : "5228-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_001_registerAccount"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "37208ccc0d9db94c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587058194770,
+        "stop" : 1587058209703,
+        "duration" : 14933
+      }
+    }, {
+      "uid" : "6f4f979b328b2ec1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587056092840,
+        "stop" : 1587056118358,
+        "duration" : 25518
+      }
+    }, {
+      "uid" : "93aedd6c04876c2c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587052282599,
+        "stop" : 1587052308625,
+        "duration" : 26026
+      }
+    }, {
+      "uid" : "ea1a3a9ee51dd8f0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587049778201,
+        "stop" : 1587049793853,
+        "duration" : 15652
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 6,
+        "skipped" : 0,
+        "passed" : 13,
+        "unknown" : 0,
+        "total" : 20
+      },
+      "items" : [ {
+        "uid" : "a473372d0c813a0e",
+        "reportUrl" : "http://192.168.88.58:8080/job/Timing/36/allure/#testresult/a473372d0c813a0e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1587056092840,
+          "stop" : 1587056118358,
+          "duration" : 25518
+        }
+      }, {
+        "uid" : "c99725722fa850ed",
+        "reportUrl" : "http://192.168.88.58:8080/job/Timing/34/allure/#testresult/c99725722fa850ed",
+        "status" : "passed",
+        "time" : {
+          "start" : 1587049778201,
+          "stop" : 1587049793853,
+          "duration" : 15652
+        }
+      }, {
+        "uid" : "36a4e79b17282f7b",
+        "reportUrl" : "http://192.168.88.58:8080/job/Timing/33/allure/#testresult/36a4e79b17282f7b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1587043653578,
+          "stop" : 1587043668787,
+          "duration" : 15209
+        }
+      }, {
+        "uid" : "4997fe2708937666",
+        "reportUrl" : "http://192.168.88.58:8080/job/Timing/30/allure/#testresult/4997fe2708937666",
+        "status" : "passed",
+        "time" : {
+          "start" : 1587029985314,
+          "stop" : 1587030000016,
+          "duration" : 14702
+        }
+      }, {
+        "uid" : "683421d45380400",
+        "reportUrl" : "http://192.168.88.58:8080/job/Timing/29/allure/#testresult/683421d45380400",
+        "status" : "passed",
+        "time" : {
+          "start" : 1587022248601,
+          "stop" : 1587022296523,
+          "duration" : 47922
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "19981e2561d2a311.json",
+  "parameterValues" : [ ]
+}

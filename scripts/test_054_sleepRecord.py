@@ -28,12 +28,15 @@ class Test_sleepRecord():
             time.sleep(3)
             self.page.more().click_sleep()
             # 点击【睡觉actionbar】
-            self.page.more().clickCoordinate_sleep()
-            time.sleep(5)
+            time.sleep(2)
+            with allure.step('点击睡觉'):
+                self.page.more().clickCoordinate_sleep()
+                time.sleep(5)
             with allure.step('进入睡觉页面后关闭睡觉打卡弹窗，并点击起床'):
                 self.page.timing().click_sleepingClose()
+                time.sleep(2)
                 self.page.timing().click_sleepingWake()
-                time.sleep(5)
+                time.sleep(3)
                 self.driver.press_keycode(4)
                 time.sleep(3)
                 self.driver.press_keycode(4)
