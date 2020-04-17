@@ -62,4 +62,4 @@ class Shouye(BaseAction):
             return False
 
     def check_shouye(self):
-        return self.is_feature_exist(self.shouyeBtn)
+        return self.is_feature_exist(self.moreBtn)

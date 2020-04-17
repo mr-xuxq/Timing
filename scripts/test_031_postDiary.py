@@ -42,7 +42,7 @@ class Test_postDiary():
         with allure.step('完成话题编辑'):
             self.page.topic().click_next()
         with allure.step('输入日记正文'):
-            self.page.post_diary().input_diaryContent("34567890JQKA2")
+            self.page.post_diary().input_diaryContent("This is my diary")
         with allure.step('点击发布按钮'):
             self.page.post_diary().click_post()
             time.sleep(10)

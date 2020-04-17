@@ -1,0 +1,181 @@
+{
+  "uid" : "dd969357a77507ec",
+  "name" : "test_loginByWexin",
+  "fullName" : "test_004_loginByWexin.Test_loginByWexin#test_loginByWexin",
+  "historyId" : "cc260aa809f1fa2970fc9598557b8c6d",
+  "time" : {
+    "start" : 1587138313290,
+    "stop" : 1587138347099,
+    "duration" : 33809
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "点击Weixin登录",
+      "time" : {
+        "start" : 1587138313290,
+        "stop" : 1587138326957,
+        "duration" : 13667
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "检查是否跳到首页",
+      "time" : {
+        "start" : 1587138326957,
+        "stop" : 1587138347098,
+        "duration" : 20141
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "断言:登录成功",
+        "time" : {
+          "start" : 1587138337002,
+          "stop" : 1587138347098,
+          "duration" : 10096
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_004_loginByWexin"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_loginByWexin"
+  }, {
+    "name" : "host",
+    "value" : "PV-X00232293"
+  }, {
+    "name" : "thread",
+    "value" : "4376-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_004_loginByWexin"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "adc6c2c8f83ee57e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587137690127,
+        "stop" : 1587137724275,
+        "duration" : 34148
+      }
+    }, {
+      "uid" : "fd70cf1a9b57a506",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587137002026,
+        "stop" : 1587137035808,
+        "duration" : 33782
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 2,
+        "skipped" : 0,
+        "passed" : 15,
+        "unknown" : 0,
+        "total" : 17
+      },
+      "items" : [ {
+        "uid" : "84d334d911fe4e43",
+        "reportUrl" : "http://192.168.88.58:8080/job/Timing/43/allure/#testresult/84d334d911fe4e43",
+        "status" : "passed",
+        "time" : {
+          "start" : 1587137690127,
+          "stop" : 1587137724275,
+          "duration" : 34148
+        }
+      }, {
+        "uid" : "39e9ee1f103abe38",
+        "reportUrl" : "http://192.168.88.58:8080/job/Timing/42/allure/#testresult/39e9ee1f103abe38",
+        "status" : "passed",
+        "time" : {
+          "start" : 1587137002026,
+          "stop" : 1587137035808,
+          "duration" : 33782
+        }
+      }, {
+        "uid" : "bb3b8fbbde143a1c",
+        "reportUrl" : "http://192.168.88.58:8080/job/Timing/33/allure/#testresult/bb3b8fbbde143a1c",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+        "time" : {
+          "start" : 1587030185381,
+          "stop" : 1587030303209,
+          "duration" : 117828
+        }
+      }, {
+        "uid" : "a9f05aa9c186a119",
+        "reportUrl" : "http://192.168.88.58:8080/job/Timing/30/allure/#testresult/a9f05aa9c186a119",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+        "time" : {
+          "start" : 1587030185381,
+          "stop" : 1587030303209,
+          "duration" : 117828
+        }
+      }, {
+        "uid" : "7b38d5c1815f1214",
+        "reportUrl" : "http://192.168.88.58:8080/job/Timing/29/allure/#testresult/7b38d5c1815f1214",
+        "status" : "passed",
+        "time" : {
+          "start" : 1587022407863,
+          "stop" : 1587022446600,
+          "duration" : 38737
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "dd969357a77507ec.json",
+  "parameterValues" : [ ]
+}

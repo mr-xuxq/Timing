@@ -1,0 +1,126 @@
+{
+  "uid" : "914ee4ccbd1c3599",
+  "name" : "test_videoRecordTiming",
+  "fullName" : "test_053_videoRecordTiming.Test_videoRecordTiming#test_videoRecordTiming",
+  "historyId" : "51867c13abb9a21a0481d8e2b12818f2",
+  "time" : {
+    "start" : 1587057610401,
+    "stop" : 1587057764413,
+    "duration" : 154012
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "进入更多页面",
+      "time" : {
+        "start" : 1587057610401,
+        "stop" : 1587057622212,
+        "duration" : 11811
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "滑动更多页面至底部",
+      "time" : {
+        "start" : 1587057622212,
+        "stop" : 1587057626866,
+        "duration" : 4654
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "点击视频打卡按钮，设定内容后开始",
+      "time" : {
+        "start" : 1587057626866,
+        "stop" : 1587057760677,
+        "duration" : 133811
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "校验结果：视频打卡1min后判断计时是否正常结束",
+      "time" : {
+        "start" : 1587057760678,
+        "stop" : 1587057764413,
+        "duration" : 3735
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "视频打卡功能"
+  }, {
+    "name" : "story",
+    "value" : "视频打卡操作"
+  }, {
+    "name" : "suite",
+    "value" : "test_053_videoRecordTiming"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_videoRecordTiming"
+  }, {
+    "name" : "host",
+    "value" : "PV-X00232293"
+  }, {
+    "name" : "thread",
+    "value" : "744-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_053_videoRecordTiming"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "914ee4ccbd1c3599.json",
+  "parameterValues" : [ ]
+}

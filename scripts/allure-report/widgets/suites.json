@@ -1,6 +1,28 @@
 {
-  "total" : 20,
+  "total" : 21,
   "items" : [ {
+    "uid" : "1bedc58c9757c09017c39eab2eed1ca8",
+    "name" : "test_043_checkFollowList",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "956faec2d7a4363664a9d5c899779ff4",
+    "name" : "test_013_videoRoom",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
     "uid" : "f4b53d28ddd4786979c527a436b433fd",
     "name" : "test_022_friendChat",
     "statistic" : {
@@ -67,6 +89,17 @@
       "total" : 2
     }
   }, {
+    "uid" : "4a69bd602993cc01d73970fbdf1f6418",
+    "name" : "test_004_loginByWexin",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
     "uid" : "12142777dc0ad13d441a25ffbc36972e",
     "name" : "test_021_channelCheck",
     "statistic" : {
@@ -76,39 +109,6 @@
       "passed" : 2,
       "unknown" : 0,
       "total" : 2
-    }
-  }, {
-    "uid" : "cabd87b6f3e2d50ff9b03d7f98febf15",
-    "name" : "test_031_postDiary",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 2,
-      "unknown" : 0,
-      "total" : 2
-    }
-  }, {
-    "uid" : "b21da2c75e45b4fab2c43649b49d120d",
-    "name" : "test_055_getupRecord",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 2,
-      "unknown" : 0,
-      "total" : 2
-    }
-  }, {
-    "uid" : "b9eaea7f886718b06979dc34b482e683",
-    "name" : "test_005_loginByPwd",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
     }
   } ]
 }

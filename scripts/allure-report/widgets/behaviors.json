@@ -1,6 +1,17 @@
 {
-  "total" : 24,
+  "total" : 26,
   "items" : [ {
+    "uid" : "3bf8fbcf61fb6064ef96745a8de1f3ac",
+    "name" : "关注列表检查",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
     "uid" : "c2e36a60416cdec2124483e973cdb56b",
     "name" : "聊天页功能",
     "statistic" : {
@@ -69,17 +80,6 @@
   }, {
     "uid" : "9fbcda4796eba892eb105427b0d72d54",
     "name" : "创建学习群功能",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    }
-  }, {
-    "uid" : "3bf8fbcf61fb6064ef96745a8de1f3ac",
-    "name" : "关注列表检查",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
