@@ -1,0 +1,132 @@
+{
+  "uid" : "4956eb1ac43b3f98",
+  "name" : "test_chatImage",
+  "fullName" : "test_025_groupChat.Test_teamChat#test_chatImage",
+  "historyId" : "2729f689182c9e5a084bd2295ff5a8e4",
+  "time" : {
+    "start" : 1587057034483,
+    "stop" : 1587057069995,
+    "duration" : 35512
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 'I am a message!' == '[图片]'\n  - I am a message!\n  + [图片]",
+  "statusTrace" : "self = <scripts.test_025_groupChat.Test_teamChat object at 0x0000027DFB988D30>\n\n    @allure.story('图片聊天')\n    def test_chatImage(self):\n        self.page.message().click_messageBtn()\n        with allure.step('点击聊天页面添加按钮'):\n            self.page.message().click_messageTeam()\n            time.sleep(2)\n            self.page.friend_chat().click_chooseType()\n            time.sleep(1)\n        with allure.step('选择相册'):\n            # 点击聊天页面【相册】按钮\n            self.page.friend_chat().click_imageBtn()\n        with allure.step('选择相册页面第一张图片并发送'):\n            time.sleep(3)\n            self.page.choose_image().click_chooseImage()\n            self.page.choose_image().click_nextStep()\n            time.sleep(5)\n            self.page.friend_chat().click_backTeam()\n            self.page.friend_chat().click_backTeam()\n            count = self.driver.find_element_by_id('com.huiian.timing:id/friend_msg_content_tv').text\n        with allure.step('校验结果：若发送成功，消息页会显示最新图片'):\n>           assert count == \"[图片]\"\nE           AssertionError: assert 'I am a message!' == '[图片]'\nE             - I am a message!\nE             + [图片]\n\ntest_025_groupChat.py:76: AssertionError",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert 'I am a message!' == '[图片]'\n  - I am a message!\n  + [图片]",
+    "statusTrace" : "self = <scripts.test_025_groupChat.Test_teamChat object at 0x0000027DFB988D30>\n\n    @allure.story('图片聊天')\n    def test_chatImage(self):\n        self.page.message().click_messageBtn()\n        with allure.step('点击聊天页面添加按钮'):\n            self.page.message().click_messageTeam()\n            time.sleep(2)\n            self.page.friend_chat().click_chooseType()\n            time.sleep(1)\n        with allure.step('选择相册'):\n            # 点击聊天页面【相册】按钮\n            self.page.friend_chat().click_imageBtn()\n        with allure.step('选择相册页面第一张图片并发送'):\n            time.sleep(3)\n            self.page.choose_image().click_chooseImage()\n            self.page.choose_image().click_nextStep()\n            time.sleep(5)\n            self.page.friend_chat().click_backTeam()\n            self.page.friend_chat().click_backTeam()\n            count = self.driver.find_element_by_id('com.huiian.timing:id/friend_msg_content_tv').text\n        with allure.step('校验结果：若发送成功，消息页会显示最新图片'):\n>           assert count == \"[图片]\"\nE           AssertionError: assert 'I am a message!' == '[图片]'\nE             - I am a message!\nE             + [图片]\n\ntest_025_groupChat.py:76: AssertionError",
+    "steps" : [ {
+      "name" : "点击聊天页面添加按钮",
+      "time" : {
+        "start" : 1587057050309,
+        "stop" : 1587057056150,
+        "duration" : 5841
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "选择相册",
+      "time" : {
+        "start" : 1587057056150,
+        "stop" : 1587057056470,
+        "duration" : 320
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "选择相册页面第一张图片并发送",
+      "time" : {
+        "start" : 1587057056470,
+        "stop" : 1587057069994,
+        "duration" : 13524
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "校验结果：若发送成功，消息页会显示最新图片",
+      "time" : {
+        "start" : 1587057069994,
+        "stop" : 1587057069994,
+        "duration" : 0
+      },
+      "status" : "failed",
+      "statusMessage" : "AssertionError: assert 'I am a message!' == '[图片]'\n  - I am a message!\n  + [图片]\n",
+      "statusTrace" : "  File \"D:\\jenkins\\workspace\\Timing\\scripts\\test_025_groupChat.py\", line 76, in test_chatImage\n    assert count == \"[图片]\"\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 0,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 0,
+    "stepsCount" : 4,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "图片聊天"
+  }, {
+    "name" : "feature",
+    "value" : "群组聊天功能"
+  }, {
+    "name" : "suite",
+    "value" : "test_025_groupChat"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_teamChat"
+  }, {
+    "name" : "host",
+    "value" : "PV-X00232293"
+  }, {
+    "name" : "thread",
+    "value" : "744-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_025_groupChat"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4956eb1ac43b3f98.json",
+  "parameterValues" : [ ]
+}

@@ -68,7 +68,7 @@ class Test_teamChat():
             time.sleep(3)
             self.page.choose_image().click_chooseImage()
             self.page.choose_image().click_nextStep()
-            time.sleep(5)
+            time.sleep(10)
             self.page.friend_chat().click_backTeam()
             self.page.friend_chat().click_backTeam()
             count = self.driver.find_element_by_id('com.huiian.timing:id/friend_msg_content_tv').text
@@ -88,7 +88,7 @@ class Test_teamChat():
         with allure.step('视频选择页选中一个视频并发送'):
             time.sleep(3)
             self.page.choose_video().click_chooseVideo()
-            time.sleep(5)
+            time.sleep(15)
             self.page.friend_chat().click_backTeam()
             self.page.friend_chat().click_backTeam()
             count = self.driver.find_element_by_id('com.huiian.timing:id/friend_msg_content_tv').text

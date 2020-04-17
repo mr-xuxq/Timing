@@ -1,4 +1,28 @@
 [ {
+  "buildOrder" : 36,
+  "reportUrl" : "http://192.168.88.58:8080/job/Timing/36/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "run" : 32,
+    "retry" : 64
+  }
+}, {
+  "buildOrder" : 34,
+  "reportUrl" : "http://192.168.88.58:8080/job/Timing/34/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "run" : 32,
+    "retry" : 0
+  }
+}, {
+  "buildOrder" : 33,
+  "reportUrl" : "http://192.168.88.58:8080/job/Timing/33/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "run" : 49,
+    "retry" : 417
+  }
+}, {
   "buildOrder" : 30,
   "reportUrl" : "http://192.168.88.58:8080/job/Timing/30/allure",
   "reportName" : "AllureReport",
@@ -133,21 +157,5 @@
   "data" : {
     "run" : 6,
     "retry" : 8
-  }
-}, {
-  "buildOrder" : 3,
-  "reportUrl" : "http://localhost:8080/job/Timing%20UI%20automatic%20test%20V9.8.1/3/allure",
-  "reportName" : "AllureReport",
-  "data" : {
-    "run" : 4,
-    "retry" : 4
-  }
-}, {
-  "buildOrder" : 2,
-  "reportUrl" : "http://localhost:8080/job/Timing%20UI%20automatic%20test%20V9.8.1/2/allure",
-  "reportName" : "AllureReport",
-  "data" : {
-    "run" : 1,
-    "retry" : 3
   }
 } ]
