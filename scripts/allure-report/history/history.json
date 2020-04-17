@@ -2,13 +2,32 @@
   "58a35e78c95610b9a2577f96444cd07a" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 6,
+      "broken" : 7,
       "skipped" : 0,
-      "passed" : 6,
+      "passed" : 7,
       "unknown" : 0,
-      "total" : 12
+      "total" : 14
     },
     "items" : [ {
+      "uid" : "b737069929c6effd",
+      "reportUrl" : "http://192.168.88.58:8080/job/Timing/33/allure/#testresult/b737069929c6effd",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.SessionNotCreatedException: Message: A new session could not be created. (Original error: Command failed: C:\\WINDOWS\\system32\\cmd.exe /s /c \"C:\\Android\\android-sdk\\platform-tools\\adb.exe -s 13e2ac86 install \"C:\\Appium\\node_modules\\appium\\build\\settings_apk\\settings_apk-debug.apk\"\"\nadb: failed to install C:\\Appium\\node_modules\\appium\\build\\settings_apk\\settings_apk-debug.apk: Failure [INSTALL_FAILED_ALREADY_EXISTS: Attempt to re-install io.appium.settings without first uninstalling.]\r\n)",
+      "time" : {
+        "start" : 1587121273213,
+        "stop" : 1587121273213,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "22cdf0b6de84e7d8",
+      "reportUrl" : "http://192.168.88.58:8080/job/Timing/30/allure/#testresult/22cdf0b6de84e7d8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587030395435,
+        "stop" : 1587030431762,
+        "duration" : 36327
+      }
+    }, {
       "uid" : "e9f8478a1aa3fc8",
       "reportUrl" : "http://192.168.88.58:8080/job/Timing/29/allure/#testresult/e9f8478a1aa3fc8",
       "status" : "broken",
@@ -47,27 +66,37 @@
         "stop" : 1587014431632,
         "duration" : 105305
       }
-    }, {
-      "uid" : "d62f154e87da95fe",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/24/allure/#testresult/d62f154e87da95fe",
-      "status" : "passed",
-      "time" : {
-        "start" : 1587011066428,
-        "stop" : 1587011180010,
-        "duration" : 113582
-      }
     } ]
   },
   "68fa90cf0127e0f6de42e964dab47791" : {
     "statistic" : {
       "failed" : 5,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 0,
-      "passed" : 7,
+      "passed" : 8,
       "unknown" : 0,
-      "total" : 12
+      "total" : 14
     },
     "items" : [ {
+      "uid" : "298674294efd9f6f",
+      "reportUrl" : "http://192.168.88.58:8080/job/Timing/33/allure/#testresult/298674294efd9f6f",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.SessionNotCreatedException: Message: A new session could not be created. (Original error: Command failed: C:\\WINDOWS\\system32\\cmd.exe /s /c \"C:\\Android\\android-sdk\\platform-tools\\adb.exe -s 13e2ac86 install \"C:\\Appium\\node_modules\\appium\\build\\settings_apk\\settings_apk-debug.apk\"\"\nadb: failed to install C:\\Appium\\node_modules\\appium\\build\\settings_apk\\settings_apk-debug.apk: Failure [INSTALL_FAILED_ALREADY_EXISTS: Attempt to re-install io.appium.settings without first uninstalling.]\r\n)",
+      "time" : {
+        "start" : 1587121504146,
+        "stop" : 1587121504146,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "5d88c6443ca77ff7",
+      "reportUrl" : "http://192.168.88.58:8080/job/Timing/30/allure/#testresult/5d88c6443ca77ff7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587031673278,
+        "stop" : 1587031708210,
+        "duration" : 34932
+      }
+    }, {
       "uid" : "188d311e549b0829",
       "reportUrl" : "http://192.168.88.58:8080/job/Timing/29/allure/#testresult/188d311e549b0829",
       "status" : "passed",
@@ -103,27 +132,37 @@
         "stop" : 1587015288292,
         "duration" : 33258
       }
-    }, {
-      "uid" : "9d00c11b00be6f33",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/24/allure/#testresult/9d00c11b00be6f33",
-      "status" : "passed",
-      "time" : {
-        "start" : 1587011942986,
-        "stop" : 1587011976047,
-        "duration" : 33061
-      }
     } ]
   },
   "5a4fac0f9f7f7cd84f028d2da7456518" : {
     "statistic" : {
       "failed" : 3,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 0,
-      "passed" : 9,
+      "passed" : 10,
       "unknown" : 0,
-      "total" : 12
+      "total" : 14
     },
     "items" : [ {
+      "uid" : "20cb35934f2a76a1",
+      "reportUrl" : "http://192.168.88.58:8080/job/Timing/33/allure/#testresult/20cb35934f2a76a1",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.SessionNotCreatedException: Message: A new session could not be created. (Original error: Command failed: C:\\WINDOWS\\system32\\cmd.exe /s /c \"C:\\Android\\android-sdk\\platform-tools\\adb.exe -s 13e2ac86 install \"C:\\Appium\\node_modules\\appium\\build\\settings_apk\\settings_apk-debug.apk\"\"\nadb: failed to install C:\\Appium\\node_modules\\appium\\build\\settings_apk\\settings_apk-debug.apk: Failure [INSTALL_FAILED_ALREADY_EXISTS: Attempt to re-install io.appium.settings without first uninstalling.]\r\n)",
+      "time" : {
+        "start" : 1587121343729,
+        "stop" : 1587121343729,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "4c068495f153ca93",
+      "reportUrl" : "http://192.168.88.58:8080/job/Timing/30/allure/#testresult/4c068495f153ca93",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587030653738,
+        "stop" : 1587030911468,
+        "duration" : 257730
+      }
+    }, {
       "uid" : "f787410f9baa0858",
       "reportUrl" : "http://192.168.88.58:8080/job/Timing/29/allure/#testresult/f787410f9baa0858",
       "status" : "passed",
@@ -160,27 +199,38 @@
         "stop" : 1587014698830,
         "duration" : 47035
       }
-    }, {
-      "uid" : "6cd15ad0bf25d7be",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/24/allure/#testresult/6cd15ad0bf25d7be",
-      "status" : "passed",
-      "time" : {
-        "start" : 1587011395261,
-        "stop" : 1587011466038,
-        "duration" : 70777
-      }
     } ]
   },
   "cc260aa809f1fa2970fc9598557b8c6d" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 2,
       "skipped" : 0,
       "passed" : 12,
       "unknown" : 0,
-      "total" : 12
+      "total" : 14
     },
     "items" : [ {
+      "uid" : "ee5aa23080783b4c",
+      "reportUrl" : "http://192.168.88.58:8080/job/Timing/33/allure/#testresult/ee5aa23080783b4c",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1587030185381,
+        "stop" : 1587030303209,
+        "duration" : 117828
+      }
+    }, {
+      "uid" : "a9f05aa9c186a119",
+      "reportUrl" : "http://192.168.88.58:8080/job/Timing/30/allure/#testresult/a9f05aa9c186a119",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1587030185381,
+        "stop" : 1587030303209,
+        "duration" : 117828
+      }
+    }, {
       "uid" : "7b38d5c1815f1214",
       "reportUrl" : "http://192.168.88.58:8080/job/Timing/29/allure/#testresult/7b38d5c1815f1214",
       "status" : "passed",
@@ -216,27 +266,38 @@
         "stop" : 1587014257446,
         "duration" : 38161
       }
-    }, {
-      "uid" : "adeb2cf75c0adeca",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/24/allure/#testresult/adeb2cf75c0adeca",
-      "status" : "passed",
-      "time" : {
-        "start" : 1586507325512,
-        "stop" : 1586507344807,
-        "duration" : 19295
-      }
     } ]
   },
   "f262352153b3f2b8fe35179a6ec74f14" : {
     "statistic" : {
-      "failed" : 9,
-      "broken" : 2,
+      "failed" : 10,
+      "broken" : 3,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 11
+      "total" : 13
     },
     "items" : [ {
+      "uid" : "a09b8b4c72e10f62",
+      "reportUrl" : "http://192.168.88.58:8080/job/Timing/33/allure/#testresult/a09b8b4c72e10f62",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.SessionNotCreatedException: Message: A new session could not be created. (Original error: Command failed: C:\\WINDOWS\\system32\\cmd.exe /s /c \"C:\\Android\\android-sdk\\platform-tools\\adb.exe -s 13e2ac86 install \"C:\\Appium\\node_modules\\appium\\build\\settings_apk\\settings_apk-debug.apk\"\"\nadb: failed to install C:\\Appium\\node_modules\\appium\\build\\settings_apk\\settings_apk-debug.apk: Failure [INSTALL_FAILED_ALREADY_EXISTS: Attempt to re-install io.appium.settings without first uninstalling.]\r\n)",
+      "time" : {
+        "start" : 1587121518683,
+        "stop" : 1587121518683,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "27702e301055aae1",
+      "reportUrl" : "http://192.168.88.58:8080/job/Timing/30/allure/#testresult/27702e301055aae1",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False == True\n  -False\n  +True",
+      "time" : {
+        "start" : 1587031712163,
+        "stop" : 1587031800340,
+        "duration" : 88177
+      }
+    }, {
       "uid" : "3091cf028f795dbe",
       "reportUrl" : "http://192.168.88.58:8080/job/Timing/29/allure/#testresult/3091cf028f795dbe",
       "status" : "broken",
@@ -276,16 +337,6 @@
         "stop" : 1587015334861,
         "duration" : 42770
       }
-    }, {
-      "uid" : "4fdc4ac43ee2d5fa",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/24/allure/#testresult/4fdc4ac43ee2d5fa",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: assert False == True\n  -False\n  +True",
-      "time" : {
-        "start" : 1587011979888,
-        "stop" : 1587012050257,
-        "duration" : 70369
-      }
     } ]
   },
   "7b749d3f854c2b7fab6ee8be062ae628" : {
@@ -293,11 +344,29 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 12,
+      "passed" : 14,
       "unknown" : 0,
-      "total" : 12
+      "total" : 14
     },
     "items" : [ {
+      "uid" : "2741745c6a7d042d",
+      "reportUrl" : "http://192.168.88.58:8080/job/Timing/33/allure/#testresult/2741745c6a7d042d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585822069087,
+        "stop" : 1585822089157,
+        "duration" : 20070
+      }
+    }, {
+      "uid" : "8c4d49ecde5f1a50",
+      "reportUrl" : "http://192.168.88.58:8080/job/Timing/30/allure/#testresult/8c4d49ecde5f1a50",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585822069087,
+        "stop" : 1585822089157,
+        "duration" : 20070
+      }
+    }, {
       "uid" : "275559cca296fab6",
       "reportUrl" : "http://192.168.88.58:8080/job/Timing/29/allure/#testresult/275559cca296fab6",
       "status" : "passed",
@@ -333,15 +402,6 @@
         "stop" : 1585822089157,
         "duration" : 20070
       }
-    }, {
-      "uid" : "7a8c94720e142654",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/24/allure/#testresult/7a8c94720e142654",
-      "status" : "passed",
-      "time" : {
-        "start" : 1585822069087,
-        "stop" : 1585822089157,
-        "duration" : 20070
-      }
     } ]
   },
   "fb0ff780638e5675f56937246a3a2b90" : {
@@ -349,11 +409,29 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 17,
+      "passed" : 19,
       "unknown" : 0,
-      "total" : 17
+      "total" : 19
     },
     "items" : [ {
+      "uid" : "df3976b3281d9c27",
+      "reportUrl" : "http://192.168.88.58:8080/job/Timing/33/allure/#testresult/df3976b3281d9c27",
+      "status" : "passed",
+      "time" : {
+        "start" : 1579351334315,
+        "stop" : 1579351348447,
+        "duration" : 14132
+      }
+    }, {
+      "uid" : "d03b4d5bb689af44",
+      "reportUrl" : "http://192.168.88.58:8080/job/Timing/30/allure/#testresult/d03b4d5bb689af44",
+      "status" : "passed",
+      "time" : {
+        "start" : 1579351334315,
+        "stop" : 1579351348447,
+        "duration" : 14132
+      }
+    }, {
       "uid" : "211650f23a6403b1",
       "reportUrl" : "http://192.168.88.58:8080/job/Timing/29/allure/#testresult/211650f23a6403b1",
       "status" : "passed",
@@ -389,27 +467,37 @@
         "stop" : 1579351348447,
         "duration" : 14132
       }
-    }, {
-      "uid" : "5fb80fff630e4422",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/24/allure/#testresult/5fb80fff630e4422",
-      "status" : "passed",
-      "time" : {
-        "start" : 1579351334315,
-        "stop" : 1579351348447,
-        "duration" : 14132
-      }
     } ]
   },
   "add77ff9628445763fbdb805500be90f" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 0,
-      "passed" : 12,
+      "passed" : 13,
       "unknown" : 0,
-      "total" : 12
+      "total" : 14
     },
     "items" : [ {
+      "uid" : "50c430f56ff5501c",
+      "reportUrl" : "http://192.168.88.58:8080/job/Timing/33/allure/#testresult/50c430f56ff5501c",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1587043731244,
+        "stop" : 1587043792954,
+        "duration" : 61710
+      }
+    }, {
+      "uid" : "c108e723207da7e2",
+      "reportUrl" : "http://192.168.88.58:8080/job/Timing/30/allure/#testresult/c108e723207da7e2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587030054199,
+        "stop" : 1587030128504,
+        "duration" : 74305
+      }
+    }, {
       "uid" : "8bbe3708f0a79533",
       "reportUrl" : "http://192.168.88.58:8080/job/Timing/29/allure/#testresult/8bbe3708f0a79533",
       "status" : "passed",
@@ -445,15 +533,6 @@
         "stop" : 1587014190367,
         "duration" : 30698
       }
-    }, {
-      "uid" : "edb6c9dd1a8b1ac9",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/24/allure/#testresult/edb6c9dd1a8b1ac9",
-      "status" : "passed",
-      "time" : {
-        "start" : 1586507277419,
-        "stop" : 1586507298253,
-        "duration" : 20834
-      }
     } ]
   },
   "d1efb50dbab8802631372f6182fee6db" : {
@@ -461,11 +540,29 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 17,
+      "passed" : 19,
       "unknown" : 0,
-      "total" : 17
+      "total" : 19
     },
     "items" : [ {
+      "uid" : "a6cd3b25c5baf36b",
+      "reportUrl" : "http://192.168.88.58:8080/job/Timing/33/allure/#testresult/a6cd3b25c5baf36b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1579351257132,
+        "stop" : 1579351293374,
+        "duration" : 36242
+      }
+    }, {
+      "uid" : "61d6f1d8a69e5881",
+      "reportUrl" : "http://192.168.88.58:8080/job/Timing/30/allure/#testresult/61d6f1d8a69e5881",
+      "status" : "passed",
+      "time" : {
+        "start" : 1579351257132,
+        "stop" : 1579351293374,
+        "duration" : 36242
+      }
+    }, {
       "uid" : "4eb0e20e0debae7",
       "reportUrl" : "http://192.168.88.58:8080/job/Timing/29/allure/#testresult/4eb0e20e0debae7",
       "status" : "passed",
@@ -501,15 +598,6 @@
         "stop" : 1579351293374,
         "duration" : 36242
       }
-    }, {
-      "uid" : "685af49b3bb643ce",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/24/allure/#testresult/685af49b3bb643ce",
-      "status" : "passed",
-      "time" : {
-        "start" : 1579351257132,
-        "stop" : 1579351293374,
-        "duration" : 36242
-      }
     } ]
   },
   "f5637f229f5e09702953ec3bdb3f156e" : {
@@ -517,11 +605,29 @@
       "failed" : 0,
       "broken" : 4,
       "skipped" : 0,
-      "passed" : 8,
+      "passed" : 10,
       "unknown" : 0,
-      "total" : 12
+      "total" : 14
     },
     "items" : [ {
+      "uid" : "cd42d6b008bafbb",
+      "reportUrl" : "http://192.168.88.58:8080/job/Timing/33/allure/#testresult/cd42d6b008bafbb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587043927541,
+        "stop" : 1587043992866,
+        "duration" : 65325
+      }
+    }, {
+      "uid" : "a3a415ba01856a4e",
+      "reportUrl" : "http://192.168.88.58:8080/job/Timing/30/allure/#testresult/a3a415ba01856a4e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587030435861,
+        "stop" : 1587030488820,
+        "duration" : 52959
+      }
+    }, {
       "uid" : "99a700952a939544",
       "reportUrl" : "http://192.168.88.58:8080/job/Timing/29/allure/#testresult/99a700952a939544",
       "status" : "passed",
@@ -557,27 +663,37 @@
         "stop" : 1587014507140,
         "duration" : 71570
       }
-    }, {
-      "uid" : "5e4be1f526ca45f6",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/24/allure/#testresult/5e4be1f526ca45f6",
-      "status" : "passed",
-      "time" : {
-        "start" : 1587011183806,
-        "stop" : 1587011245429,
-        "duration" : 61623
-      }
     } ]
   },
   "c4cdc2cdb79802d3cb94343241d323e3" : {
     "statistic" : {
       "failed" : 5,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 0,
-      "passed" : 6,
+      "passed" : 7,
       "unknown" : 0,
-      "total" : 11
+      "total" : 13
     },
     "items" : [ {
+      "uid" : "94668245f57f8924",
+      "reportUrl" : "http://192.168.88.58:8080/job/Timing/33/allure/#testresult/94668245f57f8924",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.SessionNotCreatedException: Message: A new session could not be created. (Original error: Command failed: C:\\WINDOWS\\system32\\cmd.exe /s /c \"C:\\Android\\android-sdk\\platform-tools\\adb.exe -s 13e2ac86 install \"C:\\Appium\\node_modules\\appium\\build\\settings_apk\\settings_apk-debug.apk\"\"\nadb: failed to install C:\\Appium\\node_modules\\appium\\build\\settings_apk\\settings_apk-debug.apk: Failure [INSTALL_FAILED_ALREADY_EXISTS: Attempt to re-install io.appium.settings without first uninstalling.]\r\n)",
+      "time" : {
+        "start" : 1587121387333,
+        "stop" : 1587121387333,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "4a587ee76cefa1b4",
+      "reportUrl" : "http://192.168.88.58:8080/job/Timing/30/allure/#testresult/4a587ee76cefa1b4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587031144860,
+        "stop" : 1587031180983,
+        "duration" : 36123
+      }
+    }, {
       "uid" : "eb92dfcdb1ca4b1a",
       "reportUrl" : "http://192.168.88.58:8080/job/Timing/29/allure/#testresult/eb92dfcdb1ca4b1a",
       "status" : "passed",
@@ -613,27 +729,38 @@
         "stop" : 1587014837250,
         "duration" : 29998
       }
-    }, {
-      "uid" : "d19109de3a03a175",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/24/allure/#testresult/d19109de3a03a175",
-      "status" : "passed",
-      "time" : {
-        "start" : 1587011563295,
-        "stop" : 1587011592082,
-        "duration" : 28787
-      }
     } ]
   },
   "5b73c6119d9474dd20623f16f3d86122" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 8,
+      "broken" : 10,
       "skipped" : 0,
       "passed" : 4,
       "unknown" : 0,
-      "total" : 12
+      "total" : 14
     },
     "items" : [ {
+      "uid" : "91c71053d8213b1b",
+      "reportUrl" : "http://192.168.88.58:8080/job/Timing/33/allure/#testresult/91c71053d8213b1b",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.SessionNotCreatedException: Message: A new session could not be created. (Original error: Command failed: C:\\WINDOWS\\system32\\cmd.exe /s /c \"C:\\Android\\android-sdk\\platform-tools\\adb.exe -s 13e2ac86 install \"C:\\Appium\\node_modules\\appium\\build\\settings_apk\\settings_apk-debug.apk\"\"\nadb: failed to install C:\\Appium\\node_modules\\appium\\build\\settings_apk\\settings_apk-debug.apk: Failure [INSTALL_FAILED_ALREADY_EXISTS: Attempt to re-install io.appium.settings without first uninstalling.]\r\n)",
+      "time" : {
+        "start" : 1587121576292,
+        "stop" : 1587121576292,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "f5ee7baae290f160",
+      "reportUrl" : "http://192.168.88.58:8080/job/Timing/30/allure/#testresult/f5ee7baae290f160",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1587032220666,
+        "stop" : 1587032309493,
+        "duration" : 88827
+      }
+    }, {
       "uid" : "925029e4891803e2",
       "reportUrl" : "http://192.168.88.58:8080/job/Timing/29/allure/#testresult/925029e4891803e2",
       "status" : "passed",
@@ -669,16 +796,6 @@
         "stop" : 1587015773852,
         "duration" : 43941
       }
-    }, {
-      "uid" : "634d1000de821622",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/24/allure/#testresult/634d1000de821622",
-      "status" : "broken",
-      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
-      "time" : {
-        "start" : 1587012402475,
-        "stop" : 1587012481924,
-        "duration" : 79449
-      }
     } ]
   },
   "76c961366b12e653ec2b05ce63fed8e1" : {
@@ -686,11 +803,29 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 15,
+      "passed" : 17,
       "unknown" : 0,
-      "total" : 15
+      "total" : 17
     },
     "items" : [ {
+      "uid" : "cd25c9228b72edcb",
+      "reportUrl" : "http://192.168.88.58:8080/job/Timing/33/allure/#testresult/cd25c9228b72edcb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1586158252495,
+        "stop" : 1586158273162,
+        "duration" : 20667
+      }
+    }, {
+      "uid" : "66c5226ea77ec119",
+      "reportUrl" : "http://192.168.88.58:8080/job/Timing/30/allure/#testresult/66c5226ea77ec119",
+      "status" : "passed",
+      "time" : {
+        "start" : 1586158252495,
+        "stop" : 1586158273162,
+        "duration" : 20667
+      }
+    }, {
       "uid" : "735b9eea6378e942",
       "reportUrl" : "http://192.168.88.58:8080/job/Timing/29/allure/#testresult/735b9eea6378e942",
       "status" : "passed",
@@ -726,27 +861,38 @@
         "stop" : 1586158273162,
         "duration" : 20667
       }
-    }, {
-      "uid" : "457099d1010cfeeb",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/24/allure/#testresult/457099d1010cfeeb",
-      "status" : "passed",
-      "time" : {
-        "start" : 1586158252495,
-        "stop" : 1586158273162,
-        "duration" : 20667
-      }
     } ]
   },
   "880dbb5f4e08575189de020208490bd1" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 3,
+      "broken" : 5,
       "skipped" : 0,
       "passed" : 9,
       "unknown" : 0,
-      "total" : 12
+      "total" : 14
     },
     "items" : [ {
+      "uid" : "73dc0108eb51c108",
+      "reportUrl" : "http://192.168.88.58:8080/job/Timing/33/allure/#testresult/73dc0108eb51c108",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.SessionNotCreatedException: Message: A new session could not be created. (Original error: Command failed: C:\\WINDOWS\\system32\\cmd.exe /s /c \"C:\\Android\\android-sdk\\platform-tools\\adb.exe -s 13e2ac86 install \"C:\\Appium\\node_modules\\appium\\build\\settings_apk\\settings_apk-debug.apk\"\"\nadb: failed to install C:\\Appium\\node_modules\\appium\\build\\settings_apk\\settings_apk-debug.apk: Failure [INSTALL_FAILED_ALREADY_EXISTS: Attempt to re-install io.appium.settings without first uninstalling.]\r\n)",
+      "time" : {
+        "start" : 1587121533179,
+        "stop" : 1587121533179,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "c815f2c4c4dd2687",
+      "reportUrl" : "http://192.168.88.58:8080/job/Timing/30/allure/#testresult/c815f2c4c4dd2687",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1587031803586,
+        "stop" : 1587031944398,
+        "duration" : 140812
+      }
+    }, {
       "uid" : "cf70f5503754cce0",
       "reportUrl" : "http://192.168.88.58:8080/job/Timing/29/allure/#testresult/cf70f5503754cce0",
       "status" : "passed",
@@ -784,27 +930,37 @@
         "stop" : 1587015437347,
         "duration" : 98619
       }
-    }, {
-      "uid" : "ea0efa6d7aedf96a",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/24/allure/#testresult/ea0efa6d7aedf96a",
-      "status" : "passed",
-      "time" : {
-        "start" : 1587012054178,
-        "stop" : 1587012151725,
-        "duration" : 97547
-      }
     } ]
   },
   "8a9c0a89d45e7d8b7b9862e7c710b6c7" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 2,
       "skipped" : 0,
-      "passed" : 11,
+      "passed" : 12,
       "unknown" : 0,
-      "total" : 12
+      "total" : 14
     },
     "items" : [ {
+      "uid" : "333d34ca746e59e8",
+      "reportUrl" : "http://192.168.88.58:8080/job/Timing/33/allure/#testresult/333d34ca746e59e8",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.SessionNotCreatedException: Message: A new session could not be created. (Original error: Command failed: C:\\WINDOWS\\system32\\cmd.exe /s /c \"C:\\Android\\android-sdk\\platform-tools\\adb.exe -s 13e2ac86 install \"C:\\Appium\\node_modules\\appium\\build\\settings_apk\\settings_apk-debug.apk\"\"\nadb: failed to install C:\\Appium\\node_modules\\appium\\build\\settings_apk\\settings_apk-debug.apk: Failure [INSTALL_FAILED_ALREADY_EXISTS: Attempt to re-install io.appium.settings without first uninstalling.]\r\n)",
+      "time" : {
+        "start" : 1587121287810,
+        "stop" : 1587121287810,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "2e3ab439bb6b5736",
+      "reportUrl" : "http://192.168.88.58:8080/job/Timing/30/allure/#testresult/2e3ab439bb6b5736",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587030492099,
+        "stop" : 1587030529013,
+        "duration" : 36914
+      }
+    }, {
       "uid" : "836b1f94e3a25f06",
       "reportUrl" : "http://192.168.88.58:8080/job/Timing/29/allure/#testresult/836b1f94e3a25f06",
       "status" : "passed",
@@ -840,27 +996,37 @@
         "stop" : 1587014558460,
         "duration" : 47481
       }
-    }, {
-      "uid" : "1199a49269557e77",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/24/allure/#testresult/1199a49269557e77",
-      "status" : "passed",
-      "time" : {
-        "start" : 1587011249437,
-        "stop" : 1587011304397,
-        "duration" : 54960
-      }
     } ]
   },
   "379fd30feb629b30df1e6a6bf3b5061e" : {
     "statistic" : {
       "failed" : 3,
-      "broken" : 1,
+      "broken" : 2,
       "skipped" : 0,
-      "passed" : 8,
+      "passed" : 9,
       "unknown" : 0,
-      "total" : 12
+      "total" : 14
     },
     "items" : [ {
+      "uid" : "bdb7045d8cb02116",
+      "reportUrl" : "http://192.168.88.58:8080/job/Timing/33/allure/#testresult/bdb7045d8cb02116",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.SessionNotCreatedException: Message: A new session could not be created. (Original error: Command failed: C:\\WINDOWS\\system32\\cmd.exe /s /c \"C:\\Android\\android-sdk\\platform-tools\\adb.exe -s 13e2ac86 install \"C:\\Appium\\node_modules\\appium\\build\\settings_apk\\settings_apk-debug.apk\"\"\nadb: failed to install C:\\Appium\\node_modules\\appium\\build\\settings_apk\\settings_apk-debug.apk: Failure [INSTALL_FAILED_ALREADY_EXISTS: Attempt to re-install io.appium.settings without first uninstalling.]\r\n)",
+      "time" : {
+        "start" : 1587121372999,
+        "stop" : 1587121372999,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "f7c10dee6af575c2",
+      "reportUrl" : "http://192.168.88.58:8080/job/Timing/30/allure/#testresult/f7c10dee6af575c2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587031003900,
+        "stop" : 1587031142010,
+        "duration" : 138110
+      }
+    }, {
       "uid" : "d4ad08472c38bb75",
       "reportUrl" : "http://192.168.88.58:8080/job/Timing/29/allure/#testresult/d4ad08472c38bb75",
       "status" : "passed",
@@ -897,15 +1063,6 @@
         "stop" : 1587014803352,
         "duration" : 50033
       }
-    }, {
-      "uid" : "2a81166169402982",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/24/allure/#testresult/2a81166169402982",
-      "status" : "passed",
-      "time" : {
-        "start" : 1587011512046,
-        "stop" : 1587011559478,
-        "duration" : 47432
-      }
     } ]
   },
   "7bd7a76efa66f1b05144f63fb8d54818" : {
@@ -933,11 +1090,29 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 12,
+      "passed" : 14,
       "unknown" : 0,
-      "total" : 12
+      "total" : 14
     },
     "items" : [ {
+      "uid" : "d09403e12d940e2e",
+      "reportUrl" : "http://192.168.88.58:8080/job/Timing/33/allure/#testresult/d09403e12d940e2e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587030311202,
+        "stop" : 1587030363672,
+        "duration" : 52470
+      }
+    }, {
+      "uid" : "1c144a79cb63d42f",
+      "reportUrl" : "http://192.168.88.58:8080/job/Timing/30/allure/#testresult/1c144a79cb63d42f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587030311202,
+        "stop" : 1587030363672,
+        "duration" : 52470
+      }
+    }, {
       "uid" : "73dbdcd243d889af",
       "reportUrl" : "http://192.168.88.58:8080/job/Timing/29/allure/#testresult/73dbdcd243d889af",
       "status" : "passed",
@@ -973,27 +1148,37 @@
         "stop" : 1587014291846,
         "duration" : 30458
       }
-    }, {
-      "uid" : "ae2d1d11e3e1e8c",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/24/allure/#testresult/ae2d1d11e3e1e8c",
-      "status" : "passed",
-      "time" : {
-        "start" : 1586507349070,
-        "stop" : 1586507369097,
-        "duration" : 20027
-      }
     } ]
   },
   "168d2de2518e33ff13db78a0c2f4fd4f" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 2,
+      "broken" : 3,
       "skipped" : 0,
-      "passed" : 10,
+      "passed" : 11,
       "unknown" : 0,
-      "total" : 12
+      "total" : 14
     },
     "items" : [ {
+      "uid" : "38e7cbc614052a13",
+      "reportUrl" : "http://192.168.88.58:8080/job/Timing/33/allure/#testresult/38e7cbc614052a13",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.SessionNotCreatedException: Message: A new session could not be created. (Original error: Command failed: C:\\WINDOWS\\system32\\cmd.exe /s /c \"C:\\Android\\android-sdk\\platform-tools\\adb.exe -s 13e2ac86 install \"C:\\Appium\\node_modules\\appium\\build\\settings_apk\\settings_apk-debug.apk\"\"\nadb: failed to install C:\\Appium\\node_modules\\appium\\build\\settings_apk\\settings_apk-debug.apk: Failure [INSTALL_FAILED_ALREADY_EXISTS: Attempt to re-install io.appium.settings without first uninstalling.]\r\n)",
+      "time" : {
+        "start" : 1587121258511,
+        "stop" : 1587121258511,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "1adb435eb6f40824",
+      "reportUrl" : "http://192.168.88.58:8080/job/Timing/30/allure/#testresult/1adb435eb6f40824",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587030366617,
+        "stop" : 1587030392347,
+        "duration" : 25730
+      }
+    }, {
       "uid" : "c5762c8ab5189fb9",
       "reportUrl" : "http://192.168.88.58:8080/job/Timing/29/allure/#testresult/c5762c8ab5189fb9",
       "status" : "passed",
@@ -1029,27 +1214,37 @@
         "stop" : 1587014322555,
         "duration" : 26751
       }
-    }, {
-      "uid" : "88fd25a6c490e74d",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/24/allure/#testresult/88fd25a6c490e74d",
-      "status" : "passed",
-      "time" : {
-        "start" : 1587011037232,
-        "stop" : 1587011062472,
-        "duration" : 25240
-      }
     } ]
   },
   "afd790239c990a2f0e6479c27d247442" : {
     "statistic" : {
       "failed" : 1,
-      "broken" : 6,
+      "broken" : 7,
       "skipped" : 0,
-      "passed" : 8,
+      "passed" : 9,
       "unknown" : 0,
-      "total" : 15
+      "total" : 17
     },
     "items" : [ {
+      "uid" : "d0fe8f81475f16ed",
+      "reportUrl" : "http://192.168.88.58:8080/job/Timing/33/allure/#testresult/d0fe8f81475f16ed",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.SessionNotCreatedException: Message: A new session could not be created. (Original error: Command failed: C:\\WINDOWS\\system32\\cmd.exe /s /c \"C:\\Android\\android-sdk\\platform-tools\\adb.exe -s 13e2ac86 install \"C:\\Appium\\node_modules\\appium\\build\\settings_apk\\settings_apk-debug.apk\"\"\nadb: failed to install C:\\Appium\\node_modules\\appium\\build\\settings_apk\\settings_apk-debug.apk: Failure [INSTALL_FAILED_ALREADY_EXISTS: Attempt to re-install io.appium.settings without first uninstalling.]\r\n)",
+      "time" : {
+        "start" : 1587121221822,
+        "stop" : 1587121221822,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "4997fe2708937666",
+      "reportUrl" : "http://192.168.88.58:8080/job/Timing/30/allure/#testresult/4997fe2708937666",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587029985314,
+        "stop" : 1587030000016,
+        "duration" : 14702
+      }
+    }, {
       "uid" : "683421d45380400",
       "reportUrl" : "http://192.168.88.58:8080/job/Timing/29/allure/#testresult/683421d45380400",
       "status" : "passed",
@@ -1085,15 +1280,6 @@
         "stop" : 1587014101524,
         "duration" : 19675
       }
-    }, {
-      "uid" : "1382d01edcbe33c",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/24/allure/#testresult/1382d01edcbe33c",
-      "status" : "passed",
-      "time" : {
-        "start" : 1587010940731,
-        "stop" : 1587010975848,
-        "duration" : 35117
-      }
     } ]
   },
   "d24f2dfea013e0ad01919111d120ad7e" : {
@@ -1101,11 +1287,29 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 18,
+      "passed" : 20,
       "unknown" : 0,
-      "total" : 18
+      "total" : 20
     },
     "items" : [ {
+      "uid" : "6cf432193b02372a",
+      "reportUrl" : "http://192.168.88.58:8080/job/Timing/33/allure/#testresult/6cf432193b02372a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1579351312885,
+        "stop" : 1579351330735,
+        "duration" : 17850
+      }
+    }, {
+      "uid" : "9219f26d039507e5",
+      "reportUrl" : "http://192.168.88.58:8080/job/Timing/30/allure/#testresult/9219f26d039507e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1579351312885,
+        "stop" : 1579351330735,
+        "duration" : 17850
+      }
+    }, {
       "uid" : "7f374c54e22b09d",
       "reportUrl" : "http://192.168.88.58:8080/job/Timing/29/allure/#testresult/7f374c54e22b09d",
       "status" : "passed",
@@ -1141,15 +1345,6 @@
         "stop" : 1579351330735,
         "duration" : 17850
       }
-    }, {
-      "uid" : "50d94d45a2c720e8",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/24/allure/#testresult/50d94d45a2c720e8",
-      "status" : "passed",
-      "time" : {
-        "start" : 1579351312885,
-        "stop" : 1579351330735,
-        "duration" : 17850
-      }
     } ]
   },
   "ce3c218261ade1c9dee09b2e835951a6" : {
@@ -1157,11 +1352,29 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 15,
+      "passed" : 17,
       "unknown" : 0,
-      "total" : 15
+      "total" : 17
     },
     "items" : [ {
+      "uid" : "715b5683b15a2889",
+      "reportUrl" : "http://192.168.88.58:8080/job/Timing/33/allure/#testresult/715b5683b15a2889",
+      "status" : "passed",
+      "time" : {
+        "start" : 1579351418285,
+        "stop" : 1579351430435,
+        "duration" : 12150
+      }
+    }, {
+      "uid" : "f52c3c3fcab87b65",
+      "reportUrl" : "http://192.168.88.58:8080/job/Timing/30/allure/#testresult/f52c3c3fcab87b65",
+      "status" : "passed",
+      "time" : {
+        "start" : 1579351418285,
+        "stop" : 1579351430435,
+        "duration" : 12150
+      }
+    }, {
       "uid" : "6ab66d7a4d7dd850",
       "reportUrl" : "http://192.168.88.58:8080/job/Timing/29/allure/#testresult/6ab66d7a4d7dd850",
       "status" : "passed",
@@ -1197,27 +1410,38 @@
         "stop" : 1579351430435,
         "duration" : 12150
       }
-    }, {
-      "uid" : "92c26e2c2a6b102",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/24/allure/#testresult/92c26e2c2a6b102",
-      "status" : "passed",
-      "time" : {
-        "start" : 1579351418285,
-        "stop" : 1579351430435,
-        "duration" : 12150
-      }
     } ]
   },
   "d7d2aaf35f5ce3d673cdc1faa9e45b9a" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 12,
+      "broken" : 14,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 12
+      "total" : 14
     },
     "items" : [ {
+      "uid" : "c3104bf3da8ce62b",
+      "reportUrl" : "http://192.168.88.58:8080/job/Timing/33/allure/#testresult/c3104bf3da8ce62b",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'Shouye' object has no attribute 'waitAndfind'",
+      "time" : {
+        "start" : 1586158913916,
+        "stop" : 1586158947904,
+        "duration" : 33988
+      }
+    }, {
+      "uid" : "f23fa944bc17c72f",
+      "reportUrl" : "http://192.168.88.58:8080/job/Timing/30/allure/#testresult/f23fa944bc17c72f",
+      "status" : "broken",
+      "statusDetails" : "AttributeError: 'Shouye' object has no attribute 'waitAndfind'",
+      "time" : {
+        "start" : 1586158913916,
+        "stop" : 1586158947904,
+        "duration" : 33988
+      }
+    }, {
       "uid" : "72d8536e781c4c9",
       "reportUrl" : "http://192.168.88.58:8080/job/Timing/29/allure/#testresult/72d8536e781c4c9",
       "status" : "broken",
@@ -1257,28 +1481,37 @@
         "stop" : 1586158947904,
         "duration" : 33988
       }
-    }, {
-      "uid" : "d6a7ddb548799eaa",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/24/allure/#testresult/d6a7ddb548799eaa",
-      "status" : "broken",
-      "statusDetails" : "AttributeError: 'Shouye' object has no attribute 'waitAndfind'",
-      "time" : {
-        "start" : 1586158913916,
-        "stop" : 1586158947904,
-        "duration" : 33988
-      }
     } ]
   },
   "a3ee25ba58e5c6fea7881bab0734e793" : {
     "statistic" : {
       "failed" : 2,
-      "broken" : 2,
+      "broken" : 3,
       "skipped" : 0,
-      "passed" : 7,
+      "passed" : 8,
       "unknown" : 0,
-      "total" : 11
+      "total" : 13
     },
     "items" : [ {
+      "uid" : "af75ea71523be68c",
+      "reportUrl" : "http://192.168.88.58:8080/job/Timing/33/allure/#testresult/af75ea71523be68c",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.SessionNotCreatedException: Message: A new session could not be created. (Original error: Command failed: C:\\WINDOWS\\system32\\cmd.exe /s /c \"C:\\Android\\android-sdk\\platform-tools\\adb.exe -s 13e2ac86 install \"C:\\Appium\\node_modules\\appium\\build\\settings_apk\\settings_apk-debug.apk\"\"\nadb: failed to install C:\\Appium\\node_modules\\appium\\build\\settings_apk\\settings_apk-debug.apk: Failure [INSTALL_FAILED_ALREADY_EXISTS: Attempt to re-install io.appium.settings without first uninstalling.]\r\n)",
+      "time" : {
+        "start" : 1587121431618,
+        "stop" : 1587121431618,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "53d9ca66639d86dc",
+      "reportUrl" : "http://192.168.88.58:8080/job/Timing/30/allure/#testresult/53d9ca66639d86dc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587031325615,
+        "stop" : 1587031375009,
+        "duration" : 49394
+      }
+    }, {
       "uid" : "c42d1c842a8abbcf",
       "reportUrl" : "http://192.168.88.58:8080/job/Timing/29/allure/#testresult/c42d1c842a8abbcf",
       "status" : "passed",
@@ -1316,28 +1549,37 @@
         "stop" : 1587014991277,
         "duration" : 48004
       }
-    }, {
-      "uid" : "72b511e90fc447f7",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/24/allure/#testresult/72b511e90fc447f7",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: assert '[图片]' == '[视频]'\n  - [图片]\n  + [视频]",
-      "time" : {
-        "start" : 1587011684181,
-        "stop" : 1587011728891,
-        "duration" : 44710
-      }
     } ]
   },
   "319b39143544ebf4f1bf973be192a619" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 2,
       "skipped" : 0,
-      "passed" : 11,
+      "passed" : 12,
       "unknown" : 0,
-      "total" : 12
+      "total" : 14
     },
     "items" : [ {
+      "uid" : "3ecbb8a89b1473e",
+      "reportUrl" : "http://192.168.88.58:8080/job/Timing/33/allure/#testresult/3ecbb8a89b1473e",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.SessionNotCreatedException: Message: A new session could not be created. (Original error: Command failed: C:\\WINDOWS\\system32\\cmd.exe /s /c \"C:\\Android\\android-sdk\\platform-tools\\adb.exe -s 13e2ac86 install \"C:\\Appium\\node_modules\\appium\\build\\settings_apk\\settings_apk-debug.apk\"\"\nadb: failed to install C:\\Appium\\node_modules\\appium\\build\\settings_apk\\settings_apk-debug.apk: Failure [INSTALL_FAILED_ALREADY_EXISTS: Attempt to re-install io.appium.settings without first uninstalling.]\r\n)",
+      "time" : {
+        "start" : 1587121588760,
+        "stop" : 1587121588760,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "b4c309e15caabb00",
+      "reportUrl" : "http://192.168.88.58:8080/job/Timing/30/allure/#testresult/b4c309e15caabb00",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587032312756,
+        "stop" : 1587032363228,
+        "duration" : 50472
+      }
+    }, {
       "uid" : "59d01966f1042e26",
       "reportUrl" : "http://192.168.88.58:8080/job/Timing/29/allure/#testresult/59d01966f1042e26",
       "status" : "passed",
@@ -1373,27 +1615,37 @@
         "stop" : 1587015801368,
         "duration" : 23365
       }
-    }, {
-      "uid" : "e5a4e05b49d3fef1",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/24/allure/#testresult/e5a4e05b49d3fef1",
-      "status" : "passed",
-      "time" : {
-        "start" : 1587012485812,
-        "stop" : 1587012509815,
-        "duration" : 24003
-      }
     } ]
   },
   "70208ecb89cae63421bdb3a7ce67b14a" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 6,
+      "broken" : 7,
       "skipped" : 0,
-      "passed" : 9,
+      "passed" : 10,
       "unknown" : 0,
-      "total" : 15
+      "total" : 17
     },
     "items" : [ {
+      "uid" : "43aaf006cd591c1e",
+      "reportUrl" : "http://192.168.88.58:8080/job/Timing/33/allure/#testresult/43aaf006cd591c1e",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.SessionNotCreatedException: Message: A new session could not be created. (Original error: Command failed: C:\\WINDOWS\\system32\\cmd.exe /s /c \"C:\\Android\\android-sdk\\platform-tools\\adb.exe -s 13e2ac86 install \"C:\\Appium\\node_modules\\appium\\build\\settings_apk\\settings_apk-debug.apk\"\"\nadb: failed to install C:\\Appium\\node_modules\\appium\\build\\settings_apk\\settings_apk-debug.apk: Failure [INSTALL_FAILED_ALREADY_EXISTS: Attempt to re-install io.appium.settings without first uninstalling.]\r\n)",
+      "time" : {
+        "start" : 1587121208584,
+        "stop" : 1587121208584,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "c001614bdd5f26c8",
+      "reportUrl" : "http://192.168.88.58:8080/job/Timing/30/allure/#testresult/c001614bdd5f26c8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587029908544,
+        "stop" : 1587029981396,
+        "duration" : 72852
+      }
+    }, {
       "uid" : "be0082cd49ff58cd",
       "reportUrl" : "http://192.168.88.58:8080/job/Timing/29/allure/#testresult/be0082cd49ff58cd",
       "status" : "passed",
@@ -1429,27 +1681,38 @@
         "stop" : 1587014077820,
         "duration" : 70795
       }
-    }, {
-      "uid" : "ca24bf17fee5f421",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/24/allure/#testresult/ca24bf17fee5f421",
-      "status" : "passed",
-      "time" : {
-        "start" : 1587010867758,
-        "stop" : 1587010936877,
-        "duration" : 69119
-      }
     } ]
   },
   "ddc8a69d7b6d1a86ac2f4b7eb632b29a" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 3,
       "skipped" : 0,
       "passed" : 11,
       "unknown" : 0,
-      "total" : 12
+      "total" : 14
     },
     "items" : [ {
+      "uid" : "d8e5da902067e758",
+      "reportUrl" : "http://192.168.88.58:8080/job/Timing/33/allure/#testresult/d8e5da902067e758",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.SessionNotCreatedException: Message: A new session could not be created. (Original error: Command failed: C:\\WINDOWS\\system32\\cmd.exe /s /c \"C:\\Android\\android-sdk\\platform-tools\\adb.exe -s 13e2ac86 install \"C:\\Appium\\node_modules\\appium\\build\\settings_apk\\settings_apk-debug.apk\"\"\nadb: failed to install C:\\Appium\\node_modules\\appium\\build\\settings_apk\\settings_apk-debug.apk: )",
+      "time" : {
+        "start" : 1587121302453,
+        "stop" : 1587121302453,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "7f89637e56a4cb5e",
+      "reportUrl" : "http://192.168.88.58:8080/job/Timing/30/allure/#testresult/7f89637e56a4cb5e",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1587030532239,
+        "stop" : 1587030603677,
+        "duration" : 71438
+      }
+    }, {
       "uid" : "6dc41c395d54d768",
       "reportUrl" : "http://192.168.88.58:8080/job/Timing/29/allure/#testresult/6dc41c395d54d768",
       "status" : "passed",
@@ -1485,27 +1748,37 @@
         "stop" : 1587014612693,
         "duration" : 50238
       }
-    }, {
-      "uid" : "8837bc9e3ad10cb",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/24/allure/#testresult/8837bc9e3ad10cb",
-      "status" : "passed",
-      "time" : {
-        "start" : 1587011308218,
-        "stop" : 1587011353254,
-        "duration" : 45036
-      }
     } ]
   },
   "2c4c0ff60efde21ca19a24ee615ea1aa" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 4,
+      "broken" : 5,
       "skipped" : 0,
-      "passed" : 11,
+      "passed" : 12,
       "unknown" : 0,
-      "total" : 15
+      "total" : 17
     },
     "items" : [ {
+      "uid" : "253ded59437db097",
+      "reportUrl" : "http://192.168.88.58:8080/job/Timing/33/allure/#testresult/253ded59437db097",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.SessionNotCreatedException: Message: A new session could not be created. (Original error: Command failed: C:\\WINDOWS\\system32\\cmd.exe /s /c \"C:\\Android\\android-sdk\\platform-tools\\adb.exe -s 13e2ac86 install \"C:\\Appium\\node_modules\\appium\\build\\settings_apk\\settings_apk-debug.apk\"\"\nadb: failed to install C:\\Appium\\node_modules\\appium\\build\\settings_apk\\settings_apk-debug.apk: Failure [INSTALL_FAILED_ALREADY_EXISTS: Attempt to re-install io.appium.settings without first uninstalling.]\r\n)",
+      "time" : {
+        "start" : 1587121231473,
+        "stop" : 1587121231473,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "c10b50c02b9680af",
+      "reportUrl" : "http://192.168.88.58:8080/job/Timing/30/allure/#testresult/c10b50c02b9680af",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587030003232,
+        "stop" : 1587030031658,
+        "duration" : 28426
+      }
+    }, {
       "uid" : "d953c22cfc30313e",
       "reportUrl" : "http://192.168.88.58:8080/job/Timing/29/allure/#testresult/d953c22cfc30313e",
       "status" : "passed",
@@ -1542,15 +1815,6 @@
         "stop" : 1587014130314,
         "duration" : 25119
       }
-    }, {
-      "uid" : "44f897a5c4d91cdc",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/24/allure/#testresult/44f897a5c4d91cdc",
-      "status" : "passed",
-      "time" : {
-        "start" : 1587010979605,
-        "stop" : 1587011007072,
-        "duration" : 27467
-      }
     } ]
   },
   "11cba298d4f8eeca5d8a897d73bf175c" : {
@@ -1558,11 +1822,29 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 12,
+      "passed" : 14,
       "unknown" : 0,
-      "total" : 12
+      "total" : 14
     },
     "items" : [ {
+      "uid" : "d2acaf496e6325d8",
+      "reportUrl" : "http://192.168.88.58:8080/job/Timing/33/allure/#testresult/d2acaf496e6325d8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587043796182,
+        "stop" : 1587043847217,
+        "duration" : 51035
+      }
+    }, {
+      "uid" : "34885c5cafdf857a",
+      "reportUrl" : "http://192.168.88.58:8080/job/Timing/30/allure/#testresult/34885c5cafdf857a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587030131337,
+        "stop" : 1587030182344,
+        "duration" : 51007
+      }
+    }, {
       "uid" : "3584779bf594a3a3",
       "reportUrl" : "http://192.168.88.58:8080/job/Timing/29/allure/#testresult/3584779bf594a3a3",
       "status" : "passed",
@@ -1598,27 +1880,68 @@
         "stop" : 1587014215524,
         "duration" : 21328
       }
+    } ]
+  },
+  "d1bfaa7063be04acaeff948fb53acd2c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "a9fd52ec7acc22c8",
+      "reportUrl" : "http://192.168.88.58:8080/job/Timing/33/allure/#testresult/a9fd52ec7acc22c8",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.SessionNotCreatedException: Message: A new session could not be created. (Original error: Command failed: C:\\WINDOWS\\system32\\cmd.exe /s /c \"C:\\Android\\android-sdk\\platform-tools\\adb.exe -s 13e2ac86 install \"C:\\Appium\\node_modules\\appium\\build\\settings_apk\\settings_apk-debug.apk\"\"\nadb: failed to install C:\\Appium\\node_modules\\appium\\build\\settings_apk\\settings_apk-debug.apk: Failure [INSTALL_FAILED_ALREADY_EXISTS: Attempt to re-install io.appium.settings without first uninstalling.]\r\n)",
+      "time" : {
+        "start" : 1587121601148,
+        "stop" : 1587121601148,
+        "duration" : 0
+      }
     }, {
-      "uid" : "e7daf4f2c53aa6a3",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/24/allure/#testresult/e7daf4f2c53aa6a3",
+      "uid" : "496ae7d32d63d7d3",
+      "reportUrl" : "http://192.168.88.58:8080/job/Timing/30/allure/#testresult/496ae7d32d63d7d3",
       "status" : "passed",
       "time" : {
-        "start" : 1586507302469,
-        "stop" : 1586507321189,
-        "duration" : 18720
+        "start" : 1587032366383,
+        "stop" : 1587032382563,
+        "duration" : 16180
       }
     } ]
   },
   "a826b9e38c87572a99bc04e486c29295" : {
     "statistic" : {
       "failed" : 5,
-      "broken" : 7,
+      "broken" : 9,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 12
+      "total" : 14
     },
     "items" : [ {
+      "uid" : "ae8d587df2d435d3",
+      "reportUrl" : "http://192.168.88.58:8080/job/Timing/33/allure/#testresult/ae8d587df2d435d3",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1587031947490,
+        "stop" : 1587032014308,
+        "duration" : 66818
+      }
+    }, {
+      "uid" : "caac893b95a2a98a",
+      "reportUrl" : "http://192.168.88.58:8080/job/Timing/30/allure/#testresult/caac893b95a2a98a",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1587031947490,
+        "stop" : 1587032014308,
+        "duration" : 66818
+      }
+    }, {
       "uid" : "f8b8b14fca5c05fe",
       "reportUrl" : "http://192.168.88.58:8080/job/Timing/29/allure/#testresult/f8b8b14fca5c05fe",
       "status" : "broken",
@@ -1658,28 +1981,37 @@
         "stop" : 1587015524947,
         "duration" : 83704
       }
-    }, {
-      "uid" : "8a4741a7631b64ab",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/24/allure/#testresult/8a4741a7631b64ab",
-      "status" : "broken",
-      "statusDetails" : "AttributeError: 'More' object has no attribute 'waitAndfind_moreBtn'",
-      "time" : {
-        "start" : 1587012155428,
-        "stop" : 1587012198535,
-        "duration" : 43107
-      }
     } ]
   },
   "886f72d5cbfe1f3813b2e8841e171b18" : {
     "statistic" : {
       "failed" : 3,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 0,
-      "passed" : 8,
+      "passed" : 9,
       "unknown" : 0,
-      "total" : 11
+      "total" : 13
     },
     "items" : [ {
+      "uid" : "2089a6829ca24ec5",
+      "reportUrl" : "http://192.168.88.58:8080/job/Timing/33/allure/#testresult/2089a6829ca24ec5",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.SessionNotCreatedException: Message: A new session could not be created. (Original error: Command failed: C:\\WINDOWS\\system32\\cmd.exe /s /c \"C:\\Android\\android-sdk\\platform-tools\\adb.exe -s 13e2ac86 install \"C:\\Appium\\node_modules\\appium\\build\\settings_apk\\settings_apk-debug.apk\"\"\nadb: failed to install C:\\Appium\\node_modules\\appium\\build\\settings_apk\\settings_apk-debug.apk: Failure [INSTALL_FAILED_ALREADY_EXISTS: Attempt to re-install io.appium.settings without first uninstalling.]\r\n)",
+      "time" : {
+        "start" : 1587121402598,
+        "stop" : 1587121402598,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "5c3c72767bbfb0f9",
+      "reportUrl" : "http://192.168.88.58:8080/job/Timing/30/allure/#testresult/5c3c72767bbfb0f9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587031183938,
+        "stop" : 1587031242587,
+        "duration" : 58649
+      }
+    }, {
       "uid" : "c8711d9cff5322ef",
       "reportUrl" : "http://192.168.88.58:8080/job/Timing/29/allure/#testresult/c8711d9cff5322ef",
       "status" : "passed",
@@ -1716,27 +2048,38 @@
         "stop" : 1587014897259,
         "duration" : 56290
       }
-    }, {
-      "uid" : "453c2d3ae02ce7ff",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/24/allure/#testresult/453c2d3ae02ce7ff",
-      "status" : "passed",
-      "time" : {
-        "start" : 1587011595911,
-        "stop" : 1587011640359,
-        "duration" : 44448
-      }
     } ]
   },
   "2729f689182c9e5a084bd2295ff5a8e4" : {
     "statistic" : {
       "failed" : 3,
-      "broken" : 0,
+      "broken" : 2,
       "skipped" : 0,
       "passed" : 8,
       "unknown" : 0,
-      "total" : 11
+      "total" : 13
     },
     "items" : [ {
+      "uid" : "a3a0c7a8743977c5",
+      "reportUrl" : "http://192.168.88.58:8080/job/Timing/33/allure/#testresult/a3a0c7a8743977c5",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.SessionNotCreatedException: Message: A new session could not be created. (Original error: Command failed: C:\\WINDOWS\\system32\\cmd.exe /s /c \"C:\\Android\\android-sdk\\platform-tools\\adb.exe -s 13e2ac86 install \"C:\\Appium\\node_modules\\appium\\build\\settings_apk\\settings_apk-debug.apk\"\"\nadb: failed to install C:\\Appium\\node_modules\\appium\\build\\settings_apk\\settings_apk-debug.apk: Failure [INSTALL_FAILED_ALREADY_EXISTS: Attempt to re-install io.appium.settings without first uninstalling.]\r\n)",
+      "time" : {
+        "start" : 1587121417209,
+        "stop" : 1587121417209,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "243f5b6e1d9a046e",
+      "reportUrl" : "http://192.168.88.58:8080/job/Timing/30/allure/#testresult/243f5b6e1d9a046e",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.",
+      "time" : {
+        "start" : 1587031245773,
+        "stop" : 1587031322536,
+        "duration" : 76763
+      }
+    }, {
       "uid" : "c03503f9f0c50d3e",
       "reportUrl" : "http://192.168.88.58:8080/job/Timing/29/allure/#testresult/c03503f9f0c50d3e",
       "status" : "passed",
@@ -1773,15 +2116,6 @@
         "stop" : 1587014939251,
         "duration" : 38088
       }
-    }, {
-      "uid" : "d6a0936fcd6fba20",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/24/allure/#testresult/d6a0936fcd6fba20",
-      "status" : "passed",
-      "time" : {
-        "start" : 1587011644000,
-        "stop" : 1587011680360,
-        "duration" : 36360
-      }
     } ]
   },
   "e70691900693a140bbea63753ff7632f" : {
@@ -1789,11 +2123,29 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 12,
+      "passed" : 14,
       "unknown" : 0,
-      "total" : 12
+      "total" : 14
     },
     "items" : [ {
+      "uid" : "4e5343f532674abe",
+      "reportUrl" : "http://192.168.88.58:8080/job/Timing/33/allure/#testresult/4e5343f532674abe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585822004736,
+        "stop" : 1585822064937,
+        "duration" : 60201
+      }
+    }, {
+      "uid" : "bcf470e5ad7e91a7",
+      "reportUrl" : "http://192.168.88.58:8080/job/Timing/30/allure/#testresult/bcf470e5ad7e91a7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585822004736,
+        "stop" : 1585822064937,
+        "duration" : 60201
+      }
+    }, {
       "uid" : "336cf8456b25d40f",
       "reportUrl" : "http://192.168.88.58:8080/job/Timing/29/allure/#testresult/336cf8456b25d40f",
       "status" : "passed",
@@ -1829,27 +2181,37 @@
         "stop" : 1585822064937,
         "duration" : 60201
       }
-    }, {
-      "uid" : "5635c8359139f7f7",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/24/allure/#testresult/5635c8359139f7f7",
-      "status" : "passed",
-      "time" : {
-        "start" : 1585822004736,
-        "stop" : 1585822064937,
-        "duration" : 60201
-      }
     } ]
   },
   "87a51570a60f2340ae75ec89dbbec23d" : {
     "statistic" : {
       "failed" : 5,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 0,
-      "passed" : 7,
+      "passed" : 8,
       "unknown" : 0,
-      "total" : 12
+      "total" : 14
     },
     "items" : [ {
+      "uid" : "c8e7e51a26f465cd",
+      "reportUrl" : "http://192.168.88.58:8080/job/Timing/33/allure/#testresult/c8e7e51a26f465cd",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.SessionNotCreatedException: Message: A new session could not be created. (Original error: Command failed: C:\\WINDOWS\\system32\\cmd.exe /s /c \"C:\\Android\\android-sdk\\platform-tools\\adb.exe -s 13e2ac86 install \"C:\\Appium\\node_modules\\appium\\build\\settings_apk\\settings_apk-debug.apk\"\"\nadb: failed to install C:\\Appium\\node_modules\\appium\\build\\settings_apk\\settings_apk-debug.apk: Failure [INSTALL_FAILED_ALREADY_EXISTS: Attempt to re-install io.appium.settings without first uninstalling.]\r\n)",
+      "time" : {
+        "start" : 1587121313347,
+        "stop" : 1587121313347,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "f5b9418843255787",
+      "reportUrl" : "http://192.168.88.58:8080/job/Timing/30/allure/#testresult/f5b9418843255787",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587030606917,
+        "stop" : 1587030617289,
+        "duration" : 10372
+      }
+    }, {
       "uid" : "f8eaaed02cdc6fe2",
       "reportUrl" : "http://192.168.88.58:8080/job/Timing/29/allure/#testresult/f8eaaed02cdc6fe2",
       "status" : "passed",
@@ -1885,15 +2247,6 @@
         "stop" : 1587014630256,
         "duration" : 13243
       }
-    }, {
-      "uid" : "7a47a9ff6fc0c2a9",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/24/allure/#testresult/7a47a9ff6fc0c2a9",
-      "status" : "passed",
-      "time" : {
-        "start" : 1587011356984,
-        "stop" : 1587011373137,
-        "duration" : 16153
-      }
     } ]
   },
   "790727842bfa5ad8cb622c1098d694cf" : {
@@ -1901,11 +2254,29 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 15,
+      "passed" : 17,
       "unknown" : 0,
-      "total" : 15
+      "total" : 17
     },
     "items" : [ {
+      "uid" : "c630d6a7862cb01e",
+      "reportUrl" : "http://192.168.88.58:8080/job/Timing/33/allure/#testresult/c630d6a7862cb01e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585821921015,
+        "stop" : 1585822000625,
+        "duration" : 79610
+      }
+    }, {
+      "uid" : "60aa878934bf7938",
+      "reportUrl" : "http://192.168.88.58:8080/job/Timing/30/allure/#testresult/60aa878934bf7938",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585821921015,
+        "stop" : 1585822000625,
+        "duration" : 79610
+      }
+    }, {
       "uid" : "4ccc24815c6643cf",
       "reportUrl" : "http://192.168.88.58:8080/job/Timing/29/allure/#testresult/4ccc24815c6643cf",
       "status" : "passed",
@@ -1941,27 +2312,38 @@
         "stop" : 1585822000625,
         "duration" : 79610
       }
-    }, {
-      "uid" : "9bd0a092af93de70",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/24/allure/#testresult/9bd0a092af93de70",
-      "status" : "passed",
-      "time" : {
-        "start" : 1585821921015,
-        "stop" : 1585822000625,
-        "duration" : 79610
-      }
     } ]
   },
   "1e8bc1892d8780b08f963d533673da8b" : {
     "statistic" : {
       "failed" : 5,
-      "broken" : 0,
+      "broken" : 2,
       "skipped" : 0,
       "passed" : 6,
       "unknown" : 0,
-      "total" : 11
+      "total" : 13
     },
     "items" : [ {
+      "uid" : "f626014738e3cdb4",
+      "reportUrl" : "http://192.168.88.58:8080/job/Timing/33/allure/#testresult/f626014738e3cdb4",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.SessionNotCreatedException: Message: A new session could not be created. (Original error: Command failed: C:\\WINDOWS\\system32\\cmd.exe /s /c \"C:\\Android\\android-sdk\\platform-tools\\adb.exe -s 13e2ac86 install \"C:\\Appium\\node_modules\\appium\\build\\settings_apk\\settings_apk-debug.apk\"\"\nadb: failed to install C:\\Appium\\node_modules\\appium\\build\\settings_apk\\settings_apk-debug.apk: Failure [INSTALL_FAILED_ALREADY_EXISTS: Attempt to re-install io.appium.settings without first uninstalling.]\r\n)",
+      "time" : {
+        "start" : 1587121489606,
+        "stop" : 1587121489606,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "6704d15e3f9a3dd6",
+      "reportUrl" : "http://192.168.88.58:8080/job/Timing/30/allure/#testresult/6704d15e3f9a3dd6",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1587031602384,
+        "stop" : 1587031670122,
+        "duration" : 67738
+      }
+    }, {
       "uid" : "40bc88acac08077b",
       "reportUrl" : "http://192.168.88.58:8080/job/Timing/29/allure/#testresult/40bc88acac08077b",
       "status" : "passed",
@@ -1997,27 +2379,37 @@
         "stop" : 1587015251113,
         "duration" : 29322
       }
-    }, {
-      "uid" : "2babdf5e244d07b2",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/24/allure/#testresult/2babdf5e244d07b2",
-      "status" : "passed",
-      "time" : {
-        "start" : 1587011908345,
-        "stop" : 1587011938967,
-        "duration" : 30622
-      }
     } ]
   },
   "7756e9d1712a198e75d266281d84377e" : {
     "statistic" : {
       "failed" : 5,
-      "broken" : 1,
+      "broken" : 2,
       "skipped" : 0,
-      "passed" : 6,
+      "passed" : 7,
       "unknown" : 0,
-      "total" : 12
+      "total" : 14
     },
     "items" : [ {
+      "uid" : "3f441d0b485a381d",
+      "reportUrl" : "http://192.168.88.58:8080/job/Timing/33/allure/#testresult/3f441d0b485a381d",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.SessionNotCreatedException: Message: A new session could not be created. (Original error: Command failed: C:\\WINDOWS\\system32\\cmd.exe /s /c \"C:\\Android\\android-sdk\\platform-tools\\adb.exe -s 13e2ac86 install \"C:\\Appium\\node_modules\\appium\\build\\settings_apk\\settings_apk-debug.apk\"\"\nadb: failed to install C:\\Appium\\node_modules\\appium\\build\\settings_apk\\settings_apk-debug.apk: Failure [INSTALL_FAILED_ALREADY_EXISTS: Attempt to re-install io.appium.settings without first uninstalling.]\r\n)",
+      "time" : {
+        "start" : 1587121328388,
+        "stop" : 1587121328388,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "442616e108fe967b",
+      "reportUrl" : "http://192.168.88.58:8080/job/Timing/30/allure/#testresult/442616e108fe967b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587030620920,
+        "stop" : 1587030650566,
+        "duration" : 29646
+      }
+    }, {
       "uid" : "194896f97536ca7e",
       "reportUrl" : "http://192.168.88.58:8080/job/Timing/29/allure/#testresult/194896f97536ca7e",
       "status" : "passed",
@@ -2053,27 +2445,37 @@
         "stop" : 1587014647658,
         "duration" : 13463
       }
-    }, {
-      "uid" : "7eeac2914f460eb3",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/24/allure/#testresult/7eeac2914f460eb3",
-      "status" : "passed",
-      "time" : {
-        "start" : 1587011377305,
-        "stop" : 1587011391357,
-        "duration" : 14052
-      }
     } ]
   },
   "51867c13abb9a21a0481d8e2b12818f2" : {
     "statistic" : {
       "failed" : 5,
-      "broken" : 1,
+      "broken" : 2,
       "skipped" : 0,
-      "passed" : 6,
+      "passed" : 7,
       "unknown" : 0,
-      "total" : 12
+      "total" : 14
     },
     "items" : [ {
+      "uid" : "d6bb1963cbd1a659",
+      "reportUrl" : "http://192.168.88.58:8080/job/Timing/33/allure/#testresult/d6bb1963cbd1a659",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.SessionNotCreatedException: Message: A new session could not be created. (Original error: Command failed: C:\\WINDOWS\\system32\\cmd.exe /s /c \"C:\\Android\\android-sdk\\platform-tools\\adb.exe -s 13e2ac86 install \"C:\\Appium\\node_modules\\appium\\build\\settings_apk\\settings_apk-debug.apk\"\"\nadb: failed to install C:\\Appium\\node_modules\\appium\\build\\settings_apk\\settings_apk-debug.apk: Failure [INSTALL_FAILED_ALREADY_EXISTS: Attempt to re-install io.appium.settings without first uninstalling.]\r\n)",
+      "time" : {
+        "start" : 1587121561960,
+        "stop" : 1587121561960,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "29a529b95e271f6",
+      "reportUrl" : "http://192.168.88.58:8080/job/Timing/30/allure/#testresult/29a529b95e271f6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587032062646,
+        "stop" : 1587032215950,
+        "duration" : 153304
+      }
+    }, {
       "uid" : "61bcc6effd99bb30",
       "reportUrl" : "http://192.168.88.58:8080/job/Timing/29/allure/#testresult/61bcc6effd99bb30",
       "status" : "passed",
@@ -2109,27 +2511,37 @@
         "stop" : 1587015725666,
         "duration" : 164172
       }
-    }, {
-      "uid" : "fe61e766500200b1",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/24/allure/#testresult/fe61e766500200b1",
-      "status" : "passed",
-      "time" : {
-        "start" : 1587012236603,
-        "stop" : 1587012398208,
-        "duration" : 161605
-      }
     } ]
   },
   "2393a1199737e7f6568d8b37e9f87f79" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 0,
-      "passed" : 12,
+      "passed" : 13,
       "unknown" : 0,
-      "total" : 12
+      "total" : 14
     },
     "items" : [ {
+      "uid" : "476b2441e537b9b2",
+      "reportUrl" : "http://192.168.88.58:8080/job/Timing/33/allure/#testresult/476b2441e537b9b2",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.SessionNotCreatedException: Message: A new session could not be created. (Original error: Command failed: C:\\WINDOWS\\system32\\cmd.exe /s /c \"C:\\Android\\android-sdk\\platform-tools\\adb.exe -s 13e2ac86 install \"C:\\Appium\\node_modules\\appium\\build\\settings_apk\\settings_apk-debug.apk\"\"\nadb: failed to install C:\\Appium\\node_modules\\appium\\build\\settings_apk\\settings_apk-debug.apk: Failure [INSTALL_FAILED_ALREADY_EXISTS: Attempt to re-install io.appium.settings without first uninstalling.]\r\n)",
+      "time" : {
+        "start" : 1587121446072,
+        "stop" : 1587121446072,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "91f75c107f272592",
+      "reportUrl" : "http://192.168.88.58:8080/job/Timing/30/allure/#testresult/91f75c107f272592",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587031379062,
+        "stop" : 1587031452181,
+        "duration" : 73119
+      }
+    }, {
       "uid" : "76a09be4a7223d58",
       "reportUrl" : "http://192.168.88.58:8080/job/Timing/29/allure/#testresult/76a09be4a7223d58",
       "status" : "passed",
@@ -2165,27 +2577,37 @@
         "stop" : 1587015052953,
         "duration" : 57737
       }
-    }, {
-      "uid" : "a4f4deb63921370a",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/24/allure/#testresult/a4f4deb63921370a",
-      "status" : "passed",
-      "time" : {
-        "start" : 1587011732871,
-        "stop" : 1587011801334,
-        "duration" : 68463
-      }
     } ]
   },
   "12ed4c1cbb70d9a4ea5ed917fc3fc9d3" : {
     "statistic" : {
       "failed" : 1,
-      "broken" : 1,
+      "broken" : 2,
       "skipped" : 0,
-      "passed" : 9,
+      "passed" : 10,
       "unknown" : 0,
-      "total" : 11
+      "total" : 13
     },
     "items" : [ {
+      "uid" : "3e4f390ef0dceedd",
+      "reportUrl" : "http://192.168.88.58:8080/job/Timing/33/allure/#testresult/3e4f390ef0dceedd",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.SessionNotCreatedException: Message: A new session could not be created. (Original error: Command failed: C:\\WINDOWS\\system32\\cmd.exe /s /c \"C:\\Android\\android-sdk\\platform-tools\\adb.exe -s 13e2ac86 install \"C:\\Appium\\node_modules\\appium\\build\\settings_apk\\settings_apk-debug.apk\"\"\nadb: failed to install C:\\Appium\\node_modules\\appium\\build\\settings_apk\\settings_apk-debug.apk: Failure [INSTALL_FAILED_ALREADY_EXISTS: Attempt to re-install io.appium.settings without first uninstalling.]\r\n)",
+      "time" : {
+        "start" : 1587121460547,
+        "stop" : 1587121460547,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "5947d64042e7dcd6",
+      "reportUrl" : "http://192.168.88.58:8080/job/Timing/30/allure/#testresult/5947d64042e7dcd6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587031455353,
+        "stop" : 1587031563365,
+        "duration" : 108012
+      }
+    }, {
       "uid" : "c00acb60220ed1ac",
       "reportUrl" : "http://192.168.88.58:8080/job/Timing/29/allure/#testresult/c00acb60220ed1ac",
       "status" : "passed",
@@ -2221,28 +2643,37 @@
         "stop" : 1587015147397,
         "duration" : 90320
       }
-    }, {
-      "uid" : "4426376703c97f7b",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/24/allure/#testresult/4426376703c97f7b",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: assert True == False\n  -True\n  +False",
-      "time" : {
-        "start" : 1587011805115,
-        "stop" : 1587011846078,
-        "duration" : 40963
-      }
     } ]
   },
   "91b29d7c0decadea0b7cf26e9aa7713c" : {
     "statistic" : {
       "failed" : 3,
-      "broken" : 1,
+      "broken" : 2,
       "skipped" : 0,
-      "passed" : 8,
+      "passed" : 9,
       "unknown" : 0,
-      "total" : 12
+      "total" : 14
     },
     "items" : [ {
+      "uid" : "f75634fa9db11352",
+      "reportUrl" : "http://192.168.88.58:8080/job/Timing/33/allure/#testresult/f75634fa9db11352",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.SessionNotCreatedException: Message: A new session could not be created. (Original error: Command failed: C:\\WINDOWS\\system32\\cmd.exe /s /c \"C:\\Android\\android-sdk\\platform-tools\\adb.exe -s 13e2ac86 install \"C:\\Appium\\node_modules\\appium\\build\\settings_apk\\settings_apk-debug.apk\"\"\nadb: failed to install C:\\Appium\\node_modules\\appium\\build\\settings_apk\\settings_apk-debug.apk: Failure [INSTALL_FAILED_ALREADY_EXISTS: Attempt to re-install io.appium.settings without first uninstalling.]\r\n)",
+      "time" : {
+        "start" : 1587121358176,
+        "stop" : 1587121358176,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "b1e55325cdc03178",
+      "reportUrl" : "http://192.168.88.58:8080/job/Timing/30/allure/#testresult/b1e55325cdc03178",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587030914313,
+        "stop" : 1587031001307,
+        "duration" : 86994
+      }
+    }, {
       "uid" : "3d5687b467abf1c0",
       "reportUrl" : "http://192.168.88.58:8080/job/Timing/29/allure/#testresult/3d5687b467abf1c0",
       "status" : "passed",
@@ -2279,15 +2710,6 @@
         "stop" : 1587014749360,
         "duration" : 46576
       }
-    }, {
-      "uid" : "d221203667882f78",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/24/allure/#testresult/d221203667882f78",
-      "status" : "passed",
-      "time" : {
-        "start" : 1587011469913,
-        "stop" : 1587011508243,
-        "duration" : 38330
-      }
     } ]
   },
   "f25d9a9de031be2948de1a795bd5a9c1" : {
@@ -2295,11 +2717,29 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 17,
+      "passed" : 19,
       "unknown" : 0,
-      "total" : 17
+      "total" : 19
     },
     "items" : [ {
+      "uid" : "5de4af9c2dea888d",
+      "reportUrl" : "http://192.168.88.58:8080/job/Timing/33/allure/#testresult/5de4af9c2dea888d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1579351297096,
+        "stop" : 1579351309470,
+        "duration" : 12374
+      }
+    }, {
+      "uid" : "ba82edd860ccf2d",
+      "reportUrl" : "http://192.168.88.58:8080/job/Timing/30/allure/#testresult/ba82edd860ccf2d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1579351297096,
+        "stop" : 1579351309470,
+        "duration" : 12374
+      }
+    }, {
       "uid" : "8c0f6f45a2fc25d7",
       "reportUrl" : "http://192.168.88.58:8080/job/Timing/29/allure/#testresult/8c0f6f45a2fc25d7",
       "status" : "passed",
@@ -2335,15 +2775,6 @@
         "stop" : 1579351309470,
         "duration" : 12374
       }
-    }, {
-      "uid" : "797d914927972d82",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/24/allure/#testresult/797d914927972d82",
-      "status" : "passed",
-      "time" : {
-        "start" : 1579351297096,
-        "stop" : 1579351309470,
-        "duration" : 12374
-      }
     } ]
   },
   "b6efa7ac576641c11a33999a3e14f857" : {
@@ -2351,11 +2782,29 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 12,
+      "passed" : 14,
       "unknown" : 0,
-      "total" : 12
+      "total" : 14
     },
     "items" : [ {
+      "uid" : "4eda39817091f561",
+      "reportUrl" : "http://192.168.88.58:8080/job/Timing/33/allure/#testresult/4eda39817091f561",
+      "status" : "passed",
+      "time" : {
+        "start" : 1586159253607,
+        "stop" : 1586159471147,
+        "duration" : 217540
+      }
+    }, {
+      "uid" : "71da6562219de7fc",
+      "reportUrl" : "http://192.168.88.58:8080/job/Timing/30/allure/#testresult/71da6562219de7fc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1586159253607,
+        "stop" : 1586159471147,
+        "duration" : 217540
+      }
+    }, {
       "uid" : "b3edadb24d290a34",
       "reportUrl" : "http://192.168.88.58:8080/job/Timing/29/allure/#testresult/b3edadb24d290a34",
       "status" : "passed",
@@ -2391,27 +2840,37 @@
         "stop" : 1586159471147,
         "duration" : 217540
       }
-    }, {
-      "uid" : "791c97f3bf4873c6",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/24/allure/#testresult/791c97f3bf4873c6",
-      "status" : "passed",
-      "time" : {
-        "start" : 1586159253607,
-        "stop" : 1586159471147,
-        "duration" : 217540
-      }
     } ]
   },
   "215a606a6bd5c4b1fff76af9c931bf8f" : {
     "statistic" : {
       "failed" : 5,
-      "broken" : 1,
+      "broken" : 2,
       "skipped" : 0,
-      "passed" : 6,
+      "passed" : 7,
       "unknown" : 0,
-      "total" : 12
+      "total" : 14
     },
     "items" : [ {
+      "uid" : "b7752e507c00f343",
+      "reportUrl" : "http://192.168.88.58:8080/job/Timing/33/allure/#testresult/b7752e507c00f343",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.SessionNotCreatedException: Message: A new session could not be created. (Original error: Command failed: C:\\WINDOWS\\system32\\cmd.exe /s /c \"C:\\Android\\android-sdk\\platform-tools\\adb.exe -s 13e2ac86 install \"C:\\Appium\\node_modules\\appium\\build\\settings_apk\\settings_apk-debug.apk\"\"\nadb: failed to install C:\\Appium\\node_modules\\appium\\build\\settings_apk\\settings_apk-debug.apk: Failure [INSTALL_FAILED_ALREADY_EXISTS: Attempt to re-install io.appium.settings without first uninstalling.]\r\n)",
+      "time" : {
+        "start" : 1587121547691,
+        "stop" : 1587121547691,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "cd3d5cbcfeff26ab",
+      "reportUrl" : "http://192.168.88.58:8080/job/Timing/30/allure/#testresult/cd3d5cbcfeff26ab",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587032017731,
+        "stop" : 1587032058557,
+        "duration" : 40826
+      }
+    }, {
       "uid" : "865821133cb13505",
       "reportUrl" : "http://192.168.88.58:8080/job/Timing/29/allure/#testresult/865821133cb13505",
       "status" : "passed",
@@ -2447,27 +2906,37 @@
         "stop" : 1587015557601,
         "duration" : 28769
       }
-    }, {
-      "uid" : "11545b62db55b6d0",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/24/allure/#testresult/11545b62db55b6d0",
-      "status" : "passed",
-      "time" : {
-        "start" : 1587012202385,
-        "stop" : 1587012232882,
-        "duration" : 30497
-      }
     } ]
   },
   "ac02c59db07adf28737882e4452f7ca5" : {
     "statistic" : {
       "failed" : 1,
-      "broken" : 2,
+      "broken" : 3,
       "skipped" : 0,
-      "passed" : 12,
+      "passed" : 13,
       "unknown" : 0,
-      "total" : 15
+      "total" : 17
     },
     "items" : [ {
+      "uid" : "e55f365f99acc545",
+      "reportUrl" : "http://192.168.88.58:8080/job/Timing/33/allure/#testresult/e55f365f99acc545",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.SessionNotCreatedException: Message: A new session could not be created. (Original error: Command failed: C:\\WINDOWS\\system32\\cmd.exe /s /c \"C:\\Android\\android-sdk\\platform-tools\\adb.exe -s 13e2ac86 install \"C:\\Appium\\node_modules\\appium\\build\\settings_apk\\settings_apk-debug.apk\"\"\nadb: failed to install C:\\Appium\\node_modules\\appium\\build\\settings_apk\\settings_apk-debug.apk: Failure [INSTALL_FAILED_ALREADY_EXISTS: Attempt to re-install io.appium.settings without first uninstalling.]\r\n)",
+      "time" : {
+        "start" : 1587121243960,
+        "stop" : 1587121243960,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "2f5740576c55b0f9",
+      "reportUrl" : "http://192.168.88.58:8080/job/Timing/30/allure/#testresult/2f5740576c55b0f9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587030034896,
+        "stop" : 1587030050852,
+        "duration" : 15956
+      }
+    }, {
       "uid" : "fe8ba757bcccc383",
       "reportUrl" : "http://192.168.88.58:8080/job/Timing/29/allure/#testresult/fe8ba757bcccc383",
       "status" : "passed",
@@ -2503,27 +2972,37 @@
         "stop" : 1587014155912,
         "duration" : 21752
       }
-    }, {
-      "uid" : "8826fc5ef717477c",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/24/allure/#testresult/8826fc5ef717477c",
-      "status" : "passed",
-      "time" : {
-        "start" : 1587011010943,
-        "stop" : 1587011033362,
-        "duration" : 22419
-      }
     } ]
   },
   "1b87e8c88857faa9906247842b226063" : {
     "statistic" : {
       "failed" : 6,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 0,
-      "passed" : 6,
+      "passed" : 7,
       "unknown" : 0,
-      "total" : 12
+      "total" : 14
     },
     "items" : [ {
+      "uid" : "7f067f3ab43174ff",
+      "reportUrl" : "http://192.168.88.58:8080/job/Timing/33/allure/#testresult/7f067f3ab43174ff",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.SessionNotCreatedException: Message: A new session could not be created. (Original error: Command failed: C:\\WINDOWS\\system32\\cmd.exe /s /c \"C:\\Android\\android-sdk\\platform-tools\\adb.exe -s 13e2ac86 install \"C:\\Appium\\node_modules\\appium\\build\\settings_apk\\settings_apk-debug.apk\"\"\nadb: failed to install C:\\Appium\\node_modules\\appium\\build\\settings_apk\\settings_apk-debug.apk: Failure [INSTALL_FAILED_ALREADY_EXISTS: Attempt to re-install io.appium.settings without first uninstalling.]\r\n)",
+      "time" : {
+        "start" : 1587121475045,
+        "stop" : 1587121475045,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "81fde22877123e89",
+      "reportUrl" : "http://192.168.88.58:8080/job/Timing/30/allure/#testresult/81fde22877123e89",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587031566740,
+        "stop" : 1587031599343,
+        "duration" : 32603
+      }
+    }, {
       "uid" : "928a9d8ecf6f5b84",
       "reportUrl" : "http://192.168.88.58:8080/job/Timing/29/allure/#testresult/928a9d8ecf6f5b84",
       "status" : "passed",
@@ -2559,15 +3038,6 @@
         "stop" : 1587015217878,
         "duration" : 66620
       }
-    }, {
-      "uid" : "6ac70f94e0aea957",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/24/allure/#testresult/6ac70f94e0aea957",
-      "status" : "passed",
-      "time" : {
-        "start" : 1587011849956,
-        "stop" : 1587011904693,
-        "duration" : 54737
-      }
     } ]
   },
   "be2785a25dc03342211e022ff6b2134b" : {
@@ -2575,11 +3045,29 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 15,
+      "passed" : 17,
       "unknown" : 0,
-      "total" : 15
+      "total" : 17
     },
     "items" : [ {
+      "uid" : "1adf073cee9debc8",
+      "reportUrl" : "http://192.168.88.58:8080/job/Timing/33/allure/#testresult/1adf073cee9debc8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585723453805,
+        "stop" : 1585723474796,
+        "duration" : 20991
+      }
+    }, {
+      "uid" : "ebc15576beda6889",
+      "reportUrl" : "http://192.168.88.58:8080/job/Timing/30/allure/#testresult/ebc15576beda6889",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585723453805,
+        "stop" : 1585723474796,
+        "duration" : 20991
+      }
+    }, {
       "uid" : "c9250e41d5e152c0",
       "reportUrl" : "http://192.168.88.58:8080/job/Timing/29/allure/#testresult/c9250e41d5e152c0",
       "status" : "passed",
@@ -2615,15 +3103,6 @@
         "stop" : 1585723474796,
         "duration" : 20991
       }
-    }, {
-      "uid" : "28cd14d81b7aca97",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/24/allure/#testresult/28cd14d81b7aca97",
-      "status" : "passed",
-      "time" : {
-        "start" : 1585723453805,
-        "stop" : 1585723474796,
-        "duration" : 20991
-      }
     } ]
   },
   "79d9f6c394c01992a8d32996f8363844" : {
@@ -2631,11 +3110,29 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 12,
+      "passed" : 14,
       "unknown" : 0,
-      "total" : 12
+      "total" : 14
     },
     "items" : [ {
+      "uid" : "5a23855642ea54bb",
+      "reportUrl" : "http://192.168.88.58:8080/job/Timing/33/allure/#testresult/5a23855642ea54bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1586158702419,
+        "stop" : 1586158775520,
+        "duration" : 73101
+      }
+    }, {
+      "uid" : "e7c607d2348c16e5",
+      "reportUrl" : "http://192.168.88.58:8080/job/Timing/30/allure/#testresult/e7c607d2348c16e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1586158702419,
+        "stop" : 1586158775520,
+        "duration" : 73101
+      }
+    }, {
       "uid" : "649f815fc1f5c6b",
       "reportUrl" : "http://192.168.88.58:8080/job/Timing/29/allure/#testresult/649f815fc1f5c6b",
       "status" : "passed",
@@ -2671,15 +3168,6 @@
         "stop" : 1586158775520,
         "duration" : 73101
       }
-    }, {
-      "uid" : "e08bb019da0b885e",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/24/allure/#testresult/e08bb019da0b885e",
-      "status" : "passed",
-      "time" : {
-        "start" : 1586158702419,
-        "stop" : 1586158775520,
-        "duration" : 73101
-      }
     } ]
   },
   "9083d42b8698837b487d9edccb601c98" : {
@@ -2687,11 +3175,29 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 15,
+      "passed" : 17,
       "unknown" : 0,
-      "total" : 15
+      "total" : 17
     },
     "items" : [ {
+      "uid" : "ca6a847c4a6b863",
+      "reportUrl" : "http://192.168.88.58:8080/job/Timing/33/allure/#testresult/ca6a847c4a6b863",
+      "status" : "passed",
+      "time" : {
+        "start" : 1579351352287,
+        "stop" : 1579351414583,
+        "duration" : 62296
+      }
+    }, {
+      "uid" : "29bd31afb2260483",
+      "reportUrl" : "http://192.168.88.58:8080/job/Timing/30/allure/#testresult/29bd31afb2260483",
+      "status" : "passed",
+      "time" : {
+        "start" : 1579351352287,
+        "stop" : 1579351414583,
+        "duration" : 62296
+      }
+    }, {
       "uid" : "665f37dbd83f987e",
       "reportUrl" : "http://192.168.88.58:8080/job/Timing/29/allure/#testresult/665f37dbd83f987e",
       "status" : "passed",
@@ -2721,15 +3227,6 @@
     }, {
       "uid" : "94fd452554ce3b3f",
       "reportUrl" : "http://192.168.88.58:8080/job/Timing/26/allure/#testresult/94fd452554ce3b3f",
-      "status" : "passed",
-      "time" : {
-        "start" : 1579351352287,
-        "stop" : 1579351414583,
-        "duration" : 62296
-      }
-    }, {
-      "uid" : "bbfbd0a9139dba7d",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/24/allure/#testresult/bbfbd0a9139dba7d",
       "status" : "passed",
       "time" : {
         "start" : 1579351352287,

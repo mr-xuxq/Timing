@@ -35,4 +35,4 @@ class Edit_personal_info(BaseAction):
     def click_infoSubmit(self):
         self.click(self.infoSubmit)
     def swipeByGender(self):
-        self.swipeOperat(0.6, 0.8, 0.6, 0.75, 150)
+        self.swipeOperat(0.5, 0.93, 0.5, 0.79, 150)

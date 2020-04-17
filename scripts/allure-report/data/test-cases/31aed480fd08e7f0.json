@@ -1,0 +1,106 @@
+{
+  "uid" : "31aed480fd08e7f0",
+  "name" : "test_treeHole",
+  "fullName" : "test_015_browseTreeHole.Test_treeHole#test_treeHole",
+  "historyId" : "ddc8a69d7b6d1a86ac2f4b7eb632b29a",
+  "time" : {
+    "start" : 1587022688273,
+    "stop" : 1587022736988,
+    "duration" : 48715
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "点击树洞对讲机按钮",
+      "time" : {
+        "start" : 1587022693274,
+        "stop" : 1587022712960,
+        "duration" : 19686
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "点击树洞对讲机按钮",
+      "time" : {
+        "start" : 1587022712960,
+        "stop" : 1587022736004,
+        "duration" : 23044
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "断言:树洞频道切换正常",
+      "time" : {
+        "start" : 1587022736004,
+        "stop" : 1587022736988,
+        "duration" : 984
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_015_browseTreeHole"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_treeHole"
+  }, {
+    "name" : "host",
+    "value" : "PV-X00232293"
+  }, {
+    "name" : "thread",
+    "value" : "10660-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_015_browseTreeHole"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "31aed480fd08e7f0.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,133 @@
+{
+  "uid" : "a89df58774ad2c12",
+  "name" : "test_normalTiming",
+  "fullName" : "test_051_normalTiming.Test_normalTiming#test_normalTiming",
+  "historyId" : "880dbb5f4e08575189de020208490bd1",
+  "time" : {
+    "start" : 1587031803586,
+    "stop" : 1587031944398,
+    "duration" : 140812
+  },
+  "status" : "broken",
+  "statusMessage" : "selenium.common.exceptions.TimeoutException: Message:",
+  "statusTrace" : "self = <scripts.test_051_normalTiming.Test_normalTiming object at 0x00000258A1F372E8>\n\n    @allure.story('学习计时达1min操作')\n    def test_normalTiming(self):\n        with allure.step('进入更多页面'):\n            self.page.more().click_more()\n            time.sleep(2)\n        with allure.step('滑动更多页面至底部'):\n            self.page.more().swipeByMore()\n            time.sleep(3)\n        with allure.step('点击学习计时按钮，设定内容后开始'):\n            self.page.more().click_normalTiming()\n            self.page.timing().input_studyContentBox('This is Timing')\n            self.page.timing().click_studySettingBtn()\n            e1 = self.driver.find_element_by_xpath(\"//*[@text='01']\")\n            self.action.long_press(e1, None, None, 800).perform()\n            self.page.timing().click_studySettingsuccessBtn()\n            self.page.timing().click_startTimingBtn()\n            time.sleep(62)\n        with allure.step('校验结果：计时1min后关闭计时的后续操作执行后判断计时是否正常结束'):\n>           if self.page.timing().check_timingDialog() == True:\n\ntest_051_normalTiming.py:38: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n..\\Pages\\timed_learning\\timing_page.py:112: in check_timingDialog\n    if self.find_element(self.timingDialog,timeout=2, poll=1) == \"\":\n..\\base\\base_action.py:22: in find_element\n    element = WebDriverWait(self.driver, timeout, poll).until(lambda x: x.find_element(feature_by, feature_value))\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <selenium.webdriver.support.wait.WebDriverWait (session=\"fa498959-3248-44b1-8d71-9e22e694dd6c\")>\nmethod = <function BaseAction.find_element.<locals>.<lambda> at 0x00000258A20E0A60>\nmessage = ''\n\n    def until(self, method, message=''):\n        \"\"\"Calls the method provided with the driver as an argument until the \\\n        return value is not False.\"\"\"\n        screen = None\n        stacktrace = None\n    \n        end_time = time.time() + self._timeout\n        while True:\n            try:\n                value = method(self._driver)\n                if value:\n                    return value\n            except self._ignored_exceptions as exc:\n                screen = getattr(exc, 'screen', None)\n                stacktrace = getattr(exc, 'stacktrace', None)\n            time.sleep(self._poll)\n            if time.time() > end_time:\n                break\n>       raise TimeoutException(message, screen, stacktrace)\nE       selenium.common.exceptions.TimeoutException: Message:\n\nd:\\python\\lib\\site-packages\\selenium\\webdriver\\support\\wait.py:80: TimeoutException",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "selenium.common.exceptions.TimeoutException: Message:",
+    "statusTrace" : "self = <scripts.test_051_normalTiming.Test_normalTiming object at 0x00000258A1F372E8>\n\n    @allure.story('学习计时达1min操作')\n    def test_normalTiming(self):\n        with allure.step('进入更多页面'):\n            self.page.more().click_more()\n            time.sleep(2)\n        with allure.step('滑动更多页面至底部'):\n            self.page.more().swipeByMore()\n            time.sleep(3)\n        with allure.step('点击学习计时按钮，设定内容后开始'):\n            self.page.more().click_normalTiming()\n            self.page.timing().input_studyContentBox('This is Timing')\n            self.page.timing().click_studySettingBtn()\n            e1 = self.driver.find_element_by_xpath(\"//*[@text='01']\")\n            self.action.long_press(e1, None, None, 800).perform()\n            self.page.timing().click_studySettingsuccessBtn()\n            self.page.timing().click_startTimingBtn()\n            time.sleep(62)\n        with allure.step('校验结果：计时1min后关闭计时的后续操作执行后判断计时是否正常结束'):\n>           if self.page.timing().check_timingDialog() == True:\n\ntest_051_normalTiming.py:38: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n..\\Pages\\timed_learning\\timing_page.py:112: in check_timingDialog\n    if self.find_element(self.timingDialog,timeout=2, poll=1) == \"\":\n..\\base\\base_action.py:22: in find_element\n    element = WebDriverWait(self.driver, timeout, poll).until(lambda x: x.find_element(feature_by, feature_value))\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <selenium.webdriver.support.wait.WebDriverWait (session=\"fa498959-3248-44b1-8d71-9e22e694dd6c\")>\nmethod = <function BaseAction.find_element.<locals>.<lambda> at 0x00000258A20E0A60>\nmessage = ''\n\n    def until(self, method, message=''):\n        \"\"\"Calls the method provided with the driver as an argument until the \\\n        return value is not False.\"\"\"\n        screen = None\n        stacktrace = None\n    \n        end_time = time.time() + self._timeout\n        while True:\n            try:\n                value = method(self._driver)\n                if value:\n                    return value\n            except self._ignored_exceptions as exc:\n                screen = getattr(exc, 'screen', None)\n                stacktrace = getattr(exc, 'stacktrace', None)\n            time.sleep(self._poll)\n            if time.time() > end_time:\n                break\n>       raise TimeoutException(message, screen, stacktrace)\nE       selenium.common.exceptions.TimeoutException: Message:\n\nd:\\python\\lib\\site-packages\\selenium\\webdriver\\support\\wait.py:80: TimeoutException",
+    "steps" : [ {
+      "name" : "进入更多页面",
+      "time" : {
+        "start" : 1587031803586,
+        "stop" : 1587031811817,
+        "duration" : 8231
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "滑动更多页面至底部",
+      "time" : {
+        "start" : 1587031811817,
+        "stop" : 1587031815160,
+        "duration" : 3343
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "点击学习计时按钮，设定内容后开始",
+      "time" : {
+        "start" : 1587031815160,
+        "stop" : 1587031892859,
+        "duration" : 77699
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "校验结果：计时1min后关闭计时的后续操作执行后判断计时是否正常结束",
+      "time" : {
+        "start" : 1587031892859,
+        "stop" : 1587031944398,
+        "duration" : 51539
+      },
+      "status" : "broken",
+      "statusMessage" : "selenium.common.exceptions.TimeoutException: Message: \n\n",
+      "statusTrace" : "  File \"D:\\jenkins\\workspace\\Timing\\scripts\\test_051_normalTiming.py\", line 38, in test_normalTiming\n    if self.page.timing().check_timingDialog() == True:\n  File \"D:\\jenkins\\workspace\\Timing\\Pages\\timed_learning\\timing_page.py\", line 112, in check_timingDialog\n    if self.find_element(self.timingDialog,timeout=2, poll=1) == \"\":\n  File \"D:\\jenkins\\workspace\\Timing\\base\\base_action.py\", line 22, in find_element\n    element = WebDriverWait(self.driver, timeout, poll).until(lambda x: x.find_element(feature_by, feature_value))\n  File \"d:\\python\\lib\\site-packages\\selenium\\webdriver\\support\\wait.py\", line 80, in until\n    raise TimeoutException(message, screen, stacktrace)\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "hasContent" : true,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "学习计时达1min操作"
+  }, {
+    "name" : "feature",
+    "value" : "计时功能"
+  }, {
+    "name" : "suite",
+    "value" : "test_051_normalTiming"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_normalTiming"
+  }, {
+    "name" : "host",
+    "value" : "PV-X00232293"
+  }, {
+    "name" : "thread",
+    "value" : "4616-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_051_normalTiming"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a89df58774ad2c12.json",
+  "parameterValues" : [ ]
+}

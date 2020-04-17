@@ -1,0 +1,51 @@
+{
+  "uid" : "45f3202f547ec08a",
+  "name" : "test_logout",
+  "fullName" : "test_002_loginByCaptcha.Test_loginByCaptcha#test_logout",
+  "historyId" : "ac02c59db07adf28737882e4452f7ca5",
+  "time" : {
+    "start" : 1585741022254,
+    "stop" : 1585741035203,
+    "duration" : 12949
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_002_loginByCaptcha"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_loginByCaptcha"
+  }, {
+    "name" : "host",
+    "value" : "PV-X00232293"
+  }, {
+    "name" : "thread",
+    "value" : "3772-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_002_loginByCaptcha"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "45f3202f547ec08a.json",
+  "parameterValues" : [ ]
+}

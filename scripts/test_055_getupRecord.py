@@ -31,3 +31,16 @@ class Test_getupRecord():
             self.driver.press_keycode(4)
         with allure.step('判断是否成功起床'):
             assert self.page.shouye().waitAndFind() == True
+
+
+    def test_logout(self):
+        with allure.step('点击更多按钮'):
+            self.page.more().click_more()
+        with allure.step('点击设置按钮'):
+            self.page.more().click_setting()
+        with allure.step('点击退出登录按钮'):
+            self.page.setting().click_logout()
+        with allure.step('确定退出'):
+            self.page.setting().click_confirmLogout()
+        with allure.step('断言:退出登录成功'):
+            assert self.page.setting().findLogin() == True

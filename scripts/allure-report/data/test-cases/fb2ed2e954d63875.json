@@ -1,0 +1,136 @@
+{
+  "uid" : "fb2ed2e954d63875",
+  "name" : "test_videoRoom_visitor",
+  "fullName" : "test_013_videoRoom.Test_videoRoom#test_videoRoom_visitor",
+  "historyId" : "f5637f229f5e09702953ec3bdb3f156e",
+  "time" : {
+    "start" : 1587019001055,
+    "stop" : 1587019079686,
+    "duration" : 78631
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "点击自习室按钮",
+      "time" : {
+        "start" : 1587019001055,
+        "stop" : 1587019026428,
+        "duration" : 25373
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "检测是否存在自习室，并点击",
+      "time" : {
+        "start" : 1587019026428,
+        "stop" : 1587019079685,
+        "duration" : 53257
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "点击快速进入按钮",
+        "time" : {
+          "start" : 1587019030498,
+          "stop" : 1587019057782,
+          "duration" : 27284
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "点击退出按钮",
+        "time" : {
+          "start" : 1587019057782,
+          "stop" : 1587019078056,
+          "duration" : 20274
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "断言:成功退出自习室",
+        "time" : {
+          "start" : 1587019078056,
+          "stop" : 1587019079685,
+          "duration" : 1629
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_013_videoRoom"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_videoRoom"
+  }, {
+    "name" : "host",
+    "value" : "PV-X00232293"
+  }, {
+    "name" : "thread",
+    "value" : "8176-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_013_videoRoom"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fb2ed2e954d63875.json",
+  "parameterValues" : [ ]
+}
