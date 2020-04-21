@@ -1,0 +1,186 @@
+{
+  "uid" : "7b660cc6e18cb839",
+  "name" : "test_genderInfo",
+  "fullName" : "test_041_changePersonalInformation.Test_changePersonalInformation#test_genderInfo",
+  "historyId" : "1e8bc1892d8780b08f963d533673da8b",
+  "time" : {
+    "start" : 1587262723152,
+    "stop" : 1587262749324,
+    "duration" : 26172
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "进入更多页面",
+      "time" : {
+        "start" : 1587262723152,
+        "stop" : 1587262731286,
+        "duration" : 8134
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "进入个人主页",
+      "time" : {
+        "start" : 1587262731286,
+        "stop" : 1587262735021,
+        "duration" : 3735
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "进入修改资料页",
+      "time" : {
+        "start" : 1587262735022,
+        "stop" : 1587262741352,
+        "duration" : 6330
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "修改性别栏",
+      "time" : {
+        "start" : 1587262741352,
+        "stop" : 1587262743607,
+        "duration" : 2255
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "滑动选择性别",
+      "time" : {
+        "start" : 1587262743607,
+        "stop" : 1587262745719,
+        "duration" : 2112
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "提交修改后的性别选择",
+      "time" : {
+        "start" : 1587262745719,
+        "stop" : 1587262747950,
+        "duration" : 2231
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "点击保存",
+      "time" : {
+        "start" : 1587262747950,
+        "stop" : 1587262748652,
+        "duration" : 702
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "校验结果：性别保存成功——>成功",
+      "time" : {
+        "start" : 1587262748652,
+        "stop" : 1587262749323,
+        "duration" : 671
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 8
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "修改个人资料功能，前提：非认证账号"
+  }, {
+    "name" : "story",
+    "value" : "修改性别信息"
+  }, {
+    "name" : "suite",
+    "value" : "test_041_changePersonalInformation"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_changePersonalInformation"
+  }, {
+    "name" : "host",
+    "value" : "PV-X00232293"
+  }, {
+    "name" : "thread",
+    "value" : "12928-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_041_changePersonalInformation"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7b660cc6e18cb839.json",
+  "parameterValues" : [ ]
+}

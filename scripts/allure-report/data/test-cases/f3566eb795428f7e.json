@@ -1,0 +1,171 @@
+{
+  "uid" : "f3566eb795428f7e",
+  "name" : "test_videoRoom",
+  "fullName" : "test_012_videoRoomList.Test_videoRoom#test_videoRoom",
+  "historyId" : "79d9f6c394c01992a8d32996f8363844",
+  "time" : {
+    "start" : 1586158702419,
+    "stop" : 1586158775520,
+    "duration" : 73101
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "点击自习室按钮",
+      "time" : {
+        "start" : 1586158702419,
+        "stop" : 1586158765099,
+        "duration" : 62680
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "检测是否存在自习室，并点击",
+      "time" : {
+        "start" : 1586158765099,
+        "stop" : 1586158765485,
+        "duration" : 386
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "断言:成功进入自习室大厅",
+      "time" : {
+        "start" : 1586158765485,
+        "stop" : 1586158775520,
+        "duration" : 10035
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 3
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_012_videoRoomList"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_videoRoom"
+  }, {
+    "name" : "host",
+    "value" : "PV-X00232293"
+  }, {
+    "name" : "thread",
+    "value" : "6744-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_012_videoRoomList"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "247648dbf5237f60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1586146574708,
+        "stop" : 1586146604459,
+        "duration" : 29751
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 21,
+        "unknown" : 0,
+        "total" : 21
+      },
+      "items" : [ {
+        "uid" : "a45756c2d0a44185",
+        "reportUrl" : "http://192.168.88.58:8080/job/Timing/52/allure/#testresult/a45756c2d0a44185",
+        "status" : "passed",
+        "time" : {
+          "start" : 1586158702419,
+          "stop" : 1586158775520,
+          "duration" : 73101
+        }
+      }, {
+        "uid" : "c2027e244ed191cb",
+        "reportUrl" : "http://192.168.88.58:8080/job/Timing/51/allure/#testresult/c2027e244ed191cb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1586158702419,
+          "stop" : 1586158775520,
+          "duration" : 73101
+        }
+      }, {
+        "uid" : "73d7e321dc770a0d",
+        "reportUrl" : "http://192.168.88.58:8080/job/Timing/49/allure/#testresult/73d7e321dc770a0d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1586158702419,
+          "stop" : 1586158775520,
+          "duration" : 73101
+        }
+      }, {
+        "uid" : "c4d1de6fa944ba7a",
+        "reportUrl" : "http://192.168.88.58:8080/job/Timing/48/allure/#testresult/c4d1de6fa944ba7a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1586158702419,
+          "stop" : 1586158775520,
+          "duration" : 73101
+        }
+      }, {
+        "uid" : "908973bc030d852c",
+        "reportUrl" : "http://192.168.88.58:8080/job/Timing/46/allure/#testresult/908973bc030d852c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1586158702419,
+          "stop" : 1586158775520,
+          "duration" : 73101
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "f3566eb795428f7e.json",
+  "parameterValues" : [ ]
+}

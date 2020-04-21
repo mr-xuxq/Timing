@@ -1,0 +1,361 @@
+{
+  "uid" : "5cff2b8d65acee1e",
+  "name" : "test_teamChatWord",
+  "fullName" : "test_025_groupChat.Test_teamChat#test_teamChatWord",
+  "historyId" : "886f72d5cbfe1f3813b2e8841e171b18",
+  "time" : {
+    "start" : 1587463162368,
+    "stop" : 1587463378390,
+    "duration" : 216022
+  },
+  "status" : "passed",
+  "flaky" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "点击小书童后返回至消息页面，使小书童不置顶",
+      "time" : {
+        "start" : 1587463177795,
+        "stop" : 1587463184066,
+        "duration" : 6271
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "找到群组后使channel置顶",
+      "time" : {
+        "start" : 1587463184066,
+        "stop" : 1587463378390,
+        "duration" : 194324
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "点击channel进入聊天页面",
+        "time" : {
+          "start" : 1587463191413,
+          "stop" : 1587463194000,
+          "duration" : 2587
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "发送聊天消息",
+        "time" : {
+          "start" : 1587463194000,
+          "stop" : 1587463357185,
+          "duration" : 163185
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "校验结果：若发送成功，消息页会显示最新消息",
+        "time" : {
+          "start" : 1587463378390,
+          "stop" : 1587463378390,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 3
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 5
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "群组聊天功能"
+  }, {
+    "name" : "story",
+    "value" : "文字聊天"
+  }, {
+    "name" : "suite",
+    "value" : "test_025_groupChat"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_teamChat"
+  }, {
+    "name" : "host",
+    "value" : "PV-X00232293"
+  }, {
+    "name" : "thread",
+    "value" : "40208-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_025_groupChat"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "8adb8434abc440fa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587459802661,
+        "stop" : 1587460045376,
+        "duration" : 242715
+      }
+    }, {
+      "uid" : "75530d459bd43a96",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587262269674,
+        "stop" : 1587262301540,
+        "duration" : 31866
+      }
+    }, {
+      "uid" : "402a6d9bd9054117",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1587260838548,
+        "stop" : 1587260913464,
+        "duration" : 74916
+      }
+    }, {
+      "uid" : "bd81825419d8f956",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587154480806,
+        "stop" : 1587154525197,
+        "duration" : 44391
+      }
+    }, {
+      "uid" : "3d93978e9d660711",
+      "status" : "broken",
+      "statusDetails" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=4723): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001A6C13446D8>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))",
+      "time" : {
+        "start" : 1587153039496,
+        "stop" : 1587153039496,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "7a558e6945f5bd90",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1587148181472,
+        "stop" : 1587148258389,
+        "duration" : 76917
+      }
+    }, {
+      "uid" : "45aac216b103c569",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587134100362,
+        "stop" : 1587134138887,
+        "duration" : 38525
+      }
+    }, {
+      "uid" : "fbd942872e2780dc",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1587126474283,
+        "stop" : 1587126562394,
+        "duration" : 88111
+      }
+    }, {
+      "uid" : "adf831311733a1dd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587124178221,
+        "stop" : 1587124217559,
+        "duration" : 39338
+      }
+    }, {
+      "uid" : "d447372d3a56e831",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587044586847,
+        "stop" : 1587044634917,
+        "duration" : 48070
+      }
+    }, {
+      "uid" : "fb6a1c8fd98fe400",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1587040429429,
+        "stop" : 1587040480696,
+        "duration" : 51267
+      }
+    }, {
+      "uid" : "998e21670d57d96e",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1587037865268,
+        "stop" : 1587037916767,
+        "duration" : 51499
+      }
+    }, {
+      "uid" : "353bd98f5ce66a46",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587031183938,
+        "stop" : 1587031242587,
+        "duration" : 58649
+      }
+    }, {
+      "uid" : "cdee52e51f114592",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587022998412,
+        "stop" : 1587023043954,
+        "duration" : 45542
+      }
+    }, {
+      "uid" : "a6ca9b5985cde332",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587019483587,
+        "stop" : 1587019527893,
+        "duration" : 44306
+      }
+    }, {
+      "uid" : "4978ba853d5f933f",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert '[视频]' == 'I am a message!'\n  - [视频]\n  + I am a message!",
+      "time" : {
+        "start" : 1587014840969,
+        "stop" : 1587014897259,
+        "duration" : 56290
+      }
+    }, {
+      "uid" : "c5f5919ec3c2a468",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587011595911,
+        "stop" : 1587011640359,
+        "duration" : 44448
+      }
+    }, {
+      "uid" : "9de7bae2b162835a",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert '[视频]' == 'I am a message!'\n  - [视频]\n  + I am a message!",
+      "time" : {
+        "start" : 1587008766878,
+        "stop" : 1587008812347,
+        "duration" : 45469
+      }
+    }, {
+      "uid" : "ab0f9f7e03044f52",
+      "status" : "passed",
+      "time" : {
+        "start" : 1586508040060,
+        "stop" : 1586508083948,
+        "duration" : 43888
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 3,
+        "broken" : 3,
+        "skipped" : 0,
+        "passed" : 21,
+        "unknown" : 0,
+        "total" : 27
+      },
+      "items" : [ {
+        "uid" : "924c481b3009b496",
+        "reportUrl" : "http://192.168.88.58:8080/job/Timing/52/allure/#testresult/924c481b3009b496",
+        "status" : "passed",
+        "time" : {
+          "start" : 1587459802661,
+          "stop" : 1587460045376,
+          "duration" : 242715
+        }
+      }, {
+        "uid" : "9a5c0e14e342e0ab",
+        "reportUrl" : "http://192.168.88.58:8080/job/Timing/51/allure/#testresult/9a5c0e14e342e0ab",
+        "status" : "passed",
+        "time" : {
+          "start" : 1587262269674,
+          "stop" : 1587262301540,
+          "duration" : 31866
+        }
+      }, {
+        "uid" : "8508fc22db743864",
+        "reportUrl" : "http://192.168.88.58:8080/job/Timing/49/allure/#testresult/8508fc22db743864",
+        "status" : "passed",
+        "time" : {
+          "start" : 1587154480806,
+          "stop" : 1587154525197,
+          "duration" : 44391
+        }
+      }, {
+        "uid" : "5485ffdbc5918b3f",
+        "reportUrl" : "http://192.168.88.58:8080/job/Timing/48/allure/#testresult/5485ffdbc5918b3f",
+        "status" : "broken",
+        "statusDetails" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=4723): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001A6C13446D8>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))",
+        "time" : {
+          "start" : 1587153039496,
+          "stop" : 1587153039496,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "3e79a6a158e31b5b",
+        "reportUrl" : "http://192.168.88.58:8080/job/Timing/46/allure/#testresult/3e79a6a158e31b5b",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+        "time" : {
+          "start" : 1587148181472,
+          "stop" : 1587148258389,
+          "duration" : 76917
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "5cff2b8d65acee1e.json",
+  "parameterValues" : [ ]
+}

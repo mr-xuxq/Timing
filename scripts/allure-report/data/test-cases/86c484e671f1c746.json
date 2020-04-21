@@ -1,0 +1,111 @@
+{
+  "uid" : "86c484e671f1c746",
+  "name" : "test_discussTeam",
+  "fullName" : "test_024_createGroup.Test_createGroup#test_discussTeam",
+  "historyId" : "c4cdc2cdb79802d3cb94343241d323e3",
+  "time" : {
+    "start" : 1587008697234,
+    "stop" : 1587008762983,
+    "duration" : 65749
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "进入更多页面",
+      "time" : {
+        "start" : 1587008697234,
+        "stop" : 1587008754869,
+        "duration" : 57635
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "点击【+】学习群",
+      "time" : {
+        "start" : 1587008754869,
+        "stop" : 1587008756993,
+        "duration" : 2124
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "选择创建学习讨论小组",
+      "time" : {
+        "start" : 1587008756993,
+        "stop" : 1587008762982,
+        "duration" : 5989
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 3
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "创建讨论组"
+  }, {
+    "name" : "feature",
+    "value" : "创建学习群功能"
+  }, {
+    "name" : "suite",
+    "value" : "test_024_createGroup"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_createGroup"
+  }, {
+    "name" : "host",
+    "value" : "PV-X00232293"
+  }, {
+    "name" : "thread",
+    "value" : "948-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_024_createGroup"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "86c484e671f1c746.json",
+  "parameterValues" : [ ]
+}

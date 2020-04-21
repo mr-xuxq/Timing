@@ -1,0 +1,327 @@
+{
+  "uid" : "e0f89930a2c966b3",
+  "name" : "test_videoRecordTiming",
+  "fullName" : "test_053_videoRecordTiming.Test_videoRecordTiming#test_videoRecordTiming",
+  "historyId" : "51867c13abb9a21a0481d8e2b12818f2",
+  "time" : {
+    "start" : 1587464419600,
+    "stop" : 1587464578881,
+    "duration" : 159281
+  },
+  "status" : "passed",
+  "flaky" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "进入发布页面",
+      "time" : {
+        "start" : 1587464419600,
+        "stop" : 1587464440199,
+        "duration" : 20599
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "点击视频打卡按钮，设定内容后开始",
+      "time" : {
+        "start" : 1587464440199,
+        "stop" : 1587464576091,
+        "duration" : 135892
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "校验结果：视频打卡1min后判断计时是否正常结束",
+      "time" : {
+        "start" : 1587464576092,
+        "stop" : 1587464578881,
+        "duration" : 2789
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 3
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "视频打卡功能"
+  }, {
+    "name" : "story",
+    "value" : "视频打卡操作"
+  }, {
+    "name" : "suite",
+    "value" : "test_053_videoRecordTiming"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_videoRecordTiming"
+  }, {
+    "name" : "host",
+    "value" : "PV-X00232293"
+  }, {
+    "name" : "thread",
+    "value" : "40208-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_053_videoRecordTiming"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "725e566c34a599ff",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587460976803,
+        "stop" : 1587461127443,
+        "duration" : 150640
+      }
+    }, {
+      "uid" : "26507056f6c651ed",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587263033847,
+        "stop" : 1587263199650,
+        "duration" : 165803
+      }
+    }, {
+      "uid" : "394b2b06351399ae",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587155371040,
+        "stop" : 1587155526114,
+        "duration" : 155074
+      }
+    }, {
+      "uid" : "a1ee314a47f350ce",
+      "status" : "broken",
+      "statusDetails" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=4723): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001A6C145F940>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))",
+      "time" : {
+        "start" : 1587153106788,
+        "stop" : 1587153106788,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "6be6f9dfcb32ce97",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587149150069,
+        "stop" : 1587149305251,
+        "duration" : 155182
+      }
+    }, {
+      "uid" : "f512089bb3f5bde4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587134797916,
+        "stop" : 1587134951473,
+        "duration" : 153557
+      }
+    }, {
+      "uid" : "4b2bddc8974b2a60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587127237437,
+        "stop" : 1587127391772,
+        "duration" : 154335
+      }
+    }, {
+      "uid" : "bb8a7a7aa13a79cd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587124910805,
+        "stop" : 1587125063614,
+        "duration" : 152809
+      }
+    }, {
+      "uid" : "437c5b3b69dc35c2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587045232295,
+        "stop" : 1587045386186,
+        "duration" : 153891
+      }
+    }, {
+      "uid" : "4baf935620589646",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1587041038785,
+        "stop" : 1587041090213,
+        "duration" : 51428
+      }
+    }, {
+      "uid" : "a0e10e5408a6cad3",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1587038479267,
+        "stop" : 1587038530517,
+        "duration" : 51250
+      }
+    }, {
+      "uid" : "dbb5c866ca3bd277",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587032062646,
+        "stop" : 1587032215950,
+        "duration" : 153304
+      }
+    }, {
+      "uid" : "2d37ee191b86ef50",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587023706809,
+        "stop" : 1587023869715,
+        "duration" : 162906
+      }
+    }, {
+      "uid" : "96e30b2183b08f53",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587020252311,
+        "stop" : 1587020415390,
+        "duration" : 163079
+      }
+    }, {
+      "uid" : "36a0543a896293a2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587015561494,
+        "stop" : 1587015725666,
+        "duration" : 164172
+      }
+    }, {
+      "uid" : "aa6db6f44af0f2fb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587012236603,
+        "stop" : 1587012398208,
+        "duration" : 161605
+      }
+    }, {
+      "uid" : "14f4607bfd1c6e75",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587009609551,
+        "stop" : 1587009781298,
+        "duration" : 171747
+      }
+    }, {
+      "uid" : "506411a4d061e6b9",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False == True\n  -False\n  +True",
+      "time" : {
+        "start" : 1586509174638,
+        "stop" : 1586509435944,
+        "duration" : 261306
+      }
+    }, {
+      "uid" : "1cf324a5a45e1b79",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1586147817930,
+        "stop" : 1586147892837,
+        "duration" : 74907
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 5,
+        "broken" : 2,
+        "skipped" : 0,
+        "passed" : 21,
+        "unknown" : 0,
+        "total" : 28
+      },
+      "items" : [ {
+        "uid" : "a8c0500a8d854428",
+        "reportUrl" : "http://192.168.88.58:8080/job/Timing/52/allure/#testresult/a8c0500a8d854428",
+        "status" : "passed",
+        "time" : {
+          "start" : 1587460976803,
+          "stop" : 1587461127443,
+          "duration" : 150640
+        }
+      }, {
+        "uid" : "a18d0dcc03cb497",
+        "reportUrl" : "http://192.168.88.58:8080/job/Timing/51/allure/#testresult/a18d0dcc03cb497",
+        "status" : "passed",
+        "time" : {
+          "start" : 1587263033847,
+          "stop" : 1587263199650,
+          "duration" : 165803
+        }
+      }, {
+        "uid" : "e1db82e0d1757cd5",
+        "reportUrl" : "http://192.168.88.58:8080/job/Timing/49/allure/#testresult/e1db82e0d1757cd5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1587155371040,
+          "stop" : 1587155526114,
+          "duration" : 155074
+        }
+      }, {
+        "uid" : "406e30132c75e67",
+        "reportUrl" : "http://192.168.88.58:8080/job/Timing/48/allure/#testresult/406e30132c75e67",
+        "status" : "broken",
+        "statusDetails" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=4723): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001A6C145F940>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))",
+        "time" : {
+          "start" : 1587153106788,
+          "stop" : 1587153106788,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "89fb7e18912c747d",
+        "reportUrl" : "http://192.168.88.58:8080/job/Timing/46/allure/#testresult/89fb7e18912c747d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1587149150069,
+          "stop" : 1587149305251,
+          "duration" : 155182
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "e0f89930a2c966b3.json",
+  "parameterValues" : [ ]
+}

@@ -15,15 +15,10 @@ class Test_sleepRecord():
 
     @allure.story('睡觉后再起床操作')
     def test_sleepRecord(self):
-        with allure.step('进入更多页面'):
-            self.page.more().click_more()
-            time.sleep(2)
-        # with allure.step('滑动更多页面至底部'):
-        #     self.page.more().swipeByMore()
-        #     time.sleep(3)
-        #学习计时页面用例能正常滑动，到了起床睡觉，滑动失败的概率很大，所以采用点击【+】，在发布页面选择【起床睡觉】按钮
-        with allure.step('点击tab【+】，选择起床睡觉按钮'):
+        with allure.step('进入发布页面'):
             self.page.shouye().click_post()
+            time.sleep(5)
+        #学习计时页面用例能正常滑动，到了起床睡觉，滑动失败的概率很大，所以采用点击【+】，在发布页面选择【起床睡觉】按钮
         with allure.step('点击睡觉按钮，进入睡觉页面'):
             time.sleep(3)
             self.page.more().click_sleep()

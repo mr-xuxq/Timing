@@ -1,0 +1,177 @@
+{
+  "uid" : "1540f11d815c1f34",
+  "name" : "test_chatImage",
+  "fullName" : "test_022_friendChat.Test_friendChat#test_chatImage",
+  "historyId" : "91b29d7c0decadea0b7cf26e9aa7713c",
+  "time" : {
+    "start" : 1587014702784,
+    "stop" : 1587014749360,
+    "duration" : 46576
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert '你发布了学习日记' == '[图片]'\n  - 你发布了学习日记\n  + [图片]",
+  "statusTrace" : "self = <scripts.test_022_friendChat.Test_friendChat object at 0x0000023B2D3ED438>\n\n    @allure.story('图片聊天')\n    def test_chatImage(self):\n        with allure.step('进入消息页面'):\n            self.page.message().click_messageBtn()\n        with allure.step('滑动消息页面寻找第一个道友'):\n            i = 0\n            while i < 2:\n                if self.page.message().check_messageFriend() == True:\n                    break\n                else:\n                    self.page.message().swipeByMessage()\n                    i += 1\n        with allure.step('找到道友后点击channel进入聊天页面'):\n            self.page.message().click_messageFriend()\n        with allure.step('点击聊天页面添加按钮'):\n            self.page.friend_chat().click_chooseType()\n            time.sleep(2)\n        with allure.step('选择相册'):\n            # 点击聊天页面【相册】按钮\n            self.page.friend_chat().click_imageBtn()\n        with allure.step('选择相册页面第一张图片并发送'):\n            time.sleep(3)\n            self.page.choose_image().click_chooseImage()\n            self.page.choose_image().click_nextStep()\n            time.sleep(8)\n            self.page.friend_chat().click_back()\n            count = self.driver.find_element_by_id('com.huiian.timing:id/friend_msg_content_tv').text\n        with allure.step('校验结果：若发送成功，消息页会显示最新图片'):\n>           assert count == \"[图片]\"\nE           AssertionError: assert '你发布了学习日记' == '[图片]'\nE             - 你发布了学习日记\nE             + [图片]\n\ntest_022_friendChat.py:86: AssertionError",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert '你发布了学习日记' == '[图片]'\n  - 你发布了学习日记\n  + [图片]",
+    "statusTrace" : "self = <scripts.test_022_friendChat.Test_friendChat object at 0x0000023B2D3ED438>\n\n    @allure.story('图片聊天')\n    def test_chatImage(self):\n        with allure.step('进入消息页面'):\n            self.page.message().click_messageBtn()\n        with allure.step('滑动消息页面寻找第一个道友'):\n            i = 0\n            while i < 2:\n                if self.page.message().check_messageFriend() == True:\n                    break\n                else:\n                    self.page.message().swipeByMessage()\n                    i += 1\n        with allure.step('找到道友后点击channel进入聊天页面'):\n            self.page.message().click_messageFriend()\n        with allure.step('点击聊天页面添加按钮'):\n            self.page.friend_chat().click_chooseType()\n            time.sleep(2)\n        with allure.step('选择相册'):\n            # 点击聊天页面【相册】按钮\n            self.page.friend_chat().click_imageBtn()\n        with allure.step('选择相册页面第一张图片并发送'):\n            time.sleep(3)\n            self.page.choose_image().click_chooseImage()\n            self.page.choose_image().click_nextStep()\n            time.sleep(8)\n            self.page.friend_chat().click_back()\n            count = self.driver.find_element_by_id('com.huiian.timing:id/friend_msg_content_tv').text\n        with allure.step('校验结果：若发送成功，消息页会显示最新图片'):\n>           assert count == \"[图片]\"\nE           AssertionError: assert '你发布了学习日记' == '[图片]'\nE             - 你发布了学习日记\nE             + [图片]\n\ntest_022_friendChat.py:86: AssertionError",
+    "steps" : [ {
+      "name" : "进入消息页面",
+      "time" : {
+        "start" : 1587014702784,
+        "stop" : 1587014726002,
+        "duration" : 23218
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "滑动消息页面寻找第一个道友",
+      "time" : {
+        "start" : 1587014726002,
+        "stop" : 1587014728438,
+        "duration" : 2436
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "找到道友后点击channel进入聊天页面",
+      "time" : {
+        "start" : 1587014728438,
+        "stop" : 1587014732153,
+        "duration" : 3715
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "点击聊天页面添加按钮",
+      "time" : {
+        "start" : 1587014732153,
+        "stop" : 1587014734611,
+        "duration" : 2458
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "选择相册",
+      "time" : {
+        "start" : 1587014734611,
+        "stop" : 1587014735535,
+        "duration" : 924
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "选择相册页面第一张图片并发送",
+      "time" : {
+        "start" : 1587014735535,
+        "stop" : 1587014749359,
+        "duration" : 13824
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "校验结果：若发送成功，消息页会显示最新图片",
+      "time" : {
+        "start" : 1587014749360,
+        "stop" : 1587014749360,
+        "duration" : 0
+      },
+      "status" : "failed",
+      "statusMessage" : "AssertionError: assert '你发布了学习日记' == '[图片]'\n  - 你发布了学习日记\n  + [图片]\n",
+      "statusTrace" : "  File \"D:\\jenkins\\workspace\\Timing\\scripts\\test_022_friendChat.py\", line 86, in test_chatImage\n    assert count == \"[图片]\"\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true,
+    "stepsCount" : 7
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "聊天页功能"
+  }, {
+    "name" : "story",
+    "value" : "图片聊天"
+  }, {
+    "name" : "suite",
+    "value" : "test_022_friendChat"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_friendChat"
+  }, {
+    "name" : "host",
+    "value" : "PV-X00232293"
+  }, {
+    "name" : "thread",
+    "value" : "1380-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_022_friendChat"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1540f11d815c1f34.json",
+  "parameterValues" : [ ]
+}

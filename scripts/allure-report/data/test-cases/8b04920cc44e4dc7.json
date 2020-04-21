@@ -1,0 +1,143 @@
+{
+  "uid" : "8b04920cc44e4dc7",
+  "name" : "test_videoRoom_visitor",
+  "fullName" : "test_013_videoRoom.Test_videoRoom#test_videoRoom_visitor",
+  "historyId" : "f5637f229f5e09702953ec3bdb3f156e",
+  "time" : {
+    "start" : 1587153836213,
+    "stop" : 1587153972005,
+    "duration" : 135792
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert False == True\n  -False\n  +True",
+  "statusTrace" : "self = <scripts.test_013_videoRoom.Test_videoRoom object at 0x000001B0F9F2A2B0>\n\n    def test_videoRoom_visitor(self):\n        with allure.step('点击自习室按钮'):\n            self.page.shouye().click_videoRoom()\n            time.sleep(3)\n        with allure.step('检测是否存在自习室，并点击'):\n            result = self.page.video_room_list().check_join()\n            if result == False:\n                with allure.step('当前没有开启的自习室，用例结束'):\n                    pass\n            else:\n                self.page.video_room_list().click_joinBtn()\n                time.sleep(2)\n                with allure.step('点击快速进入按钮'):\n                    self.page.video_hall().click_quicklyJoin()\n                    time.sleep(2)\n                    self.page.video_hall().coordinateClick1()\n                    time.sleep(5)\n                with allure.step('点击退出按钮'):\n                    self.page.video_room().click_exit()\n                with allure.step('断言:成功退出自习室'):\n>                   assert self.page.video_hall().check_label() == True\nE                   assert False == True\nE                     -False\nE                     +True\n\ntest_013_videoRoom.py:42: AssertionError",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert False == True\n  -False\n  +True",
+    "statusTrace" : "self = <scripts.test_013_videoRoom.Test_videoRoom object at 0x000001B0F9F2A2B0>\n\n    def test_videoRoom_visitor(self):\n        with allure.step('点击自习室按钮'):\n            self.page.shouye().click_videoRoom()\n            time.sleep(3)\n        with allure.step('检测是否存在自习室，并点击'):\n            result = self.page.video_room_list().check_join()\n            if result == False:\n                with allure.step('当前没有开启的自习室，用例结束'):\n                    pass\n            else:\n                self.page.video_room_list().click_joinBtn()\n                time.sleep(2)\n                with allure.step('点击快速进入按钮'):\n                    self.page.video_hall().click_quicklyJoin()\n                    time.sleep(2)\n                    self.page.video_hall().coordinateClick1()\n                    time.sleep(5)\n                with allure.step('点击退出按钮'):\n                    self.page.video_room().click_exit()\n                with allure.step('断言:成功退出自习室'):\n>                   assert self.page.video_hall().check_label() == True\nE                   assert False == True\nE                     -False\nE                     +True\n\ntest_013_videoRoom.py:42: AssertionError",
+    "steps" : [ {
+      "name" : "点击自习室按钮",
+      "time" : {
+        "start" : 1587153836213,
+        "stop" : 1587153865291,
+        "duration" : 29078
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "检测是否存在自习室，并点击",
+      "time" : {
+        "start" : 1587153865291,
+        "stop" : 1587153972005,
+        "duration" : 106714
+      },
+      "status" : "failed",
+      "statusMessage" : "AssertionError: assert False == True\n  -False\n  +True\n",
+      "statusTrace" : "  File \"D:\\jenkins\\workspace\\Timing\\scripts\\test_013_videoRoom.py\", line 42, in test_videoRoom_visitor\n    assert self.page.video_hall().check_label() == True\n",
+      "steps" : [ {
+        "name" : "点击快速进入按钮",
+        "time" : {
+          "start" : 1587153867657,
+          "stop" : 1587153894953,
+          "duration" : 27296
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "点击退出按钮",
+        "time" : {
+          "start" : 1587153894953,
+          "stop" : 1587153920352,
+          "duration" : 25399
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "断言:成功退出自习室",
+        "time" : {
+          "start" : 1587153920352,
+          "stop" : 1587153972005,
+          "duration" : 51653
+        },
+        "status" : "failed",
+        "statusMessage" : "AssertionError: assert False == True\n  -False\n  +True\n",
+        "statusTrace" : "  File \"D:\\jenkins\\workspace\\Timing\\scripts\\test_013_videoRoom.py\", line 42, in test_videoRoom_visitor\n    assert self.page.video_hall().check_label() == True\n",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : true,
+        "hasContent" : true,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 3
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true,
+    "stepsCount" : 5
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_013_videoRoom"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_videoRoom"
+  }, {
+    "name" : "host",
+    "value" : "PV-X00232293"
+  }, {
+    "name" : "thread",
+    "value" : "11052-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_013_videoRoom"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8b04920cc44e4dc7.json",
+  "parameterValues" : [ ]
+}

@@ -28,6 +28,7 @@ class Friend_chat(BaseAction):
     #视频按钮
     videoBtn = By.XPATH,'//*[@text="视频"]'
 
+
     def input_messageBox(self,content):
         self.input(self.messageBox,content)
 
@@ -72,4 +73,7 @@ class Friend_chat(BaseAction):
             return False
         else:
             return True
+
+    def swipeByGroup(self):
+        self.swipeOperat(0.5, 0.9, 0.5, 0.4, 500)
 

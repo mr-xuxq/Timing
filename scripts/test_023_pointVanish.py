@@ -1,4 +1,4 @@
-# import time, allure
+import time, allure
 # from Pages.page import Page
 # from base.base_driver import Base
 #

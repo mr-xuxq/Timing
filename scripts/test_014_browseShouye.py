@@ -11,7 +11,6 @@ class Test_browseShowye():
         self.page = Page(self.driver)
     def teardown(self):
         self.driver.quit()
-
     def test_browseShowye(self):
         time.sleep(5)
         with allure.step('检测登陆状态'):

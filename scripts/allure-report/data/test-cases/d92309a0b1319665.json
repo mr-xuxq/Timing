@@ -1,0 +1,366 @@
+{
+  "uid" : "d92309a0b1319665",
+  "name" : "test_registerAccount",
+  "fullName" : "test_001_registerAccount.Test_registerAccount#test_registerAccount",
+  "historyId" : "70208ecb89cae63421bdb3a7ce67b14a",
+  "time" : {
+    "start" : 1587125397411,
+    "stop" : 1587125524060,
+    "duration" : 126649
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert False == True\n  +False\n  -True",
+  "statusTrace" : "self = <scripts.test_001_registerAccount.Test_registerAccount object at 0x000001C2B1E7D4E0>\n\n    def test_registerAccount(self):\n        with allure.step('点击手机号登录'):\n            self.page.login().click_phone_login()\n        with allure.step('查询尚未注册的手机号并填入'):\n            ID = \"1\"\n            Phone = phone\n            while len(ID) == 1:\n                Phone = Phone + 1\n                ID = pd.read_sql('SELECT ID FROM t_user where phone=\"' + str(Phone) + '\" ', engine)\n            self.page.login_phone().input_phone(str(Phone))\n        with allure.step('点击获取验证码按钮'):\n            self.page.login_phone().click_getCaptcha()\n            time.sleep(2)\n        with allure.step('从数据库拿验证码'):\n            captcha = pd.read_sql('select captcha FROM t_captcha WHERE phone = \"' + str(Phone) + '\" order by postTime desc',engine)\n            captcha = captcha.iloc[0, 0]\n        with allure.step('输入验证码'):\n            self.page.login_phone_captcha().input_captcha(str(captcha))\n        with allure.step('点击完成，进入学习标签页'):\n            self.page.login_phone_captcha().click_loginBtn()\n        with allure.step('点击选择标签'):\n            time.sleep(2)\n            self.page.register_add_tags().click_labelBtn()\n        with allure.step('点击下一步'):\n            self.page.register_add_tags().click_nextBtn()\n        with allure.step('点击选择头像按钮'):\n            self.page.register_fillInformation().click_selectPhotoBtn()\n        with allure.step('点击图片，进入图片详情页'):\n            self.page.select_photo().click_photoBtn()\n        with allure.step('点击选取按钮，完成图片选择'):\n            self.page.select_photo().click_selectBtn()\n        with allure.step('输入昵称'):\n            self.page.register_fillInformation().input_nickNameBox(str(nickName))\n        with allure.step('选择男性'):\n            self.page.register_fillInformation().click_genderBtn()\n        with allure.step('设置生日'):\n            self.page.register_fillInformation().set_brithday()\n        with allure.step('点击生成按钮'):\n            self.page.register_fillInformation().click_generateBtn()\n            time.sleep(5)\n        with allure.step('新手引导-下一步'):\n            self.page.guide().click_yesBtn()\n        with allure.step('新手引导-了解组团学习'):\n            time.sleep(5)\n            self.page.guide().click_groupTolearnBtn()\n        with allure.step('新手引导-暂不需要按钮'):\n            self.page.guide().click_noBtn()\n            time.sleep(1)\n        with allure.step('新手引导-开启Timing之旅'):\n            self.page.guide().click_yesBtn()\n        with allure.step('断言:注册完成'):\n>           assert self.page.login().check_target() == True\nE           assert False == True\nE             +False\nE             -True\n\ntest_001_registerAccount.py:80: AssertionError",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert False == True\n  +False\n  -True",
+    "statusTrace" : "self = <scripts.test_001_registerAccount.Test_registerAccount object at 0x000001C2B1E7D4E0>\n\n    def test_registerAccount(self):\n        with allure.step('点击手机号登录'):\n            self.page.login().click_phone_login()\n        with allure.step('查询尚未注册的手机号并填入'):\n            ID = \"1\"\n            Phone = phone\n            while len(ID) == 1:\n                Phone = Phone + 1\n                ID = pd.read_sql('SELECT ID FROM t_user where phone=\"' + str(Phone) + '\" ', engine)\n            self.page.login_phone().input_phone(str(Phone))\n        with allure.step('点击获取验证码按钮'):\n            self.page.login_phone().click_getCaptcha()\n            time.sleep(2)\n        with allure.step('从数据库拿验证码'):\n            captcha = pd.read_sql('select captcha FROM t_captcha WHERE phone = \"' + str(Phone) + '\" order by postTime desc',engine)\n            captcha = captcha.iloc[0, 0]\n        with allure.step('输入验证码'):\n            self.page.login_phone_captcha().input_captcha(str(captcha))\n        with allure.step('点击完成，进入学习标签页'):\n            self.page.login_phone_captcha().click_loginBtn()\n        with allure.step('点击选择标签'):\n            time.sleep(2)\n            self.page.register_add_tags().click_labelBtn()\n        with allure.step('点击下一步'):\n            self.page.register_add_tags().click_nextBtn()\n        with allure.step('点击选择头像按钮'):\n            self.page.register_fillInformation().click_selectPhotoBtn()\n        with allure.step('点击图片，进入图片详情页'):\n            self.page.select_photo().click_photoBtn()\n        with allure.step('点击选取按钮，完成图片选择'):\n            self.page.select_photo().click_selectBtn()\n        with allure.step('输入昵称'):\n            self.page.register_fillInformation().input_nickNameBox(str(nickName))\n        with allure.step('选择男性'):\n            self.page.register_fillInformation().click_genderBtn()\n        with allure.step('设置生日'):\n            self.page.register_fillInformation().set_brithday()\n        with allure.step('点击生成按钮'):\n            self.page.register_fillInformation().click_generateBtn()\n            time.sleep(5)\n        with allure.step('新手引导-下一步'):\n            self.page.guide().click_yesBtn()\n        with allure.step('新手引导-了解组团学习'):\n            time.sleep(5)\n            self.page.guide().click_groupTolearnBtn()\n        with allure.step('新手引导-暂不需要按钮'):\n            self.page.guide().click_noBtn()\n            time.sleep(1)\n        with allure.step('新手引导-开启Timing之旅'):\n            self.page.guide().click_yesBtn()\n        with allure.step('断言:注册完成'):\n>           assert self.page.login().check_target() == True\nE           assert False == True\nE             +False\nE             -True\n\ntest_001_registerAccount.py:80: AssertionError",
+    "steps" : [ {
+      "name" : "点击手机号登录",
+      "time" : {
+        "start" : 1587125397411,
+        "stop" : 1587125400610,
+        "duration" : 3199
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "查询尚未注册的手机号并填入",
+      "time" : {
+        "start" : 1587125400610,
+        "stop" : 1587125407922,
+        "duration" : 7312
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "点击获取验证码按钮",
+      "time" : {
+        "start" : 1587125407923,
+        "stop" : 1587125410866,
+        "duration" : 2943
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "从数据库拿验证码",
+      "time" : {
+        "start" : 1587125410866,
+        "stop" : 1587125410968,
+        "duration" : 102
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "输入验证码",
+      "time" : {
+        "start" : 1587125410968,
+        "stop" : 1587125417252,
+        "duration" : 6284
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "点击完成，进入学习标签页",
+      "time" : {
+        "start" : 1587125417252,
+        "stop" : 1587125420621,
+        "duration" : 3369
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "点击选择标签",
+      "time" : {
+        "start" : 1587125420621,
+        "stop" : 1587125422936,
+        "duration" : 2315
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "点击下一步",
+      "time" : {
+        "start" : 1587125422936,
+        "stop" : 1587125426815,
+        "duration" : 3879
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "点击选择头像按钮",
+      "time" : {
+        "start" : 1587125426815,
+        "stop" : 1587125427774,
+        "duration" : 959
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "点击图片，进入图片详情页",
+      "time" : {
+        "start" : 1587125427774,
+        "stop" : 1587125428669,
+        "duration" : 895
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "点击选取按钮，完成图片选择",
+      "time" : {
+        "start" : 1587125428669,
+        "stop" : 1587125432449,
+        "duration" : 3780
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "输入昵称",
+      "time" : {
+        "start" : 1587125432449,
+        "stop" : 1587125438136,
+        "duration" : 5687
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "选择男性",
+      "time" : {
+        "start" : 1587125438137,
+        "stop" : 1587125441814,
+        "duration" : 3677
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "设置生日",
+      "time" : {
+        "start" : 1587125441814,
+        "stop" : 1587125447853,
+        "duration" : 6039
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "点击生成按钮",
+      "time" : {
+        "start" : 1587125447853,
+        "stop" : 1587125456951,
+        "duration" : 9098
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "新手引导-下一步",
+      "time" : {
+        "start" : 1587125456951,
+        "stop" : 1587125457217,
+        "duration" : 266
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "新手引导-了解组团学习",
+      "time" : {
+        "start" : 1587125457217,
+        "stop" : 1587125463264,
+        "duration" : 6047
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "新手引导-暂不需要按钮",
+      "time" : {
+        "start" : 1587125463264,
+        "stop" : 1587125469460,
+        "duration" : 6196
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "新手引导-开启Timing之旅",
+      "time" : {
+        "start" : 1587125469460,
+        "stop" : 1587125472709,
+        "duration" : 3249
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "断言:注册完成",
+      "time" : {
+        "start" : 1587125472709,
+        "stop" : 1587125524059,
+        "duration" : 51350
+      },
+      "status" : "failed",
+      "statusMessage" : "AssertionError: assert False == True\n  +False\n  -True\n",
+      "statusTrace" : "  File \"D:\\Timing\\scripts\\test_001_registerAccount.py\", line 80, in test_registerAccount\n    assert self.page.login().check_target() == True\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true,
+    "stepsCount" : 20
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_001_registerAccount"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_registerAccount"
+  }, {
+    "name" : "host",
+    "value" : "PC-201905121411"
+  }, {
+    "name" : "thread",
+    "value" : "1452-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_001_registerAccount"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d92309a0b1319665.json",
+  "parameterValues" : [ ]
+}

@@ -1,15 +1,48 @@
 {
-  "total" : 24,
+  "total" : 40,
   "items" : [ {
+    "uid" : "3bf8fbcf61fb6064ef96745a8de1f3ac",
+    "name" : "关注列表检查",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
     "uid" : "c2e36a60416cdec2124483e973cdb56b",
     "name" : "聊天页功能",
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 1,
       "skipped" : 0,
       "passed" : 3,
       "unknown" : 0,
-      "total" : 3
+      "total" : 4
+    }
+  }, {
+    "uid" : "af40b6a5431044e45966a5f4bfb3a094",
+    "name" : "刷首页算法",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "59d0263f5507ae5992b20516249072bb",
+    "name" : "计时功能",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 2
     }
   }, {
     "uid" : "6b682ff0134f9b24f258895168e35aca",
@@ -45,8 +78,8 @@
       "total" : 2
     }
   }, {
-    "uid" : "e245976f44b762103dfd3e41435c4df1",
-    "name" : "起床功能",
+    "uid" : "9fbcda4796eba892eb105427b0d72d54",
+    "name" : "创建学习群功能",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -56,48 +89,15 @@
       "total" : 2
     }
   }, {
-    "uid" : "af40b6a5431044e45966a5f4bfb3a094",
-    "name" : "刷首页算法",
+    "uid" : "e245976f44b762103dfd3e41435c4df1",
+    "name" : "起床功能",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
-    }
-  }, {
-    "uid" : "9fbcda4796eba892eb105427b0d72d54",
-    "name" : "创建学习群功能",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    }
-  }, {
-    "uid" : "3bf8fbcf61fb6064ef96745a8de1f3ac",
-    "name" : "关注列表检查",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    }
-  }, {
-    "uid" : "59d0263f5507ae5992b20516249072bb",
-    "name" : "计时功能",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
+      "total" : 2
     }
   }, {
     "uid" : "d7610e79dfa7230d0a808d43c49f2704",

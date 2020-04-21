@@ -44,7 +44,7 @@ class Test_CheckFollowList():
             time.sleep(2)
             number2 = self.page.more().get_followCount()
             temp2 = int(number2) - 1
-        with allure.step('判断关注人数是否变化正确'):
+        with allure.step('判断关注人数变化是否正确'):
             assert self.page.more().compare_count(temp1,temp2) == True
 
 

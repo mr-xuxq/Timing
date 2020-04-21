@@ -1,0 +1,290 @@
+{
+  "uid" : "958c8e8f014912b7",
+  "name" : "test_logout",
+  "fullName" : "test_004_loginByWexin.Test_loginByWexin#test_logout",
+  "historyId" : "f3c896c6eecc30ad9f2e61cb2c586e4d",
+  "time" : {
+    "start" : 1587462697382,
+    "stop" : 1587462717129,
+    "duration" : 19747
+  },
+  "status" : "passed",
+  "flaky" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "检测登陆状态",
+      "time" : {
+        "start" : 1587462697382,
+        "stop" : 1587462717129,
+        "duration" : 19747
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "点击更多按钮",
+        "time" : {
+          "start" : 1587462701015,
+          "stop" : 1587462712398,
+          "duration" : 11383
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "点击设置按钮",
+        "time" : {
+          "start" : 1587462712398,
+          "stop" : 1587462714892,
+          "duration" : 2494
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "点击退出登录按钮",
+        "time" : {
+          "start" : 1587462714892,
+          "stop" : 1587462715477,
+          "duration" : 585
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "确定退出",
+        "time" : {
+          "start" : 1587462715477,
+          "stop" : 1587462716549,
+          "duration" : 1072
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "断言:退出登录成功",
+        "time" : {
+          "start" : 1587462716549,
+          "stop" : 1587462717129,
+          "duration" : 580
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 5
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 6
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_004_loginByWexin"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_loginByWexin"
+  }, {
+    "name" : "host",
+    "value" : "PV-X00232293"
+  }, {
+    "name" : "thread",
+    "value" : "40208-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_004_loginByWexin"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "c10e10ac2c642d80",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587459257333,
+        "stop" : 1587459296523,
+        "duration" : 39190
+      }
+    }, {
+      "uid" : "9a94f84de08573a7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587261575937,
+        "stop" : 1587261605207,
+        "duration" : 29270
+      }
+    }, {
+      "uid" : "6915881811002304",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587259841470,
+        "stop" : 1587259910102,
+        "duration" : 68632
+      }
+    }, {
+      "uid" : "3b6fffc7cd744cc2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587153714065,
+        "stop" : 1587153753898,
+        "duration" : 39833
+      }
+    }, {
+      "uid" : "5e1d9104681ad879",
+      "status" : "broken",
+      "statusDetails" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=4723): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001A6C0275278>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))",
+      "time" : {
+        "start" : 1587152972210,
+        "stop" : 1587152972210,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "8f879a598cfd82fd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587030311202,
+        "stop" : 1587030363672,
+        "duration" : 52470
+      }
+    }, {
+      "uid" : "f21e1042bfcdd091",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587022450844,
+        "stop" : 1587022477961,
+        "duration" : 27117
+      }
+    }, {
+      "uid" : "2cc1de5e88235d11",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587018913446,
+        "stop" : 1587018941813,
+        "duration" : 28367
+      }
+    }, {
+      "uid" : "14ab1f00749d4b6b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587014261388,
+        "stop" : 1587014291846,
+        "duration" : 30458
+      }
+    }, {
+      "uid" : "f1126ad1c720d75c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1586507349070,
+        "stop" : 1586507369097,
+        "duration" : 20027
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 23,
+        "unknown" : 0,
+        "total" : 24
+      },
+      "items" : [ {
+        "uid" : "e309a8050f3e0ca",
+        "reportUrl" : "http://192.168.88.58:8080/job/Timing/52/allure/#testresult/e309a8050f3e0ca",
+        "status" : "passed",
+        "time" : {
+          "start" : 1587459257333,
+          "stop" : 1587459296523,
+          "duration" : 39190
+        }
+      }, {
+        "uid" : "20ffaaeb9f71dc27",
+        "reportUrl" : "http://192.168.88.58:8080/job/Timing/51/allure/#testresult/20ffaaeb9f71dc27",
+        "status" : "passed",
+        "time" : {
+          "start" : 1587261575937,
+          "stop" : 1587261605207,
+          "duration" : 29270
+        }
+      }, {
+        "uid" : "ab35699917b49d04",
+        "reportUrl" : "http://192.168.88.58:8080/job/Timing/49/allure/#testresult/ab35699917b49d04",
+        "status" : "passed",
+        "time" : {
+          "start" : 1587153714065,
+          "stop" : 1587153753898,
+          "duration" : 39833
+        }
+      }, {
+        "uid" : "e0aeaa5c35cd4420",
+        "reportUrl" : "http://192.168.88.58:8080/job/Timing/48/allure/#testresult/e0aeaa5c35cd4420",
+        "status" : "broken",
+        "statusDetails" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=4723): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001A6C0275278>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))",
+        "time" : {
+          "start" : 1587152972210,
+          "stop" : 1587152972210,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "838b0c558ea12fdc",
+        "reportUrl" : "http://192.168.88.58:8080/job/Timing/46/allure/#testresult/838b0c558ea12fdc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1587030311202,
+          "stop" : 1587030363672,
+          "duration" : 52470
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "958c8e8f014912b7.json",
+  "parameterValues" : [ ]
+}

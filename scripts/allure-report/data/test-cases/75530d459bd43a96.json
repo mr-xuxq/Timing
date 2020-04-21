@@ -1,0 +1,141 @@
+{
+  "uid" : "75530d459bd43a96",
+  "name" : "test_teamChatWord",
+  "fullName" : "test_025_groupChat.Test_teamChat#test_teamChatWord",
+  "historyId" : "886f72d5cbfe1f3813b2e8841e171b18",
+  "time" : {
+    "start" : 1587262269674,
+    "stop" : 1587262301540,
+    "duration" : 31866
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "点击小书童后返回至消息页面，使小书童不置顶",
+      "time" : {
+        "start" : 1587262273683,
+        "stop" : 1587262277637,
+        "duration" : 3954
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "找到群组后使channel置顶",
+      "time" : {
+        "start" : 1587262277637,
+        "stop" : 1587262301540,
+        "duration" : 23903
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "点击channel进入聊天页面",
+        "time" : {
+          "start" : 1587262285449,
+          "stop" : 1587262288025,
+          "duration" : 2576
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "发送聊天消息",
+        "time" : {
+          "start" : 1587262288025,
+          "stop" : 1587262300417,
+          "duration" : 12392
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "校验结果：若发送成功，消息页会显示最新消息",
+        "time" : {
+          "start" : 1587262301540,
+          "stop" : 1587262301540,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 3
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 5
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "文字聊天"
+  }, {
+    "name" : "feature",
+    "value" : "群组聊天功能"
+  }, {
+    "name" : "suite",
+    "value" : "test_025_groupChat"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_teamChat"
+  }, {
+    "name" : "host",
+    "value" : "PV-X00232293"
+  }, {
+    "name" : "thread",
+    "value" : "12928-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_025_groupChat"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "75530d459bd43a96.json",
+  "parameterValues" : [ ]
+}

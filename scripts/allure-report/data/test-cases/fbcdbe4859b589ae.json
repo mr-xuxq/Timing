@@ -1,0 +1,96 @@
+{
+  "uid" : "fbcdbe4859b589ae",
+  "name" : "test_registerAccount",
+  "fullName" : "test_001_registerAccount.Test_registerAccount#test_registerAccount",
+  "historyId" : "70208ecb89cae63421bdb3a7ce67b14a",
+  "time" : {
+    "start" : 1587152009405,
+    "stop" : 1587152014772,
+    "duration" : 5367
+  },
+  "status" : "broken",
+  "statusMessage" : "NameError: name 'engine' is not defined",
+  "statusTrace" : "self = <scripts.test_001_registerAccount.Test_registerAccount object at 0x000001B3145EEDD8>\n\n    def test_registerAccount(self):\n        with allure.step('点击手机号登录'):\n            self.page.login().click_phone_login()\n        with allure.step('查询尚未注册的手机号并填入'):\n            ID = \"1\"\n            Phone = phone\n            while len(ID) == 1:\n                Phone = Phone + 1\n>               ID = pd.read_sql('SELECT ID FROM t_user where phone=\"' + str(Phone) + '\" ', engine)\nE               NameError: name 'engine' is not defined\n\ntest_001_registerAccount.py:37: NameError",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "NameError: name 'engine' is not defined",
+    "statusTrace" : "self = <scripts.test_001_registerAccount.Test_registerAccount object at 0x000001B3145EEDD8>\n\n    def test_registerAccount(self):\n        with allure.step('点击手机号登录'):\n            self.page.login().click_phone_login()\n        with allure.step('查询尚未注册的手机号并填入'):\n            ID = \"1\"\n            Phone = phone\n            while len(ID) == 1:\n                Phone = Phone + 1\n>               ID = pd.read_sql('SELECT ID FROM t_user where phone=\"' + str(Phone) + '\" ', engine)\nE               NameError: name 'engine' is not defined\n\ntest_001_registerAccount.py:37: NameError",
+    "steps" : [ {
+      "name" : "点击手机号登录",
+      "time" : {
+        "start" : 1587152009405,
+        "stop" : 1587152014772,
+        "duration" : 5367
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "查询尚未注册的手机号并填入",
+      "time" : {
+        "start" : 1587152014772,
+        "stop" : 1587152014772,
+        "duration" : 0
+      },
+      "status" : "broken",
+      "statusMessage" : "NameError: name 'engine' is not defined\n",
+      "statusTrace" : "  File \"D:\\jenkins\\workspace\\Timing\\scripts\\test_001_registerAccount.py\", line 37, in test_registerAccount\n    ID = pd.read_sql('SELECT ID FROM t_user where phone=\"' + str(Phone) + '\" ', engine)\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true,
+    "stepsCount" : 2
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_001_registerAccount"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_registerAccount"
+  }, {
+    "name" : "host",
+    "value" : "PV-X00232293"
+  }, {
+    "name" : "thread",
+    "value" : "6508-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_001_registerAccount"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fbcdbe4859b589ae.json",
+  "parameterValues" : [ ]
+}

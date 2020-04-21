@@ -46,10 +46,11 @@ class Test_friendChat():
             time.sleep(1)
             self.page.message().click_messageFriend()
         with allure.step('输入聊天消息并点击发送'):
+            #等待时间过长
             self.page.friend_chat().click_messageBox()
             self.page.friend_chat().input_messageBox("I am a message!")
             self.page.friend_chat().click_messageSend()
-            time.sleep(5)
+            time.sleep(8)
             self.page.friend_chat().click_back()
             count = self.driver.find_element_by_id('com.huiian.timing:id/friend_msg_content_tv').text
         with allure.step('校验结果：若发送成功，消息页会显示最新消息'):
@@ -79,7 +80,7 @@ class Test_friendChat():
             time.sleep(3)
             self.page.choose_image().click_chooseImage()
             self.page.choose_image().click_nextStep()
-            time.sleep(8)
+            time.sleep(15)
             self.page.friend_chat().click_back()
             count = self.driver.find_element_by_id('com.huiian.timing:id/friend_msg_content_tv').text
         with allure.step('校验结果：若发送成功，消息页会显示最新图片'):
@@ -107,7 +108,7 @@ class Test_friendChat():
         with allure.step('视频选择页选中一个视频并发送'):
             time.sleep(3)
             self.page.choose_video().click_chooseVideo()
-            time.sleep(15)
+            time.sleep(30)
             self.page.friend_chat().click_back()
             count = self.driver.find_element_by_id('com.huiian.timing:id/friend_msg_content_tv').text
             with allure.step('取消道友channel置顶'):

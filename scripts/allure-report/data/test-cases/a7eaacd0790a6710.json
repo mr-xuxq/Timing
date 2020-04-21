@@ -1,0 +1,108 @@
+{
+  "uid" : "a7eaacd0790a6710",
+  "name" : "test_tomatoTiming",
+  "fullName" : "test_052_tomatoTiming.Test_tomatoTiming#test_tomatoTiming",
+  "historyId" : "215a606a6bd5c4b1fff76af9c931bf8f",
+  "time" : {
+    "start" : 1587460950543,
+    "stop" : 1587460973009,
+    "duration" : 22466
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "进入发布页面",
+      "time" : {
+        "start" : 1587460950543,
+        "stop" : 1587460960830,
+        "duration" : 10287
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "点击学习计时按钮，设定内容后开始",
+      "time" : {
+        "start" : 1587460960830,
+        "stop" : 1587460972514,
+        "duration" : 11684
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "判断能否正常进入番茄计时页面",
+      "time" : {
+        "start" : 1587460972515,
+        "stop" : 1587460973009,
+        "duration" : 494
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 3
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "番茄计时功能"
+  }, {
+    "name" : "suite",
+    "value" : "test_052_tomatoTiming"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_tomatoTiming"
+  }, {
+    "name" : "host",
+    "value" : "PV-X00232293"
+  }, {
+    "name" : "thread",
+    "value" : "37496-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_052_tomatoTiming"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a7eaacd0790a6710.json",
+  "parameterValues" : [ ]
+}

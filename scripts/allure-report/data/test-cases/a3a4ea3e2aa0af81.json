@@ -1,0 +1,199 @@
+{
+  "uid" : "a3a4ea3e2aa0af81",
+  "name" : "test_deleteVideo",
+  "fullName" : "test_032_postVideo.Test_postDiary#test_deleteVideo",
+  "historyId" : "6cbbe62142c439969ff978766c51afff",
+  "time" : {
+    "start" : 1587463939394,
+    "stop" : 1587464086140,
+    "duration" : 146746
+  },
+  "status" : "passed",
+  "flaky" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "检测登陆状态",
+      "time" : {
+        "start" : 1587463944394,
+        "stop" : 1587464086140,
+        "duration" : 141746
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "断言:删除视频日记成功",
+        "time" : {
+          "start" : 1587464086140,
+          "stop" : 1587464086140,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 1
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 2
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_032_postVideo"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_postDiary"
+  }, {
+    "name" : "host",
+    "value" : "PV-X00232293"
+  }, {
+    "name" : "thread",
+    "value" : "40208-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_032_postVideo"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "f3d982c228c3db4f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587460548555,
+        "stop" : 1587460642560,
+        "duration" : 94005
+      }
+    }, {
+      "uid" : "2669b71bd8650bf0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587262605734,
+        "stop" : 1587262661942,
+        "duration" : 56208
+      }
+    }, {
+      "uid" : "c53397816664665b",
+      "status" : "broken",
+      "statusDetails" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=4723): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000224357EBAC8>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))",
+      "time" : {
+        "start" : 1587261279000,
+        "stop" : 1587261279000,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "f529508efd8a49a5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587154905597,
+        "stop" : 1587154961997,
+        "duration" : 56400
+      }
+    }, {
+      "uid" : "2e6b655289a16e2d",
+      "status" : "broken",
+      "statusDetails" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=4723): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001A6C13AC860>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))",
+      "time" : {
+        "start" : 1587153070541,
+        "stop" : 1587153070541,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "2799ac744f0b0acb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587148689909,
+        "stop" : 1587148834790,
+        "duration" : 144881
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 6,
+        "unknown" : 0,
+        "total" : 7
+      },
+      "items" : [ {
+        "uid" : "d8f9d817fa7d5d4",
+        "reportUrl" : "http://192.168.88.58:8080/job/Timing/52/allure/#testresult/d8f9d817fa7d5d4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1587460548555,
+          "stop" : 1587460642560,
+          "duration" : 94005
+        }
+      }, {
+        "uid" : "3dae5ee86488911d",
+        "reportUrl" : "http://192.168.88.58:8080/job/Timing/51/allure/#testresult/3dae5ee86488911d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1587262605734,
+          "stop" : 1587262661942,
+          "duration" : 56208
+        }
+      }, {
+        "uid" : "8ca05a9f0e77f5a6",
+        "reportUrl" : "http://192.168.88.58:8080/job/Timing/49/allure/#testresult/8ca05a9f0e77f5a6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1587154905597,
+          "stop" : 1587154961997,
+          "duration" : 56400
+        }
+      }, {
+        "uid" : "9318ebeb1d9fb968",
+        "reportUrl" : "http://192.168.88.58:8080/job/Timing/48/allure/#testresult/9318ebeb1d9fb968",
+        "status" : "broken",
+        "statusDetails" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=4723): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001A6C13AC860>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))",
+        "time" : {
+          "start" : 1587153070541,
+          "stop" : 1587153070541,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "4e9c44a80c2bec3d",
+        "reportUrl" : "http://192.168.88.58:8080/job/Timing/46/allure/#testresult/4e9c44a80c2bec3d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1587148689909,
+          "stop" : 1587148834790,
+          "duration" : 144881
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "a3a4ea3e2aa0af81.json",
+  "parameterValues" : [ ]
+}

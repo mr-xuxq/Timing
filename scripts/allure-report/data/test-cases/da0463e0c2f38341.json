@@ -1,0 +1,111 @@
+{
+  "uid" : "da0463e0c2f38341",
+  "name" : "test_getupRecord",
+  "fullName" : "test_055_getupRecord.Test_getupRecord#test_getupRecord",
+  "historyId" : "319b39143544ebf4f1bf973be192a619",
+  "time" : {
+    "start" : 1587461182116,
+    "stop" : 1587461385692,
+    "duration" : 203576
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "进入发布页面",
+      "time" : {
+        "start" : 1587461182117,
+        "stop" : 1587461213229,
+        "duration" : 31112
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "点击起床，关闭起床打卡弹窗",
+      "time" : {
+        "start" : 1587461213229,
+        "stop" : 1587461214872,
+        "duration" : 1643
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "判断是否成功起床",
+      "time" : {
+        "start" : 1587461214872,
+        "stop" : 1587461385692,
+        "duration" : 170820
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 3
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "起床操作"
+  }, {
+    "name" : "feature",
+    "value" : "起床功能"
+  }, {
+    "name" : "suite",
+    "value" : "test_055_getupRecord"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_getupRecord"
+  }, {
+    "name" : "host",
+    "value" : "PV-X00232293"
+  }, {
+    "name" : "thread",
+    "value" : "37496-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_055_getupRecord"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "da0463e0c2f38341.json",
+  "parameterValues" : [ ]
+}

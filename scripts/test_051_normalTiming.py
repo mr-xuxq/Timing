@@ -19,18 +19,15 @@ class Test_normalTiming():
 
     @allure.story('学习计时达1min操作')
     def test_normalTiming(self):
-        with allure.step('进入更多页面'):
-            self.page.more().click_more()
-            time.sleep(2)
-        with allure.step('滑动更多页面至底部'):
-            self.page.more().swipeByMore()
-            time.sleep(3)
+        with allure.step('进入发布页面'):
+            self.page.shouye().click_post()
+            time.sleep(5)
         with allure.step('点击学习计时按钮，设定内容后开始'):
             self.page.more().click_normalTiming()
             self.page.timing().input_studyContentBox('This is Timing')
             self.page.timing().click_studySettingBtn()
             e1 = self.driver.find_element_by_xpath("//*[@text='01']")
-            self.action.long_press(e1, None, None, 400).perform()
+            self.action.long_press(e1, None, None, 800).perform()
             self.page.timing().click_studySettingsuccessBtn()
             self.page.timing().click_startTimingBtn()
             time.sleep(62)

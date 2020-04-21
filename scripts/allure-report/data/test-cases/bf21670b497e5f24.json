@@ -1,0 +1,105 @@
+{
+  "uid" : "bf21670b497e5f24",
+  "name" : "test_loginByWexin",
+  "fullName" : "test_004_loginByWexin.Test_loginByWexin#test_loginByWexin",
+  "historyId" : "cc260aa809f1fa2970fc9598557b8c6d",
+  "time" : {
+    "start" : 1587259805002,
+    "stop" : 1587259838119,
+    "duration" : 33117
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "点击Weixin登录",
+      "time" : {
+        "start" : 1587259805002,
+        "stop" : 1587259817875,
+        "duration" : 12873
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "检查是否跳到首页",
+      "time" : {
+        "start" : 1587259817875,
+        "stop" : 1587259838119,
+        "duration" : 20244
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "断言:登录成功",
+        "time" : {
+          "start" : 1587259827992,
+          "stop" : 1587259838119,
+          "duration" : 10127
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 1
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 3
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_004_loginByWexin"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_loginByWexin"
+  }, {
+    "name" : "host",
+    "value" : "PV-X00232293"
+  }, {
+    "name" : "thread",
+    "value" : "12936-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_004_loginByWexin"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "bf21670b497e5f24.json",
+  "parameterValues" : [ ]
+}

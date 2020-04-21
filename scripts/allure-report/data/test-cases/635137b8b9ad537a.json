@@ -1,0 +1,156 @@
+{
+  "uid" : "635137b8b9ad537a",
+  "name" : "test_sleepRecord",
+  "fullName" : "test_054_sleepRecord.Test_sleepRecord#test_sleepRecord",
+  "historyId" : "5b73c6119d9474dd20623f16f3d86122",
+  "time" : {
+    "start" : 1587134960832,
+    "stop" : 1587135008892,
+    "duration" : 48060
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "进入更多页面",
+      "time" : {
+        "start" : 1587134960832,
+        "stop" : 1587134981237,
+        "duration" : 20405
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "点击tab【+】，选择起床睡觉按钮",
+      "time" : {
+        "start" : 1587134981237,
+        "stop" : 1587134984437,
+        "duration" : 3200
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "点击睡觉按钮，进入睡觉页面",
+      "time" : {
+        "start" : 1587134984437,
+        "stop" : 1587135008372,
+        "duration" : 23935
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "点击睡觉",
+        "time" : {
+          "start" : 1587134990343,
+          "stop" : 1587134995535,
+          "duration" : 5192
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "进入睡觉页面后关闭睡觉打卡弹窗，并点击起床",
+        "time" : {
+          "start" : 1587134995535,
+          "stop" : 1587135008372,
+          "duration" : 12837
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 2
+    }, {
+      "name" : "判断是否成功起床",
+      "time" : {
+        "start" : 1587135008372,
+        "stop" : 1587135008892,
+        "duration" : 520
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 6
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "睡觉后再起床操作"
+  }, {
+    "name" : "feature",
+    "value" : "睡觉后起床功能"
+  }, {
+    "name" : "suite",
+    "value" : "test_054_sleepRecord"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_sleepRecord"
+  }, {
+    "name" : "host",
+    "value" : "PC-201905121411"
+  }, {
+    "name" : "thread",
+    "value" : "9144-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_054_sleepRecord"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "635137b8b9ad537a.json",
+  "parameterValues" : [ ]
+}

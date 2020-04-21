@@ -99,3 +99,10 @@ class Message(BaseAction):
     def get_followCount(self):
         count = self.driver.find_element_by_id('com.huiian.timing:id/friend_msg_content_tv').text
         return count
+
+    #在消息页面找群组
+    def waitAndfind_discussTeam(self):
+        if self.waitLoading(self.messageTeam,t = 1) == True:
+            return True
+        else:
+            return False

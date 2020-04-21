@@ -1,0 +1,463 @@
+{
+  "uid" : "f2c7f487bd0f6072",
+  "name" : "test_postDiary",
+  "fullName" : "test_031_postDiary.Test_postDiary#test_postDiary",
+  "historyId" : "2393a1199737e7f6568d8b37e9f87f79",
+  "time" : {
+    "start" : 1587463621072,
+    "stop" : 1587463679501,
+    "duration" : 58429
+  },
+  "status" : "passed",
+  "flaky" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "进入发布页",
+      "time" : {
+        "start" : 1587463626073,
+        "stop" : 1587463627296,
+        "duration" : 1223
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "点击发布学习日记",
+      "time" : {
+        "start" : 1587463627296,
+        "stop" : 1587463630848,
+        "duration" : 3552
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "点击上传图片",
+      "time" : {
+        "start" : 1587463630848,
+        "stop" : 1587463633149,
+        "duration" : 2301
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "选定图片",
+      "time" : {
+        "start" : 1587463633149,
+        "stop" : 1587463634861,
+        "duration" : 1712
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "下一步，进入图片编辑页",
+      "time" : {
+        "start" : 1587463634861,
+        "stop" : 1587463638142,
+        "duration" : 3281
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "已确定图片，进入下一步",
+      "time" : {
+        "start" : 1587463638142,
+        "stop" : 1587463641691,
+        "duration" : 3549
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "点击添加话题",
+      "time" : {
+        "start" : 1587463641692,
+        "stop" : 1587463642984,
+        "duration" : 1292
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "输入话题",
+      "time" : {
+        "start" : 1587463642984,
+        "stop" : 1587463649119,
+        "duration" : 6135
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "完成话题编辑",
+      "time" : {
+        "start" : 1587463649119,
+        "stop" : 1587463653149,
+        "duration" : 4030
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "输入日记正文",
+      "time" : {
+        "start" : 1587463653149,
+        "stop" : 1587463658398,
+        "duration" : 5249
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "点击发布按钮",
+      "time" : {
+        "start" : 1587463658398,
+        "stop" : 1587463669400,
+        "duration" : 11002
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "断言:日记发布成功",
+      "time" : {
+        "start" : 1587463669400,
+        "stop" : 1587463679501,
+        "duration" : 10101
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 12
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_031_postDiary"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_postDiary"
+  }, {
+    "name" : "host",
+    "value" : "PV-X00232293"
+  }, {
+    "name" : "thread",
+    "value" : "40208-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_031_postDiary"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "ef51bc1ee07a34f8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587460181627,
+        "stop" : 1587460253283,
+        "duration" : 71656
+      }
+    }, {
+      "uid" : "229072dcdaf6ce5b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587262382854,
+        "stop" : 1587262430282,
+        "duration" : 47428
+      }
+    }, {
+      "uid" : "8fd76c3ae3dbbc96",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1587261126190,
+        "stop" : 1587261234524,
+        "duration" : 108334
+      }
+    }, {
+      "uid" : "63f84ba4482229d5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587154652705,
+        "stop" : 1587154713740,
+        "duration" : 61035
+      }
+    }, {
+      "uid" : "733f57a8a1b7ab44",
+      "status" : "broken",
+      "statusDetails" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=4723): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001A6C13A0978>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))",
+      "time" : {
+        "start" : 1587153055017,
+        "stop" : 1587153055017,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "c4f954db8e3beb85",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587148350289,
+        "stop" : 1587148414918,
+        "duration" : 64629
+      }
+    }, {
+      "uid" : "7ac998db939163b0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587134273393,
+        "stop" : 1587134339270,
+        "duration" : 65877
+      }
+    }, {
+      "uid" : "efeca2dfc63b71e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587126647302,
+        "stop" : 1587126712473,
+        "duration" : 65171
+      }
+    }, {
+      "uid" : "84d5b31429e96831",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587124321898,
+        "stop" : 1587124375327,
+        "duration" : 53429
+      }
+    }, {
+      "uid" : "f547327735fa571a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587044711977,
+        "stop" : 1587044769079,
+        "duration" : 57102
+      }
+    }, {
+      "uid" : "249fd6dcc110c39c",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1587040593044,
+        "stop" : 1587040649179,
+        "duration" : 56135
+      }
+    }, {
+      "uid" : "43d695289424803b",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1587038031307,
+        "stop" : 1587038087607,
+        "duration" : 56300
+      }
+    }, {
+      "uid" : "2f2cd85ac81c02ae",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587031379062,
+        "stop" : 1587031452181,
+        "duration" : 73119
+      }
+    }, {
+      "uid" : "afbaca44edacb935",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587023143075,
+        "stop" : 1587023210356,
+        "duration" : 67281
+      }
+    }, {
+      "uid" : "2b98c672e55a510f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587019675281,
+        "stop" : 1587019734636,
+        "duration" : 59355
+      }
+    }, {
+      "uid" : "3b9cfd6d65c6a1e0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587014995216,
+        "stop" : 1587015052953,
+        "duration" : 57737
+      }
+    }, {
+      "uid" : "6b3c722aac8d8e02",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587011732871,
+        "stop" : 1587011801334,
+        "duration" : 68463
+      }
+    }, {
+      "uid" : "6cb82b3c42bc19b4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587008905227,
+        "stop" : 1587008973347,
+        "duration" : 68120
+      }
+    }, {
+      "uid" : "3fe142579282d5c4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1586508182636,
+        "stop" : 1586508284237,
+        "duration" : 101601
+      }
+    }, {
+      "uid" : "bfbf3c27dcd3c7fb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1586147466453,
+        "stop" : 1586147507691,
+        "duration" : 41238
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 27,
+        "unknown" : 0,
+        "total" : 28
+      },
+      "items" : [ {
+        "uid" : "86394b4a136ac65b",
+        "reportUrl" : "http://192.168.88.58:8080/job/Timing/52/allure/#testresult/86394b4a136ac65b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1587460181627,
+          "stop" : 1587460253283,
+          "duration" : 71656
+        }
+      }, {
+        "uid" : "2d16525f07a391fc",
+        "reportUrl" : "http://192.168.88.58:8080/job/Timing/51/allure/#testresult/2d16525f07a391fc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1587262382854,
+          "stop" : 1587262430282,
+          "duration" : 47428
+        }
+      }, {
+        "uid" : "ce1b21b5516fbd88",
+        "reportUrl" : "http://192.168.88.58:8080/job/Timing/49/allure/#testresult/ce1b21b5516fbd88",
+        "status" : "passed",
+        "time" : {
+          "start" : 1587154652705,
+          "stop" : 1587154713740,
+          "duration" : 61035
+        }
+      }, {
+        "uid" : "44637038180537d2",
+        "reportUrl" : "http://192.168.88.58:8080/job/Timing/48/allure/#testresult/44637038180537d2",
+        "status" : "broken",
+        "statusDetails" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=4723): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001A6C13A0978>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))",
+        "time" : {
+          "start" : 1587153055017,
+          "stop" : 1587153055017,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "2a0eaacbe5933b2d",
+        "reportUrl" : "http://192.168.88.58:8080/job/Timing/46/allure/#testresult/2a0eaacbe5933b2d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1587148350289,
+          "stop" : 1587148414918,
+          "duration" : 64629
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "f2c7f487bd0f6072.json",
+  "parameterValues" : [ ]
+}

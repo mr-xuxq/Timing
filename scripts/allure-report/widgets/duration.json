@@ -1,320 +1,520 @@
 [ {
-  "uid" : "9cb057893a5a200b",
-  "name" : "test_loginByCaptcha",
-  "time" : {
-    "start" : 1587060594197,
-    "stop" : 1587060620948,
-    "duration" : 26751
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "2d6edc89367546bb",
-  "name" : "test_treeHole",
-  "time" : {
-    "start" : 1587060895481,
-    "stop" : 1587060932950,
-    "duration" : 37469
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "98d2f538295ec647",
-  "name" : "test_loginByPwd",
-  "time" : {
-    "start" : 1587060714080,
-    "stop" : 1587060739512,
-    "duration" : 25432
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "9425287c16298961",
-  "name" : "test_chatVideo",
-  "time" : {
-    "start" : 1587061299847,
-    "stop" : 1587061406380,
-    "duration" : 106533
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "4b3768b2212d6d97",
-  "name" : "test_checkFollowList",
-  "time" : {
-    "start" : 1587061939804,
-    "stop" : 1587061998630,
-    "duration" : 58826
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "dd454f9f22802dc3",
-  "name" : "test_browsesVlog",
-  "time" : {
-    "start" : 1587060742633,
-    "stop" : 1587060788068,
-    "duration" : 45435
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "24bc520ec5d49db1",
-  "name" : "test_browseShowye",
-  "time" : {
-    "start" : 1587060857450,
-    "stop" : 1587060892449,
-    "duration" : 34999
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "c789d9e6b209c009",
-  "name" : "test_getupRecord",
-  "time" : {
-    "start" : 1587062321970,
-    "stop" : 1587062341558,
-    "duration" : 19588
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "d10712c3c1f1d9fc",
-  "name" : "test_imgInfo",
-  "time" : {
-    "start" : 1587061912480,
-    "stop" : 1587061936554,
-    "duration" : 24074
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "1eebd6a8fdc9bcdd",
-  "name" : "test_sleepRecord",
-  "time" : {
-    "start" : 1587062282399,
-    "stop" : 1587062318653,
-    "duration" : 36254
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "6e61f789ff70b5d3",
-  "name" : "test_logout",
-  "time" : {
-    "start" : 1587060623740,
-    "stop" : 1587060649444,
-    "duration" : 25704
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "8254091c7d3ddec6",
-  "name" : "test_chatImage",
-  "time" : {
-    "start" : 1587061528867,
-    "stop" : 1587061580055,
-    "duration" : 51188
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "9bbf7cd450a039c6",
-  "name" : "test_timingService",
-  "time" : {
-    "start" : 1587060936349,
-    "stop" : 1587060956228,
-    "duration" : 19879
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "d5631592af815b14",
-  "name" : "test_videoRecordTiming",
-  "time" : {
-    "start" : 1587062125450,
-    "stop" : 1587062278247,
-    "duration" : 152797
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "4af807600f396085",
-  "name" : "test_deleteDiary",
-  "time" : {
-    "start" : 1587061701449,
-    "stop" : 1587061836719,
-    "duration" : 135270
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "6b1a21fb48a64b45",
-  "name" : "test_chatImage",
-  "time" : {
-    "start" : 1587061177879,
-    "stop" : 1587061297147,
-    "duration" : 119268
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "719f186011b48d0c",
-  "name" : "test_logout",
-  "time" : {
-    "start" : 1587062345835,
-    "stop" : 1587062372268,
-    "duration" : 26433
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "cbe737d50af0a22f",
-  "name" : "test_tomatoTiming",
-  "time" : {
-    "start" : 1587062099381,
-    "stop" : 1587062121447,
-    "duration" : 22066
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "f9e41ebde647db78",
-  "name" : "test_videoRoom_visitor",
-  "time" : {
-    "start" : 1587060791265,
-    "stop" : 1587060854385,
-    "duration" : 63120
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "1bf38636b0663f50",
-  "name" : "test_normalTiming",
-  "time" : {
-    "start" : 1587062001420,
-    "stop" : 1587062096405,
-    "duration" : 94985
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "19ac49336f41fcf6",
-  "name" : "test_logout",
-  "time" : {
-    "start" : 1587060675110,
-    "stop" : 1587060711229,
-    "duration" : 36119
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "cfd075a6b3b6e557",
-  "name" : "test_chatWord",
-  "time" : {
-    "start" : 1587060972368,
-    "stop" : 1587061169943,
-    "duration" : 197575
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "c3df900aacdf0cfd",
-  "name" : "test_chatVideo",
-  "time" : {
-    "start" : 1587061582813,
-    "stop" : 1587061633185,
-    "duration" : 50372
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "6a55ed09772807bc",
-  "name" : "test_registerAccount",
-  "time" : {
-    "start" : 1587060481027,
-    "stop" : 1587060562798,
-    "duration" : 81771
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "94c984cafa9fb359",
+  "uid" : "5cff2b8d65acee1e",
   "name" : "test_teamChatWord",
   "time" : {
-    "start" : 1587061447174,
-    "stop" : 1587061526192,
-    "duration" : 79018
+    "start" : 1587463162368,
+    "stop" : 1587463378390,
+    "duration" : 216022
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "9727a83ed5fb6e6c",
-  "name" : "test_genderInfo",
+  "uid" : "b7fea4f20eb93e84",
+  "name" : "test_dismissTeam",
   "time" : {
-    "start" : 1587061875135,
-    "stop" : 1587061909268,
-    "duration" : 34133
+    "start" : 1587463129045,
+    "stop" : 1587463158514,
+    "duration" : 29469
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "350968b501fae5c",
-  "name" : "test_loginByQQ",
+  "uid" : "ec9f7713618d64b5",
+  "name" : "test_videoRoom_visitor",
   "time" : {
-    "start" : 1587060652481,
-    "stop" : 1587060671791,
-    "duration" : 19310
+    "start" : 1587462800207,
+    "stop" : 1587462877123,
+    "duration" : 76916
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "f02a793202e09b58",
-  "name" : "test_discussTeam",
-  "time" : {
-    "start" : 1587061410042,
-    "stop" : 1587061444451,
-    "duration" : 34409
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "8966123faefabbe7",
-  "name" : "test_postDiary",
-  "time" : {
-    "start" : 1587061636035,
-    "stop" : 1587061698552,
-    "duration" : 62517
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "56d5870730b064c8",
-  "name" : "test_nameInfo",
-  "time" : {
-    "start" : 1587061839588,
-    "stop" : 1587061872332,
-    "duration" : 32744
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "437522432dace2cb",
-  "name" : "test_interaction",
-  "time" : {
-    "start" : 1587060959290,
-    "stop" : 1587060968139,
-    "duration" : 8849
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "19981e2561d2a311",
+  "uid" : "6ff5b1546943112f",
   "name" : "test_logout",
   "time" : {
-    "start" : 1587060565567,
-    "stop" : 1587060591403,
-    "duration" : 25836
+    "start" : 1585822069087,
+    "stop" : 1585822089157,
+    "duration" : 20070
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e51ed190ec4c2f07",
+  "name" : "test_browseShowye",
+  "time" : {
+    "start" : 1587462880917,
+    "stop" : 1587462909245,
+    "duration" : 28328
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c0e5f93940d38048",
+  "name" : "test_logout",
+  "time" : {
+    "start" : 1587462609670,
+    "stop" : 1587462622658,
+    "duration" : 12988
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "771b9b86d4bc5778",
+  "name" : "test_logout",
+  "time" : {
+    "start" : 1579351334315,
+    "stop" : 1579351348447,
+    "duration" : 14132
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ac9dcb500311a8a0",
+  "name" : "test_timingService",
+  "time" : {
+    "start" : 1587462913170,
+    "stop" : 1587462933068,
+    "duration" : 19898
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "97283391ca88ff4d",
+  "name" : "test_chatImage",
+  "time" : {
+    "start" : 1587463382067,
+    "stop" : 1587463505296,
+    "duration" : 123229
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e7ac4fd37e2bb0b7",
+  "name" : "test_loginByPwd",
+  "time" : {
+    "start" : 1586158252495,
+    "stop" : 1586158273162,
+    "duration" : 20667
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f2c7f487bd0f6072",
+  "name" : "test_postDiary",
+  "time" : {
+    "start" : 1587463621072,
+    "stop" : 1587463679501,
+    "duration" : 58429
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "958c8e8f014912b7",
+  "name" : "test_logout",
+  "time" : {
+    "start" : 1587462697382,
+    "stop" : 1587462717129,
+    "duration" : 19747
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "51dec3fc4711f5d",
+  "name" : "test_videoRoom",
+  "time" : {
+    "start" : 1585822004736,
+    "stop" : 1585822064937,
+    "duration" : 60201
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4df034c67a903023",
+  "name" : "test_getupRecord",
+  "time" : {
+    "start" : 1587464641851,
+    "stop" : 1587464822077,
+    "duration" : 180226
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "141857a69f3b741d",
+  "name" : "test_chatWord",
+  "time" : {
+    "start" : 1587462947291,
+    "stop" : 1587463017535,
+    "duration" : 70244
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ad67a563685ba17b",
+  "name" : "test_chatVideo",
+  "time" : {
+    "start" : 1587463077070,
+    "stop" : 1587463092633,
+    "duration" : 15563
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "dac9dc642fb49ded",
+  "name" : "test_swipeO",
+  "time" : {
+    "start" : 1586158913916,
+    "stop" : 1586158947904,
+    "duration" : 33988
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "6a38b12ada490f3",
+  "name" : "test_nameInfo",
+  "time" : {
+    "start" : 1587464089920,
+    "stop" : 1587464137676,
+    "duration" : 47756
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d99982a405f9a0a8",
+  "name" : "test_pointVanish",
+  "time" : {
+    "start" : 1586159253607,
+    "stop" : 1586159471147,
+    "duration" : 217540
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "beee8f43369c723d",
+  "name" : "test_checkFollowList",
+  "time" : {
+    "start" : 1587464236860,
+    "stop" : 1587464288762,
+    "duration" : 51902
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "e0f89930a2c966b3",
+  "name" : "test_videoRecordTiming",
+  "time" : {
+    "start" : 1587464419600,
+    "stop" : 1587464578881,
+    "duration" : 159281
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e87ed47f03e8c329",
+  "name" : "test_loginByQQ",
+  "time" : {
+    "start" : 1587462626011,
+    "stop" : 1587462640524,
+    "duration" : 14513
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e4961674b73880",
+  "name" : "test_chatImage",
+  "time" : {
+    "start" : 1587463021303,
+    "stop" : 1587463073290,
+    "duration" : 51987
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ccaa42dc0decd3d2",
+  "name" : "test_deleteDiary",
+  "time" : {
+    "start" : 1587463683384,
+    "stop" : 1587463813129,
+    "duration" : 129745
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a0899101ca2cee05",
+  "name" : "test_tomatoTiming",
+  "time" : {
+    "start" : 1587464392826,
+    "stop" : 1587464415707,
+    "duration" : 22881
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "12c873892589a700",
+  "name" : "test_normalTiming_exit",
+  "time" : {
+    "start" : 1587031947490,
+    "stop" : 1587032014308,
+    "duration" : 66818
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "17fd1b27c4ad114c",
+  "name" : "test_interaction",
+  "time" : {
+    "start" : 1587462936939,
+    "stop" : 1587462943566,
+    "duration" : 6627
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c394ce783f8203e3",
+  "name" : "test_discussTeam",
+  "time" : {
+    "start" : 1587463096537,
+    "stop" : 1587463125269,
+    "duration" : 28732
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cb46373db193a675",
+  "name" : "test_normalTiming",
+  "time" : {
+    "start" : 1587464292616,
+    "stop" : 1587464389109,
+    "duration" : 96493
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4a8ebf33cccd56ff",
+  "name" : "test_logout",
+  "time" : {
+    "start" : 1579351418285,
+    "stop" : 1579351430435,
+    "duration" : 12150
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "224defe5417c3ced",
+  "name" : "test_logout",
+  "time" : {
+    "start" : 1579351297096,
+    "stop" : 1579351309470,
+    "duration" : 12374
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4841baa303faa75e",
+  "name" : "test_browsesVlog",
+  "time" : {
+    "start" : 1585821921015,
+    "stop" : 1585822000625,
+    "duration" : 79610
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5f38172c4b8c1885",
+  "name" : "test_treeHole",
+  "time" : {
+    "start" : 1587261833736,
+    "stop" : 1587261878694,
+    "duration" : 44958
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "457e06080ee0e8d7",
+  "name" : "test_loginByCaptcha",
+  "time" : {
+    "start" : 1579351257132,
+    "stop" : 1579351293374,
+    "duration" : 36242
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ff37f39ce0cc5f8",
+  "name" : "test_logout",
+  "time" : {
+    "start" : 1587462644026,
+    "stop" : 1587462656211,
+    "duration" : 12185
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8e92fea6130e982b",
+  "name" : "test_postVideo",
+  "time" : {
+    "start" : 1587463816742,
+    "stop" : 1587463935591,
+    "duration" : 118849
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8cd565501680c155",
+  "name" : "test_sleepRecord",
+  "time" : {
+    "start" : 1587464583074,
+    "stop" : 1587464637987,
+    "duration" : 54913
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6f22fb24727db6c3",
+  "name" : "test_logout",
+  "time" : {
+    "start" : 1587464825884,
+    "stop" : 1587464875358,
+    "duration" : 49474
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "85be2b72fe09d469",
+  "name" : "test_logout",
+  "time" : {
+    "start" : 1585723453805,
+    "stop" : 1585723474796,
+    "duration" : 20991
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "23cfccbf68a6b4d0",
+  "name" : "test_loginByCaptcha",
+  "time" : {
+    "start" : 1587462586975,
+    "stop" : 1587462606300,
+    "duration" : 19325
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a3a4ea3e2aa0af81",
+  "name" : "test_deleteVideo",
+  "time" : {
+    "start" : 1587463939394,
+    "stop" : 1587464086140,
+    "duration" : 146746
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "46a03d5f72add357",
+  "name" : "test_genderInfo",
+  "time" : {
+    "start" : 1587464141548,
+    "stop" : 1587464203393,
+    "duration" : 61845
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8c9e176c708c5c09",
+  "name" : "test_imgInfo",
+  "time" : {
+    "start" : 1587464207161,
+    "stop" : 1587464233059,
+    "duration" : 25898
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f3566eb795428f7e",
+  "name" : "test_videoRoom",
+  "time" : {
+    "start" : 1586158702419,
+    "stop" : 1586158775520,
+    "duration" : 73101
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7180980769bab1ec",
+  "name" : "test_registerAccount",
+  "time" : {
+    "start" : 1587462500951,
+    "stop" : 1587462568938,
+    "duration" : 67987
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d5e0510b12b18f4d",
+  "name" : "test_registerAccount",
+  "time" : {
+    "start" : 1579351352287,
+    "stop" : 1579351414583,
+    "duration" : 62296
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cf53d58566fc2041",
+  "name" : "test_loginByPwd",
+  "time" : {
+    "start" : 1579351312885,
+    "stop" : 1579351330735,
+    "duration" : 17850
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "98513fa80f4eb3ac",
+  "name" : "test_loginByPwd",
+  "time" : {
+    "start" : 1587462720900,
+    "stop" : 1587462739814,
+    "duration" : 18914
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "16b2c21657271e6",
+  "name" : "test_logout",
+  "time" : {
+    "start" : 1587462572329,
+    "stop" : 1587462583642,
+    "duration" : 11313
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c797d4ed489ad5d",
+  "name" : "test_chatVideo",
+  "time" : {
+    "start" : 1587463509166,
+    "stop" : 1587463617386,
+    "duration" : 108220
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "15d8c067758d6dfd",
+  "name" : "test_browsesVlog",
+  "time" : {
+    "start" : 1587462743372,
+    "stop" : 1587462796321,
+    "duration" : 52949
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "57050119f56b0b8f",
+  "name" : "test_loginByWexin",
+  "time" : {
+    "start" : 1587462659700,
+    "stop" : 1587462693546,
+    "duration" : 33846
   },
   "status" : "passed",
   "severity" : "normal"
