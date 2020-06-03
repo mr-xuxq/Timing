@@ -4,53 +4,33 @@
   "children" : [ {
     "name" : "Test defects",
     "children" : [ {
-      "name" : "AttributeError: 'Shouye' object has no attribute 'waitAndfind'",
-      "children" : [ {
-        "name" : "test_swipeO",
-        "uid" : "dac9dc642fb49ded",
-        "parentUid" : "f6709ebc2dd7facecd6aa793f622aa36",
-        "status" : "broken",
-        "time" : {
-          "start" : 1586158913916,
-          "stop" : 1586158947904,
-          "duration" : 33988
-        },
-        "flaky" : true,
-        "parameters" : [ ]
-      } ],
-      "uid" : "f6709ebc2dd7facecd6aa793f622aa36"
-    }, {
       "name" : "selenium.common.exceptions.TimeoutException: Message:",
       "children" : [ {
-        "name" : "test_normalTiming_exit",
-        "uid" : "12c873892589a700",
+        "name" : "test_loginByWexin",
+        "uid" : "5914899287480da4",
         "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
         "status" : "broken",
         "time" : {
-          "start" : 1587031947490,
-          "stop" : 1587032014308,
-          "duration" : 66818
+          "start" : 1591168513527,
+          "stop" : 1591168628182,
+          "duration" : 114655
         },
-        "flaky" : true,
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_imgInfo",
+        "uid" : "1fa35294c8e86a0a",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1591169811624,
+          "stop" : 1591169881485,
+          "duration" : 69861
+        },
+        "flaky" : false,
         "parameters" : [ ]
       } ],
       "uid" : "31bb78a6a95ede3f78b260ed048910d8"
-    }, {
-      "name" : "selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.",
-      "children" : [ {
-        "name" : "test_chatVideo",
-        "uid" : "ad67a563685ba17b",
-        "parentUid" : "7a823ebd65a5f17ad39e628108c6e522",
-        "status" : "broken",
-        "time" : {
-          "start" : 1587463077070,
-          "stop" : 1587463092633,
-          "duration" : 15563
-        },
-        "flaky" : true,
-        "parameters" : [ ]
-      } ],
-      "uid" : "7a823ebd65a5f17ad39e628108c6e522"
     } ],
     "uid" : "bdbf199525818fae7a8651db9eafe741"
   }, {
@@ -59,15 +39,15 @@
       "name" : "AssertionError: assert False == True\n  -False\n  +True",
       "children" : [ {
         "name" : "test_checkFollowList",
-        "uid" : "beee8f43369c723d",
+        "uid" : "d1c0028c7c0cf9e5",
         "parentUid" : "9ec8f191b848aac8e79241d2720739a9",
         "status" : "failed",
         "time" : {
-          "start" : 1587464236860,
-          "stop" : 1587464288762,
-          "duration" : 51902
+          "start" : 1591169885312,
+          "stop" : 1591169954772,
+          "duration" : 69460
         },
-        "flaky" : true,
+        "flaky" : false,
         "parameters" : [ ]
       } ],
       "uid" : "9ec8f191b848aac8e79241d2720739a9"

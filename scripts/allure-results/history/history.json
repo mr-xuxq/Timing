@@ -2,114 +2,117 @@
   "58a35e78c95610b9a2577f96444cd07a" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 7,
+      "broken" : 8,
       "skipped" : 0,
-      "passed" : 20,
+      "passed" : 30,
       "unknown" : 0,
-      "total" : 27
+      "total" : 38
     },
     "items" : [ {
-      "uid" : "e1ca954021d40a6b",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/52/allure/#testresult/e1ca954021d40a6b",
+      "uid" : "1212f01afce19cd5",
+      "reportUrl" : "http://localhost:8080/job/Timing/76/allure/#testresult/1212f01afce19cd5",
       "status" : "passed",
       "time" : {
-        "start" : 1587459321964,
-        "stop" : 1587459365480,
-        "duration" : 43516
+        "start" : 1591168706279,
+        "stop" : 1591168745725,
+        "duration" : 39446
       }
     }, {
-      "uid" : "ee125e6e07b2ebfb",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/51/allure/#testresult/ee125e6e07b2ebfb",
-      "status" : "passed",
-      "time" : {
-        "start" : 1587261631392,
-        "stop" : 1587261671158,
-        "duration" : 39766
-      }
-    }, {
-      "uid" : "4c07474b2ed8e9fb",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/49/allure/#testresult/4c07474b2ed8e9fb",
-      "status" : "passed",
-      "time" : {
-        "start" : 1587153779683,
-        "stop" : 1587153832313,
-        "duration" : 52630
-      }
-    }, {
-      "uid" : "2d6bc84cb67d8347",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/48/allure/#testresult/2d6bc84cb67d8347",
+      "uid" : "36938f13dcf925a7",
+      "reportUrl" : "http://localhost:8080/job/Timing/74/allure/#testresult/36938f13dcf925a7",
       "status" : "broken",
-      "statusDetails" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=4723): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001A6BFFD82B0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: An unknown server-side error occurred while processing the command.",
       "time" : {
-        "start" : 1587152982558,
-        "stop" : 1587152982558,
-        "duration" : 0
+        "start" : 1589404742756,
+        "stop" : 1589404764259,
+        "duration" : 21503
       }
     }, {
-      "uid" : "d60402b951e03b6",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/46/allure/#testresult/d60402b951e03b6",
+      "uid" : "180a4b43343542f7",
+      "reportUrl" : "http://localhost:8080/job/Timing/73/allure/#testresult/180a4b43343542f7",
       "status" : "passed",
       "time" : {
-        "start" : 1587152162928,
-        "stop" : 1587152211751,
-        "duration" : 48823
+        "start" : 1589398358981,
+        "stop" : 1589398410961,
+        "duration" : 51980
+      }
+    }, {
+      "uid" : "74bbcc8d4451fe89",
+      "reportUrl" : "http://localhost:8080/job/Timing/72/allure/#testresult/74bbcc8d4451fe89",
+      "status" : "passed",
+      "time" : {
+        "start" : 1589371950828,
+        "stop" : 1589372004487,
+        "duration" : 53659
+      }
+    }, {
+      "uid" : "d7db556c9a25d25c",
+      "reportUrl" : "http://localhost:8080/job/Timing/68/allure/#testresult/d7db556c9a25d25c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1588190129477,
+        "stop" : 1588190192433,
+        "duration" : 62956
       }
     } ]
   },
   "68fa90cf0127e0f6de42e964dab47791" : {
     "statistic" : {
       "failed" : 5,
-      "broken" : 1,
+      "broken" : 6,
       "skipped" : 0,
-      "passed" : 21,
+      "passed" : 27,
       "unknown" : 0,
-      "total" : 27
+      "total" : 38
     },
     "items" : [ {
-      "uid" : "2ad3f588fc864ea4",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/52/allure/#testresult/2ad3f588fc864ea4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1587460752846,
-        "stop" : 1587460777203,
-        "duration" : 24357
-      }
-    }, {
-      "uid" : "63774df36dfdaf80",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/51/allure/#testresult/63774df36dfdaf80",
-      "status" : "passed",
-      "time" : {
-        "start" : 1587262752697,
-        "stop" : 1587262786022,
-        "duration" : 33325
-      }
-    }, {
-      "uid" : "42bf27991274d842",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/49/allure/#testresult/42bf27991274d842",
-      "status" : "passed",
-      "time" : {
-        "start" : 1587155052141,
-        "stop" : 1587155102745,
-        "duration" : 50604
-      }
-    }, {
-      "uid" : "95d009189343c75a",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/48/allure/#testresult/95d009189343c75a",
+      "uid" : "a4c4727d908e8b0e",
+      "reportUrl" : "http://localhost:8080/job/Timing/76/allure/#testresult/a4c4727d908e8b0e",
       "status" : "broken",
-      "statusDetails" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=4723): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001A6C136C8D0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
       "time" : {
-        "start" : 1587153086088,
-        "stop" : 1587153086088,
-        "duration" : 0
+        "start" : 1591169811624,
+        "stop" : 1591169881485,
+        "duration" : 69861
       }
     }, {
-      "uid" : "8fce0d966f28ab86",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/46/allure/#testresult/8fce0d966f28ab86",
+      "uid" : "628d3ff6a74efcdd",
+      "reportUrl" : "http://localhost:8080/job/Timing/74/allure/#testresult/628d3ff6a74efcdd",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1589405924588,
+        "stop" : 1589406034290,
+        "duration" : 109702
+      }
+    }, {
+      "uid" : "25a91e28f99000e5",
+      "reportUrl" : "http://localhost:8080/job/Timing/73/allure/#testresult/25a91e28f99000e5",
       "status" : "passed",
       "time" : {
-        "start" : 1587148922887,
-        "stop" : 1587148949357,
-        "duration" : 26470
+        "start" : 1589399689092,
+        "stop" : 1589399715328,
+        "duration" : 26236
+      }
+    }, {
+      "uid" : "e7784c5089ff32d3",
+      "reportUrl" : "http://localhost:8080/job/Timing/72/allure/#testresult/e7784c5089ff32d3",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message: An unknown server-side error occurred while processing the command.",
+      "time" : {
+        "start" : 1589373112249,
+        "stop" : 1589373132589,
+        "duration" : 20340
+      }
+    }, {
+      "uid" : "e5be22d2889debd8",
+      "reportUrl" : "http://localhost:8080/job/Timing/68/allure/#testresult/e5be22d2889debd8",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1588191382241,
+        "stop" : 1588191457434,
+        "duration" : 75193
       }
     } ]
   },
@@ -118,232 +121,233 @@
       "failed" : 3,
       "broken" : 6,
       "skipped" : 0,
-      "passed" : 18,
+      "passed" : 29,
       "unknown" : 0,
-      "total" : 27
+      "total" : 38
     },
     "items" : [ {
-      "uid" : "dc47396fbcdf9c97",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/52/allure/#testresult/dc47396fbcdf9c97",
+      "uid" : "8094eaae643cb69",
+      "reportUrl" : "http://localhost:8080/job/Timing/76/allure/#testresult/8094eaae643cb69",
       "status" : "passed",
       "time" : {
-        "start" : 1587459529020,
-        "stop" : 1587459577698,
-        "duration" : 48678
+        "start" : 1591168867029,
+        "stop" : 1591168906076,
+        "duration" : 39047
       }
     }, {
-      "uid" : "8cdb9dbf8aabb12a",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/51/allure/#testresult/8cdb9dbf8aabb12a",
+      "uid" : "88cc217f9536d132",
+      "reportUrl" : "http://localhost:8080/job/Timing/74/allure/#testresult/88cc217f9536d132",
       "status" : "passed",
       "time" : {
-        "start" : 1587261918239,
-        "stop" : 1587262036353,
-        "duration" : 118114
+        "start" : 1589404938802,
+        "stop" : 1589404982813,
+        "duration" : 44011
       }
     }, {
-      "uid" : "a228e8dd1fc81036",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/49/allure/#testresult/a228e8dd1fc81036",
+      "uid" : "a6444f46c15bc7ed",
+      "reportUrl" : "http://localhost:8080/job/Timing/73/allure/#testresult/a6444f46c15bc7ed",
       "status" : "passed",
       "time" : {
-        "start" : 1587154106654,
-        "stop" : 1587154171096,
-        "duration" : 64442
+        "start" : 1589398577504,
+        "stop" : 1589398642768,
+        "duration" : 65264
       }
     }, {
-      "uid" : "ecce94da861fd07c",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/48/allure/#testresult/ecce94da861fd07c",
-      "status" : "broken",
-      "statusDetails" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=4723): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001A6C0211E10>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))",
+      "uid" : "4fe93627578b2521",
+      "reportUrl" : "http://localhost:8080/job/Timing/72/allure/#testresult/4fe93627578b2521",
+      "status" : "passed",
       "time" : {
-        "start" : 1587153013621,
-        "stop" : 1587153013621,
-        "duration" : 0
+        "start" : 1589372182828,
+        "stop" : 1589372241237,
+        "duration" : 58409
       }
     }, {
-      "uid" : "d85e14959918bb5e",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/46/allure/#testresult/d85e14959918bb5e",
-      "status" : "broken",
-      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "uid" : "62d9c74a0877e877",
+      "reportUrl" : "http://localhost:8080/job/Timing/68/allure/#testresult/62d9c74a0877e877",
+      "status" : "passed",
       "time" : {
-        "start" : 1587152540042,
-        "stop" : 1587152608375,
-        "duration" : 68333
+        "start" : 1588190377736,
+        "stop" : 1588190426899,
+        "duration" : 49163
       }
     } ]
   },
   "cc260aa809f1fa2970fc9598557b8c6d" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 5,
+      "broken" : 6,
       "skipped" : 0,
-      "passed" : 18,
+      "passed" : 28,
       "unknown" : 0,
-      "total" : 23
+      "total" : 34
     },
     "items" : [ {
-      "uid" : "b50721e60175cced",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/52/allure/#testresult/b50721e60175cced",
-      "status" : "passed",
-      "time" : {
-        "start" : 1587459194525,
-        "stop" : 1587459253791,
-        "duration" : 59266
-      }
-    }, {
-      "uid" : "5dc72369bdba9083",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/51/allure/#testresult/5dc72369bdba9083",
-      "status" : "passed",
-      "time" : {
-        "start" : 1587261539791,
-        "stop" : 1587261572070,
-        "duration" : 32279
-      }
-    }, {
-      "uid" : "15dc45b106cb8179",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/49/allure/#testresult/15dc45b106cb8179",
-      "status" : "passed",
-      "time" : {
-        "start" : 1587153676743,
-        "stop" : 1587153710180,
-        "duration" : 33437
-      }
-    }, {
-      "uid" : "60c238ea26d28bdc",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/48/allure/#testresult/60c238ea26d28bdc",
-      "status" : "broken",
-      "statusDetails" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=4723): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001A6C00F0668>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))",
-      "time" : {
-        "start" : 1587152967044,
-        "stop" : 1587152967044,
-        "duration" : 0
-      }
-    }, {
-      "uid" : "9b0869b25fdacec0",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/46/allure/#testresult/9b0869b25fdacec0",
+      "uid" : "701c62a3bf25f1c0",
+      "reportUrl" : "http://localhost:8080/job/Timing/76/allure/#testresult/701c62a3bf25f1c0",
       "status" : "broken",
       "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
       "time" : {
-        "start" : 1587030185381,
-        "stop" : 1587030303209,
-        "duration" : 117828
+        "start" : 1591168513527,
+        "stop" : 1591168628182,
+        "duration" : 114655
+      }
+    }, {
+      "uid" : "27097e273246efe6",
+      "reportUrl" : "http://localhost:8080/job/Timing/74/allure/#testresult/27097e273246efe6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1589404650336,
+        "stop" : 1589404687876,
+        "duration" : 37540
+      }
+    }, {
+      "uid" : "fa186fb9237b0db6",
+      "reportUrl" : "http://localhost:8080/job/Timing/73/allure/#testresult/fa186fb9237b0db6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1589371858038,
+        "stop" : 1589371904971,
+        "duration" : 46933
+      }
+    }, {
+      "uid" : "67dac4ee7821c7a9",
+      "reportUrl" : "http://localhost:8080/job/Timing/72/allure/#testresult/67dac4ee7821c7a9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1589371858038,
+        "stop" : 1589371904971,
+        "duration" : 46933
+      }
+    }, {
+      "uid" : "29247db2bfef36e",
+      "reportUrl" : "http://localhost:8080/job/Timing/68/allure/#testresult/29247db2bfef36e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1588189989389,
+        "stop" : 1588190027624,
+        "duration" : 38235
       }
     } ]
   },
   "6cbbe62142c439969ff978766c51afff" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 7,
       "skipped" : 0,
-      "passed" : 5,
+      "passed" : 9,
       "unknown" : 0,
-      "total" : 6
+      "total" : 16
     },
     "items" : [ {
-      "uid" : "d8f9d817fa7d5d4",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/52/allure/#testresult/d8f9d817fa7d5d4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1587460548555,
-        "stop" : 1587460642560,
-        "duration" : 94005
-      }
-    }, {
-      "uid" : "3dae5ee86488911d",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/51/allure/#testresult/3dae5ee86488911d",
-      "status" : "passed",
-      "time" : {
-        "start" : 1587262605734,
-        "stop" : 1587262661942,
-        "duration" : 56208
-      }
-    }, {
-      "uid" : "8ca05a9f0e77f5a6",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/49/allure/#testresult/8ca05a9f0e77f5a6",
-      "status" : "passed",
-      "time" : {
-        "start" : 1587154905597,
-        "stop" : 1587154961997,
-        "duration" : 56400
-      }
-    }, {
-      "uid" : "9318ebeb1d9fb968",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/48/allure/#testresult/9318ebeb1d9fb968",
+      "uid" : "5abe20ef3bcbae7a",
+      "reportUrl" : "http://localhost:8080/job/Timing/74/allure/#testresult/5abe20ef3bcbae7a",
       "status" : "broken",
-      "statusDetails" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=4723): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001A6C13AC860>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
       "time" : {
-        "start" : 1587153070541,
-        "stop" : 1587153070541,
-        "duration" : 0
+        "start" : 1588187154626,
+        "stop" : 1588187263161,
+        "duration" : 108535
       }
     }, {
-      "uid" : "4e9c44a80c2bec3d",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/46/allure/#testresult/4e9c44a80c2bec3d",
-      "status" : "passed",
+      "uid" : "b4c39ad2dc085e33",
+      "reportUrl" : "http://localhost:8080/job/Timing/73/allure/#testresult/b4c39ad2dc085e33",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
       "time" : {
-        "start" : 1587148689909,
-        "stop" : 1587148834790,
-        "duration" : 144881
+        "start" : 1588187154626,
+        "stop" : 1588187263161,
+        "duration" : 108535
+      }
+    }, {
+      "uid" : "e5754cec051465b1",
+      "reportUrl" : "http://localhost:8080/job/Timing/72/allure/#testresult/e5754cec051465b1",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1588187154626,
+        "stop" : 1588187263161,
+        "duration" : 108535
+      }
+    }, {
+      "uid" : "30c0eeab1164256b",
+      "reportUrl" : "http://localhost:8080/job/Timing/68/allure/#testresult/30c0eeab1164256b",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1588187154626,
+        "stop" : 1588187263161,
+        "duration" : 108535
+      }
+    }, {
+      "uid" : "afde37341d1d5d7f",
+      "reportUrl" : "http://localhost:8080/job/Timing/61/allure/#testresult/afde37341d1d5d7f",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1588187154626,
+        "stop" : 1588187263161,
+        "duration" : 108535
       }
     } ]
   },
   "f262352153b3f2b8fe35179a6ec74f14" : {
     "statistic" : {
-      "failed" : 21,
+      "failed" : 32,
       "broken" : 3,
       "skipped" : 0,
       "passed" : 2,
       "unknown" : 0,
-      "total" : 26
+      "total" : 37
     },
     "items" : [ {
-      "uid" : "f7b806f583a490e6",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/52/allure/#testresult/f7b806f583a490e6",
+      "uid" : "cc48709910c9abbd",
+      "reportUrl" : "http://localhost:8080/job/Timing/76/allure/#testresult/cc48709910c9abbd",
       "status" : "failed",
       "statusDetails" : "AssertionError: assert False == True\n  -False\n  +True",
       "time" : {
-        "start" : 1587460781013,
-        "stop" : 1587460866952,
-        "duration" : 85939
+        "start" : 1591169885312,
+        "stop" : 1591169954772,
+        "duration" : 69460
       }
     }, {
-      "uid" : "475ece9d1f524916",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/51/allure/#testresult/475ece9d1f524916",
+      "uid" : "398dde53f7b30ed7",
+      "reportUrl" : "http://localhost:8080/job/Timing/74/allure/#testresult/398dde53f7b30ed7",
       "status" : "failed",
       "statusDetails" : "AssertionError: assert False == True\n  -False\n  +True",
       "time" : {
-        "start" : 1587262789622,
-        "stop" : 1587262877874,
-        "duration" : 88252
+        "start" : 1589406038478,
+        "stop" : 1589406097684,
+        "duration" : 59206
       }
     }, {
-      "uid" : "2dae85cedf55fe5c",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/49/allure/#testresult/2dae85cedf55fe5c",
+      "uid" : "9fa0051cb6bca7a7",
+      "reportUrl" : "http://localhost:8080/job/Timing/73/allure/#testresult/9fa0051cb6bca7a7",
       "status" : "failed",
       "statusDetails" : "AssertionError: assert False == True\n  -False\n  +True",
       "time" : {
-        "start" : 1587155106623,
-        "stop" : 1587155215620,
-        "duration" : 108997
+        "start" : 1589399721147,
+        "stop" : 1589399783389,
+        "duration" : 62242
       }
     }, {
-      "uid" : "8a39727c1a7a5d7c",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/48/allure/#testresult/8a39727c1a7a5d7c",
-      "status" : "broken",
-      "statusDetails" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=4723): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001A6C0018F60>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))",
-      "time" : {
-        "start" : 1587153091259,
-        "stop" : 1587153091259,
-        "duration" : 0
-      }
-    }, {
-      "uid" : "2753db8863cdc28e",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/46/allure/#testresult/2753db8863cdc28e",
+      "uid" : "e2cd93ba08853536",
+      "reportUrl" : "http://localhost:8080/job/Timing/72/allure/#testresult/e2cd93ba08853536",
       "status" : "failed",
       "statusDetails" : "AssertionError: assert False == True\n  -False\n  +True",
       "time" : {
-        "start" : 1587148953396,
-        "stop" : 1587149041269,
-        "duration" : 87873
+        "start" : 1589373136665,
+        "stop" : 1589373217701,
+        "duration" : 81036
+      }
+    }, {
+      "uid" : "dd8f5645ee8c2043",
+      "reportUrl" : "http://localhost:8080/job/Timing/68/allure/#testresult/dd8f5645ee8c2043",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False == True\n  -False\n  +True",
+      "time" : {
+        "start" : 1588191461499,
+        "stop" : 1588191528208,
+        "duration" : 66709
       }
     } ]
   },
@@ -352,13 +356,13 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 20,
+      "passed" : 30,
       "unknown" : 0,
-      "total" : 20
+      "total" : 30
     },
     "items" : [ {
-      "uid" : "ff7ed5fca0d66b6",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/52/allure/#testresult/ff7ed5fca0d66b6",
+      "uid" : "7556db191a96a9d",
+      "reportUrl" : "http://localhost:8080/job/Timing/74/allure/#testresult/7556db191a96a9d",
       "status" : "passed",
       "time" : {
         "start" : 1585822069087,
@@ -366,8 +370,8 @@
         "duration" : 20070
       }
     }, {
-      "uid" : "2334eabdd171f3b6",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/51/allure/#testresult/2334eabdd171f3b6",
+      "uid" : "e56c3adcf874f849",
+      "reportUrl" : "http://localhost:8080/job/Timing/73/allure/#testresult/e56c3adcf874f849",
       "status" : "passed",
       "time" : {
         "start" : 1585822069087,
@@ -375,8 +379,8 @@
         "duration" : 20070
       }
     }, {
-      "uid" : "56c2928a202679c0",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/49/allure/#testresult/56c2928a202679c0",
+      "uid" : "aaaf5062fc2cb5c4",
+      "reportUrl" : "http://localhost:8080/job/Timing/72/allure/#testresult/aaaf5062fc2cb5c4",
       "status" : "passed",
       "time" : {
         "start" : 1585822069087,
@@ -384,8 +388,8 @@
         "duration" : 20070
       }
     }, {
-      "uid" : "eeddbadf1bd7d9a5",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/48/allure/#testresult/eeddbadf1bd7d9a5",
+      "uid" : "677110ffbda35a7",
+      "reportUrl" : "http://localhost:8080/job/Timing/68/allure/#testresult/677110ffbda35a7",
       "status" : "passed",
       "time" : {
         "start" : 1585822069087,
@@ -393,8 +397,8 @@
         "duration" : 20070
       }
     }, {
-      "uid" : "178d96dff781d0ef",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/46/allure/#testresult/178d96dff781d0ef",
+      "uid" : "6d55dea75ecdfb62",
+      "reportUrl" : "http://localhost:8080/job/Timing/61/allure/#testresult/6d55dea75ecdfb62",
       "status" : "passed",
       "time" : {
         "start" : 1585822069087,
@@ -408,13 +412,13 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 25,
+      "passed" : 35,
       "unknown" : 0,
-      "total" : 25
+      "total" : 35
     },
     "items" : [ {
-      "uid" : "38363497feda45ae",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/52/allure/#testresult/38363497feda45ae",
+      "uid" : "ac4f1180517f23c2",
+      "reportUrl" : "http://localhost:8080/job/Timing/74/allure/#testresult/ac4f1180517f23c2",
       "status" : "passed",
       "time" : {
         "start" : 1579351334315,
@@ -422,8 +426,8 @@
         "duration" : 14132
       }
     }, {
-      "uid" : "335b8a0f6de312e",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/51/allure/#testresult/335b8a0f6de312e",
+      "uid" : "2b578e43b4790ed4",
+      "reportUrl" : "http://localhost:8080/job/Timing/73/allure/#testresult/2b578e43b4790ed4",
       "status" : "passed",
       "time" : {
         "start" : 1579351334315,
@@ -431,8 +435,8 @@
         "duration" : 14132
       }
     }, {
-      "uid" : "dba75545cf6aec4a",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/49/allure/#testresult/dba75545cf6aec4a",
+      "uid" : "5c96d372e83048f1",
+      "reportUrl" : "http://localhost:8080/job/Timing/72/allure/#testresult/5c96d372e83048f1",
       "status" : "passed",
       "time" : {
         "start" : 1579351334315,
@@ -440,8 +444,8 @@
         "duration" : 14132
       }
     }, {
-      "uid" : "544f2d66e5f14856",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/48/allure/#testresult/544f2d66e5f14856",
+      "uid" : "e7a755a22aa4172f",
+      "reportUrl" : "http://localhost:8080/job/Timing/68/allure/#testresult/e7a755a22aa4172f",
       "status" : "passed",
       "time" : {
         "start" : 1579351334315,
@@ -449,8 +453,8 @@
         "duration" : 14132
       }
     }, {
-      "uid" : "28c64e265f3a5bd0",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/46/allure/#testresult/28c64e265f3a5bd0",
+      "uid" : "4f92381490abbb54",
+      "reportUrl" : "http://localhost:8080/job/Timing/61/allure/#testresult/4f92381490abbb54",
       "status" : "passed",
       "time" : {
         "start" : 1579351334315,
@@ -464,56 +468,54 @@
       "failed" : 0,
       "broken" : 5,
       "skipped" : 0,
-      "passed" : 22,
+      "passed" : 33,
       "unknown" : 0,
-      "total" : 27
+      "total" : 38
     },
     "items" : [ {
-      "uid" : "8db33bfa40cf8dd4",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/52/allure/#testresult/8db33bfa40cf8dd4",
+      "uid" : "7f282f853b9a1ff9",
+      "reportUrl" : "http://localhost:8080/job/Timing/76/allure/#testresult/7f282f853b9a1ff9",
       "status" : "passed",
       "time" : {
-        "start" : 1587459108284,
-        "stop" : 1587459175549,
-        "duration" : 67265
+        "start" : 1591168456526,
+        "stop" : 1591168488990,
+        "duration" : 32464
       }
     }, {
-      "uid" : "79b13ea1d7684dfc",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/51/allure/#testresult/79b13ea1d7684dfc",
+      "uid" : "ce834819e665be5d",
+      "reportUrl" : "http://localhost:8080/job/Timing/74/allure/#testresult/ce834819e665be5d",
       "status" : "passed",
       "time" : {
-        "start" : 1587261469592,
-        "stop" : 1587261503906,
-        "duration" : 34314
+        "start" : 1589404585995,
+        "stop" : 1589404624547,
+        "duration" : 38552
       }
     }, {
-      "uid" : "1d75605656eb7e19",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/49/allure/#testresult/1d75605656eb7e19",
+      "uid" : "64f3625502f8c373",
+      "reportUrl" : "http://localhost:8080/job/Timing/73/allure/#testresult/64f3625502f8c373",
       "status" : "passed",
       "time" : {
-        "start" : 1587153619625,
-        "stop" : 1587153655442,
-        "duration" : 35817
+        "start" : 1589371800403,
+        "stop" : 1589371836714,
+        "duration" : 36311
       }
     }, {
-      "uid" : "895035e95c034463",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/48/allure/#testresult/895035e95c034463",
-      "status" : "broken",
-      "statusDetails" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=4723): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001A6BFF44898>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))",
+      "uid" : "650779c5e517b23d",
+      "reportUrl" : "http://localhost:8080/job/Timing/72/allure/#testresult/650779c5e517b23d",
+      "status" : "passed",
       "time" : {
-        "start" : 1587152956696,
-        "stop" : 1587152956696,
-        "duration" : 0
+        "start" : 1589371800403,
+        "stop" : 1589371836714,
+        "duration" : 36311
       }
     }, {
-      "uid" : "707b4638bf1db6a6",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/46/allure/#testresult/707b4638bf1db6a6",
-      "status" : "broken",
-      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "uid" : "3953259a95e6269c",
+      "reportUrl" : "http://localhost:8080/job/Timing/68/allure/#testresult/3953259a95e6269c",
+      "status" : "passed",
       "time" : {
-        "start" : 1587043731244,
-        "stop" : 1587043792954,
-        "duration" : 61710
+        "start" : 1588189922862,
+        "stop" : 1588189963058,
+        "duration" : 40196
       }
     } ]
   },
@@ -522,13 +524,13 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 25,
+      "passed" : 35,
       "unknown" : 0,
-      "total" : 25
+      "total" : 35
     },
     "items" : [ {
-      "uid" : "284723af93a6e9ef",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/52/allure/#testresult/284723af93a6e9ef",
+      "uid" : "51733816d0a31158",
+      "reportUrl" : "http://localhost:8080/job/Timing/74/allure/#testresult/51733816d0a31158",
       "status" : "passed",
       "time" : {
         "start" : 1579351257132,
@@ -536,8 +538,8 @@
         "duration" : 36242
       }
     }, {
-      "uid" : "7e635afa935f54b7",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/51/allure/#testresult/7e635afa935f54b7",
+      "uid" : "7856723db54b920d",
+      "reportUrl" : "http://localhost:8080/job/Timing/73/allure/#testresult/7856723db54b920d",
       "status" : "passed",
       "time" : {
         "start" : 1579351257132,
@@ -545,8 +547,8 @@
         "duration" : 36242
       }
     }, {
-      "uid" : "dac66735a3c933c7",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/49/allure/#testresult/dac66735a3c933c7",
+      "uid" : "366656e8b5e18d55",
+      "reportUrl" : "http://localhost:8080/job/Timing/72/allure/#testresult/366656e8b5e18d55",
       "status" : "passed",
       "time" : {
         "start" : 1579351257132,
@@ -554,8 +556,8 @@
         "duration" : 36242
       }
     }, {
-      "uid" : "5f30f429c6dc7114",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/48/allure/#testresult/5f30f429c6dc7114",
+      "uid" : "db535ae6349bcb78",
+      "reportUrl" : "http://localhost:8080/job/Timing/68/allure/#testresult/db535ae6349bcb78",
       "status" : "passed",
       "time" : {
         "start" : 1579351257132,
@@ -563,8 +565,8 @@
         "duration" : 36242
       }
     }, {
-      "uid" : "1bb35e8c999cb9b5",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/46/allure/#testresult/1bb35e8c999cb9b5",
+      "uid" : "57cc2a8c43fe7b08",
+      "reportUrl" : "http://localhost:8080/job/Timing/61/allure/#testresult/57cc2a8c43fe7b08",
       "status" : "passed",
       "time" : {
         "start" : 1579351257132,
@@ -578,57 +580,54 @@
       "failed" : 3,
       "broken" : 8,
       "skipped" : 0,
-      "passed" : 16,
+      "passed" : 27,
       "unknown" : 0,
-      "total" : 27
+      "total" : 38
     },
     "items" : [ {
-      "uid" : "20bda3fe8390e6a2",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/52/allure/#testresult/20bda3fe8390e6a2",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: assert False == True\n  -False\n  +True",
-      "time" : {
-        "start" : 1587459369409,
-        "stop" : 1587459459209,
-        "duration" : 89800
-      }
-    }, {
-      "uid" : "778f4c43e14fa996",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/51/allure/#testresult/778f4c43e14fa996",
+      "uid" : "661288700920c2c7",
+      "reportUrl" : "http://localhost:8080/job/Timing/76/allure/#testresult/661288700920c2c7",
       "status" : "passed",
       "time" : {
-        "start" : 1587261675426,
-        "stop" : 1587261782870,
-        "duration" : 107444
+        "start" : 1591168749420,
+        "stop" : 1591168818739,
+        "duration" : 69319
       }
     }, {
-      "uid" : "df050bcb132b153c",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/49/allure/#testresult/df050bcb132b153c",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: assert False == True\n  -False\n  +True",
-      "time" : {
-        "start" : 1587153836213,
-        "stop" : 1587153972005,
-        "duration" : 135792
-      }
-    }, {
-      "uid" : "43d9760591c44a44",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/48/allure/#testresult/43d9760591c44a44",
-      "status" : "broken",
-      "statusDetails" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=4723): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001A6C0029908>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))",
-      "time" : {
-        "start" : 1587152987742,
-        "stop" : 1587152987742,
-        "duration" : 0
-      }
-    }, {
-      "uid" : "d5ba19d8c95f3099",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/46/allure/#testresult/d5ba19d8c95f3099",
+      "uid" : "81af475dbba67586",
+      "reportUrl" : "http://localhost:8080/job/Timing/74/allure/#testresult/81af475dbba67586",
       "status" : "passed",
       "time" : {
-        "start" : 1587152215266,
-        "stop" : 1587152334047,
-        "duration" : 118781
+        "start" : 1589404768346,
+        "stop" : 1589404841888,
+        "duration" : 73542
+      }
+    }, {
+      "uid" : "ec4b79d74bb89ce3",
+      "reportUrl" : "http://localhost:8080/job/Timing/73/allure/#testresult/ec4b79d74bb89ce3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1589398416946,
+        "stop" : 1589398478745,
+        "duration" : 61799
+      }
+    }, {
+      "uid" : "8908ddcca795e55e",
+      "reportUrl" : "http://localhost:8080/job/Timing/72/allure/#testresult/8908ddcca795e55e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1589372008442,
+        "stop" : 1589372097757,
+        "duration" : 89315
+      }
+    }, {
+      "uid" : "a4929b8b4ee308b0",
+      "reportUrl" : "http://localhost:8080/job/Timing/68/allure/#testresult/a4929b8b4ee308b0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1588190196633,
+        "stop" : 1588190276575,
+        "duration" : 79942
       }
     } ]
   },
@@ -637,55 +636,54 @@
       "failed" : 5,
       "broken" : 1,
       "skipped" : 0,
-      "passed" : 20,
+      "passed" : 31,
       "unknown" : 0,
-      "total" : 26
+      "total" : 37
     },
     "items" : [ {
-      "uid" : "de95e1c9fede7028",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/52/allure/#testresult/de95e1c9fede7028",
+      "uid" : "ae0ba39c5f9f623c",
+      "reportUrl" : "http://localhost:8080/job/Timing/76/allure/#testresult/ae0ba39c5f9f623c",
       "status" : "passed",
       "time" : {
-        "start" : 1587459729575,
-        "stop" : 1587459757515,
-        "duration" : 27940
+        "start" : 1591169031096,
+        "stop" : 1591169051105,
+        "duration" : 20009
       }
     }, {
-      "uid" : "9471f33ab1cb079e",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/51/allure/#testresult/9471f33ab1cb079e",
+      "uid" : "83767cc2aa7123db",
+      "reportUrl" : "http://localhost:8080/job/Timing/74/allure/#testresult/83767cc2aa7123db",
       "status" : "passed",
       "time" : {
-        "start" : 1587262154869,
-        "stop" : 1587262179790,
-        "duration" : 24921
+        "start" : 1589405111540,
+        "stop" : 1589405157278,
+        "duration" : 45738
       }
     }, {
-      "uid" : "797d46dbe2470e8c",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/49/allure/#testresult/797d46dbe2470e8c",
+      "uid" : "29c7d972a579fe04",
+      "reportUrl" : "http://localhost:8080/job/Timing/73/allure/#testresult/29c7d972a579fe04",
       "status" : "passed",
       "time" : {
-        "start" : 1587154368383,
-        "stop" : 1587154396636,
-        "duration" : 28253
+        "start" : 1589398842941,
+        "stop" : 1589398864943,
+        "duration" : 22002
       }
     }, {
-      "uid" : "447eea097405abe6",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/48/allure/#testresult/447eea097405abe6",
-      "status" : "broken",
-      "statusDetails" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=4723): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001A6C12E4828>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))",
-      "time" : {
-        "start" : 1587153029139,
-        "stop" : 1587153029139,
-        "duration" : 0
-      }
-    }, {
-      "uid" : "6b6b21a054ed30",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/46/allure/#testresult/6b6b21a054ed30",
+      "uid" : "f0fa0f9319b4c6af",
+      "reportUrl" : "http://localhost:8080/job/Timing/72/allure/#testresult/f0fa0f9319b4c6af",
       "status" : "passed",
       "time" : {
-        "start" : 1587148107640,
-        "stop" : 1587148134869,
-        "duration" : 27229
+        "start" : 1589372360776,
+        "stop" : 1589372390785,
+        "duration" : 30009
+      }
+    }, {
+      "uid" : "3a97dc268187e2b8",
+      "reportUrl" : "http://localhost:8080/job/Timing/68/allure/#testresult/3a97dc268187e2b8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1588190558073,
+        "stop" : 1588190584563,
+        "duration" : 26490
       }
     } ]
   },
@@ -694,55 +692,54 @@
       "failed" : 0,
       "broken" : 11,
       "skipped" : 0,
-      "passed" : 16,
+      "passed" : 26,
       "unknown" : 0,
-      "total" : 27
+      "total" : 37
     },
     "items" : [ {
-      "uid" : "e3e5d7884ab4f02f",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/52/allure/#testresult/e3e5d7884ab4f02f",
+      "uid" : "257b9b8ad0ab7b54",
+      "reportUrl" : "http://localhost:8080/job/Timing/74/allure/#testresult/257b9b8ad0ab7b54",
       "status" : "passed",
       "time" : {
-        "start" : 1587461136356,
-        "stop" : 1587461178425,
-        "duration" : 42069
+        "start" : 1589406423017,
+        "stop" : 1589406465527,
+        "duration" : 42510
       }
     }, {
-      "uid" : "69e497367d4d7ffa",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/51/allure/#testresult/69e497367d4d7ffa",
+      "uid" : "56c96f34b7e9fc68",
+      "reportUrl" : "http://localhost:8080/job/Timing/73/allure/#testresult/56c96f34b7e9fc68",
       "status" : "passed",
       "time" : {
-        "start" : 1587263203607,
-        "stop" : 1587263267125,
-        "duration" : 63518
+        "start" : 1589400065109,
+        "stop" : 1589400128359,
+        "duration" : 63250
       }
     }, {
-      "uid" : "a34493f1acb5221a",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/49/allure/#testresult/a34493f1acb5221a",
+      "uid" : "96be96b4bfa7c9b2",
+      "reportUrl" : "http://localhost:8080/job/Timing/72/allure/#testresult/96be96b4bfa7c9b2",
       "status" : "passed",
       "time" : {
-        "start" : 1587155530034,
-        "stop" : 1587155581587,
-        "duration" : 51553
+        "start" : 1589373506904,
+        "stop" : 1589373543215,
+        "duration" : 36311
       }
     }, {
-      "uid" : "7326013a14eb4bf9",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/48/allure/#testresult/7326013a14eb4bf9",
-      "status" : "broken",
-      "statusDetails" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=4723): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001A6C145AD68>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))",
-      "time" : {
-        "start" : 1587153111976,
-        "stop" : 1587153111976,
-        "duration" : 0
-      }
-    }, {
-      "uid" : "61d94d7cb7cc0699",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/46/allure/#testresult/61d94d7cb7cc0699",
+      "uid" : "3901fe1841cabe51",
+      "reportUrl" : "http://localhost:8080/job/Timing/68/allure/#testresult/3901fe1841cabe51",
       "status" : "passed",
       "time" : {
-        "start" : 1587149309375,
-        "stop" : 1587149354097,
-        "duration" : 44722
+        "start" : 1588191858526,
+        "stop" : 1588191900156,
+        "duration" : 41630
+      }
+    }, {
+      "uid" : "19c65a9a38e3002d",
+      "reportUrl" : "http://localhost:8080/job/Timing/61/allure/#testresult/19c65a9a38e3002d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1588191858526,
+        "stop" : 1588191900156,
+        "duration" : 41630
       }
     } ]
   },
@@ -751,13 +748,13 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 23,
+      "passed" : 33,
       "unknown" : 0,
-      "total" : 23
+      "total" : 33
     },
     "items" : [ {
-      "uid" : "45f45a10e7362f88",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/52/allure/#testresult/45f45a10e7362f88",
+      "uid" : "7d5cc9ddc64263e1",
+      "reportUrl" : "http://localhost:8080/job/Timing/74/allure/#testresult/7d5cc9ddc64263e1",
       "status" : "passed",
       "time" : {
         "start" : 1586158252495,
@@ -765,8 +762,8 @@
         "duration" : 20667
       }
     }, {
-      "uid" : "d44f469a365d4f5c",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/51/allure/#testresult/d44f469a365d4f5c",
+      "uid" : "e1a2c78f0177fe8e",
+      "reportUrl" : "http://localhost:8080/job/Timing/73/allure/#testresult/e1a2c78f0177fe8e",
       "status" : "passed",
       "time" : {
         "start" : 1586158252495,
@@ -774,8 +771,8 @@
         "duration" : 20667
       }
     }, {
-      "uid" : "88d1c3796c0d1ae9",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/49/allure/#testresult/88d1c3796c0d1ae9",
+      "uid" : "879c647a2d5ba038",
+      "reportUrl" : "http://localhost:8080/job/Timing/72/allure/#testresult/879c647a2d5ba038",
       "status" : "passed",
       "time" : {
         "start" : 1586158252495,
@@ -783,8 +780,8 @@
         "duration" : 20667
       }
     }, {
-      "uid" : "efec4809c20acc2",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/48/allure/#testresult/efec4809c20acc2",
+      "uid" : "78f208bee1911cf5",
+      "reportUrl" : "http://localhost:8080/job/Timing/68/allure/#testresult/78f208bee1911cf5",
       "status" : "passed",
       "time" : {
         "start" : 1586158252495,
@@ -792,8 +789,8 @@
         "duration" : 20667
       }
     }, {
-      "uid" : "108a8f5e3d3697f3",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/46/allure/#testresult/108a8f5e3d3697f3",
+      "uid" : "5d593c6ad94a1a4a",
+      "reportUrl" : "http://localhost:8080/job/Timing/61/allure/#testresult/5d593c6ad94a1a4a",
       "status" : "passed",
       "time" : {
         "start" : 1586158252495,
@@ -807,59 +804,54 @@
       "failed" : 0,
       "broken" : 15,
       "skipped" : 0,
-      "passed" : 12,
+      "passed" : 23,
       "unknown" : 0,
-      "total" : 27
+      "total" : 38
     },
     "items" : [ {
-      "uid" : "478583b01a5cceaf",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/52/allure/#testresult/478583b01a5cceaf",
-      "status" : "broken",
-      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "uid" : "8a09b4e28841075a",
+      "reportUrl" : "http://localhost:8080/job/Timing/76/allure/#testresult/8a09b4e28841075a",
+      "status" : "passed",
       "time" : {
-        "start" : 1587460871049,
-        "stop" : 1587460946516,
-        "duration" : 75467
+        "start" : 1591169958762,
+        "stop" : 1591170046248,
+        "duration" : 87486
       }
     }, {
-      "uid" : "a014da4ed10a50b6",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/51/allure/#testresult/a014da4ed10a50b6",
-      "status" : "broken",
-      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "uid" : "6d0364dcf0037077",
+      "reportUrl" : "http://localhost:8080/job/Timing/74/allure/#testresult/6d0364dcf0037077",
+      "status" : "passed",
       "time" : {
-        "start" : 1587262881630,
-        "stop" : 1587262955481,
-        "duration" : 73851
+        "start" : 1589406101581,
+        "stop" : 1589406196704,
+        "duration" : 95123
       }
     }, {
-      "uid" : "fc58d1b044b63006",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/49/allure/#testresult/fc58d1b044b63006",
-      "status" : "broken",
-      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "uid" : "243edaceb008e26e",
+      "reportUrl" : "http://localhost:8080/job/Timing/73/allure/#testresult/243edaceb008e26e",
+      "status" : "passed",
       "time" : {
-        "start" : 1587155219339,
-        "stop" : 1587155292312,
-        "duration" : 72973
+        "start" : 1589399789302,
+        "stop" : 1589399877700,
+        "duration" : 88398
       }
     }, {
-      "uid" : "70b75419b4fe0f43",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/48/allure/#testresult/70b75419b4fe0f43",
-      "status" : "broken",
-      "statusDetails" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=4723): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001A6C0266128>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))",
+      "uid" : "843f5df07eca2d40",
+      "reportUrl" : "http://localhost:8080/job/Timing/72/allure/#testresult/843f5df07eca2d40",
+      "status" : "passed",
       "time" : {
-        "start" : 1587153096451,
-        "stop" : 1587153096451,
-        "duration" : 0
+        "start" : 1589373221911,
+        "stop" : 1589373311295,
+        "duration" : 89384
       }
     }, {
-      "uid" : "b29467cdbe8f6725",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/46/allure/#testresult/b29467cdbe8f6725",
-      "status" : "broken",
-      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "uid" : "bb52d4a222a4f3e3",
+      "reportUrl" : "http://localhost:8080/job/Timing/68/allure/#testresult/bb52d4a222a4f3e3",
+      "status" : "passed",
       "time" : {
-        "start" : 1587149045054,
-        "stop" : 1587149118092,
-        "duration" : 73038
+        "start" : 1588191532185,
+        "stop" : 1588191625565,
+        "duration" : 93380
       }
     } ]
   },
@@ -868,175 +860,172 @@
       "failed" : 0,
       "broken" : 2,
       "skipped" : 0,
-      "passed" : 25,
+      "passed" : 35,
       "unknown" : 0,
-      "total" : 27
+      "total" : 37
     },
     "items" : [ {
-      "uid" : "55d2918d602b7805",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/52/allure/#testresult/55d2918d602b7805",
+      "uid" : "bd9a915487b203cb",
+      "reportUrl" : "http://localhost:8080/job/Timing/74/allure/#testresult/bd9a915487b203cb",
       "status" : "passed",
       "time" : {
-        "start" : 1587459463030,
-        "stop" : 1587459491724,
-        "duration" : 28694
+        "start" : 1589404845909,
+        "stop" : 1589404894264,
+        "duration" : 48355
       }
     }, {
-      "uid" : "87cec86122ec27e4",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/51/allure/#testresult/87cec86122ec27e4",
+      "uid" : "23ea4fc13cfdaf5c",
+      "reportUrl" : "http://localhost:8080/job/Timing/73/allure/#testresult/23ea4fc13cfdaf5c",
       "status" : "passed",
       "time" : {
-        "start" : 1587261786505,
-        "stop" : 1587261829468,
-        "duration" : 42963
+        "start" : 1589398484764,
+        "stop" : 1589398529279,
+        "duration" : 44515
       }
     }, {
-      "uid" : "9d6be67ed7e4a982",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/49/allure/#testresult/9d6be67ed7e4a982",
+      "uid" : "92203eab2875fcac",
+      "reportUrl" : "http://localhost:8080/job/Timing/72/allure/#testresult/92203eab2875fcac",
       "status" : "passed",
       "time" : {
-        "start" : 1587153975793,
-        "stop" : 1587154004042,
-        "duration" : 28249
+        "start" : 1589372101694,
+        "stop" : 1589372139038,
+        "duration" : 37344
       }
     }, {
-      "uid" : "300fdffceab8ee08",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/48/allure/#testresult/300fdffceab8ee08",
-      "status" : "broken",
-      "statusDetails" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=4723): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001A6BFE78978>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))",
-      "time" : {
-        "start" : 1587152992909,
-        "stop" : 1587152992909,
-        "duration" : 0
-      }
-    }, {
-      "uid" : "b65a9d335781028b",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/46/allure/#testresult/b65a9d335781028b",
+      "uid" : "f16800d231fcf1c3",
+      "reportUrl" : "http://localhost:8080/job/Timing/68/allure/#testresult/f16800d231fcf1c3",
       "status" : "passed",
       "time" : {
-        "start" : 1587152337585,
-        "stop" : 1587152378997,
-        "duration" : 41412
+        "start" : 1588190280583,
+        "stop" : 1588190327096,
+        "duration" : 46513
+      }
+    }, {
+      "uid" : "486807688c5ce842",
+      "reportUrl" : "http://localhost:8080/job/Timing/61/allure/#testresult/486807688c5ce842",
+      "status" : "passed",
+      "time" : {
+        "start" : 1588190280583,
+        "stop" : 1588190327096,
+        "duration" : 46513
       }
     } ]
   },
   "2fdb6651130c65ed07e554159f6246f2" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 3,
+      "broken" : 10,
       "skipped" : 0,
-      "passed" : 3,
+      "passed" : 6,
       "unknown" : 0,
-      "total" : 6
+      "total" : 16
     },
     "items" : [ {
-      "uid" : "81c20736d8b3f61b",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/52/allure/#testresult/81c20736d8b3f61b",
-      "status" : "passed",
-      "time" : {
-        "start" : 1587460405345,
-        "stop" : 1587460544530,
-        "duration" : 139185
-      }
-    }, {
-      "uid" : "dc3ee3567c6a7699",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/51/allure/#testresult/dc3ee3567c6a7699",
+      "uid" : "26d07ef55b74e059",
+      "reportUrl" : "http://localhost:8080/job/Timing/74/allure/#testresult/26d07ef55b74e059",
       "status" : "broken",
       "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
       "time" : {
-        "start" : 1587262530523,
-        "stop" : 1587262602299,
-        "duration" : 71776
+        "start" : 1588187075968,
+        "stop" : 1588187149880,
+        "duration" : 73912
       }
     }, {
-      "uid" : "6c37f827ef1fc67e",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/49/allure/#testresult/6c37f827ef1fc67e",
+      "uid" : "9e98c47094002a9",
+      "reportUrl" : "http://localhost:8080/job/Timing/73/allure/#testresult/9e98c47094002a9",
       "status" : "broken",
       "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
       "time" : {
-        "start" : 1587154815665,
-        "stop" : 1587154901747,
-        "duration" : 86082
+        "start" : 1588187075968,
+        "stop" : 1588187149880,
+        "duration" : 73912
       }
     }, {
-      "uid" : "5ea02fb4effb01a1",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/48/allure/#testresult/5ea02fb4effb01a1",
+      "uid" : "2f617fea85803005",
+      "reportUrl" : "http://localhost:8080/job/Timing/72/allure/#testresult/2f617fea85803005",
       "status" : "broken",
-      "statusDetails" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=4723): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001A6C00C0F28>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
       "time" : {
-        "start" : 1587153065372,
-        "stop" : 1587153065372,
-        "duration" : 0
+        "start" : 1588187075968,
+        "stop" : 1588187149880,
+        "duration" : 73912
       }
     }, {
-      "uid" : "293ee70aef1f062a",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/46/allure/#testresult/293ee70aef1f062a",
-      "status" : "passed",
+      "uid" : "93968bdf624f5e46",
+      "reportUrl" : "http://localhost:8080/job/Timing/68/allure/#testresult/93968bdf624f5e46",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
       "time" : {
-        "start" : 1587148567016,
-        "stop" : 1587148686004,
-        "duration" : 118988
+        "start" : 1588187075968,
+        "stop" : 1588187149880,
+        "duration" : 73912
+      }
+    }, {
+      "uid" : "2ce438e7038f9b0c",
+      "reportUrl" : "http://localhost:8080/job/Timing/61/allure/#testresult/2ce438e7038f9b0c",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1588187075968,
+        "stop" : 1588187149880,
+        "duration" : 73912
       }
     } ]
   },
   "379fd30feb629b30df1e6a6bf3b5061e" : {
     "statistic" : {
       "failed" : 5,
-      "broken" : 5,
+      "broken" : 8,
       "skipped" : 0,
-      "passed" : 17,
+      "passed" : 25,
       "unknown" : 0,
-      "total" : 27
+      "total" : 38
     },
     "items" : [ {
-      "uid" : "692853bcd75e8962",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/52/allure/#testresult/692853bcd75e8962",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: assert '[图片]' == '[视频]'\n  - [图片]\n  + [视频]",
+      "uid" : "ab31575612c20df6",
+      "reportUrl" : "http://localhost:8080/job/Timing/76/allure/#testresult/ab31575612c20df6",
+      "status" : "passed",
       "time" : {
-        "start" : 1587459676449,
-        "stop" : 1587459725685,
-        "duration" : 49236
+        "start" : 1591168952834,
+        "stop" : 1591169027438,
+        "duration" : 74604
       }
     }, {
-      "uid" : "4b06bfe965d8db2b",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/51/allure/#testresult/4b06bfe965d8db2b",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: assert '[图片]' == '[视频]'\n  - [图片]\n  + [视频]",
+      "uid" : "b330bc408df307ce",
+      "reportUrl" : "http://localhost:8080/job/Timing/74/allure/#testresult/b330bc408df307ce",
+      "status" : "passed",
       "time" : {
-        "start" : 1587262084251,
-        "stop" : 1587262151135,
-        "duration" : 66884
+        "start" : 1589405038100,
+        "stop" : 1589405107201,
+        "duration" : 69101
       }
     }, {
-      "uid" : "7e9766318b08cdf5",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/49/allure/#testresult/7e9766318b08cdf5",
+      "uid" : "c7adebd960e706e0",
+      "reportUrl" : "http://localhost:8080/job/Timing/73/allure/#testresult/c7adebd960e706e0",
       "status" : "broken",
       "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
       "time" : {
-        "start" : 1587154225174,
-        "stop" : 1587154364418,
-        "duration" : 139244
+        "start" : 1589398726477,
+        "stop" : 1589398836745,
+        "duration" : 110268
       }
     }, {
-      "uid" : "c96613ee047c110f",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/48/allure/#testresult/c96613ee047c110f",
-      "status" : "broken",
-      "statusDetails" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=4723): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001A6C00C4630>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))",
+      "uid" : "aeb3b7de97a43168",
+      "reportUrl" : "http://localhost:8080/job/Timing/72/allure/#testresult/aeb3b7de97a43168",
+      "status" : "passed",
       "time" : {
-        "start" : 1587153023974,
-        "stop" : 1587153023974,
-        "duration" : 0
+        "start" : 1589372290670,
+        "stop" : 1589372356704,
+        "duration" : 66034
       }
     }, {
-      "uid" : "a8d906bb6cfda066",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/46/allure/#testresult/a8d906bb6cfda066",
-      "status" : "broken",
-      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "uid" : "20d8cf9b551d19b0",
+      "reportUrl" : "http://localhost:8080/job/Timing/68/allure/#testresult/20d8cf9b551d19b0",
+      "status" : "passed",
       "time" : {
-        "start" : 1587148036908,
-        "stop" : 1587148103978,
-        "duration" : 67070
+        "start" : 1588190480198,
+        "stop" : 1588190554040,
+        "duration" : 73842
       }
     } ]
   },
@@ -1065,55 +1054,54 @@
       "failed" : 0,
       "broken" : 1,
       "skipped" : 0,
-      "passed" : 22,
+      "passed" : 33,
       "unknown" : 0,
-      "total" : 23
+      "total" : 34
     },
     "items" : [ {
-      "uid" : "e309a8050f3e0ca",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/52/allure/#testresult/e309a8050f3e0ca",
+      "uid" : "db1a82f0ccc47a2a",
+      "reportUrl" : "http://localhost:8080/job/Timing/76/allure/#testresult/db1a82f0ccc47a2a",
       "status" : "passed",
       "time" : {
-        "start" : 1587459257333,
-        "stop" : 1587459296523,
-        "duration" : 39190
+        "start" : 1591168632026,
+        "stop" : 1591168683248,
+        "duration" : 51222
       }
     }, {
-      "uid" : "20ffaaeb9f71dc27",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/51/allure/#testresult/20ffaaeb9f71dc27",
+      "uid" : "ff78f0759ae415e9",
+      "reportUrl" : "http://localhost:8080/job/Timing/74/allure/#testresult/ff78f0759ae415e9",
       "status" : "passed",
       "time" : {
-        "start" : 1587261575937,
-        "stop" : 1587261605207,
-        "duration" : 29270
+        "start" : 1589404691635,
+        "stop" : 1589404710199,
+        "duration" : 18564
       }
     }, {
-      "uid" : "ab35699917b49d04",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/49/allure/#testresult/ab35699917b49d04",
+      "uid" : "4337fb4bb090a3b6",
+      "reportUrl" : "http://localhost:8080/job/Timing/73/allure/#testresult/4337fb4bb090a3b6",
       "status" : "passed",
       "time" : {
-        "start" : 1587153714065,
-        "stop" : 1587153753898,
-        "duration" : 39833
+        "start" : 1589371911295,
+        "stop" : 1589371924511,
+        "duration" : 13216
       }
     }, {
-      "uid" : "e0aeaa5c35cd4420",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/48/allure/#testresult/e0aeaa5c35cd4420",
-      "status" : "broken",
-      "statusDetails" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=4723): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001A6C0275278>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))",
-      "time" : {
-        "start" : 1587152972210,
-        "stop" : 1587152972210,
-        "duration" : 0
-      }
-    }, {
-      "uid" : "838b0c558ea12fdc",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/46/allure/#testresult/838b0c558ea12fdc",
+      "uid" : "1702426d776da341",
+      "reportUrl" : "http://localhost:8080/job/Timing/72/allure/#testresult/1702426d776da341",
       "status" : "passed",
       "time" : {
-        "start" : 1587030311202,
-        "stop" : 1587030363672,
-        "duration" : 52470
+        "start" : 1589371911295,
+        "stop" : 1589371924511,
+        "duration" : 13216
+      }
+    }, {
+      "uid" : "ecafff3929e23d8f",
+      "reportUrl" : "http://localhost:8080/job/Timing/68/allure/#testresult/ecafff3929e23d8f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1588190031730,
+        "stop" : 1588190098405,
+        "duration" : 66675
       }
     } ]
   },
@@ -1122,113 +1110,224 @@
       "failed" : 0,
       "broken" : 3,
       "skipped" : 0,
-      "passed" : 24,
+      "passed" : 35,
       "unknown" : 0,
-      "total" : 27
+      "total" : 38
     },
     "items" : [ {
-      "uid" : "58624dccda3ca3c7",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/52/allure/#testresult/58624dccda3ca3c7",
+      "uid" : "4eb19144899941e5",
+      "reportUrl" : "http://localhost:8080/job/Timing/76/allure/#testresult/4eb19144899941e5",
       "status" : "passed",
       "time" : {
-        "start" : 1587459300151,
-        "stop" : 1587459318417,
-        "duration" : 18266
+        "start" : 1591168686737,
+        "stop" : 1591168702877,
+        "duration" : 16140
       }
     }, {
-      "uid" : "a821f823491423ff",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/51/allure/#testresult/a821f823491423ff",
+      "uid" : "e2035bb6f9459243",
+      "reportUrl" : "http://localhost:8080/job/Timing/74/allure/#testresult/e2035bb6f9459243",
       "status" : "passed",
       "time" : {
-        "start" : 1587261608763,
-        "stop" : 1587261627863,
-        "duration" : 19100
+        "start" : 1589404714023,
+        "stop" : 1589404738880,
+        "duration" : 24857
       }
     }, {
-      "uid" : "4dd165853a53837a",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/49/allure/#testresult/4dd165853a53837a",
+      "uid" : "bd64c365c48fb44",
+      "reportUrl" : "http://localhost:8080/job/Timing/73/allure/#testresult/bd64c365c48fb44",
       "status" : "passed",
       "time" : {
-        "start" : 1587153757694,
-        "stop" : 1587153775973,
-        "duration" : 18279
+        "start" : 1589398334006,
+        "stop" : 1589398353041,
+        "duration" : 19035
       }
     }, {
-      "uid" : "256c7eb85e19d506",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/48/allure/#testresult/256c7eb85e19d506",
+      "uid" : "34d332fe5d19c264",
+      "reportUrl" : "http://localhost:8080/job/Timing/72/allure/#testresult/34d332fe5d19c264",
+      "status" : "passed",
+      "time" : {
+        "start" : 1589371928479,
+        "stop" : 1589371946953,
+        "duration" : 18474
+      }
+    }, {
+      "uid" : "c914dcf4c1f88792",
+      "reportUrl" : "http://localhost:8080/job/Timing/68/allure/#testresult/c914dcf4c1f88792",
+      "status" : "passed",
+      "time" : {
+        "start" : 1588190102397,
+        "stop" : 1588190125593,
+        "duration" : 23196
+      }
+    } ]
+  },
+  "506bc801824f9ddc3f9685bb23da4c74" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 5,
+      "unknown" : 0,
+      "total" : 6
+    },
+    "items" : [ {
+      "uid" : "f43354700b113171",
+      "reportUrl" : "http://localhost:8080/job/Timing/76/allure/#testresult/f43354700b113171",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591169464315,
+        "stop" : 1591169584266,
+        "duration" : 119951
+      }
+    }, {
+      "uid" : "a96d49e151f2eca9",
+      "reportUrl" : "http://localhost:8080/job/Timing/74/allure/#testresult/a96d49e151f2eca9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1589405559721,
+        "stop" : 1589405662303,
+        "duration" : 102582
+      }
+    }, {
+      "uid" : "ab99bb643944b0f",
+      "reportUrl" : "http://localhost:8080/job/Timing/73/allure/#testresult/ab99bb643944b0f",
       "status" : "broken",
-      "statusDetails" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=4723): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001A6C01066A0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
       "time" : {
-        "start" : 1587152977392,
-        "stop" : 1587152977392,
-        "duration" : 0
+        "start" : 1589399344334,
+        "stop" : 1589399432812,
+        "duration" : 88478
       }
     }, {
-      "uid" : "887f1d9afde4ef6a",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/46/allure/#testresult/887f1d9afde4ef6a",
+      "uid" : "bb3b21e95452aceb",
+      "reportUrl" : "http://localhost:8080/job/Timing/72/allure/#testresult/bb3b21e95452aceb",
       "status" : "passed",
       "time" : {
-        "start" : 1587152142531,
-        "stop" : 1587152159525,
-        "duration" : 16994
+        "start" : 1589372759816,
+        "stop" : 1589372875001,
+        "duration" : 115185
+      }
+    }, {
+      "uid" : "ba50016e77a492fb",
+      "reportUrl" : "http://localhost:8080/job/Timing/68/allure/#testresult/ba50016e77a492fb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1588191058802,
+        "stop" : 1588191162316,
+        "duration" : 103514
       }
     } ]
   },
   "afd790239c990a2f0e6479c27d247442" : {
     "statistic" : {
       "failed" : 1,
-      "broken" : 9,
+      "broken" : 10,
       "skipped" : 0,
-      "passed" : 20,
+      "passed" : 30,
       "unknown" : 0,
-      "total" : 30
+      "total" : 41
     },
     "items" : [ {
-      "uid" : "50a5bd263112f841",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/52/allure/#testresult/50a5bd263112f841",
+      "uid" : "c06ef1d39835c96f",
+      "reportUrl" : "http://localhost:8080/job/Timing/76/allure/#testresult/c06ef1d39835c96f",
       "status" : "passed",
       "time" : {
-        "start" : 1587459053662,
-        "stop" : 1587459065266,
-        "duration" : 11604
+        "start" : 1591168403650,
+        "stop" : 1591168414123,
+        "duration" : 10473
       }
     }, {
-      "uid" : "faa086cca21534b6",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/51/allure/#testresult/faa086cca21534b6",
+      "uid" : "d243c8fb3267b2c9",
+      "reportUrl" : "http://localhost:8080/job/Timing/74/allure/#testresult/d243c8fb3267b2c9",
       "status" : "passed",
       "time" : {
-        "start" : 1587261409532,
-        "stop" : 1587261421021,
-        "duration" : 11489
+        "start" : 1589404515188,
+        "stop" : 1589404531720,
+        "duration" : 16532
       }
     }, {
-      "uid" : "acf8f5775cfb22cf",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/49/allure/#testresult/acf8f5775cfb22cf",
+      "uid" : "7defd1ca62f1a13",
+      "reportUrl" : "http://localhost:8080/job/Timing/73/allure/#testresult/7defd1ca62f1a13",
       "status" : "passed",
       "time" : {
-        "start" : 1587153544723,
-        "stop" : 1587153557949,
-        "duration" : 13226
+        "start" : 1589398242290,
+        "stop" : 1589398281923,
+        "duration" : 39633
       }
     }, {
-      "uid" : "5860567520885a25",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/48/allure/#testresult/5860567520885a25",
-      "status" : "broken",
-      "statusDetails" : "urllib3.exceptions.ProtocolError: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))",
+      "uid" : "74f224869800e055",
+      "reportUrl" : "http://localhost:8080/job/Timing/72/allure/#testresult/74f224869800e055",
+      "status" : "passed",
       "time" : {
-        "start" : 1587152904262,
-        "stop" : 1587152941997,
-        "duration" : 37735
+        "start" : 1589371703530,
+        "stop" : 1589371716904,
+        "duration" : 13374
       }
     }, {
-      "uid" : "d497b5892651b25d",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/46/allure/#testresult/d497b5892651b25d",
+      "uid" : "5506afa4bb02926b",
+      "reportUrl" : "http://localhost:8080/job/Timing/68/allure/#testresult/5506afa4bb02926b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1588192879081,
+        "stop" : 1588192897804,
+        "duration" : 18723
+      }
+    } ]
+  },
+  "3b7ff0226088b735f3d3a9c4e75db270" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 5,
+      "unknown" : 0,
+      "total" : 6
+    },
+    "items" : [ {
+      "uid" : "27189e8d51bdc309",
+      "reportUrl" : "http://localhost:8080/job/Timing/76/allure/#testresult/27189e8d51bdc309",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591169588452,
+        "stop" : 1591169732063,
+        "duration" : 143611
+      }
+    }, {
+      "uid" : "b468544fcdca5a9d",
+      "reportUrl" : "http://localhost:8080/job/Timing/74/allure/#testresult/b468544fcdca5a9d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1589405666549,
+        "stop" : 1589405827636,
+        "duration" : 161087
+      }
+    }, {
+      "uid" : "31e77b63f93dd7d",
+      "reportUrl" : "http://localhost:8080/job/Timing/73/allure/#testresult/31e77b63f93dd7d",
       "status" : "broken",
       "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
       "time" : {
-        "start" : 1587152018213,
-        "stop" : 1587152069609,
-        "duration" : 51396
+        "start" : 1589399438961,
+        "stop" : 1589399556803,
+        "duration" : 117842
+      }
+    }, {
+      "uid" : "90a710d9a610bea3",
+      "reportUrl" : "http://localhost:8080/job/Timing/72/allure/#testresult/90a710d9a610bea3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1589372878986,
+        "stop" : 1589372992663,
+        "duration" : 113677
+      }
+    }, {
+      "uid" : "8a68c27e68dd1667",
+      "reportUrl" : "http://localhost:8080/job/Timing/68/allure/#testresult/8a68c27e68dd1667",
+      "status" : "passed",
+      "time" : {
+        "start" : 1588191166512,
+        "stop" : 1588191290070,
+        "duration" : 123558
       }
     } ]
   },
@@ -1237,13 +1336,13 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 26,
+      "passed" : 36,
       "unknown" : 0,
-      "total" : 26
+      "total" : 36
     },
     "items" : [ {
-      "uid" : "d1bea5183b5f2bef",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/52/allure/#testresult/d1bea5183b5f2bef",
+      "uid" : "cb85a3ef660354eb",
+      "reportUrl" : "http://localhost:8080/job/Timing/74/allure/#testresult/cb85a3ef660354eb",
       "status" : "passed",
       "time" : {
         "start" : 1579351312885,
@@ -1251,8 +1350,8 @@
         "duration" : 17850
       }
     }, {
-      "uid" : "8e8d9750dd2939d7",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/51/allure/#testresult/8e8d9750dd2939d7",
+      "uid" : "190a461917e31d9c",
+      "reportUrl" : "http://localhost:8080/job/Timing/73/allure/#testresult/190a461917e31d9c",
       "status" : "passed",
       "time" : {
         "start" : 1579351312885,
@@ -1260,8 +1359,8 @@
         "duration" : 17850
       }
     }, {
-      "uid" : "c6d1a58851461798",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/49/allure/#testresult/c6d1a58851461798",
+      "uid" : "f8140ddb03e6e7db",
+      "reportUrl" : "http://localhost:8080/job/Timing/72/allure/#testresult/f8140ddb03e6e7db",
       "status" : "passed",
       "time" : {
         "start" : 1579351312885,
@@ -1269,8 +1368,8 @@
         "duration" : 17850
       }
     }, {
-      "uid" : "5852602c5efdf9c4",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/48/allure/#testresult/5852602c5efdf9c4",
+      "uid" : "e1e85285a9613aae",
+      "reportUrl" : "http://localhost:8080/job/Timing/68/allure/#testresult/e1e85285a9613aae",
       "status" : "passed",
       "time" : {
         "start" : 1579351312885,
@@ -1278,8 +1377,8 @@
         "duration" : 17850
       }
     }, {
-      "uid" : "bd3c974ecfe1185d",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/46/allure/#testresult/bd3c974ecfe1185d",
+      "uid" : "8ef2d699e85e7a2b",
+      "reportUrl" : "http://localhost:8080/job/Timing/61/allure/#testresult/8ef2d699e85e7a2b",
       "status" : "passed",
       "time" : {
         "start" : 1579351312885,
@@ -1293,13 +1392,13 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 23,
+      "passed" : 33,
       "unknown" : 0,
-      "total" : 23
+      "total" : 33
     },
     "items" : [ {
-      "uid" : "ba16c6bf355a1a76",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/52/allure/#testresult/ba16c6bf355a1a76",
+      "uid" : "a809133d764a8dbf",
+      "reportUrl" : "http://localhost:8080/job/Timing/74/allure/#testresult/a809133d764a8dbf",
       "status" : "passed",
       "time" : {
         "start" : 1579351418285,
@@ -1307,8 +1406,8 @@
         "duration" : 12150
       }
     }, {
-      "uid" : "190c56789ef95f44",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/51/allure/#testresult/190c56789ef95f44",
+      "uid" : "47f97046c3d231e4",
+      "reportUrl" : "http://localhost:8080/job/Timing/73/allure/#testresult/47f97046c3d231e4",
       "status" : "passed",
       "time" : {
         "start" : 1579351418285,
@@ -1316,8 +1415,8 @@
         "duration" : 12150
       }
     }, {
-      "uid" : "e74206ee24712712",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/49/allure/#testresult/e74206ee24712712",
+      "uid" : "5893f2030da81a06",
+      "reportUrl" : "http://localhost:8080/job/Timing/72/allure/#testresult/5893f2030da81a06",
       "status" : "passed",
       "time" : {
         "start" : 1579351418285,
@@ -1325,8 +1424,8 @@
         "duration" : 12150
       }
     }, {
-      "uid" : "de20978bfd3a45ab",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/48/allure/#testresult/de20978bfd3a45ab",
+      "uid" : "c3852666a7e8dddd",
+      "reportUrl" : "http://localhost:8080/job/Timing/68/allure/#testresult/c3852666a7e8dddd",
       "status" : "passed",
       "time" : {
         "start" : 1579351418285,
@@ -1334,8 +1433,8 @@
         "duration" : 12150
       }
     }, {
-      "uid" : "5899ed9e4487867d",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/46/allure/#testresult/5899ed9e4487867d",
+      "uid" : "60e9cd05b0989c39",
+      "reportUrl" : "http://localhost:8080/job/Timing/61/allure/#testresult/60e9cd05b0989c39",
       "status" : "passed",
       "time" : {
         "start" : 1579351418285,
@@ -1347,240 +1446,227 @@
   "d7d2aaf35f5ce3d673cdc1faa9e45b9a" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 20,
+      "broken" : 25,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 5,
       "unknown" : 0,
-      "total" : 20
+      "total" : 30
     },
     "items" : [ {
-      "uid" : "2b1497033d49e09f",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/52/allure/#testresult/2b1497033d49e09f",
-      "status" : "broken",
-      "statusDetails" : "AttributeError: 'Shouye' object has no attribute 'waitAndfind'",
+      "uid" : "61e6bb2ab4c241f7",
+      "reportUrl" : "http://localhost:8080/job/Timing/74/allure/#testresult/61e6bb2ab4c241f7",
+      "status" : "passed",
       "time" : {
-        "start" : 1586158913916,
-        "stop" : 1586158947904,
-        "duration" : 33988
+        "start" : 1589404898332,
+        "stop" : 1589404898332,
+        "duration" : 0
       }
     }, {
-      "uid" : "c8a2453ec4018b7f",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/51/allure/#testresult/c8a2453ec4018b7f",
-      "status" : "broken",
-      "statusDetails" : "AttributeError: 'Shouye' object has no attribute 'waitAndfind'",
+      "uid" : "6d499577b9ae3987",
+      "reportUrl" : "http://localhost:8080/job/Timing/73/allure/#testresult/6d499577b9ae3987",
+      "status" : "passed",
       "time" : {
-        "start" : 1586158913916,
-        "stop" : 1586158947904,
-        "duration" : 33988
+        "start" : 1589398535324,
+        "stop" : 1589398535325,
+        "duration" : 1
       }
     }, {
-      "uid" : "3a202a308325afee",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/49/allure/#testresult/3a202a308325afee",
-      "status" : "broken",
-      "statusDetails" : "AttributeError: 'Shouye' object has no attribute 'waitAndfind'",
+      "uid" : "becfeea441e55c2a",
+      "reportUrl" : "http://localhost:8080/job/Timing/72/allure/#testresult/becfeea441e55c2a",
+      "status" : "passed",
       "time" : {
-        "start" : 1586158913916,
-        "stop" : 1586158947904,
-        "duration" : 33988
+        "start" : 1589372143210,
+        "stop" : 1589372143211,
+        "duration" : 1
       }
     }, {
-      "uid" : "8fb6b145a63a7a15",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/48/allure/#testresult/8fb6b145a63a7a15",
-      "status" : "broken",
-      "statusDetails" : "AttributeError: 'Shouye' object has no attribute 'waitAndfind'",
+      "uid" : "a7228e09fb1fcbd3",
+      "reportUrl" : "http://localhost:8080/job/Timing/68/allure/#testresult/a7228e09fb1fcbd3",
+      "status" : "passed",
       "time" : {
-        "start" : 1586158913916,
-        "stop" : 1586158947904,
-        "duration" : 33988
+        "start" : 1588190331065,
+        "stop" : 1588190331066,
+        "duration" : 1
       }
     }, {
-      "uid" : "23a4e40f18d1a9c",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/46/allure/#testresult/23a4e40f18d1a9c",
-      "status" : "broken",
-      "statusDetails" : "AttributeError: 'Shouye' object has no attribute 'waitAndfind'",
+      "uid" : "a13aef9698d656f",
+      "reportUrl" : "http://localhost:8080/job/Timing/61/allure/#testresult/a13aef9698d656f",
+      "status" : "passed",
       "time" : {
-        "start" : 1586158913916,
-        "stop" : 1586158947904,
-        "duration" : 33988
+        "start" : 1588190331065,
+        "stop" : 1588190331066,
+        "duration" : 1
       }
     } ]
   },
   "a3ee25ba58e5c6fea7881bab0734e793" : {
     "statistic" : {
-      "failed" : 7,
-      "broken" : 3,
+      "failed" : 8,
+      "broken" : 4,
       "skipped" : 0,
-      "passed" : 16,
+      "passed" : 25,
       "unknown" : 0,
-      "total" : 26
+      "total" : 37
     },
     "items" : [ {
-      "uid" : "74028437bda40216",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/52/allure/#testresult/74028437bda40216",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: assert '草莓味の多肉 发布了学习日记' == '[视频]'\n  - 草莓味の多肉 发布了学习日记\n  + [视频]",
+      "uid" : "ba4d19865c5b29d9",
+      "reportUrl" : "http://localhost:8080/job/Timing/76/allure/#testresult/ba4d19865c5b29d9",
+      "status" : "passed",
       "time" : {
-        "start" : 1587460140810,
-        "stop" : 1587460177743,
-        "duration" : 36933
+        "start" : 1591169173893,
+        "stop" : 1591169237208,
+        "duration" : 63315
       }
     }, {
-      "uid" : "d248d052a84f6554",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/51/allure/#testresult/d248d052a84f6554",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: assert '你发布了学习日记' == '[视频]'\n  - 你发布了学习日记\n  + [视频]",
+      "uid" : "3b0afecb233fb4db",
+      "reportUrl" : "http://localhost:8080/job/Timing/74/allure/#testresult/3b0afecb233fb4db",
+      "status" : "passed",
       "time" : {
-        "start" : 1587262337509,
-        "stop" : 1587262379361,
-        "duration" : 41852
+        "start" : 1589405298168,
+        "stop" : 1589405365618,
+        "duration" : 67450
       }
     }, {
-      "uid" : "93c576309130892a",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/49/allure/#testresult/93c576309130892a",
+      "uid" : "fc51691e66553321",
+      "reportUrl" : "http://localhost:8080/job/Timing/73/allure/#testresult/fc51691e66553321",
       "status" : "failed",
-      "statusDetails" : "AssertionError: assert '你发布了学习日记' == '[视频]'\n  - 你发布了学习日记\n  + [视频]",
+      "statusDetails" : "AssertionError: assert 'I am a message!' == '[视频]'\n  - I am a message!\n  + [视频]",
       "time" : {
-        "start" : 1587154567492,
-        "stop" : 1587154649011,
-        "duration" : 81519
+        "start" : 1589399032641,
+        "stop" : 1589399134731,
+        "duration" : 102090
       }
     }, {
-      "uid" : "7c59844d678c8727",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/48/allure/#testresult/7c59844d678c8727",
-      "status" : "broken",
-      "statusDetails" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=4723): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001A6C132C748>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))",
+      "uid" : "4701ec88eae25ab0",
+      "reportUrl" : "http://localhost:8080/job/Timing/72/allure/#testresult/4701ec88eae25ab0",
+      "status" : "passed",
       "time" : {
-        "start" : 1587153049850,
-        "stop" : 1587153049850,
-        "duration" : 0
+        "start" : 1589372534306,
+        "stop" : 1589372598020,
+        "duration" : 63714
       }
     }, {
-      "uid" : "c6c94f2ea857c3e0",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/46/allure/#testresult/c6c94f2ea857c3e0",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: assert '你发布了学习日记' == '[视频]'\n  - 你发布了学习日记\n  + [视频]",
+      "uid" : "245b409c3c732d82",
+      "reportUrl" : "http://localhost:8080/job/Timing/68/allure/#testresult/245b409c3c732d82",
+      "status" : "passed",
       "time" : {
-        "start" : 1587148301609,
-        "stop" : 1587148346574,
-        "duration" : 44965
+        "start" : 1588190777685,
+        "stop" : 1588190851213,
+        "duration" : 73528
       }
     } ]
   },
   "319b39143544ebf4f1bf973be192a619" : {
     "statistic" : {
-      "failed" : 4,
+      "failed" : 6,
       "broken" : 2,
       "skipped" : 0,
-      "passed" : 21,
+      "passed" : 29,
       "unknown" : 0,
-      "total" : 27
+      "total" : 37
     },
     "items" : [ {
-      "uid" : "812dd336b5bfaa9",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/52/allure/#testresult/812dd336b5bfaa9",
+      "uid" : "e4a321de343923fd",
+      "reportUrl" : "http://localhost:8080/job/Timing/74/allure/#testresult/e4a321de343923fd",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False == True\n  -False\n  +True",
+      "time" : {
+        "start" : 1589406469490,
+        "stop" : 1589406750748,
+        "duration" : 281258
+      }
+    }, {
+      "uid" : "593d7da64b07ab4d",
+      "reportUrl" : "http://localhost:8080/job/Timing/73/allure/#testresult/593d7da64b07ab4d",
       "status" : "passed",
       "time" : {
-        "start" : 1587461182116,
-        "stop" : 1587461385692,
-        "duration" : 203576
+        "start" : 1589400134111,
+        "stop" : 1589400187068,
+        "duration" : 52957
       }
     }, {
-      "uid" : "dbf909e9cc2de441",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/51/allure/#testresult/dbf909e9cc2de441",
+      "uid" : "ab360579f0a23cc9",
+      "reportUrl" : "http://localhost:8080/job/Timing/72/allure/#testresult/ab360579f0a23cc9",
       "status" : "failed",
       "statusDetails" : "AssertionError: assert False == True\n  -False\n  +True",
       "time" : {
-        "start" : 1587263270890,
-        "stop" : 1587263553650,
-        "duration" : 282760
+        "start" : 1589373547118,
+        "stop" : 1589373825105,
+        "duration" : 277987
       }
     }, {
-      "uid" : "a992918783164d5a",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/49/allure/#testresult/a992918783164d5a",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: assert False == True\n  -False\n  +True",
+      "uid" : "ba9f66a37c125d8b",
+      "reportUrl" : "http://localhost:8080/job/Timing/68/allure/#testresult/ba9f66a37c125d8b",
+      "status" : "passed",
       "time" : {
-        "start" : 1587155585401,
-        "stop" : 1587155904057,
-        "duration" : 318656
+        "start" : 1588191904629,
+        "stop" : 1588191971437,
+        "duration" : 66808
       }
     }, {
-      "uid" : "d991d171d07c99a1",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/48/allure/#testresult/d991d171d07c99a1",
-      "status" : "broken",
-      "statusDetails" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=4723): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001A6BFFA1630>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))",
+      "uid" : "c9e4a7d01784d32a",
+      "reportUrl" : "http://localhost:8080/job/Timing/61/allure/#testresult/c9e4a7d01784d32a",
+      "status" : "passed",
       "time" : {
-        "start" : 1587153117141,
-        "stop" : 1587153117141,
-        "duration" : 0
-      }
-    }, {
-      "uid" : "33a38d36316ae092",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/46/allure/#testresult/33a38d36316ae092",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: assert False == True\n  -False\n  +True",
-      "time" : {
-        "start" : 1587149358010,
-        "stop" : 1587149637279,
-        "duration" : 279269
+        "start" : 1588191904629,
+        "stop" : 1588191971437,
+        "duration" : 66808
       }
     } ]
   },
   "70208ecb89cae63421bdb3a7ce67b14a" : {
     "statistic" : {
       "failed" : 1,
-      "broken" : 9,
+      "broken" : 10,
       "skipped" : 0,
-      "passed" : 20,
+      "passed" : 30,
       "unknown" : 0,
-      "total" : 30
+      "total" : 41
     },
     "items" : [ {
-      "uid" : "ab7def201c2462e",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/52/allure/#testresult/ab7def201c2462e",
+      "uid" : "2480b95c702c6962",
+      "reportUrl" : "http://localhost:8080/job/Timing/76/allure/#testresult/2480b95c702c6962",
       "status" : "passed",
       "time" : {
-        "start" : 1587458982485,
-        "stop" : 1587459049879,
-        "duration" : 67394
+        "start" : 1591168336821,
+        "stop" : 1591168400277,
+        "duration" : 63456
       }
     }, {
-      "uid" : "8ad45dcbcfb8bf59",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/51/allure/#testresult/8ad45dcbcfb8bf59",
+      "uid" : "a48c8da9405df56c",
+      "reportUrl" : "http://localhost:8080/job/Timing/74/allure/#testresult/a48c8da9405df56c",
       "status" : "passed",
       "time" : {
-        "start" : 1587261340068,
-        "stop" : 1587261406183,
-        "duration" : 66115
+        "start" : 1589404435253,
+        "stop" : 1589404511192,
+        "duration" : 75939
       }
     }, {
-      "uid" : "ce1f4e3ab0da8257",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/49/allure/#testresult/ce1f4e3ab0da8257",
+      "uid" : "f1a2e7f854246018",
+      "reportUrl" : "http://localhost:8080/job/Timing/73/allure/#testresult/f1a2e7f854246018",
       "status" : "passed",
       "time" : {
-        "start" : 1587153475861,
-        "stop" : 1587153541332,
-        "duration" : 65471
+        "start" : 1589398163474,
+        "stop" : 1589398236378,
+        "duration" : 72904
       }
     }, {
-      "uid" : "3cf80d37ec20eed1",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/48/allure/#testresult/3cf80d37ec20eed1",
-      "status" : "broken",
-      "statusDetails" : "NameError: name 'engine' is not defined",
+      "uid" : "ae4bf81bb04ba4ee",
+      "reportUrl" : "http://localhost:8080/job/Timing/72/allure/#testresult/ae4bf81bb04ba4ee",
+      "status" : "passed",
       "time" : {
-        "start" : 1587152895769,
-        "stop" : 1587152900662,
-        "duration" : 4893
+        "start" : 1589371630601,
+        "stop" : 1589371699769,
+        "duration" : 69168
       }
     }, {
-      "uid" : "bc0f184c029dbee4",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/46/allure/#testresult/bc0f184c029dbee4",
-      "status" : "broken",
-      "statusDetails" : "NameError: name 'engine' is not defined",
+      "uid" : "2d4d06bd65f12bfb",
+      "reportUrl" : "http://localhost:8080/job/Timing/68/allure/#testresult/2d4d06bd65f12bfb",
+      "status" : "passed",
       "time" : {
-        "start" : 1587152009405,
-        "stop" : 1587152014772,
-        "duration" : 5367
+        "start" : 1588192782567,
+        "stop" : 1588192875099,
+        "duration" : 92532
       }
     } ]
   },
@@ -1589,13 +1675,13 @@
       "failed" : 0,
       "broken" : 5,
       "skipped" : 0,
-      "passed" : 22,
+      "passed" : 32,
       "unknown" : 0,
-      "total" : 27
+      "total" : 37
     },
     "items" : [ {
-      "uid" : "4011170077ceb695",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/52/allure/#testresult/4011170077ceb695",
+      "uid" : "a529ed8d5ce33c8a",
+      "reportUrl" : "http://localhost:8080/job/Timing/74/allure/#testresult/a529ed8d5ce33c8a",
       "status" : "passed",
       "time" : {
         "start" : 1587261833736,
@@ -1603,8 +1689,8 @@
         "duration" : 44958
       }
     }, {
-      "uid" : "8f9c830a9cd9cca",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/51/allure/#testresult/8f9c830a9cd9cca",
+      "uid" : "8b1f790e3d10d980",
+      "reportUrl" : "http://localhost:8080/job/Timing/73/allure/#testresult/8b1f790e3d10d980",
       "status" : "passed",
       "time" : {
         "start" : 1587261833736,
@@ -1612,32 +1698,31 @@
         "duration" : 44958
       }
     }, {
-      "uid" : "ecc32659700d3159",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/49/allure/#testresult/ecc32659700d3159",
+      "uid" : "f7756c18a7c0b2dd",
+      "reportUrl" : "http://localhost:8080/job/Timing/72/allure/#testresult/f7756c18a7c0b2dd",
       "status" : "passed",
       "time" : {
-        "start" : 1587154007963,
-        "stop" : 1587154053420,
-        "duration" : 45457
+        "start" : 1587261833736,
+        "stop" : 1587261878694,
+        "duration" : 44958
       }
     }, {
-      "uid" : "8fecc7ee79d0f4c3",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/48/allure/#testresult/8fecc7ee79d0f4c3",
-      "status" : "broken",
-      "statusDetails" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=4723): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001A6C021CBE0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))",
-      "time" : {
-        "start" : 1587152998096,
-        "stop" : 1587152998096,
-        "duration" : 0
-      }
-    }, {
-      "uid" : "bb8873c516911fe1",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/46/allure/#testresult/bb8873c516911fe1",
+      "uid" : "d0a7ae26c41e3b1c",
+      "reportUrl" : "http://localhost:8080/job/Timing/68/allure/#testresult/d0a7ae26c41e3b1c",
       "status" : "passed",
       "time" : {
-        "start" : 1587152382526,
-        "stop" : 1587152427445,
-        "duration" : 44919
+        "start" : 1587261833736,
+        "stop" : 1587261878694,
+        "duration" : 44958
+      }
+    }, {
+      "uid" : "8d7b6b66ef948e69",
+      "reportUrl" : "http://localhost:8080/job/Timing/61/allure/#testresult/8d7b6b66ef948e69",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587261833736,
+        "stop" : 1587261878694,
+        "duration" : 44958
       }
     } ]
   },
@@ -1646,56 +1731,54 @@
       "failed" : 0,
       "broken" : 7,
       "skipped" : 0,
-      "passed" : 23,
+      "passed" : 34,
       "unknown" : 0,
-      "total" : 30
+      "total" : 41
     },
     "items" : [ {
-      "uid" : "73d807e0e2b4881d",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/52/allure/#testresult/73d807e0e2b4881d",
+      "uid" : "b4572e0a8b98975b",
+      "reportUrl" : "http://localhost:8080/job/Timing/76/allure/#testresult/b4572e0a8b98975b",
       "status" : "passed",
       "time" : {
-        "start" : 1587459068830,
-        "stop" : 1587459089106,
-        "duration" : 20276
+        "start" : 1591168417415,
+        "stop" : 1591168438323,
+        "duration" : 20908
       }
     }, {
-      "uid" : "e4e0529ec1172ae5",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/51/allure/#testresult/e4e0529ec1172ae5",
+      "uid" : "dcbf71fa99f93856",
+      "reportUrl" : "http://localhost:8080/job/Timing/74/allure/#testresult/dcbf71fa99f93856",
       "status" : "passed",
       "time" : {
-        "start" : 1587261424366,
-        "stop" : 1587261444539,
-        "duration" : 20173
+        "start" : 1589404535421,
+        "stop" : 1589404560147,
+        "duration" : 24726
       }
     }, {
-      "uid" : "ecc1ea70ad4e04f",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/49/allure/#testresult/ecc1ea70ad4e04f",
+      "uid" : "a7bb2c9fd902c4c8",
+      "reportUrl" : "http://localhost:8080/job/Timing/73/allure/#testresult/a7bb2c9fd902c4c8",
       "status" : "passed",
       "time" : {
-        "start" : 1587153561342,
-        "stop" : 1587153582363,
-        "duration" : 21021
+        "start" : 1589398287840,
+        "stop" : 1589398309533,
+        "duration" : 21693
       }
     }, {
-      "uid" : "a22710575a104c50",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/48/allure/#testresult/a22710575a104c50",
-      "status" : "broken",
-      "statusDetails" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=4723): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001A6C02B3978>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))",
+      "uid" : "bd61d056812566f6",
+      "reportUrl" : "http://localhost:8080/job/Timing/72/allure/#testresult/bd61d056812566f6",
+      "status" : "passed",
       "time" : {
-        "start" : 1587152946350,
-        "stop" : 1587152946350,
-        "duration" : 0
+        "start" : 1589371720607,
+        "stop" : 1589371741265,
+        "duration" : 20658
       }
     }, {
-      "uid" : "35c728ecf1582aa5",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/46/allure/#testresult/35c728ecf1582aa5",
-      "status" : "broken",
-      "statusDetails" : "NameError: name 'engine' is not defined",
+      "uid" : "fc69924f7532a6d6",
+      "reportUrl" : "http://localhost:8080/job/Timing/68/allure/#testresult/fc69924f7532a6d6",
+      "status" : "passed",
       "time" : {
-        "start" : 1587152073097,
-        "stop" : 1587152084272,
-        "duration" : 11175
+        "start" : 1588195198532,
+        "stop" : 1588195221910,
+        "duration" : 23378
       }
     } ]
   },
@@ -1704,130 +1787,126 @@
       "failed" : 0,
       "broken" : 1,
       "skipped" : 0,
-      "passed" : 26,
+      "passed" : 37,
       "unknown" : 0,
-      "total" : 27
+      "total" : 38
     },
     "items" : [ {
-      "uid" : "d9648240ce6e7de3",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/52/allure/#testresult/d9648240ce6e7de3",
+      "uid" : "1005f6d87eed749a",
+      "reportUrl" : "http://localhost:8080/job/Timing/76/allure/#testresult/1005f6d87eed749a",
       "status" : "passed",
       "time" : {
-        "start" : 1587459179230,
-        "stop" : 1587459190912,
-        "duration" : 11682
+        "start" : 1591168492528,
+        "stop" : 1591168509919,
+        "duration" : 17391
       }
     }, {
-      "uid" : "a6229a1873dfec9d",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/51/allure/#testresult/a6229a1873dfec9d",
+      "uid" : "5b399f214840e8a",
+      "reportUrl" : "http://localhost:8080/job/Timing/74/allure/#testresult/5b399f214840e8a",
       "status" : "passed",
       "time" : {
-        "start" : 1587261507264,
-        "stop" : 1587261536440,
-        "duration" : 29176
+        "start" : 1589404628431,
+        "stop" : 1589404646558,
+        "duration" : 18127
       }
     }, {
-      "uid" : "fb1e7f9bea2bee32",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/49/allure/#testresult/fb1e7f9bea2bee32",
+      "uid" : "c007957b286c6647",
+      "reportUrl" : "http://localhost:8080/job/Timing/73/allure/#testresult/c007957b286c6647",
       "status" : "passed",
       "time" : {
-        "start" : 1587153658812,
-        "stop" : 1587153673151,
-        "duration" : 14339
+        "start" : 1589371840589,
+        "stop" : 1589371854221,
+        "duration" : 13632
       }
     }, {
-      "uid" : "8870003c77103eed",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/48/allure/#testresult/8870003c77103eed",
-      "status" : "broken",
-      "statusDetails" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=4723): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001A6C0086EB8>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))",
-      "time" : {
-        "start" : 1587152961881,
-        "stop" : 1587152961881,
-        "duration" : 0
-      }
-    }, {
-      "uid" : "de34f06f499aab17",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/46/allure/#testresult/de34f06f499aab17",
+      "uid" : "e8acf24dc61768ed",
+      "reportUrl" : "http://localhost:8080/job/Timing/72/allure/#testresult/e8acf24dc61768ed",
       "status" : "passed",
       "time" : {
-        "start" : 1587043796182,
-        "stop" : 1587043847217,
-        "duration" : 51035
+        "start" : 1589371840589,
+        "stop" : 1589371854221,
+        "duration" : 13632
+      }
+    }, {
+      "uid" : "b3181bc043edddb4",
+      "reportUrl" : "http://localhost:8080/job/Timing/68/allure/#testresult/b3181bc043edddb4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1588189966872,
+        "stop" : 1588189985441,
+        "duration" : 18569
       }
     } ]
   },
   "d1bfaa7063be04acaeff948fb53acd2c" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 5,
+      "broken" : 6,
       "skipped" : 0,
-      "passed" : 10,
+      "passed" : 19,
       "unknown" : 0,
-      "total" : 15
+      "total" : 25
     },
     "items" : [ {
-      "uid" : "ef5fb64e5bcd25b3",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/52/allure/#testresult/ef5fb64e5bcd25b3",
+      "uid" : "1126e1fb4d9c07ce",
+      "reportUrl" : "http://localhost:8080/job/Timing/74/allure/#testresult/1126e1fb4d9c07ce",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1589406754962,
+        "stop" : 1589406806043,
+        "duration" : 51081
+      }
+    }, {
+      "uid" : "d753da663d416d8d",
+      "reportUrl" : "http://localhost:8080/job/Timing/73/allure/#testresult/d753da663d416d8d",
       "status" : "passed",
       "time" : {
-        "start" : 1587461389510,
-        "stop" : 1587461408926,
-        "duration" : 19416
+        "start" : 1589400193293,
+        "stop" : 1589400206914,
+        "duration" : 13621
       }
     }, {
-      "uid" : "5753f8289094beb9",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/51/allure/#testresult/5753f8289094beb9",
-      "status" : "broken",
-      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "uid" : "a645a1edb06ceb62",
+      "reportUrl" : "http://localhost:8080/job/Timing/72/allure/#testresult/a645a1edb06ceb62",
+      "status" : "passed",
       "time" : {
-        "start" : 1587263557286,
-        "stop" : 1587263608585,
-        "duration" : 51299
+        "start" : 1589373829101,
+        "stop" : 1589373852077,
+        "duration" : 22976
       }
     }, {
-      "uid" : "64f1a0c4346a0879",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/49/allure/#testresult/64f1a0c4346a0879",
-      "status" : "broken",
-      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "uid" : "a572320a9ca5c1a6",
+      "reportUrl" : "http://localhost:8080/job/Timing/68/allure/#testresult/a572320a9ca5c1a6",
+      "status" : "passed",
       "time" : {
-        "start" : 1587155907879,
-        "stop" : 1587155959799,
-        "duration" : 51920
+        "start" : 1588191975349,
+        "stop" : 1588191993855,
+        "duration" : 18506
       }
     }, {
-      "uid" : "60cc9be4975c7fe4",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/48/allure/#testresult/60cc9be4975c7fe4",
-      "status" : "broken",
-      "statusDetails" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=4723): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001A6C14759B0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))",
+      "uid" : "11d900a7c8b47cf0",
+      "reportUrl" : "http://localhost:8080/job/Timing/61/allure/#testresult/11d900a7c8b47cf0",
+      "status" : "passed",
       "time" : {
-        "start" : 1587153122335,
-        "stop" : 1587153122335,
-        "duration" : 0
-      }
-    }, {
-      "uid" : "c593da8b1ed8d085",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/46/allure/#testresult/c593da8b1ed8d085",
-      "status" : "broken",
-      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
-      "time" : {
-        "start" : 1587149641030,
-        "stop" : 1587149692880,
-        "duration" : 51850
+        "start" : 1588191975349,
+        "stop" : 1588191993855,
+        "duration" : 18506
       }
     } ]
   },
   "a826b9e38c87572a99bc04e486c29295" : {
     "statistic" : {
       "failed" : 5,
-      "broken" : 15,
+      "broken" : 25,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 20
+      "total" : 30
     },
     "items" : [ {
-      "uid" : "978c8da40303da3b",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/52/allure/#testresult/978c8da40303da3b",
+      "uid" : "5f2f2e369a501359",
+      "reportUrl" : "http://localhost:8080/job/Timing/74/allure/#testresult/5f2f2e369a501359",
       "status" : "broken",
       "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
       "time" : {
@@ -1836,8 +1915,8 @@
         "duration" : 66818
       }
     }, {
-      "uid" : "e61967f6fe73f35c",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/51/allure/#testresult/e61967f6fe73f35c",
+      "uid" : "80de9aee198e79ea",
+      "reportUrl" : "http://localhost:8080/job/Timing/73/allure/#testresult/80de9aee198e79ea",
       "status" : "broken",
       "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
       "time" : {
@@ -1846,8 +1925,8 @@
         "duration" : 66818
       }
     }, {
-      "uid" : "9805bfdee466cc7e",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/49/allure/#testresult/9805bfdee466cc7e",
+      "uid" : "2e55a930276b9c0c",
+      "reportUrl" : "http://localhost:8080/job/Timing/72/allure/#testresult/2e55a930276b9c0c",
       "status" : "broken",
       "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
       "time" : {
@@ -1856,8 +1935,8 @@
         "duration" : 66818
       }
     }, {
-      "uid" : "c9e495c0ab9a4017",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/48/allure/#testresult/c9e495c0ab9a4017",
+      "uid" : "688eb1938cb6e4d1",
+      "reportUrl" : "http://localhost:8080/job/Timing/68/allure/#testresult/688eb1938cb6e4d1",
       "status" : "broken",
       "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
       "time" : {
@@ -1866,8 +1945,8 @@
         "duration" : 66818
       }
     }, {
-      "uid" : "2f4707156ec7a39b",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/46/allure/#testresult/2f4707156ec7a39b",
+      "uid" : "a391b045ca7b7a87",
+      "reportUrl" : "http://localhost:8080/job/Timing/61/allure/#testresult/a391b045ca7b7a87",
       "status" : "broken",
       "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
       "time" : {
@@ -1880,115 +1959,133 @@
   "886f72d5cbfe1f3813b2e8841e171b18" : {
     "statistic" : {
       "failed" : 3,
-      "broken" : 3,
+      "broken" : 4,
       "skipped" : 0,
-      "passed" : 20,
+      "passed" : 30,
       "unknown" : 0,
-      "total" : 26
+      "total" : 37
     },
     "items" : [ {
-      "uid" : "924c481b3009b496",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/52/allure/#testresult/924c481b3009b496",
+      "uid" : "7c4e2d460be4e2e1",
+      "reportUrl" : "http://localhost:8080/job/Timing/76/allure/#testresult/7c4e2d460be4e2e1",
       "status" : "passed",
       "time" : {
-        "start" : 1587459802661,
-        "stop" : 1587460045376,
-        "duration" : 242715
+        "start" : 1591169087835,
+        "stop" : 1591169126872,
+        "duration" : 39037
       }
     }, {
-      "uid" : "9a5c0e14e342e0ab",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/51/allure/#testresult/9a5c0e14e342e0ab",
+      "uid" : "47a45cd584fc7f0f",
+      "reportUrl" : "http://localhost:8080/job/Timing/74/allure/#testresult/47a45cd584fc7f0f",
       "status" : "passed",
       "time" : {
-        "start" : 1587262269674,
-        "stop" : 1587262301540,
-        "duration" : 31866
+        "start" : 1589405200414,
+        "stop" : 1589405243633,
+        "duration" : 43219
       }
     }, {
-      "uid" : "8508fc22db743864",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/49/allure/#testresult/8508fc22db743864",
+      "uid" : "a15e7e09b7f2ada4",
+      "reportUrl" : "http://localhost:8080/job/Timing/73/allure/#testresult/a15e7e09b7f2ada4",
       "status" : "passed",
       "time" : {
-        "start" : 1587154480806,
-        "stop" : 1587154525197,
-        "duration" : 44391
+        "start" : 1589398905629,
+        "stop" : 1589398945579,
+        "duration" : 39950
       }
     }, {
-      "uid" : "5485ffdbc5918b3f",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/48/allure/#testresult/5485ffdbc5918b3f",
-      "status" : "broken",
-      "statusDetails" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=4723): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001A6C13446D8>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))",
+      "uid" : "2a984600c0159140",
+      "reportUrl" : "http://localhost:8080/job/Timing/72/allure/#testresult/2a984600c0159140",
+      "status" : "passed",
       "time" : {
-        "start" : 1587153039496,
-        "stop" : 1587153039496,
-        "duration" : 0
+        "start" : 1589372430656,
+        "stop" : 1589372471081,
+        "duration" : 40425
       }
     }, {
-      "uid" : "3e79a6a158e31b5b",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/46/allure/#testresult/3e79a6a158e31b5b",
-      "status" : "broken",
-      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "uid" : "ffc92aaabba40c61",
+      "reportUrl" : "http://localhost:8080/job/Timing/68/allure/#testresult/ffc92aaabba40c61",
+      "status" : "passed",
       "time" : {
-        "start" : 1587148181472,
-        "stop" : 1587148258389,
-        "duration" : 76917
+        "start" : 1588190665581,
+        "stop" : 1588190709557,
+        "duration" : 43976
+      }
+    } ]
+  },
+  "99b4a76a54f255a1bd3be14589e66a0c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "27d37565d17ab3c9",
+      "reportUrl" : "http://localhost:8080/job/Timing/76/allure/#testresult/27d37565d17ab3c9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1591168822358,
+        "stop" : 1591168843071,
+        "duration" : 20713
       }
     } ]
   },
   "2729f689182c9e5a084bd2295ff5a8e4" : {
     "statistic" : {
       "failed" : 4,
-      "broken" : 2,
+      "broken" : 3,
       "skipped" : 0,
-      "passed" : 20,
+      "passed" : 30,
       "unknown" : 0,
-      "total" : 26
+      "total" : 37
     },
     "items" : [ {
-      "uid" : "6da71eae24d97656",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/52/allure/#testresult/6da71eae24d97656",
+      "uid" : "28fec72d3b25b697",
+      "reportUrl" : "http://localhost:8080/job/Timing/76/allure/#testresult/28fec72d3b25b697",
       "status" : "passed",
       "time" : {
-        "start" : 1587460049115,
-        "stop" : 1587460137090,
-        "duration" : 87975
+        "start" : 1591169130834,
+        "stop" : 1591169169716,
+        "duration" : 38882
       }
     }, {
-      "uid" : "150d4de6757c7630",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/51/allure/#testresult/150d4de6757c7630",
+      "uid" : "1a23b672332e0a93",
+      "reportUrl" : "http://localhost:8080/job/Timing/74/allure/#testresult/1a23b672332e0a93",
       "status" : "passed",
       "time" : {
-        "start" : 1587262306054,
-        "stop" : 1587262334036,
-        "duration" : 27982
+        "start" : 1589405247714,
+        "stop" : 1589405294168,
+        "duration" : 46454
       }
     }, {
-      "uid" : "9bf543e0aaed5dcc",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/49/allure/#testresult/9bf543e0aaed5dcc",
-      "status" : "passed",
-      "time" : {
-        "start" : 1587154528936,
-        "stop" : 1587154563779,
-        "duration" : 34843
-      }
-    }, {
-      "uid" : "c8515d3b55c6ea52",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/48/allure/#testresult/c8515d3b55c6ea52",
+      "uid" : "c6d1f4151e0cef8f",
+      "reportUrl" : "http://localhost:8080/job/Timing/73/allure/#testresult/c6d1f4151e0cef8f",
       "status" : "broken",
-      "statusDetails" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=4723): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001A6C01844A8>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
       "time" : {
-        "start" : 1587153044661,
-        "stop" : 1587153044661,
-        "duration" : 0
+        "start" : 1589398951549,
+        "stop" : 1589399026697,
+        "duration" : 75148
       }
     }, {
-      "uid" : "631f3815fb93d49",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/46/allure/#testresult/631f3815fb93d49",
+      "uid" : "26e0acf3d23c54b9",
+      "reportUrl" : "http://localhost:8080/job/Timing/72/allure/#testresult/26e0acf3d23c54b9",
       "status" : "passed",
       "time" : {
-        "start" : 1587148262177,
-        "stop" : 1587148297763,
-        "duration" : 35586
+        "start" : 1589372475025,
+        "stop" : 1589372530186,
+        "duration" : 55161
+      }
+    }, {
+      "uid" : "dd87e7774bd9c269",
+      "reportUrl" : "http://localhost:8080/job/Timing/68/allure/#testresult/dd87e7774bd9c269",
+      "status" : "passed",
+      "time" : {
+        "start" : 1588190713402,
+        "stop" : 1588190773610,
+        "duration" : 60208
       }
     } ]
   },
@@ -1997,13 +2094,13 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 20,
+      "passed" : 30,
       "unknown" : 0,
-      "total" : 20
+      "total" : 30
     },
     "items" : [ {
-      "uid" : "fb86e6723988eee9",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/52/allure/#testresult/fb86e6723988eee9",
+      "uid" : "b58fe9432ec433b6",
+      "reportUrl" : "http://localhost:8080/job/Timing/74/allure/#testresult/b58fe9432ec433b6",
       "status" : "passed",
       "time" : {
         "start" : 1585822004736,
@@ -2011,8 +2108,8 @@
         "duration" : 60201
       }
     }, {
-      "uid" : "d75db405a00354e5",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/51/allure/#testresult/d75db405a00354e5",
+      "uid" : "7399ec4bb7ef2d88",
+      "reportUrl" : "http://localhost:8080/job/Timing/73/allure/#testresult/7399ec4bb7ef2d88",
       "status" : "passed",
       "time" : {
         "start" : 1585822004736,
@@ -2020,8 +2117,8 @@
         "duration" : 60201
       }
     }, {
-      "uid" : "1d628e6dc83f65af",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/49/allure/#testresult/1d628e6dc83f65af",
+      "uid" : "40c4e6d196165c3f",
+      "reportUrl" : "http://localhost:8080/job/Timing/72/allure/#testresult/40c4e6d196165c3f",
       "status" : "passed",
       "time" : {
         "start" : 1585822004736,
@@ -2029,8 +2126,8 @@
         "duration" : 60201
       }
     }, {
-      "uid" : "8794c93707c77b82",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/48/allure/#testresult/8794c93707c77b82",
+      "uid" : "f5255f2c1d6eb561",
+      "reportUrl" : "http://localhost:8080/job/Timing/68/allure/#testresult/f5255f2c1d6eb561",
       "status" : "passed",
       "time" : {
         "start" : 1585822004736,
@@ -2038,8 +2135,8 @@
         "duration" : 60201
       }
     }, {
-      "uid" : "df75dfbaacfd7d05",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/46/allure/#testresult/df75dfbaacfd7d05",
+      "uid" : "9a76e7711231eacd",
+      "reportUrl" : "http://localhost:8080/job/Timing/61/allure/#testresult/9a76e7711231eacd",
       "status" : "passed",
       "time" : {
         "start" : 1585822004736,
@@ -2051,58 +2148,57 @@
   "87a51570a60f2340ae75ec89dbbec23d" : {
     "statistic" : {
       "failed" : 5,
-      "broken" : 5,
+      "broken" : 6,
       "skipped" : 0,
-      "passed" : 17,
+      "passed" : 27,
       "unknown" : 0,
-      "total" : 27
+      "total" : 38
     },
     "items" : [ {
-      "uid" : "27e2e513d92285cf",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/52/allure/#testresult/27e2e513d92285cf",
+      "uid" : "8330ffa79b61bfd9",
+      "reportUrl" : "http://localhost:8080/job/Timing/76/allure/#testresult/8330ffa79b61bfd9",
       "status" : "passed",
       "time" : {
-        "start" : 1587459495459,
-        "stop" : 1587459503026,
-        "duration" : 7567
+        "start" : 1591168846873,
+        "stop" : 1591168853298,
+        "duration" : 6425
       }
     }, {
-      "uid" : "15f301871585940b",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/51/allure/#testresult/15f301871585940b",
+      "uid" : "719a40b23c782303",
+      "reportUrl" : "http://localhost:8080/job/Timing/74/allure/#testresult/719a40b23c782303",
       "status" : "passed",
       "time" : {
-        "start" : 1587261882435,
-        "stop" : 1587261890593,
-        "duration" : 8158
+        "start" : 1589404903056,
+        "stop" : 1589404916747,
+        "duration" : 13691
       }
     }, {
-      "uid" : "fc514a2a9a6336",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/49/allure/#testresult/fc514a2a9a6336",
+      "uid" : "f324637c95889082",
+      "reportUrl" : "http://localhost:8080/job/Timing/73/allure/#testresult/f324637c95889082",
       "status" : "passed",
       "time" : {
-        "start" : 1587154057424,
-        "stop" : 1587154077525,
-        "duration" : 20101
+        "start" : 1589398541110,
+        "stop" : 1589398548592,
+        "duration" : 7482
       }
     }, {
-      "uid" : "dbc54891edf6433e",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/48/allure/#testresult/dbc54891edf6433e",
+      "uid" : "7b5e4038cef36826",
+      "reportUrl" : "http://localhost:8080/job/Timing/72/allure/#testresult/7b5e4038cef36826",
       "status" : "broken",
-      "statusDetails" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=4723): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001A6C021F940>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))",
+      "statusDetails" : "selenium.common.exceptions.SessionNotCreatedException: Message: A new session could not be created. (Original error: com.huiian.timing/.view.activity.StartupActivity never started. Current: com.huiian.timing/.view.activity.MainActivity)",
       "time" : {
-        "start" : 1587153003261,
-        "stop" : 1587153003261,
+        "start" : 1589372144013,
+        "stop" : 1589372144013,
         "duration" : 0
       }
     }, {
-      "uid" : "e2cc632b351eb084",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/46/allure/#testresult/e2cc632b351eb084",
-      "status" : "broken",
-      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "uid" : "e59e285386d668c5",
+      "reportUrl" : "http://localhost:8080/job/Timing/68/allure/#testresult/e59e285386d668c5",
+      "status" : "passed",
       "time" : {
-        "start" : 1587152431064,
-        "stop" : 1587152466840,
-        "duration" : 35776
+        "start" : 1588190335687,
+        "stop" : 1588190359203,
+        "duration" : 23516
       }
     } ]
   },
@@ -2111,55 +2207,54 @@
       "failed" : 0,
       "broken" : 1,
       "skipped" : 0,
-      "passed" : 5,
+      "passed" : 16,
       "unknown" : 0,
-      "total" : 6
+      "total" : 17
     },
     "items" : [ {
-      "uid" : "f025e82b9bbbb792",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/52/allure/#testresult/f025e82b9bbbb792",
+      "uid" : "56f3cf4c61aebca6",
+      "reportUrl" : "http://localhost:8080/job/Timing/76/allure/#testresult/56f3cf4c61aebca6",
       "status" : "passed",
       "time" : {
-        "start" : 1587459761571,
-        "stop" : 1587459798837,
-        "duration" : 37266
+        "start" : 1591169054895,
+        "stop" : 1591169084039,
+        "duration" : 29144
       }
     }, {
-      "uid" : "1023f6a683d1947a",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/51/allure/#testresult/1023f6a683d1947a",
+      "uid" : "4b669db76b373a9f",
+      "reportUrl" : "http://localhost:8080/job/Timing/74/allure/#testresult/4b669db76b373a9f",
       "status" : "passed",
       "time" : {
-        "start" : 1587262190549,
-        "stop" : 1587262265762,
-        "duration" : 75213
+        "start" : 1589405161220,
+        "stop" : 1589405196438,
+        "duration" : 35218
       }
     }, {
-      "uid" : "c11ab78a1c115efc",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/49/allure/#testresult/c11ab78a1c115efc",
+      "uid" : "b771cb02166e69",
+      "reportUrl" : "http://localhost:8080/job/Timing/73/allure/#testresult/b771cb02166e69",
       "status" : "passed",
       "time" : {
-        "start" : 1587154400390,
-        "stop" : 1587154476978,
-        "duration" : 76588
+        "start" : 1589398870714,
+        "stop" : 1589398899835,
+        "duration" : 29121
       }
     }, {
-      "uid" : "b6e3083757a739c5",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/48/allure/#testresult/b6e3083757a739c5",
-      "status" : "broken",
-      "statusDetails" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=4723): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001A6C12EDA20>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))",
-      "time" : {
-        "start" : 1587153034328,
-        "stop" : 1587153034328,
-        "duration" : 0
-      }
-    }, {
-      "uid" : "f48c9afc4af95a5e",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/46/allure/#testresult/f48c9afc4af95a5e",
+      "uid" : "ea6cdf224b77335c",
+      "reportUrl" : "http://localhost:8080/job/Timing/72/allure/#testresult/ea6cdf224b77335c",
       "status" : "passed",
       "time" : {
-        "start" : 1587148138736,
-        "stop" : 1587148177608,
-        "duration" : 38872
+        "start" : 1589372394625,
+        "stop" : 1589372426788,
+        "duration" : 32163
+      }
+    }, {
+      "uid" : "89e7298aa2f373fb",
+      "reportUrl" : "http://localhost:8080/job/Timing/68/allure/#testresult/89e7298aa2f373fb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1588190588458,
+        "stop" : 1588190661649,
+        "duration" : 73191
       }
     } ]
   },
@@ -2168,13 +2263,13 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 23,
+      "passed" : 33,
       "unknown" : 0,
-      "total" : 23
+      "total" : 33
     },
     "items" : [ {
-      "uid" : "6ce6b960a80b6b3c",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/52/allure/#testresult/6ce6b960a80b6b3c",
+      "uid" : "bcf7159d6e1d6091",
+      "reportUrl" : "http://localhost:8080/job/Timing/74/allure/#testresult/bcf7159d6e1d6091",
       "status" : "passed",
       "time" : {
         "start" : 1585821921015,
@@ -2182,8 +2277,8 @@
         "duration" : 79610
       }
     }, {
-      "uid" : "fe4e91ce157354c6",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/51/allure/#testresult/fe4e91ce157354c6",
+      "uid" : "11cbb9d40a81db08",
+      "reportUrl" : "http://localhost:8080/job/Timing/73/allure/#testresult/11cbb9d40a81db08",
       "status" : "passed",
       "time" : {
         "start" : 1585821921015,
@@ -2191,8 +2286,8 @@
         "duration" : 79610
       }
     }, {
-      "uid" : "1fed2d0b4aa03bd",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/49/allure/#testresult/1fed2d0b4aa03bd",
+      "uid" : "46d86b5be7a4e15e",
+      "reportUrl" : "http://localhost:8080/job/Timing/72/allure/#testresult/46d86b5be7a4e15e",
       "status" : "passed",
       "time" : {
         "start" : 1585821921015,
@@ -2200,8 +2295,8 @@
         "duration" : 79610
       }
     }, {
-      "uid" : "3fd91a99dbc7dec2",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/48/allure/#testresult/3fd91a99dbc7dec2",
+      "uid" : "3e365c2dd9ea7bde",
+      "reportUrl" : "http://localhost:8080/job/Timing/68/allure/#testresult/3e365c2dd9ea7bde",
       "status" : "passed",
       "time" : {
         "start" : 1585821921015,
@@ -2209,8 +2304,8 @@
         "duration" : 79610
       }
     }, {
-      "uid" : "ccf5444d32994569",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/46/allure/#testresult/ccf5444d32994569",
+      "uid" : "4782e733de96e5eb",
+      "reportUrl" : "http://localhost:8080/job/Timing/61/allure/#testresult/4782e733de96e5eb",
       "status" : "passed",
       "time" : {
         "start" : 1585821921015,
@@ -2224,55 +2319,54 @@
       "failed" : 5,
       "broken" : 3,
       "skipped" : 0,
-      "passed" : 18,
+      "passed" : 29,
       "unknown" : 0,
-      "total" : 26
+      "total" : 37
     },
     "items" : [ {
-      "uid" : "123e592b207dbdd0",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/52/allure/#testresult/123e592b207dbdd0",
+      "uid" : "b46f7bc4dc6ca5fb",
+      "reportUrl" : "http://localhost:8080/job/Timing/76/allure/#testresult/b46f7bc4dc6ca5fb",
       "status" : "passed",
       "time" : {
-        "start" : 1587460719567,
-        "stop" : 1587460748992,
-        "duration" : 29425
+        "start" : 1591169781669,
+        "stop" : 1591169807759,
+        "duration" : 26090
       }
     }, {
-      "uid" : "50bf96097e589e2d",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/51/allure/#testresult/50bf96097e589e2d",
+      "uid" : "9406405c39fe9700",
+      "reportUrl" : "http://localhost:8080/job/Timing/74/allure/#testresult/9406405c39fe9700",
       "status" : "passed",
       "time" : {
-        "start" : 1587262723152,
-        "stop" : 1587262749324,
-        "duration" : 26172
+        "start" : 1589405888952,
+        "stop" : 1589405920600,
+        "duration" : 31648
       }
     }, {
-      "uid" : "7743912515da9297",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/49/allure/#testresult/7743912515da9297",
+      "uid" : "596485d9d2ff2634",
+      "reportUrl" : "http://localhost:8080/job/Timing/73/allure/#testresult/596485d9d2ff2634",
       "status" : "passed",
       "time" : {
-        "start" : 1587155017629,
-        "stop" : 1587155048362,
-        "duration" : 30733
+        "start" : 1589399652590,
+        "stop" : 1589399683179,
+        "duration" : 30589
       }
     }, {
-      "uid" : "eff3d78d3b2058f5",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/48/allure/#testresult/eff3d78d3b2058f5",
-      "status" : "broken",
-      "statusDetails" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=4723): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001A6BFEDD978>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))",
-      "time" : {
-        "start" : 1587153080898,
-        "stop" : 1587153080898,
-        "duration" : 0
-      }
-    }, {
-      "uid" : "1b21b52493bc5df0",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/46/allure/#testresult/1b21b52493bc5df0",
+      "uid" : "ef5e204dcb3d4147",
+      "reportUrl" : "http://localhost:8080/job/Timing/72/allure/#testresult/ef5e204dcb3d4147",
       "status" : "passed",
       "time" : {
-        "start" : 1587148889974,
-        "stop" : 1587148918953,
-        "duration" : 28979
+        "start" : 1589373079040,
+        "stop" : 1589373108060,
+        "duration" : 29020
+      }
+    }, {
+      "uid" : "4e26f3f3ee1ba00d",
+      "reportUrl" : "http://localhost:8080/job/Timing/68/allure/#testresult/4e26f3f3ee1ba00d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1588191346924,
+        "stop" : 1588191378351,
+        "duration" : 31427
       }
     } ]
   },
@@ -2281,56 +2375,54 @@
       "failed" : 5,
       "broken" : 6,
       "skipped" : 0,
-      "passed" : 16,
+      "passed" : 27,
       "unknown" : 0,
-      "total" : 27
+      "total" : 38
     },
     "items" : [ {
-      "uid" : "345a0baa8c79004",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/52/allure/#testresult/345a0baa8c79004",
+      "uid" : "9caa3706ae7388bb",
+      "reportUrl" : "http://localhost:8080/job/Timing/76/allure/#testresult/9caa3706ae7388bb",
       "status" : "passed",
       "time" : {
-        "start" : 1587459506771,
-        "stop" : 1587459525350,
-        "duration" : 18579
+        "start" : 1591168856924,
+        "stop" : 1591168863438,
+        "duration" : 6514
       }
     }, {
-      "uid" : "f58e4d9054f952d0",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/51/allure/#testresult/f58e4d9054f952d0",
+      "uid" : "2576fffee4a4e8dc",
+      "reportUrl" : "http://localhost:8080/job/Timing/74/allure/#testresult/2576fffee4a4e8dc",
       "status" : "passed",
       "time" : {
-        "start" : 1587261894232,
-        "stop" : 1587261914523,
-        "duration" : 20291
+        "start" : 1589404920855,
+        "stop" : 1589404934685,
+        "duration" : 13830
       }
     }, {
-      "uid" : "45b6597df5ad2e52",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/49/allure/#testresult/45b6597df5ad2e52",
+      "uid" : "2548babd6ff3b12d",
+      "reportUrl" : "http://localhost:8080/job/Timing/73/allure/#testresult/2548babd6ff3b12d",
       "status" : "passed",
       "time" : {
-        "start" : 1587154081527,
-        "stop" : 1587154102760,
-        "duration" : 21233
+        "start" : 1589398554511,
+        "stop" : 1589398571595,
+        "duration" : 17084
       }
     }, {
-      "uid" : "aeaab2eab04ad050",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/48/allure/#testresult/aeaab2eab04ad050",
-      "status" : "broken",
-      "statusDetails" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=4723): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001A6C00FC828>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))",
+      "uid" : "bf86a318b3bb796f",
+      "reportUrl" : "http://localhost:8080/job/Timing/72/allure/#testresult/bf86a318b3bb796f",
+      "status" : "passed",
       "time" : {
-        "start" : 1587153008436,
-        "stop" : 1587153008436,
-        "duration" : 0
+        "start" : 1589372170287,
+        "stop" : 1589372178603,
+        "duration" : 8316
       }
     }, {
-      "uid" : "11cefcb79f091455",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/46/allure/#testresult/11cefcb79f091455",
-      "status" : "broken",
-      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "uid" : "9aa14bfe968c14fe",
+      "reportUrl" : "http://localhost:8080/job/Timing/68/allure/#testresult/9aa14bfe968c14fe",
+      "status" : "passed",
       "time" : {
-        "start" : 1587152470379,
-        "stop" : 1587152536400,
-        "duration" : 66021
+        "start" : 1588190363237,
+        "stop" : 1588190373717,
+        "duration" : 10480
       }
     } ]
   },
@@ -2339,55 +2431,54 @@
       "failed" : 5,
       "broken" : 2,
       "skipped" : 0,
-      "passed" : 20,
+      "passed" : 31,
       "unknown" : 0,
-      "total" : 27
+      "total" : 38
     },
     "items" : [ {
-      "uid" : "a8c0500a8d854428",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/52/allure/#testresult/a8c0500a8d854428",
+      "uid" : "aa638333aa267199",
+      "reportUrl" : "http://localhost:8080/job/Timing/76/allure/#testresult/aa638333aa267199",
       "status" : "passed",
       "time" : {
-        "start" : 1587460976803,
-        "stop" : 1587461127443,
-        "duration" : 150640
+        "start" : 1591170077144,
+        "stop" : 1591170226360,
+        "duration" : 149216
       }
     }, {
-      "uid" : "a18d0dcc03cb497",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/51/allure/#testresult/a18d0dcc03cb497",
+      "uid" : "75eefe883b417dd5",
+      "reportUrl" : "http://localhost:8080/job/Timing/74/allure/#testresult/75eefe883b417dd5",
       "status" : "passed",
       "time" : {
-        "start" : 1587263033847,
-        "stop" : 1587263199650,
-        "duration" : 165803
+        "start" : 1589406234387,
+        "stop" : 1589406419012,
+        "duration" : 184625
       }
     }, {
-      "uid" : "e1db82e0d1757cd5",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/49/allure/#testresult/e1db82e0d1757cd5",
+      "uid" : "825481a22adfe775",
+      "reportUrl" : "http://localhost:8080/job/Timing/73/allure/#testresult/825481a22adfe775",
       "status" : "passed",
       "time" : {
-        "start" : 1587155371040,
-        "stop" : 1587155526114,
-        "duration" : 155074
+        "start" : 1589399911434,
+        "stop" : 1589400059065,
+        "duration" : 147631
       }
     }, {
-      "uid" : "406e30132c75e67",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/48/allure/#testresult/406e30132c75e67",
-      "status" : "broken",
-      "statusDetails" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=4723): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001A6C145F940>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))",
-      "time" : {
-        "start" : 1587153106788,
-        "stop" : 1587153106788,
-        "duration" : 0
-      }
-    }, {
-      "uid" : "89fb7e18912c747d",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/46/allure/#testresult/89fb7e18912c747d",
+      "uid" : "ed0eddf9be487a2",
+      "reportUrl" : "http://localhost:8080/job/Timing/72/allure/#testresult/ed0eddf9be487a2",
       "status" : "passed",
       "time" : {
-        "start" : 1587149150069,
-        "stop" : 1587149305251,
-        "duration" : 155182
+        "start" : 1589373341659,
+        "stop" : 1589373502463,
+        "duration" : 160804
+      }
+    }, {
+      "uid" : "1a74c8b5104a927d",
+      "reportUrl" : "http://localhost:8080/job/Timing/68/allure/#testresult/1a74c8b5104a927d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1588191699587,
+        "stop" : 1588191854437,
+        "duration" : 154850
       }
     } ]
   },
@@ -2396,55 +2487,54 @@
       "failed" : 0,
       "broken" : 1,
       "skipped" : 0,
-      "passed" : 26,
+      "passed" : 37,
       "unknown" : 0,
-      "total" : 27
+      "total" : 38
     },
     "items" : [ {
-      "uid" : "86394b4a136ac65b",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/52/allure/#testresult/86394b4a136ac65b",
+      "uid" : "c287bb1f07a9621d",
+      "reportUrl" : "http://localhost:8080/job/Timing/76/allure/#testresult/c287bb1f07a9621d",
       "status" : "passed",
       "time" : {
-        "start" : 1587460181627,
-        "stop" : 1587460253283,
-        "duration" : 71656
+        "start" : 1591169240911,
+        "stop" : 1591169312435,
+        "duration" : 71524
       }
     }, {
-      "uid" : "2d16525f07a391fc",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/51/allure/#testresult/2d16525f07a391fc",
+      "uid" : "6b993e83fdcdfef8",
+      "reportUrl" : "http://localhost:8080/job/Timing/74/allure/#testresult/6b993e83fdcdfef8",
       "status" : "passed",
       "time" : {
-        "start" : 1587262382854,
-        "stop" : 1587262430282,
-        "duration" : 47428
+        "start" : 1589405369706,
+        "stop" : 1589405436016,
+        "duration" : 66310
       }
     }, {
-      "uid" : "ce1b21b5516fbd88",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/49/allure/#testresult/ce1b21b5516fbd88",
+      "uid" : "d86376ebcaa0c409",
+      "reportUrl" : "http://localhost:8080/job/Timing/73/allure/#testresult/d86376ebcaa0c409",
       "status" : "passed",
       "time" : {
-        "start" : 1587154652705,
-        "stop" : 1587154713740,
-        "duration" : 61035
+        "start" : 1589399140836,
+        "stop" : 1589399210007,
+        "duration" : 69171
       }
     }, {
-      "uid" : "44637038180537d2",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/48/allure/#testresult/44637038180537d2",
-      "status" : "broken",
-      "statusDetails" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=4723): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001A6C13A0978>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))",
-      "time" : {
-        "start" : 1587153055017,
-        "stop" : 1587153055017,
-        "duration" : 0
-      }
-    }, {
-      "uid" : "2a0eaacbe5933b2d",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/46/allure/#testresult/2a0eaacbe5933b2d",
+      "uid" : "14bfddd359644af0",
+      "reportUrl" : "http://localhost:8080/job/Timing/72/allure/#testresult/14bfddd359644af0",
       "status" : "passed",
       "time" : {
-        "start" : 1587148350289,
-        "stop" : 1587148414918,
-        "duration" : 64629
+        "start" : 1589372602201,
+        "stop" : 1589372661532,
+        "duration" : 59331
+      }
+    }, {
+      "uid" : "adceffc1fde895c",
+      "reportUrl" : "http://localhost:8080/job/Timing/68/allure/#testresult/adceffc1fde895c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1588190855274,
+        "stop" : 1588190922291,
+        "duration" : 67017
       }
     } ]
   },
@@ -2453,55 +2543,54 @@
       "failed" : 1,
       "broken" : 2,
       "skipped" : 0,
-      "passed" : 23,
+      "passed" : 34,
       "unknown" : 0,
-      "total" : 26
+      "total" : 37
     },
     "items" : [ {
-      "uid" : "62682285a4389999",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/52/allure/#testresult/62682285a4389999",
+      "uid" : "1ed9785111e7923f",
+      "reportUrl" : "http://localhost:8080/job/Timing/76/allure/#testresult/1ed9785111e7923f",
       "status" : "passed",
       "time" : {
-        "start" : 1587460257189,
-        "stop" : 1587460401386,
-        "duration" : 144197
+        "start" : 1591169316414,
+        "stop" : 1591169460509,
+        "duration" : 144095
       }
     }, {
-      "uid" : "246c8fa834e25bca",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/51/allure/#testresult/246c8fa834e25bca",
+      "uid" : "f96f02477220e42b",
+      "reportUrl" : "http://localhost:8080/job/Timing/74/allure/#testresult/f96f02477220e42b",
       "status" : "passed",
       "time" : {
-        "start" : 1587262433764,
-        "stop" : 1587262526740,
-        "duration" : 92976
+        "start" : 1589405440604,
+        "stop" : 1589405555727,
+        "duration" : 115123
       }
     }, {
-      "uid" : "738746fc9e13c143",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/49/allure/#testresult/738746fc9e13c143",
+      "uid" : "17846e2ef797e124",
+      "reportUrl" : "http://localhost:8080/job/Timing/73/allure/#testresult/17846e2ef797e124",
       "status" : "passed",
       "time" : {
-        "start" : 1587154717679,
-        "stop" : 1587154811733,
-        "duration" : 94054
+        "start" : 1589399216262,
+        "stop" : 1589399338457,
+        "duration" : 122195
       }
     }, {
-      "uid" : "aa9be4a80b34031b",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/48/allure/#testresult/aa9be4a80b34031b",
-      "status" : "broken",
-      "statusDetails" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=4723): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001A6C13A3908>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))",
-      "time" : {
-        "start" : 1587153060204,
-        "stop" : 1587153060204,
-        "duration" : 0
-      }
-    }, {
-      "uid" : "896770e465b1a7b2",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/46/allure/#testresult/896770e465b1a7b2",
+      "uid" : "9a786f5ee9fb5dfa",
+      "reportUrl" : "http://localhost:8080/job/Timing/72/allure/#testresult/9a786f5ee9fb5dfa",
       "status" : "passed",
       "time" : {
-        "start" : 1587148418827,
-        "stop" : 1587148563283,
-        "duration" : 144456
+        "start" : 1589372665570,
+        "stop" : 1589372755956,
+        "duration" : 90386
+      }
+    }, {
+      "uid" : "d683a46708b20e40",
+      "reportUrl" : "http://localhost:8080/job/Timing/68/allure/#testresult/d683a46708b20e40",
+      "status" : "passed",
+      "time" : {
+        "start" : 1588190926359,
+        "stop" : 1588191055052,
+        "duration" : 128693
       }
     } ]
   },
@@ -2510,56 +2599,54 @@
       "failed" : 3,
       "broken" : 7,
       "skipped" : 0,
-      "passed" : 17,
+      "passed" : 28,
       "unknown" : 0,
-      "total" : 27
+      "total" : 38
     },
     "items" : [ {
-      "uid" : "b897d1bcb2a9c61c",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/52/allure/#testresult/b897d1bcb2a9c61c",
+      "uid" : "817919d1b2bd057e",
+      "reportUrl" : "http://localhost:8080/job/Timing/76/allure/#testresult/817919d1b2bd057e",
       "status" : "passed",
       "time" : {
-        "start" : 1587459581505,
-        "stop" : 1587459672437,
-        "duration" : 90932
+        "start" : 1591168909649,
+        "stop" : 1591168949098,
+        "duration" : 39449
       }
     }, {
-      "uid" : "8894ecfca3faf261",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/51/allure/#testresult/8894ecfca3faf261",
+      "uid" : "f53ba1fa4adac2c9",
+      "reportUrl" : "http://localhost:8080/job/Timing/74/allure/#testresult/f53ba1fa4adac2c9",
       "status" : "passed",
       "time" : {
-        "start" : 1587262040148,
-        "stop" : 1587262080603,
-        "duration" : 40455
+        "start" : 1589404987052,
+        "stop" : 1589405034098,
+        "duration" : 47046
       }
     }, {
-      "uid" : "f2b1a7ba97c4eb0e",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/49/allure/#testresult/f2b1a7ba97c4eb0e",
+      "uid" : "11433ce097fa6630",
+      "reportUrl" : "http://localhost:8080/job/Timing/73/allure/#testresult/11433ce097fa6630",
       "status" : "passed",
       "time" : {
-        "start" : 1587154174994,
-        "stop" : 1587154221503,
-        "duration" : 46509
+        "start" : 1589398648604,
+        "stop" : 1589398720692,
+        "duration" : 72088
       }
     }, {
-      "uid" : "c1d3dee1170d452c",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/48/allure/#testresult/c1d3dee1170d452c",
-      "status" : "broken",
-      "statusDetails" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=4723): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001A6C001C5C0>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))",
+      "uid" : "8109f7bd5b44d765",
+      "reportUrl" : "http://localhost:8080/job/Timing/72/allure/#testresult/8109f7bd5b44d765",
+      "status" : "passed",
       "time" : {
-        "start" : 1587153018786,
-        "stop" : 1587153018786,
-        "duration" : 0
+        "start" : 1589372245440,
+        "stop" : 1589372286796,
+        "duration" : 41356
       }
     }, {
-      "uid" : "1f86a6cdd2c760ec",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/46/allure/#testresult/1f86a6cdd2c760ec",
-      "status" : "broken",
-      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "uid" : "22cf8de12ce3182c",
+      "reportUrl" : "http://localhost:8080/job/Timing/68/allure/#testresult/22cf8de12ce3182c",
+      "status" : "passed",
       "time" : {
-        "start" : 1587147925644,
-        "stop" : 1587148033151,
-        "duration" : 107507
+        "start" : 1588190430762,
+        "stop" : 1588190476411,
+        "duration" : 45649
       }
     } ]
   },
@@ -2568,13 +2655,13 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 25,
+      "passed" : 35,
       "unknown" : 0,
-      "total" : 25
+      "total" : 35
     },
     "items" : [ {
-      "uid" : "cdc618916a4d6224",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/52/allure/#testresult/cdc618916a4d6224",
+      "uid" : "3dd7edd0bb807d4",
+      "reportUrl" : "http://localhost:8080/job/Timing/74/allure/#testresult/3dd7edd0bb807d4",
       "status" : "passed",
       "time" : {
         "start" : 1579351297096,
@@ -2582,8 +2669,8 @@
         "duration" : 12374
       }
     }, {
-      "uid" : "375276b8b900e1cc",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/51/allure/#testresult/375276b8b900e1cc",
+      "uid" : "c440a913b23c7107",
+      "reportUrl" : "http://localhost:8080/job/Timing/73/allure/#testresult/c440a913b23c7107",
       "status" : "passed",
       "time" : {
         "start" : 1579351297096,
@@ -2591,8 +2678,8 @@
         "duration" : 12374
       }
     }, {
-      "uid" : "5a433cea4897bed8",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/49/allure/#testresult/5a433cea4897bed8",
+      "uid" : "d95c272e398c3bc7",
+      "reportUrl" : "http://localhost:8080/job/Timing/72/allure/#testresult/d95c272e398c3bc7",
       "status" : "passed",
       "time" : {
         "start" : 1579351297096,
@@ -2600,8 +2687,8 @@
         "duration" : 12374
       }
     }, {
-      "uid" : "77838c638a030e9",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/48/allure/#testresult/77838c638a030e9",
+      "uid" : "56fa06863a06c6cb",
+      "reportUrl" : "http://localhost:8080/job/Timing/68/allure/#testresult/56fa06863a06c6cb",
       "status" : "passed",
       "time" : {
         "start" : 1579351297096,
@@ -2609,8 +2696,8 @@
         "duration" : 12374
       }
     }, {
-      "uid" : "a265ddfe7df26057",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/46/allure/#testresult/a265ddfe7df26057",
+      "uid" : "8224b9c9b4cf3368",
+      "reportUrl" : "http://localhost:8080/job/Timing/61/allure/#testresult/8224b9c9b4cf3368",
       "status" : "passed",
       "time" : {
         "start" : 1579351297096,
@@ -2624,13 +2711,13 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 20,
+      "passed" : 30,
       "unknown" : 0,
-      "total" : 20
+      "total" : 30
     },
     "items" : [ {
-      "uid" : "5813e50556303be",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/52/allure/#testresult/5813e50556303be",
+      "uid" : "f2c2a68b7bc0a036",
+      "reportUrl" : "http://localhost:8080/job/Timing/74/allure/#testresult/f2c2a68b7bc0a036",
       "status" : "passed",
       "time" : {
         "start" : 1586159253607,
@@ -2638,8 +2725,8 @@
         "duration" : 217540
       }
     }, {
-      "uid" : "3f2e6c36bd09fe09",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/51/allure/#testresult/3f2e6c36bd09fe09",
+      "uid" : "c5b4431a899795fa",
+      "reportUrl" : "http://localhost:8080/job/Timing/73/allure/#testresult/c5b4431a899795fa",
       "status" : "passed",
       "time" : {
         "start" : 1586159253607,
@@ -2647,8 +2734,8 @@
         "duration" : 217540
       }
     }, {
-      "uid" : "27424d14a957be47",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/49/allure/#testresult/27424d14a957be47",
+      "uid" : "11e5a8ec7ca87038",
+      "reportUrl" : "http://localhost:8080/job/Timing/72/allure/#testresult/11e5a8ec7ca87038",
       "status" : "passed",
       "time" : {
         "start" : 1586159253607,
@@ -2656,8 +2743,8 @@
         "duration" : 217540
       }
     }, {
-      "uid" : "f67e7fcabd5824a6",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/48/allure/#testresult/f67e7fcabd5824a6",
+      "uid" : "7409302d15124d08",
+      "reportUrl" : "http://localhost:8080/job/Timing/68/allure/#testresult/7409302d15124d08",
       "status" : "passed",
       "time" : {
         "start" : 1586159253607,
@@ -2665,8 +2752,8 @@
         "duration" : 217540
       }
     }, {
-      "uid" : "cafc4e9456a0fec8",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/46/allure/#testresult/cafc4e9456a0fec8",
+      "uid" : "6e25df1162683ee5",
+      "reportUrl" : "http://localhost:8080/job/Timing/61/allure/#testresult/6e25df1162683ee5",
       "status" : "passed",
       "time" : {
         "start" : 1586159253607,
@@ -2680,55 +2767,54 @@
       "failed" : 5,
       "broken" : 3,
       "skipped" : 0,
-      "passed" : 19,
+      "passed" : 30,
       "unknown" : 0,
-      "total" : 27
+      "total" : 38
     },
     "items" : [ {
-      "uid" : "c39ec1a0af178125",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/52/allure/#testresult/c39ec1a0af178125",
+      "uid" : "357d407701850ae",
+      "reportUrl" : "http://localhost:8080/job/Timing/76/allure/#testresult/357d407701850ae",
       "status" : "passed",
       "time" : {
-        "start" : 1587460950543,
-        "stop" : 1587460973009,
-        "duration" : 22466
+        "start" : 1591170050099,
+        "stop" : 1591170073277,
+        "duration" : 23178
       }
     }, {
-      "uid" : "72d9f50868dfde16",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/51/allure/#testresult/72d9f50868dfde16",
+      "uid" : "768afb1542c53b7f",
+      "reportUrl" : "http://localhost:8080/job/Timing/74/allure/#testresult/768afb1542c53b7f",
       "status" : "passed",
       "time" : {
-        "start" : 1587262958903,
-        "stop" : 1587263030399,
-        "duration" : 71496
+        "start" : 1589406200768,
+        "stop" : 1589406230469,
+        "duration" : 29701
       }
     }, {
-      "uid" : "2e45675605411edf",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/49/allure/#testresult/2e45675605411edf",
+      "uid" : "d6b42d11b99272cb",
+      "reportUrl" : "http://localhost:8080/job/Timing/73/allure/#testresult/d6b42d11b99272cb",
       "status" : "passed",
       "time" : {
-        "start" : 1587155296219,
-        "stop" : 1587155367092,
-        "duration" : 70873
+        "start" : 1589399883843,
+        "stop" : 1589399905569,
+        "duration" : 21726
       }
     }, {
-      "uid" : "efab17dbfce80ce5",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/48/allure/#testresult/efab17dbfce80ce5",
-      "status" : "broken",
-      "statusDetails" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=4723): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001A6BFF314A8>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))",
-      "time" : {
-        "start" : 1587153101619,
-        "stop" : 1587153101619,
-        "duration" : 0
-      }
-    }, {
-      "uid" : "ed75d0f20846f704",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/46/allure/#testresult/ed75d0f20846f704",
+      "uid" : "be2c24ee5be120fd",
+      "reportUrl" : "http://localhost:8080/job/Timing/72/allure/#testresult/be2c24ee5be120fd",
       "status" : "passed",
       "time" : {
-        "start" : 1587149121983,
-        "stop" : 1587149146125,
-        "duration" : 24142
+        "start" : 1589373315143,
+        "stop" : 1589373337822,
+        "duration" : 22679
+      }
+    }, {
+      "uid" : "b305401627559b04",
+      "reportUrl" : "http://localhost:8080/job/Timing/68/allure/#testresult/b305401627559b04",
+      "status" : "passed",
+      "time" : {
+        "start" : 1588191629344,
+        "stop" : 1588191695785,
+        "duration" : 66441
       }
     } ]
   },
@@ -2737,56 +2823,54 @@
       "failed" : 1,
       "broken" : 5,
       "skipped" : 0,
-      "passed" : 24,
+      "passed" : 35,
       "unknown" : 0,
-      "total" : 30
+      "total" : 41
     },
     "items" : [ {
-      "uid" : "f89b3c983f293156",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/52/allure/#testresult/f89b3c983f293156",
+      "uid" : "80e2c09a52ec9a27",
+      "reportUrl" : "http://localhost:8080/job/Timing/76/allure/#testresult/80e2c09a52ec9a27",
       "status" : "passed",
       "time" : {
-        "start" : 1587459092706,
-        "stop" : 1587459104866,
-        "duration" : 12160
+        "start" : 1591168441711,
+        "stop" : 1591168453175,
+        "duration" : 11464
       }
     }, {
-      "uid" : "71988e00c4507a0a",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/51/allure/#testresult/71988e00c4507a0a",
+      "uid" : "1551d13d30e94230",
+      "reportUrl" : "http://localhost:8080/job/Timing/74/allure/#testresult/1551d13d30e94230",
       "status" : "passed",
       "time" : {
-        "start" : 1587261447981,
-        "stop" : 1587261466192,
-        "duration" : 18211
+        "start" : 1589404563893,
+        "stop" : 1589404582239,
+        "duration" : 18346
       }
     }, {
-      "uid" : "7052904681e4f8bc",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/49/allure/#testresult/7052904681e4f8bc",
+      "uid" : "93577dcb7a09d5a2",
+      "reportUrl" : "http://localhost:8080/job/Timing/73/allure/#testresult/93577dcb7a09d5a2",
       "status" : "passed",
       "time" : {
-        "start" : 1587153585787,
-        "stop" : 1587153616165,
-        "duration" : 30378
+        "start" : 1589398315388,
+        "stop" : 1589398328354,
+        "duration" : 12966
       }
     }, {
-      "uid" : "406afb03692cfa0c",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/48/allure/#testresult/406afb03692cfa0c",
-      "status" : "broken",
-      "statusDetails" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=4723): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001A6BFF94F60>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))",
+      "uid" : "e0e14c14a909688",
+      "reportUrl" : "http://localhost:8080/job/Timing/72/allure/#testresult/e0e14c14a909688",
+      "status" : "passed",
       "time" : {
-        "start" : 1587152951531,
-        "stop" : 1587152951531,
-        "duration" : 0
+        "start" : 1589371745351,
+        "stop" : 1589371796575,
+        "duration" : 51224
       }
     }, {
-      "uid" : "9536374a97ed2e06",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/46/allure/#testresult/9536374a97ed2e06",
-      "status" : "broken",
-      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "uid" : "623173ce0b20622e",
+      "reportUrl" : "http://localhost:8080/job/Timing/68/allure/#testresult/623173ce0b20622e",
+      "status" : "passed",
       "time" : {
-        "start" : 1587152087828,
-        "stop" : 1587152139174,
-        "duration" : 51346
+        "start" : 1588195225446,
+        "stop" : 1588195239220,
+        "duration" : 13774
       }
     } ]
   },
@@ -2795,55 +2879,54 @@
       "failed" : 6,
       "broken" : 1,
       "skipped" : 0,
-      "passed" : 20,
+      "passed" : 31,
       "unknown" : 0,
-      "total" : 27
+      "total" : 38
     },
     "items" : [ {
-      "uid" : "bcf15f099e7d97ad",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/52/allure/#testresult/bcf15f099e7d97ad",
+      "uid" : "c575ba7e4d776923",
+      "reportUrl" : "http://localhost:8080/job/Timing/76/allure/#testresult/c575ba7e4d776923",
       "status" : "passed",
       "time" : {
-        "start" : 1587460646591,
-        "stop" : 1587460715571,
-        "duration" : 68980
+        "start" : 1591169735909,
+        "stop" : 1591169777850,
+        "duration" : 41941
       }
     }, {
-      "uid" : "f08b8c9d6b525dbc",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/51/allure/#testresult/f08b8c9d6b525dbc",
+      "uid" : "684192519fa83001",
+      "reportUrl" : "http://localhost:8080/job/Timing/74/allure/#testresult/684192519fa83001",
       "status" : "passed",
       "time" : {
-        "start" : 1587262665469,
-        "stop" : 1587262719782,
-        "duration" : 54313
+        "start" : 1589405831649,
+        "stop" : 1589405885009,
+        "duration" : 53360
       }
     }, {
-      "uid" : "123b4ae77d98af60",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/49/allure/#testresult/123b4ae77d98af60",
+      "uid" : "66cdb963a7c72f5f",
+      "reportUrl" : "http://localhost:8080/job/Timing/73/allure/#testresult/66cdb963a7c72f5f",
       "status" : "passed",
       "time" : {
-        "start" : 1587154965815,
-        "stop" : 1587155013820,
-        "duration" : 48005
+        "start" : 1589399562739,
+        "stop" : 1589399646598,
+        "duration" : 83859
       }
     }, {
-      "uid" : "df0cfb556704c79c",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/48/allure/#testresult/df0cfb556704c79c",
-      "status" : "broken",
-      "statusDetails" : "urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=4723): Max retries exceeded with url: /wd/hub/session (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001A6C13B69E8>: Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。'))",
-      "time" : {
-        "start" : 1587153075728,
-        "stop" : 1587153075728,
-        "duration" : 0
-      }
-    }, {
-      "uid" : "420104262fb86641",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/46/allure/#testresult/420104262fb86641",
+      "uid" : "792317bed4aca1dc",
+      "reportUrl" : "http://localhost:8080/job/Timing/72/allure/#testresult/792317bed4aca1dc",
       "status" : "passed",
       "time" : {
-        "start" : 1587148838773,
-        "stop" : 1587148886273,
-        "duration" : 47500
+        "start" : 1589372996816,
+        "stop" : 1589373075015,
+        "duration" : 78199
+      }
+    }, {
+      "uid" : "3fb5d6bddeeb91a5",
+      "reportUrl" : "http://localhost:8080/job/Timing/68/allure/#testresult/3fb5d6bddeeb91a5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1588191293938,
+        "stop" : 1588191342987,
+        "duration" : 49049
       }
     } ]
   },
@@ -2852,13 +2935,13 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 23,
+      "passed" : 33,
       "unknown" : 0,
-      "total" : 23
+      "total" : 33
     },
     "items" : [ {
-      "uid" : "512e189d6d9557ed",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/52/allure/#testresult/512e189d6d9557ed",
+      "uid" : "409d6afd15065cfb",
+      "reportUrl" : "http://localhost:8080/job/Timing/74/allure/#testresult/409d6afd15065cfb",
       "status" : "passed",
       "time" : {
         "start" : 1585723453805,
@@ -2866,8 +2949,8 @@
         "duration" : 20991
       }
     }, {
-      "uid" : "45ff2adb1b869cc3",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/51/allure/#testresult/45ff2adb1b869cc3",
+      "uid" : "554ec7b9ed7a248b",
+      "reportUrl" : "http://localhost:8080/job/Timing/73/allure/#testresult/554ec7b9ed7a248b",
       "status" : "passed",
       "time" : {
         "start" : 1585723453805,
@@ -2875,8 +2958,8 @@
         "duration" : 20991
       }
     }, {
-      "uid" : "7e744db67d9f216d",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/49/allure/#testresult/7e744db67d9f216d",
+      "uid" : "4722ecd3929d6c62",
+      "reportUrl" : "http://localhost:8080/job/Timing/72/allure/#testresult/4722ecd3929d6c62",
       "status" : "passed",
       "time" : {
         "start" : 1585723453805,
@@ -2884,8 +2967,8 @@
         "duration" : 20991
       }
     }, {
-      "uid" : "3c2056ef345bae18",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/48/allure/#testresult/3c2056ef345bae18",
+      "uid" : "d613fc61b356bd08",
+      "reportUrl" : "http://localhost:8080/job/Timing/68/allure/#testresult/d613fc61b356bd08",
       "status" : "passed",
       "time" : {
         "start" : 1585723453805,
@@ -2893,8 +2976,8 @@
         "duration" : 20991
       }
     }, {
-      "uid" : "b1fa88e95f5ad3a3",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/46/allure/#testresult/b1fa88e95f5ad3a3",
+      "uid" : "fe1121fe88e8e660",
+      "reportUrl" : "http://localhost:8080/job/Timing/61/allure/#testresult/fe1121fe88e8e660",
       "status" : "passed",
       "time" : {
         "start" : 1585723453805,
@@ -2908,13 +2991,13 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 20,
+      "passed" : 30,
       "unknown" : 0,
-      "total" : 20
+      "total" : 30
     },
     "items" : [ {
-      "uid" : "a45756c2d0a44185",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/52/allure/#testresult/a45756c2d0a44185",
+      "uid" : "fa43f6278ae81d5b",
+      "reportUrl" : "http://localhost:8080/job/Timing/74/allure/#testresult/fa43f6278ae81d5b",
       "status" : "passed",
       "time" : {
         "start" : 1586158702419,
@@ -2922,8 +3005,8 @@
         "duration" : 73101
       }
     }, {
-      "uid" : "c2027e244ed191cb",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/51/allure/#testresult/c2027e244ed191cb",
+      "uid" : "85754a786d90dc57",
+      "reportUrl" : "http://localhost:8080/job/Timing/73/allure/#testresult/85754a786d90dc57",
       "status" : "passed",
       "time" : {
         "start" : 1586158702419,
@@ -2931,8 +3014,8 @@
         "duration" : 73101
       }
     }, {
-      "uid" : "73d7e321dc770a0d",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/49/allure/#testresult/73d7e321dc770a0d",
+      "uid" : "a24f1d2e259ffec",
+      "reportUrl" : "http://localhost:8080/job/Timing/72/allure/#testresult/a24f1d2e259ffec",
       "status" : "passed",
       "time" : {
         "start" : 1586158702419,
@@ -2940,8 +3023,8 @@
         "duration" : 73101
       }
     }, {
-      "uid" : "c4d1de6fa944ba7a",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/48/allure/#testresult/c4d1de6fa944ba7a",
+      "uid" : "3420470e787518fc",
+      "reportUrl" : "http://localhost:8080/job/Timing/68/allure/#testresult/3420470e787518fc",
       "status" : "passed",
       "time" : {
         "start" : 1586158702419,
@@ -2949,8 +3032,8 @@
         "duration" : 73101
       }
     }, {
-      "uid" : "908973bc030d852c",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/46/allure/#testresult/908973bc030d852c",
+      "uid" : "4c059a1b4002f07d",
+      "reportUrl" : "http://localhost:8080/job/Timing/61/allure/#testresult/4c059a1b4002f07d",
       "status" : "passed",
       "time" : {
         "start" : 1586158702419,
@@ -2964,13 +3047,13 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 23,
+      "passed" : 33,
       "unknown" : 0,
-      "total" : 23
+      "total" : 33
     },
     "items" : [ {
-      "uid" : "7f4b2f36a3ec163c",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/52/allure/#testresult/7f4b2f36a3ec163c",
+      "uid" : "da8ce513ad1409b2",
+      "reportUrl" : "http://localhost:8080/job/Timing/74/allure/#testresult/da8ce513ad1409b2",
       "status" : "passed",
       "time" : {
         "start" : 1579351352287,
@@ -2978,8 +3061,8 @@
         "duration" : 62296
       }
     }, {
-      "uid" : "4ed0c2d450c0e710",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/51/allure/#testresult/4ed0c2d450c0e710",
+      "uid" : "b32eebd16b106902",
+      "reportUrl" : "http://localhost:8080/job/Timing/73/allure/#testresult/b32eebd16b106902",
       "status" : "passed",
       "time" : {
         "start" : 1579351352287,
@@ -2987,8 +3070,8 @@
         "duration" : 62296
       }
     }, {
-      "uid" : "57f82d4c8ce174f4",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/49/allure/#testresult/57f82d4c8ce174f4",
+      "uid" : "943f70e2741e8815",
+      "reportUrl" : "http://localhost:8080/job/Timing/72/allure/#testresult/943f70e2741e8815",
       "status" : "passed",
       "time" : {
         "start" : 1579351352287,
@@ -2996,8 +3079,8 @@
         "duration" : 62296
       }
     }, {
-      "uid" : "13a49c165974a323",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/48/allure/#testresult/13a49c165974a323",
+      "uid" : "99f880612c4416ad",
+      "reportUrl" : "http://localhost:8080/job/Timing/68/allure/#testresult/99f880612c4416ad",
       "status" : "passed",
       "time" : {
         "start" : 1579351352287,
@@ -3005,8 +3088,8 @@
         "duration" : 62296
       }
     }, {
-      "uid" : "fa9f6a4a98638d8a",
-      "reportUrl" : "http://192.168.88.58:8080/job/Timing/46/allure/#testresult/fa9f6a4a98638d8a",
+      "uid" : "a52467261fab37f",
+      "reportUrl" : "http://localhost:8080/job/Timing/61/allure/#testresult/a52467261fab37f",
       "status" : "passed",
       "time" : {
         "start" : 1579351352287,

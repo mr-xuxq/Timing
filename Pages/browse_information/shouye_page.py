@@ -61,5 +61,11 @@ class Shouye(BaseAction):
         else:
             return False
 
+    def waitAndfind(self):
+        if  self.waitLoading(self.moreBtn,t=5) == True:
+            return True
+        else:
+            return False
+
     def check_shouye(self):
         return self.is_feature_exist(self.shouyeBtn)

@@ -37,6 +37,7 @@ from Pages.register_login.register_add_tags_page import Register_add_tags
 from Pages.register_login.register_fillInformation_page import Register_fillInformation
 from Pages.register_login.selectPhoto_page import Select_photo
 from Pages.register_login.binding_phone_page import Banding_phone
+from Pages.register_login.login_forgetPwd_page import Login_forgetPwd
 from Pages.register_login.guide_page import Guide
 # —————————————————————————————-Timed_learning—————-————————————-—-——#
 from Pages.timed_learning.timing_page import Timing
@@ -143,6 +144,9 @@ class Page:
 
     def register_fillInformation(self):
         return Register_fillInformation(self.driver)
+
+    def login_forgetPwd(self):
+        return Login_forgetPwd(self.driver)
 
     def select_photo(self):
         return Select_photo(self.driver)

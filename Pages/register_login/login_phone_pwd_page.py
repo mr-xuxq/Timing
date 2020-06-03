@@ -9,6 +9,8 @@ class Login_phone_pwd(BaseAction):
     pwdBox =By.ID,'com.huiian.timing:id/et_password'
     #【登录】
     loginBtn =By.ID,'com.huiian.timing:id/tv_login_verify'
+    #【忘记密码】
+    forgetPwdBtn =By.ID,'com.huiian.timing:id/tv_forget_password'
 
 
     def input_phone(self, content):
@@ -19,6 +21,9 @@ class Login_phone_pwd(BaseAction):
 
     def click_loginBtn(self):
         self.click(self.loginBtn)
+
+    def click_forgetPwdBtn(self):
+        self.click(self.forgetPwdBtn)
 
     def back(self):
         self.press_back()
