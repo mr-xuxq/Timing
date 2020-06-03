@@ -1,0 +1,4911 @@
+{
+	"info": {
+		"_postman_id": "8689d324-6d0f-4e9a-9fe0-202f080b0779",
+		"name": "最小测试集",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "最小测试集-注册登录",
+			"item": [
+				{
+					"name": "小书童接口相关测试",
+					"item": [
+						{
+							"name": "消息页面获取小书童消息",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "userID",
+											"value": "{{userID}}",
+											"type": "text"
+										},
+										{
+											"key": "userKey",
+											"value": "{{userKey}}",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "http://118.31.222.92:8083/user/official-notice-list",
+									"protocol": "http",
+									"host": [
+										"118",
+										"31",
+										"222",
+										"92"
+									],
+									"port": "8083",
+									"path": [
+										"user",
+										"official-notice-list"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "小书童--打招呼页面",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "userID",
+											"value": "{{userID}}",
+											"type": "text"
+										},
+										{
+											"key": "userKey",
+											"value": "{{userKey}}",
+											"type": "text"
+										},
+										{
+											"key": "tailID",
+											"value": "0",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "http://118.31.222.92:8083/friend/say-hello-list",
+									"protocol": "http",
+									"host": [
+										"118",
+										"31",
+										"222",
+										"92"
+									],
+									"port": "8083",
+									"path": [
+										"friend",
+										"say-hello-list"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "小书童-寻找道友",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "userID",
+											"value": "{{userID}}",
+											"type": "text"
+										},
+										{
+											"key": "userKey",
+											"value": "{{userKey}}",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "http://118.31.222.92:8083/friend/recommend-user",
+									"protocol": "http",
+									"host": [
+										"118",
+										"31",
+										"222",
+										"92"
+									],
+									"port": "8083",
+									"path": [
+										"friend",
+										"recommend-user"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "提交问题",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "userID",
+											"value": "{{userID}}",
+											"type": "text"
+										},
+										{
+											"key": "userKey",
+											"value": "{{userKey}}",
+											"type": "text"
+										},
+										{
+											"key": "content",
+											"value": "测试专用测试专用测试专用",
+											"type": "text"
+										},
+										{
+											"key": "type",
+											"value": "1",
+											"type": "text"
+										},
+										{
+											"key": "imageIDList",
+											"value": "611368",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "http://118.31.222.92:8083/qa/post-question ",
+									"protocol": "http",
+									"host": [
+										"118",
+										"31",
+										"222",
+										"92"
+									],
+									"port": "8083",
+									"path": [
+										"qa",
+										"post-question "
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "帮助与反馈",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "userID",
+											"value": "{{userID}}",
+											"type": "text"
+										},
+										{
+											"key": "userKey",
+											"value": "{{userKey}}",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "http://118.31.222.92:8083/qa/index-data",
+									"protocol": "http",
+									"host": [
+										"118",
+										"31",
+										"222",
+										"92"
+									],
+									"port": "8083",
+									"path": [
+										"qa",
+										"index-data"
+									]
+								}
+							},
+							"response": []
+						}
+					],
+					"protocolProfileBehavior": {},
+					"_postman_isSubFolder": true
+				},
+				{
+					"name": "密码登录",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "d22eead6-8db3-4c76-a72a-c3423b2b32cc",
+								"exec": [
+									"pm.test(\"77号可以正常登陆\", function () {",
+									"    var jsonData = pm.response.json();",
+									"    pm.expect(jsonData.errorMsg).to.eql(\"成功\");",
+									"});",
+									"",
+									"",
+									"",
+									"pm.globals.set(\"userKey\",pm.response.json().userKey);",
+									"pm.globals.set(\"userID\", pm.response.json().userID);",
+									"",
+									"",
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "phone",
+									"value": "10000000009",
+									"type": "text"
+								},
+								{
+									"key": "password",
+									"value": "111111",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{host}}/login-register/login-by-phone",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"login-register",
+								"login-by-phone"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "发送验证码",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "phoneNumber",
+									"value": "10000002011",
+									"type": "text"
+								},
+								{
+									"key": "isCheckPhoneExist",
+									"value": "0",
+									"type": "text"
+								},
+								{
+									"key": "countryCode",
+									"value": "86",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{host_one}}/user/send-captcha",
+							"host": [
+								"{{host_one}}"
+							],
+							"path": [
+								"user",
+								"send-captcha"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "获取数据库中的验证码",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "7f86a9a6-7b0b-4151-865e-e4ed0b9a679d",
+								"exec": [
+									"var jsondata = pm.response.json()\r",
+									"pm.environment.set(\"captcha\",jsondata[0].captcha);"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/api/t_captcha?_where=(phone,eq,10000002011)&_sort=-ID",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"t_captcha"
+							],
+							"query": [
+								{
+									"key": "_where",
+									"value": "(phone,eq,10000002011)"
+								},
+								{
+									"key": "_sort",
+									"value": "-ID"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "用验证码登录",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "34bfc62a-3077-493d-8a89-fac9fbcf7de0",
+								"exec": [
+									"pm.test(\"验证码登录成功\", function () {",
+									"    var jsonData = pm.response.json();",
+									"    pm.expect(jsonData.errorMsg).to.eql(\"成功\");",
+									"});",
+									"",
+									"pm.environment.set(\"userid\",pm.response.json().userID);",
+									"pm.environment.set(\"userkey\",pm.response.json().userKey);"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "phone",
+									"value": "10000002011",
+									"type": "text"
+								},
+								{
+									"key": "captcha",
+									"value": "{{captcha}}",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{host}}/login-register/login-by-captcha",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"login-register",
+								"login-by-captcha"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "搜索标签",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "3f8917d8-51f9-4e39-897a-52aa934fe85c",
+								"exec": [
+									"pm.test(\"搜索标签成功\", function () {",
+									"    var jsonData = pm.response.json();",
+									"    pm.expect(jsonData.errorMsg).to.eql(\"成功\");",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "searchString",
+									"value": "小王也",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{host}}/login-register/search-learning-category",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"login-register",
+								"search-learning-category"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "添加自定义标签",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "91d9bf0d-24d4-43f3-ada7-c776ce1f2388",
+								"exec": [
+									"pm.test(\"添加自定义标签\", function () {",
+									"    var jsonData = pm.response.json();",
+									"    pm.expect(jsonData.errorMsg).to.eql(\"成功\");",
+									"});",
+									"",
+									"",
+									"pm.environment.set(\"categoryID\",pm.response.json().list[0].id);"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "userID",
+									"value": "{{userID}}",
+									"type": "text"
+								},
+								{
+									"key": "userKey",
+									"value": "{{userKey}}",
+									"type": "text"
+								},
+								{
+									"key": "names",
+									"value": "小王也",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{host}}/me-userinfo/add-custom",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"me-userinfo",
+								"add-custom"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "填写个人资料",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "nickname",
+									"value": "武当王也",
+									"type": "text"
+								},
+								{
+									"key": "birthday",
+									"value": "1575043200000",
+									"type": "text"
+								},
+								{
+									"key": "gender",
+									"value": "male",
+									"type": "text"
+								},
+								{
+									"key": "categoryIDs",
+									"value": "{{categoryID}}",
+									"type": "text"
+								},
+								{
+									"key": "categoryName",
+									"value": "小王也",
+									"type": "text"
+								},
+								{
+									"key": "avatarID",
+									"value": "528624",
+									"type": "text"
+								},
+								{
+									"key": "userID",
+									"value": "{{userid}}",
+									"type": "text"
+								},
+								{
+									"key": "userKey",
+									"value": "{{userkey}}",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{host}}/login-register/edit-user-info-v2",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"login-register",
+								"edit-user-info-v2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "推荐朋友",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "b2e67d67-35f9-4dfa-b965-b8b39d2c4472",
+								"exec": [
+									"pm.test(\"推荐朋友数据正确\", function () {",
+									"    pm.expect(pm.response.text()).to.include(\"id\");",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "userID",
+									"value": "{{userid}}",
+									"type": "text"
+								},
+								{
+									"key": "userKey",
+									"value": "{{userkey}}",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{host_one}}/friend/recommend-user",
+							"host": [
+								"{{host_one}}"
+							],
+							"path": [
+								"friend",
+								"recommend-user"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "推荐相关学习群",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "fd11fc38-5289-46ec-95ef-4da7d23423ee",
+								"exec": [
+									"pm.test(\"成功推荐相关群\", function () {",
+									"    pm.expect(pm.response.text()).to.include(\"avatarFile\");",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "userID",
+									"value": "{{userid}}",
+									"type": "text"
+								},
+								{
+									"key": "userKey",
+									"value": "{{userkey}}",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{host_one}}/learning-group/recommend-clock-in-group",
+							"host": [
+								"{{host_one}}"
+							],
+							"path": [
+								"learning-group",
+								"recommend-clock-in-group"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "推荐高级学习群",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "f3a974e9-61ee-4669-a244-e4878325190c",
+								"exec": [
+									"pm.test(\"成功推荐高级学习群\", function () {",
+									"    pm.expect(pm.response.text()).to.include(\"avatarFile\");",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "userID",
+									"value": "{{userid}}",
+									"type": "text"
+								},
+								{
+									"key": "userKey",
+									"value": "{{userkey}}",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{host_one}}/learning-group/recommend-contract-group",
+							"host": [
+								"{{host_one}}"
+							],
+							"path": [
+								"learning-group",
+								"recommend-contract-group"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "qq登录",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "de8866c0-ae73-4f78-b167-9b1d125c7834",
+								"exec": [
+									"pm.test(\"第三方登录成功\", function () {",
+									"    var jsonData = pm.response.json();",
+									"    pm.expect(jsonData.result).to.eql(true);",
+									"});",
+									"",
+									"pm.environment.set(\"qquserid\", pm.response.json().userID);",
+									"pm.environment.set(\"qquserkey\", pm.response.json().userKey);"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "commonType",
+									"value": "1",
+									"type": "text"
+								},
+								{
+									"key": "openID",
+									"value": "C30FCF93A02FA0376582054E9993DABF",
+									"type": "text"
+								},
+								{
+									"key": "accessToken",
+									"value": "4C10BBBE803D14F61563452BD852BD11",
+									"type": "text"
+								},
+								{
+									"key": "expiresIn",
+									"value": "1588667245056",
+									"type": "text"
+								},
+								{
+									"key": "loginType",
+									"value": "0",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{host}}/login-register/common-account-login",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"login-register",
+								"common-account-login"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "云信创建用户",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "c6d44bdc-daea-48ea-ab7a-a14f410347a8",
+								"exec": [
+									"pm.test(\"云信创建用户成功\", function () {",
+									"    pm.expect(pm.response.text()).to.include(\"token\");",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "userID",
+									"value": "{{qquserid}}",
+									"type": "text"
+								},
+								{
+									"key": "userKey",
+									"value": "{{qquserkey}}",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{host_one}}/netease-im/create-user",
+							"host": [
+								"{{host_one}}"
+							],
+							"path": [
+								"netease-im",
+								"create-user"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "最小测试集-搜索",
+			"item": [
+				{
+					"name": "搜索",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "684bc4e4-28e0-400b-b22a-5cd24230bdf2",
+								"exec": [
+									"pm.test(\"搜索结果\", function () {",
+									"    var jsonData = pm.response.json();",
+									"    pm.expect(jsonData.result).to.eql(true);",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "userID",
+									"value": "{{userID}}",
+									"type": "text"
+								},
+								{
+									"key": "userKey",
+									"value": "{{userKey}}",
+									"type": "text"
+								},
+								{
+									"key": "keywords",
+									"value": "佳佳迷弟",
+									"type": "text"
+								},
+								{
+									"key": "searchType",
+									"value": "all",
+									"type": "text"
+								},
+								{
+									"key": "page",
+									"value": "1",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{host}}/content/search",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"content",
+								"search"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "输入搜索内容推荐关键字",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "97946a03-79d8-44b1-a1c2-1c75d50eed01",
+								"exec": [
+									"pm.environment.set(\"\", \"variable_value\");",
+									"",
+									"pm.test(\"获取模糊搜索推荐内容\", function () {",
+									"    pm.expect(pm.response.text()).to.include(\"suggestList\");",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "keywords",
+									"value": "佳佳",
+									"type": "text"
+								},
+								{
+									"key": "userID",
+									"value": "{{userID}}",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{host}}/content/search-suggest",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"content",
+								"search-suggest"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "发现精彩内容",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "userID",
+									"value": "{{userID}}",
+									"type": "text"
+								},
+								{
+									"key": "userKey",
+									"value": "{{userKey}}",
+									"type": "text"
+								},
+								{
+									"key": "eventType",
+									"value": "4",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{host}}/data-collection/entrance-event",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"data-collection",
+								"entrance-event"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "搜索推荐内容",
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"id": "2fab5fdf-d273-4e16-9ff0-ed2e6f9e7117",
+								"exec": [
+									"types = ['feed','group']",
+									"types_length = types.length",
+									"pm.environment.set(\"types_length\", types_length);",
+									"cycle_number = pm.environment.get(\"cycle_number\");",
+									"cycle_number = parseInt(cycle_number)",
+									"type = types[cycle_number]",
+									"pm.environment.set(\"type\", type);",
+									"cycle_number = cycle_number + 1",
+									"pm.environment.set(\"cycle_number\", cycle_number);",
+									""
+								],
+								"type": "text/javascript"
+							}
+						},
+						{
+							"listen": "test",
+							"script": {
+								"id": "4881c397-629b-4dbb-a437-585be55a5e0c",
+								"exec": [
+									"cycle_number = pm.environment.get(\"cycle_number\"); ",
+									"cycle_number = parseInt(cycle_number);",
+									"types_length = pm.environment.get(\"types_length\"); ",
+									"types_length = parseInt(types_length);",
+									"if(cycle_number<types_length){",
+									"    postman.setNextRequest(\"搜索推荐内容\");",
+									"}",
+									"else{",
+									"    postman.setNextRequest(\"获取发现精彩列表\");",
+									"    pm.environment.set(\"cycle_number\", 0);",
+									"}"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "userID",
+									"value": "{{userID}}",
+									"type": "text"
+								},
+								{
+									"key": "userKey",
+									"value": "{{userKey}}",
+									"type": "text"
+								},
+								{
+									"key": "type",
+									"value": "{{type}}",
+									"type": "text"
+								},
+								{
+									"key": "keyWords",
+									"value": "佳佳迷弟",
+									"type": "text"
+								},
+								{
+									"key": "page",
+									"value": "1",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{host}}/content/search-recommend",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"content",
+								"search-recommend"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "获取发现精彩列表",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "e6ab3120-71c4-45ae-89fa-b357faf49aa5",
+								"exec": [
+									"pm.test(\"成功获取发现精彩列表\", function () {",
+									"    pm.expect(pm.response.text()).to.include(\"成功\");",
+									"});",
+									"",
+									"",
+									"pm.environment.set(\"type\",pm.response.json().list[0].type );",
+									"pm.environment.set(\"labelID\", pm.response.json().list[1].labelID);"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "userID",
+									"value": "{{userID}}",
+									"type": "text"
+								},
+								{
+									"key": "userKey",
+									"value": "{{userKey}}",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{host}}/me-find-excellent/find-excellent",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"me-find-excellent",
+								"find-excellent"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "最小测试集-树洞",
+			"item": [
+				{
+					"name": "推荐频道",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{host_four}}/api-resource/shudong/channelList?userID={{userID}}&userKey={{userKey}}",
+							"host": [
+								"{{host_four}}"
+							],
+							"path": [
+								"api-resource",
+								"shudong",
+								"channelList"
+							],
+							"query": [
+								{
+									"key": "userID",
+									"value": "{{userID}}"
+								},
+								{
+									"key": "userKey",
+									"value": "{{userKey}}"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "收听",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "operationType",
+									"value": "1",
+									"type": "text"
+								},
+								{
+									"key": "userID",
+									"value": "{{userID}}",
+									"type": "text"
+								},
+								{
+									"key": "userKey",
+									"value": "{{userKey}}",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{host_four}}/api-resource/shudong/listenEnterAgoraVoiceRoom ",
+							"host": [
+								"{{host_four}}"
+							],
+							"path": [
+								"api-resource",
+								"shudong",
+								"listenEnterAgoraVoiceRoom "
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "3S寻呼匹配道友",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "userID",
+									"value": "{{userID}}",
+									"type": "text"
+								},
+								{
+									"key": "userKey",
+									"value": "{{userKey}}",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{host_four}}/api-resource/shudong/automaticCall ",
+							"host": [
+								"{{host_four}}"
+							],
+							"path": [
+								"api-resource",
+								"shudong",
+								"automaticCall "
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "自动寻呼匹配道友",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "userID",
+									"value": "{{userID}}",
+									"type": "text"
+								},
+								{
+									"key": "userKey",
+									"value": "{{userKey}}",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{host_four}}/api-resource/shudong/reCall ",
+							"host": [
+								"{{host_four}}"
+							],
+							"path": [
+								"api-resource",
+								"shudong",
+								"reCall "
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "进入频道",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "a9da7a1a-1d45-43df-be5c-1cc3802fa4e9",
+								"exec": [
+									"pm.test(\"正常进入频道\", function () {",
+									"    var jsonData = pm.response.json();",
+									"    pm.expect(jsonData.result).to.eql(true);",
+									"});",
+									"",
+									"pm.environment.set(\"channelName\",pm.response.json().channelName);"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "userID",
+									"value": "{{userID}}",
+									"type": "text"
+								},
+								{
+									"key": "userKey",
+									"value": "{{userKey}}",
+									"type": "text"
+								},
+								{
+									"key": "channelNo",
+									"value": "66.66",
+									"type": "text"
+								},
+								{
+									"key": "operationType",
+									"value": "1",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{host_four}}/api-resource/shudong/enterAgoraVoiceRoom ",
+							"host": [
+								"{{host_four}}"
+							],
+							"path": [
+								"api-resource",
+								"shudong",
+								"enterAgoraVoiceRoom "
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "成为主播",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "a8e92c9b-210a-453a-891b-c56d6a0284a3",
+								"exec": [
+									"pm.test(\"上线成功\", function () {",
+									"    pm.expect(pm.response.text()).to.include(\"成功\");",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "channelName",
+									"value": "{{channelName}}",
+									"type": "text"
+								},
+								{
+									"key": "userID",
+									"value": "{{userID}}",
+									"type": "text"
+								},
+								{
+									"key": "userKey",
+									"value": "{{userKey}}",
+									"type": "text"
+								},
+								{
+									"key": "channelNo",
+									"value": "66.66",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{host_four}}/api-resource/shudong/connectionAgoraVoice",
+							"host": [
+								"{{host_four}}"
+							],
+							"path": [
+								"api-resource",
+								"shudong",
+								"connectionAgoraVoice"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "下线成为听众",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "channelName",
+									"value": "{{channelName}}",
+									"type": "text"
+								},
+								{
+									"key": "channelNo",
+									"value": "66.66",
+									"type": "text"
+								},
+								{
+									"key": "userID",
+									"value": "{{userID}}",
+									"type": "text"
+								},
+								{
+									"key": "userKey",
+									"value": "{{userKey}}",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{host_four}}/api-resource/shudong/unConnectionAgoraVoice",
+							"host": [
+								"{{host_four}}"
+							],
+							"path": [
+								"api-resource",
+								"shudong",
+								"unConnectionAgoraVoice"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "退出频道",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "8c843a34-6746-4d02-893f-3112d06cdd3a",
+								"exec": [
+									"pm.test(\"用户退出频道成功\", function () {",
+									"    pm.expect(pm.response.text()).to.include(\"成功\");",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/x-www-form-urlencoded"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "channelName",
+									"value": "{{channelName}}",
+									"type": "text"
+								},
+								{
+									"key": "channelNo",
+									"value": "66.66",
+									"type": "text"
+								},
+								{
+									"key": "userID",
+									"value": "{{userID}}",
+									"type": "text"
+								},
+								{
+									"key": "userKey",
+									"value": "{{userKey}}",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{host_four}}/api-resource/shudong/quitAgoraVoiceRoom",
+							"host": [
+								"{{host_four}}"
+							],
+							"path": [
+								"api-resource",
+								"shudong",
+								"quitAgoraVoiceRoom"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "最小测试集-学习工具",
+			"item": [
+				{
+					"name": "群相关接口测试",
+					"item": [
+						{
+							"name": "创建讨论组",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"id": "145aaca4-cf9b-4af4-a636-81fc980f79ba",
+										"exec": [
+											""
+										],
+										"type": "text/javascript"
+									}
+								},
+								{
+									"listen": "prerequest",
+									"script": {
+										"id": "2c653d60-0699-4841-b777-cc4a68959e51",
+										"exec": [
+											""
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "userID",
+											"value": "{{userID}}",
+											"type": "text"
+										},
+										{
+											"key": "userKey",
+											"value": "{{userKey}}",
+											"type": "text"
+										},
+										{
+											"key": "type",
+											"value": "1",
+											"type": "text"
+										},
+										{
+											"key": "groupDesc",
+											"value": "一个群",
+											"type": "text"
+										},
+										{
+											"key": "name",
+											"value": "一个群描述",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "{{host_one}}/learning-group/create-discussion-group",
+									"host": [
+										"{{host_one}}"
+									],
+									"path": [
+										"learning-group",
+										"create-discussion-group"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "加入群",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": []
+								},
+								"url": {
+									"raw": "{{host_one}}/learning-group/join ",
+									"host": [
+										"{{host_one}}"
+									],
+									"path": [
+										"learning-group",
+										"join "
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "退出群",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "userID",
+											"value": "{{userID}}",
+											"type": "text"
+										},
+										{
+											"key": "userKey",
+											"value": "{{userKey}}",
+											"type": "text"
+										},
+										{
+											"key": "groupID",
+											"value": "{{groupID}}",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "{{host_one}}/learning-group/quit",
+									"host": [
+										"{{host_one}}"
+									],
+									"path": [
+										"learning-group",
+										"quit"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "更换群头像",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "http://118.178.104.233/learning-group/set-cover",
+									"protocol": "http",
+									"host": [
+										"118",
+										"178",
+										"104",
+										"233"
+									],
+									"path": [
+										"learning-group",
+										"set-cover"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "上传文件",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "userID",
+											"value": "",
+											"type": "text"
+										},
+										{
+											"key": "userKey",
+											"value": "",
+											"type": "text"
+										},
+										{
+											"key": "groupID",
+											"value": "",
+											"type": "text"
+										},
+										{
+											"key": "fileIDList",
+											"value": "",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "http://118.31.222.92/learning-group/group-upload-file",
+									"protocol": "http",
+									"host": [
+										"118",
+										"31",
+										"222",
+										"92"
+									],
+									"path": [
+										"learning-group",
+										"group-upload-file"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "创建群文件夹",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "http://101.37.27.140:8083/learning-group/group-mkdir ",
+									"protocol": "http",
+									"host": [
+										"101",
+										"37",
+										"27",
+										"140"
+									],
+									"port": "8083",
+									"path": [
+										"learning-group",
+										"group-mkdir "
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "群文件列表",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"id": "12e8c3c7-0e5e-401a-ba4d-33bbba766f20",
+										"exec": [
+											"pm.environment.set(\"tailID\", pm.response.json().tailID);"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "userID",
+											"value": "{{userID}}",
+											"type": "text"
+										},
+										{
+											"key": "userKey",
+											"value": "{{userKey}}",
+											"type": "text"
+										},
+										{
+											"key": "groupID",
+											"value": "{{groupID}}",
+											"type": "text"
+										},
+										{
+											"key": "fileID",
+											"value": "0",
+											"type": "text"
+										},
+										{
+											"key": "tailID",
+											"value": "0",
+											"type": "text"
+										},
+										{
+											"key": "tailIDType",
+											"value": "folder",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "{{host}}/learning-group/group-file ",
+									"host": [
+										"{{host}}"
+									],
+									"path": [
+										"learning-group",
+										"group-file "
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "开启群免打扰",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "http://118.178.104.233/learning-group/keep-quiet",
+									"protocol": "http",
+									"host": [
+										"118",
+										"178",
+										"104",
+										"233"
+									],
+									"path": [
+										"learning-group",
+										"keep-quiet"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "开启群验证",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "http://118.178.104.233/learning-group/modify-join-mode",
+									"protocol": "http",
+									"host": [
+										"118",
+										"178",
+										"104",
+										"233"
+									],
+									"path": [
+										"learning-group",
+										"modify-join-mode"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "发布群公告",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": []
+								},
+								"url": {
+									"raw": "{{host}}/group-info/modify-announcement ",
+									"host": [
+										"{{host}}"
+									],
+									"path": [
+										"group-info",
+										"modify-announcement "
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "消息页面获取群成员动态消息",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "userID",
+											"value": "{{userID}}",
+											"type": "text"
+										},
+										{
+											"key": "userKey",
+											"value": "{{userKey}}",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "http://118.31.222.92:8083/user/channel-message",
+									"protocol": "http",
+									"host": [
+										"118",
+										"31",
+										"222",
+										"92"
+									],
+									"port": "8083",
+									"path": [
+										"user",
+										"channel-message"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "群成员动态页面",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "userID",
+											"value": "{{userID}}",
+											"type": "text"
+										},
+										{
+											"key": "userKey",
+											"value": "{{userKey}}",
+											"type": "text"
+										},
+										{
+											"key": "groupID",
+											"value": "{{groupID}}",
+											"type": "text"
+										},
+										{
+											"key": "tailID",
+											"value": "0",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "{{host}}/learning-group/member-learning-dynamic ",
+									"host": [
+										"{{host}}"
+									],
+									"path": [
+										"learning-group",
+										"member-learning-dynamic "
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "群成员学习状态页面",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "userID",
+											"value": "{{userID}}",
+											"type": "text"
+										},
+										{
+											"key": "userKey",
+											"value": "{{userKey}}",
+											"type": "text"
+										},
+										{
+											"key": "groupID",
+											"value": "{{groupID}}",
+											"type": "text"
+										},
+										{
+											"key": "tailID",
+											"value": "0",
+											"type": "text"
+										},
+										{
+											"key": "limit",
+											"value": "10",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "{{host_four}}/api-group/learningGroupDynamic/getLiveRoomList",
+									"host": [
+										"{{host_four}}"
+									],
+									"path": [
+										"api-group",
+										"learningGroupDynamic",
+										"getLiveRoomList"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "群战况页面",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "userID",
+											"value": "{{userID}}",
+											"type": "text"
+										},
+										{
+											"key": "userKey",
+											"value": "{{userKey}}",
+											"type": "text"
+										},
+										{
+											"key": "type",
+											"value": "view",
+											"type": "text"
+										},
+										{
+											"key": "groupID",
+											"value": "3351",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "{{host}}/learning-group/group-index-data ",
+									"host": [
+										"{{host}}"
+									],
+									"path": [
+										"learning-group",
+										"group-index-data "
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "群信息页面",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "userKey",
+											"value": "{{userKey}}",
+											"type": "text"
+										},
+										{
+											"key": "userID",
+											"value": "{{userID}}",
+											"type": "text"
+										},
+										{
+											"key": "groupID",
+											"value": "3351",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "{{host}}/learning-group/group-info ",
+									"host": [
+										"{{host}}"
+									],
+									"path": [
+										"learning-group",
+										"group-info "
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "解散群",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "userID",
+											"value": "{{userID}}",
+											"type": "text"
+										},
+										{
+											"key": "userKey",
+											"value": "{{userKey}}",
+											"type": "text"
+										},
+										{
+											"key": "groupID",
+											"value": "{{groupID}}",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "{{host_one}}/learning-group/disband ",
+									"host": [
+										"{{host_one}}"
+									],
+									"path": [
+										"learning-group",
+										"disband "
+									]
+								}
+							},
+							"response": []
+						}
+					],
+					"protocolProfileBehavior": {},
+					"_postman_isSubFolder": true
+				},
+				{
+					"name": "计时相关接口测试",
+					"item": [
+						{
+							"name": "进入自习室房间",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"id": "43c08bcc-03e5-4a90-8415-5f63f6d3a545",
+										"exec": [
+											"pm.test(\"正常进入房间\", function () {",
+											"    var jsonData = pm.response.json();",
+											"    pm.expect(jsonData.result).to.eql(true);",
+											"});",
+											"pm.environment.set(\"roomID\", pm.response.json().id);"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"name": "Content-Type",
+										"type": "text",
+										"value": "application/x-www-form-urlencoded"
+									}
+								],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "deskNo",
+											"value": "1",
+											"type": "text"
+										},
+										{
+											"key": "learningRoomID",
+											"value": "238",
+											"type": "text"
+										},
+										{
+											"key": "userID",
+											"value": "{{userID}}",
+											"type": "text"
+										},
+										{
+											"key": "userKey",
+											"value": "{{userKey}}",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "{{host}}/learning-room/join-live",
+									"host": [
+										"{{host}}"
+									],
+									"path": [
+										"learning-room",
+										"join-live"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "退出自习室房间",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"id": "8778d45f-2b08-44d0-a5c8-60cebb3330bb",
+										"exec": [
+											"pm.test(\"退出自习室\", function () {",
+											"    var jsonData = pm.response.json();",
+											"    pm.expect(jsonData.closeIsSuccess).to.eql(true);",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"name": "Content-Type",
+										"type": "text",
+										"value": "application/x-www-form-urlencoded"
+									}
+								],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "userID",
+											"value": "{{userID}}",
+											"type": "text"
+										},
+										{
+											"key": "userKey",
+											"value": "{{userKey}}",
+											"type": "text"
+										},
+										{
+											"key": "roomID",
+											"value": "{{roomID}}",
+											"type": "text"
+										},
+										{
+											"key": "type",
+											"value": "1",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "{{host}}/live-interactive/close-room",
+									"host": [
+										"{{host}}"
+									],
+									"path": [
+										"live-interactive",
+										"close-room"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "学习计时",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"id": "926ca4c8-14b4-4bc4-87b9-83106b16a22c",
+										"exec": [
+											"pm.environment.set(\"startTime\",pm.response.json().instantMessage.postTime);"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"name": "Content-Type",
+										"value": "application/x-www-form-urlencoded",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "userID",
+											"value": "{{userID}}",
+											"type": "text"
+										},
+										{
+											"key": "userKey",
+											"value": "{{userKey}}",
+											"type": "text"
+										},
+										{
+											"key": "taskName",
+											"value": "123456",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "{{host_two}}/timingServer/learning/startTimingLearningTaskV2",
+									"host": [
+										"{{host_two}}"
+									],
+									"path": [
+										"timingServer",
+										"learning",
+										"startTimingLearningTaskV2"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "暂停计时",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"id": "c03da947-e45c-497f-a26c-13f458c43691",
+										"exec": [
+											"pm.test(\"暂停计时成功\", function () {",
+											"    pm.response.to.have.body({\"result\":true});",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"name": "Content-Type",
+										"value": "application/x-www-form-urlencoded",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "userID",
+											"value": "{{userID}}",
+											"type": "text"
+										},
+										{
+											"key": "userKey",
+											"value": "{{userKey}}",
+											"type": "text"
+										},
+										{
+											"key": "type",
+											"value": "pause",
+											"type": "text"
+										},
+										{
+											"key": "",
+											"value": "",
+											"type": "text",
+											"disabled": true
+										}
+									]
+								},
+								"url": {
+									"raw": "{{host_one}}/timing/operate-timing ",
+									"host": [
+										"{{host_one}}"
+									],
+									"path": [
+										"timing",
+										"operate-timing "
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "继续学习",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"id": "0598b093-7b24-4f42-baeb-f6829fca9f7e",
+										"exec": [
+											"pm.test(\"继续学习成功\", function () {",
+											"    pm.response.to.have.body({\"result\":true});",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"name": "Content-Type",
+										"type": "text",
+										"value": "application/x-www-form-urlencoded"
+									}
+								],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "userID",
+											"value": "{{userID}}",
+											"type": "text"
+										},
+										{
+											"key": "userKey",
+											"value": "{{userKey}}",
+											"type": "text"
+										},
+										{
+											"key": "type",
+											"value": "continue",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "{{host_one}}/timing/operate-timing",
+									"host": [
+										"{{host_one}}"
+									],
+									"path": [
+										"timing",
+										"operate-timing"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "结束计时",
+							"event": [
+								{
+									"listen": "prerequest",
+									"script": {
+										"id": "a3102371-0dde-4696-8cdb-8edb9f1f041b",
+										"exec": [
+											"setTimeout(function(){pm.environment.set(\"endTime\",Date.now());},60000);",
+											""
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"name": "Content-Type",
+										"value": "application/x-www-form-urlencoded",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "userID",
+											"value": "{{userID}}",
+											"type": "text"
+										},
+										{
+											"key": "userKey",
+											"value": "{{userKey}}",
+											"type": "text"
+										},
+										{
+											"key": "actualTime",
+											"value": "60000",
+											"type": "text"
+										},
+										{
+											"key": "startTime",
+											"value": "{{startTime}}",
+											"type": "text"
+										},
+										{
+											"key": "endTime",
+											"value": "{{endTime}}",
+											"type": "text"
+										},
+										{
+											"key": "type",
+											"value": "1",
+											"type": "text"
+										},
+										{
+											"key": "mode",
+											"value": "1",
+											"type": "text"
+										},
+										{
+											"key": "timingMode",
+											"value": "normal",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "{{host_two}}/timingServer/learning/finishTimingLearningTaskV2",
+									"host": [
+										"{{host_two}}"
+									],
+									"path": [
+										"timingServer",
+										"learning",
+										"finishTimingLearningTaskV2"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "起床",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "userID",
+											"value": "{{userID}}",
+											"type": "text"
+										},
+										{
+											"key": "userKey",
+											"value": "{{userKey}}",
+											"type": "text"
+										},
+										{
+											"key": "type",
+											"value": "1",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "{{host}}/learning-service/clock-in",
+									"host": [
+										"{{host}}"
+									],
+									"path": [
+										"learning-service",
+										"clock-in"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "睡觉",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "userID",
+											"value": "{{userID}}",
+											"type": "text"
+										},
+										{
+											"key": "userKey",
+											"value": "{{userKey}}",
+											"type": "text"
+										},
+										{
+											"key": "type",
+											"value": "2",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "{{host}}/learning-service/clock-in",
+									"host": [
+										"{{host}}"
+									],
+									"path": [
+										"learning-service",
+										"clock-in"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "睡觉后起床",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "userID",
+											"value": "{{userID}}",
+											"type": "text"
+										},
+										{
+											"key": "userKey",
+											"value": "{{userKey}}",
+											"type": "text"
+										},
+										{
+											"key": "type",
+											"value": "3",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "{{host}}/learning-service/clock-in",
+									"host": [
+										"{{host}}"
+									],
+									"path": [
+										"learning-service",
+										"clock-in"
+									]
+								}
+							},
+							"response": []
+						}
+					],
+					"protocolProfileBehavior": {},
+					"_postman_isSubFolder": true
+				},
+				{
+					"name": "打招呼按钮相关接口测试",
+					"item": [
+						{
+							"name": "打招呼",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "userID",
+											"value": "{{userid}}",
+											"type": "text"
+										},
+										{
+											"key": "userKey",
+											"value": "{{userkey}}",
+											"type": "text"
+										},
+										{
+											"key": "receiveUserId",
+											"value": "{{userID}}",
+											"type": "text"
+										},
+										{
+											"key": "content",
+											"value": "你好呀",
+											"type": "text"
+										},
+										{
+											"key": "tag",
+											"value": "1",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "{{host}}/private-message/add-greet",
+									"host": [
+										"{{host}}"
+									],
+									"path": [
+										"private-message",
+										"add-greet"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "消息页面获取打招呼消息",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "userID",
+											"value": "{{userID}}",
+											"type": "text"
+										},
+										{
+											"key": "userKey",
+											"value": "{{userKey}}",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "{{host}}/private-message/greet-channel",
+									"host": [
+										"{{host}}"
+									],
+									"path": [
+										"private-message",
+										"greet-channel"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "打招呼页面",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "userID",
+											"value": "{{userID}}",
+											"type": "text"
+										},
+										{
+											"key": "userKey",
+											"value": "{{userKey}}",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "{{host}}/private-message/greet-list",
+									"host": [
+										"{{host}}"
+									],
+									"path": [
+										"private-message",
+										"greet-list"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "标记打招呼为已读",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "userID",
+											"value": "{{userID}}",
+											"type": "text"
+										},
+										{
+											"key": "userKey",
+											"value": "{{userKey}}",
+											"type": "text"
+										},
+										{
+											"key": "greetUserId",
+											"value": "{{userID}}",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "{{host}}/private-message/read-greet ",
+									"host": [
+										"{{host}}"
+									],
+									"path": [
+										"private-message",
+										"read-greet "
+									]
+								}
+							},
+							"response": []
+						}
+					],
+					"protocolProfileBehavior": {},
+					"_postman_isSubFolder": true
+				},
+				{
+					"name": "关注按钮相关测试",
+					"item": [
+						{
+							"name": "关注别人",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "userID",
+											"value": "{{userid}}",
+											"type": "text"
+										},
+										{
+											"key": "userKey",
+											"value": "{{userkey}}",
+											"type": "text"
+										},
+										{
+											"key": "targetUserID",
+											"value": "{{userID}}",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "http://118.178.104.233/learning-circle/follow-user ",
+									"protocol": "http",
+									"host": [
+										"118",
+										"178",
+										"104",
+										"233"
+									],
+									"path": [
+										"learning-circle",
+										"follow-user "
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "获取sp动态",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "userID",
+											"value": "{{userID}}",
+											"type": "text"
+										},
+										{
+											"key": "userKey",
+											"value": "{{userKey}}",
+											"type": "text"
+										},
+										{
+											"key": "timestamp",
+											"value": "0",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "{{host_four}}/api-usr/userFollowSP/dynamic ",
+									"host": [
+										"{{host_four}}"
+									],
+									"path": [
+										"api-usr",
+										"userFollowSP",
+										"dynamic "
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "互动通知--粉丝列表",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "userID",
+											"value": "{{userID}}",
+											"type": "text"
+										},
+										{
+											"key": "userKey",
+											"value": "{{userKey}}",
+											"type": "text"
+										},
+										{
+											"key": "tailID",
+											"value": "13548",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "{{host}}/message/user-follow-notice ",
+									"host": [
+										"{{host}}"
+									],
+									"path": [
+										"message",
+										"user-follow-notice "
+									]
+								}
+							},
+							"response": []
+						}
+					],
+					"protocolProfileBehavior": {},
+					"_postman_isSubFolder": true
+				},
+				{
+					"name": "道友接口相关测试",
+					"item": [
+						{
+							"name": "消息页面获取道友学习动态",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "userID",
+											"value": "{{userID}}",
+											"type": "text"
+										},
+										{
+											"key": "userKey",
+											"value": "{{userKey}}",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "{{host_four}}/api-usr/friend/learningDynamic",
+									"host": [
+										"{{host_four}}"
+									],
+									"path": [
+										"api-usr",
+										"friend",
+										"learningDynamic"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "消息页面获取好友channel",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "userID",
+											"value": "{{userID}}",
+											"type": "text"
+										},
+										{
+											"key": "userKey",
+											"value": "{{userKey}}",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "{{host}}/friend/list",
+									"host": [
+										"{{host}}"
+									],
+									"path": [
+										"friend",
+										"list"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "聊天页面时间线",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "userID",
+											"value": "{{userID}}",
+											"type": "text"
+										},
+										{
+											"key": "userKey",
+											"value": "{{userKey}}",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "{{host}}/new-relation/friend-event ",
+									"host": [
+										"{{host}}"
+									],
+									"path": [
+										"new-relation",
+										"friend-event "
+									]
+								}
+							},
+							"response": []
+						}
+					],
+					"protocolProfileBehavior": {},
+					"_postman_isSubFolder": true
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "最小测试集-社区测试",
+			"item": [
+				{
+					"name": "日记相关正向操作",
+					"item": [
+						{
+							"name": "发布带图片日记",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"id": "3f935151-896e-478e-8979-dae84d9fcf25",
+										"exec": [
+											"var schema = {\r",
+											"    \"result\": true,\r",
+											"    \"feed\": {\r",
+											"        \"id\": 26154,\r",
+											"        \"author\": {\r",
+											"            \"id\": 59637,\r",
+											"            \"nickname\": \"黄佳佳\",\r",
+											"            \"avatarFile\": \"timing-test_59637_1581487865029_o9xgbswr507x129vyd32\",\r",
+											"            \"avatarID\": \"535631\",\r",
+											"            \"gender\": \"male\",\r",
+											"            \"birthday\": 1575043200000,\r",
+											"            \"avatar\": \"http://timingtest-imgservice.kr-cell.com/image/timing-test_59637_1581487865029_o9xgbswr507x129vyd32\",\r",
+											"            \"department\": \"靠\",\r",
+											"            \"categoryAlias\": \"吉他\",\r",
+											"            \"categoryID\": \"285486\",\r",
+											"            \"categoryIDs\": \"285486\",\r",
+											"            \"regTime\": \"2018-08-29 14:16:36\",\r",
+											"            \"type\": \"normal\",\r",
+											"            \"isOfficial\": false,\r",
+											"            \"disabled\": false,\r",
+											"            \"fansCount\": 103,\r",
+											"            \"followUserCount\": \"66\",\r",
+											"            \"isVerify\": true,\r",
+											"            \"authenticationInfo\": {\r",
+											"                \"type\": 1,\r",
+											"                \"certList\": [\r",
+											"                    {\r",
+											"                        \"type\": 2,\r",
+											"                        \"category\": \"658\",\r",
+											"                        \"desc\": \"xxxit从业人员\"\r",
+											"                    },\r",
+											"                    {\r",
+											"                        \"type\": 1,\r",
+											"                        \"category\": \"test\",\r",
+											"                        \"desc\": \"哈工大机械研究生\"\r",
+											"                    },\r",
+											"                    {\r",
+											"                        \"type\": 3,\r",
+											"                        \"category\": \"数学\",\r",
+											"                        \"desc\": \"xxx\"\r",
+											"                    }\r",
+											"                ]\r",
+											"            },\r",
+											"            \"statusInfo\": {\r",
+											"                \"type\": 1,\r",
+											"                \"startTime\": 1584260941000,\r",
+											"                \"learningData\": null\r",
+											"            }\r",
+											"        },\r",
+											"        \"content\": \"我是拒绝的\",\r",
+											"        \"type\": \"4\",\r",
+											"        \"replyCount\": null,\r",
+											"        \"likeCount\": null,\r",
+											"        \"isLike\": false,\r",
+											"        \"isAd\": false,\r",
+											"        \"postTime\": 1586315930000,\r",
+											"        \"tagList\": [],\r",
+											"        \"imageList\": [],\r",
+											"        \"learningRecord\": null,\r",
+											"        \"video\": null,\r",
+											"        \"web\": null,\r",
+											"        \"replyList\": [],\r",
+											"        \"topic\": null\r",
+											"    }\r",
+											"};\r",
+											"\r",
+											"\r",
+											"var jsonData = pm.response.json();\r",
+											"pm.environment.set(\"feedID\",pm.response.json().feed.id);\r",
+											"\r",
+											"pm.test('成功发布日记', function() {\r",
+											"  pm.expect(tv4.validate(jsonData, schema)).to.be.true;\r",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "userID",
+											"value": "{{userID}}",
+											"type": "text"
+										},
+										{
+											"key": "userKey",
+											"value": "{{userKey}}",
+											"type": "text"
+										},
+										{
+											"key": "videoID",
+											"value": "0",
+											"type": "text"
+										},
+										{
+											"key": "content",
+											"value": "我是拒绝的",
+											"type": "text"
+										},
+										{
+											"key": "type",
+											"value": "4",
+											"type": "text"
+										},
+										{
+											"key": "imageIDList",
+											"value": "611797",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "{{host}}/learning-feed/post-feed",
+									"host": [
+										"{{host}}"
+									],
+									"path": [
+										"learning-feed",
+										"post-feed"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "获取关注我的人",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"id": "2513c58f-28fd-4137-9a62-a7ce832670c1",
+										"exec": [
+											"get_feedID = pm.environment.get(\"feedID\");",
+											"pm.test(\"关注我的人能够显示自己发布的日记\", function () {",
+											"    var jsonData = pm.response.json();",
+											"    pm.expect(jsonData.feedList[0].id).to.eql(String(get_feedID));",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Content-Type",
+										"name": "Content-Type",
+										"type": "text",
+										"value": "application/x-www-form-urlencoded"
+									}
+								],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "userID",
+											"value": "{{userID}}",
+											"type": "text"
+										},
+										{
+											"key": "userKey",
+											"value": "{{userKey}}",
+											"type": "text"
+										},
+										{
+											"key": "tailID",
+											"value": "0",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "{{host}}/learning-circle/user-follow",
+									"host": [
+										"{{host}}"
+									],
+									"path": [
+										"learning-circle",
+										"user-follow"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "转发日记",
+							"event": [
+								{
+									"listen": "prerequest",
+									"script": {
+										"id": "44ef109a-cbb6-463f-9141-50935caa62d0",
+										"exec": [
+											"pm.sendRequest(\"http://localhost:3000/api/t_user_dynamic?\", function (err, response) {",
+											"    console.log(response.json());",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								},
+								{
+									"listen": "test",
+									"script": {
+										"id": "5615fde9-ed3b-45a9-814c-5cdfba768b76",
+										"exec": [
+											"pm.test(\"转发日记\", function () {",
+											"    var jsonData = pm.response.json();",
+											"    pm.expect(jsonData.result).to.eql(true);",
+											"});",
+											"pm.sendRequest(\"http://localhost:3000/api/t_user_dynamic?\", function (err, response) {",
+											"    console.log(response.json());",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "userID",
+											"value": "{{userid}}",
+											"type": "text"
+										},
+										{
+											"key": "userKey",
+											"value": "{{userkey}}",
+											"type": "text"
+										},
+										{
+											"key": "type",
+											"value": "10",
+											"type": "text"
+										},
+										{
+											"key": "relateID",
+											"value": "{{feedID}}",
+											"type": "text"
+										},
+										{
+											"key": "content",
+											"value": "我还是会注意的",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "{{host_one}}/learning-circle/forward-feed",
+									"host": [
+										"{{host_one}}"
+									],
+									"path": [
+										"learning-circle",
+										"forward-feed"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "喜欢日记",
+							"event": [
+								{
+									"listen": "prerequest",
+									"script": {
+										"id": "4ac7f4ce-fd2b-4351-9cbf-8494c814b513",
+										"exec": [
+											"pm.sendRequest(\"http://localhost:3000/api/t_learning_feed_like?\", function (err, response) {",
+											"    console.log(response.json());",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								},
+								{
+									"listen": "test",
+									"script": {
+										"id": "9b018496-153e-487c-a298-a1894e71e1c2",
+										"exec": [
+											"pm.test(\"喜欢日记\", function () {",
+											"    var jsonData = pm.response.json();",
+											"    pm.expect(jsonData.result).to.eql(true);",
+											"});",
+											"pm.sendRequest(\"http://localhost:3000/api/t_learning_feed_like?\", function (err, response) {",
+											"    console.log(response.json());",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "userID",
+											"value": "{{userid}}",
+											"type": "text"
+										},
+										{
+											"key": "userKey",
+											"value": "{{userkey}}",
+											"type": "text"
+										},
+										{
+											"key": "feedID",
+											"value": "{{feedID}}",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "{{host_one}}/learning-feed/like-feed ",
+									"host": [
+										"{{host_one}}"
+									],
+									"path": [
+										"learning-feed",
+										"like-feed "
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "评论日志",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"id": "602ed644-9c76-4c24-ad06-cd1b157c16d0",
+										"exec": [
+											"pm.test(\"评论日记\", function () {",
+											"    var jsonData = pm.response.json();",
+											"    pm.expect(jsonData.result).to.eql(true);",
+											"});",
+											"pm.environment.set(\"replyID\",pm.response.json().reply.id);"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "userID",
+											"value": "{{userid}}",
+											"type": "text"
+										},
+										{
+											"key": "userKey",
+											"value": "{{userkey}}",
+											"type": "text"
+										},
+										{
+											"key": "feedID",
+											"value": "{{feedID}}",
+											"type": "text"
+										},
+										{
+											"key": "content",
+											"value": "我是好意的",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "{{host_one}}/learning-circle/post-reply",
+									"host": [
+										"{{host_one}}"
+									],
+									"path": [
+										"learning-circle",
+										"post-reply"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "喜欢评论",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"id": "5a93d9de-fe42-4fda-8848-dd94b9a767c4",
+										"exec": [
+											"pm.test(\"成功点赞评论\", function () {",
+											"    pm.expect(pm.response.text()).to.include(\"true\");",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"name": "Content-Type",
+										"value": "application/x-www-form-urlencoded",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "userID",
+											"value": "{{userID}}",
+											"type": "text"
+										},
+										{
+											"key": "userKey",
+											"value": "{{userKey}}",
+											"type": "text"
+										},
+										{
+											"key": "replyID",
+											"value": "{{replyID}}",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "{{host_one}}/learning-circle/like-reply",
+									"host": [
+										"{{host_one}}"
+									],
+									"path": [
+										"learning-circle",
+										"like-reply"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "回复评论",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"id": "70332b73-b8e0-47fc-ba3b-cfc7d2cd22cf",
+										"exec": [
+											"pm.test(\"回复评论\", function () {",
+											"    var jsonData = pm.response.json();",
+											"    pm.expect(jsonData.result).to.eql(true);",
+											"});",
+											"pm.environment.set(\"replyid\",pm.response.json().reply.id);"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"name": "Content-Type",
+										"value": "application/x-www-form-urlencoded",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "userID",
+											"value": "{{userID}}",
+											"type": "text"
+										},
+										{
+											"key": "userKey",
+											"value": "{{userKey}}",
+											"type": "text"
+										},
+										{
+											"key": "replyID",
+											"value": "{{replyID}}",
+											"type": "text"
+										},
+										{
+											"key": "content",
+											"value": "撒娇女人最好命",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "{{host_one}}/learning-circle/post-reply",
+									"host": [
+										"{{host_one}}"
+									],
+									"path": [
+										"learning-circle",
+										"post-reply"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "消息页面获取互动通知消息",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"url": {
+									"raw": "http://118.31.222.92/api/notice/notify/notice-list",
+									"protocol": "http",
+									"host": [
+										"118",
+										"31",
+										"222",
+										"92"
+									],
+									"path": [
+										"api",
+										"notice",
+										"notify",
+										"notice-list"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "互动通知--点赞、评论、转发",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "userID",
+											"value": "{{userID}}",
+											"type": "text"
+										},
+										{
+											"key": "userKey",
+											"value": "{{userKey}}",
+											"type": "text"
+										},
+										{
+											"key": "tailID",
+											"value": "10",
+											"type": "text"
+										},
+										{
+											"key": "type",
+											"value": "like",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "http://47.111.114.205:12800/api-usr/privateMessage/noticeList",
+									"protocol": "http",
+									"host": [
+										"47",
+										"111",
+										"114",
+										"205"
+									],
+									"port": "12800",
+									"path": [
+										"api-usr",
+										"privateMessage",
+										"noticeList"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "日记表数据获取",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"id": "da465e69-f1a6-4ac7-9afe-f930e6c3ab68",
+										"exec": [
+											"get_feedID = pm.environment.get(\"feedID\");",
+											"pm.test(\"发布日记成功\", function () {",
+											"    var jsonData = pm.response.json();",
+											"    pm.expect(jsonData[0].id).to.eql(get_feedID);",
+											"});",
+											"",
+											"pm.test(\"点赞数量校验\", function () {",
+											"    var jsonData = pm.response.json();",
+											"    pm.expect(jsonData[0].likeCount).to.eql(1);",
+											"});",
+											"pm.test(\"评论数量校验\", function () {",
+											"    var jsonData = pm.response.json();",
+											"    pm.expect(jsonData[0].replyCount).to.eql(2);",
+											"});",
+											"pm.test(\"转发数量校验\", function () {",
+											"    var jsonData = pm.response.json();",
+											"    pm.expect(jsonData[0].shareCount).to.eql(1);",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": []
+								},
+								"url": {
+									"raw": "http://localhost:3000/api/t_learning_feed?_where=(authorID,eq,{{userID}})&_sort=-ID",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"api",
+										"t_learning_feed"
+									],
+									"query": [
+										{
+											"key": "_where",
+											"value": "(authorID,eq,{{userID}})"
+										},
+										{
+											"key": "_sort",
+											"value": "-ID"
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					],
+					"protocolProfileBehavior": {},
+					"_postman_isSubFolder": true
+				},
+				{
+					"name": "日记相关逆向操作",
+					"item": [
+						{
+							"name": "取消喜欢评论",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"id": "b79bec5a-4b22-4777-acce-85b936bc159a",
+										"exec": [
+											"pm.test(\"取消点赞成功\", function () {",
+											"    pm.expect(pm.response.text()).to.include(\"成功\");",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"name": "Content-Type",
+										"value": "application/x-www-form-urlencoded",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "userID",
+											"value": "{{userID}}",
+											"type": "text"
+										},
+										{
+											"key": "userKey",
+											"value": "{{userKey}}",
+											"type": "text"
+										},
+										{
+											"key": "replyID",
+											"value": "{{replyID}}",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "{{host}}/learning-feed/cancel-like-reply",
+									"host": [
+										"{{host}}"
+									],
+									"path": [
+										"learning-feed",
+										"cancel-like-reply"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "取消喜欢日志",
+							"request": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "userID",
+											"value": "{{userID}}",
+											"type": "text"
+										},
+										{
+											"key": "userKey",
+											"value": "{{userKey}}",
+											"type": "text"
+										},
+										{
+											"key": "feedID",
+											"value": "{{feedID}}",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "{{host}}/learning-feed/cancel-like-feed",
+									"host": [
+										"{{host}}"
+									],
+									"path": [
+										"learning-feed",
+										"cancel-like-feed"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "删除一级评论",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"id": "1b648c2c-b32a-424c-a973-ea456ddbf811",
+										"exec": [
+											"pm.test(\"正常删除评论\", function () {",
+											"    var jsonData = pm.response.json();",
+											"    pm.expect(jsonData.result).to.eql(true);",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"name": "Content-Type",
+										"type": "text",
+										"value": "application/x-www-form-urlencoded"
+									}
+								],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "userID",
+											"value": "{{userID}}",
+											"type": "text"
+										},
+										{
+											"key": "userKey",
+											"value": "{{userKey}}",
+											"type": "text"
+										},
+										{
+											"key": "replyID",
+											"value": "{{replyid}}",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "{{host_one}}/learning-circle/delete-reply",
+									"host": [
+										"{{host_one}}"
+									],
+									"path": [
+										"learning-circle",
+										"delete-reply"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "日记表数据获取",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"id": "e3a797c4-8d70-4b77-a21e-d401973c8b4b",
+										"exec": [
+											"get_feedID = pm.environment.get(\"feedID\");\r",
+											"pm.test(\"发布日记成功\", function () {\r",
+											"    var jsonData = pm.response.json();\r",
+											"    pm.expect(jsonData[0].id).to.eql(get_feedID);\r",
+											"});\r",
+											"\r",
+											"pm.test(\"点赞数量校验\", function () {\r",
+											"    var jsonData = pm.response.json();\r",
+											"    pm.expect(jsonData[0].likeCount).to.eql(0);\r",
+											"});\r",
+											"pm.test(\"评论数量校验\", function () {\r",
+											"    var jsonData = pm.response.json();\r",
+											"    pm.expect(jsonData[0].replyCount).to.eql(0);\r",
+											"});\r",
+											""
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:3000/api/t_learning_feed?_where=(authorID,eq,{{userID}})&_sort=-ID",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"api",
+										"t_learning_feed"
+									],
+									"query": [
+										{
+											"key": "_where",
+											"value": "(authorID,eq,{{userID}})"
+										},
+										{
+											"key": "_sort",
+											"value": "-ID"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "删除日记",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"id": "60c53d75-8ed5-4f93-8584-eec918b20457",
+										"exec": [
+											"pm.test(\"成功删除\", function () {",
+											"    pm.expect(pm.response.text()).to.include(\"true\");",
+											"});"
+										],
+										"type": "text/javascript"
+									}
+								}
+							],
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"name": "Content-Type",
+										"value": "application/x-www-form-urlencoded",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "userID",
+											"value": "{{userID}}",
+											"type": "text"
+										},
+										{
+											"key": "userKey",
+											"value": "{{userKey}}",
+											"type": "text"
+										},
+										{
+											"key": "feedID",
+											"value": "{{feedID}}",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "{{host_one}}/learning-feed/delete-feed",
+									"host": [
+										"{{host_one}}"
+									],
+									"path": [
+										"learning-feed",
+										"delete-feed"
+									]
+								}
+							},
+							"response": []
+						}
+					],
+					"protocolProfileBehavior": {},
+					"_postman_isSubFolder": true
+				}
+			],
+			"description": "pm.sendRequest(\"http://localhost:3000/api/t_learning_feed?_where=(authorID,eq,59638)&_sort=-id\", function (err, response) {\n    var dbjson = response.json();\n    pm.test(\"正常写入数据\",function(){\n        pm.expect(dbjson[0].id).to.eql(jsonData.feed.id);\n    });\n    console.log(response.json());\n});",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "eeceddf7-5670-4e83-99b5-87211393bdd9",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"id": "235b7815-192d-4284-8ed0-b199e2465c13",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "最小测试集-专辑、live",
+			"item": [
+				{
+					"name": "猩猩点灯登录",
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"id": "4c82ae02-072a-4364-8e4b-6a15afaaf28d",
+								"exec": [
+									"pm.environment.set(\"timestamp\",Date.now())\r",
+									"var data = request.data\r",
+									"var keys = [];\r",
+									"for(var k in data){\r",
+									"    keys.push(k);\r",
+									"}\r",
+									"keys.sort();\r",
+									"console.log(\"keys-------->\"+keys)\r",
+									"var str = []\r",
+									"for (var p = 0; p < keys.length; p++) { \r",
+									"    if(keys[p] == \"sign\" || keys[p] == \"timestamp\"){ // \"==\" ==宽松相等，隐性类型转换，值相等，返回true; \"===\" 严格相等，值和类型都相等，返回true\r",
+									"        continue;\r",
+									"    }\r",
+									"    str.push(keys[p] + \"=\" + data[keys[p]]);\r",
+									"}\r",
+									"str.push('timestamp=' + pm.environment.get(\"timestamp\"))\r",
+									"str.push('privateKey=' + pm.environment.get(\"signKey\"))\r",
+									"var sign = str.join(\"&\")  \r",
+									"console.log(\"sign-------->\"+sign)\r",
+									"var md5 = CryptoJS.MD5(sign).toString();\r",
+									"console.log(\"md5-------->\"+md5)\r",
+									"pm.environment.unset(\"sign\");\r",
+									"pm.environment.set(\"sign\", md5);"
+								],
+								"type": "text/javascript"
+							}
+						},
+						{
+							"listen": "test",
+							"script": {
+								"id": "ab2fbbcb-968c-4dce-9541-b99bfc82b3b1",
+								"exec": [
+									"pm.environment.set(\"sp_id\", pm.response.json().sp_info.sp_id);\r",
+									"pm.environment.set(\"token\", pm.response.json().sp_info.token);\r",
+									"\r",
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "phone",
+									"value": "10000000165",
+									"type": "text"
+								},
+								{
+									"key": "pwd",
+									"value": "123456",
+									"type": "text"
+								},
+								{
+									"key": "salt",
+									"value": "818345",
+									"type": "text"
+								},
+								{
+									"key": "timestamp",
+									"value": "{{timestamp}}",
+									"type": "text"
+								},
+								{
+									"key": "sign",
+									"value": "{{sign}}",
+									"type": "text"
+								}
+							],
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host_five}}/app-login/login",
+							"host": [
+								"{{host_five}}"
+							],
+							"path": [
+								"app-login",
+								"login"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "创建专辑",
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"id": "e6fa203b-8e0a-41fd-9221-d03c38f69a8b",
+								"exec": [
+									"pm.environment.set(\"timestamp\",Date.now())\r",
+									"time = pm.environment.get(\"timestamp\");\r",
+									"sp_id = pm.environment.get(\"sp_id\");\r",
+									"token = pm.environment.get(\"token\");\r",
+									"var data = {\r",
+									"    \"sp_id\":sp_id,\r",
+									"    \"token\":token,\r",
+									"    \"title\":\"装逼高级测试\",\r",
+									"    \"content\":\"进来xue\",\r",
+									"    \"cover_id\":\"356708439\",\r",
+									"    \"type\":\"3\",\r",
+									"    \"album_total\":\"12\",\r",
+									"    \"update_frequency\":\"2\",\r",
+									"    \"price\":\"99\",\r",
+									"    \"salt\": \"1\",\r",
+									"    \"timestamp\":time\r",
+									"}\r",
+									"var keys = [];\r",
+									"for(var k in data){\r",
+									"    keys.push(k);\r",
+									"}\r",
+									"keys.sort();\r",
+									"console.log(\"keys-------->\"+keys)\r",
+									"var str = []\r",
+									"for (var p = 0; p < keys.length; p++) { \r",
+									"    str.push(keys[p] + \"=\" + data[keys[p]]);\r",
+									"}\r",
+									"str.push('privateKey=' + pm.environment.get(\"signKey\"))\r",
+									"var sign = str.join(\"&\")  \r",
+									"console.log(\"sign-------->\"+sign)\r",
+									"var md5 = CryptoJS.MD5(sign).toString();\r",
+									"console.log(\"md5-------->\"+md5)\r",
+									"pm.environment.unset(\"sign\");\r",
+									"pm.environment.set(\"sign\", md5);"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "sp_id",
+									"value": "{{sp_id}}",
+									"type": "text"
+								},
+								{
+									"key": "token",
+									"value": "{{token}}",
+									"type": "text"
+								},
+								{
+									"key": "title",
+									"value": "装逼高级测试",
+									"type": "text"
+								},
+								{
+									"key": "content",
+									"value": "进来xue",
+									"type": "text"
+								},
+								{
+									"key": "cover_id",
+									"value": "356708439",
+									"type": "text"
+								},
+								{
+									"key": "type",
+									"value": "3",
+									"type": "text"
+								},
+								{
+									"key": "album_total",
+									"value": "12",
+									"type": "text"
+								},
+								{
+									"key": "update_frequency",
+									"value": "2",
+									"type": "text"
+								},
+								{
+									"key": "price",
+									"value": "99",
+									"type": "text"
+								},
+								{
+									"key": "salt",
+									"value": "1",
+									"type": "text"
+								},
+								{
+									"key": "sign",
+									"value": "{{sign}}",
+									"type": "text"
+								},
+								{
+									"key": "timestamp",
+									"value": "{{timestamp}}",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{host_five}}/app-album/create-album ",
+							"host": [
+								"{{host_five}}"
+							],
+							"path": [
+								"app-album",
+								"create-album "
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "审核管理页面",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "0bf05975-b751-45b3-b8d1-7d99d6dd5f9a",
+								"exec": [
+									"pm.test(\"小卖部列表获取成功\", function () {",
+									"    var jsonData = pm.response.json();",
+									"    pm.environment.set(\"albumID\", jsonData.list[0].id);    ",
+									"});",
+									""
+								],
+								"type": "text/javascript"
+							}
+						},
+						{
+							"listen": "prerequest",
+							"script": {
+								"id": "a639615a-b205-4cea-8b8d-14c1552b410a",
+								"exec": [
+									"pm.environment.set(\"timestamp\",Date.now())\r",
+									"time = pm.environment.get(\"timestamp\");\r",
+									"sp_id = pm.environment.get(\"sp_id\");\r",
+									"token = pm.environment.get(\"token\");\r",
+									"var data = {\r",
+									"    \"sp_id\":sp_id,\r",
+									"    \"token\":token,\r",
+									"    \"salt\": \"1\",\r",
+									"    \"tail_id\":\"0\",\r",
+									"    \"type\":\"2\",\r",
+									"    \"timestamp\":time\r",
+									"}\r",
+									"var keys = [];\r",
+									"for(var k in data){\r",
+									"    keys.push(k);\r",
+									"}\r",
+									"keys.sort();\r",
+									"console.log(\"keys-------->\"+keys)\r",
+									"var str = []\r",
+									"for (var p = 0; p < keys.length; p++) { \r",
+									"    str.push(keys[p] + \"=\" + data[keys[p]]);\r",
+									"}\r",
+									"str.push('privateKey=' + pm.environment.get(\"signKey\"))\r",
+									"var sign = str.join(\"&\")  \r",
+									"console.log(\"sign-------->\"+sign)\r",
+									"var md5 = CryptoJS.MD5(sign).toString();\r",
+									"console.log(\"md5-------->\"+md5)\r",
+									"pm.environment.unset(\"sign\");\r",
+									"pm.environment.set(\"sign\", md5);"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/x-www-form-urlencoded"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "sp_id",
+									"value": "{{sp_id}}",
+									"type": "text"
+								},
+								{
+									"key": "type",
+									"value": "2",
+									"type": "text"
+								},
+								{
+									"key": "tail_id",
+									"value": "0",
+									"type": "text"
+								},
+								{
+									"key": "token",
+									"value": "{{token}}",
+									"type": "text"
+								},
+								{
+									"key": "salt",
+									"value": "1",
+									"type": "text"
+								},
+								{
+									"key": "sign",
+									"value": "{{sign}}",
+									"type": "text"
+								},
+								{
+									"key": "timestamp",
+									"value": "{{timestamp}}",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{host_five}}/app-album/audit-list",
+							"host": [
+								"{{host_five}}"
+							],
+							"path": [
+								"app-album",
+								"audit-list"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "专辑审核通过",
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"id": "33689ff8-4d9d-4947-9cf2-eab6cf87118d",
+								"exec": [
+									"pm.environment.set(\"timestamp\",Date.now())\r",
+									"time = pm.environment.get(\"timestamp\");\r",
+									"album_id = pm.environment.get(\"ablumID\");\r",
+									"token = pm.environment.get(\"token\");\r",
+									"var data = {\r",
+									"    \"album_id\":album_id,\r",
+									"    \"salt\":\"1\",\r",
+									"    \"timestamp\":time\r",
+									"}\r",
+									"var keys = [];\r",
+									"for(var k in data){\r",
+									"    keys.push(k);\r",
+									"}\r",
+									"keys.sort();\r",
+									"console.log(\"keys-------->\"+keys)\r",
+									"var str = []\r",
+									"for (var p = 0; p < keys.length; p++) { \r",
+									"    str.push(keys[p] + \"=\" + data[keys[p]]);\r",
+									"}\r",
+									"str.push('privateKey=' + pm.environment.get(\"signKey\"))\r",
+									"var sign = str.join(\"&\")  \r",
+									"console.log(\"sign-------->\"+sign)\r",
+									"var md5 = CryptoJS.MD5(sign).toString();\r",
+									"console.log(\"md5-------->\"+md5)\r",
+									"pm.environment.unset(\"sign\");\r",
+									"pm.environment.set(\"sign\", md5);"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "album_id",
+									"value": "{{albumID}}",
+									"type": "text"
+								},
+								{
+									"key": "sign",
+									"value": "{{sign}}",
+									"type": "text"
+								},
+								{
+									"key": "salt",
+									"value": "1",
+									"type": "text"
+								},
+								{
+									"key": "timestamp",
+									"value": "{{timestamp}}",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{host_five}}/admin-album/album-pass",
+							"host": [
+								"{{host_five}}"
+							],
+							"path": [
+								"admin-album",
+								"album-pass"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "专辑详情页",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "64cfcb00-0d34-47f2-aa1c-fe50fc876db5",
+								"exec": [
+									"pm.test(\"专辑详情页获取成功\", function () {",
+									"    pm.expect(pm.response.text()).to.include(\"album\");",
+									"});",
+									"pm.globals.get(\"variable_key\");",
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "albumID",
+									"value": "{{albumID}}",
+									"type": "text"
+								},
+								{
+									"key": "userID",
+									"value": "{{userID}}",
+									"type": "text"
+								},
+								{
+									"key": "userKey",
+									"value": "{{userKey}}",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{host_four}}/api-resource/album/albumDetail",
+							"host": [
+								"{{host_four}}"
+							],
+							"path": [
+								"api-resource",
+								"album",
+								"albumDetail"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "确认支付页面",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "fb834b53-7842-46dc-943e-94188ad7ea63",
+								"exec": [
+									"pm.test(\"正常进入确认支付页面\", function () {",
+									"    var jsonData = pm.response.json();",
+									"    pm.expect(jsonData.result).to.eql(true);",
+									"});",
+									"",
+									"pm.environment.set(\"orderID\",pm.response.json().order.orderID);"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "relationID",
+									"value": "{{albumID}}",
+									"type": "text"
+								},
+								{
+									"key": "relationType",
+									"value": "{{relationType}}",
+									"type": "text"
+								},
+								{
+									"key": "userID",
+									"value": "{{userID}}",
+									"type": "text"
+								},
+								{
+									"key": "userKey",
+									"value": "{{userKey}}",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{host_four}}/api-pay/userCoinWallet/payConfirm",
+							"host": [
+								"{{host_four}}"
+							],
+							"path": [
+								"api-pay",
+								"userCoinWallet",
+								"payConfirm"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "购买专辑",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "25078491-9c1a-4df9-bf5f-a9b67799cd1b",
+								"exec": [
+									"",
+									"pm.test(\"成功购买专辑\", function () {",
+									"    var jsonData = pm.response.json();",
+									"    pm.expect(jsonData.errorMsg).to.eql(\"成功\");",
+									"});",
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/x-www-form-urlencoded"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "userID",
+									"value": "{{userID}}",
+									"type": "text"
+								},
+								{
+									"key": "userKey",
+									"value": "{{userKey}}",
+									"type": "text"
+								},
+								{
+									"key": "relationID",
+									"value": "{{albumID}}",
+									"type": "text"
+								},
+								{
+									"key": "relationType",
+									"value": "{{relationType}}",
+									"type": "text"
+								},
+								{
+									"key": "orderID",
+									"value": "{{orderID}}",
+									"type": "text"
+								},
+								{
+									"key": "os_type",
+									"value": "1",
+									"type": "text"
+								},
+								{
+									"key": "price",
+									"value": "{{price}}",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{host_four}}/api-pay/userCoinWallet/paySave",
+							"host": [
+								"{{host_four}}"
+							],
+							"path": [
+								"api-pay",
+								"userCoinWallet",
+								"paySave"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "获取我的已购列表",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "4b2738c8-183a-4f40-aae0-0a0fc5f9075a",
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "userID",
+									"value": "{{userID}}",
+									"type": "text"
+								},
+								{
+									"key": "userKey",
+									"value": "{{userKey}}",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{host_four}}/api-resource/sp/buyList",
+							"host": [
+								"{{host_four}}"
+							],
+							"path": [
+								"api-resource",
+								"sp",
+								"buyList"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "获取交易记录列表",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"id": "b374b483-d011-4cf3-9289-2c6832d13521",
+								"exec": [
+									"pm.test(\"获取交易记录列表\", function () {",
+									"    var jsonData = pm.response.json();",
+									"    pm.expect(jsonData.result).to.eql(true);",
+									"});"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"type": "text",
+								"value": "application/x-www-form-urlencoded"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "userID",
+									"value": "{{userID}}",
+									"type": "text"
+								},
+								{
+									"key": "userKey",
+									"value": "{{userKey}}",
+									"type": "text"
+								},
+								{
+									"key": "page",
+									"value": "0",
+									"type": "text"
+								},
+								{
+									"key": "tailID",
+									"value": "0",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{host_four}}/api-pay/order/orderRecord",
+							"host": [
+								"{{host_four}}"
+							],
+							"path": [
+								"api-pay",
+								"order",
+								"orderRecord"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		}
+	],
+	"protocolProfileBehavior": {}
+}
