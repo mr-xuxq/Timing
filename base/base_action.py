@@ -93,8 +93,4 @@ class BaseAction(Base):
                 time.sleep(1)
                 i = i + 1
             else:
-<<<<<<< HEAD
                 return True
-=======
-                return True
->>>>>>> 78ef5ac86c52608068f40fecb91b0e3097a77cf2

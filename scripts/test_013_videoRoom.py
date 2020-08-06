@@ -2,7 +2,8 @@
 import time,allure
 from Pages.page import Page
 from base.base_driver import Base
-
+phone = 10000000100                                         # 登录手机
+pwd = 111111                                                # 登录密码
 class Test_videoRoom():
     #setup函数是在一个类里面最先被调用的函数，而且每执行完一个函数都要从setUp()调用开始后再执行下一个函数，有几个函数就调用他几次，与位置无关，随便放在那里都是他先被调用。
     #放一些准备的工作，或者准备一些测试数据。
@@ -36,10 +37,6 @@ class Test_videoRoom():
                     self.page.video_hall().coordinateClick1()
                     time.sleep(5)
                 with allure.step('点击退出按钮'):
-<<<<<<< HEAD
-                    self.page.video_room().click_exit()
-=======
                     self.page.video_room().check_status()
->>>>>>> 78ef5ac86c52608068f40fecb91b0e3097a77cf2
                 with allure.step('断言:成功退出自习室'):
                     assert self.page.video_hall().check_label() == True

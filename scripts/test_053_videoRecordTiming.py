@@ -16,17 +16,14 @@ class Test_videoRecordTiming():
         # @pytest.mark.repeat(2)
     @allure.story('视频打卡操作')
     def test_videoRecordTiming(self):
-        with allure.step('进入发布页面'):
-            self.page.shouye().click_post()
+        with allure.step('进入更多页面'):
+            self.page.more().click_more()
             time.sleep(5)
-<<<<<<< HEAD
-=======
         with allure.step('滑动更多页面至底部'):
             self.page.more().swipeByMore()
             time.sleep(3)
             self.page.more().swipeByMore()
             time.sleep(1)
->>>>>>> 78ef5ac86c52608068f40fecb91b0e3097a77cf2
         with allure.step('点击视频打卡按钮，设定内容后开始'):
             self.page.more().click_video()
             self.page.timing().input_videoContentBox('This is videoTiming')

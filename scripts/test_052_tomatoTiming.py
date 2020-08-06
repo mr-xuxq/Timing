@@ -16,9 +16,12 @@ class Test_tomatoTiming():
 
     # 番茄计时，不足25min
     def test_tomatoTiming(self):
-        with allure.step('进入发布页面'):
-            self.page.shouye().click_post()
-            time.sleep(5)
+        with allure.step('进入更多页面'):
+            self.page.more().click_more()
+            time.sleep(2)
+        with allure.step('滑动更多页面至底部'):
+            self.page.more().swipeByMore()
+            time.sleep(3)
         with allure.step('点击学习计时按钮，设定内容后开始'):
             self.page.more().click_normalTiming()
             self.page.more().click_tomato()

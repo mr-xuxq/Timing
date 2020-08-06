@@ -42,10 +42,7 @@ class Test_loginByWexin():
             if result == True:
                 with allure.step('点击更多按钮'):
                     self.page.more().click_more()
-<<<<<<< HEAD
-=======
                     time.sleep(3)
->>>>>>> 78ef5ac86c52608068f40fecb91b0e3097a77cf2
                 with allure.step('点击设置按钮'):
                     self.page.more().click_setting()
                 with allure.step('点击退出登录按钮'):

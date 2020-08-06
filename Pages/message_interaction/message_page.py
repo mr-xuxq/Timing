@@ -16,10 +16,6 @@ class Message(BaseAction):
     messagePoint = By.ID, 'com.huiian.timing:id/friend_msg_new_iv'
     #群组标志
     messageTeam = By.ID,'com.huiian.timing:id/team_type_iv'
-<<<<<<< HEAD
-    # 置顶按钮
-    setTopBtn = By.ID, 'com.huiian.timing:id/popupwindow_set_top_tv'
-=======
     # 群名称：测试专用群
     specialGroup = By.XPATH, '//*[@text="测试专用群"]'
     # 置顶按钮
@@ -33,7 +29,6 @@ class Message(BaseAction):
     # 建群系统消息
     groupMessage = By.XPATH, '//*[@text="恭喜你~成功创建群"]'
 
->>>>>>> 78ef5ac86c52608068f40fecb91b0e3097a77cf2
 
     def click_messageBtn(self):
         self.click(self.messageBtn)
@@ -59,12 +54,9 @@ class Message(BaseAction):
     def click_setTop(self):
         self.click(self.setTopBtn)
 
-<<<<<<< HEAD
-=======
     def click_messageTeam02(self):
         self.click(self.groupMessage)
 
->>>>>>> 78ef5ac86c52608068f40fecb91b0e3097a77cf2
     #在规定时间内是否找到元素
     def waitAndfind_timingService(self):
         if self.waitLoading(self.timingService,t = 2) == True:
@@ -120,8 +112,6 @@ class Message(BaseAction):
         else:
             return True
 
-<<<<<<< HEAD
-=======
     def check_textMessage(self):
         if self.find_element(self.textMessage, timeout=2, poll=1) == "":
             return False
@@ -145,7 +135,6 @@ class Message(BaseAction):
             return False
         else:
             return True
->>>>>>> 78ef5ac86c52608068f40fecb91b0e3097a77cf2
 
     def get_followCount(self):
         count = self.driver.find_element_by_id('com.huiian.timing:id/friend_msg_content_tv').text

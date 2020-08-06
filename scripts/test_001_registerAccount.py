@@ -5,15 +5,10 @@ from base.base_driver import Base
 #from base.base_analyze import analyze_file
 import pandas as pd
 from sqlalchemy import create_engine
-<<<<<<< HEAD
-phone = 10000000998
-nickName = 123456
-=======
 phone = 10000001000
 nickName = 9527
 # 此处填入服务器连接
 
->>>>>>> 78ef5ac86c52608068f40fecb91b0e3097a77cf2
 
 class Test_registerAccount():
     #setup函数是在一个类里面最先被调用的函数，而且每执行完一个函数都要从setUp()调用开始后再执行下一个函数，有几个函数就调用他几次，与位置无关，随便放在那里都是他先被调用。

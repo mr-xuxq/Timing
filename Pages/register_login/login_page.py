@@ -53,11 +53,3 @@ class Login(BaseAction):
         self.click(self.privacyProtocol)
     def check_target(self):
         return self.is_feature_exist(self.target)
-<<<<<<< HEAD
-    def writeFile(text):
-        file = open('Timing账号文件.txt', 'a')  # 开启文件准备记录
-        file.write(text + '\n')
-        file.flush()
-        file.close()
-=======
->>>>>>> 78ef5ac86c52608068f40fecb91b0e3097a77cf2
