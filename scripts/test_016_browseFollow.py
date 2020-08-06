@@ -2,8 +2,14 @@
 import time,allure
 from Pages.page import Page
 from base.base_driver import Base
+<<<<<<< HEAD:scripts/test_016_browseFollow.py
 
 class Test_browseFollow():
+=======
+phone = 10000000100                                         # 登录手机
+pwd = 111111                                                # 登录密码
+class Test_treeHole():
+>>>>>>> 78ef5ac86c52608068f40fecb91b0e3097a77cf2:scripts/test_015_browseTreeHole.py
     #setup函数是在一个类里面最先被调用的函数，而且每执行完一个函数都要从setUp()调用开始后再执行下一个函数，有几个函数就调用他几次，与位置无关，随便放在那里都是他先被调用。
     #放一些准备的工作，或者准备一些测试数据。
     def setup(self):
@@ -17,9 +23,26 @@ class Test_browseFollow():
         self.driver.quit()
     #判断元素是否在当前页面内
     sourse = []
+<<<<<<< HEAD:scripts/test_016_browseFollow.py
 
     def test_browseFollow(self):
         self.page.shouye().click_follow()
         time.sleep(3)
         for i in range(1,20):
             self.page.follow().swipeUp()
+=======
+    # @pytest.mark.parametrize("args", analyze_file("address_data.yaml", "test_address"))                               # 装饰器
+    def test_treeHole(self):
+        time.sleep(5)
+        with allure.step('点击树洞对讲机按钮'):
+            self.page.tree_hole().click_treeHole()
+            time.sleep(3)
+        with allure.step('点击树洞对讲机按钮'):
+            #self.page.tree_hole().click_matchHole()
+            self.page.tree_hole().click_listenHole()
+            for i in range(1,3):
+                time.sleep(5)
+                self.page.tree_hole().click_switchChannelBtn()
+        with allure.step('断言:树洞频道切换正常'):
+            assert self.page.tree_hole().check_channel() == True
+>>>>>>> 78ef5ac86c52608068f40fecb91b0e3097a77cf2:scripts/test_015_browseTreeHole.py

@@ -3,7 +3,11 @@ from Pages.page import Page
 from base.base_driver import Base
 import allure
 sourse = []
+<<<<<<< HEAD:scripts/test_005_loginByPwd.py
 phone = 10000000403                                         # 登录手机
+=======
+phone = 10000000405                                      # 登录手机
+>>>>>>> 78ef5ac86c52608068f40fecb91b0e3097a77cf2:scripts/test_003_loginByPwd.py
 pwd = 111111                                                # 登录密码
 
 class Test_loginByPwd():

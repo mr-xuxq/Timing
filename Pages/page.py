@@ -23,9 +23,13 @@ from Pages.personal_information.person_home_page import Person_home
 # ——————————————————————-—————-Post_content————————————————————-—-——#
 from Pages.post_content.post_page import Post_content
 from Pages.post_content.post_diary_page import Post_diary
+<<<<<<< HEAD
 from Pages.post_content.post_video_page import Post_video
 from Pages.post_content.selectPhoto_page import Select_diary_photo
 from Pages.post_content.selectVideo_page import Select_diary_video
+=======
+from Pages.post_content.selectPhoto_page import Select_diary_photo
+>>>>>>> 78ef5ac86c52608068f40fecb91b0e3097a77cf2
 from Pages.post_content.topic_page import Topic
 from Pages.post_content.select_cover_page import Select_cover
 # ———————————————————————————-Register_login————————————————-———-—-——#
@@ -37,7 +41,10 @@ from Pages.register_login.register_add_tags_page import Register_add_tags
 from Pages.register_login.register_fillInformation_page import Register_fillInformation
 from Pages.register_login.selectPhoto_page import Select_photo
 from Pages.register_login.binding_phone_page import Banding_phone
+<<<<<<< HEAD
 from Pages.register_login.login_forgetPwd_page import Login_forgetPwd
+=======
+>>>>>>> 78ef5ac86c52608068f40fecb91b0e3097a77cf2
 from Pages.register_login.guide_page import Guide
 # —————————————————————————————-Timed_learning—————-————————————-—-——#
 from Pages.timed_learning.timing_page import Timing
@@ -112,6 +119,7 @@ class Page:
     def post_diary(self):
         return Post_diary(self.driver)
 
+<<<<<<< HEAD
     def post_video(self):
         return Post_video(self.driver)
 
@@ -121,6 +129,11 @@ class Page:
     def select_diary_video(self):
         return Select_diary_video(self.driver)
 
+=======
+    def select_diary_photo(self):
+        return Select_diary_photo(self.driver)
+
+>>>>>>> 78ef5ac86c52608068f40fecb91b0e3097a77cf2
     def topic(self):
         return Topic(self.driver)
 

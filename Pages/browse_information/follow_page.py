@@ -26,6 +26,10 @@ class Follow(BaseAction):
         return self.is_feature_exist(self.postSuccess)
     def check_deleteSuccess(self):
         return self.is_feature_exist(self.deleteSuccess)
+<<<<<<< HEAD
     def swipeUp(self):
         self.swipeOperat(0.5,0.8,0.5,0.2,500)
+=======
+
+>>>>>>> 78ef5ac86c52608068f40fecb91b0e3097a77cf2
 

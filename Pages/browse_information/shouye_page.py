@@ -54,6 +54,7 @@ class Shouye(BaseAction):
     def tapScreen(self,x,y):
         L = self.getSize()
         self.driver.tap([(L[0]*x,L[1]*y)],1)
+<<<<<<< HEAD
 
     def waitAndFind(self):
         if  self.waitLoading(self.moreBtn,t=5) == True:
@@ -62,6 +63,10 @@ class Shouye(BaseAction):
             return False
 
     def waitAndfind(self):
+=======
+
+    def waitAndFind(self):
+>>>>>>> 78ef5ac86c52608068f40fecb91b0e3097a77cf2
         if  self.waitLoading(self.moreBtn,t=5) == True:
             return True
         else:

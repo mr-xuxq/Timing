@@ -16,8 +16,24 @@ class Message(BaseAction):
     messagePoint = By.ID, 'com.huiian.timing:id/friend_msg_new_iv'
     #群组标志
     messageTeam = By.ID,'com.huiian.timing:id/team_type_iv'
+<<<<<<< HEAD
     # 置顶按钮
     setTopBtn = By.ID, 'com.huiian.timing:id/popupwindow_set_top_tv'
+=======
+    # 群名称：测试专用群
+    specialGroup = By.XPATH, '//*[@text="测试专用群"]'
+    # 置顶按钮
+    setTopBtn = By.ID, 'com.huiian.timing:id/popupwindow_set_top_tv'
+    # 文字消息
+    textMessage = By.XPATH, '//*[@text="I am a message!"]'
+    # 图片消息
+    photoMessage = By.XPATH, '//*[@text="[图片]"]'
+    # 视频消息
+    videoMessage = By.XPATH, '//*[@text="[视频]"]'
+    # 建群系统消息
+    groupMessage = By.XPATH, '//*[@text="恭喜你~成功创建群"]'
+
+>>>>>>> 78ef5ac86c52608068f40fecb91b0e3097a77cf2
 
     def click_messageBtn(self):
         self.click(self.messageBtn)
@@ -34,12 +50,21 @@ class Message(BaseAction):
     def click_messageFriend(self):
         self.click(self.messageFriend)
 
+    def click_specialGroup(self):
+        self.click(self.specialGroup)
+
     def click_messagePoint(self):
         self.click(self.messagePoint)
 
     def click_setTop(self):
         self.click(self.setTopBtn)
 
+<<<<<<< HEAD
+=======
+    def click_messageTeam02(self):
+        self.click(self.groupMessage)
+
+>>>>>>> 78ef5ac86c52608068f40fecb91b0e3097a77cf2
     #在规定时间内是否找到元素
     def waitAndfind_timingService(self):
         if self.waitLoading(self.timingService,t = 2) == True:
@@ -95,6 +120,32 @@ class Message(BaseAction):
         else:
             return True
 
+<<<<<<< HEAD
+=======
+    def check_textMessage(self):
+        if self.find_element(self.textMessage, timeout=2, poll=1) == "":
+            return False
+        else:
+            return True
+
+    def check_photoMessage(self):
+        if self.find_element(self.photoMessage, timeout=2, poll=1) == "":
+            return False
+        else:
+            return True
+
+    def check_videoMessage(self):
+        if self.find_element(self.videoMessage, timeout=2, poll=1) == "":
+            return False
+        else:
+            return True
+
+    def check_groupMessage(self):
+        if self.find_element(self.groupMessage, timeout=2, poll=1) == "":
+            return False
+        else:
+            return True
+>>>>>>> 78ef5ac86c52608068f40fecb91b0e3097a77cf2
 
     def get_followCount(self):
         count = self.driver.find_element_by_id('com.huiian.timing:id/friend_msg_content_tv').text

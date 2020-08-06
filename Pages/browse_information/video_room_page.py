@@ -36,6 +36,12 @@ class Video_room(BaseAction):
     def click_leaveYes(self):
         self.click(self.leaveYesBtn)
 
+    def check_status(self):
+        if self.is_feature_exist(self.closeBtn)==True:
+            self.click(self.closeBtn)
+        else:
+            self.click(self.exitBtn)
+
     def swipeUp(self):
         self.swipeOperat(0.5,0.8,0.5,0.2,500)
 

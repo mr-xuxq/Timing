@@ -36,6 +36,10 @@ class Test_videoRoom():
                     self.page.video_hall().coordinateClick1()
                     time.sleep(5)
                 with allure.step('点击退出按钮'):
+<<<<<<< HEAD
                     self.page.video_room().click_exit()
+=======
+                    self.page.video_room().check_status()
+>>>>>>> 78ef5ac86c52608068f40fecb91b0e3097a77cf2
                 with allure.step('断言:成功退出自习室'):
                     assert self.page.video_hall().check_label() == True

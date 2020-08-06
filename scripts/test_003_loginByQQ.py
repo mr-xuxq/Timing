@@ -44,14 +44,24 @@ class Test_loginByQQ():
             if result == True:
                 with allure.step('点击更多按钮'):
                     self.page.more().click_more()
+<<<<<<< HEAD
+=======
+                    time.sleep(3)
+>>>>>>> 78ef5ac86c52608068f40fecb91b0e3097a77cf2
                 with allure.step('点击设置按钮'):
                     self.page.more().click_setting()
                 with allure.step('点击退出登录按钮'):
                     self.page.setting().click_logout()
                 with allure.step('确定退出'):
                     self.page.setting().click_confirmLogout()
+<<<<<<< HEAD
                 with allure.step('断言:退出登录成功'):
                     assert self.page.setting().findLogin() == True
+=======
+                    time.sleep(2)
+                with allure.step('断言:退出登录成功'):
+                    assert self.page.setting().check_target() == True
+>>>>>>> 78ef5ac86c52608068f40fecb91b0e3097a77cf2
             else:
                 with allure.step('处于未登录状态，用例结束'):
                     pass

@@ -24,7 +24,11 @@ class Test_browsesVlog():
             self.page.shouye().click_sVlog()
             time.sleep(2)
         with allure.step('浏览长视频列表'):
-            for i in range(1,100):
-                self.page.sVlog_list().swipeUp()
+            for i in range(1,5):
+                for j in range(1,100):
+                    self.page.sVlog_list().swipeUp()
+                time.sleep(1)
+                self.page.sVlog_list().swipeLeft()
+                time.sleep(1)
         with allure.step('断言:无任何崩溃闪退'):
             assert self.page.sVlog_list().check_sVlogTitle() == True
