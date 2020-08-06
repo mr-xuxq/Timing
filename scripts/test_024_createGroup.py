@@ -15,17 +15,19 @@ class Test_createGroup():
 
     @allure.story('创建讨论组')
     def test_discussTeam(self):
-        with allure.step('进入更多页面'):
-            self.page.more().click_more()
-            time.sleep(5)
         with allure.step('点击【+】学习群'):
             self.page.shouye().click_post()
+        with allure.step('点击创建学习群'):
             self.page.more().click_createGroup()
         with allure.step('选择创建学习讨论小组'):
             self.page.create_group().click_discussTeam()
+        with allure.step('下一步'):
             self.page.create_group().click_nextStep()
+        with allure.step('选择道友'):
             self.page.create_group().click_chooseFriend()
+        with allure.step('点击确定'):
             self.page.create_group().click_chooseFriendDo()
+        with allure.step('进入版聊页，断言群组创建成功'):
             assert self.page.create_group().waitAndfind_createdDiscussTeam() == True
 
     #解散群
@@ -34,20 +36,26 @@ class Test_createGroup():
         with allure.step('进入消息页面'):
             self.page.message().click_messageBtn()
         with allure.step('找到消息页面第一群并点击'):
-            self.page.message().click_messageTeam()
-        with allure.step('进入群组，点击右上角更多按钮'):
-            time.sleep(5)
-            self.page.friend_chat().click_groupMore()
-        with allure.step('滑动页面至底部'):
-            time.sleep(5)
-            self.page.friend_chat().swipeByGroup()
-        with allure.step('点击解散该群'):
-            time.sleep(5)
-            self.page.group().click_leaveGroup()
-        with allure.step('解散该群弹窗点击【确认】'):
-            self.page.group().click_right()
-        with allure.step('检验结果：查看解散后能否正常返回至消息页面'):
-            assert self.page.more().waitAndfind_more()
+            if self.page.message().check_groupMessage() == True:
+                self.page.message().click_messageTeam02()
+                with allure.step('进入群组，点击右上角更多按钮'):
+                    time.sleep(5)
+                    self.page.friend_chat().click_groupMore()
+                with allure.step('滑动页面至底部'):
+                    time.sleep(5)
+                    self.page.friend_chat().swipeByGroup()
+                with allure.step('点击解散该群'):
+                    time.sleep(5)
+                    self.page.group().click_leaveGroup()
+                with allure.step('解散该群弹窗点击【确认】'):
+                    self.page.group().click_right()
+                with allure.step('检验结果：查看解散后能否正常返回至消息页面'):
+                    assert self.page.more().waitAndfind_more()
+            else:
+                with allure.step('无法找到刚刚创建的群'):
+                    assert 1+1==3
+
+
 
 
 

@@ -45,7 +45,7 @@ class Test_postDiary():
             self.page.post_diary().input_diaryContent("34567890JQKA2")
         with allure.step('点击发布按钮'):
             self.page.post_diary().click_post()
-            time.sleep(10)
+            time.sleep(20)
         with allure.step('断言:日记发布成功'):
             assert self.page.follow().check_deleteDiaryBtn() == True
 

@@ -5,7 +5,7 @@ from base.base_driver import Base
 #from base.base_analyze import analyze_file
 import pandas as pd
 from sqlalchemy import create_engine
-phone = 10000000899
+phone = 10000001000
 nickName = 9527
 # 此处填入服务器连接
 
@@ -82,6 +82,7 @@ class Test_registerAccount():
     def test_logout(self):
         with allure.step('点击更多按钮'):
             self.page.more().click_more()
+            time.sleep(3)
         with allure.step('点击设置按钮'):
             self.page.more().click_setting()
         with allure.step('点击退出登录按钮'):

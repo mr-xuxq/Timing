@@ -7,13 +7,14 @@ class Create_group(BaseAction):
     discussTeam = By.ID, 'com.huiian.timing:id/team_type_1'
     # 打卡群
     recordTeam = By.ID, 'com.huiian.timing:id/team_type_2'
-    #【下一布】
+    #【下一步】
     nextStep = By.ID,'com.huiian.timing:id/activity_banner_right_tv'
 #---------------------------------------------------------------------------------
     #讨论组_发起讨论选择道友页面
     chooseFriend = By.ID,'com.huiian.timing:id/friend_cb'
     chooseFriendDo = By.ID,'com.huiian.timing:id/activity_banner_right_tv'
-    createdDiscussTeam = By.ID,'com.huiian.timing:id/iv_team'
+    #群组版聊元素
+    createdDiscussTeam = By.ID,'com.huiian.timing:id/messageListView'
  # ---------------------------------------------------------------------------------
     # 讨论组_发起讨论选择道友页面
     choiceGroupPhoto = By.ID, 'com.huiian.timing:id/choice_group_photo_iv'

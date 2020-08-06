@@ -17,5 +17,5 @@ class Setting(BaseAction):
     def click_confirmLogout(self):
         self.click(self.confirmLogoutBtn)
 
-    def findLogin(self):
+    def check_target(self):
         return self.is_feature_exist(self.target)

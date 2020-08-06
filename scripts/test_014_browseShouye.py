@@ -19,7 +19,7 @@ class Test_browseShowye():
             if result == True:
                 with allure.step('登陆到首页成功，开始浏览'):
                     i = 0
-                    while i<50:
+                    while i<100:
                         self.page.shouye().swipeByShouye()
                         i += 1
                     with allure.step('断言：浏览无闪退'):
