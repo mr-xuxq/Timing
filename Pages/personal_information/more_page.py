@@ -120,3 +120,7 @@ class More(BaseAction):
 #--------------------------------------------------------------------------------------------------
     def click_identification(self):
         self.click(self.identificationBtn)
+
+    #坐标点击起床
+    def simpleTap(self,x,y):
+        self.tapOperat(x,y)

@@ -1,6 +1,7 @@
 #coding:utf-8
 from Pages.page import Page
 from base.base_driver import Base
+from base.base_action import BaseAction
 import allure,time
 sourse = []
 
@@ -24,9 +25,11 @@ class Test_loginByQQ():
     def test_loginByQQ(self):
         with allure.step('点击QQ登录'):
             self.page.login().click_QQ_login()
-            time.sleep(5)
         with allure.step('点击qq授权'):
-            self.page.login().click_QQ_agree()
+            time.sleep(8)
+            self.page.more().simpleTap(0.502, 0.833)
+            self.page.more().simpleTap(0.502, 0.865)
+            #self.page.login().click_QQ_agree()
             time.sleep(5)
         with allure.step('检查是否跳到首页'):
             result = self.page.shouye().check_shouye()
@@ -44,7 +47,7 @@ class Test_loginByQQ():
             if result == True:
                 with allure.step('点击更多按钮'):
                     self.page.more().click_more()
-                    time.sleep(3)
+                    time.sleep(8)
                 with allure.step('点击设置按钮'):
                     self.page.more().click_setting()
                 with allure.step('点击退出登录按钮'):

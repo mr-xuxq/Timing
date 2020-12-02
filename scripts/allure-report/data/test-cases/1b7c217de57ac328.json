@@ -1,0 +1,166 @@
+{
+  "uid" : "1b7c217de57ac328",
+  "name" : "test_loginByCaptcha",
+  "fullName" : "test_002_loginByCaptcha.Test_loginByCaptcha#test_loginByCaptcha",
+  "historyId" : "2c4c0ff60efde21ca19a24ee615ea1aa",
+  "time" : {
+    "start" : 1606893828379,
+    "stop" : 1606893854357,
+    "duration" : 25978
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "点击手机号登录",
+      "time" : {
+        "start" : 1606893828379,
+        "stop" : 1606893835754,
+        "duration" : 7375
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "输入手机号",
+      "time" : {
+        "start" : 1606893835754,
+        "stop" : 1606893840759,
+        "duration" : 5005
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "点击获取验证码按钮",
+      "time" : {
+        "start" : 1606893840759,
+        "stop" : 1606893843599,
+        "duration" : 2840
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "正式服数据库拿验证码",
+      "time" : {
+        "start" : 1606893843599,
+        "stop" : 1606893844025,
+        "duration" : 426
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "输入验证码",
+      "time" : {
+        "start" : 1606893844025,
+        "stop" : 1606893849140,
+        "duration" : 5115
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "点击完成",
+      "time" : {
+        "start" : 1606893849140,
+        "stop" : 1606893852884,
+        "duration" : 3744
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "断言:登录成功",
+      "time" : {
+        "start" : 1606893852884,
+        "stop" : 1606893854356,
+        "duration" : 1472
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 7,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_002_loginByCaptcha"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_loginByCaptcha"
+  }, {
+    "name" : "host",
+    "value" : "WINDOWS-49AO44L"
+  }, {
+    "name" : "thread",
+    "value" : "6748-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_002_loginByCaptcha"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1b7c217de57ac328.json",
+  "parameterValues" : [ ]
+}

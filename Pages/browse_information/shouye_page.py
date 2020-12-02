@@ -14,7 +14,9 @@ class Shouye(BaseAction):
     # 【更多页按钮】
     moreBtn = By.ID, 'com.huiian.timing:id/tab_mine_ll'
     # 【sVlog标题按钮】
-    sVlogBtn = By.ID, 'com.huiian.timing:id/tv_svlog_title'
+    sVlogBtn = By.ID, 'com.huiian.timing:id/tv_content'
+    # 【sVlog封面】
+    sVlogCover = By.ID, 'com.huiian.timing:id/iv_soup_vlog'
     # 【树洞对讲机按钮】
     treeHoleBtn = By.ID, 'com.huiian.timing:id/cl_entry'
     # 【自习室按钮】
@@ -39,6 +41,9 @@ class Shouye(BaseAction):
     def click_sVlog(self):
         self.click(self.sVlogBtn)
 
+    def click_sVlogCover(self):
+        self.click(self.sVlogCover)
+
     def click_treeHole(self):
         self.click(self.treeHoleBtn)
 
@@ -46,7 +51,7 @@ class Shouye(BaseAction):
         self.click(self.videoRoomBtn)
 
     def swipeUp(self):
-        self.swipeOperat(0.5,0.8,0.5,0.2,500)
+        self.swipeOperat(0.5,0.8,0.5,0.2,1500)
 
     def swipeByShouye(self):
         self.swipeOperat(0.5, 0.8, 0.5, 0.2,500)
@@ -63,3 +68,5 @@ class Shouye(BaseAction):
 
     def check_shouye(self):
         return self.is_feature_exist(self.shouyeBtn)
+    def check_sVlog(self):
+        return self.is_feature_exist(self.sVlogCover)

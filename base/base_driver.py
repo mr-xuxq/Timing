@@ -14,6 +14,7 @@ class Base(object):
             'platformVersion': y,
             'appPackage': 'com.huiian.timing',
             'appActivity': '.view.activity.StartupActivity',
+            "automationName":"UiAutomator2",
             # 应用持续开启时间
             'newCommandTimeout': '28888',
             # 'unicodeKeyboard': True,

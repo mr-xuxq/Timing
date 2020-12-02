@@ -23,7 +23,7 @@ class List_sVlog(BaseAction):
         self.swipeOperat(0.5, 0.2, 0.5, 0.8, 150)
 
     def swipeLeft(self):
-        self.swipeOperat(0.8, 0.8, 0.2, 0.8, 150)
+        self.swipeOperat(0.8, 0.8, 0.2, 0.8, 800)
 
     def check_sVlogTitle(self):
         return self.is_feature_exist(self.sVlogTitle)

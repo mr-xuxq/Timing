@@ -1,0 +1,203 @@
+{
+  "uid" : "99801d329d8115e6",
+  "name" : "test_logout",
+  "fullName" : "test_002_loginByCaptcha.Test_loginByCaptcha#test_logout",
+  "historyId" : "ac02c59db07adf28737882e4452f7ca5",
+  "time" : {
+    "start" : 1606896350140,
+    "stop" : 1606896388161,
+    "duration" : 38021
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "点击更多按钮",
+      "time" : {
+        "start" : 1606896350140,
+        "stop" : 1606896381697,
+        "duration" : 31557
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "点击设置按钮",
+      "time" : {
+        "start" : 1606896381697,
+        "stop" : 1606896381841,
+        "duration" : 144
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "点击退出登录按钮",
+      "time" : {
+        "start" : 1606896381841,
+        "stop" : 1606896385623,
+        "duration" : 3782
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "确定退出",
+      "time" : {
+        "start" : 1606896385623,
+        "stop" : 1606896388147,
+        "duration" : 2524
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "断言:退出登录成功",
+      "time" : {
+        "start" : 1606896388147,
+        "stop" : 1606896388161,
+        "duration" : 14
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_002_loginByCaptcha"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_loginByCaptcha"
+  }, {
+    "name" : "host",
+    "value" : "WINDOWS-49AO44L"
+  }, {
+    "name" : "thread",
+    "value" : "15352-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_002_loginByCaptcha"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "371fe586dfc6ccac",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606895752784,
+        "stop" : 1606895781055,
+        "duration" : 28271
+      }
+    }, {
+      "uid" : "3372e51639184540",
+      "status" : "broken",
+      "statusDetails" : "urllib3.exceptions.ProtocolError: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))",
+      "time" : {
+        "start" : 1606895566281,
+        "stop" : 1606895566281,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "ecfd7e5a56d451b0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606894598696,
+        "stop" : 1606894617192,
+        "duration" : 18496
+      }
+    }, {
+      "uid" : "1da401256f9d1f3d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606893857301,
+        "stop" : 1606893875535,
+        "duration" : 18234
+      }
+    }, {
+      "uid" : "8c89635abf4134c9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606892426645,
+        "stop" : 1606892445385,
+        "duration" : 18740
+      }
+    }, {
+      "uid" : "f8651d1adff21079",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606891435556,
+        "stop" : 1606891463018,
+        "duration" : 27462
+      }
+    }, {
+      "uid" : "d680701316e85c0c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606883316907,
+        "stop" : 1606883336077,
+        "duration" : 19170
+      }
+    }, {
+      "uid" : "4791b1db9f041f31",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606882856234,
+        "stop" : 1606882874969,
+        "duration" : 18735
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "99801d329d8115e6.json",
+  "parameterValues" : [ ]
+}

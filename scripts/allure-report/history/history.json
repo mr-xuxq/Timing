@@ -1,0 +1,183 @@
+{
+  "58a35e78c95610b9a2577f96444cd07a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e18dc05606a3a33b",
+      "reportUrl" : "http://localhost:8080/job/Timing/19/allure/#testresult/e18dc05606a3a33b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606896564583,
+        "stop" : 1606896698806,
+        "duration" : 134223
+      }
+    } ]
+  },
+  "f3c896c6eecc30ad9f2e61cb2c586e4d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "41c432d2164cfbcf",
+      "reportUrl" : "http://localhost:8080/job/Timing/19/allure/#testresult/41c432d2164cfbcf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606896511957,
+        "stop" : 1606896533262,
+        "duration" : 21305
+      }
+    } ]
+  },
+  "cc260aa809f1fa2970fc9598557b8c6d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e809822ae8d5d907",
+      "reportUrl" : "http://localhost:8080/job/Timing/19/allure/#testresult/e809822ae8d5d907",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606896470730,
+        "stop" : 1606896509044,
+        "duration" : 38314
+      }
+    } ]
+  },
+  "168d2de2518e33ff13db78a0c2f4fd4f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f3098e6a7c772bad",
+      "reportUrl" : "http://localhost:8080/job/Timing/19/allure/#testresult/f3098e6a7c772bad",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606896536042,
+        "stop" : 1606896561754,
+        "duration" : 25712
+      }
+    } ]
+  },
+  "2c4c0ff60efde21ca19a24ee615ea1aa" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "75da393c94115e4d",
+      "reportUrl" : "http://localhost:8080/job/Timing/19/allure/#testresult/75da393c94115e4d",
+      "status" : "broken",
+      "statusDetails" : "sqlalchemy.exc.OperationalError: (pymysql.err.OperationalError) (2003, \"Can't connect to MySQL server on 'rr-bp12u85w22spt5976do.mysql.rds.aliyuncs.com' (timed out)\")\n(Background on this error at: http://sqlalche.me/e/13/e3q8)",
+      "time" : {
+        "start" : 1606896311041,
+        "stop" : 1606896346493,
+        "duration" : 35452
+      }
+    } ]
+  },
+  "f7579399c5eeb60c51d5b1412b2bf762" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "45166cc82a11d2e3",
+      "reportUrl" : "http://localhost:8080/job/Timing/19/allure/#testresult/45166cc82a11d2e3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606896701952,
+        "stop" : 1606896717604,
+        "duration" : 15652
+      }
+    } ]
+  },
+  "ac02c59db07adf28737882e4452f7ca5" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "99801d329d8115e6",
+      "reportUrl" : "http://localhost:8080/job/Timing/19/allure/#testresult/99801d329d8115e6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606896350140,
+        "stop" : 1606896388161,
+        "duration" : 38021
+      }
+    } ]
+  },
+  "11cba298d4f8eeca5d8a897d73bf175c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f6fff7f5c42cd72",
+      "reportUrl" : "http://localhost:8080/job/Timing/19/allure/#testresult/f6fff7f5c42cd72",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606896434641,
+        "stop" : 1606896467957,
+        "duration" : 33316
+      }
+    } ]
+  },
+  "add77ff9628445763fbdb805500be90f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c2b098ad5f9f37a8",
+      "reportUrl" : "http://localhost:8080/job/Timing/19/allure/#testresult/c2b098ad5f9f37a8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1606896391051,
+        "stop" : 1606896431692,
+        "duration" : 40641
+      }
+    } ]
+  }
+}

@@ -42,7 +42,7 @@ class Test_loginByWexin():
             if result == True:
                 with allure.step('点击更多按钮'):
                     self.page.more().click_more()
-                    time.sleep(3)
+                    time.sleep(8)
                 with allure.step('点击设置按钮'):
                     self.page.more().click_setting()
                 with allure.step('点击退出登录按钮'):
@@ -50,7 +50,7 @@ class Test_loginByWexin():
                 with allure.step('确定退出'):
                     self.page.setting().click_confirmLogout()
                 with allure.step('断言:退出登录成功'):
-                    assert self.page.setting().findLogin() == True
+                    assert self.page.login().check_loginByphone() == True
             else:
                 with allure.step('处于未登录状态，用例结束'):
                     pass

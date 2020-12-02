@@ -1,0 +1,151 @@
+{
+  "uid" : "c61edfd71748ee76",
+  "name" : "test_logout",
+  "fullName" : "test_003_loginByQQ.Test_loginByQQ#test_logout",
+  "historyId" : "11cba298d4f8eeca5d8a897d73bf175c",
+  "time" : {
+    "start" : 1606894646554,
+    "stop" : 1606894721102,
+    "duration" : 74548
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "检测登陆状态",
+      "time" : {
+        "start" : 1606894646554,
+        "stop" : 1606894721101,
+        "duration" : 74547
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "点击更多按钮",
+        "time" : {
+          "start" : 1606894683309,
+          "stop" : 1606894711957,
+          "duration" : 28648
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "点击设置按钮",
+        "time" : {
+          "start" : 1606894711957,
+          "stop" : 1606894715089,
+          "duration" : 3132
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "点击退出登录按钮",
+        "time" : {
+          "start" : 1606894715089,
+          "stop" : 1606894718220,
+          "duration" : 3131
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "确定退出",
+        "time" : {
+          "start" : 1606894718220,
+          "stop" : 1606894721076,
+          "duration" : 2856
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "断言:退出登录成功",
+        "time" : {
+          "start" : 1606894721076,
+          "stop" : 1606894721101,
+          "duration" : 25
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 5,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_003_loginByQQ"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_loginByQQ"
+  }, {
+    "name" : "host",
+    "value" : "WINDOWS-49AO44L"
+  }, {
+    "name" : "thread",
+    "value" : "2560-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_003_loginByQQ"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c61edfd71748ee76.json",
+  "parameterValues" : [ ]
+}

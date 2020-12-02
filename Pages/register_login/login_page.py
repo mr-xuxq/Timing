@@ -53,3 +53,5 @@ class Login(BaseAction):
         self.click(self.privacyProtocol)
     def check_target(self):
         return self.is_feature_exist(self.target)
+    def check_loginByphone(self):
+        return self.is_feature_exist(self.phoneBtn)

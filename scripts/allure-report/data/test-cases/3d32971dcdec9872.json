@@ -1,0 +1,166 @@
+{
+  "uid" : "3d32971dcdec9872",
+  "name" : "test_loginByPwd",
+  "fullName" : "test_005_loginByPwd.Test_loginByPwd#test_loginByPwd",
+  "historyId" : "168d2de2518e33ff13db78a0c2f4fd4f",
+  "time" : {
+    "start" : 1606894121126,
+    "stop" : 1606894147779,
+    "duration" : 26653
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "点击手机号登录",
+      "time" : {
+        "start" : 1606894121126,
+        "stop" : 1606894128499,
+        "duration" : 7373
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "点击密码登录",
+      "time" : {
+        "start" : 1606894128499,
+        "stop" : 1606894131629,
+        "duration" : 3130
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "输入手机号",
+      "time" : {
+        "start" : 1606894131629,
+        "stop" : 1606894136605,
+        "duration" : 4976
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "输入密码",
+      "time" : {
+        "start" : 1606894136605,
+        "stop" : 1606894142740,
+        "duration" : 6135
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "关闭小键盘",
+      "time" : {
+        "start" : 1606894142740,
+        "stop" : 1606894143268,
+        "duration" : 528
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "点击登录按钮",
+      "time" : {
+        "start" : 1606894143268,
+        "stop" : 1606894146315,
+        "duration" : 3047
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "断言:登录成功",
+      "time" : {
+        "start" : 1606894146315,
+        "stop" : 1606894147778,
+        "duration" : 1463
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 7,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_005_loginByPwd"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_loginByPwd"
+  }, {
+    "name" : "host",
+    "value" : "WINDOWS-49AO44L"
+  }, {
+    "name" : "thread",
+    "value" : "6748-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_005_loginByPwd"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3d32971dcdec9872.json",
+  "parameterValues" : [ ]
+}

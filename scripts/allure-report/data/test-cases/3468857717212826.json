@@ -1,0 +1,106 @@
+{
+  "uid" : "3468857717212826",
+  "name" : "test_browsesVlog",
+  "fullName" : "test_011_browsesVlog.Test_browsesVlog#test_browsesVlog",
+  "historyId" : "58a35e78c95610b9a2577f96444cd07a",
+  "time" : {
+    "start" : 1606891650812,
+    "stop" : 1606891755546,
+    "duration" : 104734
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "点击sVlog标题",
+      "time" : {
+        "start" : 1606891650813,
+        "stop" : 1606891680084,
+        "duration" : 29271
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "浏览长视频列表",
+      "time" : {
+        "start" : 1606891680084,
+        "stop" : 1606891745428,
+        "duration" : 65344
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "断言:无任何崩溃闪退",
+      "time" : {
+        "start" : 1606891745428,
+        "stop" : 1606891755545,
+        "duration" : 10117
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_011_browsesVlog"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_browsesVlog"
+  }, {
+    "name" : "host",
+    "value" : "WINDOWS-49AO44L"
+  }, {
+    "name" : "thread",
+    "value" : "13128-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_011_browsesVlog"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3468857717212826.json",
+  "parameterValues" : [ ]
+}
