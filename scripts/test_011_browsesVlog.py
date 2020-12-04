@@ -30,23 +30,11 @@ class Test_browsesVlog():
             time.sleep(2)
         with allure.step('浏览长视频列表'):
             for i in range(1,5):
-                for j in range(1,10):
+                for j in range(1,100):
                     self.page.sVlog_list().swipeUp()
                 time.sleep(2)
                 self.page.sVlog_list().swipeLeft()
                 time.sleep(1)
         with allure.step('断言:无任何崩溃闪退'):
             assert self.page.sVlog_list().check_sVlogTitle() == True
-    def test_logout(self):
-        with allure.step('点击更多按钮'):
-            self.page.more().click_more()
-            time.sleep(3)
-        with allure.step('点击设置按钮'):
-            self.page.more().click_setting()
-        with allure.step('点击退出登录按钮'):
-            self.page.setting().click_logout()
-        with allure.step('确定退出'):
-            self.page.setting().click_confirmLogout()
-            time.sleep(2)
-        with allure.step('断言:退出登录成功'):
-            assert self.page.login().check_loginByphone() == True
+

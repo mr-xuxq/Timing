@@ -1,26 +1,5 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
-  "children" : [ {
-    "name" : "Test defects",
-    "children" : [ {
-      "name" : "sqlalchemy.exc.OperationalError: (pymysql.err.OperationalError) (2003, \"Can't connect to MySQL server on 'rr-bp12u85w22spt5976do.mysql.rds.aliyuncs.com' (timed out)\")\n(Background on this error at: http://sqlalche.me/e/13/e3q8)",
-      "children" : [ {
-        "name" : "test_loginByCaptcha",
-        "uid" : "75da393c94115e4d",
-        "parentUid" : "e7b11060d2e51f8dc2aefcfab143990b",
-        "status" : "broken",
-        "time" : {
-          "start" : 1606896311041,
-          "stop" : 1606896346493,
-          "duration" : 35452
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "e7b11060d2e51f8dc2aefcfab143990b"
-    } ],
-    "uid" : "bdbf199525818fae7a8651db9eafe741"
-  } ]
+  "children" : [ ]
 }

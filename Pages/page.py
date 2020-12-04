@@ -12,6 +12,7 @@ from Pages.message_interaction.chat_chooseImage_page import Choose_image
 from Pages.message_interaction.chat_chooseVideo_page import Choose_video
 from Pages.message_interaction.friend_chat_page import Friend_chat
 from Pages.message_interaction.group_page import Group
+from Pages.message_interaction.video_record_page import Video_record
 from Pages.message_interaction.message_page import Message
 from Pages.message_interaction.create_group_page import Create_group
 # ——————————————————————————-Personal_information———————————-——————-—-——#
@@ -81,6 +82,9 @@ class Page:
 
     def group(self):
         return Group(self.driver)
+
+    def video_record(self):
+        return Video_record(self.driver)
 
     def message(self):
         return Message(self.driver)

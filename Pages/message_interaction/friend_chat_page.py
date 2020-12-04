@@ -29,6 +29,7 @@ class Friend_chat(BaseAction):
     videoBtn = By.XPATH,'//*[@text="视频"]'
 
 
+
     def input_messageBox(self,content):
         self.input(self.messageBox,content)
 
@@ -54,6 +55,7 @@ class Friend_chat(BaseAction):
 
     def click_videoBtn(self):
         self.click(self.videoBtn)
+
 
         # 在规定时间内是否找到元素
     def waitAndfind_failSend(self):

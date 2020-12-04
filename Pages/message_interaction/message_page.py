@@ -8,6 +8,8 @@ class Message(BaseAction):
     messageBtn = By.ID, 'com.huiian.timing:id/message_img'
     # Timing小书童
     timingService = By.XPATH, '//*[@text="Timing小书童"]'
+    # 退出Timing小书童
+    backBtn = By.ID, 'com.huiian.timing:id/activity_banner_back_iv'
     # 互动通知
     interaction = By.XPATH, '//*[@text="互动通知"]'
     # 道友标志
@@ -28,7 +30,8 @@ class Message(BaseAction):
     videoMessage = By.XPATH, '//*[@text="[视频]"]'
     # 建群系统消息
     groupMessage = By.XPATH, '//*[@text="恭喜你~成功创建群"]'
-
+    # 最新消息栏
+    firstChannel = By.ID, 'com.huiian.timing:id/tv_content'
 
     def click_messageBtn(self):
         self.click(self.messageBtn)
@@ -38,6 +41,9 @@ class Message(BaseAction):
 
     def click_timingService(self):
         self.click(self.timingService)
+
+    def click_back(self):
+        self.click(self.backBtn)
 
     def click_interaction(self):
         self.click(self.interaction)
@@ -56,6 +62,9 @@ class Message(BaseAction):
 
     def click_messageTeam02(self):
         self.click(self.groupMessage)
+
+    def click_firstChannel(self):
+        self.click(self.firstChannel)
 
     #在规定时间内是否找到元素
     def waitAndfind_timingService(self):

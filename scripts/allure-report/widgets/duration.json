@@ -1,90 +1,100 @@
 [ {
-  "uid" : "45166cc82a11d2e3",
-  "name" : "test_logout",
-  "time" : {
-    "start" : 1606896701952,
-    "stop" : 1606896717604,
-    "duration" : 15652
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "f3098e6a7c772bad",
-  "name" : "test_loginByPwd",
-  "time" : {
-    "start" : 1606896536042,
-    "stop" : 1606896561754,
-    "duration" : 25712
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "41c432d2164cfbcf",
-  "name" : "test_logout",
-  "time" : {
-    "start" : 1606896511957,
-    "stop" : 1606896533262,
-    "duration" : 21305
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "75da393c94115e4d",
-  "name" : "test_loginByCaptcha",
-  "time" : {
-    "start" : 1606896311041,
-    "stop" : 1606896346493,
-    "duration" : 35452
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "99801d329d8115e6",
-  "name" : "test_logout",
-  "time" : {
-    "start" : 1606896350140,
-    "stop" : 1606896388161,
-    "duration" : 38021
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "e18dc05606a3a33b",
+  "uid" : "bc68066f0deca5ee",
   "name" : "test_browsesVlog",
   "time" : {
-    "start" : 1606896564583,
-    "stop" : 1606896698806,
-    "duration" : 134223
+    "start" : 1606915448462,
+    "stop" : 1606915530756,
+    "duration" : 82294
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "e809822ae8d5d907",
-  "name" : "test_loginByWexin",
-  "time" : {
-    "start" : 1606896470730,
-    "stop" : 1606896509044,
-    "duration" : 38314
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "c2b098ad5f9f37a8",
-  "name" : "test_loginByQQ",
-  "time" : {
-    "start" : 1606896391051,
-    "stop" : 1606896431692,
-    "duration" : 40641
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "f6fff7f5c42cd72",
+  "uid" : "e635c27b24e3ebeb",
   "name" : "test_logout",
   "time" : {
-    "start" : 1606896434641,
-    "stop" : 1606896467957,
-    "duration" : 33316
+    "start" : 1606915266244,
+    "stop" : 1606915310222,
+    "duration" : 43978
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "66b687ade530dab8",
+  "name" : "test_loginByCaptcha",
+  "time" : {
+    "start" : 1606915169756,
+    "stop" : 1606915195589,
+    "duration" : 25833
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "afa113d6491aa2a1",
+  "name" : "test_logout",
+  "time" : {
+    "start" : 1606915198633,
+    "stop" : 1606915218696,
+    "duration" : 20063
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9b2e254500a114fa",
+  "name" : "test_loginByWexin",
+  "time" : {
+    "start" : 1606915313099,
+    "stop" : 1606915330273,
+    "duration" : 17174
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bdfc3db46ac1c85",
+  "name" : "test_logout",
+  "time" : {
+    "start" : 1606915333352,
+    "stop" : 1606915415367,
+    "duration" : 82015
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ff775c15cbe57c1b",
+  "name" : "test_logout",
+  "time" : {
+    "start" : 1606915534557,
+    "stop" : 1606915594493,
+    "duration" : 59936
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ec2e5e1039959e59",
+  "name" : "test_checkRecordPage",
+  "time" : {
+    "start" : 1606999134857,
+    "stop" : 1606999169235,
+    "duration" : 34378
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "976c59fb74ccbc7b",
+  "name" : "test_loginByPwd",
+  "time" : {
+    "start" : 1606915418204,
+    "stop" : 1606915445409,
+    "duration" : 27205
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f2541dbcb8e68855",
+  "name" : "test_loginByQQ",
+  "time" : {
+    "start" : 1606915221550,
+    "stop" : 1606915262932,
+    "duration" : 41382
   },
   "status" : "passed",
   "severity" : "normal"

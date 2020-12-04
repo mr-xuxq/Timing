@@ -1,13 +1,13 @@
 {
-  "total" : 5,
+  "total" : 6,
   "items" : [ {
     "uid" : "3183b646a4be569afb5752d7e055d1d1",
     "name" : "test_002_loginByCaptcha",
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
       "total" : 2
     }
@@ -47,6 +47,17 @@
   }, {
     "uid" : "b9eaea7f886718b06979dc34b482e683",
     "name" : "test_005_loginByPwd",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "10f9aad445a2f0943a6d5ee0b857551e",
+    "name" : "test_021_checkRecordPage",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
