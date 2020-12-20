@@ -21,7 +21,8 @@ class Edit_personal_info(BaseAction):
     genderSubmit = By.XPATH,'//*[@text="完成"]'
     #右上角的【保存】按钮
     infoSubmit = By.XPATH,'//*[@text="保存"]'
-
+    #右上角的【后退】按钮
+    backBtn = By.ID,'com.huiian.timing:id/activity_banner_back_iv'
     def click_myimg(self):
         self.click(self.myimgBtn)
     def click_name(self):
@@ -34,5 +35,14 @@ class Edit_personal_info(BaseAction):
         self.click(self.genderSubmit)
     def click_infoSubmit(self):
         self.click(self.infoSubmit)
+    def click_back(self):
+        self.click(self.backBtn)
     def swipeByGender(self):
         self.swipeOperat(0.5, 0.93, 0.5, 0.79, 150)
+
+    def input_name(self, content):
+        self.input(self.nameBtn,content)
+
+    def tapScreen(self,x,y):
+        L = self.getSize()
+        self.driver.tap([(L[0]*x,L[1]*y)],1)

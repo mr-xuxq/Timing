@@ -32,6 +32,9 @@ class Test_checkRecordPage():
             self.page.message().click_firstChannel()
         with allure.step('点击说话就拍按钮'):
             self.page.video_record().click_speakBtn()
+        with allure.step('点击开始录制'):
+            time.sleep(2)
+            self.page.video_record().tapScreen(0.5, 0.84)
         with allure.step('检查界面元素'):
             with allure.step('检查后退按钮'):
                 if self.page.video_record().check_back() == True:

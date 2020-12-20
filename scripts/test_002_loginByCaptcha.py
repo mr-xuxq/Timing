@@ -6,7 +6,7 @@ from base.base_driver import Base
 import pandas as pd
 from sqlalchemy import create_engine
 #phone = 10000000000 + random.randint(1, 99)
-phone = 10000000889
+phone = 10000000888
 #此处填入数据库连接
 
 
@@ -27,6 +27,8 @@ class Test_loginByCaptcha():
     # @pytest.mark.parametrize("args", analyze_file("address_data.yaml", "test_address"))                               # 装饰器
     #手机号密码登录测试用例
     def test_loginByCaptcha(self):
+        with allure.step('点击同意服务协议'):
+            self.page.login().click_agree_login()
         with allure.step('点击手机号登录'):
             self.page.login().click_phone_login()
         with allure.step('输入手机号'):

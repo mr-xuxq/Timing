@@ -24,6 +24,8 @@ class Test_loginByWexin():
     # @pytest.mark.parametrize("args", analyze_file("address_data.yaml", "test_address"))
     # 手机号密码登录测试用例
     def test_loginByWexin(self):
+        with allure.step('点击同意服务协议'):
+            self.page.login().click_agree_login()
         with allure.step('点击Weixin登录'):
             self.page.login().click_wechat_login()
             time.sleep(10)

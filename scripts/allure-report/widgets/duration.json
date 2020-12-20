@@ -1,65 +1,55 @@
 [ {
-  "uid" : "bc68066f0deca5ee",
-  "name" : "test_browsesVlog",
+  "uid" : "b42e5ab3c53db74d",
+  "name" : "test_loginByQQ",
   "time" : {
-    "start" : 1606915448462,
-    "stop" : 1606915530756,
-    "duration" : 82294
+    "start" : 1608197399945,
+    "stop" : 1608197425075,
+    "duration" : 25130
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "e635c27b24e3ebeb",
-  "name" : "test_logout",
+  "uid" : "480c061d5d1ffc90",
+  "name" : "test_loginByPwd",
   "time" : {
-    "start" : 1606915266244,
-    "stop" : 1606915310222,
-    "duration" : 43978
+    "start" : 1608197531116,
+    "stop" : 1608197561865,
+    "duration" : 30749
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "66b687ade530dab8",
+  "uid" : "bd0fa089ec3a2649",
   "name" : "test_loginByCaptcha",
   "time" : {
-    "start" : 1606915169756,
-    "stop" : 1606915195589,
-    "duration" : 25833
+    "start" : 1608197346981,
+    "stop" : 1608197375268,
+    "duration" : 28287
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "afa113d6491aa2a1",
+  "uid" : "5fb9e5493baec8e6",
   "name" : "test_logout",
   "time" : {
-    "start" : 1606915198633,
-    "stop" : 1606915218696,
-    "duration" : 20063
+    "start" : 1608197378420,
+    "stop" : 1608197397342,
+    "duration" : 18922
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "9b2e254500a114fa",
-  "name" : "test_loginByWexin",
-  "time" : {
-    "start" : 1606915313099,
-    "stop" : 1606915330273,
-    "duration" : 17174
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "bdfc3db46ac1c85",
+  "uid" : "b8fe1b1b3533373",
   "name" : "test_logout",
   "time" : {
-    "start" : 1606915333352,
-    "stop" : 1606915415367,
-    "duration" : 82015
+    "start" : 1608197427953,
+    "stop" : 1608197470176,
+    "duration" : 42223
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "ff775c15cbe57c1b",
+  "uid" : "2fcac1d5afd9d437",
   "name" : "test_logout",
   "time" : {
     "start" : 1606915534557,
@@ -69,32 +59,42 @@
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "ec2e5e1039959e59",
+  "uid" : "fef59339fb89ff7a",
+  "name" : "test_browsesVlog",
+  "time" : {
+    "start" : 1608197566250,
+    "stop" : 1608197685955,
+    "duration" : 119705
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "123e3551e73c6673",
+  "name" : "test_logout",
+  "time" : {
+    "start" : 1608197504709,
+    "stop" : 1608197528301,
+    "duration" : 23592
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "622390bef1d9062e",
   "name" : "test_checkRecordPage",
   "time" : {
-    "start" : 1606999134857,
-    "stop" : 1606999169235,
-    "duration" : 34378
+    "start" : 1608197689981,
+    "stop" : 1608197717977,
+    "duration" : 27996
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "976c59fb74ccbc7b",
-  "name" : "test_loginByPwd",
+  "uid" : "d8096c84109c3fb0",
+  "name" : "test_loginByWexin",
   "time" : {
-    "start" : 1606915418204,
-    "stop" : 1606915445409,
-    "duration" : 27205
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "f2541dbcb8e68855",
-  "name" : "test_loginByQQ",
-  "time" : {
-    "start" : 1606915221550,
-    "stop" : 1606915262932,
-    "duration" : 41382
+    "start" : 1608197472797,
+    "stop" : 1608197500359,
+    "duration" : 27562
   },
   "status" : "passed",
   "severity" : "normal"

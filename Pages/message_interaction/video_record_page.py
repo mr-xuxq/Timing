@@ -21,7 +21,7 @@ class Video_record(BaseAction):
     #柠檬头滑动框
     beginToRecord = By.ID, 'com.huiian.timing:id/mSlideToggleView'
     #头套
-    hatsBtn = By.ID, 'com.huiian.timing:id/effectsImage'
+    hatsBtn = By.ID, 'com.huiian.timing:id/effectsEmpty'
     #说话就拍准备状态文案
     readyToSpeak = By.ID, 'com.huiian.timing:id/tv_state_desc'
 #-----------------------------------------------------------------------------------------------------------------------

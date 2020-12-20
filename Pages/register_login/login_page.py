@@ -21,6 +21,8 @@ class Login(BaseAction):
     privacyProtocol = By.ID,'com.huiian.timing:id/ll_lbq'
     # 【目标】
     target =By.ID, 'com.huiian.timing:id/message_img'
+    # 【同意协议按钮】
+    agreeLogin =By.ID, 'com.huiian.timing:id/iv_check'
 
 
     def check_fristPage(self):
@@ -51,6 +53,8 @@ class Login(BaseAction):
         self.click(self.wechatBtn)
     def click_Privacy_protocol(self):
         self.click(self.privacyProtocol)
+    def click_agree_login(self):
+        self.click(self.agreeLogin)
     def check_target(self):
         return self.is_feature_exist(self.target)
     def check_loginByphone(self):
