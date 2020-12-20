@@ -28,14 +28,10 @@ class Test_loginByQQ():
         with allure.step('点击QQ登录'):
             self.page.login().click_QQ_login()
         with allure.step('点击qq授权'):
-<<<<<<< HEAD
             time.sleep(8)
             self.page.more().simpleTap(0.502, 0.833)
             self.page.more().simpleTap(0.502, 0.865)
             #self.page.login().click_QQ_agree()
-=======
-            self.page.login().click_QQ_agree()
->>>>>>> 6fda5947f557b3c8371e03a4ed2db866f5865781
             time.sleep(5)
         with allure.step('检查是否跳到首页'):
             result = self.page.shouye().check_shouye()
@@ -53,24 +49,16 @@ class Test_loginByQQ():
             if result == True:
                 with allure.step('点击更多按钮'):
                     self.page.more().click_more()
-<<<<<<< HEAD
                     time.sleep(8)
-=======
->>>>>>> 6fda5947f557b3c8371e03a4ed2db866f5865781
                 with allure.step('点击设置按钮'):
                     self.page.more().click_setting()
                 with allure.step('点击退出登录按钮'):
                     self.page.setting().click_logout()
                 with allure.step('确定退出'):
                     self.page.setting().click_confirmLogout()
-<<<<<<< HEAD
                     time.sleep(2)
                 with allure.step('断言:退出登录成功'):
                     assert self.page.setting().check_target() == True
-=======
-                with allure.step('断言:退出登录成功'):
-                    assert self.page.setting().findLogin() == True
->>>>>>> 6fda5947f557b3c8371e03a4ed2db866f5865781
             else:
                 with allure.step('处于未登录状态，用例结束'):
                     pass

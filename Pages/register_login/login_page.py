@@ -53,14 +53,9 @@ class Login(BaseAction):
         self.click(self.wechatBtn)
     def click_Privacy_protocol(self):
         self.click(self.privacyProtocol)
-<<<<<<< HEAD
     def click_agree_login(self):
         self.click(self.agreeLogin)
     def check_target(self):
         return self.is_feature_exist(self.target)
     def check_loginByphone(self):
         return self.is_feature_exist(self.phoneBtn)
-=======
-    def check_target(self):
-        return self.is_feature_exist(self.target)
->>>>>>> 6fda5947f557b3c8371e03a4ed2db866f5865781

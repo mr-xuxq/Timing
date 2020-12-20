@@ -24,9 +24,7 @@ from Pages.personal_information.person_home_page import Person_home
 # ——————————————————————-—————-Post_content————————————————————-—-——#
 from Pages.post_content.post_page import Post_content
 from Pages.post_content.post_diary_page import Post_diary
-from Pages.post_content.post_video_page import Post_video
 from Pages.post_content.selectPhoto_page import Select_diary_photo
-from Pages.post_content.selectVideo_page import Select_diary_video
 from Pages.post_content.topic_page import Topic
 from Pages.post_content.select_cover_page import Select_cover
 # ———————————————————————————-Register_login————————————————-———-—-——#
@@ -115,14 +113,8 @@ class Page:
     def post_diary(self):
         return Post_diary(self.driver)
 
-    def post_video(self):
-        return Post_video(self.driver)
-
     def select_diary_photo(self):
         return Select_diary_photo(self.driver)
-
-    def select_diary_video(self):
-        return Select_diary_video(self.driver)
 
     def topic(self):
         return Topic(self.driver)

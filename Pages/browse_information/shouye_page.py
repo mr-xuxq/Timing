@@ -67,10 +67,6 @@ class Shouye(BaseAction):
             return False
 
     def check_shouye(self):
-<<<<<<< HEAD
         return self.is_feature_exist(self.shouyeBtn)
     def check_sVlog(self):
         return self.is_feature_exist(self.sVlogCover)
-=======
-        return self.is_feature_exist(self.moreBtn)
->>>>>>> 6fda5947f557b3c8371e03a4ed2db866f5865781

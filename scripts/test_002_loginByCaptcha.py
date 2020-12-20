@@ -5,12 +5,8 @@ from base.base_driver import Base
 #from base.base_analyze import analyze_file
 import pandas as pd
 from sqlalchemy import create_engine
-<<<<<<< HEAD
 #phone = 10000000000 + random.randint(1, 99)
 phone = 10000000888
-=======
-phone = 10000000000 + random.randint(1, 99)
->>>>>>> 6fda5947f557b3c8371e03a4ed2db866f5865781
 #此处填入数据库连接
 
 

@@ -1,22 +1,12 @@
 {
-<<<<<<< HEAD:scripts/allure-report/data/test-cases/4809de6ecdeb763b.json
   "uid" : "4809de6ecdeb763b",
-=======
-  "uid" : "8be6a75b35418746",
->>>>>>> 6fda5947f557b3c8371e03a4ed2db866f5865781:scripts/allure-report/data/test-cases/8be6a75b35418746.json
   "name" : "test_browsesVlog",
   "fullName" : "test_011_browsesVlog.Test_browsesVlog#test_browsesVlog",
   "historyId" : "58a35e78c95610b9a2577f96444cd07a",
   "time" : {
-<<<<<<< HEAD:scripts/allure-report/data/test-cases/4809de6ecdeb763b.json
     "start" : 1606915448462,
     "stop" : 1606915530756,
     "duration" : 82294
-=======
-    "start" : 1587134293035,
-    "stop" : 1587134335083,
-    "duration" : 42048
->>>>>>> 6fda5947f557b3c8371e03a4ed2db866f5865781:scripts/allure-report/data/test-cases/8be6a75b35418746.json
   },
   "status" : "passed",
   "flaky" : false,
@@ -27,15 +17,9 @@
     "steps" : [ {
       "name" : "点击sVlog标题",
       "time" : {
-<<<<<<< HEAD:scripts/allure-report/data/test-cases/4809de6ecdeb763b.json
         "start" : 1606915448462,
         "stop" : 1606915458110,
         "duration" : 9648
-=======
-        "start" : 1587134293035,
-        "stop" : 1587134318476,
-        "duration" : 25441
->>>>>>> 6fda5947f557b3c8371e03a4ed2db866f5865781:scripts/allure-report/data/test-cases/8be6a75b35418746.json
       },
       "status" : "passed",
       "steps" : [ ],
@@ -43,7 +27,6 @@
       "parameters" : [ ],
       "stepsCount" : 0,
       "hasContent" : false,
-<<<<<<< HEAD:scripts/allure-report/data/test-cases/4809de6ecdeb763b.json
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false
     }, {
@@ -52,16 +35,6 @@
         "start" : 1606915458110,
         "stop" : 1606915530225,
         "duration" : 72115
-=======
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
-    }, {
-      "name" : "浏览长视频列表",
-      "time" : {
-        "start" : 1587134318476,
-        "stop" : 1587134332799,
-        "duration" : 14323
->>>>>>> 6fda5947f557b3c8371e03a4ed2db866f5865781:scripts/allure-report/data/test-cases/8be6a75b35418746.json
       },
       "status" : "passed",
       "steps" : [ ],
@@ -69,7 +42,6 @@
       "parameters" : [ ],
       "stepsCount" : 0,
       "hasContent" : false,
-<<<<<<< HEAD:scripts/allure-report/data/test-cases/4809de6ecdeb763b.json
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false
     }, {
@@ -78,16 +50,6 @@
         "start" : 1606915530225,
         "stop" : 1606915530756,
         "duration" : 531
-=======
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
-    }, {
-      "name" : "断言:无任何崩溃闪退",
-      "time" : {
-        "start" : 1587134332799,
-        "stop" : 1587134335082,
-        "duration" : 2283
->>>>>>> 6fda5947f557b3c8371e03a4ed2db866f5865781:scripts/allure-report/data/test-cases/8be6a75b35418746.json
       },
       "status" : "passed",
       "steps" : [ ],
@@ -95,25 +57,15 @@
       "parameters" : [ ],
       "stepsCount" : 0,
       "hasContent" : false,
-<<<<<<< HEAD:scripts/allure-report/data/test-cases/4809de6ecdeb763b.json
       "attachmentsCount" : 0,
       "shouldDisplayMessage" : false
-=======
-      "shouldDisplayMessage" : false,
-      "attachmentsCount" : 0
->>>>>>> 6fda5947f557b3c8371e03a4ed2db866f5865781:scripts/allure-report/data/test-cases/8be6a75b35418746.json
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
     "stepsCount" : 3,
     "hasContent" : true,
-<<<<<<< HEAD:scripts/allure-report/data/test-cases/4809de6ecdeb763b.json
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false
-=======
-    "shouldDisplayMessage" : false,
-    "attachmentsCount" : 0
->>>>>>> 6fda5947f557b3c8371e03a4ed2db866f5865781:scripts/allure-report/data/test-cases/8be6a75b35418746.json
   },
   "afterStages" : [ ],
   "labels" : [ {
@@ -127,11 +79,7 @@
     "value" : "WINDOWS-49AO44L"
   }, {
     "name" : "thread",
-<<<<<<< HEAD:scripts/allure-report/data/test-cases/4809de6ecdeb763b.json
     "value" : "144-MainThread"
-=======
-    "value" : "8816-MainThread"
->>>>>>> 6fda5947f557b3c8371e03a4ed2db866f5865781:scripts/allure-report/data/test-cases/8be6a75b35418746.json
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -153,10 +101,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-<<<<<<< HEAD:scripts/allure-report/data/test-cases/4809de6ecdeb763b.json
   "source" : "4809de6ecdeb763b.json",
-=======
-  "source" : "8be6a75b35418746.json",
->>>>>>> 6fda5947f557b3c8371e03a4ed2db866f5865781:scripts/allure-report/data/test-cases/8be6a75b35418746.json
   "parameterValues" : [ ]
 }

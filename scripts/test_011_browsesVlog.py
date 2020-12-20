@@ -37,7 +37,4 @@ class Test_browsesVlog():
                 time.sleep(1)
         with allure.step('断言:无任何崩溃闪退'):
             assert self.page.sVlog_list().check_sVlogTitle() == True
-<<<<<<< HEAD
 
-=======
->>>>>>> 6fda5947f557b3c8371e03a4ed2db866f5865781
