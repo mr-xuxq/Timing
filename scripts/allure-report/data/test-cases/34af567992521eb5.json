@@ -1,0 +1,135 @@
+{
+  "uid" : "34af567992521eb5",
+  "name" : "test_logout",
+  "fullName" : "test_001_registerAccount.Test_registerAccount#test_logout",
+  "historyId" : "afd790239c990a2f0e6479c27d247442",
+  "time" : {
+    "start" : 1587137515413,
+    "stop" : 1587137531524,
+    "duration" : 16111
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "点击更多按钮",
+      "time" : {
+        "start" : 1587137515413,
+        "stop" : 1587137522428,
+        "duration" : 7015
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "点击设置按钮",
+      "time" : {
+        "start" : 1587137522428,
+        "stop" : 1587137525876,
+        "duration" : 3448
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "点击退出登录按钮",
+      "time" : {
+        "start" : 1587137525876,
+        "stop" : 1587137527224,
+        "duration" : 1348
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "确定退出",
+      "time" : {
+        "start" : 1587137527224,
+        "stop" : 1587137530932,
+        "duration" : 3708
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "断言:退出登录成功",
+      "time" : {
+        "start" : 1587137530932,
+        "stop" : 1587137531524,
+        "duration" : 592
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_001_registerAccount"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_registerAccount"
+  }, {
+    "name" : "host",
+    "value" : "PV-X00232293"
+  }, {
+    "name" : "thread",
+    "value" : "3868-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_001_registerAccount"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "34af567992521eb5.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,108 @@
+{
+  "uid" : "28641b2114f20e57",
+  "name" : "test_browseShowye",
+  "fullName" : "test_014_browseShouye.Test_browseShowye#test_browseShowye",
+  "historyId" : "8a9c0a89d45e7d8b7b9862e7c710b6c7",
+  "time" : {
+    "start" : 1587137967118,
+    "stop" : 1587138005795,
+    "duration" : 38677
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "检测登陆状态",
+      "time" : {
+        "start" : 1587137972118,
+        "stop" : 1587138005795,
+        "duration" : 33677
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "登陆到首页成功，开始浏览",
+        "time" : {
+          "start" : 1587137982395,
+          "stop" : 1587138005795,
+          "duration" : 23400
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "断言：浏览无闪退",
+          "time" : {
+            "start" : 1587137995571,
+            "stop" : 1587138005795,
+            "duration" : 10224
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "刷首页算法"
+  }, {
+    "name" : "suite",
+    "value" : "test_014_browseShouye"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_browseShowye"
+  }, {
+    "name" : "host",
+    "value" : "PV-X00232293"
+  }, {
+    "name" : "thread",
+    "value" : "3868-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_014_browseShouye"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "28641b2114f20e57.json",
+  "parameterValues" : [ ]
+}

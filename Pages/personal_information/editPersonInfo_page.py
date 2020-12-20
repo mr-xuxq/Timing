@@ -38,6 +38,7 @@ class Edit_personal_info(BaseAction):
     def click_back(self):
         self.click(self.backBtn)
     def swipeByGender(self):
+<<<<<<< HEAD
         self.swipeOperat(0.5, 0.93, 0.5, 0.79, 150)
 
     def input_name(self, content):
@@ -46,3 +47,6 @@ class Edit_personal_info(BaseAction):
     def tapScreen(self,x,y):
         L = self.getSize()
         self.driver.tap([(L[0]*x,L[1]*y)],1)
+=======
+        self.swipeOperat(0.5, 0.93, 0.5, 0.79, 150)
+>>>>>>> 6fda5947f557b3c8371e03a4ed2db866f5865781

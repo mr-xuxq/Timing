@@ -1,0 +1,232 @@
+{
+  "uid" : "f537e92abf12668f",
+  "name" : "test_tomatoTiming",
+  "fullName" : "test_052_tomatoTiming.Test_tomatoTiming#test_tomatoTiming",
+  "historyId" : "215a606a6bd5c4b1fff76af9c931bf8f",
+  "time" : {
+    "start" : 1587139590688,
+    "stop" : 1587139621240,
+    "duration" : 30552
+  },
+  "status" : "passed",
+  "flaky" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "进入更多页面",
+      "time" : {
+        "start" : 1587139590688,
+        "stop" : 1587139607603,
+        "duration" : 16915
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "滑动更多页面至底部",
+      "time" : {
+        "start" : 1587139607603,
+        "stop" : 1587139611505,
+        "duration" : 3902
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "点击学习计时按钮，设定内容后开始",
+      "time" : {
+        "start" : 1587139611505,
+        "stop" : 1587139620169,
+        "duration" : 8664
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "判断能否正常进入番茄计时页面",
+      "time" : {
+        "start" : 1587139620169,
+        "stop" : 1587139621239,
+        "duration" : 1070
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "番茄计时功能"
+  }, {
+    "name" : "suite",
+    "value" : "test_052_tomatoTiming"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_tomatoTiming"
+  }, {
+    "name" : "host",
+    "value" : "PV-X00232293"
+  }, {
+    "name" : "thread",
+    "value" : "4376-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_052_tomatoTiming"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "4a1abe144b09c765",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587135594758,
+        "stop" : 1587135665349,
+        "duration" : 70591
+      }
+    }, {
+      "uid" : "faba44d98894c104",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587062099381,
+        "stop" : 1587062121447,
+        "duration" : 22066
+      }
+    }, {
+      "uid" : "471497a8311c4291",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1587059893050,
+        "stop" : 1587059965644,
+        "duration" : 72594
+      }
+    }, {
+      "uid" : "ca57cfd844458779",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587057585019,
+        "stop" : 1587057607399,
+        "duration" : 22380
+      }
+    }, {
+      "uid" : "4a4ea8b211954431",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1587054131844,
+        "stop" : 1587054194879,
+        "duration" : 63035
+      }
+    }, {
+      "uid" : "6ef057fc72cb0d86",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1587051394204,
+        "stop" : 1587051458427,
+        "duration" : 64223
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 5,
+        "broken" : 2,
+        "skipped" : 0,
+        "passed" : 14,
+        "unknown" : 0,
+        "total" : 21
+      },
+      "items" : [ {
+        "uid" : "9b1bcafbd2ab9b66",
+        "reportUrl" : "http://192.168.88.58:8080/job/Timing/43/allure/#testresult/9b1bcafbd2ab9b66",
+        "status" : "passed",
+        "time" : {
+          "start" : 1587135594758,
+          "stop" : 1587135665349,
+          "duration" : 70591
+        }
+      }, {
+        "uid" : "8c12f1e1e89c3ebf",
+        "reportUrl" : "http://192.168.88.58:8080/job/Timing/42/allure/#testresult/8c12f1e1e89c3ebf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1587135594758,
+          "stop" : 1587135665349,
+          "duration" : 70591
+        }
+      }, {
+        "uid" : "60719fb15eb26c",
+        "reportUrl" : "http://192.168.88.58:8080/job/Timing/41/allure/#testresult/60719fb15eb26c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1587135594758,
+          "stop" : 1587135665349,
+          "duration" : 70591
+        }
+      }, {
+        "uid" : "cbe737d50af0a22f",
+        "reportUrl" : "http://192.168.88.58:8080/job/Timing/38/allure/#testresult/cbe737d50af0a22f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1587062099381,
+          "stop" : 1587062121447,
+          "duration" : 22066
+        }
+      }, {
+        "uid" : "77bdaa7b81ef8fa3",
+        "reportUrl" : "http://192.168.88.58:8080/job/Timing/36/allure/#testresult/77bdaa7b81ef8fa3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1587057585019,
+          "stop" : 1587057607399,
+          "duration" : 22380
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "f537e92abf12668f.json",
+  "parameterValues" : [ ]
+}

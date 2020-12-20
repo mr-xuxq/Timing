@@ -4,6 +4,7 @@
   "children" : [ {
     "name" : "WINDOWS-49AO44L",
     "children" : [ {
+<<<<<<< HEAD
       "name" : "18136-MainThread",
       "children" : [ {
         "name" : "test_logout",
@@ -27,11 +28,36 @@
           "start" : 1607262435482,
           "stop" : 1607262475364,
           "duration" : 39882
+=======
+      "name" : "4376-MainThread",
+      "children" : [ {
+        "name" : "test_logout",
+        "uid" : "98ca64818ddd9c13",
+        "parentUid" : "14a6a4cb89821961b664c9ac4c5853c0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1587139868357,
+          "stop" : 1587139884686,
+          "duration" : 16329
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_loginByPwd",
+        "uid" : "9a20b3c9cf46135b",
+        "parentUid" : "14a6a4cb89821961b664c9ac4c5853c0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1587138384872,
+          "stop" : 1587138414047,
+          "duration" : 29175
+>>>>>>> 6fda5947f557b3c8371e03a4ed2db866f5865781
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
+<<<<<<< HEAD
         "name" : "test_loginByPwd",
         "uid" : "8db7227394d84051",
         "parentUid" : "fc05329e34f37cf25ee469c6fa32e58d",
@@ -40,11 +66,22 @@
           "start" : 1607262557148,
           "stop" : 1607262557148,
           "duration" : 0
+=======
+        "name" : "test_logout",
+        "uid" : "64d87e2e7a946cdd",
+        "parentUid" : "14a6a4cb89821961b664c9ac4c5853c0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1587138288215,
+          "stop" : 1587138309548,
+          "duration" : 21333
+>>>>>>> 6fda5947f557b3c8371e03a4ed2db866f5865781
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
+<<<<<<< HEAD
         "name" : "test_logout",
         "uid" : "a5a63b060c5f442a",
         "parentUid" : "fc05329e34f37cf25ee469c6fa32e58d",
@@ -66,11 +103,34 @@
           "start" : 1607262412939,
           "stop" : 1607262432571,
           "duration" : 19632
+=======
+        "name" : "test_videoRecordTiming",
+        "uid" : "c5c7b9df0b89d7c3",
+        "parentUid" : "14a6a4cb89821961b664c9ac4c5853c0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1587139625074,
+          "stop" : 1587139788249,
+          "duration" : 163175
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_loginByCaptcha",
+        "uid" : "62055ce7865314f5",
+        "parentUid" : "14a6a4cb89821961b664c9ac4c5853c0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1587138197615,
+          "stop" : 1587138219595,
+          "duration" : 21980
+>>>>>>> 6fda5947f557b3c8371e03a4ed2db866f5865781
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
+<<<<<<< HEAD
         "name" : "test_browsesVlog",
         "uid" : "743670584170bc1a",
         "parentUid" : "fc05329e34f37cf25ee469c6fa32e58d",
@@ -161,11 +221,58 @@
           "start" : 1608133395584,
           "stop" : 1608133417402,
           "duration" : 21818
+=======
+        "name" : "test_loginByQQ",
+        "uid" : "5af3139374c3fd35",
+        "parentUid" : "14a6a4cb89821961b664c9ac4c5853c0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1587138248566,
+          "stop" : 1587138284388,
+          "duration" : 35822
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_deleteDiary",
+        "uid" : "93084ac596005c1a",
+        "parentUid" : "14a6a4cb89821961b664c9ac4c5853c0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1587139202559,
+          "stop" : 1587139307988,
+          "duration" : 105429
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_checkFollowList",
+        "uid" : "cbfa5e5a90403ecc",
+        "parentUid" : "14a6a4cb89821961b664c9ac4c5853c0",
+        "status" : "failed",
+        "time" : {
+          "start" : 1587139427001,
+          "stop" : 1587139485485,
+          "duration" : 58484
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_normalTiming",
+        "uid" : "b8f29f5035d0ecf6",
+        "parentUid" : "14a6a4cb89821961b664c9ac4c5853c0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1587139489273,
+          "stop" : 1587139586827,
+          "duration" : 97554
+>>>>>>> 6fda5947f557b3c8371e03a4ed2db866f5865781
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
+<<<<<<< HEAD
         "name" : "test_loginByWexin",
         "uid" : "bf192ea716b5a6b",
         "parentUid" : "3ad2bca1612fa21c687180d19e048fc8",
@@ -187,11 +294,22 @@
           "start" : 1608133663774,
           "stop" : 1608133742454,
           "duration" : 78680
+=======
+        "name" : "test_logout",
+        "uid" : "e892519b7be75a89",
+        "parentUid" : "14a6a4cb89821961b664c9ac4c5853c0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1587138178006,
+          "stop" : 1587138193818,
+          "duration" : 15812
+>>>>>>> 6fda5947f557b3c8371e03a4ed2db866f5865781
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
+<<<<<<< HEAD
         "name" : "test_loginByPwd",
         "uid" : "e9161a7d48b5cabd",
         "parentUid" : "3ad2bca1612fa21c687180d19e048fc8",
@@ -200,11 +318,22 @@
           "start" : 1608133499951,
           "stop" : 1608133530513,
           "duration" : 30562
+=======
+        "name" : "test_genderInfo",
+        "uid" : "d2c55cf09bff858a",
+        "parentUid" : "14a6a4cb89821961b664c9ac4c5853c0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1587139362171,
+          "stop" : 1587139391660,
+          "duration" : 29489
+>>>>>>> 6fda5947f557b3c8371e03a4ed2db866f5865781
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
+<<<<<<< HEAD
         "name" : "test_loginByCaptcha",
         "uid" : "88ef49543d82834f",
         "parentUid" : "3ad2bca1612fa21c687180d19e048fc8",
@@ -226,11 +355,22 @@
           "start" : 1608133464782,
           "stop" : 1608133497254,
           "duration" : 32472
+=======
+        "name" : "test_chatVideo",
+        "uid" : "fca9e49ab6154535",
+        "parentUid" : "14a6a4cb89821961b664c9ac4c5853c0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1587138851492,
+          "stop" : 1587138914634,
+          "duration" : 63142
+>>>>>>> 6fda5947f557b3c8371e03a4ed2db866f5865781
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
+<<<<<<< HEAD
         "name" : "test_logout",
         "uid" : "2464c3cf1998b8ef",
         "parentUid" : "3ad2bca1612fa21c687180d19e048fc8",
@@ -282,11 +422,46 @@
           "start" : 1607616430869,
           "stop" : 1607616458784,
           "duration" : 27915
+=======
+        "name" : "test_chatImage",
+        "uid" : "2023884265b97128",
+        "parentUid" : "14a6a4cb89821961b664c9ac4c5853c0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1587138998621,
+          "stop" : 1587139038501,
+          "duration" : 39880
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_registerAccount",
+        "uid" : "891057562f429605",
+        "parentUid" : "14a6a4cb89821961b664c9ac4c5853c0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1587138108018,
+          "stop" : 1587138174238,
+          "duration" : 66220
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_videoRoom_visitor",
+        "uid" : "bc7de68061e58fb1",
+        "parentUid" : "14a6a4cb89821961b664c9ac4c5853c0",
+        "status" : "broken",
+        "time" : {
+          "start" : 1587138486767,
+          "stop" : 1587138578897,
+          "duration" : 92130
+>>>>>>> 6fda5947f557b3c8371e03a4ed2db866f5865781
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
+<<<<<<< HEAD
         "name" : "test_loginByQQ",
         "uid" : "6f194950d715ec83",
         "parentUid" : "9f745ad037866daaf441a6ba22663a03",
@@ -295,11 +470,34 @@
           "start" : 1607616319539,
           "stop" : 1607616358610,
           "duration" : 39071
+=======
+        "name" : "test_teamChatWord",
+        "uid" : "c6f3052050d89e25",
+        "parentUid" : "14a6a4cb89821961b664c9ac4c5853c0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1587138949995,
+          "stop" : 1587138994814,
+          "duration" : 44819
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_logout",
+        "uid" : "aa025b607179d492",
+        "parentUid" : "14a6a4cb89821961b664c9ac4c5853c0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1587138350872,
+          "stop" : 1587138381219,
+          "duration" : 30347
+>>>>>>> 6fda5947f557b3c8371e03a4ed2db866f5865781
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
+<<<<<<< HEAD
         "name" : "test_logout",
         "uid" : "c093ab1154d9b698",
         "parentUid" : "9f745ad037866daaf441a6ba22663a03",
@@ -308,11 +506,22 @@
           "start" : 1607616300186,
           "stop" : 1607616316808,
           "duration" : 16622
+=======
+        "name" : "test_sleepRecord",
+        "uid" : "c0e9c1860df04107",
+        "parentUid" : "14a6a4cb89821961b664c9ac4c5853c0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1587139792098,
+          "stop" : 1587139835426,
+          "duration" : 43328
+>>>>>>> 6fda5947f557b3c8371e03a4ed2db866f5865781
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
+<<<<<<< HEAD
         "name" : "test_logout",
         "uid" : "d17910a5475e40b3",
         "parentUid" : "9f745ad037866daaf441a6ba22663a03",
@@ -407,11 +616,22 @@
           "start" : 1606907926516,
           "stop" : 1606907948039,
           "duration" : 21523
+=======
+        "name" : "test_discussTeam",
+        "uid" : "210961ab636fc28d",
+        "parentUid" : "14a6a4cb89821961b664c9ac4c5853c0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1587138918591,
+          "stop" : 1587138946193,
+          "duration" : 27602
+>>>>>>> 6fda5947f557b3c8371e03a4ed2db866f5865781
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
+<<<<<<< HEAD
         "name" : "test_logout",
         "uid" : "b4a044b0c7ffc243",
         "parentUid" : "d1e2edbced53865c08449adf3f612fcc",
@@ -463,11 +683,22 @@
           "start" : 1606912527833,
           "stop" : 1606912566835,
           "duration" : 39002
+=======
+        "name" : "test_treeHole",
+        "uid" : "263a896a51cbacf",
+        "parentUid" : "14a6a4cb89821961b664c9ac4c5853c0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1587138631309,
+          "stop" : 1587138674290,
+          "duration" : 42981
+>>>>>>> 6fda5947f557b3c8371e03a4ed2db866f5865781
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
+<<<<<<< HEAD
         "name" : "test_loginByPwd",
         "uid" : "9262a13ef7ae396f",
         "parentUid" : "e6fa4e9644137344dbf1449403273121",
@@ -515,11 +746,46 @@
           "start" : 1606912428841,
           "stop" : 1606912450180,
           "duration" : 21339
+=======
+        "name" : "test_logout",
+        "uid" : "cc08979d31907719",
+        "parentUid" : "14a6a4cb89821961b664c9ac4c5853c0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1587138223346,
+          "stop" : 1587138244788,
+          "duration" : 21442
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_loginByWexin",
+        "uid" : "dd969357a77507ec",
+        "parentUid" : "14a6a4cb89821961b664c9ac4c5853c0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1587138313290,
+          "stop" : 1587138347099,
+          "duration" : 33809
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_chatVideo",
+        "uid" : "ec7da43f8c06a9d8",
+        "parentUid" : "14a6a4cb89821961b664c9ac4c5853c0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1587139042333,
+          "stop" : 1587139133792,
+          "duration" : 91459
+>>>>>>> 6fda5947f557b3c8371e03a4ed2db866f5865781
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
+<<<<<<< HEAD
         "name" : "test_loginByWexin",
         "uid" : "60178455a840c342",
         "parentUid" : "e6fa4e9644137344dbf1449403273121",
@@ -571,11 +837,34 @@
           "start" : 1606915313099,
           "stop" : 1606915330273,
           "duration" : 17174
+=======
+        "name" : "test_chatWord",
+        "uid" : "91847cb219cc0d62",
+        "parentUid" : "14a6a4cb89821961b664c9ac4c5853c0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1587138713800,
+          "stop" : 1587138797547,
+          "duration" : 83747
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_browseShowye",
+        "uid" : "7035ff9231dd78fc",
+        "parentUid" : "14a6a4cb89821961b664c9ac4c5853c0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1587138582713,
+          "stop" : 1587138627546,
+          "duration" : 44833
+>>>>>>> 6fda5947f557b3c8371e03a4ed2db866f5865781
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
+<<<<<<< HEAD
         "name" : "test_logout",
         "uid" : "e3b7cf443cc0a324",
         "parentUid" : "1d10a75b2a39bd45bc49c026f3599202",
@@ -584,11 +873,22 @@
           "start" : 1606915266244,
           "stop" : 1606915310222,
           "duration" : 43978
+=======
+        "name" : "test_postDiary",
+        "uid" : "54c78fb0c93317f1",
+        "parentUid" : "14a6a4cb89821961b664c9ac4c5853c0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1587139137578,
+          "stop" : 1587139198773,
+          "duration" : 61195
+>>>>>>> 6fda5947f557b3c8371e03a4ed2db866f5865781
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
+<<<<<<< HEAD
         "name" : "test_loginByPwd",
         "uid" : "1f0c7452032191a7",
         "parentUid" : "1d10a75b2a39bd45bc49c026f3599202",
@@ -610,11 +910,22 @@
           "start" : 1606915169756,
           "stop" : 1606915195589,
           "duration" : 25833
+=======
+        "name" : "test_browsesVlog",
+        "uid" : "5dccabd646482101",
+        "parentUid" : "14a6a4cb89821961b664c9ac4c5853c0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1587138417922,
+          "stop" : 1587138482964,
+          "duration" : 65042
+>>>>>>> 6fda5947f557b3c8371e03a4ed2db866f5865781
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
+<<<<<<< HEAD
         "name" : "test_logout",
         "uid" : "687d4430e1c73a5f",
         "parentUid" : "1d10a75b2a39bd45bc49c026f3599202",
@@ -649,11 +960,34 @@
           "start" : 1606915448462,
           "stop" : 1606915530756,
           "duration" : 82294
+=======
+        "name" : "test_interaction",
+        "uid" : "bbcc9e449629b74d",
+        "parentUid" : "14a6a4cb89821961b664c9ac4c5853c0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1587138690203,
+          "stop" : 1587138710221,
+          "duration" : 20018
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_tomatoTiming",
+        "uid" : "f537e92abf12668f",
+        "parentUid" : "14a6a4cb89821961b664c9ac4c5853c0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1587139590688,
+          "stop" : 1587139621240,
+          "duration" : 30552
+>>>>>>> 6fda5947f557b3c8371e03a4ed2db866f5865781
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
+<<<<<<< HEAD
         "name" : "test_logout",
         "uid" : "f72977b4f361a0b3",
         "parentUid" : "1d10a75b2a39bd45bc49c026f3599202",
@@ -2120,6 +2454,69 @@
         "parameters" : [ ]
       } ],
       "uid" : "70ddaddf267d825311ff859ea9f9ced2"
+=======
+        "name" : "test_nameInfo",
+        "uid" : "59739f01f3b13c83",
+        "parentUid" : "14a6a4cb89821961b664c9ac4c5853c0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1587139311878,
+          "stop" : 1587139358165,
+          "duration" : 46287
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_getupRecord",
+        "uid" : "6b8287a630ca9f19",
+        "parentUid" : "14a6a4cb89821961b664c9ac4c5853c0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1587139839348,
+          "stop" : 1587139864507,
+          "duration" : 25159
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_chatImage",
+        "uid" : "77d58473bb136c7a",
+        "parentUid" : "14a6a4cb89821961b664c9ac4c5853c0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1587138801270,
+          "stop" : 1587138847719,
+          "duration" : 46449
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_timingService",
+        "uid" : "5095d40ded4a87d5",
+        "parentUid" : "14a6a4cb89821961b664c9ac4c5853c0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1587138678375,
+          "stop" : 1587138686425,
+          "duration" : 8050
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_imgInfo",
+        "uid" : "14a750e4f27b4df3",
+        "parentUid" : "14a6a4cb89821961b664c9ac4c5853c0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1587139395460,
+          "stop" : 1587139423274,
+          "duration" : 27814
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "14a6a4cb89821961b664c9ac4c5853c0"
+>>>>>>> 6fda5947f557b3c8371e03a4ed2db866f5865781
     } ],
     "uid" : "ad06452dbf39b344ea6d105ee875f0da"
   } ]

@@ -1,8 +1,82 @@
 {
+<<<<<<< HEAD
   "total" : 6,
+=======
+  "total" : 21,
+>>>>>>> 6fda5947f557b3c8371e03a4ed2db866f5865781
   "items" : [ {
-    "uid" : "398d65f7f625df45db5997ff0001cf74",
-    "name" : "test_011_browsesVlog",
+    "uid" : "1bedc58c9757c09017c39eab2eed1ca8",
+    "name" : "test_043_checkFollowList",
+    "statistic" : {
+<<<<<<< HEAD
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+=======
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "956faec2d7a4363664a9d5c899779ff4",
+    "name" : "test_013_videoRoom",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "f4b53d28ddd4786979c527a436b433fd",
+    "name" : "test_022_friendChat",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "354949c710d071ddd2bacc7547a9e2e5",
+    "name" : "test_025_groupChat",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+>>>>>>> 6fda5947f557b3c8371e03a4ed2db866f5865781
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "8a0d0591a29d0d40e2c90f7c49a7ec37",
+    "name" : "test_041_changePersonalInformation",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+<<<<<<< HEAD
+      "passed" : 2,
+=======
+      "passed" : 3,
+>>>>>>> 6fda5947f557b3c8371e03a4ed2db866f5865781
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+<<<<<<< HEAD
+    "uid" : "bc99b46cd1c1f19c856eaaa6f74c2fec",
+    "name" : "test_003_loginByQQ",
+=======
+    "uid" : "a75e9e80197bd07dd87ad9566971bd90",
+    "name" : "test_001_registerAccount",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -14,6 +88,7 @@
   }, {
     "uid" : "3183b646a4be569afb5752d7e055d1d1",
     "name" : "test_002_loginByCaptcha",
+>>>>>>> 6fda5947f557b3c8371e03a4ed2db866f5865781
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -23,19 +98,13 @@
       "total" : 2
     }
   }, {
-    "uid" : "bc99b46cd1c1f19c856eaaa6f74c2fec",
-    "name" : "test_003_loginByQQ",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 2,
-      "unknown" : 0,
-      "total" : 2
-    }
-  }, {
+<<<<<<< HEAD
     "uid" : "4a69bd602993cc01d73970fbdf1f6418",
     "name" : "test_004_loginByWexin",
+=======
+    "uid" : "bc99b46cd1c1f19c856eaaa6f74c2fec",
+    "name" : "test_003_loginByQQ",
+>>>>>>> 6fda5947f557b3c8371e03a4ed2db866f5865781
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -45,26 +114,44 @@
       "total" : 2
     }
   }, {
+<<<<<<< HEAD
     "uid" : "b9eaea7f886718b06979dc34b482e683",
     "name" : "test_005_loginByPwd",
+=======
+    "uid" : "4a69bd602993cc01d73970fbdf1f6418",
+    "name" : "test_004_loginByWexin",
+>>>>>>> 6fda5947f557b3c8371e03a4ed2db866f5865781
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
+<<<<<<< HEAD
       "passed" : 1,
+=======
+      "passed" : 2,
+>>>>>>> 6fda5947f557b3c8371e03a4ed2db866f5865781
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     }
   }, {
+<<<<<<< HEAD
     "uid" : "10f9aad445a2f0943a6d5ee0b857551e",
     "name" : "test_021_checkRecordPage",
+=======
+    "uid" : "12142777dc0ad13d441a25ffbc36972e",
+    "name" : "test_021_channelCheck",
+>>>>>>> 6fda5947f557b3c8371e03a4ed2db866f5865781
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
+<<<<<<< HEAD
       "passed" : 1,
+=======
+      "passed" : 2,
+>>>>>>> 6fda5947f557b3c8371e03a4ed2db866f5865781
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     }
   } ]
 }

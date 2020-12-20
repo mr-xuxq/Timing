@@ -1,0 +1,234 @@
+{
+  "uid" : "c5c7b9df0b89d7c3",
+  "name" : "test_videoRecordTiming",
+  "fullName" : "test_053_videoRecordTiming.Test_videoRecordTiming#test_videoRecordTiming",
+  "historyId" : "51867c13abb9a21a0481d8e2b12818f2",
+  "time" : {
+    "start" : 1587139625074,
+    "stop" : 1587139788249,
+    "duration" : 163175
+  },
+  "status" : "passed",
+  "flaky" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "进入更多页面",
+      "time" : {
+        "start" : 1587139625075,
+        "stop" : 1587139645022,
+        "duration" : 19947
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "滑动更多页面至底部",
+      "time" : {
+        "start" : 1587139645022,
+        "stop" : 1587139649627,
+        "duration" : 4605
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "点击视频打卡按钮，设定内容后开始",
+      "time" : {
+        "start" : 1587139649627,
+        "stop" : 1587139785426,
+        "duration" : 135799
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "校验结果：视频打卡1min后判断计时是否正常结束",
+      "time" : {
+        "start" : 1587139785426,
+        "stop" : 1587139788249,
+        "duration" : 2823
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "视频打卡功能"
+  }, {
+    "name" : "story",
+    "value" : "视频打卡操作"
+  }, {
+    "name" : "suite",
+    "value" : "test_053_videoRecordTiming"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_videoRecordTiming"
+  }, {
+    "name" : "host",
+    "value" : "PV-X00232293"
+  }, {
+    "name" : "thread",
+    "value" : "4376-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_053_videoRecordTiming"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "3818c59070295e9b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587135669039,
+        "stop" : 1587135830526,
+        "duration" : 161487
+      }
+    }, {
+      "uid" : "b5ace6abdbc12496",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587062125450,
+        "stop" : 1587062278247,
+        "duration" : 152797
+      }
+    }, {
+      "uid" : "84d82aa5c09a1e78",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1587059969643,
+        "stop" : 1587060046050,
+        "duration" : 76407
+      }
+    }, {
+      "uid" : "914ee4ccbd1c3599",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587057610401,
+        "stop" : 1587057764413,
+        "duration" : 154012
+      }
+    }, {
+      "uid" : "29bffcff6d65d959",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1587054198229,
+        "stop" : 1587054276235,
+        "duration" : 78006
+      }
+    }, {
+      "uid" : "f05f0dfde7865f01",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587051462221,
+        "stop" : 1587051625308,
+        "duration" : 163087
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 5,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 15,
+        "unknown" : 0,
+        "total" : 21
+      },
+      "items" : [ {
+        "uid" : "a5c44eed3cf5349d",
+        "reportUrl" : "http://192.168.88.58:8080/job/Timing/43/allure/#testresult/a5c44eed3cf5349d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1587135669039,
+          "stop" : 1587135830526,
+          "duration" : 161487
+        }
+      }, {
+        "uid" : "8ff4c3dc202dcf37",
+        "reportUrl" : "http://192.168.88.58:8080/job/Timing/42/allure/#testresult/8ff4c3dc202dcf37",
+        "status" : "passed",
+        "time" : {
+          "start" : 1587135669039,
+          "stop" : 1587135830526,
+          "duration" : 161487
+        }
+      }, {
+        "uid" : "1d44252791165432",
+        "reportUrl" : "http://192.168.88.58:8080/job/Timing/41/allure/#testresult/1d44252791165432",
+        "status" : "passed",
+        "time" : {
+          "start" : 1587135669039,
+          "stop" : 1587135830526,
+          "duration" : 161487
+        }
+      }, {
+        "uid" : "d5631592af815b14",
+        "reportUrl" : "http://192.168.88.58:8080/job/Timing/38/allure/#testresult/d5631592af815b14",
+        "status" : "passed",
+        "time" : {
+          "start" : 1587062125450,
+          "stop" : 1587062278247,
+          "duration" : 152797
+        }
+      }, {
+        "uid" : "4dd870e244292b34",
+        "reportUrl" : "http://192.168.88.58:8080/job/Timing/36/allure/#testresult/4dd870e244292b34",
+        "status" : "passed",
+        "time" : {
+          "start" : 1587057610401,
+          "stop" : 1587057764413,
+          "duration" : 154012
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "c5c7b9df0b89d7c3.json",
+  "parameterValues" : [ ]
+}

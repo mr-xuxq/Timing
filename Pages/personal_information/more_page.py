@@ -119,8 +119,12 @@ class More(BaseAction):
     #     return  num
 #--------------------------------------------------------------------------------------------------
     def click_identification(self):
+<<<<<<< HEAD
         self.click(self.identificationBtn)
 
     #坐标点击起床
     def simpleTap(self,x,y):
         self.tapOperat(x,y)
+=======
+        self.click(self.identificationBtn)
+>>>>>>> 6fda5947f557b3c8371e03a4ed2db866f5865781

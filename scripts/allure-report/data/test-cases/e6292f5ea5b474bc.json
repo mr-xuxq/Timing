@@ -1,0 +1,215 @@
+{
+  "uid" : "e6292f5ea5b474bc",
+  "name" : "test_checkFollowList",
+  "fullName" : "test_043_checkFollowList.Test_CheckFollowList#test_checkFollowList",
+  "historyId" : "f262352153b3f2b8fe35179a6ec74f14",
+  "time" : {
+    "start" : 1587057403914,
+    "stop" : 1587057484029,
+    "duration" : 80115
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "进入更多页面",
+      "time" : {
+        "start" : 1587057403914,
+        "stop" : 1587057413584,
+        "duration" : 9670
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "获取关注列表的人数",
+      "time" : {
+        "start" : 1587057413584,
+        "stop" : 1587057414958,
+        "duration" : 1374
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "点击进入首页",
+      "time" : {
+        "start" : 1587057414958,
+        "stop" : 1587057417234,
+        "duration" : 2276
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "点击一篇日记,进入详情页",
+      "time" : {
+        "start" : 1587057417234,
+        "stop" : 1587057419320,
+        "duration" : 2086
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "日记进详情页,点击关注",
+      "time" : {
+        "start" : 1587057419320,
+        "stop" : 1587057442755,
+        "duration" : 23435
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "点击返回,回到首页",
+      "time" : {
+        "start" : 1587057442755,
+        "stop" : 1587057452914,
+        "duration" : 10159
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "点击进入更多页面",
+      "time" : {
+        "start" : 1587057452914,
+        "stop" : 1587057476584,
+        "duration" : 23670
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "下拉刷新更多页面",
+      "time" : {
+        "start" : 1587057476584,
+        "stop" : 1587057481975,
+        "duration" : 5391
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "再次获取关注人数",
+      "time" : {
+        "start" : 1587057481975,
+        "stop" : 1587057484029,
+        "duration" : 2054
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "判断关注人数是否前后一致",
+      "time" : {
+        "start" : 1587057484029,
+        "stop" : 1587057484029,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 10,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "关注列表检查"
+  }, {
+    "name" : "story"
+  }, {
+    "name" : "suite",
+    "value" : "test_043_checkFollowList"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_CheckFollowList"
+  }, {
+    "name" : "host",
+    "value" : "PV-X00232293"
+  }, {
+    "name" : "thread",
+    "value" : "744-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_043_checkFollowList"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e6292f5ea5b474bc.json",
+  "parameterValues" : [ ]
+}

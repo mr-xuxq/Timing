@@ -1,0 +1,240 @@
+{
+  "uid" : "e8024e16d911e0ff",
+  "name" : "test_postDiary",
+  "fullName" : "test_031_postDiary.Test_postDiary#test_postDiary",
+  "historyId" : "2393a1199737e7f6568d8b37e9f87f79",
+  "time" : {
+    "start" : 1587050810928,
+    "stop" : 1587050883057,
+    "duration" : 72129
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "进入发布页",
+      "time" : {
+        "start" : 1587050815929,
+        "stop" : 1587050836358,
+        "duration" : 20429
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "点击发布学习日记",
+      "time" : {
+        "start" : 1587050836358,
+        "stop" : 1587050837767,
+        "duration" : 1409
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "点击上传图片",
+      "time" : {
+        "start" : 1587050837767,
+        "stop" : 1587050839123,
+        "duration" : 1356
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "选定图片",
+      "time" : {
+        "start" : 1587050839123,
+        "stop" : 1587050840578,
+        "duration" : 1455
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "下一步，进入图片编辑页",
+      "time" : {
+        "start" : 1587050840578,
+        "stop" : 1587050841631,
+        "duration" : 1053
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "已确定图片，进入下一步",
+      "time" : {
+        "start" : 1587050841631,
+        "stop" : 1587050845023,
+        "duration" : 3392
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "点击添加话题",
+      "time" : {
+        "start" : 1587050845023,
+        "stop" : 1587050846571,
+        "duration" : 1548
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "输入话题",
+      "time" : {
+        "start" : 1587050846571,
+        "stop" : 1587050852293,
+        "duration" : 5722
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "完成话题编辑",
+      "time" : {
+        "start" : 1587050852293,
+        "stop" : 1587050856527,
+        "duration" : 4234
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "输入日记正文",
+      "time" : {
+        "start" : 1587050856527,
+        "stop" : 1587050861728,
+        "duration" : 5201
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "点击发布按钮",
+      "time" : {
+        "start" : 1587050861728,
+        "stop" : 1587050872933,
+        "duration" : 11205
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "断言:日记发布成功",
+      "time" : {
+        "start" : 1587050872933,
+        "stop" : 1587050883056,
+        "duration" : 10123
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 12,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_031_postDiary"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_postDiary"
+  }, {
+    "name" : "host",
+    "value" : "PV-X00232293"
+  }, {
+    "name" : "thread",
+    "value" : "10656-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_031_postDiary"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e8024e16d911e0ff.json",
+  "parameterValues" : [ ]
+}

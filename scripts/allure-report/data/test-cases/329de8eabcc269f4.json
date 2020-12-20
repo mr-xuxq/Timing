@@ -1,0 +1,171 @@
+{
+  "uid" : "329de8eabcc269f4",
+  "name" : "test_chatImage",
+  "fullName" : "test_022_friendChat.Test_friendChat#test_chatImage",
+  "historyId" : "91b29d7c0decadea0b7cf26e9aa7713c",
+  "time" : {
+    "start" : 1587050426336,
+    "stop" : 1587050522513,
+    "duration" : 96177
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "进入消息页面",
+      "time" : {
+        "start" : 1587050426336,
+        "stop" : 1587050442061,
+        "duration" : 15725
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "滑动消息页面寻找第一个道友",
+      "time" : {
+        "start" : 1587050442061,
+        "stop" : 1587050444049,
+        "duration" : 1988
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "找到道友后点击channel进入聊天页面",
+      "time" : {
+        "start" : 1587050444049,
+        "stop" : 1587050445461,
+        "duration" : 1412
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "点击聊天页面添加按钮",
+      "time" : {
+        "start" : 1587050445461,
+        "stop" : 1587050467798,
+        "duration" : 22337
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "选择相册",
+      "time" : {
+        "start" : 1587050467798,
+        "stop" : 1587050488665,
+        "duration" : 20867
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "选择相册页面第一张图片并发送",
+      "time" : {
+        "start" : 1587050488665,
+        "stop" : 1587050522512,
+        "duration" : 33847
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "校验结果：若发送成功，消息页会显示最新图片",
+      "time" : {
+        "start" : 1587050522512,
+        "stop" : 1587050522512,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 7,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "聊天页功能"
+  }, {
+    "name" : "story",
+    "value" : "图片聊天"
+  }, {
+    "name" : "suite",
+    "value" : "test_022_friendChat"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_friendChat"
+  }, {
+    "name" : "host",
+    "value" : "PV-X00232293"
+  }, {
+    "name" : "thread",
+    "value" : "10656-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_022_friendChat"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "329de8eabcc269f4.json",
+  "parameterValues" : [ ]
+}

@@ -1,5 +1,49 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
+<<<<<<< HEAD
   "children" : [ ]
+=======
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "selenium.common.exceptions.TimeoutException: Message:",
+      "children" : [ {
+        "name" : "test_videoRoom_visitor",
+        "uid" : "bc7de68061e58fb1",
+        "parentUid" : "31bb78a6a95ede3f78b260ed048910d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1587138486767,
+          "stop" : 1587138578897,
+          "duration" : 92130
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "31bb78a6a95ede3f78b260ed048910d8"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  }, {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert False == True\n  -False\n  +True",
+      "children" : [ {
+        "name" : "test_checkFollowList",
+        "uid" : "cbfa5e5a90403ecc",
+        "parentUid" : "9ec8f191b848aac8e79241d2720739a9",
+        "status" : "failed",
+        "time" : {
+          "start" : 1587139427001,
+          "stop" : 1587139485485,
+          "duration" : 58484
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9ec8f191b848aac8e79241d2720739a9"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+>>>>>>> 6fda5947f557b3c8371e03a4ed2db866f5865781
 }

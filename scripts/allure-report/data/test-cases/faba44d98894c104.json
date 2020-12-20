@@ -1,0 +1,123 @@
+{
+  "uid" : "faba44d98894c104",
+  "name" : "test_tomatoTiming",
+  "fullName" : "test_052_tomatoTiming.Test_tomatoTiming#test_tomatoTiming",
+  "historyId" : "215a606a6bd5c4b1fff76af9c931bf8f",
+  "time" : {
+    "start" : 1587062099381,
+    "stop" : 1587062121447,
+    "duration" : 22066
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "进入更多页面",
+      "time" : {
+        "start" : 1587062099381,
+        "stop" : 1587062107276,
+        "duration" : 7895
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "滑动更多页面至底部",
+      "time" : {
+        "start" : 1587062107276,
+        "stop" : 1587062110605,
+        "duration" : 3329
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "点击学习计时按钮，设定内容后开始",
+      "time" : {
+        "start" : 1587062110605,
+        "stop" : 1587062120522,
+        "duration" : 9917
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "判断能否正常进入番茄计时页面",
+      "time" : {
+        "start" : 1587062120523,
+        "stop" : 1587062121447,
+        "duration" : 924
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "番茄计时功能"
+  }, {
+    "name" : "suite",
+    "value" : "test_052_tomatoTiming"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_tomatoTiming"
+  }, {
+    "name" : "host",
+    "value" : "PV-X00232293"
+  }, {
+    "name" : "thread",
+    "value" : "5228-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_052_tomatoTiming"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "faba44d98894c104.json",
+  "parameterValues" : [ ]
+}

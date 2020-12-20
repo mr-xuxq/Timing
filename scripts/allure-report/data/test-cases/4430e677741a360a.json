@@ -1,0 +1,141 @@
+{
+  "uid" : "4430e677741a360a",
+  "name" : "test_chatVideo",
+  "fullName" : "test_025_groupChat.Test_teamChat#test_chatVideo",
+  "historyId" : "a3ee25ba58e5c6fea7881bab0734e793",
+  "time" : {
+    "start" : 1587061582813,
+    "stop" : 1587061633185,
+    "duration" : 50372
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "点击聊天页面添加按钮",
+      "time" : {
+        "start" : 1587061588817,
+        "stop" : 1587061595113,
+        "duration" : 6296
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "选择视频",
+      "time" : {
+        "start" : 1587061595113,
+        "stop" : 1587061595473,
+        "duration" : 360
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "视频选择页选中一个视频并发送",
+      "time" : {
+        "start" : 1587061595473,
+        "stop" : 1587061633185,
+        "duration" : 37712
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "取消道友channel置顶",
+        "time" : {
+          "start" : 1587061622826,
+          "stop" : 1587061633185,
+          "duration" : 10359
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "校验结果：若发送成功，消息页会显示最新视频",
+      "time" : {
+        "start" : 1587061633185,
+        "stop" : 1587061633185,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "群组聊天功能"
+  }, {
+    "name" : "story",
+    "value" : "视频聊天"
+  }, {
+    "name" : "suite",
+    "value" : "test_025_groupChat"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_teamChat"
+  }, {
+    "name" : "host",
+    "value" : "PV-X00232293"
+  }, {
+    "name" : "thread",
+    "value" : "5228-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_025_groupChat"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4430e677741a360a.json",
+  "parameterValues" : [ ]
+}
