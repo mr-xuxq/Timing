@@ -5,7 +5,7 @@ class Post_content(BaseAction):
     # 【发布按钮】
     postBtn = By.ID, 'com.huiian.timing:id/ll_post'
     # 【发布图文日记按钮】
-    postDiaryBtn = By.ID, 'com.huiian.timing:id/cl_post_diary'
+    postDiaryBtn = By.ID, 'com.huiian.timing:id/ll_post_diary'
     # 【上传长视频按钮】
     postVideoBtn = By.ID, 'com.huiian.timing:id/cl_post_video'
     # 【学习计时按钮】
