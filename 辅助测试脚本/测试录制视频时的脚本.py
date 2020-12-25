@@ -42,23 +42,6 @@ time.sleep(2)
 clickOperat(0.497, 0.853)
 time.sleep(2)
 for j in range(1,10):
-    print(j)
-    # for i in  range(1,100):
-    #     clickOperat(0.904,0.147)
-    #     time.sleep(0.2)
-    # # 反复点击美颜按钮
-    # for i in  range(1,50):
-    #     clickOperat(0.904,0.212)
-    #     time.sleep(0.2)
-    # # 反复点击头套按钮
-    # for i in  range(1,200):
-    #     clickOperat(0.792, 0.817)
-    #     time.sleep(0.2)
-    # for i in  range(1,10):
-    #     clickOperat(0.748, 0.903)
-    #     time.sleep(0.5)
-    #     clickOperat(0.251, 0.9)
-    #     time.sleep(0.5)
     for i in  range(1,1000):
         clickOperat(0.792, 0.817)
         time.sleep(0.2)

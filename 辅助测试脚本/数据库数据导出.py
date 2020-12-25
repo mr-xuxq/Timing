@@ -7,9 +7,9 @@ from sqlalchemy import create_engine
 class OutputData():
 
     def getAndroidNumber(self):
-        # 从数据库获取ID
-        captchaList = pd.read_sql('SELECT DISTINCT(userID),brand,phoneModel,os FROM t_active_record WHERE postTime > ''2020-10-07 20:00:00' AND market <> "appstore"', engine2)
-        file = open('Android数据.xlsx', 'a')
+        # 从数据库获取ID(从active_record表内获取这一天后所有使用Android登录的用户的信息)
+        captchaList = pd.read_sql('SELECT DISTINCT(userID),brand,phoneModel,os,postTime FROM t_active_record WHERE postTime > "2020-12-25 00:00:00" AND market <> "appstore" order by postTime desc ', engine2)
+        file = open('Android数据.xlsx', 'w')
         file.write(str(captchaList) + '\n')
         file.close()
 
