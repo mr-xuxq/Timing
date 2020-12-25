@@ -36,22 +36,4 @@ class Test_postDiary():
         with allure.step('断言：发布成功'):
             assert self.page.follow().check_postSuccess() == True
 
-    def test_logout(self):
-        with allure.step('检测登陆状态'):
-            result = self.page.shouye().check_shouye()
-            if result == True:
-                with allure.step('点击更多按钮'):
-                    self.page.more().click_more()
-                    time.sleep(8)
-                with allure.step('点击设置按钮'):
-                    self.page.more().click_setting()
-                with allure.step('点击退出登录按钮'):
-                    self.page.setting().click_logout()
-                with allure.step('确定退出'):
-                    self.page.setting().click_confirmLogout()
-                    time.sleep(2)
-                with allure.step('断言:退出登录成功'):
-                    assert self.page.setting().check_target() == True
-            else:
-                with allure.step('处于未登录状态，用例结束'):
-                    pass
+

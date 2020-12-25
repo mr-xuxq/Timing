@@ -7,6 +7,8 @@ import pandas as pd
 from sqlalchemy import create_engine
 #phone = 10000000000 + random.randint(1, 99)
 #此处填入数据库连接
+engine = create_engine('mysql+pymysql://timing_read_only:db_only_hsyt21@rr-bp12u85w22spt5976do.mysql.rds.aliyuncs.com:3306/timing?charset=utf8')
+
 
 class Test_changeNickname():
     #setup函数是在一个类里面最先被调用的函数，而且每执行完一个函数都要从setUp()调用开始后再执行下一个函数，有几个函数就调用他几次，与位置无关，随便放在那里都是他先被调用。
@@ -23,9 +25,27 @@ class Test_changeNickname():
     #判断元素是否在当前页面内
     sourse = []
     # @pytest.mark.parametrize("args", analyze_file("address_data.yaml", "test_address"))                               # 装饰器
-    #手机号密码登录测试用例
+    def test_logout(self):
+        with allure.step('检测登陆状态'):
+            result = self.page.shouye().check_shouye()
+            if result == True:
+                with allure.step('点击更多按钮'):
+                    self.page.more().click_more()
+                    time.sleep(8)
+                with allure.step('点击设置按钮'):
+                    self.page.more().click_setting()
+                with allure.step('点击退出登录按钮'):
+                    self.page.setting().click_logout()
+                with allure.step('确定退出'):
+                    self.page.setting().click_confirmLogout()
+                    time.sleep(2)
+                with allure.step('断言:退出登录成功'):
+                    assert self.page.setting().check_target() == True
+            else:
+                with allure.step('处于未登录状态，用例结束'):
+                    pass
     def test_changeNickname(self):
-        phone = 10000000125
+        phone = 10000000887
         with allure.step('点击同意服务协议'):
             self.page.login().click_agree_login()
         with allure.step('点击手机号登录'):
