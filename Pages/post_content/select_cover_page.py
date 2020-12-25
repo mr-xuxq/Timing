@@ -4,7 +4,7 @@ from base.base_action import BaseAction
 
 class Select_cover(BaseAction):
     # 【完成按钮】
-    nextBtn =By.ID,'com.huiian.timing:id/tv_confirm'
+    nextBtn =By.ID,'com.huiian.timing:id/stickerView'
 
     def click_next(self):
         self.click(self.nextBtn)
