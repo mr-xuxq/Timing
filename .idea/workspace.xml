@@ -1,210 +1,517 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="4e293f98-54c3-4594-8bb1-635543f6b429" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/scripts/test_023_pointVanish.py" afterDir="false" />
+    <list default="true" id="aa5a3a5f-17f0-46b5-98e3-9b8131a33e9c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/Timing.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/手机群控/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/爬虫/.idea/Crawling.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/界面可视化/.idea/界面可视化.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/账号相关/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/辅助测试脚本/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/v/cache/lastfailed" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/testDemo_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/testDemo_test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/testDemo_test.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/browse_information/shouye_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/browse_information/shouye_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/personal_information/more_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/personal_information/more_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/timed_learning/timing_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/timed_learning/timing_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/test_014_browseShouye.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/test_014_browseShouye.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/test_021_channelCheck.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/test_021_channelCheck.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/test_022_friendChat.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/test_022_friendChat.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/test_041_changePersonalInformation.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/test_041_changePersonalInformation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/test_051_normalTiming.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/test_051_normalTiming.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/test_052_tomatoTiming.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/test_052_tomatoTiming.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/test_053_videoRecordTiming.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/test_053_videoRecordTiming.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/test_054_sleepRecord.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/test_054_sleepRecord.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/test_055_getupRecord.py" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/test_055_getupRecord.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/browse_information/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/browse_information/daily_page.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/browse_information/follow_page.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/browse_information/sVlog_list_page.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/browse_information/shouye_page.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/browse_information/tree_hole_page.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/browse_information/video_hall_page.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/browse_information/video_room_list_page.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/browse_information/video_room_page.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/message_interaction/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/message_interaction/chat_chooseImage_page.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/message_interaction/chat_chooseVideo_page.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/message_interaction/create_group_page.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/message_interaction/friend_chat_page.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/message_interaction/group_page.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/message_interaction/message_page.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/message_interaction/video_record_page.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/page.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/personal_information/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/personal_information/editPersonInfo_page.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/personal_information/more_page.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/personal_information/nameInfo_page.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/personal_information/person_home_page.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/personal_information/setting_page.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/post_content/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/post_content/post_diary_page.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/post_content/post_page.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/post_content/selectPhoto_page.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/post_content/select_cover_page.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/post_content/topic_page.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/register_login/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/register_login/binding_phone_page.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/register_login/guide_page.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/register_login/login_page.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/register_login/login_phone_captcha_page.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/register_login/login_phone_page.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/register_login/login_phone_pwd_page.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/register_login/register_add_tags_page.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/register_login/register_fillInformation_page.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/register_login/selectPhoto_page.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/timed_learning/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/timed_learning/timing_page.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/base/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/base/base_action.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/base/base_analyze.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/base/base_driver.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/base/base_getDevices.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/login.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/default/allure-report/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/default/allure-report/data/behaviors.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/default/allure-report/data/behaviors.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/default/allure-report/data/categories.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/default/allure-report/data/categories.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/default/allure-report/data/packages.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/default/allure-report/data/suites.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/default/allure-report/data/suites.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/default/allure-report/data/timeline.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/default/allure-report/export/influxDbData.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/default/allure-report/export/mail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/default/allure-report/export/prometheusData.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/default/allure-report/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/default/allure-report/history/categories-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/default/allure-report/history/duration-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/default/allure-report/history/history-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/default/allure-report/history/history.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/default/allure-report/history/retry-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/default/allure-report/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/default/allure-report/plugins/behaviors/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/default/allure-report/plugins/packages/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/default/allure-report/plugins/screen-diff/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/default/allure-report/plugins/screen-diff/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/default/allure-report/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/default/allure-report/widgets/behaviors.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/default/allure-report/widgets/categories-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/default/allure-report/widgets/categories.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/default/allure-report/widgets/duration-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/default/allure-report/widgets/duration.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/default/allure-report/widgets/environment.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/default/allure-report/widgets/executors.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/default/allure-report/widgets/history-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/default/allure-report/widgets/launch.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/default/allure-report/widgets/retry-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/default/allure-report/widgets/severity.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/default/allure-report/widgets/status-chart.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/default/allure-report/widgets/suites.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/default/allure-report/widgets/summary.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ini/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ini/pytest.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/.cache/v/cache/lastfailed" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/data/attachments/1672934d8698069e.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/data/attachments/35bdffbdb37defc0.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/data/attachments/465119e3402a671b.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/data/attachments/61cc6056ae64183d.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/data/attachments/b8b5f3f38e3e5d61.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/data/attachments/ec46de61f3167745.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/data/attachments/ef30436b10c4d525.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/data/behaviors.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/data/behaviors.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/data/categories.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/data/categories.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/data/packages.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/data/suites.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/data/suites.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/data/test-cases/10c0d83c5cb1cf9f.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/data/test-cases/11445e895f7bc791.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/data/test-cases/11f26f3456343465.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/data/test-cases/123e3551e73c6673.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/data/test-cases/136bc7d8d538762e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/data/test-cases/149cad0ec5eb267b.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/data/test-cases/149ea30344863e0d.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/data/test-cases/1886d0fe839af921.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/data/test-cases/1d7e0e726baba053.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/data/test-cases/1e33c2880d2b9cc9.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/data/test-cases/1f0c7452032191a7.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/data/test-cases/204b1458a8f76fb0.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/data/test-cases/23f776fdf7207e1a.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/data/test-cases/2464c3cf1998b8ef.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/data/test-cases/26732676dd5fbc74.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/data/test-cases/2740a3ea34fefcfb.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/data/test-cases/280a48ed3f79f10f.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/data/test-cases/2c7833bcc15ebffc.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/data/test-cases/2fcac1d5afd9d437.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/data/test-cases/306168a29adbb432.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/data/test-cases/309304f08227274e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/data/test-cases/34e0ec17ed7da7b8.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/data/test-cases/3aff459a357233ef.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/data/test-cases/3b55dc4775125121.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/data/test-cases/3f9ba1f7c75e663.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/data/test-cases/3fcb84aae1a61391.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/data/test-cases/40c2e33a01397c97.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/data/test-cases/41c2d8e9bf9a8e6.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/data/test-cases/42014ecd97449531.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/data/test-cases/43b80604393c93d2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/data/test-cases/45e34b43f2dbbc60.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/data/test-cases/4809de6ecdeb763b.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/data/test-cases/480c061d5d1ffc90.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/data/test-cases/4a21863a9042af6a.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/data/test-cases/4a6d622485ac638d.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/data/test-cases/4baa3aa01868e870.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/data/test-cases/4e36f4cef18e084f.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/data/test-cases/4f04cf6ee9eb3fb8.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/data/test-cases/4f5cfd48e0366c73.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/data/test-cases/4f60739bd054bffc.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/data/test-cases/53e8f5b76ff94694.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/data/test-cases/5522a7196dad127a.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/data/test-cases/57183d245bd61dc.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/data/test-cases/573a2277c3ec5a27.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/data/test-cases/5987c9e1473e2ffc.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/data/test-cases/5b337c5bb799eab1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/data/test-cases/5fb9e5493baec8e6.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/data/test-cases/60178455a840c342.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/data/test-cases/6126c932168b2300.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/data/test-cases/6142ca00b3b115aa.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/data/test-cases/617077f70310766b.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/data/test-cases/622390bef1d9062e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/data/test-cases/629ac2db0c01a59a.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/data/test-cases/641a553456714d6c.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/data/test-cases/645f49f1645062f4.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/data/test-cases/6628302c3469c038.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/data/test-cases/682c488ff85909ce.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/data/test-cases/687d4430e1c73a5f.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/data/test-cases/68ba3af236bcb263.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/data/test-cases/68d02e22163541db.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/data/test-cases/68e49887075604ad.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/data/test-cases/6bcae2184508a08e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/data/test-cases/6e95b7d0a6636648.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/data/test-cases/6f194950d715ec83.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/data/test-cases/6fe7c13a36863a41.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/data/test-cases/743670584170bc1a.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/data/test-cases/7e57836f570e7c38.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/data/test-cases/80cc90d9a9934dbf.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/data/test-cases/824b7d991f4bf0e7.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/data/test-cases/824b89e7e0a7fb41.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/data/test-cases/83056691f6ca69b2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/data/test-cases/850d96d072a87f02.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/data/test-cases/855d8eff9d38289e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/data/test-cases/88ef49543d82834f.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/data/test-cases/899b04d46f63336.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/data/test-cases/8b3c0c2c63e3e4da.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/data/test-cases/8ca6a68c8bf41a9f.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/data/test-cases/8d3f54bc6ac18eb.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/data/test-cases/8db7227394d84051.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/data/test-cases/90bbba06d40ad3fb.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/data/test-cases/9262a13ef7ae396f.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/data/test-cases/9c06d1b886375952.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/data/test-cases/9c0e4aef25e3ff8f.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/data/test-cases/9d053b14ad69fa55.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/data/test-cases/9d51b0d0d6cafd1b.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/data/test-cases/9ef0f5521e5f6e00.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/data/test-cases/a2457963eb9dce8d.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/data/test-cases/a5a63b060c5f442a.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/data/test-cases/a783fef49f162e1c.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/data/test-cases/aa0c1adcb9819e1e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/data/test-cases/aa6df65f6e6fdb6e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/data/test-cases/aba89702efe8e287.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/data/test-cases/b0267fea6d84f2a0.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/data/test-cases/b09ec40e1dd30c0c.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/data/test-cases/b1d8f0c570ab162d.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/data/test-cases/b2649248626f8b17.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/data/test-cases/b3636e1e01377b7e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/data/test-cases/b42e5ab3c53db74d.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/data/test-cases/b4a044b0c7ffc243.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/data/test-cases/b4dd7e4df0b7589.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/data/test-cases/b67f76aa1b283240.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/data/test-cases/b8fe1b1b3533373.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/data/test-cases/bceb478b0453d59b.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/data/test-cases/bd0fa089ec3a2649.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/data/test-cases/be6af2ee79b8f50e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/data/test-cases/bf14d0fce46bf07d.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/data/test-cases/bf192ea716b5a6b.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/data/test-cases/bf807b598febe7c8.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/data/test-cases/c093ab1154d9b698.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/data/test-cases/c0b34336171b5a96.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/data/test-cases/c7a491aae5e918a2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/data/test-cases/c98ec01a0e238d00.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/data/test-cases/cb298370ef066c8b.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/data/test-cases/cc08d46c7b2255ef.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/data/test-cases/cc1b97cd76362fb6.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/data/test-cases/d025448734286607.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/data/test-cases/d16a58f619f50db8.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/data/test-cases/d17910a5475e40b3.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/data/test-cases/d7fff4254286de9d.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/data/test-cases/d8096c84109c3fb0.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/data/test-cases/daa131bc56d86b31.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/data/test-cases/dbfd4c4cf0beb359.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/data/test-cases/df3a592fa3a2c18b.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/data/test-cases/e0bc3ec364205cdf.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/data/test-cases/e0d7a72d114d85.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/data/test-cases/e27297314dd3cb67.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/data/test-cases/e2b2e131c8fae6e1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/data/test-cases/e32edd4f171285f7.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/data/test-cases/e33463307834bd71.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/data/test-cases/e39e44c263d212e9.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/data/test-cases/e3b7cf443cc0a324.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/data/test-cases/e43c4bfdc98a4a.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/data/test-cases/e50137c374dc8b52.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/data/test-cases/e53f7256259a537f.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/data/test-cases/e7465589a494cba6.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/data/test-cases/e9161a7d48b5cabd.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/data/test-cases/e9833b884fb04f10.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/data/test-cases/eb18b62998877298.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/data/test-cases/ef43213ace0efac.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/data/test-cases/f06440e3e71eb318.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/data/test-cases/f082716e80016b6e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/data/test-cases/f159e2486919d2a7.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/data/test-cases/f15cfca240f3e142.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/data/test-cases/f18a75dd9870fc22.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/data/test-cases/f21c140487822281.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/data/test-cases/f6c6f01180aea9b4.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/data/test-cases/f72977b4f361a0b3.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/data/test-cases/faddd6131bc79cbe.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/data/test-cases/fba94a6f77493cf2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/data/test-cases/fd1db199aeb43a4.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/data/test-cases/fd51e86f28551ad0.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/data/test-cases/fef59339fb89ff7a.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/data/test-cases/ffce8516ba236eaa.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/data/timeline.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/export/influxDbData.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/export/mail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/export/prometheusData.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/history/categories-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/history/duration-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/history/history-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/history/history.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/history/retry-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/plugins/behaviors/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/plugins/packages/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/plugins/screen-diff/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/plugins/screen-diff/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/widgets/behaviors.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/widgets/categories-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/widgets/categories.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/widgets/duration-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/widgets/duration.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/widgets/environment.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/widgets/executors.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/widgets/history-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/widgets/launch.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/widgets/retry-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/widgets/severity.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/widgets/status-chart.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/widgets/suites.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-report/widgets/summary.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-results/026324e3-7c3a-4e99-a709-5d46ac52bf6e-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-results/057c0876-679e-4c83-b0ba-79fc8cd3d12b-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-results/06f314e7-a277-4002-8dcd-3a473d620e7d-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-results/09880ee5-e542-4a6c-ae9f-e288baec37d5-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-results/09dd2fd2-3c07-43fe-ac70-eb82905c1737-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-results/0a371ccc-d6fc-487e-81b4-51e8dfaf727b-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-results/0b688fec-8a17-4642-a1a9-1f25ef6446bf-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-results/0e75837b-05ba-4d59-8b94-4c84137f6ee0-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-results/0e9db53c-8de2-4097-aae5-f0d4637deeba-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-results/12a08d88-d15b-4994-a0e3-cc0a2000677d-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-results/150e6904-94d0-41fd-b03c-c5eab02139a0-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-results/15406e93-4ad2-498e-92c3-91436388c69b-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-results/16081313-7bae-4253-a025-646f467fc531-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-results/177fdddc-09e7-4f12-80f8-db77e02e5c64-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-results/17b502dd-f9a0-4e03-ac0b-75cef90f9e93-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-results/192c1f83-f479-4fd3-af26-f37f860a9e30-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-results/19e06887-ed6b-4cec-baf0-6c505849aee4-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-results/1aa2954b-9151-4197-b7d4-c1301587fd40-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-results/1b4a286c-71f7-4e32-b16e-0be0b735ce9e-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-results/1b4e0ec7-ecac-458e-b417-499f72d90880-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-results/1cdd1a38-b688-4613-bdf4-231500cca170-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-results/1d6dd829-5a86-45cc-b010-63e1ce83dc34-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-results/1d725cb4-08bd-431f-83d0-f525a15d0427-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-results/1ef908ac-c3b0-4f43-9ea7-afade11d1ea6-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-results/2066ab79-7264-4be5-aada-a1ca7a298870-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-results/223dc427-eefa-4d70-8377-262b92c2ca70-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-results/236e0316-c3b9-4697-b2ae-f823cf7b090d-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-results/23ef9eea-2948-42d3-882b-6727414753a1-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-results/25cf5491-c081-4956-beb9-795874fc60ca-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-results/2628fdb0-3b2a-4666-a441-ee1d5589e66e-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-results/26cac125-0498-4fef-a7b1-2ad21c1c7007-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-results/27bdb6de-9835-4b3f-bbf7-acb1355c99e0-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-results/28c4d924-f339-4d9e-89d9-4ce767874981-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-results/2f23cc06-01ab-4a28-b5c9-b93ddfa1fcef-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-results/30d9e0f7-5757-4214-87a4-3f905ecd6c2a-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-results/3581029e-b950-4ce6-b9dd-c788c610baf4-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-results/35c1a525-f2c9-4812-996c-f6a0da27a10c-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-results/3bdd8b39-2b98-40a0-9e4e-48fceda1b811-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-results/3de2656d-fd25-4bb0-82c2-cb8ac1ab74d8-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-results/3e3d1982-ea90-44c6-b4a3-371623a82735-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-results/3f6a9e95-92cb-4a31-81ea-884b07266d7c-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-results/40d974fb-c0dd-4e43-8e23-76f62b60dc39-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-results/428911a5-c285-4db2-ad29-f6b191dcffcc-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-results/430727dc-18e5-44e1-a5e7-84f08bfe69e6-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-results/44562e4c-f038-466e-aed1-2fc96fc414b0-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-results/44a73f36-cabc-4300-9293-d5f5234f9ae6-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-results/45a53957-ae97-4d96-9b8f-a4a9b7319417-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-results/48c3c063-68d4-40c6-a614-655d83db0e1f-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-results/49a6968b-5013-454a-9296-5cbd3a23b662-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-results/4b1e82ef-e67e-4aca-b6c4-67f2be7767ba-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-results/4ce49f76-631d-48fb-83df-01aefbceed01-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-results/4ee1acc7-b5ed-48d4-a8ae-2ea4c2e9baa1-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-results/51debbf8-490b-4c56-8497-c0756d33a785-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-results/54a0c909-d897-425a-a5bd-8ff626813e80-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-results/54b89d59-6aa7-413a-9794-419e1f3af832-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-results/55855421-2fd3-42f2-a0ad-e23cf45fbf72-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-results/593380e2-c7ec-41a7-b3f9-f941e543d30d-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-results/5c0674de-a1d0-4c85-b38f-3fbfbfd5e7cb-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-results/5c7854e3-955a-404e-bf96-693341735007-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-results/5c8ad9d1-d2fd-4afb-b11d-0e6ca26ebc58-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-results/5d61670c-6b1e-4cc2-9e18-ead4a6d0be13-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-results/5e1f4a0c-cf04-4752-82e2-e2b8cf0fba77-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-results/5e4af573-b15e-4136-be56-4ff2166fb192-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-results/5f5c2828-82c6-4de8-b3fa-f5bef751ffd7-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-results/60469ec4-d83d-424c-9847-67746e50f6fc-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-results/60a3a295-477d-4518-8360-157d1f261da2-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-results/6419f30b-3d11-4704-8bfe-e3afbfaeb8ad-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-results/692c7ed8-f972-42a7-9506-bffc04843e65-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-results/69a4a845-5dd6-4067-a5fd-2b2b5aa2d78e-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-results/6a9e2b6a-4e70-41f8-9ced-5e81a0d3e1b3-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-results/6bdf227d-5cb4-45fb-994e-51ff26e8b484-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-results/6e3a8b42-4b0c-4add-a681-babb8d1cc617-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-results/6f098e42-e034-4574-a1fd-ae8341eae5bc-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-results/6f9f3cd4-46bc-48f4-92c1-2ee02b1a89b1-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-results/6fb568e5-316c-4021-ba4f-e7f4279387e2-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-results/702e2313-512d-4d3b-a3d1-0e7f8a84c890-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-results/7055b2e5-9bfc-4983-a72c-7d2170d3a46a-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-results/70c3e862-5f9a-4929-94fe-95dad6ea84cc-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-results/72174ff7-b102-47fb-a5b1-c3bc0ef3b518-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-results/7445732a-f684-42b1-8cd6-252124f89015-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-results/7578c1ce-c88d-4db1-a9ad-1e6f88a26c42-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-results/78daa271-9dde-4e23-80ae-2b0529b6b0fb-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-results/7d70f964-b4da-42a2-bb4e-2b9051368b28-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-results/7dcbe262-62b0-4014-9b56-8fdbdae72886-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-results/7e704b81-b9cb-44c4-8912-690aa1e0e323-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-results/821ad1b4-716b-4d99-8b01-6cf4753ec5ed-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-results/8254d283-ed7b-45a6-9565-0348242a2a62-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-results/830428b5-fe7e-422f-aeed-6255a1ae7721-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-results/833efdae-ff57-49b8-8b00-9e1656e82522-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-results/83ef16eb-12b8-4650-9a95-e0c23a92a014-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-results/84cd48c8-ee0e-40eb-8ff9-4d3560cdcd5e-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-results/8757afce-d76f-4283-874c-28e3bcb7843c-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-results/8a77f61d-1d73-490c-93c7-a3c859743a7f-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-results/8bbd567f-8fb4-4e04-b1ec-1dfed3df44a3-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-results/8be3d12b-719c-48e4-be24-a8e439e5dbb0-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-results/8f2729f0-bd2b-4a46-ba20-d9ad5814d89a-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-results/91e019f5-f793-47e2-9ad7-c6ce264a6a75-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-results/940390fc-31fb-4edd-b188-165037a2ead2-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-results/964382b6-a385-4106-a1f4-b4360c7b0a49-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-results/97a05b55-b879-41c9-802f-2a844b4f63f5-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-results/98ce56f8-7712-4014-b146-f81929cce8e7-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-results/99038923-fbde-425b-82e7-3254b2c88a32-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-results/9a7144bf-8c8a-4a70-bedc-b9c1d931f2e7-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-results/a3463452-9930-4565-833c-b729bba3fd60-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-results/a493e4b9-dd37-4e02-916e-6c5e72585d20-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-results/a8343c3b-1630-4bb6-80b9-45bbf425cbd2-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-results/a84248e5-7ac2-4459-8049-38b58b81d05a-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-results/a9db0961-bb81-418d-bea0-8ed293aa411e-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-results/aaf2ef1c-1292-4dae-b07d-1e6c2dde19b7-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-results/ac17c82e-ecc3-479c-8974-2641090bf149-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-results/ac6d7b4e-c0a7-4706-85ae-bf9d6d026ab8-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-results/b099406d-176a-4e61-9724-3eb04dbbab14-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-results/b0a4ee9e-73de-443c-bb6c-9ccf9e9e3850-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-results/b37e640a-d947-4e33-a340-7a63a1511d7d-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-results/b52b778b-4430-45fc-a495-8c1c8c6362da-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-results/b575808d-acad-4e23-baa8-cc153cfcdd9f-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-results/b6576d1e-fdcc-4d2c-a80d-3eeb20972825-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-results/b6c8e573-7f68-41cb-9bf3-f8d97b830272-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-results/b7029ae2-20cd-4ad2-81db-bf4444767a23-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-results/b70d3bb9-d154-4fff-926e-790230791981-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-results/b753761c-925d-4b5d-9e2e-b8766d38daa1-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-results/b75a86ce-1b31-46fe-9179-6178316e6d38-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-results/ba4f2f6b-336c-4405-88cd-6e2fe70ff73e-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-results/bb121416-1bd6-4fed-b174-f2a05a473efb-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-results/bc14694f-9fa4-4056-b31f-ed5b4faeeb7b-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-results/bccace75-e942-49c5-8b20-a10ee2d32c72-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-results/bd9c64a6-f03f-49f9-8424-ab3d9d34305b-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-results/be2f5ce3-1215-4b24-b4b5-503b33344637-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-results/c1f2975a-e019-463c-96d6-cea67bfa4599-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-results/c31db703-f877-4c3c-b39b-5a5daa24893e-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-results/c4307457-c655-44a8-86d9-eb0e4d94880a-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-results/c58d5476-2c9b-4ead-bcd3-7266268ec54e-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-results/c8e1ae32-fc3b-4709-95f3-03853fc2d860-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-results/cbaa1111-7bf8-4b2e-ad14-6ba3ac381582-attachment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-results/ccb746da-be94-4426-9165-8c6fe7fdec2b-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-results/ccb8290a-11f9-4ef1-ac0f-1a715e638e8d-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-results/ce3d5968-f815-45fb-ac8b-c389c326769e-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-results/ce7bc071-f7c1-4cb2-a9f0-6b21f0dd8f79-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-results/d46a63af-6329-4b09-9a65-f5d70e0b8776-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-results/d4fba4dd-5e03-4ab3-8608-5287c634792b-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-results/d7fb168d-c1ac-44b9-ac53-7dc4c85dba73-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-results/dc9c1c79-9aef-4f8d-a997-e5e4a9d2c128-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-results/e0142ae1-4d31-4708-9916-4cacda2f86b9-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-results/e42f8e48-bd6a-49f7-9ce8-8c3dc379f7ce-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-results/e473d704-31a0-4205-be22-185e52b95c87-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-results/e6300538-685d-47c6-b49d-60884586e818-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-results/e806ef3b-1672-4566-b9a1-e697c019eb14-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-results/e9dd7b44-0221-4bf1-95a2-edb3b7f2a94b-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-results/ecfed11d-e7f7-40a3-a2f1-64649415e2af-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-results/eeaa1944-6f94-4689-b179-c96d6741490f-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-results/eef8727a-7f59-440a-9f13-e4b9abf8eee2-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-results/executor.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-results/f0d453d2-3f54-4766-a46b-2e81a43cdc42-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-results/f5248c47-ed53-4302-91e6-54afe13cef2b-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-results/f59ddb57-7844-42cb-94a2-45a3b731b804-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-results/f886b08c-1670-4573-aa0b-dae0b3cb6a38-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-results/f9b1ba91-b5e3-40a8-b447-160988e0d357-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-results/fb233c2e-ae0f-4523-b99c-33dea08d8ea0-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-results/fc3af171-59ea-4350-bb6c-7b46585d17da-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-results/fc89e568-1fd7-4b9d-9e02-0adbb3e98382-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-results/ffa89228-3653-4a5a-b263-64996abc7001-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-results/history/categories-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-results/history/duration-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-results/history/history-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-results/history/history.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-results/history/retry-trend.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure-results/testrun.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/allure.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/test_002_loginByCaptcha.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/test_003_loginByQQ.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/test_004_loginByWexin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/test_005_loginByPwd.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/test_011_browsesVlog.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/test_021_checkRecordPage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/test_022_clickRecordPage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/test_051_changeNickname.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_Showdoc.xlsm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/测试用例规范.xlsx" beforeDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/mr_xuxq$pytest_for_test_registerAccount_Test_loginByCaptcha_test_loginByCaptcha.coverage" NAME="pytest for test_registerAccount.Test_loginByCaptcha.test_loginByCaptcha Coverage Results" MODIFIED="1579196583648" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
-    <SUITE FILE_PATH="coverage/Timing_UI_automatic_test_V9_8_1$login_phone_pwd_page.coverage" NAME="login_phone_pwd_page Coverage Results" MODIFIED="1578400186866" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Pages" />
-    <SUITE FILE_PATH="coverage/mr_xuxq$insertFile.coverage" NAME="insertFile Coverage Results" MODIFIED="1579274294902" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/小奇的共享文件/Timing未注册账号管理" />
-    <SUITE FILE_PATH="coverage/Timing$pytest_for_test_browsesVlog_Test_loginByCaptcha_test_browsesVlog.coverage" NAME="pytest for test_browsesVlog.Test_loginByCaptcha.test_browsesVlog Coverage Results" MODIFIED="1585714514015" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
-    <SUITE FILE_PATH="coverage/xuxq$pytest_for_test_shouye_Test_loginByCaptcha_test_scanf.coverage" NAME="pytest for test_shouye.Test_loginByCaptcha.test_scanf Coverage Results" MODIFIED="1579682575774" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
-    <SUITE FILE_PATH="coverage/Timing$pytest_for_test_031_postDiary_Test_postDiary_test_postDiary.coverage" NAME="pytest for test_031_postDiary.Test_postDiary.test_postDiary Coverage Results" MODIFIED="1586145122293" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
-    <SUITE FILE_PATH="coverage/Timing$pytest_for_test_browsesVlog_Test_browsesVlog_test_loginByPwd.coverage" NAME="pytest for test_browsesVlog.Test_browsesVlog.test_loginByPwd Coverage Results" MODIFIED="1585714944097" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
-    <SUITE FILE_PATH="coverage/Timing_UI_automatic_test_V9_8_1$pytest_for_test_loginByPwd_Test_loginByPwd_test_loginByPwd.coverage" NAME="pytest for test_loginByPwd.Test_loginByPwd.test_loginByPwd Coverage Results" MODIFIED="1578400195467" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
-    <SUITE FILE_PATH="coverage/Timing_UI_automatic_test_V9_8_1$pytest_in_test_loginByCaptcha_py.coverage" NAME="pytest in test_loginByCaptcha.py Coverage Results" MODIFIED="1578469494036" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
-    <SUITE FILE_PATH="coverage/mr_xuxq$pytest_for_test_registerAccount_Test_loginByCaptcha.coverage" NAME="pytest for test_registerAccount.Test_loginByCaptcha Coverage Results" MODIFIED="1579196316992" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
-    <SUITE FILE_PATH="coverage/Timing_UI_automatic_test_V9_8_1$.coverage" NAME="草稿纸 Coverage Results" MODIFIED="1578469739302" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
-    <SUITE FILE_PATH="coverage/mr_xuxq$pytest_for_test_registerAccount_Test_loginByCaptcha_test_logout.coverage" NAME="pytest for test_registerAccount.Test_loginByCaptcha.test_logout Coverage Results" MODIFIED="1579196497025" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
-    <SUITE FILE_PATH="coverage/mr_xuxq$pytest_in_test_registerAccount_py.coverage" NAME="pytest in test_registerAccount.py Coverage Results" MODIFIED="1579197901082" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
-    <SUITE FILE_PATH="coverage/xuxq$.coverage" NAME="草稿纸 Coverage Results" MODIFIED="1579686854486" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
-    <SUITE FILE_PATH="coverage/Timing$pytest_for_test_006_videoRoom_Test_videoRoom_test_videoRoom_visitor.coverage" NAME="pytest for test_006_videoRoom.Test_videoRoom.test_videoRoom_visitor Coverage Results" MODIFIED="1585885365733" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
-    <SUITE FILE_PATH="coverage/xuxq$pytest_for_test_shouye_test_scanf.coverage" NAME="pytest for test_shouye.test_scanf Coverage Results" MODIFIED="1579683186060" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
-    <SUITE FILE_PATH="coverage/Timing$pytest_for_test_browsesVlog_Test_browsesVlog_test_browsesVlog.coverage" NAME="pytest for test_browsesVlog.Test_browsesVlog.test_browsesVlog Coverage Results" MODIFIED="1585714807233" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
-    <SUITE FILE_PATH="coverage/Timing_UI_automatic_test_V9_8_1$pytest_for_test_loginByCaptcha_Test_loginByCaptcha_test_loginByPwd.coverage" NAME="pytest for test_loginByCaptcha.Test_loginByCaptcha.test_loginByPwd Coverage Results" MODIFIED="1578469761482" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
-    <SUITE FILE_PATH="coverage/Timing$pytest_in_test_browsesVlog_py.coverage" NAME="pytest in test_browsesVlog.py Coverage Results" MODIFIED="1585713951294" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
-    <SUITE FILE_PATH="coverage/Timing$insertFile.coverage" NAME="insertFile Coverage Results" MODIFIED="1585653739425" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/小奇的共享文件/Timing未注册账号管理" />
-    <SUITE FILE_PATH="coverage/Timing_UI_automatic_test_V9_8_1$insertFile.coverage" NAME="insertFile Coverage Results" MODIFIED="1578486274082" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/小奇的共享文件/Timing未注册账号管理" />
-    <SUITE FILE_PATH="coverage/Timing$pytest_for_test_registerAccount_Test_registerAccount.coverage" NAME="pytest for test_registerAccount.Test_registerAccount Coverage Results" MODIFIED="1585655781102" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
-    <SUITE FILE_PATH="coverage/Timing_UI_automatic_test_V9_8_1$pytest_for_test_LoginByPwd_Test_user_test_loginByphone.coverage" NAME="pytest for test_LoginByPwd.Test_user.test_loginByphone Coverage Results" MODIFIED="1578388696148" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
-    <SUITE FILE_PATH="coverage/Timing_UI_automatic_test_V9_8_1$pytest_in_test_LoginByPwd_py.coverage" NAME="pytest in test_loginByPwd.py Coverage Results" MODIFIED="1578399839559" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
-    <SUITE FILE_PATH="coverage/Timing_UI_automatic_test_V9_8_1$pytest_for_test_loginByCaptcha_Test_loginByCaptcha.coverage" NAME="pytest for test_loginByCaptcha.Test_loginByCaptcha Coverage Results" MODIFIED="1578468137926" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
-    <SUITE FILE_PATH="coverage/Timing$pytest_for_test_registerAccount_Test_registerAccount_test_registerAccount.coverage" NAME="pytest for test_registerAccount.Test_registerAccount.test_registerAccount Coverage Results" MODIFIED="1585656614696" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
-    <SUITE FILE_PATH="coverage/Timing$.coverage" NAME="草稿纸 Coverage Results" MODIFIED="1585655653162" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
-    <SUITE FILE_PATH="coverage/Timing$pytest_for_test_browsesVlog_Test_browsesVlog.coverage" NAME="pytest for test_browsesVlog.Test_browsesVlog Coverage Results" MODIFIED="1585714635108" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
-    <SUITE FILE_PATH="coverage/Timing_UI_automatic_test_V9_8_1$LoginByPwd.coverage" NAME="LoginByPwd Coverage Results" MODIFIED="1578389929253" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
-    <SUITE FILE_PATH="coverage/Timing$pytest_for_test_005_videoRoom_Test_videoRoom.coverage" NAME="pytest for test_005_videoRoom.Test_videoRoom Coverage Results" MODIFIED="1585740485724" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
-    <SUITE FILE_PATH="coverage/Timing$pytest_for_test_006_videoRoom_Test_videoRoom_test_videoRoom.coverage" NAME="pytest for test_006_videoRoom.Test_videoRoom.test_videoRoom Coverage Results" MODIFIED="1585884759231" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
-    <SUITE FILE_PATH="coverage/Timing$pytest_for_test_011_browsesVlog_Test_browsesVlog_test_browsesVlog.coverage" NAME="pytest for test_011_browsesVlog.Test_browsesVlog.test_browsesVlog Coverage Results" MODIFIED="1585911778409" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
-    <SUITE FILE_PATH="coverage/Timing$pytest_for_test_browsesVlog_Test_loginByCaptcha.coverage" NAME="pytest for test_browsesVlog.Test_loginByCaptcha Coverage Results" MODIFIED="1585712067434" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
-    <SUITE FILE_PATH="coverage/Timing_UI_automatic_test_V9_8_1$pytest_in_test__py.coverage" NAME="pytest in test_草稿纸.py Coverage Results" MODIFIED="1578384657480" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
-    <SUITE FILE_PATH="coverage/Timing_UI_automatic_test_V9_8_1$pytest_for_test_loginByPwd_Test_loginByPwd.coverage" NAME="pytest for test_loginByPwd.Test_loginByPwd Coverage Results" MODIFIED="1578395571395" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
-    <SUITE FILE_PATH="coverage/Timing_UI_automatic_test_V9_8_1$pytest_in_D__jenkins_workspace_Timing_UI_automatic_test_V9_8_1_test_py__1_.coverage" NAME="pytest in test_LoginByPwd.py Coverage Results" MODIFIED="1578389952901" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-  </component>
-  <component name="DatabaseView">
-    <option name="SHOW_INTERMEDIATE" value="true" />
-    <option name="GROUP_DATA_SOURCES" value="true" />
-    <option name="GROUP_SCHEMA" value="true" />
-    <option name="GROUP_CONTENTS" value="false" />
-    <option name="SORT_POSITIONED" value="false" />
-    <option name="SHOW_EMPTY_GROUPS" value="false" />
-    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <option name="HIDDEN_KINDS">
-      <set />
-    </option>
-    <expand />
-    <select />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scripts/test_041_changePersonalInformation.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="338">
-              <caret line="13" column="33" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
-              <folding>
-                <element signature="e#0#19#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scripts/test_022_friendChat.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="94" lean-forward="true" selection-start-line="94" selection-end-line="94" />
-              <folding>
-                <element signature="e#0#19#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scripts/test_051_normalTiming.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1716">
-              <caret line="66" column="40" selection-start-line="66" selection-start-column="40" selection-end-line="66" selection-end-column="40" />
-              <folding>
-                <element signature="e#0#19#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scripts/test_052_tomatoTiming.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
-              <folding>
-                <element signature="e#0#19#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scripts/test_014_browseShouye.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="441">
-              <caret line="21" column="18" lean-forward="true" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
-              <folding>
-                <element signature="e#0#25#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scripts/test_021_channelCheck.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-650">
-              <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
-              <folding>
-                <element signature="e#0#13#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Pages/timed_learning/timing_page.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="48" column="4" lean-forward="true" selection-start-line="48" selection-start-column="2" selection-end-line="48" selection-end-column="4" />
-              <folding>
-                <element signature="e#24#67#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/scripts/test_023_pointVanish.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="36" column="29" lean-forward="true" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="29" />
-              <folding>
-                <element signature="e#18#61#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scripts/test_054_sleepRecord.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="35" column="22" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
-              <folding>
-                <element signature="e#0#19#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scripts/test_055_getupRecord.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-182">
-              <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
-              <folding>
-                <element signature="e#0#19#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Python Script" />
       </list>
     </option>
@@ -212,1067 +519,61 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/scripts/test_005_videoRoomList.py" />
-        <option value="$PROJECT_DIR$/Pages/timed_learning/free_timing.py" />
-        <option value="$PROJECT_DIR$/scripts/test_012_videoRoom.py" />
-        <option value="$PROJECT_DIR$/scripts/test_013_videoRoomList.py" />
-        <option value="$PROJECT_DIR$/scripts/test_012_videoRoomList.py" />
-        <option value="$PROJECT_DIR$/test_054_sleepRecord.py" />
-        <option value="$PROJECT_DIR$/base/base_action.py" />
-        <option value="$PROJECT_DIR$/base/base_analyze.py" />
-        <option value="$PROJECT_DIR$/base/base_driver.py" />
-        <option value="$PROJECT_DIR$/Pages/personal_information/friend_chat_page.py" />
-        <option value="$PROJECT_DIR$/Pages/personal_information/chooseImage.py" />
-        <option value="$PROJECT_DIR$/Pages/personal_information/chat_chooseImage_page.py" />
-        <option value="$PROJECT_DIR$/Pages/personal_information/chat_chooseVideo_page.py" />
-        <option value="$PROJECT_DIR$/Pages/message_interaction/message_page.py" />
-        <option value="$PROJECT_DIR$/Pages/personal_information/personInfo_page.py" />
-        <option value="$PROJECT_DIR$/Pages/browse_information/sVlog_list_page.py" />
-        <option value="$PROJECT_DIR$/Pages/browse_information/video_hall_page.py" />
-        <option value="$PROJECT_DIR$/Pages/browse_information/video_room_list_page.py" />
-        <option value="$PROJECT_DIR$/Pages/browse_information/video_room_page.py" />
-        <option value="$PROJECT_DIR$/Pages/register_login/guide_page.py" />
-        <option value="$PROJECT_DIR$/Pages/register_login/login_phone_page.py" />
-        <option value="$PROJECT_DIR$/Pages/register_login/register_fillInformation_page.py" />
-        <option value="$PROJECT_DIR$/Pages/message_interaction/group_page.py" />
-        <option value="$PROJECT_DIR$/Pages/message_interaction/friend_chat_page.py" />
-        <option value="$PROJECT_DIR$/Pages/message_interaction/chat_chooseImage_page.py" />
-        <option value="$PROJECT_DIR$/Pages/message_interaction/chat_chooseVideo_page.py" />
-        <option value="$PROJECT_DIR$/Pages/personal_information/editPersonInfo_page.py" />
-        <option value="$PROJECT_DIR$/Pages/personal_information/nameInfo_page.py" />
-        <option value="$PROJECT_DIR$/Pages/personal_information/person_home_page.py" />
-        <option value="$PROJECT_DIR$/Pages/register_login/selectPhoto_page.py" />
-        <option value="$PROJECT_DIR$/Pages/personal_information/setting_page.py" />
-        <option value="$PROJECT_DIR$/scripts/test_013_videoRoom.py" />
-        <option value="$PROJECT_DIR$/Pages/post_content/publish_page.py" />
-        <option value="$PROJECT_DIR$/Pages/page.py" />
-        <option value="$PROJECT_DIR$/scripts/test_011_browsesVlog.py" />
-        <option value="$PROJECT_DIR$/scripts/test_001_registerAccount.py" />
-        <option value="$PROJECT_DIR$/scripts/test_002_loginByCaptcha.py" />
-        <option value="$PROJECT_DIR$/scripts/test_021_channelCheck.py" />
-        <option value="$PROJECT_DIR$/Pages/personal_information/more_page.py" />
-        <option value="$PROJECT_DIR$/Pages/browse_information/shouye_page.py" />
-        <option value="$PROJECT_DIR$/scripts/test_014_browseShouye.py" />
-        <option value="$PROJECT_DIR$/scripts/test_051_normalTiming.py" />
-        <option value="$PROJECT_DIR$/scripts/test_055_getupRecord.py" />
-        <option value="$PROJECT_DIR$/scripts/test_053_videoRecordTiming.py" />
-        <option value="$PROJECT_DIR$/scripts/test_052_tomatoTiming.py" />
-        <option value="$PROJECT_DIR$/scripts/test_041_changePersonalInformation.py" />
-        <option value="$PROJECT_DIR$/Pages/timed_learning/timing_page.py" />
-        <option value="$PROJECT_DIR$/scripts/test_022_friendChat.py" />
-        <option value="$PROJECT_DIR$/scripts/test_023_pointVanish.py" />
-        <option value="$PROJECT_DIR$/scripts/test_054_sleepRecord.py" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-65" />
-    <option name="y" value="35" />
-    <option name="width" value="1874" />
-    <option name="height" value="1096" />
-  </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Timing" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Timing" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Timing" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Timing" type="462c0819:PsiDirectoryNode" />
-              <item name="Pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Timing" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Timing" type="462c0819:PsiDirectoryNode" />
-              <item name="Pages" type="462c0819:PsiDirectoryNode" />
-              <item name="browse_information" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Timing" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Timing" type="462c0819:PsiDirectoryNode" />
-              <item name="Pages" type="462c0819:PsiDirectoryNode" />
-              <item name="browse_information" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Timing" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Timing" type="462c0819:PsiDirectoryNode" />
-              <item name="Pages" type="462c0819:PsiDirectoryNode" />
-              <item name="message_interaction" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Timing" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Timing" type="462c0819:PsiDirectoryNode" />
-              <item name="Pages" type="462c0819:PsiDirectoryNode" />
-              <item name="personal_information" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Timing" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Timing" type="462c0819:PsiDirectoryNode" />
-              <item name="Pages" type="462c0819:PsiDirectoryNode" />
-              <item name="post_content" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Timing" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Timing" type="462c0819:PsiDirectoryNode" />
-              <item name="Pages" type="462c0819:PsiDirectoryNode" />
-              <item name="timed_learning" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Timing" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Timing" type="462c0819:PsiDirectoryNode" />
-              <item name="scripts" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
+  <component name="ProjectId" id="1m8G5fmaqIy9Mx7Nit3dVBhNf9H" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/scripts/test_023_pointVanish.py" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\jenkins\workspace\Timing\scripts" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\jenkins\workspace\Timing\Pages\message_interaction" />
-      <recent name="D:\jenkins\workspace\Timing\Pages\browse_information" />
-      <recent name="D:\jenkins\workspace\xuxq\Pages\register_login" />
-      <recent name="D:\jenkins\workspace\xuxq\Pages" />
-      <recent name="D:\jenkins\workspace\xuxq\Pages\more" />
+      <recent name="D:\Jenkins\workspace\Timing\辅助测试脚本" />
+      <recent name="D:\Jenkins\workspace\Timing\未注册账号获取" />
+      <recent name="D:\Jenkins\workspace\Timing\手机群控" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Python tests.pytest in test_023_pointVanish.py">
-    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python">
-      <module name="testDemo_test" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Demo" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Users\Administrator\PycharmProjects\Demo\temp\main.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="tests" factoryName="py.test">
-      <module name="testDemo_test" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="C:\Anaconda3\envs\learn\python.exe" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/test.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest for scripts.test_013_videoRoom.Test_videoRoom" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="testDemo_test" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="C:\Anaconda3\envs\learn\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scripts" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;scripts.test_013_videoRoom.Test_videoRoom&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest for scripts.test_013_videoRoom.Test_videoRoom.test_videoRoom_visitor" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="testDemo_test" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="C:\Anaconda3\envs\learn\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scripts" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;scripts.test_013_videoRoom.Test_videoRoom.test_videoRoom_visitor&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest for test_011_browsesVlog.Test_browsesVlog.test_browsesVlog" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="testDemo_test" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="C:\Anaconda3\envs\learn\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scripts" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_011_browsesVlog.Test_browsesVlog.test_browsesVlog&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest for test_021_channelCheck.Test_channelCheck.test_interaction" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="testDemo_test" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="C:\Anaconda3\envs\learn\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scripts" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_021_channelCheck.Test_channelCheck.test_interaction&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest for test_031_postDiary.Test_postDiary.test_postDiary" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="testDemo_test" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="C:\Anaconda3\envs\learn\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scripts" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_031_postDiary.Test_postDiary.test_postDiary&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest in D:/jenkins/workspace/Timing/scripts/test_LoginByPwd2.py" type="tests" factoryName="py.test" nameIsGenerated="true">
-      <module name="testDemo_test" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/scripts/test_LoginByPwd2.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest in D:/jenkins/workspace/Timing/test.py" type="tests" factoryName="py.test" nameIsGenerated="true">
-      <module name="testDemo_test" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/test.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest in test_021_channelCheck.py" type="tests" factoryName="py.test" nameIsGenerated="true">
-      <module name="testDemo_test" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scripts" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/scripts/test_021_channelCheck.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest in test_023_pointVanish.py" type="tests" factoryName="py.test" nameIsGenerated="true">
-      <module name="testDemo_test" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/scripts/test_023_pointVanish.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest in test_041_changePersonalInformation.py" type="tests" factoryName="py.test" nameIsGenerated="true">
-      <module name="testDemo_test" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scripts" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/scripts/test_041_changePersonalInformation.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest in test_043_checkFollowList.py" type="tests" factoryName="py.test" nameIsGenerated="true">
-      <module name="testDemo_test" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scripts" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/scripts/test_043_checkFollowList.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest in test_051_normalTiming.py" type="tests" factoryName="py.test" nameIsGenerated="true">
-      <module name="testDemo_test" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/scripts/test_051_normalTiming.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest in test_052_tomatoTiming.py" type="tests" factoryName="py.test" nameIsGenerated="true">
-      <module name="testDemo_test" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/scripts/test_052_tomatoTiming.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest in test_053_videoRecordTiming.py" type="tests" factoryName="py.test" nameIsGenerated="true">
-      <module name="testDemo_test" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scripts" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/scripts/test_053_videoRecordTiming.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest in test_054_sleepRecord.py" type="tests" factoryName="py.test" nameIsGenerated="true">
-      <module name="testDemo_test" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scripts" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/scripts/test_054_sleepRecord.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest in test_055_getupRecord.py" type="tests" factoryName="py.test" nameIsGenerated="true">
-      <module name="testDemo_test" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scripts" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/scripts/test_055_getupRecord.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
-    <list>
-      <item itemvalue="Python.main (1)" />
-      <item itemvalue="Python tests.pytest in D:/jenkins/workspace/Timing/scripts/test_LoginByPwd2.py" />
-      <item itemvalue="Python tests.pytest in D:/jenkins/workspace/Timing/test.py" />
-      <item itemvalue="Python tests.pytest in test_041_changePersonalInformation.py" />
-      <item itemvalue="Python tests.pytest in test_051_normalTiming.py" />
-      <item itemvalue="Python tests.pytest in test_052_tomatoTiming.py" />
-      <item itemvalue="Python tests.pytest in test_054_sleepRecord.py" />
-      <item itemvalue="Python tests.pytest in test_023_pointVanish.py" />
-      <item itemvalue="Python tests.pytest in test_055_getupRecord.py" />
-      <item itemvalue="Python tests.pytest in test_053_videoRecordTiming.py" />
-      <item itemvalue="Python tests.pytest in test_021_channelCheck.py" />
-      <item itemvalue="Python tests.pytest for scripts.test_011_browsesVlog.Test_browsesVlog" />
-      <item itemvalue="Python tests.pytest for scripts.test_012_videoRoomList.Test_videoRoom" />
-      <item itemvalue="Python tests.pytest for scripts.test_013_videoRoom.Test_videoRoom" />
-      <item itemvalue="Python tests.pytest for scripts.test_013_videoRoom.Test_videoRoom.test_videoRoom_visitor" />
-      <item itemvalue="Python tests.pytest for test_011_browsesVlog.Test_browsesVlog.test_browsesVlog" />
-      <item itemvalue="Python tests.pytest for test_031_postDiary.Test_postDiary.test_postDiary" />
-    </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Python tests.pytest for test_031_postDiary.Test_postDiary.test_postDiary" />
-        <item itemvalue="Python tests.pytest for test_011_browsesVlog.Test_browsesVlog.test_browsesVlog" />
-        <item itemvalue="Python tests.pytest for scripts.test_013_videoRoom.Test_videoRoom.test_videoRoom_visitor" />
-        <item itemvalue="Python tests.pytest for scripts.test_013_videoRoom.Test_videoRoom" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="4e293f98-54c3-4594-8bb1-635543f6b429" name="Default Changelist" comment="" />
-      <created>1575633727235</created>
+      <changelist id="aa5a3a5f-17f0-46b5-98e3-9b8131a33e9c" name="Default Changelist" comment="" />
+      <created>1608867622447</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1575633727235</updated>
-      <workItem from="1578381438443" duration="7750000" />
-      <workItem from="1578389828946" duration="1443000" />
-      <workItem from="1578391419483" duration="13479000" />
-      <workItem from="1578469948789" duration="24240000" />
-      <workItem from="1578560558771" duration="24000" />
-      <workItem from="1578560964439" duration="1918000" />
-      <workItem from="1578655385859" duration="309000" />
-      <workItem from="1578933509727" duration="689000" />
-      <workItem from="1579159413425" duration="2132000" />
-      <workItem from="1579186670217" duration="9732000" />
-      <workItem from="1579200911038" duration="871000" />
-      <workItem from="1579258875474" duration="1596000" />
-      <workItem from="1579283330742" duration="7072000" />
-      <workItem from="1579291744762" duration="1968000" />
-      <workItem from="1579367231787" duration="1871000" />
-      <workItem from="1579503192062" duration="59000" />
-      <workItem from="1579503365516" duration="874000" />
-      <workItem from="1579677254543" duration="6912000" />
-      <workItem from="1580383545991" duration="4428000" />
-      <workItem from="1585645994074" duration="180000" />
-      <workItem from="1585646263825" duration="1108000" />
-      <workItem from="1585647420030" duration="6328000" />
-      <workItem from="1585710433188" duration="6904000" />
-      <workItem from="1585722766597" duration="1283000" />
-      <workItem from="1585731081827" duration="3889000" />
-      <workItem from="1585739214240" duration="2318000" />
-      <workItem from="1585828330762" duration="19000" />
-      <workItem from="1585878772044" duration="10084000" />
-      <workItem from="1585899731878" duration="276000" />
-      <workItem from="1585900392854" duration="6258000" />
-      <workItem from="1585907264275" duration="1843000" />
-      <workItem from="1585912259956" duration="29000" />
+      <updated>1608867622447</updated>
+      <workItem from="1608867625302" duration="602000" />
     </task>
     <servers />
   </component>
-  <component name="TestHistory">
-    <history-entry file="pytest_in_test_054_sleepRecord_py - 2020.04.06 at 11h 27m 49s.xml">
-      <configuration name="pytest in test_054_sleepRecord.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_006_videoRoom_Test_videoRoom_test_videoRoom - 2020.04.03 at 11h 34m 28s.xml">
-      <configuration name="pytest for test_006_videoRoom.Test_videoRoom.test_videoRoom" configurationId="tests" />
-    <history-entry file="pytest_in_test_054_sleepRecord_py - 2020.04.06 at 11h 29m 17s.xml">
-      <configuration name="pytest in test_054_sleepRecord.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_in_test_054_sleepRecord_py - 2020.04.06 at 11h 30m 15s.xml">
-      <configuration name="pytest in test_054_sleepRecord.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_in_test_055_getupRecord_py - 2020.04.06 at 11h 30m 52s.xml">
-      <configuration name="pytest in test_055_getupRecord.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_in_test_054_sleepRecord_py - 2020.04.06 at 11h 32m 38s.xml">
-      <configuration name="pytest in test_054_sleepRecord.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_006_videoRoom_Test_videoRoom_test_videoRoom_visitor - 2020.04.03 at 11h 44m 06s.xml">
-      <configuration name="pytest for test_006_videoRoom.Test_videoRoom.test_videoRoom_visitor" configurationId="tests" />
-    <history-entry file="pytest_in_test_023_pointVanish_py - 2020.04.06 at 11h 36m 35s.xml">
-      <configuration name="pytest in test_023_pointVanish.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_011_browsesVlog_Test_browsesVlog_test_browsesVlog - 2020.04.03 at 19h 02m 59s.xml">
-      <configuration name="pytest for test_011_browsesVlog.Test_browsesVlog.test_browsesVlog" configurationId="tests" />
-    <history-entry file="pytest_in_test_023_pointVanish_py - 2020.04.06 at 11h 37m 11s.xml">
-      <configuration name="pytest in test_023_pointVanish.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_in_test_023_pointVanish_py - 2020.04.06 at 11h 37m 50s.xml">
-      <configuration name="pytest in test_023_pointVanish.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_in_test_023_pointVanish_py - 2020.04.06 at 11h 38m 38s.xml">
-      <configuration name="pytest in test_023_pointVanish.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_in_test_023_pointVanish_py - 2020.04.06 at 11h 42m 22s.xml">
-      <configuration name="pytest in test_023_pointVanish.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_031_postDiary_Test_postDiary_test_postDiary - 2020.04.06 at 11h 38m 06s.xml">
-      <configuration name="pytest for test_031_postDiary.Test_postDiary.test_postDiary" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_031_postDiary_Test_postDiary_test_postDiary - 2020.04.06 at 11h 40m 21s.xml">
-      <configuration name="pytest for test_031_postDiary.Test_postDiary.test_postDiary" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_031_postDiary_Test_postDiary_test_postDiary - 2020.04.06 at 11h 42m 23s.xml">
-      <configuration name="pytest for test_031_postDiary.Test_postDiary.test_postDiary" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_031_postDiary_Test_postDiary_test_postDiary - 2020.04.06 at 11h 45m 25s.xml">
-      <configuration name="pytest for test_031_postDiary.Test_postDiary.test_postDiary" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_031_postDiary_Test_postDiary_test_postDiary - 2020.04.06 at 11h 47m 33s.xml">
-      <configuration name="pytest for test_031_postDiary.Test_postDiary.test_postDiary" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_031_postDiary_Test_postDiary_test_postDiary - 2020.04.06 at 11h 53m 02s.xml">
-      <configuration name="pytest for test_031_postDiary.Test_postDiary.test_postDiary" configurationId="tests" />
-    </history-entry>
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="137482000" />
-  </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="1993" y="5" width="1874" height="1096" extended-state="0" />
-    <editor active="true" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.251634" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.31737193" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.27301928" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.2951002" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32932165" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3289183" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="10" />
-      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="12" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" weight="0.32995737" />
-      <window_info anchor="right" id="SciView" order="4" />
-    </layout>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/scripts/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../python/Lib/site-packages/_pytest/python.py" />
-    <entry file="file://$PROJECT_DIR$/Pages/timed_learning/free_timing.py" />
-    <entry file="file://$PROJECT_DIR$/test_054_sleepRecord.py" />
-    <entry file="file://$PROJECT_DIR$/base/base_action.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
-          <folding>
-            <element signature="e#0#55#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/base/base_analyze.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="26" lean-forward="true" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/base/base_driver.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" column="21" lean-forward="true" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
-          <folding>
-            <element signature="e#14#42#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../荣幸如/rxr (3)/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/base/base_getDevices.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="38" lean-forward="true" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
-          <folding>
-            <element signature="e#0#17#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pages/browse_information/video_room_list_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" selection-start-column="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pages/browse_information/video_room_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="11" selection-start-column="11" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pages/message_interaction/chat_chooseVideo_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="11" lean-forward="true" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
-          <folding>
-            <element signature="e#22#65#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pages/message_interaction/friend_chat_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
-          <folding>
-            <element signature="e#20#63#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pages/message_interaction/group_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
-          <folding>
-            <element signature="e#17#60#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pages/message_interaction/message_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="16" column="10" lean-forward="true" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pages/register_login/login_phone_captcha_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pages/register_login/login_phone_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-          <folding>
-            <element signature="e#22#65#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pages/register_login/register_fillInformation_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="9" column="12" lean-forward="true" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pages/personal_information/nameInfo_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="42" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
-          <folding>
-            <element signature="e#20#63#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pages/register_login/guide_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="11" selection-start-column="11" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pages/register_login/selectPhoto_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="50" selection-start-line="13" selection-start-column="50" selection-end-line="13" selection-end-column="50" />
-        <state relative-caret-position="95">
-          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
-          <folding>
-            <element signature="e#24#67#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pages/personal_information/setting_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-        <state relative-caret-position="266">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pages/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/test_011_browsesVlog.py">
-    <entry file="file://$PROJECT_DIR$/Pages/post_content/publish_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="3" column="18" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="18" />
-          <folding>
-            <element signature="e#19#62#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pages/personal_information/editPersonInfo_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="22" column="48" selection-start-line="22" selection-start-column="48" selection-end-line="22" selection-end-column="48" />
-        <state relative-caret-position="234">
-          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-            <element signature="e#22#65#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pages/message_interaction/chat_chooseImage_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
-        <state relative-caret-position="104">
-          <caret line="4" column="18" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="18" />
-          <folding>
-            <element signature="e#22#65#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pages/personal_information/person_home_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
-          <folding>
-            <element signature="e#19#62#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pages/page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-130">
-          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
-          <folding>
-            <element signature="e#74#129#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/test_001_registerAccount.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-104">
-          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
-          <folding>
-            <element signature="e#14#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/test_002_loginByCaptcha.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="8" column="10" lean-forward="true" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
-          <folding>
-            <element signature="e#14#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/test_003_loginByPwd.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="32" column="8" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
-          <folding>
-            <element signature="e#14#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/test_011_browsesVlog.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="519">
-          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/test_012_videoRoomList.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="28" column="54" lean-forward="true" selection-start-line="28" selection-start-column="54" selection-end-line="28" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/test_013_videoRoom.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="48" column="32" lean-forward="true" selection-start-line="48" selection-start-column="32" selection-end-line="48" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pages/browse_information/sVlog_list_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="12" selection-start-column="12" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pages/browse_information/video_hall_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" selection-start-column="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pages/browse_information/shouye_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="e#25#68#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pages/personal_information/more_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="37" column="30" lean-forward="true" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="30" />
-          <folding>
-            <element signature="e#18#61#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/test_053_videoRecordTiming.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
-          <folding>
-            <element signature="e#20#63#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/test_024_groupChat.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="15" column="16" lean-forward="true" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/test_052_tomatoTiming.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/test_051_normalTiming.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1716">
-          <caret line="66" column="40" selection-start-line="66" selection-start-column="40" selection-end-line="66" selection-end-column="40" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/test_041_changePersonalInformation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="13" column="33" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/test_014_browseShouye.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="21" column="18" lean-forward="true" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/test_021_channelCheck.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-650">
-          <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pages/timed_learning/timing_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="48" column="4" lean-forward="true" selection-start-line="48" selection-start-column="2" selection-end-line="48" selection-end-column="4" />
-          <folding>
-            <element signature="e#24#67#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/test_022_friendChat.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="94" lean-forward="true" selection-start-line="94" selection-end-line="94" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/test_055_getupRecord.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-182">
-          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/test_054_sleepRecord.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="35" column="22" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/test_023_pointVanish.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="36" column="29" lean-forward="true" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ScopeChooserConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/手机群控/手机群控测试.py</url>
+          <line>1</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
