@@ -37,33 +37,31 @@ class Test_tomatoTime():
                 self.page.timing().click_startTomatoBtn()
             with allure.step('点击取消'):
                 self.page.timing().click_timingTomatoCancel()
-            with allure.step('判断不及一分钟的结束弹窗'):
-                assert self.page.timing().waitAndfind_timingEndConfirmLeft() == True
             with allure.step('点击确定'):
-                self.page.timing().click_timingEndConfirmRight()
+                self.page.timing().click_timingEndYes()
             with allure.step('判断跳到更多页'):
                 assert self.page.more().waitAndfind_more() == True
 
-    def test_tomatoTimeEnough(self):
-        with allure.step('完成番茄计时点击结束'):
-            with allure.step('更多页滑动到最底部'):
-                self.page.more().click_more()
-                time.sleep(3)
-                self.page.more().swipeByMore()
-                time.sleep(3)
-            with allure.step('点击开始学习'):
-                self.page.more().click_normalTiming()
-            with allure.step('点击番茄学习'):
-                self.page.more().click_tomato()
-            with allure.step('填写学习内容'):
-                self.page.timing().input_tomatoContentBox(12345)
-            with allure.step('点击开始学习'):
-                self.page.timing().click_startTomatoBtn()
-            with allure.step('等待计时结束弹出结束弹窗'):
-                time.sleep(1500)
-            with allure.step('点击我知道了'):
-                self.page.timing().click_timingDialog()
-            with allure.step('点击确定'):
-                self.page.timing().click_timingTomatoDone()
-            with allure.step('判断到了完成页面'):
-                assert self.page.timing().waitAndfind_timingEndSuccess() == True
+    # def test_tomatoTimeEnough(self):
+    #     with allure.step('完成番茄计时点击结束'):
+    #         with allure.step('更多页滑动到最底部'):
+    #             self.page.more().click_more()
+    #             time.sleep(3)
+    #             self.page.more().swipeByMore()
+    #             time.sleep(3)
+    #         with allure.step('点击开始学习'):
+    #             self.page.more().click_normalTiming()
+    #         with allure.step('点击番茄学习'):
+    #             self.page.more().click_tomato()
+    #         with allure.step('填写学习内容'):
+    #             self.page.timing().input_tomatoContentBox(12345)
+    #         with allure.step('点击开始学习'):
+    #             self.page.timing().click_startTomatoBtn()
+    #         with allure.step('等待计时结束弹出结束弹窗'):
+    #             time.sleep(1500)
+    #         with allure.step('点击我知道了'):
+    #             self.page.timing().click_timingDialog()
+    #         with allure.step('点击确定'):
+    #             self.page.timing().click_timingTomatoDone()
+    #         with allure.step('判断到了完成页面'):
+    #             assert self.page.timing().waitAndfind_timingEndSuccess() == True

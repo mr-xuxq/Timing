@@ -10,7 +10,7 @@ class More(BaseAction):
     # 更多_用户区域
     personBtn = By.ID, 'com.huiian.timing:id/view_info'
     # 学习计时按钮
-    normalTimingBtn = By.XPATH, '//*[@text="学习计时"]'
+    normalTimingBtn = By.XPATH, '//*[@text="开始学习"]'
     # 视频打卡按钮
     videoBtn = By.XPATH, '//*[@text="视频打卡"]'
     # 起床睡觉按钮
