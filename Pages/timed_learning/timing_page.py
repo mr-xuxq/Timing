@@ -7,49 +7,66 @@ class Timing(BaseAction):
     # 完成计时后弹窗【我知道了】
     timingDialog = By.XPATH, '//*[@text="我知道了"]'
     # 计时页面点击结束
-    timingEnd = By.XPATH, '//*[@text="结束"]'
+    #timingEnd = By.XPATH, '//*[@text="结束"]'
+    timingEnd = By.ID, 'com.huiian.timing:id/timing_finish_tv'
+    # 计时页面暂停按钮
+    timingPause = By.ID, 'com.huiian.timing:id/timing_pause_tv'
+    # 计时页面继续按钮
+    timingContinue = By.ID, 'com.huiian.timing:id/timing_continue_tv'
+    # 计时页面继续按钮
+    timingAgain = By.ID, 'com.huiian.timing:id/tv_timing_again'
+    # 计时页面确定结束按钮
+    timingEndYes = By.ID, 'com.huiian.timing:id/popupwindow_confirm_right_tv'
+    # 邀请学习按钮
+    studyTogetherBtn = By.ID, 'com.huiian.timing:id/timing_invite_tv'
+    # 选择最近聊天人员
+    selectFriend = By.ID, 'com.huiian.timing:id/tv_name'
+    # 发送计时邀请按钮
+    studyTogetherForwardBtn = By.ID, 'com.huiian.timing:id/iv_forward'
+    # 计时讨论按钮
+    studyDiscussBtn = By.ID, 'com.huiian.timing:id/ivDiscuss'
+    # 计时讨论输入框
+    sendWordBox = By.ID, 'com.huiian.timing:id/editTextMessage'
+    # 计时聊天发送按钮
+    studyDiscussSendBtn = By.ID, 'com.huiian.timing:id/sendLayout'
+    # 退回计时聊天页
+    backBtn = By.ID, 'com.huiian.timing:id/iv_start_video_record'
     # 计时结算页弹窗【知道了】
-    # timingEndDialog = By.XPATH, '//*[@text="知道了"]'
-    timingEndDialog = By.ID, 'com.huiian.timing:id/tv_know'
+    timingEndDialog = By.XPATH, '//*[@text="知道了"]'
     # 计时结算页右上角【完成】按钮
-    timingEndSuccess = By.XPATH, '//*[@text="完成"]'
+    #timingEndSuccess = By.XPATH, '//*[@text="完成"]'
+    timingEndSuccess = By.ID, 'com.huiian.timing:id/tv_finish'
     #计时不足1min点击结束出现的弹窗_【确定】按钮
     timingEndConfirmRight = By.XPATH, '//*[@text="确定"]'
     #计时不足1min点击结束出现的弹窗_【取消】按钮
     timingEndConfirmLeft = By.XPATH, '//*[@text="取消"]'
+    #计时结算-今日学习时长
+    todayLearningTime = By.ID, 'com.huiian.timing:id/tv_total_learntime'
     # 学习计时_时长设置按钮
     studySettingBtn = By.ID, 'com.huiian.timing:id/tv_setting_time_common'
     # 学习计时_时长设置完成
     studySettingsuccessBtn = By.XPATH, '//*[@text="完成"]'
     # 学习计时_开始学习按钮
     startTimingBtn = By.ID, 'com.huiian.timing:id/tv_confirm_common'
+    # 离开聊天室确认弹窗
+    leaveChatroomYes = By.ID, 'com.huiian.timing:id/popupwindow_confirm_right_fl'
+    # 计时聊天消息气泡
+    studyDiscussContent = By.ID, 'com.huiian.timing:id/tvContent'
 
-    #计时页面点击暂停按钮
-    timingPause=By.ID, 'com.huiian.timing:id/timing_pause_tv'
-    #计时页面点击继续按钮
-    timingContinue=By.ID, 'com.huiian.timing:id/timing_continue_tv'
-    #计时页面点击在学30分钟
-    timingAgain=By.ID, 'com.huiian.timing:id/tv_timing_again'
+
+
 
     # 第一次点击视频打开，出现视频录制权限弹窗
     videoStartDialog = By.XPATH, '//*[@text="允许"]'
-    # videoStartDialog = By.ID,'android:id/button1'
     # 视频打卡结束后_分享视频打卡按钮
     videoSuccess = By.XPATH, '//*[@text="分享视频打卡"]'
     # 视频打卡页面开始学习按钮
-    videoStartBtn = By.XPATH, '//*[@text="开始学习"]'
+    # videoStartBtn = By.XPATH, '//*[@text="开始学习"]'
+
     # 视频打卡页面结束_确定按钮
     videoEndDialog = By.XPATH, '//*[@text="确定"]'
     # 学习目标输入框
     studyContentBox = By.ID, 'com.huiian.timing:id/et_common_title'
-
-    #视频打卡时长设置按钮
-    videoSettingBtn=By.ID,'com.huiian.timing:id/tv_setting_time'
-    #视频打卡开始学习按钮
-    videoStartStudyBtn=By.ID,'com.huiian.timing:id/tv_start_recording'
-    #视频打卡页面关闭按钮
-    videoCloseBtn=By.ID,'com.huiian.timing:id/iv_close'
-
 
     # 番茄学习目标输入框
     tomatoContentBox = By.ID, 'com.huiian.timing:id/et_title'
@@ -57,54 +74,52 @@ class Timing(BaseAction):
     videoContentBox = By.ID, 'com.huiian.timing:id/et_title'
     # 番茄计时_开始学习按钮
     startTomatoBtn = By.XPATH, '//*[@text="开始学习"]'
+    # 番茄计时_取消按钮
+    timingTomatoCancel = By.ID, 'com.huiian.timing:id/tomato_cancel_tv'
+
     # 视频打卡_确定并开启摄像头按钮
     startVideoBtn = By.ID, 'com.huiian.timing:id/tv_confirm'
 
-    #番茄计时取消按钮
-    tomatoTimingCancel=By.ID, 'com.huiian.timing:id/tomato_cancel_tv'
-    tomatoTimingDone=By.ID, 'com.huiian.timing:id/tomato_done_tv'
-
-    # 睡觉时_分享弹窗中的关注按钮
+    # 睡觉时_分享弹窗中的关闭按钮
     sleepingClose = By.ID, 'com.huiian.timing:id/close_iv'
     # 睡觉时_起床按钮
     sleepingWake = By.ID, 'com.huiian.timing:id/wake_tv'
 
-    # # 睡觉计时按钮
-    # sleepTimingBtn = By.ID, 'com.huiian.timing:id/popupwindow_sleep_ll'
-    # # 起床计时按钮
-    # getupTimingBtn = By.ID, 'com.huiian.timing:id/popupwindow_getup_ll'
 
-    #学习农场结束按钮
-    farmTimeEndBtn=By.ID, 'com.huiian.timing:id/end_tv'
-    #农场输入框
-    farmStudyContentBox=By.ID, 'com.huiian.timing:id/et_title'
-    #农场设置按钮
-    farmSettingBtn=By.ID, 'com.huiian.timing:id/tv_setting_time'
-    #农场开始学习按钮
-    farmStartBtn=By.ID, 'com.huiian.timing:id/tv_confirm'
 
-    #邀请按钮
-    studyTogetherBtn=By.ID, 'com.huiian.timing:id/timing_invite_tv'
-    #讨论按钮
-    studyDiscussBtn=By.ID, 'com.huiian.timing:id/ivDiscuss'
-    #发送按钮
-    studyTogetherForwardBtn=By.ID,'com.huiian.timing:id/iv_forward'
-    # #返回按钮
-    # studyTogetherBackBtn=By.ID,'com.huiian.timing:id/iv_back'
-    #计时关闭按钮
-    studyCloseBtn=By.ID, 'com.huiian.timing:id/layout_timing_layer_iv_back'
-    #讨论输入框
-    studyDiscussContentBox=By.ID, 'com.huiian.timing:id/editTextMessage'
-    #发送按钮
-    studyDiscussSendBtn=By.ID, 'com.huiian.timing:id/sendLayout'
-    #讨论的内容
-    studyDiscussContent=By.ID, 'com.huiian.timing:id/message_item_body'
+    # 视频打卡时长设置按钮
+    videoSettingBtn = By.ID, 'com.huiian.timing:id/tv_setting_time'
+    # 视频打卡开始学习按钮
+    videoStartStudyBtn = By.ID, 'com.huiian.timing:id/tv_start_recording'
+    # 视频打卡页面关闭按钮
+    videoCloseBtn = By.ID, 'com.huiian.timing:id/htv_end'
+
+    #分享打卡页面
+    videoShareBtn=By.ID, 'com.huiian.timing:id/tv_share'
+
+
+    # 学习农场结束按钮
+    farmTimeEndBtn = By.ID, 'com.huiian.timing:id/end_tv'
+    # 农场输入框
+    farmStudyContentBox = By.ID, 'com.huiian.timing:id/et_title'
+    # 农场设置按钮
+    farmSettingBtn = By.ID, 'com.huiian.timing:id/tv_setting_time'
+    # 农场开始学习按钮
+    farmStartBtn = By.ID, 'com.huiian.timing:id/tv_confirm'
 
 
     def click_timingDialog(self):
         self.click(self.timingDialog)
     def click_timingEnd(self):
         self.click(self.timingEnd)
+    def click_timingPause(self):
+        self.click(self.timingPause)
+    def click_timingContinue(self):
+        self.click(self.timingContinue)
+    def click_timingAgain(self):
+        self.click(self.timingAgain)
+    def click_timingEndYes(self):
+        self.click(self.timingEndYes)
     def click_timingEndDialog(self):
         self.click(self.timingEndDialog)
     def click_timingEndSuccess(self):
@@ -133,48 +148,35 @@ class Timing(BaseAction):
         self.click(self.sleepingWake)
     def click_timingEndConfirmRight(self):
         self.click(self.timingEndConfirmRight)
-
-    def click_timingPause(self):
-        self.click(self.timingPause)
-    def click_timingContinue(self):
-        self.click(self.timingContinue)
-    def click_timingAgain(self):
-        self.click(self.timingAgain)
+    def click_studyTogetherBtn(self):
+        self.click(self.studyTogetherBtn)
+    def press_back(self):
+        self.press_back()
+    def click_selectFriend(self):
+        self.click(self.selectFriend)
+    def click_studyTogetherForwardBtn(self):
+        self.click(self.studyTogetherForwardBtn)
+    def click_studyDiscussBtn(self):
+        self.click(self.studyDiscussBtn)
+    def click_studyDiscussSendBtn(self):
+        self.click(self.studyDiscussSendBtn)
+    def click_backBtn(self):
+        self.click(self.backBtn)
     def click_timingTomatoCancel(self):
-        self.click(self.tomatoTimingCancel)
-    def click_timingTomatoDone(self):
-        self.click(self.tomatoTimingDone)
+        self.click(self.timingTomatoCancel)
+
     def click_videoSettingBtn(self):
         self.click(self.videoSettingBtn)
     def click_videoStartStudy(self):
         self.click(self.videoStartStudyBtn)
     def click_videoClosBtn(self):
         self.click(self.videoCloseBtn)
-    def click_sleepTimingBtn(self):
-        self.click(self.sleepTimingBtn)
-    def click_getupTimingBtn(self):
-        self.click(self.getupTimingBtn)
     def click_farmTimeEndBtn(self):
         self.click(self.farmTimeEndBtn)
     def click_farmSettingBtn(self):
         self.click(self.farmSettingBtn)
     def click_farmStartBtn(self):
         self.click(self.farmStartBtn)
-    def click_studyTogetherBtn(self):
-        self.click(self.studyTogetherBtn)
-    def click_studyDiscussBtn(self):
-        self.click(self.studyDiscussBtn)
-    def click_studyTogetherForwardBtn(self):
-        self.click(self.studyTogetherForwardBtn)
-    # def click_studyTogetherBack(self):
-    #     self.click(self.studyTogetherBackBtn)
-    def click_studyCloseBtn(self):
-        self.click(self.studyCloseBtn)
-    def click_studyDiscussContentBox(self):
-        self.click(self.studyDiscussContentBox)
-    def click_studyDiscussSendBtn(self):
-        self.click(self.studyDiscussSendBtn)
-
 
     def input_studyContentBox(self,content):
         self.input(self.studyContentBox,content)
@@ -182,11 +184,10 @@ class Timing(BaseAction):
         self.input(self.tomatoContentBox,content)
     def input_videoContentBox(self, content):
         self.input(self.videoContentBox, content)
-
+    def input_sendWordBox(self,content):
+        self.input(self.sendWordBox,content)
     def input_farmContentBox(self,content):
         self.input(self.farmStudyContentBox,content)
-    def input_studyDiscussContentBox(self, content):
-        self.input(self.studyDiscussContentBox,content)
 
     def waitAndfind_timingEndSuccess(self):
         if self.waitLoading(self.timingEndSuccess, t=2) == True:
@@ -213,19 +214,34 @@ class Timing(BaseAction):
             return True
 
     def check_timingEndDialog(self):
-        # if self.find_element(self.timingEndDialog,timeout=2, poll=1) == "":
-        #     return False
-        # else:
-        #     return True
-        return self.is_feature_exist(self.timingEndDialog)
+        if self.find_element(self.timingEndDialog,timeout=2, poll=1) == "":
+            return False
+        else:
+            return True
+
     def check_videoStartDialog(self):
         return self.is_feature_exist(self.videoStartDialog)
 
-    def check_studyDiscussContent(self):
-        return self.is_feature_exist(self.studyDiscussContent)
+    def check_studySettingsuccessBtn(self):
+        return self.is_feature_exist(self.studySettingsuccessBtn)
 
     def check_sleepingClose(self):
         if self.find_element(self.sleepingClose, timeout=2, poll=1) == "":
             return False
         else:
             return True
+
+    def check_todayLearningTime(self):
+        return self.is_feature_exist(self.todayLearningTime)
+
+    def check_leaveChatroomYes(self):
+        return self.is_feature_exist(self.leaveChatroomYes)
+
+    def check_studyDiscussContent(self):
+        return self.is_feature_exist(self.studyDiscussContent)
+
+    def tapScreen(self,x,y):
+        L = self.getSize()
+        self.driver.tap([(L[0]*x,L[1]*y)],1)
+    def check_videoShareBtn(self):
+        return self.is_feature_exist(self.videoShareBtn)

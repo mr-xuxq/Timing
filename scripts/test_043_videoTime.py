@@ -38,18 +38,24 @@ class Test_videoTime():
                 self.page.timing().click_studySettingsuccessBtn()
             with allure.step('点击确定开启并开启摄像头'):
                 self.page.timing().click_startVideoBtn()
-            with allure.step('判断是否有录视频权限弹窗'):
-                result = self.page.timing().check_videoStartDialog()
-                if result == True :
-                    with allure.step('打开权限'):
-                        self.page.timing().click_videoStartDialog()
-                else:
-                    pass
+            # with allure.step('判断是否有录视频权限弹窗'):
+            #     result = self.page.timing().check_videoStartDialog()
+            #     for i in range(2):
+            #         if result ==True:
+            #             self.page.timing().click_videoStartDialog()
+            #         else:
+            #             pass
+
+            with allure.step('允许权限'):
+                time.sleep(1)
+                self.page.timing().tapScreen(0.298, 0.653)
+                time.sleep(1)
+                self.page.timing().tapScreen(0.3, 0.722)
             with allure.step('点击开始学习按钮'):
                 self.page.timing().click_videoStartStudy()
             with allure.step('点击结束'):
                 time.sleep(3)
-                self.page.timing().click_timingEnd()
+                self.page.timing().click_videoClosBtn()
             with allure.step('点击确定'):
                 self.page.timing().click_videoEndDialog()
             with allure.step('判断到了更多页'):
@@ -75,13 +81,13 @@ class Test_videoTime():
                 self.page.timing().click_studySettingsuccessBtn()
             with allure.step('点击确定开启并开启摄像头'):
                 self.page.timing().click_startVideoBtn()
-            with allure.step('判断是否有录视频权限弹窗'):
-                result = self.page.timing().check_videoStartDialog()
-                if result == True:
-                    with allure.step('打开权限'):
-                        self.page.timing().click_videoStartDialog()
-                else:
-                    pass
+            # with allure.step('判断是否有录视频权限弹窗'):
+            #     result = self.page.timing().check_videoStartDialog()
+            #     if result == True:
+            #         with allure.step('打开权限'):
+            #             self.page.timing().click_videoStartDialog()
+            #     else:
+            #         pass
             with allure.step('点击开始学习按钮'):
                 self.page.timing().click_videoStartStudy()
             with allure.step('判断时间到了结束弹窗'):
@@ -90,13 +96,8 @@ class Test_videoTime():
             with allure.step('点击我知道了'):
                 self.page.timing().click_timingDialog()
             with allure.step('点击结束'):
-                self.page.timing().click_timingEnd()
+                self.page.timing().click_videoClosBtn()
             with allure.step('点击确定'):
                 self.page.timing().click_videoEndDialog()
             with allure.step('判断到了视频打卡页面'):
-                assert self.page.timing().waitAndfind_videoSuccess()==True
-            with allure.step('点击关闭按钮'):
-                self.page.timing().click_videoClosBtn()
-            with allure.step('判断到了完成页面'):
-                assert self.page.timing().waitAndfind_timingEndSuccess()==True
-
+                assert self.page.timing().check_videoShareBtn()

@@ -39,6 +39,7 @@ from Pages.register_login.binding_phone_page import Banding_phone
 from Pages.register_login.guide_page import Guide
 # —————————————————————————————-Timed_learning—————-————————————-—-——#
 from Pages.timed_learning.timing_page import Timing
+from Pages.timed_learning.activity_page import Activity
 
 #---------------------------------------------------------------------------------------------------------------------#
 #---------------------------------------------------------------------------------------------------------------------#
@@ -151,3 +152,6 @@ class Page:
 # —————————————————————————————-Timed_learning—————-————————————-—-——#
     def timing(self):
         return Timing(self.driver)
+
+    def activity(self):
+        return Activity(self.driver)

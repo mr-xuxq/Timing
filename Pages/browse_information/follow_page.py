@@ -10,11 +10,9 @@ class Follow(BaseAction):
     # 【确认删除日记按钮】
     yesBtn = By.ID, 'com.huiian.timing:id/popupwindow_confirm_right_fl'
     # 【删除成功弹窗】
-    # postSuccess = By.XPATH, '//*[@text="日记发布成功"]'
+    postSuccess = By.XPATH, '//*[@text="日记发布成功"]'
     # 【删除成功弹窗】
     deleteSuccess = By.XPATH, '//*[@text="34567890JQKA2"]'
-    # 【图文日记发布成功】
-    postSuccess = By.ID , 'com.huiian.timing:id/upload_share_iv'
 
     def click_follow(self):
         self.click(self.followBtn)

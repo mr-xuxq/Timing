@@ -6,8 +6,10 @@ from base.base_driver import Base
 import pandas as pd
 from sqlalchemy import create_engine
 #phone = 10000000000 + random.randint(1, 99)
+phone = 10000000001
 #此处填入数据库连接
-engine = create_engine('mysql+pymysql://timing_read_only:db_only_hsyt21@rr-bp12u85w22spt5976do.mysql.rds.aliyuncs.com:3306/timing?charset=utf8')  # 正式服
+engine1 = create_engine('mysql+pymysql://timing_read_only:db_only_hsyt21@rr-bp12u85w22spt5976do.mysql.rds.aliyuncs.com:3306/timing?charset=utf8')
+
 
 class Test_changeNickname():
     #setup函数是在一个类里面最先被调用的函数，而且每执行完一个函数都要从setUp()调用开始后再执行下一个函数，有几个函数就调用他几次，与位置无关，随便放在那里都是他先被调用。
@@ -27,59 +29,61 @@ class Test_changeNickname():
     #手机号密码登录测试用例
     def test_changeNickname(self):
         phone = 10000000125
-        with allure.step('点击同意服务协议'):
-            self.page.login().click_agree_login()
-        with allure.step('点击手机号登录'):
-            self.page.login().click_phone_login()
-        with allure.step('输入手机号'):
-            self.page.login_phone().input_phone(str(phone))
-        with allure.step('点击获取验证码按钮'):
-            self.page.login_phone().click_getCaptcha()
-            time.sleep(2)
-        with allure.step('正式服数据库拿验证码'):
-            captcha = pd.read_sql('select captcha FROM t_captcha WHERE phone = "' + str(phone) + '" order by postTime desc',engine)
-            captcha = captcha.iloc[0, 0]
-        with allure.step('输入验证码'):
-            self.page.login_phone_captcha().input_captcha(str(captcha))
-        with allure.step('点击完成'):
-            self.page.login_phone_captcha().click_loginBtn()
-            time.sleep(5)
-        with allure.step('点击更多按钮'):
-            self.page.more().click_more()
-            time.sleep(3)
-        with allure.step('进入个人主页'):
-            self.page.more().click_person()
-            time.sleep(1)
-        with allure.step('判断用户是否认证过'):
-            if self.page.person_home().check_authenIcon() == False:
-                with allure.step('点击修改资料'):
-                    self.page.person_home().click_personInfo()
-                    time.sleep(5)
-                with allure.step('点击修改姓名'):
-                    self.page.edit_personal_info().tapScreen(0.5,0.377)
-                    time.sleep(1)
-                with allure.step('修改姓名'):
-                    name = random.randint(1, 200000)
-                    self.page.name_info().input_nameBox(name)
-                    time.sleep(1)
-                with allure.step('点击确定'):
-                    self.page.name_info().click_nameRight()
-                    time.sleep(1)
-                with allure.step('点击后退'):
-                    self.page.edit_personal_info().click_back()
-            else:
-                pass
-        with allure.step('点击后退'):
-            self.page.edit_personal_info().click_back()
-            time.sleep(1)
-        with allure.step('点击设置按钮'):
-            self.page.more().click_setting()
-        with allure.step('点击退出登录按钮'):
-            self.page.setting().click_logout()
-        with allure.step('确定退出'):
-            self.page.setting().click_confirmLogout()
-            time.sleep(2)
-        with allure.step('断言:退出登录成功'):
-            assert self.page.login().check_loginByphone() == True
+        for i in range(1,1500):
+            phone = phone + i
+            with allure.step('点击同意服务协议'):
+                self.page.login().click_agree_login()
+            with allure.step('点击手机号登录'):
+                self.page.login().click_phone_login()
+            with allure.step('输入手机号'):
+                self.page.login_phone().input_phone(str(phone))
+            with allure.step('点击获取验证码按钮'):
+                self.page.login_phone().click_getCaptcha()
+                time.sleep(2)
+            with allure.step('正式服数据库拿验证码'):
+                captcha = pd.read_sql('select captcha FROM t_captcha WHERE phone = "' + str(phone) + '" order by postTime desc',engine)
+                captcha = captcha.iloc[0, 0]
+            with allure.step('输入验证码'):
+                self.page.login_phone_captcha().input_captcha(str(captcha))
+            with allure.step('点击完成'):
+                self.page.login_phone_captcha().click_loginBtn()
+                time.sleep(5)
+            with allure.step('点击更多按钮'):
+                self.page.more().click_more()
+                time.sleep(3)
+            with allure.step('进入个人主页'):
+                self.page.more().click_person()
+                time.sleep(1)
+            with allure.step('判断用户是否认证过'):
+                if self.page.person_home().check_authenIcon() == False:
+                    with allure.step('点击修改资料'):
+                        self.page.person_home().click_personInfo()
+                        time.sleep(5)
+                    with allure.step('点击修改姓名'):
+                        self.page.edit_personal_info().tapScreen(0.5,0.377)
+                        time.sleep(1)
+                    with allure.step('修改姓名'):
+                        name = random.randint(1, 200000)
+                        self.page.name_info().input_nameBox(name)
+                        time.sleep(1)
+                    with allure.step('点击确定'):
+                        self.page.name_info().click_nameRight()
+                        time.sleep(1)
+                    with allure.step('点击后退'):
+                        self.page.edit_personal_info().click_back()
+                else:
+                    pass
+            with allure.step('点击后退'):
+                self.page.edit_personal_info().click_back()
+                time.sleep(1)
+            with allure.step('点击设置按钮'):
+                self.page.more().click_setting()
+            with allure.step('点击退出登录按钮'):
+                self.page.setting().click_logout()
+            with allure.step('确定退出'):
+                self.page.setting().click_confirmLogout()
+                time.sleep(2)
+            with allure.step('断言:退出登录成功'):
+                assert self.page.login().check_loginByphone() == True
 
 

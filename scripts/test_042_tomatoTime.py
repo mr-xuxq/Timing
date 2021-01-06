@@ -37,10 +37,8 @@ class Test_tomatoTime():
                 self.page.timing().click_startTomatoBtn()
             with allure.step('点击取消'):
                 self.page.timing().click_timingTomatoCancel()
-            with allure.step('判断不及一分钟的结束弹窗'):
-                assert self.page.timing().waitAndfind_timingEndConfirmLeft() == True
             with allure.step('点击确定'):
-                self.page.timing().click_timingEndConfirmRight()
+                self.page.timing().click_timingEndYes()
             with allure.step('判断跳到更多页'):
                 assert self.page.more().waitAndfind_more() == True
 

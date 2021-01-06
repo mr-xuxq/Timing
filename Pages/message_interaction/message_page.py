@@ -33,9 +33,6 @@ class Message(BaseAction):
     # 最新消息栏
     firstChannel = By.ID, 'com.huiian.timing:id/tv_content'
 
-    #时间FU窗
-    timeFloat=By.ID, 'com.huiian.timing:id/timing_minutes_tv'
-
     def click_messageBtn(self):
         self.click(self.messageBtn)
 
@@ -68,9 +65,6 @@ class Message(BaseAction):
 
     def click_firstChannel(self):
         self.click(self.firstChannel)
-
-    def click_timeFloat(self):
-        self.click(self.timeFloat)
 
     #在规定时间内是否找到元素
     def waitAndfind_timingService(self):
@@ -150,9 +144,6 @@ class Message(BaseAction):
             return False
         else:
             return True
-
-    def check_timeFloat(self):
-        return self.is_feature_exist(self.timeFloat)
 
     def get_followCount(self):
         count = self.driver.find_element_by_id('com.huiian.timing:id/friend_msg_content_tv').text
