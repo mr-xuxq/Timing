@@ -63,6 +63,10 @@ class Test_studyTime():
                 self.page.timing().click_backBtn()
             with allure.step('判断有没有讨论的内容'):
                 assert self.page.timing().check_studyDiscussContent() == True
+            with allure.step('点击结束'):
+                self.page.timing().click_timingEnd()
+            with allure.step('确认结束'):
+                self.page.timing().click_timingEndYes()
 
     def test_studyTimePause(self):
         with allure.step('计时一分钟暂停继续学习时点击结束'):
@@ -73,6 +77,17 @@ class Test_studyTime():
                 time.sleep(3)
             with allure.step('点击开始学习'):
                 self.page.more().click_normalTiming()
+            with allure.step('输入学习内容'):
+                self.page.timing().input_studyContentBox(12345)
+            with allure.step('点击设置按钮'):
+                self.page.timing().click_studySettingBtn()
+            with allure.step('设置学习时长'):
+                time.sleep(3)
+                self.page.more().swipeByTime()
+            with allure.step('点击设置完成按钮'):
+                self.page.timing().click_studySettingsuccessBtn()
+            with allure.step('点击开始学习'):
+                self.page.timing().click_startTimingBtn()
             with allure.step('暂停学习'):
                 time.sleep(2)
                 self.page.timing().click_timingPause()

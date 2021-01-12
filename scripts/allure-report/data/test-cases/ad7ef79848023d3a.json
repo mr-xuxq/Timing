@@ -1,0 +1,376 @@
+{
+  "uid" : "ad7ef79848023d3a",
+  "name" : "test_checkRecordPage",
+  "fullName" : "test_021_checkRecordPage.Test_checkRecordPage#test_checkRecordPage",
+  "historyId" : "ca0d3d56d5747fc9a4297c371670d94c",
+  "time" : {
+    "start" : 1609252971621,
+    "stop" : 1609252996843,
+    "duration" : 25222
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "进入消息页",
+      "time" : {
+        "start" : 1609252971621,
+        "stop" : 1609252977732,
+        "duration" : 6111
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "进入Timing小书童",
+      "time" : {
+        "start" : 1609252977732,
+        "stop" : 1609252981019,
+        "duration" : 3287
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "退出Timing小书童",
+      "time" : {
+        "start" : 1609252981019,
+        "stop" : 1609252984148,
+        "duration" : 3129
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "进入道友聊天页",
+      "time" : {
+        "start" : 1609252984148,
+        "stop" : 1609252984899,
+        "duration" : 751
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "点击说话就拍按钮",
+      "time" : {
+        "start" : 1609252984899,
+        "stop" : 1609252986083,
+        "duration" : 1184
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "点击开始录制",
+      "time" : {
+        "start" : 1609252986083,
+        "stop" : 1609252988109,
+        "duration" : 2026
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "检查界面元素",
+      "time" : {
+        "start" : 1609252988109,
+        "stop" : 1609252996843,
+        "duration" : 8734
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "检查后退按钮",
+        "time" : {
+          "start" : 1609252988110,
+          "stop" : 1609252988123,
+          "duration" : 13
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "检查顶部标题",
+        "time" : {
+          "start" : 1609252988123,
+          "stop" : 1609252988132,
+          "duration" : 9
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "检查发送对象",
+        "time" : {
+          "start" : 1609252988132,
+          "stop" : 1609252988142,
+          "duration" : 10
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "检查引导文案",
+        "time" : {
+          "start" : 1609252988142,
+          "stop" : 1609252988150,
+          "duration" : 8
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "检查美颜按钮",
+        "time" : {
+          "start" : 1609252988150,
+          "stop" : 1609252988317,
+          "duration" : 167
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "点击美颜按钮",
+          "time" : {
+            "start" : 1609252988190,
+            "stop" : 1609252988317,
+            "duration" : 127
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "检查切换摄像头按钮",
+        "time" : {
+          "start" : 1609252988317,
+          "stop" : 1609252994683,
+          "duration" : 6366
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "点击摄像头按钮",
+          "time" : {
+            "start" : 1609252988826,
+            "stop" : 1609252991430,
+            "duration" : 2604
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0
+        }, {
+          "name" : "连点切换摄像头",
+          "time" : {
+            "start" : 1609252991430,
+            "stop" : 1609252994683,
+            "duration" : 3253
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 2,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "检查头套按钮",
+        "time" : {
+          "start" : 1609252994683,
+          "stop" : 1609252994925,
+          "duration" : 242
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "点击头套按钮",
+          "time" : {
+            "start" : 1609252994696,
+            "stop" : 1609252994925,
+            "duration" : 229
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "检查柠檬头",
+        "time" : {
+          "start" : 1609252994925,
+          "stop" : 1609252996258,
+          "duration" : 1333
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "滑动柠檬头进入说话就拍状态",
+          "time" : {
+            "start" : 1609252995536,
+            "stop" : 1609252996258,
+            "duration" : 722
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "hasContent" : false,
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 0
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "hasContent" : true,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "断言：成功进入录制状态",
+        "time" : {
+          "start" : 1609252996258,
+          "stop" : 1609252996843,
+          "duration" : 585
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 14,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 21,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_021_checkRecordPage"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_checkRecordPage"
+  }, {
+    "name" : "host",
+    "value" : "WINDOWS-49AO44L"
+  }, {
+    "name" : "thread",
+    "value" : "14932-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_021_checkRecordPage"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ad7ef79848023d3a.json",
+  "parameterValues" : [ ]
+}

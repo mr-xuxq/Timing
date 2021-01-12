@@ -1,0 +1,181 @@
+{
+  "uid" : "f938f09747cbdd90",
+  "name" : "test_loginByPwd",
+  "fullName" : "test_005_loginByPwd.Test_loginByPwd#test_loginByPwd",
+  "historyId" : "168d2de2518e33ff13db78a0c2f4fd4f",
+  "time" : {
+    "start" : 1609251171289,
+    "stop" : 1609251208784,
+    "duration" : 37495
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "点击同意服务协议",
+      "time" : {
+        "start" : 1609251171289,
+        "stop" : 1609251176634,
+        "duration" : 5345
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "点击手机号登录",
+      "time" : {
+        "start" : 1609251176634,
+        "stop" : 1609251180819,
+        "duration" : 4185
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "点击密码登录",
+      "time" : {
+        "start" : 1609251180819,
+        "stop" : 1609251183957,
+        "duration" : 3138
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "输入手机号",
+      "time" : {
+        "start" : 1609251183958,
+        "stop" : 1609251189040,
+        "duration" : 5082
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "输入密码",
+      "time" : {
+        "start" : 1609251189040,
+        "stop" : 1609251195184,
+        "duration" : 6144
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "关闭小键盘",
+      "time" : {
+        "start" : 1609251195184,
+        "stop" : 1609251195714,
+        "duration" : 530
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "点击登录按钮",
+      "time" : {
+        "start" : 1609251195715,
+        "stop" : 1609251198449,
+        "duration" : 2734
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "断言:登录成功",
+      "time" : {
+        "start" : 1609251198449,
+        "stop" : 1609251208783,
+        "duration" : 10334
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 8,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_005_loginByPwd"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_loginByPwd"
+  }, {
+    "name" : "host",
+    "value" : "WINDOWS-49AO44L"
+  }, {
+    "name" : "thread",
+    "value" : "2812-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_005_loginByPwd"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f938f09747cbdd90.json",
+  "parameterValues" : [ ]
+}

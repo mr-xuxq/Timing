@@ -141,6 +141,9 @@ class Timing(BaseAction):
         self.click(self.backBtn)
     def click_timingTomatoCancel(self):
         self.click(self.timingTomatoCancel)
+    def click_leaveChatroomYes(self):
+        self.click(self.leaveChatroomYes)
+
 
     def input_studyContentBox(self,content):
         self.input(self.studyContentBox,content)

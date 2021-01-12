@@ -1,0 +1,121 @@
+{
+  "uid" : "a02eb3a443033c72",
+  "name" : "test_loginByWexin",
+  "fullName" : "test_004_loginByWexin.Test_loginByWexin#test_loginByWexin",
+  "historyId" : "cc260aa809f1fa2970fc9598557b8c6d",
+  "time" : {
+    "start" : 1609249197124,
+    "stop" : 1609249237130,
+    "duration" : 40006
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "点击同意服务协议",
+      "time" : {
+        "start" : 1609249197124,
+        "stop" : 1609249202534,
+        "duration" : 5410
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "点击Weixin登录",
+      "time" : {
+        "start" : 1609249202534,
+        "stop" : 1609249216711,
+        "duration" : 14177
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "检查是否跳到首页",
+      "time" : {
+        "start" : 1609249216711,
+        "stop" : 1609249237130,
+        "duration" : 20419
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "断言:登录成功",
+        "time" : {
+          "start" : 1609249226854,
+          "stop" : 1609249237130,
+          "duration" : 10276
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_004_loginByWexin"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_loginByWexin"
+  }, {
+    "name" : "host",
+    "value" : "WINDOWS-49AO44L"
+  }, {
+    "name" : "thread",
+    "value" : "15408-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_004_loginByWexin"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a02eb3a443033c72.json",
+  "parameterValues" : [ ]
+}
