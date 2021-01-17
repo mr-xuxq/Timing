@@ -21,6 +21,7 @@ from Pages.personal_information.setting_page import Setting
 from Pages.personal_information.edit_personal_info_page import Edit_personal_info
 from Pages.personal_information.Name_Info_page import Name_info
 from Pages.personal_information.person_home_page import Person_home
+from Pages.personal_information.Share_personal_page import Share_personal
 # ——————————————————————-—————-Post_content————————————————————-—-——#
 from Pages.post_content.post_page import Post_content
 from Pages.post_content.post_diary_page import Post_diary
@@ -106,6 +107,8 @@ class Page:
 
     def person_home(self):
         return Person_home(self.driver)
+    def share_personal(self):
+        return Share_personal(self.driver)
 # ——————————————————————-—————-Post_content————————————————————-—-——#
     def post_content(self):
         return Post_content(self.driver)

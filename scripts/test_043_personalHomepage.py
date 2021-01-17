@@ -24,7 +24,91 @@ class Test_personalHomepage():
     # @pytest.mark.parametrize("args", analyze_file("address_data.yaml", "test_address"))
     def test_personalHomepage(self):
         with allure.step('点击更多按钮'):
-            self.page.more().click_more()
+            self.page.share_personal().click_more()
         with allure.step('点击进入个人主页'):
-            self.page.more().click_person()
+            self.page.share_personal().click_personalinfo()
+        with allure.step('点击timingID'):
+            self.page.share_personal().click_timingID()
 
+        with allure.step('点击右上角分享个人主页'):
+            self.page.share_personal().click_share()
+        with allure.step('点击分享至微信好友'):
+            self.page.share_personal().click_wechatfriends()
+        with allure.step('点击返回'):
+            self.driver.press_keycode(4)
+        # with allure.step('点击右上角分享个人主页'):
+        #     self.page.share_personal().click_share()
+        # with allure.step('点击分享至朋友圈'):
+        #     self.page.share_personal().click_wechatmoments()
+        # with allure.step('点击返回'):
+        #     self.driver.press_keycode(4)
+        # with allure.step('点击右上角分享个人主页'):
+        #     self.page.share_personal().click_share()
+        # with allure.step('点击分享至QQ空间'):
+        #     self.page.share_personal().click_QQzone()
+        # with allure.step('点击返回'):
+        #     self.driver.press_keycode(4)
+        with allure.step('点击右上角分享个人主页'):
+            self.page.share_personal().click_share()
+        with allure.step('点击分享至QQ好友'):
+            self.page.share_personal().click_QQfriends()
+        with allure.step('点击返回'):
+            self.driver.press_keycode(4)
+        with allure.step('点击右上角分享个人主页'):
+            self.page.share_personal().click_share()
+        with allure.step('点击分享至微博'):
+            self.page.share_personal().click_weibo()
+        with allure.step('点击返回'):
+            self.driver.press_keycode(4)
+        with allure.step('点击保存'):
+            time.sleep(3)
+            self.page.post_content().tapOperat(0.669, 0.592)
+        with allure.step('点击右上角分享个人主页'):
+            self.page.share_personal().click_share()
+        with allure.step('点击分享至最近聊天'):
+            self.page.share_personal().click_recentchat()
+        with allure.step('点击返回'):
+            self.driver.press_keycode(4)
+        # with allure.step('点击返回到个人主页'):
+        #     self.page.share_personal().click_returnpersonal()
+        with allure.step('点击我的二维码'):
+            self.page.share_personal().click_MyQR_code()
+        with allure.step('点击复制timingID'):
+            self.page.share_personal().click_copyID()
+        with allure.step('点击分享二维码名片'):
+            self.page.share_personal().click_shareQR_code_card()
+        with allure.step('点击分享到微信'):
+            self.page.share_personal().click_share_weixin()
+        with allure.step('点击返回'):
+            self.driver.press_keycode(4)
+        # with allure.step('点击分享二维码名片'):
+        #     self.page.share_personal().click_shareQR_code_card()
+        # with allure.step('点击分享到朋友圈'):
+        #     self.page.share_personal().click_friendsquan()
+        # with allure.step('点击返回'):
+        #     self.driver.press_keycode(4)
+        with allure.step('点击分享二维码名片'):
+            self.page.share_personal().click_shareQR_code_card()
+        with allure.step('点击分享到QQ'):
+            self.page.share_personal().click_share_qq()
+        with allure.step('点击返回'):
+            self.driver.press_keycode(4)
+        with allure.step('点击分享二维码名片'):
+            self.page.share_personal().click_shareQR_code_card()
+        with allure.step('点击分享到微博'):
+            self.page.share_personal().click_share_weibo()
+        with allure.step('点击返回'):
+            self.driver.press_keycode(4)
+        with allure.step('点击保存'):
+            time.sleep(3)
+            self.page.post_content().tapOperat(0.669, 0.592)
+        with allure.step('点击分享二维码名片'):
+            self.page.share_personal().click_shareQR_code_card()
+        with allure.step('点击保存图片'):
+            self.page.share_personal().click_savepicture()
+        with allure.step('点击分享二维码名片'):
+            self.page.share_personal().click_shareQR_code_card()
+        with allure.step('点击取消'):
+            self.page.share_personal().click_cancel()
+        with allure.step('点击返回'):
+            self.page.share_personal().click_returnback()
