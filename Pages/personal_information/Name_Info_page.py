@@ -8,6 +8,8 @@ class Name_info(BaseAction):
     #姓名页面_确定按钮
     nameRightBtn = By.XPATH,'//*[@text="确定"]'
 
+
+
     def click_nameRight(self):
         self.click(self.nameRightBtn)
     def input_nameBox(self,context):

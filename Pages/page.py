@@ -18,8 +18,8 @@ from Pages.message_interaction.create_group_page import Create_group
 # ——————————————————————————-Personal_information———————————-——————-—-——#
 from Pages.personal_information.more_page import More
 from Pages.personal_information.setting_page import Setting
-from Pages.personal_information.editPersonInfo_page import Edit_personal_info
-from Pages.personal_information.nameInfo_page import Name_info
+from Pages.personal_information.edit_personal_info_page import Edit_personal_info
+from Pages.personal_information.Name_Info_page import Name_info
 from Pages.personal_information.person_home_page import Person_home
 # ——————————————————————-—————-Post_content————————————————————-—-——#
 from Pages.post_content.post_page import Post_content

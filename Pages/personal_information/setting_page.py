@@ -19,3 +19,6 @@ class Setting(BaseAction):
 
     def check_target(self):
         return self.is_feature_exist(self.target)
+    #判断退出登录按钮在不在
+    def check_logoutBtn(self):
+        return self.is_feature_exist(self.logoutBtn)
