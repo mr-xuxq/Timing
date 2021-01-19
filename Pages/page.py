@@ -39,6 +39,11 @@ from Pages.register_login.binding_phone_page import Banding_phone
 from Pages.register_login.guide_page import Guide
 # —————————————————————————————-Timed_learning—————-————————————-—-——#
 from Pages.timed_learning.timing_page import Timing
+from Pages.timed_learning.activity_page import Activity
+from Pages.timed_learning.classic_timing_page import Classic_timing
+from Pages.timed_learning.tomato_timing_page import Tomato_timing
+from Pages.timed_learning.video_timing_page import Video_timing
+from Pages.timed_learning.farm_timing_page import Farm_timing
 
 #---------------------------------------------------------------------------------------------------------------------#
 #---------------------------------------------------------------------------------------------------------------------#
@@ -151,3 +156,18 @@ class Page:
 # —————————————————————————————-Timed_learning—————-————————————-—-——#
     def timing(self):
         return Timing(self.driver)
+
+    def activity(self):
+        return Activity(self.driver)
+
+    def classic_timing(self):
+        return Classic_timing(self.driver)
+
+    def tomato_timing(self):
+        return Tomato_timing(self.driver)
+
+    def video_timing(self):
+        return Video_timing(self.driver)
+
+    def farm_timing(self):
+        return Farm_timing(self.driver)

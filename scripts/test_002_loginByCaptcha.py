@@ -8,6 +8,7 @@ from sqlalchemy import create_engine
 #phone = 10000000000 + random.randint(1, 99)
 phone = 10000000888
 #此处填入数据库连接
+engine = create_engine('mysql+pymysql://timing_read_only:db_only_hsyt21@rr-bp12u85w22spt5976do.mysql.rds.aliyuncs.com:3306/timing?charset=utf8')
 
 
 class Test_loginByCaptcha():
