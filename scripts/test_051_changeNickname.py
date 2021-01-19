@@ -2,6 +2,13 @@
 import time,allure,random
 from Pages.page import Page
 from base.base_driver import Base
+#from base.base_analyze import analyze_file
+import pandas as pd
+from sqlalchemy import create_engine
+#phone = 10000000000 + random.randint(1, 99)
+phone = 10000000001
+#此处填入数据库连接
+engine1 = create_engine('mysql+pymysql://timing_read_only:db_only_hsyt21@rr-bp12u85w22spt5976do.mysql.rds.aliyuncs.com:3306/timing?charset=utf8')
 
 
 class Test_changeNickname():
@@ -27,36 +34,20 @@ class Test_changeNickname():
         with allure.step('进入个人主页'):
             self.page.more().click_person()
             time.sleep(1)
-        with allure.step('判断用户是否认证过'):
-            if self.page.person_home().check_authenIcon() == False:
-                with allure.step('点击修改资料'):
-                    self.page.person_home().click_personInfo()
-                    time.sleep(5)
-                with allure.step('点击修改姓名'):
-                    self.page.edit_personal_info().tapScreen(0.5,0.377)
-                    time.sleep(1)
-                with allure.step('修改姓名'):
-                    name = random.randint(1, 200000)
-                    self.page.name_info().input_nameBox(name)
-                    time.sleep(1)
-                with allure.step('点击确定'):
-                    self.page.name_info().click_nameRight()
-                    time.sleep(1)
-                with allure.step('点击后退'):
-                    self.page.edit_personal_info().click_back()
-            else:
-                pass
-        with allure.step('点击后退'):
-            self.page.edit_personal_info().click_back()
+        with allure.step('点击修改资料'):
+            self.page.person_home().click_personInfo()
+            time.sleep(5)
+        with allure.step('点击修改姓名'):
+            self.page.edit_personal_info().tapScreen(0.5,0.377)
             time.sleep(1)
-        with allure.step('点击设置按钮'):
-            self.page.more().click_setting()
-        with allure.step('点击退出登录按钮'):
-            self.page.setting().click_logout()
-        with allure.step('确定退出'):
-            self.page.setting().click_confirmLogout()
-            time.sleep(2)
-        with allure.step('断言:退出登录成功'):
-            assert self.page.login().check_loginByphone() == True
+        with allure.step('修改姓名'):
+            name = random.randint(1, 200000)
+            self.page.name_info().input_nameBox(name)
+            time.sleep(1)
+        with allure.step('点击确定'):
+            self.page.name_info().click_nameRight()
+            time.sleep(1)
+        with allure.step('断言：修改请求完成'):
+            self.page.edit_personal_info().check_backBtn()
 
 

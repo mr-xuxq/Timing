@@ -60,10 +60,10 @@ class More(BaseAction):
         self.click(self.createGroup)
 
     def swipeByMore(self):
-        self.swipeOperat(0.5, 0.9, 0.5, 0.4, 500)
+        self.swipeOperat(0.5, 0.9, 0.5, 0.1, 500)
     #500 = 0.5S
     def swipeByTime(self):
-        self.swipeOperat(0.6, 0.8, 0.6, 0.76, 500)
+        self.swipeOperat(0.6, 0.8, 0.6, 0.74, 500)
 
     #坐标点击睡觉
     def clickCoordinate_sleep(self):

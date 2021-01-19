@@ -19,7 +19,7 @@ class Test_studyTime():
         self.driver.quit()
     #判断元素是否在当前页面内
 
-    def test_studyTimeTogether(self):
+    def test_studyTimeLess(self):
         with allure.step('计时不足一分钟&邀请别人一起学习'):
             with allure.step('更多页滑动到最底部'):
                 self.page.more().click_more()
@@ -29,7 +29,7 @@ class Test_studyTime():
             with allure.step('点击开始学习'):
                 self.page.more().click_normalTiming()
             with allure.step('输入学习内容'):
-                self.page.timing().input_studyContentBox(12345)
+                self.page.timing().input_normalLearningTargetBox(12345)
             with allure.step('点击设置按钮'):
                 self.page.timing().click_studySettingBtn()
             with allure.step('设置学习时长'):
@@ -41,34 +41,40 @@ class Test_studyTime():
                 self.page.timing().click_startTimingBtn()
             with allure.step('点击邀请'):
                 time.sleep(2)
-                self.page.timing().click_studyTogetherBtn()
+                self.page.classic_timing().click_studyTogetherBtn()
             with allure.step('点击邀请的人'):
                 time.sleep(3)
-                self.page.timing().click_selectFriend()
-                #self.page.timing().tapOperat(0.4, 0.402)
+                self.page.classic_timing().click_selectFriend()
+                #self.page.classic_timing().tapOperat(0.4, 0.402)
             with allure.step('点击发送'):
-                self.page.timing().click_studyTogetherForwardBtn()
+                self.page.classic_timing().click_studyTogetherForwardBtn()
                 time.sleep(3)
             # with allure.step('判断计时邀请有没有发送成功'):
-            #     assert self.page.timing().check_studyDiscussContent() == True
+            #     assert self.page.classic_timing().check_studyDiscussContent() == True
             with allure.step('点击讨论'):
-                self.page.timing().click_studyDiscussBtn()
+                self.page.classic_timing().click_studyDiscussBtn()
             with allure.step('讨论输入框输入内容'):
-                self.page.timing().input_sendWordBox(12345)
+                self.page.classic_timing().input_sendWordBox(12345)
             with allure.step('点击发送'):
-                self.page.timing().click_studyDiscussSendBtn()
+                self.page.classic_timing().click_studyDiscussSendBtn()
             with allure.step('回退到计时页'):
                 time.sleep(1)
-                self.page.timing().tapScreen(0.5,0.2)
-                self.page.timing().click_backBtn()
+                self.page.classic_timing().tapScreen(0.5,0.2)
+                self.page.classic_timing().click_backBtn()
             with allure.step('判断有没有讨论的内容'):
-                assert self.page.timing().check_studyDiscussContent() == True
+                assert self.page.classic_timing().check_studyDiscussContent() == True
+            # with allure.step('回到计时页'):
+            #     self.page.classic_timing().click_studyDiscussSendBtn()
             with allure.step('点击结束'):
-                self.page.timing().click_timingEnd()
+                # self.page.classic_timing().click_timingEnd()
+                time.sleep(3)
+                self.page.classic_timing().tapScreen(0.913, 0.94)
             with allure.step('确认结束'):
-                self.page.timing().click_timingEndYes()
+                self.page.classic_timing().click_timingEndYes()
+            with allure.step('判断跳到更多页'):
+                assert self.page.more().waitAndfind_more() == True
 
-    def test_studyTimePause(self):
+    def test_studyTimeEnough(self):
         with allure.step('计时一分钟暂停继续学习时点击结束'):
             with allure.step('更多页滑动到最底部'):
                 self.page.more().click_more()
@@ -78,7 +84,7 @@ class Test_studyTime():
             with allure.step('点击开始学习'):
                 self.page.more().click_normalTiming()
             with allure.step('输入学习内容'):
-                self.page.timing().input_studyContentBox(12345)
+                self.page.timing().input_normalLearningTargetBox(12345)
             with allure.step('点击设置按钮'):
                 self.page.timing().click_studySettingBtn()
             with allure.step('设置学习时长'):
@@ -90,37 +96,32 @@ class Test_studyTime():
                 self.page.timing().click_startTimingBtn()
             with allure.step('暂停学习'):
                 time.sleep(2)
-                self.page.timing().click_timingPause()
+                self.page.classic_timing().click_timingPause()
+                time.sleep(2)
             with allure.step('点击继续'):
-                self.page.timing().click_timingContinue()
+                self.page.classic_timing().click_timingContinue()
             with allure.step('判断时间到了结束弹窗'):
-                time.sleep(50)
-                assert self.page.timing().check_timingDialog() == True
+                time.sleep(55)
+                assert self.page.classic_timing().check_timingDialog() == True
             with allure.step('点击我知道了'):
-                self.page.timing().click_timingDialog()
+                self.page.classic_timing().click_timingDialog()
             with allure.step('点击再学30分钟'):
                 time.sleep(1)
-                self.page.timing().tapScreen(0.08, 0.966)
+                self.page.classic_timing().tapScreen(0.08, 0.966)
                 time.sleep(1)
-                self.page.timing().tapScreen(0.08, 0.966)
-                self.page.timing().click_timingAgain()
+                self.page.classic_timing().tapScreen(0.08, 0.966)
+                self.page.classic_timing().click_timingAgain_30()
                 time.sleep(2)
-                self.page.timing().tapScreen(0.08, 0.966)
+                self.page.classic_timing().tapScreen(0.08, 0.966)
                 time.sleep(1)
-                self.page.timing().tapScreen(0.08, 0.966)
+                self.page.classic_timing().tapScreen(0.08, 0.966)
             with allure.step('点击结束'):
-                self.page.timing().click_timingEnd()
+                self.page.classic_timing().click_timingEnd()
             with allure.step('确认结束'):
-                self.page.timing().click_timingEndYes()
-            with allure.step('跳转可识别计时完成操作'):
-                time.sleep(5)
-                for i in range(1, 3):
-                    self.page.timing().tapScreen(0.500, 0.642)
-                    time.sleep(1)
-                time.sleep(3)
-                for j in range(1, 5):
-                    self.page.timing().tapScreen(0.063, 0.061)
-                    time.sleep(0.5)
-            with allure.step('判断是否完成计时结算'):
-                assert self.page.timing().check_leaveChatroomYes() == True
-
+                self.page.classic_timing().click_timingEndYes()
+            with allure.step('判断是否是第一次计时'):
+                if self.page.classic_timing().check_timingEndDialog() == True:
+                    assert True
+                else:
+                    self.page.classic_timing().tapScreen(0.063, 0.061)
+                    assert self.page.classic_timing().check_timingAgain() == True

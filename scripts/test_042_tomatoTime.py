@@ -32,13 +32,13 @@ class Test_tomatoTime():
             with allure.step('点击番茄学习'):
                 self.page.more().click_tomato()
             with allure.step('填写学习内容'):
-                self.page.timing().input_tomatoContentBox(12345)
+                self.page.timing().input_learningTargetBox(12345)
             with allure.step('点击开始学习'):
-                self.page.timing().click_startTomatoBtn()
+                self.page.timing().click_startLearningBtn()
             with allure.step('点击取消'):
-                self.page.timing().click_timingTomatoCancel()
+                self.page.tomato_timing().click_timingTomatoCancel()
             with allure.step('点击确定'):
-                self.page.timing().click_timingEndYes()
+                self.page.tomato_timing().click_timingEndYes()
             with allure.step('判断跳到更多页'):
                 assert self.page.more().waitAndfind_more() == True
 
@@ -54,9 +54,9 @@ class Test_tomatoTime():
     #         with allure.step('点击番茄学习'):
     #             self.page.more().click_tomato()
     #         with allure.step('填写学习内容'):
-    #             self.page.timing().input_tomatoContentBox(12345)
+    #             self.page.timing().input_learningTargetBox(12345)
     #         with allure.step('点击开始学习'):
-    #             self.page.timing().click_startTomatoBtn()
+    #             self.page.timing().click_startLearningBtn()
     #         with allure.step('等待计时结束弹出结束弹窗'):
     #             time.sleep(1500)
     #         with allure.step('点击我知道了'):
