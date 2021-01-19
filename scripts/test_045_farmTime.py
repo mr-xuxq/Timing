@@ -24,25 +24,25 @@ class Test_farmTime():
                 self.page.more().click_more()
                 time.sleep(3)
                 self.page.more().swipeByMore()
-                time.sleep(3)
+                time.sleep(5)
             with allure.step('点击学习农场'):
-                self.page.more().tapOperat(0.84, 0.143)
+                self.page.more().tapOperat(0.843, 0.299)
             with allure.step('输入学习内容'):
                 time.sleep(3)
-                self.page.timing().input_farmContentBox(12345)
+                self.page.timing().input_learningTargetBox(12345)
             with allure.step('点击设置按钮'):
-                self.page.timing().click_farmSettingBtn()
+                self.page.timing().click_timeSettingBtn()
             with allure.step('设置学习时长'):
                 time.sleep(3)
                 self.page.more().swipeByTime()
             with allure.step('点击设置完成按钮'):
                 self.page.timing().click_studySettingsuccessBtn()
             with allure.step('点击开始学习'):
-                self.page.timing().click_farmStartBtn()
+                self.page.timing().click_startLearningBtn()
             with allure.step('点击结束'):
-                self.page.timing().click_farmTimeEndBtn()
+                self.page.farm_timing().click_farmTimeEndBtn()
             with allure.step('点击确定'):
-                self.page.timing().click_timingEndConfirmRight()
+                self.page.farm_timing().click_timingEndConfirmRight()
             with allure.step('判断跳到更多页'):
                 assert self.page.more().waitAndfind_more() == True
 
@@ -52,29 +52,34 @@ class Test_farmTime():
                 self.page.more().click_more()
                 time.sleep(3)
                 self.page.more().swipeByMore()
-                time.sleep(3)
+                time.sleep(5)
             with allure.step('点击学习农场'):
-                self.page.more().tapOperat(0.84, 0.143)
+                self.page.more().tapOperat(0.843, 0.299)
             with allure.step('输入学习内容'):
                 time.sleep(3)
-                self.page.timing().input_farmContentBox(12345)
+                self.page.timing().input_learningTargetBox(12345)
             with allure.step('点击设置按钮'):
-                self.page.timing().click_farmSettingBtn()
+                self.page.timing().click_timeSettingBtn()
             with allure.step('设置学习时长'):
                 time.sleep(3)
                 self.page.more().swipeByTime()
             with allure.step('点击设置完成按钮'):
                 self.page.timing().click_studySettingsuccessBtn()
             with allure.step('点击开始学习'):
-                self.page.timing().click_farmStartBtn()
+                self.page.timing().click_startLearningBtn()
             with allure.step('判断时间到了结束弹窗'):
-                time.sleep(50)
-                # assert self.page.timing().check_timingDialog() == True
+                time.sleep(55)
             with allure.step('点击我知道了'):
-                self.page.timing().click_timingDialog()
+                self.page.farm_timing().click_timingDialog()
             with allure.step('点击结束'):
-                self.page.timing().click_farmTimeEndBtn()
+                time.sleep(1)
+                self.page.farm_timing().tapScreen(0.500,0.948)
             with allure.step('点击确定'):
-                self.page.timing().click_timingEndConfirmRight()
+                self.page.farm_timing().click_timingEndConfirmRight()
+            with allure.step('点击去打卡'):
+                time.sleep(5)
+                self.page.farm_timing().tapScreen(0.500,0.866)
+                time.sleep(2)
+                self.page.farm_timing().tapScreen(0.500,0.500)
             with allure.step('判断跳转到完成页面'):
-                assert self.page.timing().waitAndfind_timingEndSuccess() == True
+                assert self.page.farm_timing().check_timingEndSuccess() == True

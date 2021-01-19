@@ -40,6 +40,8 @@ class Edit_personal_info(BaseAction):
     def swipeByGender(self):
         self.swipeOperat(0.5, 0.93, 0.5, 0.79, 150)
 
+    def check_backBtn(self):
+        self.is_feature_exist(self.backBtn)
     def input_name(self, content):
         self.input(self.nameBtn,content)
 

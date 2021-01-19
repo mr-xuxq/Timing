@@ -13,7 +13,7 @@ class Post_content(BaseAction):
     # 【起床睡觉按钮】
     sleepBtn = By.ID, 'com.huiian.timing:id/cl_wake_sleep'
     # 【视频打卡按钮】
-    videoRecordBtn = By.ID, 'com.huiian.timing:id/cl_video_dk'
+    videoRecordBtn = By.ID, 'com.huiian.timing:id/tv_video'
     # 【图书馆按钮】
     libraryBtn = By.ID, 'com.huiian.timing:id/cl_library'
     # 【创建学习群按钮】

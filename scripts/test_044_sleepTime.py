@@ -18,17 +18,15 @@ class Test_sleepTime():
     def teardown(self):
         self.driver.quit()
 
-    def test_sleepTime(self):
-        with allure.step('更多页滑动到最底部'):
-            self.page.more().click_more()
-            time.sleep(3)
-            self.page.more().swipeByMore()
+    def test_getupAndsleep(self):
+        with allure.step('打开发布页'):
+            self.page.shouye().click_post()
         with allure.step('点击起床睡觉'):
             time.sleep(3)
-            self.page.more().tapOperat(0.614, 0.148)
+            self.page.timing().tapScreen(0.500, 0.726)
         with allure.step('点击睡觉'):
             time.sleep(3)
-            self.page.more().tapOperat(0.505, 0.838)
+            self.page.more().tapOperat(0.504, 0.856)
         with allure.step('关闭打卡弹窗'):
             time.sleep(3)
             self.page.timing().click_sleepingClose()
@@ -36,4 +34,4 @@ class Test_sleepTime():
         with allure.step('点击起床按钮'):
             self.page.timing().click_sleepingWake()
         with allure.step('判断睡觉计时结束'):
-            assert self.page.timing().check_sleepingClose()== True
+            assert self.page.timing().check_getupCard()== True
