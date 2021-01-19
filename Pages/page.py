@@ -18,10 +18,11 @@ from Pages.message_interaction.create_group_page import Create_group
 # ——————————————————————————-Personal_information———————————-——————-—-——#
 from Pages.personal_information.more_page import More
 from Pages.personal_information.setting_page import Setting
-from Pages.personal_information.edit_personal_info_page import Edit_personal_info
-from Pages.personal_information.Name_Info_page import Name_info
+from Pages.personal_information.editPersonInfo_page import Edit_personal_info
+from Pages.personal_information.nameInfo_page import Name_info
 from Pages.personal_information.person_home_page import Person_home
-from Pages.personal_information.Share_personal_page import Share_personal
+from Pages.personal_information.Share_page import Share
+from Pages.personal_information.timing_QRcode_page import Timing_QRcode
 # ——————————————————————-—————-Post_content————————————————————-—-——#
 from Pages.post_content.post_page import Post_content
 from Pages.post_content.post_diary_page import Post_diary
@@ -40,6 +41,11 @@ from Pages.register_login.binding_phone_page import Banding_phone
 from Pages.register_login.guide_page import Guide
 # —————————————————————————————-Timed_learning—————-————————————-—-——#
 from Pages.timed_learning.timing_page import Timing
+from Pages.timed_learning.activity_page import Activity
+from Pages.timed_learning.classic_timing_page import Classic_timing
+from Pages.timed_learning.tomato_timing_page import Tomato_timing
+from Pages.timed_learning.video_timing_page import Video_timing
+from Pages.timed_learning.farm_timing_page import Farm_timing
 
 #---------------------------------------------------------------------------------------------------------------------#
 #---------------------------------------------------------------------------------------------------------------------#
@@ -107,8 +113,12 @@ class Page:
 
     def person_home(self):
         return Person_home(self.driver)
-    def share_personal(self):
-        return Share_personal(self.driver)
+
+    def share(self):
+        return Share(self.driver)
+
+    def timing_QRcode(self):
+        return Timing_QRcode(self.driver)
 # ——————————————————————-—————-Post_content————————————————————-—-——#
     def post_content(self):
         return Post_content(self.driver)
@@ -154,3 +164,18 @@ class Page:
 # —————————————————————————————-Timed_learning—————-————————————-—-——#
     def timing(self):
         return Timing(self.driver)
+
+    def activity(self):
+        return Activity(self.driver)
+
+    def classic_timing(self):
+        return Classic_timing(self.driver)
+
+    def tomato_timing(self):
+        return Tomato_timing(self.driver)
+
+    def video_timing(self):
+        return Video_timing(self.driver)
+
+    def farm_timing(self):
+        return Farm_timing(self.driver)

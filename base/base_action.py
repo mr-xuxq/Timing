@@ -27,9 +27,6 @@ class BaseAction(Base):
         self.find_element(feature).click()
 
     # 输入
-    # def input(self, feature: object, content: object) -> object:
-    #     self.find_element(feature).send_keys(content)
-
     def input(self, feature, content):
         self.find_element(feature).send_keys(content)
 

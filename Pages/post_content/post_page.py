@@ -5,7 +5,7 @@ class Post_content(BaseAction):
     # 【发布按钮】
     postBtn = By.ID, 'com.huiian.timing:id/ll_post'
     # 【发布图文日记按钮】
-    postDiaryBtn = By.ID, 'com.huiian.timing:id/ll_post_diary'
+    postDiaryBtn = By.ID, 'com.huiian.timing:id/cl_post_diary'
     # 【上传长视频按钮】
     postVideoBtn = By.ID, 'com.huiian.timing:id/cl_post_video'
     # 【学习计时按钮】
@@ -13,7 +13,7 @@ class Post_content(BaseAction):
     # 【起床睡觉按钮】
     sleepBtn = By.ID, 'com.huiian.timing:id/cl_wake_sleep'
     # 【视频打卡按钮】
-    videoRecordBtn = By.ID, 'com.huiian.timing:id/cl_video_dk'
+    videoRecordBtn = By.ID, 'com.huiian.timing:id/tv_video'
     # 【图书馆按钮】
     libraryBtn = By.ID, 'com.huiian.timing:id/cl_library'
     # 【创建学习群按钮】

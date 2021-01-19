@@ -10,7 +10,7 @@ class More(BaseAction):
     # 更多_用户区域
     personBtn = By.ID, 'com.huiian.timing:id/view_info'
     # 学习计时按钮
-    normalTimingBtn = By.XPATH, '//*[@text="学习计时"]'
+    normalTimingBtn = By.XPATH, '//*[@text="开始学习"]'
     # 视频打卡按钮
     videoBtn = By.XPATH, '//*[@text="视频打卡"]'
     # 起床睡觉按钮
@@ -60,10 +60,10 @@ class More(BaseAction):
         self.click(self.createGroup)
 
     def swipeByMore(self):
-        self.swipeOperat(0.5, 0.9, 0.5, 0.4, 500)
+        self.swipeOperat(0.5, 0.9, 0.5, 0.1, 500)
     #500 = 0.5S
     def swipeByTime(self):
-        self.swipeOperat(0.6, 0.8, 0.6, 0.76, 500)
+        self.swipeOperat(0.6, 0.8, 0.6, 0.74, 500)
 
     #坐标点击睡觉
     def clickCoordinate_sleep(self):
