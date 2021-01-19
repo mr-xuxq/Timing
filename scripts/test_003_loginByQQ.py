@@ -42,7 +42,6 @@ class Test_loginByQQ():
                 with allure.step('用户未绑定手机，用例结束'):
                     self.page.banding_phone().click_closeBtn()
 
-
     def test_logout(self):
         with allure.step('检测登陆状态'):
             result = self.page.shouye().check_shouye()
