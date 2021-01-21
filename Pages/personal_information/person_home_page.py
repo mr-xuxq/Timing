@@ -42,3 +42,7 @@ class Person_home(BaseAction):
         return self.is_feature_exist(self.personInfo)
     def check_authenIcon(self):
         return self.is_feature_exist(self.authenIcon)
+
+    def tapScreen(self,x,y):
+        L = self.getSize()
+        self.driver.tap([(L[0]*x,L[1]*y)],1)

@@ -22,6 +22,8 @@ class Timing_QRcode(BaseAction):
     returnback = By.ID,'com.huiian.timing:id/activity_back_ll'
     #点击分享二维码名片
     shareQR_code_card = By.ID,'com.huiian.timing:id/tv_share_timing'
+    #点击复制我的二维码里面的timingID
+    QR_timingID = By.ID,'com.huiian.timing:id/tv_timing_id'
 
     def click_share_weixin(self):
         self.click(self.share_weixin)
@@ -43,3 +45,6 @@ class Timing_QRcode(BaseAction):
     def tapScreen(self,x,y):
         L = self.getSize()
         self.driver.tap([(L[0]*x,L[1]*y)],1)
+
+    def click_QR_timingID(self):
+        self.click(self.QR_timingID)

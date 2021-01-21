@@ -29,33 +29,36 @@ class Test_sharePersonInformation():
             self.page.more().click_person()
         with allure.step('点击复制timingID'):
             self.page.person_home().click_timingID()
-        with allure.step('点击右上角分享个人主页'):
-            self.page.person_home().click_share()
-        with allure.step('点击分享至微信好友'):
-            self.page.share().click_wechatfriends()
-        with allure.step('点击返回'):
-            self.driver.press_keycode(4)
-        with allure.step('点击右上角分享个人主页'):
-            self.page.person_home().click_share()
-        with allure.step('点击分享至QQ好友'):
-            self.page.share().click_QQfriends()
-        with allure.step('点击返回'):
-            self.driver.press_keycode(4)
-        with allure.step('点击右上角分享个人主页'):
-            self.page.person_home().click_share()
-        with allure.step('点击分享至微博'):
-            self.page.share().click_weibo()
-        with allure.step('点击返回'):
-            self.driver.press_keycode(4)
-        with allure.step('点击保存'):
-            time.sleep(3)
-            self.page.post_content().tapOperat(0.669, 0.592)
-        with allure.step('点击右上角分享个人主页'):
-            self.page.person_home().click_share()
-        with allure.step('点击分享至最近聊天'):
-            self.page.share().click_recentchat()
-        with allure.step('点击返回'):
-            self.driver.press_keycode(4)
+        for i in range(1,7):
+            if i == 1:
+                 with allure.step('点击右上角分享个人主页'):
+                    self.page.person_home().click_share()
+            elif i <= 4:
+                with allure.step('点击返回'):
+                    time.sleep(2)
+                    self.driver.press_keycode(4)
+                    with allure.step('点击右上角分享个人主页'):
+                        self.page.person_home().click_share()
+                if i == 2:
+                    with allure.step('点击分享至微信好友'):
+                        self.page.share().click_wechatfriends()
+                elif i == 3:
+                    with allure.step('点击分享至QQ好友'):
+                        self.page.share().click_QQfriends()
+                elif i == 4:
+                    with allure.step('点击分享至微博'):
+                        self.page.share().click_weibo()
+                    with allure.step('点击返回'):
+                        time.sleep(3)
+                        self.driver.press_keycode(4)
+                    with allure.step('点击保存'):
+                        time.sleep(3)
+                        self.page.person_home().tapScreen(0.669, 0.592)
+                else:
+                    with allure.step('点击分享至最近聊天'):
+                        self.page.share().click_recentchat()
+                    with allure.step('点击返回'):
+                        self.driver.press_keycode(4)
 
     def test_shareQRcode(self):
         with allure.step('点击更多按钮'):
@@ -67,17 +70,13 @@ class Test_sharePersonInformation():
                 with allure.step('点击我的二维码'):
                     self.page.person_home().click_MyQR_code()
                 with allure.step('点击复制timingID'):
-                    self.page.person_home().click_timingID()
+                    self.page.timing_QRcode().click_QR_timingID()
                 with allure.step('点击分享二维码名片'):
                     self.page.timing_QRcode().click_shareQR_code_card()
-            else:
+            elif i <= 4:
                 with allure.step('点击返回'):
                     time.sleep(2)
                     self.driver.press_keycode(4)
-                    time.sleep(1)
-                    self.driver.press_keycode(4)
-                with allure.step('点击我的二维码'):
-                    self.page.person_home().click_MyQR_code()
                 with allure.step('点击分享二维码名片'):
                     self.page.timing_QRcode().click_shareQR_code_card()
                 if i ==2:
@@ -86,9 +85,17 @@ class Test_sharePersonInformation():
                 elif i ==3:
                     with allure.step('点击分享到QQ'):
                         self.page.timing_QRcode().click_share_qq()
-                elif i ==4:
+                else :
                     with allure.step('点击分享到微博'):
                         self.page.timing_QRcode().click_share_weibo()
-                else:
-                    with allure.step('点击保存'):
-                        self.page.timing_QRcode().click_savepicture()
+                    with allure.step('点击返回'):
+                        time.sleep(5)
+                        self.driver.press_keycode(4)
+                    with allure.step('点击不保存到微博'):
+                        time.sleep(3)
+                        self.page.timing_QRcode().tapScreen(0.312, 0.585)
+            else:
+                with allure.step('点击分享二维码名片'):
+                    self.page.timing_QRcode().click_shareQR_code_card()
+                with allure.step('点击保存二维码图片'):
+                    self.page.timing_QRcode().click_savepicture()
