@@ -21,6 +21,17 @@ class BaseAction(Base):
         feature_by, feature_value = feature
         element = WebDriverWait(self.driver, timeout, poll).until(lambda x: x.find_element(feature_by, feature_value))
         return element
+    def find_elements(self, feature, timeout=15, poll=1):
+        """
+        根据特征，找元素
+        :param feature: 特征
+        :param timeout: 超时时间
+        :param poll: 频率
+        :return: 元素
+        """
+        feature_by, feature_value = feature
+        element = WebDriverWait(self.driver, timeout, poll).until(lambda x: x.find_element(feature_by, feature_value))
+        return element
 
     # 点击操作
     def click(self, feature):

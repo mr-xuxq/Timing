@@ -7,6 +7,7 @@ from Pages.browse_information.video_hall_page import Video_hall
 from Pages.browse_information.video_room_page import Video_room
 from Pages.browse_information.daily_page import Daily
 from Pages.browse_information.tree_hole_page import Tree_hole
+from Pages.browse_information.Help_home_page import Help_home
 # ———————————————————————————-Message_interaction—————-—————————————-——#
 from Pages.message_interaction.chat_chooseImage_page import Choose_image
 from Pages.message_interaction.chat_chooseVideo_page import Choose_video
@@ -37,6 +38,9 @@ from Pages.register_login.register_fillInformation_page import Register_fillInfo
 from Pages.register_login.selectPhoto_page import Select_photo
 from Pages.register_login.binding_phone_page import Banding_phone
 from Pages.register_login.guide_page import Guide
+# ———————————————————————————-Self-Study_Room————————————————-———-—-——#
+from Pages.Self_Study_Room.Free_zone_page import Free_zone
+from Pages.Self_Study_Room.Free_study_room_page import Free_study_room
 # —————————————————————————————-Timed_learning—————-————————————-—-——#
 from Pages.timed_learning.timing_page import Timing
 
@@ -70,6 +74,9 @@ class Page:
         
     def tree_hole(self):
         return Tree_hole(self.driver)
+
+    def Help_home(self):
+        return Help_home(self.driver)
 # ———————————————————————————-Message_interaction—————-—————————————-——#
     def choose_image(self):
         return Choose_image(self.driver)
@@ -148,6 +155,35 @@ class Page:
 
     def guide(self):
         return Guide(self.driver)
-# —————————————————————————————-Timed_learning—————-————————————-—-——#
+
+# ———————————————————————————-Self-Study_Room————————————————-———-—-——#
+    def Free_zone(self):
+        return Free_zone(self.driver)
+
+    def Free_study_room(self):
+        return Free_study_room(self.driver)
+        #
+        # def login_phone_pwd(self):
+        #     return Login_phone_pwd(self.driver)
+        #
+        # def login_phone_captcha(self):
+        #     return Login_phone_captcha(self.driver)
+        #
+        # def register_add_tags(self):
+        #     return Register_add_tags(self.driver)
+        #
+        # def register_fillInformation(self):
+        #     return Register_fillInformation(self.driver)
+        #
+        # def select_photo(self):
+        #     return Select_photo(self.driver)
+        #
+        # def banding_phone(self):
+        #     return Banding_phone(self.driver)
+        #
+        # def guide(self):
+        #     return Guide(self.driver)
+
+    # —————————————————————————————-Timed_learning—————-————————————-—-——#
     def timing(self):
         return Timing(self.driver)
