@@ -24,17 +24,17 @@ class Test_checkRecordPage():
         with allure.step('进入消息页'):
             self.page.shouye().click_message()
             time.sleep(2)
-        with allure.step('进入Timing小书童'):
-            self.page.message().click_timingService()
-        with allure.step('退出Timing小书童'):
-            self.page.message().click_back()
         with allure.step('进入道友聊天页'):
-            self.page.message().click_firstChannel()
+            self.page.message().click_messageFriend()
         with allure.step('点击说话就拍按钮'):
             self.page.video_record().click_speakBtn()
-        with allure.step('点击开始录制'):
-            time.sleep(2)
-            self.page.video_record().tapScreen(0.5, 0.84)
+        with allure.step('点击确定按钮'):
+            if self.page.friend_chat().check_yesToRecordBtn() == True:
+                self.page.friend_chat().click_yesToRecordBtn()
+                time.sleep(3)
+                self.page.video_record().click_startRecord()
+            else:
+                pass
         with allure.step('检查界面元素'):
             with allure.step('检查后退按钮'):
                 if self.page.video_record().check_back() == True:

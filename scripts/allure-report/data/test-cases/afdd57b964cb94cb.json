@@ -1,0 +1,226 @@
+{
+  "uid" : "afdd57b964cb94cb",
+  "name" : "test_tomatoTimeLess",
+  "fullName" : "test_042_tomatoTime.Test_tomatoTime#test_tomatoTimeLess",
+  "historyId" : "9244ace3084c4aecd35e28d39488e91c",
+  "time" : {
+    "start" : 1612029190265,
+    "stop" : 1612029242386,
+    "duration" : 52121
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "没有完成番茄计时点击结束",
+      "time" : {
+        "start" : 1612029190265,
+        "stop" : 1612029242386,
+        "duration" : 52121
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "进入更多页",
+        "time" : {
+          "start" : 1612029190265,
+          "stop" : 1612029225804,
+          "duration" : 35539
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "点击自律工具",
+        "time" : {
+          "start" : 1612029225804,
+          "stop" : 1612029227872,
+          "duration" : 2068
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "点击普通计时",
+        "time" : {
+          "start" : 1612029227872,
+          "stop" : 1612029228800,
+          "duration" : 928
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "点击番茄学习",
+        "time" : {
+          "start" : 1612029228800,
+          "stop" : 1612029229761,
+          "duration" : 961
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "填写学习内容",
+        "time" : {
+          "start" : 1612029229761,
+          "stop" : 1612029235276,
+          "duration" : 5515
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "点击开始学习",
+        "time" : {
+          "start" : 1612029235277,
+          "stop" : 1612029236186,
+          "duration" : 909
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "点击取消",
+        "time" : {
+          "start" : 1612029236186,
+          "stop" : 1612029237697,
+          "duration" : 1511
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "点击确定",
+        "time" : {
+          "start" : 1612029237697,
+          "stop" : 1612029241376,
+          "duration" : 3679
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "点击后退",
+        "time" : {
+          "start" : 1612029241376,
+          "stop" : 1612029241683,
+          "duration" : 307
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "判断跳到更多页",
+        "time" : {
+          "start" : 1612029241683,
+          "stop" : 1612029242386,
+          "duration" : 703
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 10
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : true,
+    "stepsCount" : 11
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_042_tomatoTime"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_tomatoTime"
+  }, {
+    "name" : "host",
+    "value" : "WINDOWS-49AO44L"
+  }, {
+    "name" : "thread",
+    "value" : "13008-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_042_tomatoTime"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "afdd57b964cb94cb.json",
+  "parameterValues" : [ ]
+}

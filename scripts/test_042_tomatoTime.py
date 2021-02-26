@@ -3,7 +3,6 @@ from Pages.page import Page
 from base.base_driver import Base
 import allure,time
 
-
 class Test_tomatoTime():
     #setup函数是在一个类里面最先被调用的函数，而且每执行完一个函数都要从setUp()调用开始后再执行下一个函数，有几个函数就调用他几次，与位置无关，随便放在那里都是他先被调用。
     #放一些准备的工作，或者准备一些测试数据。
@@ -21,36 +20,35 @@ class Test_tomatoTime():
 
 
     def test_tomatoTimeLess(self):
-        with allure.step('没有完成番茄计时点击结束'):
-            with allure.step('更多页滑动到最底部'):
-                self.page.more().click_more()
-                time.sleep(3)
-                self.page.more().swipeByMore()
-                time.sleep(3)
-            with allure.step('点击开始学习'):
-                self.page.more().click_normalTiming()
-            with allure.step('点击番茄学习'):
-                self.page.more().click_tomato()
-            with allure.step('填写学习内容'):
-                self.page.timing().input_learningTargetBox(12345)
-            with allure.step('点击开始学习'):
-                self.page.timing().click_startLearningBtn()
-            with allure.step('点击取消'):
-                self.page.tomato_timing().click_timingTomatoCancel()
-            with allure.step('点击确定'):
-                self.page.tomato_timing().click_timingEndYes()
-            with allure.step('判断跳到更多页'):
-                assert self.page.more().waitAndfind_more() == True
+        with allure.step('进入更多页'):
+            self.page.more().click_more()
+        with allure.step('点击自律工具'):
+            self.page.timing().click_studyTools()
+        with allure.step('点击普通计时'):
+            self.page.timing().click_normalTiming()
+        with allure.step('点击番茄学习'):
+            self.page.more().click_tomato()
+        with allure.step('填写学习内容'):
+            self.page.timing().input_learningTargetBox(12345)
+        with allure.step('点击开始学习'):
+            self.page.timing().click_startLearningBtn()
+        with allure.step('点击取消'):
+            self.page.tomato_timing().click_timingTomatoCancel()
+        with allure.step('点击确定'):
+            self.page.tomato_timing().click_timingEndYes()
+        with allure.step('点击后退'):
+            self.page.timing().click_back()
+        with allure.step('判断跳到更多页'):
+            assert self.page.more().waitAndfind_more() == True
 
     # def test_tomatoTimeEnough(self):
     #     with allure.step('完成番茄计时点击结束'):
-    #         with allure.step('更多页滑动到最底部'):
+    #         with allure.step('进入更多页'):
     #             self.page.more().click_more()
-    #             time.sleep(3)
-    #             self.page.more().swipeByMore()
-    #             time.sleep(3)
-    #         with allure.step('点击开始学习'):
-    #             self.page.more().click_normalTiming()
+    #         with allure.step('点击自律工具'):
+    #             self.page.timing().click_studyTools()
+    #         with allure.step('点击普通计时'):
+    #             self.page.timing().click_normalTiming()
     #         with allure.step('点击番茄学习'):
     #             self.page.more().click_tomato()
     #         with allure.step('填写学习内容'):
@@ -63,5 +61,7 @@ class Test_tomatoTime():
     #             self.page.timing().click_timingDialog()
     #         with allure.step('点击确定'):
     #             self.page.timing().click_timingTomatoDone()
+    #        with allure.step('点击后退'):
+    #             self.page.timing().click_back()
     #         with allure.step('判断到了完成页面'):
     #             assert self.page.timing().waitAndfind_timingEndSuccess() == True

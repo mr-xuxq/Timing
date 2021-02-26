@@ -1,5 +1,5 @@
 {
-  "total" : 12,
+  "total" : 14,
   "items" : [ {
     "uid" : "398d65f7f625df45db5997ff0001cf74",
     "name" : "test_011_browsesVlog",
@@ -78,6 +78,17 @@
       "total" : 2
     }
   }, {
+    "uid" : "8f3df01a0d9704c2be94d011b2016581",
+    "name" : "test_046_friendTime",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
     "uid" : "b9eaea7f886718b06979dc34b482e683",
     "name" : "test_005_loginByPwd",
     "statistic" : {
@@ -91,17 +102,6 @@
   }, {
     "uid" : "10f9aad445a2f0943a6d5ee0b857551e",
     "name" : "test_021_checkRecordPage",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    }
-  }, {
-    "uid" : "495ef684ee1522e4b5ed21a2d955e2bb",
-    "name" : "test_042_tomatoTime",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,

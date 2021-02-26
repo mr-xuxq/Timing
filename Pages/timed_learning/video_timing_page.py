@@ -21,6 +21,8 @@ class Video_timing(BaseAction):
     videoStartStudyBtn = By.ID, 'com.huiian.timing:id/tv_start_recording'
     # 视频打卡页面关闭按钮
     videoCloseBtn = By.ID, 'com.huiian.timing:id/htv_end'
+    # 完成视频打卡页左上角X按钮
+    closeBtn = By.ID, 'com.huiian.timing:id/iv_close'
 
     def click_timingDialog(self):
         self.click(self.timingDialog)
@@ -34,6 +36,8 @@ class Video_timing(BaseAction):
         self.click(self.videoSuccess)
     def click_videoEndDialog(self):
         self.click(self.videoEndDialog)
+    def click_closeBtn(self):
+        self.click(self.closeBtn)
     def press_back(self):
         self.press_back()
 

@@ -1,7 +1,6 @@
 #coding:utf-8
 from Pages.page import Page
 from base.base_driver import Base
-from base.base_action import BaseAction
 import allure,time
 sourse = []
 
@@ -31,37 +30,27 @@ class Test_loginByQQ():
             time.sleep(8)
             self.page.more().simpleTap(0.502, 0.833)
             self.page.more().simpleTap(0.502, 0.865)
-            #self.page.login().click_QQ_agree()
-            time.sleep(5)
-        with allure.step('检查是否跳到首页'):
-            result = self.page.shouye().check_shouye()
-            if result == True:
-                with allure.step('断言:登录成功'):
-                    assert self.page.login().check_target() == True
-            else:
-                with allure.step('用户未绑定手机，用例结束'):
-                    self.page.banding_phone().click_closeBtn()
-
+        with allure.step('第一次进入，点击我知道了'):
+            time.sleep(8)
+            self.page.login().tapScreen(0.5,0.6)
+        with allure.step('最小化以刷新UI检测界面'):
+            self.driver.background_app(3)
+        with allure.step('断言:登录成功'):
+            assert self.page.shouye().check_shouye() == True
 
     def test_logout(self):
-        with allure.step('检测登陆状态'):
-            result = self.page.shouye().check_shouye()
-            if result == True:
-                with allure.step('点击更多按钮'):
-                    self.page.more().click_more()
-                    time.sleep(8)
-                with allure.step('点击设置按钮'):
-                    self.page.more().click_setting()
-                with allure.step('点击退出登录按钮'):
-                    self.page.setting().click_logout()
-                with allure.step('确定退出'):
-                    self.page.setting().click_confirmLogout()
-                    time.sleep(2)
-                with allure.step('断言:退出登录成功'):
-                    assert self.page.setting().check_target() == True
-            else:
-                with allure.step('处于未登录状态，用例结束'):
-                    pass
+        with allure.step('点击更多按钮'):
+            self.page.more().click_more()
+            time.sleep(8)
+        with allure.step('点击设置按钮'):
+            self.page.more().click_setting()
+        with allure.step('点击退出登录按钮'):
+            self.page.setting().click_logout()
+        with allure.step('确定退出'):
+            self.page.setting().click_confirmLogout()
+            time.sleep(2)
+        with allure.step('断言:退出登录成功'):
+            assert self.page.setting().check_target() == True
 
 
 

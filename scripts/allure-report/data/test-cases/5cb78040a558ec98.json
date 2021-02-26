@@ -1,0 +1,157 @@
+{
+  "uid" : "5cb78040a558ec98",
+  "name" : "test_getupAndsleep",
+  "fullName" : "test_044_sleepTime.Test_sleepTime#test_getupAndsleep",
+  "historyId" : "594cc68e5362ce75a5685c550c0d97b1",
+  "time" : {
+    "start" : 1614260264054,
+    "stop" : 1614260338021,
+    "duration" : 73967
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert False == True\n  +False\n  -True",
+  "statusTrace" : "self = <scripts.test_044_sleepTime.Test_sleepTime object at 0x0000016EFC0E0B20>\n\n    def test_getupAndsleep(self):\n        with allure.step('进入更多页'):\n            self.page.more().click_more()\n        with allure.step('点击起床睡觉'):\n            self.page.timing().click_sleepingWake()\n        with allure.step('点击睡觉'):\n            time.sleep(3)\n            self.page.more().tapOperat(0.504, 0.856)\n        with allure.step('关闭打卡弹窗'):\n            time.sleep(3)\n            self.page.timing().click_sleepingClose()\n            time.sleep(3)\n        with allure.step('点击起床按钮'):\n            self.page.timing().click_wakeBtn()\n        with allure.step('判断睡觉计时结束'):\n>           assert self.page.timing().check_getupCard()== True\nE           assert False == True\nE             +False\nE             -True\n\ntest_044_sleepTime.py:36: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert False == True\n  +False\n  -True",
+    "statusTrace" : "self = <scripts.test_044_sleepTime.Test_sleepTime object at 0x0000016EFC0E0B20>\n\n    def test_getupAndsleep(self):\n        with allure.step('进入更多页'):\n            self.page.more().click_more()\n        with allure.step('点击起床睡觉'):\n            self.page.timing().click_sleepingWake()\n        with allure.step('点击睡觉'):\n            time.sleep(3)\n            self.page.more().tapOperat(0.504, 0.856)\n        with allure.step('关闭打卡弹窗'):\n            time.sleep(3)\n            self.page.timing().click_sleepingClose()\n            time.sleep(3)\n        with allure.step('点击起床按钮'):\n            self.page.timing().click_wakeBtn()\n        with allure.step('判断睡觉计时结束'):\n>           assert self.page.timing().check_getupCard()== True\nE           assert False == True\nE             +False\nE             -True\n\ntest_044_sleepTime.py:36: AssertionError",
+    "steps" : [ {
+      "name" : "进入更多页",
+      "time" : {
+        "start" : 1614260264054,
+        "stop" : 1614260272378,
+        "duration" : 8324
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "点击起床睡觉",
+      "time" : {
+        "start" : 1614260272378,
+        "stop" : 1614260274276,
+        "duration" : 1898
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "点击睡觉",
+      "time" : {
+        "start" : 1614260274276,
+        "stop" : 1614260277318,
+        "duration" : 3042
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "关闭打卡弹窗",
+      "time" : {
+        "start" : 1614260277318,
+        "stop" : 1614260284930,
+        "duration" : 7612
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "点击起床按钮",
+      "time" : {
+        "start" : 1614260284930,
+        "stop" : 1614260286088,
+        "duration" : 1158
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "判断睡觉计时结束",
+      "time" : {
+        "start" : 1614260286088,
+        "stop" : 1614260338021,
+        "duration" : 51933
+      },
+      "status" : "failed",
+      "statusMessage" : "AssertionError: assert False == True\n  +False\n  -True\n",
+      "statusTrace" : "  File \"D:\\Jenkins\\workspace\\Timing\\scripts\\test_044_sleepTime.py\", line 36, in test_getupAndsleep\n    assert self.page.timing().check_getupCard()== True\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 0,
+    "hasContent" : true,
+    "stepsCount" : 6
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_044_sleepTime"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_sleepTime"
+  }, {
+    "name" : "host",
+    "value" : "WINDOWS-49AO44L"
+  }, {
+    "name" : "thread",
+    "value" : "16372-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_044_sleepTime"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5cb78040a558ec98.json",
+  "parameterValues" : [ ]
+}
