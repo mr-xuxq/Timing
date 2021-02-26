@@ -2,6 +2,7 @@
 import time,allure,random
 from Pages.page import Page
 from base.base_driver import Base
+
 #from base.base_analyze import analyze_file
 import pandas as pd
 from sqlalchemy import create_engine
@@ -25,6 +26,7 @@ class Test_changeNickname():
     # @pytest.mark.parametrize("args", analyze_file("address_data.yaml", "test_address"))                               # 装饰器
     #手机号密码登录测试用例
     def test_changeNickname(self):
+
         phone = 10000000125
         with allure.step('点击同意服务协议'):
             self.page.login().click_agree_login()
@@ -43,12 +45,14 @@ class Test_changeNickname():
         with allure.step('点击完成'):
             self.page.login_phone_captcha().click_loginBtn()
             time.sleep(5)
+
         with allure.step('点击更多按钮'):
             self.page.more().click_more()
             time.sleep(3)
         with allure.step('进入个人主页'):
             self.page.more().click_person()
             time.sleep(1)
+
         with allure.step('判断用户是否认证过'):
             if self.page.person_home().check_authenIcon() == False:
                 with allure.step('点击修改资料'):
@@ -80,5 +84,19 @@ class Test_changeNickname():
             time.sleep(2)
         with allure.step('断言:退出登录成功'):
             assert self.page.login().check_loginByphone() == True
+
+        with allure.step('点击修改资料'):
+            self.page.person_home().click_personInfo()
+            time.sleep(5)
+        with allure.step('修改姓名'):
+            name = random.randint(1, 200000)
+            self.page.name_info().input_nameBox(name)
+            time.sleep(1)
+        with allure.step('点击保存'):
+            self.page.name_info().click_nameRight()
+            time.sleep(1)
+        with allure.step('断言：修改请求完成'):
+            self.page.edit_personal_info().check_backBtn()
+
 
 

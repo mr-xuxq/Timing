@@ -5,8 +5,7 @@ from base.base_driver import Base
 #from base.base_analyze import analyze_file
 import pandas as pd
 from sqlalchemy import create_engine
-#phone = 10000000000 + random.randint(1, 99)
-phone = 10000000888
+phone = 10000000000 + random.randint(1, 500)
 #此处填入数据库连接
 
 class Test_loginByCaptcha():
@@ -42,13 +41,18 @@ class Test_loginByCaptcha():
             self.page.login_phone_captcha().input_captcha(str(captcha))
         with allure.step('点击完成'):
             self.page.login_phone_captcha().click_loginBtn()
+        with allure.step('第一次进入，点击我知道了'):
+            time.sleep(8)
+            self.page.login().tapScreen(0.5,0.6)
+        with allure.step('最小化以刷新UI检测界面'):
+            self.driver.background_app(3)
         with allure.step('断言:登录成功'):
             assert self.page.shouye().check_shouye() == True
 
     def test_logout(self):
         with allure.step('点击更多按钮'):
             self.page.more().click_more()
-            time.sleep(3)
+            time.sleep(8)
         with allure.step('点击设置按钮'):
             self.page.more().click_setting()
         with allure.step('点击退出登录按钮'):
@@ -58,5 +62,3 @@ class Test_loginByCaptcha():
             time.sleep(2)
         with allure.step('断言:退出登录成功'):
             assert self.page.login().check_loginByphone() == True
-
-

@@ -1,9 +1,10 @@
 #——————发布主页——————#
 from selenium.webdriver.common.by import By
 from base.base_action import BaseAction
-class Post_content(BaseAction):
+class Post(BaseAction):
     # 【发布按钮】
     postBtn = By.ID, 'com.huiian.timing:id/ll_post'
+<<<<<<< HEAD
     # 【发布图文日记按钮】
     postDiaryBtn = By.ID, 'com.huiian.timing:id/ll_post_diary'
     # 【上传长视频按钮】
@@ -19,31 +20,33 @@ class Post_content(BaseAction):
     # 【创建学习群按钮】
     createGroupBtn = By.ID, 'com.huiian.timing:id/cl_create_group'
     # 【关闭按钮】
+=======
+    # 【发布图文日记】
+    postDiary = By.ID, 'com.huiian.timing:id/tv_post_diary'
+    # 【发布视频日记】
+    postVideo = By.ID, 'com.huiian.timing:id/tv_post_video_diary'
+    # 【投稿汤视频】
+    postsVlog = By.ID, 'com.huiian.timing:id/tv_post_vlog'
+    # 【我的草稿箱】
+    drafts = By.ID, 'com.huiian.timing:id/tv_my_drafts'
+    # 【后退按钮】
+>>>>>>> cc7c6a99bd5e5351cc727f0cce76f609c094a754
     closeBtn = By.ID, 'com.huiian.timing:id/iv_back'
 
     def click_post(self):
         self.click(self.postBtn)
 
     def click_postDiary(self):
-        self.click(self.postDiaryBtn)
+        self.click(self.postDiary)
 
     def click_postVideo(self):
-        self.click(self.postVideoBtn)
+        self.click(self.postVideo)
 
-    def click_normalTiming(self):
-        self.click(self.normalTimingBtn)
+    def click_postsVlog(self):
+        self.click(self.postsVlog)
 
-    def click_sleep(self):
-        self.click(self.sleepBtn)
-
-    def click_videoRecord(self):
-        self.click(self.videoRecordBtn)
-
-    def click_library(self):
-        self.click(self.libraryBtn)
-
-    def click_createGroup(self):
-        self.click(self.createGroupBtn)
+    def click_drafts(self):
+        self.click(self.drafts)
 
     def click_close(self):
         self.click(self.closeBtn)
