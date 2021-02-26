@@ -1,7 +1,7 @@
 #coding:utf-8
 from Pages.page import Page
 from base.base_driver import Base
-import allure
+import allure,time
 sourse = []
 phone = 10000000888                                         # 登录手机
 pwd = 111111                                                # 登录密码
@@ -38,10 +38,13 @@ class Test_loginByPwd():
             self.page.login_phone_pwd().back()
         with allure.step('点击登录按钮'):
             self.page.login_phone_pwd().click_loginBtn()
+        with allure.step('第一次进入，点击我知道了'):
+            time.sleep(8)
+            self.page.login().tapScreen(0.5,0.6)
+        with allure.step('最小化以刷新UI检测界面'):
+            self.driver.background_app(3)
         with allure.step('断言:登录成功'):
             assert self.page.shouye().check_shouye() == True
-
-
 
 
 

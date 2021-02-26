@@ -2,14 +2,6 @@
 import time,allure,random
 from Pages.page import Page
 from base.base_driver import Base
-#from base.base_analyze import analyze_file
-import pandas as pd
-from sqlalchemy import create_engine
-#phone = 10000000000 + random.randint(1, 99)
-phone = 10000000001
-#此处填入数据库连接
-engine1 = create_engine('mysql+pymysql://timing_read_only:db_only_hsyt21@rr-bp12u85w22spt5976do.mysql.rds.aliyuncs.com:3306/timing?charset=utf8')
-
 
 class Test_changeNickname():
     #setup函数是在一个类里面最先被调用的函数，而且每执行完一个函数都要从setUp()调用开始后再执行下一个函数，有几个函数就调用他几次，与位置无关，随便放在那里都是他先被调用。
@@ -37,14 +29,11 @@ class Test_changeNickname():
         with allure.step('点击修改资料'):
             self.page.person_home().click_personInfo()
             time.sleep(5)
-        with allure.step('点击修改姓名'):
-            self.page.edit_personal_info().tapScreen(0.5,0.377)
-            time.sleep(1)
         with allure.step('修改姓名'):
             name = random.randint(1, 200000)
             self.page.name_info().input_nameBox(name)
             time.sleep(1)
-        with allure.step('点击确定'):
+        with allure.step('点击保存'):
             self.page.name_info().click_nameRight()
             time.sleep(1)
         with allure.step('断言：修改请求完成'):

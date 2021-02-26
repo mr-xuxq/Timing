@@ -59,3 +59,6 @@ class Login(BaseAction):
         return self.is_feature_exist(self.target)
     def check_loginByphone(self):
         return self.is_feature_exist(self.phoneBtn)
+    def tapScreen(self,x,y):
+        L = self.getSize()
+        self.driver.tap([(L[0]*x,L[1]*y)],1)

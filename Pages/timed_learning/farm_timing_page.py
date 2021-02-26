@@ -25,7 +25,7 @@ class Farm_timing(BaseAction):
         self.click(self.timingDialog)
 
     def check_timingEndSuccess(self):
-        return self.is_feature_exist(self.learningDataCard)
+        return self.is_feature_exist(self.timingEndSuccess)
 
     def press_back(self):
         self.press_back()

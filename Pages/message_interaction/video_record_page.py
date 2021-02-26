@@ -5,7 +5,7 @@ from base.base_action import BaseAction
 
 class Video_record(BaseAction):
     #说话就拍按钮
-    speakBtn = By.ID, 'com.huiian.timing:id/tv_speak_tip'
+    speakBtn = By.ID, 'com.huiian.timing:id/iv_video_small'
     #后退按钮
     backBtn = By.ID, 'com.huiian.timing:id/iv_back'
     #切换摄像头按钮
@@ -24,6 +24,8 @@ class Video_record(BaseAction):
     hatsBtn = By.ID, 'com.huiian.timing:id/effectsEmpty'
     #说话就拍准备状态文案
     readyToSpeak = By.ID, 'com.huiian.timing:id/tv_state_desc'
+    #开始录制
+    startRecord = By.ID, 'com.huiian.timing:id/begin_record'
 #-----------------------------------------------------------------------------------------------------------------------
 
     def click_speakBtn(self):
@@ -53,6 +55,8 @@ class Video_record(BaseAction):
     def click_hatsBtn(self):
         self.click(self.hatsBtn)
 
+    def click_startRecord(self):
+        self.click(self.startRecord)
 #-----------------------------------------------------------------------------------------------------------------------
 
     def check_back(self):

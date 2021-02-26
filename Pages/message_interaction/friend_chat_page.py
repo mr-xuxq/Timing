@@ -17,6 +17,8 @@ class Friend_chat(BaseAction):
     backBtn = By.ID, 'com.huiian.timing:id/team_back_fl'
     # 群组页后退按钮
     backTeamBtn = By.ID, 'com.huiian.timing:id/iv_back'
+    # 道友页确定开启录制按钮
+    yesToRecordBtn = By.ID, 'com.huiian.timing:id/popupwindow_confirm_right_fl'
     # 聊天页面输入框
     messageBox = By.ID, 'com.huiian.timing:id/editTextMessage'
     # 发送
@@ -27,7 +29,6 @@ class Friend_chat(BaseAction):
     imageBtn = By.XPATH,'//*[@text="相册"]'
     #视频按钮
     videoBtn = By.XPATH,'//*[@text="视频"]'
-
 
 
     def input_messageBox(self,content):
@@ -49,10 +50,10 @@ class Friend_chat(BaseAction):
         self.click(self.backTeamBtn)
     def click_messageBox(self):
         self.click(self.messageBox)
-
+    def click_yesToRecordBtn(self):
+        self.click(self.yesToRecordBtn)
     def click_imageBtn(self):
         self.click(self.imageBtn)
-
     def click_videoBtn(self):
         self.click(self.videoBtn)
 
@@ -75,6 +76,9 @@ class Friend_chat(BaseAction):
             return False
         else:
             return True
+
+    def check_yesToRecordBtn(self):
+        return self.is_feature_exist(self.yesToRecordBtn)
 
     def swipeByGroup(self):
         self.swipeOperat(0.5, 0.9, 0.5, 0.4, 500)

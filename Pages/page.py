@@ -22,7 +22,7 @@ from Pages.personal_information.editPersonInfo_page import Edit_personal_info
 from Pages.personal_information.nameInfo_page import Name_info
 from Pages.personal_information.person_home_page import Person_home
 # ——————————————————————-—————-Post_content————————————————————-—-——#
-from Pages.post_content.post_page import Post_content
+from Pages.post_content.post_page import Post
 from Pages.post_content.post_diary_page import Post_diary
 from Pages.post_content.selectPhoto_page import Select_diary_photo
 from Pages.post_content.topic_page import Topic
@@ -44,6 +44,7 @@ from Pages.timed_learning.classic_timing_page import Classic_timing
 from Pages.timed_learning.tomato_timing_page import Tomato_timing
 from Pages.timed_learning.video_timing_page import Video_timing
 from Pages.timed_learning.farm_timing_page import Farm_timing
+from Pages.timed_learning.friend_timing_page import Firend_timing
 
 #---------------------------------------------------------------------------------------------------------------------#
 #---------------------------------------------------------------------------------------------------------------------#
@@ -112,8 +113,8 @@ class Page:
     def person_home(self):
         return Person_home(self.driver)
 # ——————————————————————-—————-Post_content————————————————————-—-——#
-    def post_content(self):
-        return Post_content(self.driver)
+    def post(self):
+        return Post(self.driver)
 
     def post_diary(self):
         return Post_diary(self.driver)
@@ -171,3 +172,6 @@ class Page:
 
     def farm_timing(self):
         return Farm_timing(self.driver)
+
+    def firend_timing(self):
+        return Firend_timing(self.driver)

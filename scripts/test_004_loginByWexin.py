@@ -28,34 +28,27 @@ class Test_loginByWexin():
             self.page.login().click_agree_login()
         with allure.step('点击Weixin登录'):
             self.page.login().click_wechat_login()
+        with allure.step('第一次进入，点击我知道了'):
             time.sleep(10)
-        with allure.step('检查是否跳到首页'):
-            result = self.page.shouye().check_shouye()
-            if result == True:
-                with allure.step('断言:登录成功'):
-                    assert self.page.shouye().check_shouye() == True
-            else:
-                with allure.step('用户未绑定手机，用例结束'):
-                    self.page.banding_phone().click_closeBtn()
+            self.page.login().tapScreen(0.5,0.6)
+        with allure.step('最小化以刷新UI检测界面'):
+            self.driver.background_app(3)
+        with allure.step('断言:登录成功'):
+            assert self.page.shouye().check_shouye() == True
 
     def test_logout(self):
-        with allure.step('检测登陆状态'):
-            result = self.page.shouye().check_shouye()
-            if result == True:
-                with allure.step('点击更多按钮'):
-                    self.page.more().click_more()
-                    time.sleep(8)
-                with allure.step('点击设置按钮'):
-                    self.page.more().click_setting()
-                with allure.step('点击退出登录按钮'):
-                    self.page.setting().click_logout()
-                with allure.step('确定退出'):
-                    self.page.setting().click_confirmLogout()
-                with allure.step('断言:退出登录成功'):
-                    assert self.page.login().check_loginByphone() == True
-            else:
-                with allure.step('处于未登录状态，用例结束'):
-                    pass
+        with allure.step('点击更多按钮'):
+            time.sleep(5)
+            self.page.more().click_more()
+            time.sleep(8)
+        with allure.step('点击设置按钮'):
+            self.page.more().click_setting()
+        with allure.step('点击退出登录按钮'):
+            self.page.setting().click_logout()
+        with allure.step('确定退出'):
+            self.page.setting().click_confirmLogout()
+        with allure.step('断言:退出登录成功'):
+            assert self.page.login().check_loginByphone() == True
 
 
 

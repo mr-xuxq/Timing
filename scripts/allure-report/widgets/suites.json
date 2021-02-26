@@ -1,5 +1,5 @@
 {
-  "total" : 6,
+  "total" : 14,
   "items" : [ {
     "uid" : "398d65f7f625df45db5997ff0001cf74",
     "name" : "test_011_browsesVlog",
@@ -36,6 +36,50 @@
   }, {
     "uid" : "4a69bd602993cc01d73970fbdf1f6418",
     "name" : "test_004_loginByWexin",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "5547a6fb2d3da71c4e0bc8694495f514",
+    "name" : "test_041_studyTime",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "588830e7b24dbc5afa5069c9f4cc55f3",
+    "name" : "test_043_videoTime",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "2f6a26cc0429e0b7cbdc6b46eb41ccc3",
+    "name" : "test_045_farmTime",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "8f3df01a0d9704c2be94d011b2016581",
+    "name" : "test_046_friendTime",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
