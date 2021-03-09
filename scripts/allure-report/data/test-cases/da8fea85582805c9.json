@@ -1,0 +1,286 @@
+{
+  "uid" : "da8fea85582805c9",
+  "name" : "test_videoTimeLess",
+  "fullName" : "test_043_videoTime.Test_videoTime#test_videoTimeLess",
+  "historyId" : "b844d99b8d725c7e19aaa41d711f1698",
+  "time" : {
+    "start" : 1612797305648,
+    "stop" : 1612797339514,
+    "duration" : 33866
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "视频打卡计时不足一分钟结束",
+      "time" : {
+        "start" : 1612797305648,
+        "stop" : 1612797339514,
+        "duration" : 33866
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "进入更多页",
+        "time" : {
+          "start" : 1612797305648,
+          "stop" : 1612797309278,
+          "duration" : 3630
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "点击自律工具",
+        "time" : {
+          "start" : 1612797309278,
+          "stop" : 1612797313473,
+          "duration" : 4195
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "点击视频打卡",
+        "time" : {
+          "start" : 1612797313473,
+          "stop" : 1612797313803,
+          "duration" : 330
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "填写学习内容",
+        "time" : {
+          "start" : 1612797313803,
+          "stop" : 1612797318972,
+          "duration" : 5169
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "设置时间",
+        "time" : {
+          "start" : 1612797318972,
+          "stop" : 1612797319608,
+          "duration" : 636
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "设置学习时长",
+        "time" : {
+          "start" : 1612797319608,
+          "stop" : 1612797322872,
+          "duration" : 3264
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "点击设置完成按钮",
+        "time" : {
+          "start" : 1612797322872,
+          "stop" : 1612797326885,
+          "duration" : 4013
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "点击确定开启并开启摄像头",
+        "time" : {
+          "start" : 1612797326885,
+          "stop" : 1612797327765,
+          "duration" : 880
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "允许权限",
+        "time" : {
+          "start" : 1612797327765,
+          "stop" : 1612797329818,
+          "duration" : 2053
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "点击开始学习按钮",
+        "time" : {
+          "start" : 1612797329818,
+          "stop" : 1612797330031,
+          "duration" : 213
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "点击结束",
+        "time" : {
+          "start" : 1612797330031,
+          "stop" : 1612797336399,
+          "duration" : 6368
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "点击确定",
+        "time" : {
+          "start" : 1612797336399,
+          "stop" : 1612797337042,
+          "duration" : 643
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "点击后退",
+        "time" : {
+          "start" : 1612797337042,
+          "stop" : 1612797338882,
+          "duration" : 1840
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      }, {
+        "name" : "判断到了更多页",
+        "time" : {
+          "start" : 1612797338882,
+          "stop" : 1612797339514,
+          "duration" : 632
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : false,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 14,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 15,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_043_videoTime"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_videoTime"
+  }, {
+    "name" : "host",
+    "value" : "WINDOWS-49AO44L"
+  }, {
+    "name" : "thread",
+    "value" : "5576-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_043_videoTime"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "da8fea85582805c9.json",
+  "parameterValues" : [ ]
+}

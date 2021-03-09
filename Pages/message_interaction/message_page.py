@@ -4,6 +4,8 @@ from base.base_action import BaseAction
 
 class Message(BaseAction):
 # 消息页面元素-------------------------------------------------------------
+    # 道友圈按钮
+    friendsBtn = By.ID, 'com.huiian.timing:id/iv_main_friend_feed'
     # tab消息
     messageBtn = By.ID, 'com.huiian.timing:id/message_img'
     # Timing小书童
@@ -32,6 +34,9 @@ class Message(BaseAction):
     groupMessage = By.XPATH, '//*[@text="恭喜你~成功创建群"]'
     # 最新消息栏
     firstChannel = By.ID, 'com.huiian.timing:id/tv_content'
+
+    def click_friendsBtn(self):
+        self.click(self.friendsBtn)
 
     def click_messageBtn(self):
         self.click(self.messageBtn)

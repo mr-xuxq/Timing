@@ -21,9 +21,6 @@ class Test_checkRecordPage():
     # @pytest.mark.parametrize("args", analyze_file("address_data.yaml", "test_address"))                               # 装饰器
     #长视频列表页浏览测试用例
     def test_checkRecordPage(self):
-        with allure.step('进入消息页'):
-            self.page.shouye().click_message()
-            time.sleep(2)
         with allure.step('进入道友聊天页'):
             self.page.message().click_messageFriend()
         with allure.step('点击说话就拍按钮'):

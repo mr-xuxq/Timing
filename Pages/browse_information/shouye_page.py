@@ -4,7 +4,7 @@ from base.base_action import BaseAction
 
 class Shouye(BaseAction):
     # 【首页按钮】
-    shouyeBtn = By.ID, 'com.huiian.timing:id/tab_learning_home_ll'
+    shouyeBtn = By.ID, 'com.huiian.timing:id/iv_main_friend_feed'
     # 【关注页按钮】
     followBtn = By.ID, 'com.huiian.timing:id/tab_follow_ll'
     # 【发布页按钮】

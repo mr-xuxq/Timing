@@ -1,0 +1,174 @@
+{
+  "uid" : "cfd70eda843db5ca",
+  "name" : "test_checkRecordPage",
+  "fullName" : "test_021_checkRecordPage.Test_checkRecordPage#test_checkRecordPage",
+  "historyId" : "ca0d3d56d5747fc9a4297c371670d94c",
+  "time" : {
+    "start" : 1607613133018,
+    "stop" : 1607613198383,
+    "duration" : 65365
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert False",
+  "statusTrace" : "self = <scripts.test_021_checkRecordPage.Test_checkRecordPage object at 0x000001D2F63D9190>\n\n    def test_checkRecordPage(self):\n        with allure.step('进入消息页'):\n            self.page.shouye().click_message()\n            time.sleep(2)\n        with allure.step('进入Timing小书童'):\n            self.page.message().click_timingService()\n        with allure.step('退出Timing小书童'):\n            self.page.message().click_back()\n        with allure.step('进入道友聊天页'):\n            self.page.message().click_firstChannel()\n        with allure.step('点击说话就拍按钮'):\n            self.page.video_record().click_speakBtn()\n        with allure.step('检查界面元素'):\n            with allure.step('检查后退按钮'):\n                if self.page.video_record().check_back() == True:\n                    assert True\n                else:\n>                   assert False\nE                   assert False\n\ntest_021_checkRecordPage.py:40: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert False",
+    "statusTrace" : "self = <scripts.test_021_checkRecordPage.Test_checkRecordPage object at 0x000001D2F63D9190>\n\n    def test_checkRecordPage(self):\n        with allure.step('进入消息页'):\n            self.page.shouye().click_message()\n            time.sleep(2)\n        with allure.step('进入Timing小书童'):\n            self.page.message().click_timingService()\n        with allure.step('退出Timing小书童'):\n            self.page.message().click_back()\n        with allure.step('进入道友聊天页'):\n            self.page.message().click_firstChannel()\n        with allure.step('点击说话就拍按钮'):\n            self.page.video_record().click_speakBtn()\n        with allure.step('检查界面元素'):\n            with allure.step('检查后退按钮'):\n                if self.page.video_record().check_back() == True:\n                    assert True\n                else:\n>                   assert False\nE                   assert False\n\ntest_021_checkRecordPage.py:40: AssertionError",
+    "steps" : [ {
+      "name" : "进入消息页",
+      "time" : {
+        "start" : 1607613133018,
+        "stop" : 1607613139139,
+        "duration" : 6121
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "进入Timing小书童",
+      "time" : {
+        "start" : 1607613139139,
+        "stop" : 1607613142442,
+        "duration" : 3303
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "退出Timing小书童",
+      "time" : {
+        "start" : 1607613142442,
+        "stop" : 1607613145566,
+        "duration" : 3124
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "进入道友聊天页",
+      "time" : {
+        "start" : 1607613145566,
+        "stop" : 1607613146435,
+        "duration" : 869
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "点击说话就拍按钮",
+      "time" : {
+        "start" : 1607613146435,
+        "stop" : 1607613147236,
+        "duration" : 801
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "检查界面元素",
+      "time" : {
+        "start" : 1607613147236,
+        "stop" : 1607613198383,
+        "duration" : 51147
+      },
+      "status" : "failed",
+      "statusMessage" : "AssertionError: assert False\n",
+      "statusTrace" : "  File \"D:\\Jenkins\\workspace\\Timing\\scripts\\test_021_checkRecordPage.py\", line 40, in test_checkRecordPage\n    assert False\n",
+      "steps" : [ {
+        "name" : "检查后退按钮",
+        "time" : {
+          "start" : 1607613147236,
+          "stop" : 1607613198383,
+          "duration" : 51147
+        },
+        "status" : "failed",
+        "statusMessage" : "AssertionError: assert False\n",
+        "statusTrace" : "  File \"D:\\Jenkins\\workspace\\Timing\\scripts\\test_021_checkRecordPage.py\", line 40, in test_checkRecordPage\n    assert False\n",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "hasContent" : true,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 7,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_021_checkRecordPage"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_checkRecordPage"
+  }, {
+    "name" : "host",
+    "value" : "WINDOWS-49AO44L"
+  }, {
+    "name" : "thread",
+    "value" : "1808-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_021_checkRecordPage"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "cfd70eda843db5ca.json",
+  "parameterValues" : [ ]
+}

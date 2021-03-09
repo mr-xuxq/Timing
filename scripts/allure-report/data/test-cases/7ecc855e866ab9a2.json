@@ -1,0 +1,151 @@
+{
+  "uid" : "7ecc855e866ab9a2",
+  "name" : "test_getupAndsleep",
+  "fullName" : "test_044_sleepTime.Test_sleepTime#test_getupAndsleep",
+  "historyId" : "594cc68e5362ce75a5685c550c0d97b1",
+  "time" : {
+    "start" : 1614168981533,
+    "stop" : 1614169003687,
+    "duration" : 22154
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "进入更多页",
+      "time" : {
+        "start" : 1614168981533,
+        "stop" : 1614168987475,
+        "duration" : 5942
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "点击起床睡觉",
+      "time" : {
+        "start" : 1614168987475,
+        "stop" : 1614168989426,
+        "duration" : 1951
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "点击睡觉",
+      "time" : {
+        "start" : 1614168989426,
+        "stop" : 1614168992451,
+        "duration" : 3025
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "关闭打卡弹窗",
+      "time" : {
+        "start" : 1614168992451,
+        "stop" : 1614168999964,
+        "duration" : 7513
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "点击起床按钮",
+      "time" : {
+        "start" : 1614168999964,
+        "stop" : 1614169003678,
+        "duration" : 3714
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "判断睡觉计时结束",
+      "time" : {
+        "start" : 1614169003678,
+        "stop" : 1614169003687,
+        "duration" : 9
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_044_sleepTime"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_sleepTime"
+  }, {
+    "name" : "host",
+    "value" : "WINDOWS-49AO44L"
+  }, {
+    "name" : "thread",
+    "value" : "4640-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_044_sleepTime"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7ecc855e866ab9a2.json",
+  "parameterValues" : [ ]
+}

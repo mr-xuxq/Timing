@@ -64,6 +64,7 @@ class Test_studyTime():
             self.page.classic_timing().click_timingEndYes()
         with allure.step('点击后退'):
             self.page.timing().click_back()
+            self.page.timing().click_back()
         with allure.step('判断跳到更多页'):
             assert self.page.more().waitAndfind_more() == True
 

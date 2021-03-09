@@ -21,6 +21,8 @@ class Test_browsesVlog():
     # @pytest.mark.parametrize("args", analyze_file("address_data.yaml", "test_address"))                               # 装饰器
     #长视频列表页浏览测试用例
     def test_browsesVlog(self):
+        with allure.step('点击进入发现页'):
+            self.page.shouye().click_shouye()
         with allure.step('点击sVlog标题'):
             if self.page.shouye().check_sVlog() == True:
                 self.page.shouye().click_sVlogCover()

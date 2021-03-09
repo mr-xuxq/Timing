@@ -31,6 +31,7 @@ class Test_friendTime():
             self.page.firend_timing().click_endTimeBtn()
         with allure.step('确认结束学习'):
             self.page.firend_timing().click_endTimeYesBtn()
+            self.page.timing().click_back()
         with allure.step('判断跳到更多页'):
             assert self.page.more().waitAndfind_more() == True
 

@@ -4,11 +4,13 @@ from base.base_action import BaseAction
 
 class More(BaseAction):
     # 【更多按钮】
-    moreBtn = By.ID, 'com.huiian.timing:id/mine_img'
+    moreBtn = By.ID, 'com.huiian.timing:id/iv_main_more'
     # 【设置按钮】
-    settingBtn = By.ID, 'com.huiian.timing:id/iv_setting'
+    settingBtn = By.ID, 'com.huiian.timing:id/tv_setting'
+    # 【更多按钮2】
+    smallmoreBtn = By.ID, 'com.huiian.timing:id/tv_setting'
     # 更多_用户区域
-    personBtn = By.ID, 'com.huiian.timing:id/view_info'
+    personBtn = By.ID, 'com.huiian.timing:id/iv_avatar'
     # 自律工具
     # 学习计时按钮
     normalTimingBtn = By.XPATH, '//*[@text="开始学习"]'

@@ -21,11 +21,11 @@ class Test_postDiary():
     # @pytest.mark.parametrize("args", analyze_file("address_data.yaml", "test_address"))                               # 装饰器
     #长视频列表页浏览测试用例
     def test_postDiary(self):
-        with allure.step('进入更多页'):
+        with allure.step('点击打开右上角我的抽屉页'):
             self.page.more().click_more()
-        with allure.step('滑动到最底部'):
-            time.sleep(3)
-            self.page.more().swipeUp()
+        with allure.step('点击更多按钮'):
+            time.sleep(2)
+            self.page.more().tapOperat(0.197, 0.652)
         with allure.step('点击发布/投稿'):
             self.page.more().click_postBtn()
         with allure.step('点击发布图文日记'):

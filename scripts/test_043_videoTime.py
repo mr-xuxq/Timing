@@ -49,6 +49,7 @@ class Test_videoTime():
             self.page.video_timing().click_videoEndDialog()
         with allure.step('点击后退'):
             self.page.timing().click_back()
+            self.page.timing().click_back()
         with allure.step('判断到了更多页'):
             assert self.page.more().waitAndfind_more() == True
 
