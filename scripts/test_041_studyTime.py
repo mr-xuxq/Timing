@@ -20,9 +20,10 @@ class Test_studyTime():
 
     def test_studyTimeLess(self):
         with allure.step('进入更多页'):
-            self.page.more().click_more()
+            self.page.shouye().click_mainMoreBtn()
         with allure.step('点击自律工具'):
-            self.page.timing().click_studyTools()
+            time.sleep(2)
+            self.page.more().click_studyToolBtn()
         with allure.step('点击普通计时'):
             self.page.timing().click_normalTiming()
         with allure.step('输入学习内容'):
@@ -64,14 +65,15 @@ class Test_studyTime():
             self.page.classic_timing().click_timingEndYes()
         with allure.step('点击后退'):
             self.page.timing().click_back()
-        with allure.step('判断跳到更多页'):
-            assert self.page.more().waitAndfind_more() == True
+        with allure.step('判断跳到首页'):
+            assert self.page.shouye().check_friendCircle() == True
 
     def test_studyTimeEnough(self):
         with allure.step('进入更多页'):
-            self.page.more().click_more()
+            self.page.shouye().click_mainMoreBtn()
         with allure.step('点击自律工具'):
-            self.page.timing().click_studyTools()
+            time.sleep(2)
+            self.page.more().click_studyToolBtn()
         with allure.step('点击普通计时'):
             self.page.timing().click_normalTiming()
         with allure.step('输入学习内容'):
@@ -92,7 +94,7 @@ class Test_studyTime():
         with allure.step('点击继续'):
             self.page.classic_timing().click_timingContinue()
         with allure.step('判断时间到了结束弹窗'):
-            time.sleep(55)
+            time.sleep(60)
             assert self.page.classic_timing().check_timingDialog() == True
         with allure.step('点击我知道了'):
             self.page.classic_timing().click_timingDialog()
@@ -110,4 +112,18 @@ class Test_studyTime():
             self.page.classic_timing().click_timingEnd()
         with allure.step('确认结束'):
             self.page.classic_timing().click_timingEndYes()
-
+        with allure.step('检查是否有计时结束提示框'):
+            time.sleep(5)
+            self.page.classic_timing().tapScreen(0.5,0.63)
+            time.sleep(1)
+            if self.page.activity().check_backBtn() == True:
+                self.page.activity().click_back()
+            else:
+                self.page.classic_timing().tapScreen(0.5,0.63)
+                if self.page.activity().check_backBtn() == True:
+                    self.page.activity().click_back()
+                else:
+                    self.page.activity().click_closeLive()
+            time.sleep(2)
+            self.page.classic_timing().tapScreen(0.5, 0.415)
+            assert self.page.classic_timing().check_sharePhoto() == True

@@ -10,19 +10,22 @@ class Timing(BaseAction):
     videoStartDialog = By.XPATH, '//*[@text="允许"]'
 
     # 道友结伴按钮
-    friendTimeBtn = By.ID, 'com.huiian.timing:id/tv_study_online'
+    friendTimeBtn = By.ID, 'com.huiian.timing:id/layout_start_action'
 
     # 自律工具
-    studyTools = By.ID, 'com.huiian.timing:id/tv_study_tool'
+    studyTools = By.XPATH, '//*[@text="自律工具"]'
     # 普通计时
     normalTiming = By.ID, 'com.huiian.timing:id/tv_study_record'
+    # 番茄计时
+    tomatoTiming = By.ID, 'com.huiian.timing:id/tv_tomato_timing_common'
     # 视频打卡
     videoTiming = By.ID, 'com.huiian.timing:id/tv_video_dk'
     # 学习农场
     farmTiming = By.ID, 'com.huiian.timing:id/tv_learning_farm'
+    # 学习计划
+    studyPlan = By.ID, 'com.huiian.timing:id/tv_study_plan'
     # 后退按钮
     backBtn = By.ID, 'com.huiian.timing:id/iv_back'
-
 
     # 【学习目标】输入框{除普通计时}
     learningTargetBox = By.ID, 'com.huiian.timing:id/et_title'
@@ -33,7 +36,6 @@ class Timing(BaseAction):
     timeSettingBtn = By.ID, 'com.huiian.timing:id/tv_setting_time'
     # 【时长设置】按钮-普通计时
     studySettingBtn = By.ID, 'com.huiian.timing:id/tv_setting_time_common'
-
 
     # 时长设置【完成】-普通计时
     studySettingsuccessBtn = By.XPATH, '//*[@text="完成"]'
@@ -80,23 +82,24 @@ class Timing(BaseAction):
         self.click(self.studyTools)
     def click_normalTiming(self):
         self.click(self.normalTiming)
+    def click_tomatoTiming(self):
+        self.click(self.tomatoTiming)
     def click_videoTiming(self):
         self.click(self.videoTiming)
     def click_farmTiming(self):
         self.click(self.farmTiming)
+    def click_studyPlan(self):
+        self.click(self.studyPlan)
     def click_back(self):
         self.click(self.backBtn)
     def click_friendTimeBtn(self):
         self.click(self.friendTimeBtn)
-
     def press_back(self):
         self.press_back()
-
     def input_normalLearningTargetBox(self,content):
         self.input(self.normalLearningTargetBox,content)
     def input_learningTargetBox(self,content):
         self.input(self.learningTargetBox,content)
-
     def check_studySettingsuccessBtn(self):
         return self.is_feature_exist(self.studySettingsuccessBtn)
     def check_videoStartDialog(self):
@@ -104,16 +107,10 @@ class Timing(BaseAction):
     def check_getupCard(self):
         return self.is_feature_exist(self.getupCard)
     def check_timingDialog(self):
-        if self.find_element(self.timingDialog,timeout=2, poll=1) == "":
-            return False
-        else:
-            return True
+        return self.is_feature_exist(self.timingDialog)
     def check_sleepingClose(self):
-        if self.find_element(self.sleepingClose, timeout=2, poll=1) == "":
-            return False
-        else:
-            return True
-
+        return self.is_feature_exist(self.sleepingClose)
     def tapScreen(self,x,y):
-        L = self.getSize()
-        self.driver.tap([(L[0]*x,L[1]*y)],1)
+        self.tapOperat(x,y)
+    def background_app(self):
+        self.driver.background_app(5)

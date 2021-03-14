@@ -18,10 +18,8 @@ class Test_friendTime():
         self.driver.quit()
 
     def test_friendTimeLess(self):
-        with allure.step('进入更多页'):
-            self.page.more().click_more()
-        with allure.step('点击道友结伴'):
-            self.page.timing().click_friendTimeBtn()
+        with allure.step('点击结伴学习'):
+            self.page.shouye().click_startStudyBtn()
         with allure.step('输入学习内容'):
             time.sleep(3)
             self.page.firend_timing().input_friendTimeBox(12345)
@@ -31,14 +29,12 @@ class Test_friendTime():
             self.page.firend_timing().click_endTimeBtn()
         with allure.step('确认结束学习'):
             self.page.firend_timing().click_endTimeYesBtn()
-        with allure.step('判断跳到更多页'):
-            assert self.page.more().waitAndfind_more() == True
+        with allure.step('判断跳到首页'):
+            assert self.page.shouye().check_friendCircle() == True
 
     def test_friendTimeEnough(self):
-        with allure.step('进入更多页'):
-            self.page.more().click_more()
-        with allure.step('点击道友结伴'):
-            self.page.timing().click_friendTimeBtn()
+        with allure.step('点击结伴学习'):
+            self.page.shouye().click_startStudyBtn()
         with allure.step('输入学习内容'):
             time.sleep(3)
             self.page.firend_timing().input_friendTimeBox(12345)

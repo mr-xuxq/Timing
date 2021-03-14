@@ -21,14 +21,16 @@ class Test_browsesVlog():
     # @pytest.mark.parametrize("args", analyze_file("address_data.yaml", "test_address"))                               # 装饰器
     #长视频列表页浏览测试用例
     def test_browsesVlog(self):
+        with allure.step('点击进入发现页'):
+            self.page.shouye().click_friendCircle()
         with allure.step('点击sVlog标题'):
-            if self.page.shouye().check_sVlog() == True:
-                self.page.shouye().click_sVlogCover()
+            if self.page.discover().check_sVlogAuthor() == True:
+                self.page.discover().click_sVlogGif()
             else:
-                self.page.shouye().swipeUp()
-                self.page.shouye().click_sVlogCover()
+                self.page.discover().swipeUp()
+                self.page.discover().click_sVlogGif()
             time.sleep(2)
-        with allure.step('浏览长视频列表'):
+        with allure.step('快速浏览长视频列表2min'):
             for i in range(1,5):
                 for j in range(1,100):
                     self.page.sVlog_list().swipeUp()
@@ -36,5 +38,4 @@ class Test_browsesVlog():
                 self.page.sVlog_list().swipeLeft()
                 time.sleep(1)
         with allure.step('断言:无任何崩溃闪退'):
-            assert self.page.sVlog_list().check_sVlogTitle() == True
-
+            assert self.page.sVlog_list().check_followBtn() == True

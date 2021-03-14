@@ -17,7 +17,6 @@ class Tree_hole(BaseAction):
     switchChannelBtn = By.ID, 'com.huiian.timing:id/intercom_fm_change'
 
 
-
     def click_treeHole(self):
         self.click(self.treeHoleBtn)
 

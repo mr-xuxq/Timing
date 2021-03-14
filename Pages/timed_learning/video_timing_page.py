@@ -40,30 +40,17 @@ class Video_timing(BaseAction):
         self.click(self.closeBtn)
     def press_back(self):
         self.press_back()
-
     def click_videoStartStudy(self):
         self.click(self.videoStartStudyBtn)
     def click_videoClosBtn(self):
         self.click(self.videoCloseBtn)
-
     def check_videoSuccess(self):
         return self.is_feature_exist(self.videoSuccess)
-
     def check_timingDialog(self):
-        if self.find_element(self.timingDialog,timeout=2, poll=1) == "":
-            return False
-        else:
-            return True
-
+        return self.is_feature_exist(self.timingDialog)
     def check_timingEndDialog(self):
-        if self.find_element(self.timingEndDialog,timeout=2, poll=1) == "":
-            return False
-        else:
-            return True
-
+        return self.is_feature_exist(self.timingEndDialog)
     def check_videoStartDialog(self):
         return self.is_feature_exist(self.videoStartDialog)
-
     def tapScreen(self,x,y):
-        L = self.getSize()
-        self.driver.tap([(L[0]*x,L[1]*y)],1)
+        self.tapOperat(x,y)

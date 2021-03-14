@@ -54,6 +54,10 @@ class Classic_timing(BaseAction):
     studyDiscussContent = By.ID, 'com.huiian.timing:id/tvContent'
     # 再次开始学习标签
     timingAgain = By.ID, 'com.huiian.timing:id/layout_timing_tv_study_restart'
+    # 计时结束完成按钮
+    finshBtn = By.ID, 'com.huiian.timing:id/tv_share_btn'
+    # 分享图片
+    sharePhoto = By.ID, 'com.huiian.timing:id/ll_sharePhoto'
 # -----------------------------------------------------------------------------------------------------------------------
     def click_timingDialog(self):
         self.click(self.timingDialog)
@@ -75,7 +79,6 @@ class Classic_timing(BaseAction):
         self.click(self.timingEndSuccess)
     def click_studySettingBtn(self):
         self.click(self.studySettingBtn)
-
     def click_startTimingBtn(self):
         self.click(self.startTimingBtn)
     def click_timingEndConfirmRight(self):
@@ -94,22 +97,13 @@ class Classic_timing(BaseAction):
         self.click(self.studyDiscussSendBtn)
     def click_backBtn(self):
         self.click(self.backBtn)
-
     def input_sendWordBox(self,content):
         self.input(self.sendWordBox,content)
 #-----------------------------------------------------------------------------------------------------------------------
-    def waitAndfind_timingEndConfirmLeft(self):
-        if self.waitLoading(self.timingEndConfirmLeft, t=2) == True:
-            return True
-        else:
-            return False
-#------------------------------------------------------------------------------------------------------------------------
+    def check_timingEndConfirmLeft(self):
+        return self.is_feature_exist(self.timingEndConfirmLeft)
     def check_timingDialog(self):
-        if self.find_element(self.timingDialog,timeout=2, poll=1) == "":
-            return False
-        else:
-            return True
-
+        return self.is_feature_exist(self.timingDialog)
     def check_timingEndSuccess(self):
         return self.is_feature_exist(self.timingEndSuccess)
     def check_timingEndDialog(self):
@@ -122,6 +116,9 @@ class Classic_timing(BaseAction):
         return self.is_feature_exist(self.studyDiscussContent)
     def check_timingAgain(self):
         return self.is_feature_exist(self.timingAgain)
+    def check_sharePhoto(self):
+        return self.is_feature_exist(self.sharePhoto)
+    def check_finshBtn(self):
+        return self.is_feature_exist(self.finshBtn)
     def tapScreen(self,x,y):
-        L = self.getSize()
-        self.driver.tap([(L[0]*x,L[1]*y)],1)
+        self.tapOperat(x,y)

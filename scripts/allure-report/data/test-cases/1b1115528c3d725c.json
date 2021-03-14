@@ -1,0 +1,523 @@
+{
+  "uid" : "1b1115528c3d725c",
+  "name" : "test_farmTimeLess",
+  "fullName" : "test_045_farmTime.Test_farmTime#test_farmTimeLess",
+  "historyId" : "3393c72a8712bf17a680a7ad01fa9c2c",
+  "time" : {
+    "start" : 1615550661387,
+    "stop" : 1615550712658,
+    "duration" : 51271
+  },
+  "status" : "broken",
+  "statusMessage" : "selenium.common.exceptions.TimeoutException: Message:",
+  "statusTrace" : "self = <scripts.test_045_farmTime.Test_farmTime object at 0x0000029542CAA850>\n\n    def test_farmTimeLess(self):\n        with allure.step('进入更多页'):\n>           self.page.shouye().click_mainMoreBtn()\n\ntest_045_farmTime.py:22: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n..\\Pages\\message_interaction\\shouye_page.py:37: in click_mainMoreBtn\n    self.click(self.mainMoreBtn)\n..\\base\\base_action.py:27: in click\n    self.find_element(feature).click()\n..\\base\\base_action.py:22: in find_element\n    element = WebDriverWait(self.driver, timeout, poll).until(lambda x: x.find_element(feature_by, feature_value))\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <selenium.webdriver.support.wait.WebDriverWait (session=\"a5f41d5a-ad43-469a-b4cc-0e5377b3d0ff\")>\nmethod = <function BaseAction.find_element.<locals>.<lambda> at 0x0000029542D2D310>\nmessage = ''\n\n    def until(self, method, message=''):\n        \"\"\"Calls the method provided with the driver as an argument until the \\\n        return value is not False.\"\"\"\n        screen = None\n        stacktrace = None\n    \n        end_time = time.time() + self._timeout\n        while True:\n            try:\n                value = method(self._driver)\n                if value:\n                    return value\n            except self._ignored_exceptions as exc:\n                screen = getattr(exc, 'screen', None)\n                stacktrace = getattr(exc, 'stacktrace', None)\n            time.sleep(self._poll)\n            if time.time() > end_time:\n                break\n>       raise TimeoutException(message, screen, stacktrace)\nE       selenium.common.exceptions.TimeoutException: Message:\n\nc:\\python38\\lib\\site-packages\\selenium\\webdriver\\support\\wait.py:80: TimeoutException",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "selenium.common.exceptions.TimeoutException: Message:",
+    "statusTrace" : "self = <scripts.test_045_farmTime.Test_farmTime object at 0x0000029542CAA850>\n\n    def test_farmTimeLess(self):\n        with allure.step('进入更多页'):\n>           self.page.shouye().click_mainMoreBtn()\n\ntest_045_farmTime.py:22: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n..\\Pages\\message_interaction\\shouye_page.py:37: in click_mainMoreBtn\n    self.click(self.mainMoreBtn)\n..\\base\\base_action.py:27: in click\n    self.find_element(feature).click()\n..\\base\\base_action.py:22: in find_element\n    element = WebDriverWait(self.driver, timeout, poll).until(lambda x: x.find_element(feature_by, feature_value))\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <selenium.webdriver.support.wait.WebDriverWait (session=\"a5f41d5a-ad43-469a-b4cc-0e5377b3d0ff\")>\nmethod = <function BaseAction.find_element.<locals>.<lambda> at 0x0000029542D2D310>\nmessage = ''\n\n    def until(self, method, message=''):\n        \"\"\"Calls the method provided with the driver as an argument until the \\\n        return value is not False.\"\"\"\n        screen = None\n        stacktrace = None\n    \n        end_time = time.time() + self._timeout\n        while True:\n            try:\n                value = method(self._driver)\n                if value:\n                    return value\n            except self._ignored_exceptions as exc:\n                screen = getattr(exc, 'screen', None)\n                stacktrace = getattr(exc, 'stacktrace', None)\n            time.sleep(self._poll)\n            if time.time() > end_time:\n                break\n>       raise TimeoutException(message, screen, stacktrace)\nE       selenium.common.exceptions.TimeoutException: Message:\n\nc:\\python38\\lib\\site-packages\\selenium\\webdriver\\support\\wait.py:80: TimeoutException",
+    "steps" : [ {
+      "name" : "进入更多页",
+      "time" : {
+        "start" : 1615550661387,
+        "stop" : 1615550712656,
+        "duration" : 51269
+      },
+      "status" : "broken",
+      "statusMessage" : "selenium.common.exceptions.TimeoutException: Message: \n\n",
+      "statusTrace" : "  File \"D:\\Jenkins\\workspace\\Timing\\scripts\\test_045_farmTime.py\", line 22, in test_farmTimeLess\n    self.page.shouye().click_mainMoreBtn()\n  File \"D:\\Jenkins\\workspace\\Timing\\Pages\\message_interaction\\shouye_page.py\", line 37, in click_mainMoreBtn\n    self.click(self.mainMoreBtn)\n  File \"D:\\Jenkins\\workspace\\Timing\\base\\base_action.py\", line 27, in click\n    self.find_element(feature).click()\n  File \"D:\\Jenkins\\workspace\\Timing\\base\\base_action.py\", line 22, in find_element\n    element = WebDriverWait(self.driver, timeout, poll).until(lambda x: x.find_element(feature_by, feature_value))\n  File \"c:\\python38\\lib\\site-packages\\selenium\\webdriver\\support\\wait.py\", line 80, in until\n    raise TimeoutException(message, screen, stacktrace)\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true,
+    "stepsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_045_farmTime"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_farmTime"
+  }, {
+    "name" : "host",
+    "value" : "WINDOWS-49AO44L"
+  }, {
+    "name" : "thread",
+    "value" : "20304-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_045_farmTime"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "54f3857afaa07430",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615516996447,
+        "stop" : 1615517024712,
+        "duration" : 28265
+      }
+    }, {
+      "uid" : "b1a2526411f181c8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615469932155,
+        "stop" : 1615469963644,
+        "duration" : 31489
+      }
+    }, {
+      "uid" : "67e71288271c5581",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615467312410,
+        "stop" : 1615467340929,
+        "duration" : 28519
+      }
+    }, {
+      "uid" : "ff2f16eed95f4fc3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615456353537,
+        "stop" : 1615456383847,
+        "duration" : 30310
+      }
+    }, {
+      "uid" : "5160e937ed9c1d06",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615430932495,
+        "stop" : 1615430961122,
+        "duration" : 28627
+      }
+    }, {
+      "uid" : "b11054664cc9bccf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615031980073,
+        "stop" : 1615032012247,
+        "duration" : 32174
+      }
+    }, {
+      "uid" : "75a236734cb34846",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615020901336,
+        "stop" : 1615020935242,
+        "duration" : 33906
+      }
+    }, {
+      "uid" : "a97f8934faf1fe51",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1615016338281,
+        "stop" : 1615016389801,
+        "duration" : 51520
+      }
+    }, {
+      "uid" : "8d96b2a9cb31bc38",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614627157975,
+        "stop" : 1614627221973,
+        "duration" : 63998
+      }
+    }, {
+      "uid" : "a79655a852c3859c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614614020649,
+        "stop" : 1614614051757,
+        "duration" : 31108
+      }
+    }, {
+      "uid" : "f53f4939b56eea72",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614611658698,
+        "stop" : 1614611691417,
+        "duration" : 32719
+      }
+    }, {
+      "uid" : "1deaa89a3000acd8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614609519870,
+        "stop" : 1614609559959,
+        "duration" : 40089
+      }
+    }, {
+      "uid" : "9f57958a75c6fcee",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614606269530,
+        "stop" : 1614606302530,
+        "duration" : 33000
+      }
+    }, {
+      "uid" : "21252284412e01a4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614331545194,
+        "stop" : 1614331602064,
+        "duration" : 56870
+      }
+    }, {
+      "uid" : "4e645910bfcc0207",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614321801770,
+        "stop" : 1614321837501,
+        "duration" : 35731
+      }
+    }, {
+      "uid" : "c4284af62fa97cd3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614317181069,
+        "stop" : 1614317215232,
+        "duration" : 34163
+      }
+    }, {
+      "uid" : "feaefb1d21e779a8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614315853492,
+        "stop" : 1614315890758,
+        "duration" : 37266
+      }
+    }, {
+      "uid" : "4c7d5203b87fc48",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message:",
+      "time" : {
+        "start" : 1614264887265,
+        "stop" : 1614264921564,
+        "duration" : 34299
+      }
+    }, {
+      "uid" : "1542d4970a77cdb3",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.WebDriverException: Message:",
+      "time" : {
+        "start" : 1614261932431,
+        "stop" : 1614261949329,
+        "duration" : 16898
+      }
+    }, {
+      "uid" : "c1b2193e1580703f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614260341318,
+        "stop" : 1614260377940,
+        "duration" : 36622
+      }
+    }, {
+      "uid" : "353d407e8951f34c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614258481546,
+        "stop" : 1614258516904,
+        "duration" : 35358
+      }
+    }, {
+      "uid" : "2aef31a07f73da67",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614228167649,
+        "stop" : 1614228204152,
+        "duration" : 36503
+      }
+    }, {
+      "uid" : "7509ba43bcac34da",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614169006629,
+        "stop" : 1614169070647,
+        "duration" : 64018
+      }
+    }, {
+      "uid" : "413f7f70f4b687ce",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614166583351,
+        "stop" : 1614166615189,
+        "duration" : 31838
+      }
+    }, {
+      "uid" : "d866a87b66c9266c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614161958638,
+        "stop" : 1614161992256,
+        "duration" : 33618
+      }
+    }, {
+      "uid" : "e82df89840e9b5c5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614149390435,
+        "stop" : 1614149432583,
+        "duration" : 42148
+      }
+    }, {
+      "uid" : "3a0132eb45c737e3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614143191624,
+        "stop" : 1614143225247,
+        "duration" : 33623
+      }
+    }, {
+      "uid" : "7b884620782d52d5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614072364459,
+        "stop" : 1614072401615,
+        "duration" : 37156
+      }
+    }, {
+      "uid" : "f859baca00b2fb83",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612797465037,
+        "stop" : 1612797504668,
+        "duration" : 39631
+      }
+    }, {
+      "uid" : "c454ce6c45cb15c6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1612029399054,
+        "stop" : 1612029426791,
+        "duration" : 27737
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 2,
+        "skipped" : 0,
+        "passed" : 26,
+        "unknown" : 0,
+        "total" : 28
+      },
+      "items" : [ {
+        "uid" : "7b89d426035d920c",
+        "reportUrl" : "http://localhost:8080/job/Timing/85/allure/#testresult/7b89d426035d920c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615516996447,
+          "stop" : 1615517024712,
+          "duration" : 28265
+        }
+      }, {
+        "uid" : "cf0cd8d11c29e872",
+        "reportUrl" : "http://localhost:8080/job/Timing/84/allure/#testresult/cf0cd8d11c29e872",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615469932155,
+          "stop" : 1615469963644,
+          "duration" : 31489
+        }
+      }, {
+        "uid" : "c9256ce48987f973",
+        "reportUrl" : "http://localhost:8080/job/Timing/83/allure/#testresult/c9256ce48987f973",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615467312410,
+          "stop" : 1615467340929,
+          "duration" : 28519
+        }
+      }, {
+        "uid" : "2cb31ce952d72862",
+        "reportUrl" : "http://localhost:8080/job/Timing/82/allure/#testresult/2cb31ce952d72862",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615456353537,
+          "stop" : 1615456383847,
+          "duration" : 30310
+        }
+      }, {
+        "uid" : "f8e061edaa09e151",
+        "reportUrl" : "http://localhost:8080/job/Timing/81/allure/#testresult/f8e061edaa09e151",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615031980073,
+          "stop" : 1615032012247,
+          "duration" : 32174
+        }
+      }, {
+        "uid" : "4e712060c3a9a555",
+        "reportUrl" : "http://localhost:8080/job/Timing/80/allure/#testresult/4e712060c3a9a555",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615020901336,
+          "stop" : 1615020935242,
+          "duration" : 33906
+        }
+      }, {
+        "uid" : "9fbda3e354a7b1e8",
+        "reportUrl" : "http://localhost:8080/job/Timing/78/allure/#testresult/9fbda3e354a7b1e8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614627157975,
+          "stop" : 1614627221973,
+          "duration" : 63998
+        }
+      }, {
+        "uid" : "1e376a0445d4c094",
+        "reportUrl" : "http://localhost:8080/job/Timing/77/allure/#testresult/1e376a0445d4c094",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614614020649,
+          "stop" : 1614614051757,
+          "duration" : 31108
+        }
+      }, {
+        "uid" : "536bcb90e0435108",
+        "reportUrl" : "http://localhost:8080/job/Timing/76/allure/#testresult/536bcb90e0435108",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614611658698,
+          "stop" : 1614611691417,
+          "duration" : 32719
+        }
+      }, {
+        "uid" : "b7a5554363f9cd27",
+        "reportUrl" : "http://localhost:8080/job/Timing/75/allure/#testresult/b7a5554363f9cd27",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614609519870,
+          "stop" : 1614609559959,
+          "duration" : 40089
+        }
+      }, {
+        "uid" : "2781884f0a872601",
+        "reportUrl" : "http://localhost:8080/job/Timing/74/allure/#testresult/2781884f0a872601",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614606269530,
+          "stop" : 1614606302530,
+          "duration" : 33000
+        }
+      }, {
+        "uid" : "ea6f6eb9621ea0c4",
+        "reportUrl" : "http://localhost:8080/job/Timing/73/allure/#testresult/ea6f6eb9621ea0c4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614331545194,
+          "stop" : 1614331602064,
+          "duration" : 56870
+        }
+      }, {
+        "uid" : "c790e0d4f2de46af",
+        "reportUrl" : "http://localhost:8080/job/Timing/72/allure/#testresult/c790e0d4f2de46af",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614321801770,
+          "stop" : 1614321837501,
+          "duration" : 35731
+        }
+      }, {
+        "uid" : "d6ef06f9a898cad8",
+        "reportUrl" : "http://localhost:8080/job/Timing/71/allure/#testresult/d6ef06f9a898cad8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614317181069,
+          "stop" : 1614317215232,
+          "duration" : 34163
+        }
+      }, {
+        "uid" : "c458ab9affe88582",
+        "reportUrl" : "http://localhost:8080/job/Timing/70/allure/#testresult/c458ab9affe88582",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614315853492,
+          "stop" : 1614315890758,
+          "duration" : 37266
+        }
+      }, {
+        "uid" : "e99d5a9b9c5963dc",
+        "reportUrl" : "http://localhost:8080/job/Timing/67/allure/#testresult/e99d5a9b9c5963dc",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.WebDriverException: Message:",
+        "time" : {
+          "start" : 1614261932431,
+          "stop" : 1614261949329,
+          "duration" : 16898
+        }
+      }, {
+        "uid" : "3443a207aeeef1a7",
+        "reportUrl" : "http://localhost:8080/job/Timing/66/allure/#testresult/3443a207aeeef1a7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614260341318,
+          "stop" : 1614260377940,
+          "duration" : 36622
+        }
+      }, {
+        "uid" : "ab4c3a07fbc867c",
+        "reportUrl" : "http://localhost:8080/job/Timing/65/allure/#testresult/ab4c3a07fbc867c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614258481546,
+          "stop" : 1614258516904,
+          "duration" : 35358
+        }
+      }, {
+        "uid" : "dc89d469f8aa1f87",
+        "reportUrl" : "http://localhost:8080/job/Timing/63/allure/#testresult/dc89d469f8aa1f87",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614228167649,
+          "stop" : 1614228204152,
+          "duration" : 36503
+        }
+      }, {
+        "uid" : "94c292d20806e91f",
+        "reportUrl" : "http://localhost:8080/job/Timing/62/allure/#testresult/94c292d20806e91f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614169006629,
+          "stop" : 1614169070647,
+          "duration" : 64018
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "1b1115528c3d725c.json",
+  "parameterValues" : [ ]
+}

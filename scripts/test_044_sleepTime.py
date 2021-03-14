@@ -3,7 +3,7 @@ from Pages.page import Page
 from base.base_driver import Base
 import allure,time
 
-class Test_sleepTime():
+class Test_getup_sleep():
     #setup函数是在一个类里面最先被调用的函数，而且每执行完一个函数都要从setUp()调用开始后再执行下一个函数，有几个函数就调用他几次，与位置无关，随便放在那里都是他先被调用。
     #放一些准备的工作，或者准备一些测试数据。
     def setup(self):
@@ -17,20 +17,19 @@ class Test_sleepTime():
     def teardown(self):
         self.driver.quit()
 
-    def test_getupAndsleep(self):
+    def test_sleep(self):
         with allure.step('进入更多页'):
-            self.page.more().click_more()
+            self.page.shouye().click_mainMoreBtn()
         with allure.step('点击起床睡觉'):
-            self.page.timing().click_sleepingWake()
-        with allure.step('点击睡觉'):
-            time.sleep(3)
-            self.page.more().tapOperat(0.504, 0.856)
-        with allure.step('关闭打卡弹窗'):
-            time.sleep(3)
-            self.page.timing().click_sleepingClose()
-            time.sleep(3)
+            time.sleep(2)
+            self.page.more().click_getupAndSleepBtn()
+        with allure.step('点击睡觉按钮'):
+            self.page.getup_sleep().tapScreen(0.5,0.85)
+        with allure.step('判断是否生成睡觉卡片'):
+            assert self.page.getup_sleep().check_sleepCard() == True
+
+    def test_getup(self):
         with allure.step('点击起床按钮'):
-            self.page.timing().click_wakeBtn()
-            time.sleep(3)
-        with allure.step('判断睡觉计时结束'):
-            assert self.page.timing().check_getupCard() == True
+            self.page.getup_sleep().click_sleepAndGetupBtn()
+        with allure.step('判断是否生成起床卡片'):
+            assert self.page.getup_sleep().check_getupCard() == True

@@ -19,9 +19,10 @@ class Test_farmTime():
 
     def test_farmTimeLess(self):
         with allure.step('进入更多页'):
-            self.page.more().click_more()
+            self.page.shouye().click_mainMoreBtn()
         with allure.step('点击自律工具'):
-            self.page.timing().click_studyTools()
+            time.sleep(2)
+            self.page.more().click_studyToolBtn()
         with allure.step('点击农场学习'):
             self.page.timing().click_farmTiming()
         with allure.step('输入学习内容'):
@@ -42,14 +43,15 @@ class Test_farmTime():
             self.page.farm_timing().click_timingEndConfirmRight()
         with allure.step('点击后退'):
             self.page.timing().click_back()
-        with allure.step('判断跳到更多页'):
-            assert self.page.more().waitAndfind_more() == True
+        with allure.step('判断跳到首页'):
+            assert self.page.shouye().check_friendCircle() == True
 
     def test_farmTimeEnough(self):
         with allure.step('进入更多页'):
-            self.page.more().click_more()
+            self.page.shouye().click_mainMoreBtn()
         with allure.step('点击自律工具'):
-            self.page.timing().click_studyTools()
+            time.sleep(2)
+            self.page.more().click_studyToolBtn()
         with allure.step('点击农场学习'):
             self.page.timing().click_farmTiming()
         with allure.step('输入学习内容'):

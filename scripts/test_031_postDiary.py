@@ -21,15 +21,15 @@ class Test_postDiary():
     # @pytest.mark.parametrize("args", analyze_file("address_data.yaml", "test_address"))                               # 装饰器
     #长视频列表页浏览测试用例
     def test_postDiary(self):
-        with allure.step('进入更多页'):
-            self.page.more().click_more()
-        with allure.step('滑动到最底部'):
-            time.sleep(3)
-            self.page.more().swipeUp()
+        with allure.step('点击道友圈'):
+            self.page.shouye().click_mainMoreBtn()
+        with allure.step('点击更多按钮'):
+            time.sleep(2)
+            self.page.more().click_smallMore()
         with allure.step('点击发布/投稿'):
-            self.page.more().click_postBtn()
+            self.page.small_more().click_postDiary()
         with allure.step('点击发布图文日记'):
-            self.page.post().click_postDiary()
+            self.page.post().click_postPhotoDiary()
         with allure.step('输入日记内容'):
             self.page.post_diary().input_diaryContent(12345)
         with allure.step('点击发布按钮'):
@@ -38,6 +38,9 @@ class Test_postDiary():
             time.sleep(2)
             self.page.select_cover().click_next()
             time.sleep(15)
+        with allure.step('刷新页面'):
+            self.page.discover().tapScreen(0.8,0.06)
+            self.page.match_friend().click_backBtn()
         with allure.step('断言:发布成功'):
             if self.page.follow().check_deleteDiaryBtn() == True:
                 self.page.follow().click_deleteDiaryBtn()
@@ -45,4 +48,3 @@ class Test_postDiary():
                 return True
             else:
                 return False
-

@@ -20,23 +20,22 @@ class Test_changeNickname():
     # @pytest.mark.parametrize("args", analyze_file("address_data.yaml", "test_address"))                               # 装饰器
     #手机号密码登录测试用例
     def test_changeNickname(self):
-        with allure.step('点击更多按钮'):
-            self.page.more().click_more()
-            time.sleep(3)
+        with allure.step('进入更多页'):
+            self.page.shouye().click_mainMoreBtn()
         with allure.step('进入个人主页'):
-            self.page.more().click_person()
-            time.sleep(1)
+            time.sleep(2)
+            self.page.more().click_personalInformation()
         with allure.step('点击修改资料'):
-            self.page.person_home().click_personInfo()
+            self.page.person_home().click_changeData()
             time.sleep(5)
         with allure.step('修改姓名'):
-            name = random.randint(1, 200000)
-            self.page.name_info().input_nameBox(name)
+            name = random.randint(1, 100)
+            self.page.edit_personalData().input_nameBox(name)
             time.sleep(1)
         with allure.step('点击保存'):
-            self.page.name_info().click_nameRight()
+            self.page.edit_personalData().click_saveBtn()
             time.sleep(1)
         with allure.step('断言：修改请求完成'):
-            self.page.edit_personal_info().check_backBtn()
+            self.page.person_home().check_nickName()
 
 

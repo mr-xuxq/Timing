@@ -3,83 +3,50 @@ from selenium.webdriver.common.by import By
 from base.base_action import BaseAction
 
 class Friend_chat(BaseAction):
+    # 道友左上角【后退】按钮
+    friendBack = By.ID, 'com.huiian.timing:id/iv_message_back'
     # 道友右上角【更多】按钮
-    friendMore = By.ID, 'com.huiian.timing:id/team_history_fl'
-    # 群组右上角【更多】按钮
-    groupMore = By.ID, 'com.huiian.timing:id/iv_more'
-    # 群组成员动态
-    groupActive = By.XPATH, '//*[@text="成员动态"]'
-    # 契约群-【群聊】
-    groupChat = By.XPATH, '//*[@text="群聊"]'
+    friendMore = By.ID, 'com.huiian.timing:id/iv_message_more'
     # 发送消息失败
     failSend = By.ID, 'com.huiian.timing: id/message_item_alert'
-    # 道友页后退按钮
-    backBtn = By.ID, 'com.huiian.timing:id/team_back_fl'
-    # 群组页后退按钮
-    backTeamBtn = By.ID, 'com.huiian.timing:id/iv_back'
-    # 道友页确定开启录制按钮
-    yesToRecordBtn = By.ID, 'com.huiian.timing:id/popupwindow_confirm_right_fl'
+    # 道友页+按钮
+    itemBtn = By.ID, 'com.huiian.timing:id/buttonMoreFuntionInText'
+    # 道友页录制按钮
+    recordBtn = By.ID, 'com.huiian.timing:id/iv_video_small'
     # 聊天页面输入框
     messageBox = By.ID, 'com.huiian.timing:id/editTextMessage'
-    # 发送
-    messageSend = By.ID, 'com.huiian.timing:id/buttonSendMessage'
-    #选择发布的内容类型
-    chooseType = By.ID,'com.huiian.timing:id/buttonMoreFuntionInText'
-    #相册按钮
+    # 发送按钮
+    messageSend = By.ID, 'com.huiian.timing:id/sendLayout'
+    # 相册按钮
     imageBtn = By.XPATH,'//*[@text="相册"]'
-    #视频按钮
+    # 拍摄按钮
+    shutterBtn = By.XPATH, '//*[@text="拍摄"]'
+    # 视频按钮
     videoBtn = By.XPATH,'//*[@text="视频"]'
 
-
-    def input_messageBox(self,content):
-        self.input(self.messageBox,content)
-
-    def click_messageSend(self):
-        self.click(self.messageSend)
-    def click_chooseType(self):
-        self.click(self.chooseType)
-    def click_groupMore(self):
-        self.click(self.groupMore)
-    def click_groupActive(self):
-        self.click(self.groupActive)
-    def click_groupChat(self):
-        self.click(self.groupChat)
-    def click_back(self):
-        self.click(self.backBtn)
-    def click_backTeam(self):
-        self.click(self.backTeamBtn)
+    def click_friendBack(self):
+        self.click(self.friendBack)
+    def click_friendMore(self):
+        self.click(self.friendMore)
+    def click_failSend(self):
+        self.click(self.failSend)
+    def click_itemBtn(self):
+        self.click(self.itemBtn)
+    def click_recordBtn(self):
+        self.click(self.recordBtn)
     def click_messageBox(self):
         self.click(self.messageBox)
-    def click_yesToRecordBtn(self):
-        self.click(self.yesToRecordBtn)
+    def click_messageSend(self):
+        self.click(self.messageSend)
     def click_imageBtn(self):
         self.click(self.imageBtn)
+    def click_shutterBtn(self):
+        self.click(self.shutterBtn)
     def click_videoBtn(self):
         self.click(self.videoBtn)
-
-
-        # 在规定时间内是否找到元素
-    def waitAndfind_failSend(self):
-        if self.waitLoading(self.failSend, t=1) == True:
-            return True
-        else:
-            return False
-
-    def check_groupMore(self):
-        if self.find_element(self.groupMore, timeout=2, poll=1) == "":
-            return False
-        else:
-            return True
-
-    def check_groupChat(self):
-        if self.find_element(self.groupChat,timeout=2, poll=1) == "":
-            return False
-        else:
-            return True
-
-    def check_yesToRecordBtn(self):
-        return self.is_feature_exist(self.yesToRecordBtn)
-
+    def tapScreen(self, x, y):
+        self.tapOperat(x, y)
     def swipeByGroup(self):
         self.swipeOperat(0.5, 0.9, 0.5, 0.4, 500)
-
+    def input_messageBox(self,content):
+        self.input(self.messageBox,content)

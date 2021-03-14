@@ -23,12 +23,10 @@ class Farm_timing(BaseAction):
         self.click(self.timingEndConfirmRight)
     def click_timingDialog(self):
         self.click(self.timingDialog)
-
     def check_timingEndSuccess(self):
         return self.is_feature_exist(self.timingEndSuccess)
 
     def press_back(self):
         self.press_back()
     def tapScreen(self,x,y):
-        L = self.getSize()
-        self.driver.tap([(L[0]*x,L[1]*y)],1)
+        self.tapOperat(x,y)
