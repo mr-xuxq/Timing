@@ -34,8 +34,7 @@ class Firend_timing(BaseAction):
         self.input(self.friendTimeBox,content)
 
     def tapScreen(self,x,y):
-        L = self.getSize()
-        self.driver.tap([(L[0]*x,L[1]*y)],1)
+        self.tapOperat(x,y)
     def check_gotoDaka(self):
         return self.is_feature_exist(self.gotoDaka)
     def check_finshTime(self):

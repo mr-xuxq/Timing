@@ -19,9 +19,10 @@ class Test_videoTime():
 
     def test_videoTimeLess(self):
         with allure.step('进入更多页'):
-            self.page.more().click_more()
+            self.page.shouye().click_mainMoreBtn()
         with allure.step('点击自律工具'):
-            self.page.timing().click_studyTools()
+            time.sleep(2)
+            self.page.more().click_studyToolBtn()
         with allure.step('点击视频打卡'):
             self.page.timing().click_videoTiming()
         with allure.step('填写学习内容'):
@@ -49,15 +50,15 @@ class Test_videoTime():
             self.page.video_timing().click_videoEndDialog()
         with allure.step('点击后退'):
             self.page.timing().click_back()
-            self.page.timing().click_back()
-        with allure.step('判断到了更多页'):
-            assert self.page.more().waitAndfind_more() == True
+        with allure.step('判断跳到更多页'):
+            assert self.page.shouye().check_friendCircle() == True
 
     def test_videoTimeEnough(self):
         with allure.step('进入更多页'):
-            self.page.more().click_more()
+            self.page.shouye().click_mainMoreBtn()
         with allure.step('点击自律工具'):
-            self.page.timing().click_studyTools()
+            time.sleep(2)
+            self.page.more().click_studyToolBtn()
         with allure.step('点击视频打卡'):
             self.page.timing().click_videoTiming()
         with allure.step('填写学习内容'):

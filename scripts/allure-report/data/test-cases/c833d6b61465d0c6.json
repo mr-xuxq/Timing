@@ -1,0 +1,506 @@
+{
+  "uid" : "c833d6b61465d0c6",
+  "name" : "test_friendTimeEnough",
+  "fullName" : "test_046_friendTime.Test_friendTime#test_friendTimeEnough",
+  "historyId" : "a0ba2d73cab4badd7d27b95a77cb9b91",
+  "time" : {
+    "start" : 1615550749634,
+    "stop" : 1615550763849,
+    "duration" : 14215
+  },
+  "status" : "broken",
+  "statusMessage" : "selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.",
+  "statusTrace" : "self = <scripts.test_046_friendTime.Test_friendTime object at 0x0000029542DA8580>\n\n    def test_friendTimeEnough(self):\n        with allure.step('点击结伴学习'):\n>           self.page.shouye().click_startStudyBtn()\n\ntest_046_friendTime.py:37: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n..\\Pages\\message_interaction\\shouye_page.py:55: in click_startStudyBtn\n    self.click(self.startStudyBtn)\n..\\base\\base_action.py:27: in click\n    self.find_element(feature).click()\nc:\\python38\\lib\\site-packages\\selenium\\webdriver\\remote\\webelement.py:80: in click\n    self._execute(Command.CLICK_ELEMENT)\nc:\\python38\\lib\\site-packages\\selenium\\webdriver\\remote\\webelement.py:633: in _execute\n    return self._parent.execute(command, params)\nc:\\python38\\lib\\site-packages\\selenium\\webdriver\\remote\\webdriver.py:321: in execute\n    self.error_handler.check_response(response)\nc:\\python38\\lib\\site-packages\\appium\\webdriver\\errorhandler.py:31: in check_response\n    raise wde\nc:\\python38\\lib\\site-packages\\appium\\webdriver\\errorhandler.py:26: in check_response\n    super().check_response(response)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <appium.webdriver.errorhandler.MobileErrorHandler object at 0x0000029542DA8040>\nresponse = {'status': 500, 'value': '{\"status\":7,\"value\":{\"message\":\"An element could not be located on the page using the given ...STANCE=0, RESOURCE_ID=com.huiian.timing:id/layout_start_action]\"},\"sessionId\":\"9584a9ec-4f97-432e-9ccb-58d1806daaf8\"}'}\n\n    def check_response(self, response):\n        \"\"\"\n        Checks that a JSON response from the WebDriver does not have an error.\n    \n        :Args:\n         - response - The JSON response from the WebDriver server as a dictionary\n           object.\n    \n        :Raises: If the response contains an error message.\n        \"\"\"\n        status = response.get('status', None)\n        if status is None or status == ErrorCode.SUCCESS:\n            return\n        value = None\n        message = response.get(\"message\", \"\")\n        screen = response.get(\"screen\", \"\")\n        stacktrace = None\n        if isinstance(status, int):\n            value_json = response.get('value', None)\n            if value_json and isinstance(value_json, basestring):\n                import json\n                try:\n                    value = json.loads(value_json)\n                    if len(value.keys()) == 1:\n                        value = value['value']\n                    status = value.get('error', None)\n                    if status is None:\n                        status = value[\"status\"]\n                        message = value[\"value\"]\n                        if not isinstance(message, basestring):\n                            value = message\n                            message = message.get('message')\n                    else:\n                        message = value.get('message', None)\n                except ValueError:\n                    pass\n    \n        exception_class = ErrorInResponseException\n        if status in ErrorCode.NO_SUCH_ELEMENT:\n            exception_class = NoSuchElementException\n        elif status in ErrorCode.NO_SUCH_FRAME:\n            exception_class = NoSuchFrameException\n        elif status in ErrorCode.NO_SUCH_WINDOW:\n            exception_class = NoSuchWindowException\n        elif status in ErrorCode.STALE_ELEMENT_REFERENCE:\n            exception_class = StaleElementReferenceException\n        elif status in ErrorCode.ELEMENT_NOT_VISIBLE:\n            exception_class = ElementNotVisibleException\n        elif status in ErrorCode.INVALID_ELEMENT_STATE:\n            exception_class = InvalidElementStateException\n        elif status in ErrorCode.INVALID_SELECTOR \\\n                or status in ErrorCode.INVALID_XPATH_SELECTOR \\\n                or status in ErrorCode.INVALID_XPATH_SELECTOR_RETURN_TYPER:\n            exception_class = InvalidSelectorException\n        elif status in ErrorCode.ELEMENT_IS_NOT_SELECTABLE:\n            exception_class = ElementNotSelectableException\n        elif status in ErrorCode.ELEMENT_NOT_INTERACTABLE:\n            exception_class = ElementNotInteractableException\n        elif status in ErrorCode.INVALID_COOKIE_DOMAIN:\n            exception_class = InvalidCookieDomainException\n        elif status in ErrorCode.UNABLE_TO_SET_COOKIE:\n            exception_class = UnableToSetCookieException\n        elif status in ErrorCode.TIMEOUT:\n            exception_class = TimeoutException\n        elif status in ErrorCode.SCRIPT_TIMEOUT:\n            exception_class = TimeoutException\n        elif status in ErrorCode.UNKNOWN_ERROR:\n            exception_class = WebDriverException\n        elif status in ErrorCode.UNEXPECTED_ALERT_OPEN:\n            exception_class = UnexpectedAlertPresentException\n        elif status in ErrorCode.NO_ALERT_OPEN:\n            exception_class = NoAlertPresentException\n        elif status in ErrorCode.IME_NOT_AVAILABLE:\n            exception_class = ImeNotAvailableException\n        elif status in ErrorCode.IME_ENGINE_ACTIVATION_FAILED:\n            exception_class = ImeActivationFailedException\n        elif status in ErrorCode.MOVE_TARGET_OUT_OF_BOUNDS:\n            exception_class = MoveTargetOutOfBoundsException\n        elif status in ErrorCode.JAVASCRIPT_ERROR:\n            exception_class = JavascriptException\n        elif status in ErrorCode.SESSION_NOT_CREATED:\n            exception_class = SessionNotCreatedException\n        elif status in ErrorCode.INVALID_ARGUMENT:\n            exception_class = InvalidArgumentException\n        elif status in ErrorCode.NO_SUCH_COOKIE:\n            exception_class = NoSuchCookieException\n        elif status in ErrorCode.UNABLE_TO_CAPTURE_SCREEN:\n            exception_class = ScreenshotException\n        elif status in ErrorCode.ELEMENT_CLICK_INTERCEPTED:\n            exception_class = ElementClickInterceptedException\n        elif status in ErrorCode.INSECURE_CERTIFICATE:\n            exception_class = InsecureCertificateException\n        elif status in ErrorCode.INVALID_COORDINATES:\n            exception_class = InvalidCoordinatesException\n        elif status in ErrorCode.INVALID_SESSION_ID:\n            exception_class = InvalidSessionIdException\n        elif status in ErrorCode.UNKNOWN_METHOD:\n            exception_class = UnknownMethodException\n        else:\n            exception_class = WebDriverException\n        if value == '' or value is None:\n            value = response['value']\n        if isinstance(value, basestring):\n            if exception_class == ErrorInResponseException:\n                raise exception_class(response, value)\n            raise exception_class(value)\n        if message == \"\" and 'message' in value:\n            message = value['message']\n    \n        screen = None\n        if 'screen' in value:\n            screen = value['screen']\n    \n        stacktrace = None\n        if 'stackTrace' in value and value['stackTrace']:\n            stacktrace = []\n            try:\n                for frame in value['stackTrace']:\n                    line = self._value_or_default(frame, 'lineNumber', '')\n                    file = self._value_or_default(frame, 'fileName', '<anonymous>')\n                    if line:\n                        file = \"%s:%s\" % (file, line)\n                    meth = self._value_or_default(frame, 'methodName', '<anonymous>')\n                    if 'className' in frame:\n                        meth = \"%s.%s\" % (frame['className'], meth)\n                    msg = \"    at %s (%s)\"\n                    msg = msg % (meth, file)\n                    stacktrace.append(msg)\n            except TypeError:\n                pass\n        if exception_class == ErrorInResponseException:\n            raise exception_class(response, message)\n        elif exception_class == UnexpectedAlertPresentException:\n            alert_text = None\n            if 'data' in value:\n                alert_text = value['data'].get('text')\n            elif 'alert' in value:\n                alert_text = value['alert'].get('text')\n            raise exception_class(message, screen, stacktrace, alert_text)\n>       raise exception_class(message, screen, stacktrace)\nE       selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.\n\nc:\\python38\\lib\\site-packages\\selenium\\webdriver\\remote\\errorhandler.py:242: NoSuchElementException",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.",
+    "statusTrace" : "self = <scripts.test_046_friendTime.Test_friendTime object at 0x0000029542DA8580>\n\n    def test_friendTimeEnough(self):\n        with allure.step('点击结伴学习'):\n>           self.page.shouye().click_startStudyBtn()\n\ntest_046_friendTime.py:37: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n..\\Pages\\message_interaction\\shouye_page.py:55: in click_startStudyBtn\n    self.click(self.startStudyBtn)\n..\\base\\base_action.py:27: in click\n    self.find_element(feature).click()\nc:\\python38\\lib\\site-packages\\selenium\\webdriver\\remote\\webelement.py:80: in click\n    self._execute(Command.CLICK_ELEMENT)\nc:\\python38\\lib\\site-packages\\selenium\\webdriver\\remote\\webelement.py:633: in _execute\n    return self._parent.execute(command, params)\nc:\\python38\\lib\\site-packages\\selenium\\webdriver\\remote\\webdriver.py:321: in execute\n    self.error_handler.check_response(response)\nc:\\python38\\lib\\site-packages\\appium\\webdriver\\errorhandler.py:31: in check_response\n    raise wde\nc:\\python38\\lib\\site-packages\\appium\\webdriver\\errorhandler.py:26: in check_response\n    super().check_response(response)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <appium.webdriver.errorhandler.MobileErrorHandler object at 0x0000029542DA8040>\nresponse = {'status': 500, 'value': '{\"status\":7,\"value\":{\"message\":\"An element could not be located on the page using the given ...STANCE=0, RESOURCE_ID=com.huiian.timing:id/layout_start_action]\"},\"sessionId\":\"9584a9ec-4f97-432e-9ccb-58d1806daaf8\"}'}\n\n    def check_response(self, response):\n        \"\"\"\n        Checks that a JSON response from the WebDriver does not have an error.\n    \n        :Args:\n         - response - The JSON response from the WebDriver server as a dictionary\n           object.\n    \n        :Raises: If the response contains an error message.\n        \"\"\"\n        status = response.get('status', None)\n        if status is None or status == ErrorCode.SUCCESS:\n            return\n        value = None\n        message = response.get(\"message\", \"\")\n        screen = response.get(\"screen\", \"\")\n        stacktrace = None\n        if isinstance(status, int):\n            value_json = response.get('value', None)\n            if value_json and isinstance(value_json, basestring):\n                import json\n                try:\n                    value = json.loads(value_json)\n                    if len(value.keys()) == 1:\n                        value = value['value']\n                    status = value.get('error', None)\n                    if status is None:\n                        status = value[\"status\"]\n                        message = value[\"value\"]\n                        if not isinstance(message, basestring):\n                            value = message\n                            message = message.get('message')\n                    else:\n                        message = value.get('message', None)\n                except ValueError:\n                    pass\n    \n        exception_class = ErrorInResponseException\n        if status in ErrorCode.NO_SUCH_ELEMENT:\n            exception_class = NoSuchElementException\n        elif status in ErrorCode.NO_SUCH_FRAME:\n            exception_class = NoSuchFrameException\n        elif status in ErrorCode.NO_SUCH_WINDOW:\n            exception_class = NoSuchWindowException\n        elif status in ErrorCode.STALE_ELEMENT_REFERENCE:\n            exception_class = StaleElementReferenceException\n        elif status in ErrorCode.ELEMENT_NOT_VISIBLE:\n            exception_class = ElementNotVisibleException\n        elif status in ErrorCode.INVALID_ELEMENT_STATE:\n            exception_class = InvalidElementStateException\n        elif status in ErrorCode.INVALID_SELECTOR \\\n                or status in ErrorCode.INVALID_XPATH_SELECTOR \\\n                or status in ErrorCode.INVALID_XPATH_SELECTOR_RETURN_TYPER:\n            exception_class = InvalidSelectorException\n        elif status in ErrorCode.ELEMENT_IS_NOT_SELECTABLE:\n            exception_class = ElementNotSelectableException\n        elif status in ErrorCode.ELEMENT_NOT_INTERACTABLE:\n            exception_class = ElementNotInteractableException\n        elif status in ErrorCode.INVALID_COOKIE_DOMAIN:\n            exception_class = InvalidCookieDomainException\n        elif status in ErrorCode.UNABLE_TO_SET_COOKIE:\n            exception_class = UnableToSetCookieException\n        elif status in ErrorCode.TIMEOUT:\n            exception_class = TimeoutException\n        elif status in ErrorCode.SCRIPT_TIMEOUT:\n            exception_class = TimeoutException\n        elif status in ErrorCode.UNKNOWN_ERROR:\n            exception_class = WebDriverException\n        elif status in ErrorCode.UNEXPECTED_ALERT_OPEN:\n            exception_class = UnexpectedAlertPresentException\n        elif status in ErrorCode.NO_ALERT_OPEN:\n            exception_class = NoAlertPresentException\n        elif status in ErrorCode.IME_NOT_AVAILABLE:\n            exception_class = ImeNotAvailableException\n        elif status in ErrorCode.IME_ENGINE_ACTIVATION_FAILED:\n            exception_class = ImeActivationFailedException\n        elif status in ErrorCode.MOVE_TARGET_OUT_OF_BOUNDS:\n            exception_class = MoveTargetOutOfBoundsException\n        elif status in ErrorCode.JAVASCRIPT_ERROR:\n            exception_class = JavascriptException\n        elif status in ErrorCode.SESSION_NOT_CREATED:\n            exception_class = SessionNotCreatedException\n        elif status in ErrorCode.INVALID_ARGUMENT:\n            exception_class = InvalidArgumentException\n        elif status in ErrorCode.NO_SUCH_COOKIE:\n            exception_class = NoSuchCookieException\n        elif status in ErrorCode.UNABLE_TO_CAPTURE_SCREEN:\n            exception_class = ScreenshotException\n        elif status in ErrorCode.ELEMENT_CLICK_INTERCEPTED:\n            exception_class = ElementClickInterceptedException\n        elif status in ErrorCode.INSECURE_CERTIFICATE:\n            exception_class = InsecureCertificateException\n        elif status in ErrorCode.INVALID_COORDINATES:\n            exception_class = InvalidCoordinatesException\n        elif status in ErrorCode.INVALID_SESSION_ID:\n            exception_class = InvalidSessionIdException\n        elif status in ErrorCode.UNKNOWN_METHOD:\n            exception_class = UnknownMethodException\n        else:\n            exception_class = WebDriverException\n        if value == '' or value is None:\n            value = response['value']\n        if isinstance(value, basestring):\n            if exception_class == ErrorInResponseException:\n                raise exception_class(response, value)\n            raise exception_class(value)\n        if message == \"\" and 'message' in value:\n            message = value['message']\n    \n        screen = None\n        if 'screen' in value:\n            screen = value['screen']\n    \n        stacktrace = None\n        if 'stackTrace' in value and value['stackTrace']:\n            stacktrace = []\n            try:\n                for frame in value['stackTrace']:\n                    line = self._value_or_default(frame, 'lineNumber', '')\n                    file = self._value_or_default(frame, 'fileName', '<anonymous>')\n                    if line:\n                        file = \"%s:%s\" % (file, line)\n                    meth = self._value_or_default(frame, 'methodName', '<anonymous>')\n                    if 'className' in frame:\n                        meth = \"%s.%s\" % (frame['className'], meth)\n                    msg = \"    at %s (%s)\"\n                    msg = msg % (meth, file)\n                    stacktrace.append(msg)\n            except TypeError:\n                pass\n        if exception_class == ErrorInResponseException:\n            raise exception_class(response, message)\n        elif exception_class == UnexpectedAlertPresentException:\n            alert_text = None\n            if 'data' in value:\n                alert_text = value['data'].get('text')\n            elif 'alert' in value:\n                alert_text = value['alert'].get('text')\n            raise exception_class(message, screen, stacktrace, alert_text)\n>       raise exception_class(message, screen, stacktrace)\nE       selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.\n\nc:\\python38\\lib\\site-packages\\selenium\\webdriver\\remote\\errorhandler.py:242: NoSuchElementException",
+    "steps" : [ {
+      "name" : "点击结伴学习",
+      "time" : {
+        "start" : 1615550749634,
+        "stop" : 1615550763849,
+        "duration" : 14215
+      },
+      "status" : "broken",
+      "statusMessage" : "selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.\n\n",
+      "statusTrace" : "  File \"D:\\Jenkins\\workspace\\Timing\\scripts\\test_046_friendTime.py\", line 37, in test_friendTimeEnough\n    self.page.shouye().click_startStudyBtn()\n  File \"D:\\Jenkins\\workspace\\Timing\\Pages\\message_interaction\\shouye_page.py\", line 55, in click_startStudyBtn\n    self.click(self.startStudyBtn)\n  File \"D:\\Jenkins\\workspace\\Timing\\base\\base_action.py\", line 27, in click\n    self.find_element(feature).click()\n  File \"c:\\python38\\lib\\site-packages\\selenium\\webdriver\\remote\\webelement.py\", line 80, in click\n    self._execute(Command.CLICK_ELEMENT)\n  File \"c:\\python38\\lib\\site-packages\\selenium\\webdriver\\remote\\webelement.py\", line 633, in _execute\n    return self._parent.execute(command, params)\n  File \"c:\\python38\\lib\\site-packages\\selenium\\webdriver\\remote\\webdriver.py\", line 321, in execute\n    self.error_handler.check_response(response)\n  File \"c:\\python38\\lib\\site-packages\\appium\\webdriver\\errorhandler.py\", line 31, in check_response\n    raise wde\n  File \"c:\\python38\\lib\\site-packages\\appium\\webdriver\\errorhandler.py\", line 26, in check_response\n    super().check_response(response)\n  File \"c:\\python38\\lib\\site-packages\\selenium\\webdriver\\remote\\errorhandler.py\", line 242, in check_response\n    raise exception_class(message, screen, stacktrace)\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true,
+    "stepsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_046_friendTime"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_friendTime"
+  }, {
+    "name" : "host",
+    "value" : "WINDOWS-49AO44L"
+  }, {
+    "name" : "thread",
+    "value" : "20304-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_046_friendTime"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "9e3284cac5fa6ada",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615517140225,
+        "stop" : 1615517226675,
+        "duration" : 86450
+      }
+    }, {
+      "uid" : "3aa09e7ab17b2b52",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615470078269,
+        "stop" : 1615470165070,
+        "duration" : 86801
+      }
+    }, {
+      "uid" : "f3921c7eb7caf44c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615467456174,
+        "stop" : 1615467543196,
+        "duration" : 87022
+      }
+    }, {
+      "uid" : "99a5c710708c8033",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615456501035,
+        "stop" : 1615456587517,
+        "duration" : 86482
+      }
+    }, {
+      "uid" : "5d6dbcba81bcf97e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615431078001,
+        "stop" : 1615431164554,
+        "duration" : 86553
+      }
+    }, {
+      "uid" : "1cba637992323f67",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615032131870,
+        "stop" : 1615032240069,
+        "duration" : 108199
+      }
+    }, {
+      "uid" : "796591b4fc594743",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615021140197,
+        "stop" : 1615021228938,
+        "duration" : 88741
+      }
+    }, {
+      "uid" : "4182f8e17d2830f4",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1615016501184,
+        "stop" : 1615016552256,
+        "duration" : 51072
+      }
+    }, {
+      "uid" : "34ef2052163d3d0c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614627357519,
+        "stop" : 1614627449476,
+        "duration" : 91957
+      }
+    }, {
+      "uid" : "fb85dbbbd7a4d669",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614614182053,
+        "stop" : 1614614271063,
+        "duration" : 89010
+      }
+    }, {
+      "uid" : "b4f3e6c2463534fe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614611812180,
+        "stop" : 1614611910019,
+        "duration" : 97839
+      }
+    }, {
+      "uid" : "67564b96c7d4e14",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614609678898,
+        "stop" : 1614609767076,
+        "duration" : 88178
+      }
+    }, {
+      "uid" : "15b7d213571dccbb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614606424843,
+        "stop" : 1614606513052,
+        "duration" : 88209
+      }
+    }, {
+      "uid" : "366daa423d1c5d13",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614331728204,
+        "stop" : 1614331820217,
+        "duration" : 92013
+      }
+    }, {
+      "uid" : "c641b50d64d5c7e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614321962928,
+        "stop" : 1614322055396,
+        "duration" : 92468
+      }
+    }, {
+      "uid" : "35e4fa37664b30e6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614317361504,
+        "stop" : 1614317453582,
+        "duration" : 92078
+      }
+    }, {
+      "uid" : "aa1979633090fa47",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614316016698,
+        "stop" : 1614316107827,
+        "duration" : 91129
+      }
+    }, {
+      "uid" : "80a5992f8dcbe87e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614264976229,
+        "stop" : 1614265068301,
+        "duration" : 92072
+      }
+    }, {
+      "uid" : "c9d6bbacb089db39",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614262049442,
+        "stop" : 1614262141353,
+        "duration" : 91911
+      }
+    }, {
+      "uid" : "94cb00fcd3213775",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614260513833,
+        "stop" : 1614260605241,
+        "duration" : 91408
+      }
+    }, {
+      "uid" : "9812062c5483b19e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614258652446,
+        "stop" : 1614258774712,
+        "duration" : 122266
+      }
+    }, {
+      "uid" : "6a72dfafdddd8ad5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614228359903,
+        "stop" : 1614228450112,
+        "duration" : 90209
+      }
+    }, {
+      "uid" : "3db35fc18d0efdf2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614169190263,
+        "stop" : 1614169279317,
+        "duration" : 89054
+      }
+    }, {
+      "uid" : "520bb99f3430035f",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1614166765411,
+        "stop" : 1614166894729,
+        "duration" : 129318
+      }
+    }, {
+      "uid" : "50b7ad49682e45e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614162111577,
+        "stop" : 1614162190781,
+        "duration" : 79204
+      }
+    }, {
+      "uid" : "6b50c1c3ad44e30a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614149572411,
+        "stop" : 1614149651515,
+        "duration" : 79104
+      }
+    }, {
+      "uid" : "aa0b3c423f7fdb12",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1614143355659,
+        "stop" : 1614143483552,
+        "duration" : 127893
+      }
+    }, {
+      "uid" : "ff9c9b4d1c533366",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614072548458,
+        "stop" : 1614072628536,
+        "duration" : 80078
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 3,
+        "skipped" : 0,
+        "passed" : 22,
+        "unknown" : 0,
+        "total" : 25
+      },
+      "items" : [ {
+        "uid" : "c1502464eb3eeaa9",
+        "reportUrl" : "http://localhost:8080/job/Timing/85/allure/#testresult/c1502464eb3eeaa9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615517140225,
+          "stop" : 1615517226675,
+          "duration" : 86450
+        }
+      }, {
+        "uid" : "d09015ac8e806dfa",
+        "reportUrl" : "http://localhost:8080/job/Timing/84/allure/#testresult/d09015ac8e806dfa",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615470078269,
+          "stop" : 1615470165070,
+          "duration" : 86801
+        }
+      }, {
+        "uid" : "fcf1d44efe005877",
+        "reportUrl" : "http://localhost:8080/job/Timing/83/allure/#testresult/fcf1d44efe005877",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615467456174,
+          "stop" : 1615467543196,
+          "duration" : 87022
+        }
+      }, {
+        "uid" : "2469fa3fb424085a",
+        "reportUrl" : "http://localhost:8080/job/Timing/82/allure/#testresult/2469fa3fb424085a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615456501035,
+          "stop" : 1615456587517,
+          "duration" : 86482
+        }
+      }, {
+        "uid" : "63e7b1b4756317b2",
+        "reportUrl" : "http://localhost:8080/job/Timing/81/allure/#testresult/63e7b1b4756317b2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615032131870,
+          "stop" : 1615032240069,
+          "duration" : 108199
+        }
+      }, {
+        "uid" : "1340b9bae1ed3121",
+        "reportUrl" : "http://localhost:8080/job/Timing/80/allure/#testresult/1340b9bae1ed3121",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615021140197,
+          "stop" : 1615021228938,
+          "duration" : 88741
+        }
+      }, {
+        "uid" : "2a62ebd16a4a2c08",
+        "reportUrl" : "http://localhost:8080/job/Timing/78/allure/#testresult/2a62ebd16a4a2c08",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614627357519,
+          "stop" : 1614627449476,
+          "duration" : 91957
+        }
+      }, {
+        "uid" : "9f2ca5f55ac137b0",
+        "reportUrl" : "http://localhost:8080/job/Timing/77/allure/#testresult/9f2ca5f55ac137b0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614614182053,
+          "stop" : 1614614271063,
+          "duration" : 89010
+        }
+      }, {
+        "uid" : "c022adf880c8b687",
+        "reportUrl" : "http://localhost:8080/job/Timing/76/allure/#testresult/c022adf880c8b687",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614611812180,
+          "stop" : 1614611910019,
+          "duration" : 97839
+        }
+      }, {
+        "uid" : "881ad8474f9306c6",
+        "reportUrl" : "http://localhost:8080/job/Timing/75/allure/#testresult/881ad8474f9306c6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614609678898,
+          "stop" : 1614609767076,
+          "duration" : 88178
+        }
+      }, {
+        "uid" : "dbe922186bd80cdb",
+        "reportUrl" : "http://localhost:8080/job/Timing/74/allure/#testresult/dbe922186bd80cdb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614606424843,
+          "stop" : 1614606513052,
+          "duration" : 88209
+        }
+      }, {
+        "uid" : "ace8a5e0a2a623c1",
+        "reportUrl" : "http://localhost:8080/job/Timing/73/allure/#testresult/ace8a5e0a2a623c1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614331728204,
+          "stop" : 1614331820217,
+          "duration" : 92013
+        }
+      }, {
+        "uid" : "ba68b45a211983ff",
+        "reportUrl" : "http://localhost:8080/job/Timing/72/allure/#testresult/ba68b45a211983ff",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614321962928,
+          "stop" : 1614322055396,
+          "duration" : 92468
+        }
+      }, {
+        "uid" : "7e27a4a50024d5de",
+        "reportUrl" : "http://localhost:8080/job/Timing/71/allure/#testresult/7e27a4a50024d5de",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614317361504,
+          "stop" : 1614317453582,
+          "duration" : 92078
+        }
+      }, {
+        "uid" : "f71afd41f5e96217",
+        "reportUrl" : "http://localhost:8080/job/Timing/70/allure/#testresult/f71afd41f5e96217",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614316016698,
+          "stop" : 1614316107827,
+          "duration" : 91129
+        }
+      }, {
+        "uid" : "bb3829383c047690",
+        "reportUrl" : "http://localhost:8080/job/Timing/67/allure/#testresult/bb3829383c047690",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614262049442,
+          "stop" : 1614262141353,
+          "duration" : 91911
+        }
+      }, {
+        "uid" : "9c6da0229cfcf693",
+        "reportUrl" : "http://localhost:8080/job/Timing/66/allure/#testresult/9c6da0229cfcf693",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614260513833,
+          "stop" : 1614260605241,
+          "duration" : 91408
+        }
+      }, {
+        "uid" : "7d708ea2ccf3afcf",
+        "reportUrl" : "http://localhost:8080/job/Timing/65/allure/#testresult/7d708ea2ccf3afcf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614258652446,
+          "stop" : 1614258774712,
+          "duration" : 122266
+        }
+      }, {
+        "uid" : "2b5ee988e0682f26",
+        "reportUrl" : "http://localhost:8080/job/Timing/63/allure/#testresult/2b5ee988e0682f26",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614228359903,
+          "stop" : 1614228450112,
+          "duration" : 90209
+        }
+      }, {
+        "uid" : "50eee44d564df659",
+        "reportUrl" : "http://localhost:8080/job/Timing/62/allure/#testresult/50eee44d564df659",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614169190263,
+          "stop" : 1614169279317,
+          "duration" : 89054
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "c833d6b61465d0c6.json",
+  "parameterValues" : [ ]
+}

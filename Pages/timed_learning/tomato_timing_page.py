@@ -20,13 +20,7 @@ class Tomato_timing(BaseAction):
         self.click(self.timingTomatoCancel)
     def click_timingEndYes(self):
         self.click(self.timingEndYes)
-
     def check_timingDialog(self):
-        if self.find_element(self.timingDialog,timeout=2, poll=1) == "":
-            return False
-        else:
-            return True
-
+        return self.is_feature_exist(self.timingDialog)
     def tapScreen(self,x,y):
-        L = self.getSize()
-        self.driver.tap([(L[0]*x,L[1]*y)],1)
+        self.tapOperat(x,y)

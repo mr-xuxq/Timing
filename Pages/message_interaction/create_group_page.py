@@ -3,48 +3,61 @@ from selenium.webdriver.common.by import By
 from base.base_action import BaseAction
 
 class Create_group(BaseAction):
-    # 学习讨论小组
-    discussTeam = By.ID, 'com.huiian.timing:id/team_type_1'
-    # 打卡群
-    recordTeam = By.ID, 'com.huiian.timing:id/team_type_2'
-    #【下一步】
-    nextStep = By.ID,'com.huiian.timing:id/activity_banner_right_tv'
+    # 【后退按钮】
+    backBtn = By.ID, 'com.huiian.timing:id/iv_back'
+# ---------------------------------------------------------------------------------
+    # 【与道友群聊按钮】
+    friendChatBtn = By.ID, 'com.huiian.timing:id/tv_friend_group'
+    # 【选择道友】
+    selectFriend = By.ID, '	com.huiian.timing:id/iv_select'
+    #【立即创建按钮】
+    createNow = By.ID,'com.huiian.timing:id/tv_create_btn'
 #---------------------------------------------------------------------------------
-    #讨论组_发起讨论选择道友页面
-    chooseFriend = By.ID,'com.huiian.timing:id/friend_cb'
-    chooseFriendDo = By.ID,'com.huiian.timing:id/activity_banner_right_tv'
-    #群组版聊元素
-    createdDiscussTeam = By.ID,'com.huiian.timing:id/messageListView'
- # ---------------------------------------------------------------------------------
-    # 讨论组_发起讨论选择道友页面
-    choiceGroupPhoto = By.ID, 'com.huiian.timing:id/choice_group_photo_iv'
-    teamName = By.ID, 'com.huiian.timing:id/team_name_et'
-    introTeam = By.ID, 'com.huiian.timing:id/team_intro_et'
-    recordTeamSuccess = By.ID,'com.huiian.timing:id/activity_banner_next_ll'
+    # 【与粉丝群聊按钮】
+    fansChatBtn = By.ID, 'com.huiian.timing:id/tv_fans_group'
+    # 【粉丝群后退按钮】
+    fansBackBtn = By.ID, 'com.huiian.timing:id/activity_banner_back_iv'
+    # 【群封面按钮】
+    groupCover = By.ID,'com.huiian.timing:id/iv_select_avatar'
+    # 【群名称按钮】
+    groupNameBtn = By.ID,'com.huiian.timing:id/cl_group_name'
+    # 【群验证按钮】
+    groupVerify = By.ID,'com.huiian.timing:id/cb_verify'
+    # 【下一步按钮】
+    nextStep = By.ID,'com.huiian.timing:id/activity_banner_right_tv'
+# ---------------------------------------------------------------------------------
+    # 【群名称后退按钮】
+    groupNameBackBtn = By.ID,'com.huiian.timing:id/activity_banner_back_ll'
+    # 【群名称栏】
+    groupNameBox = By.ID,'com.huiian.timing:id/et_name'
+    # 【确定按钮】
+    yesBtn = By.ID,'com.huiian.timing:id/activity_banner_right_tv'
 
-
-    def click_discussTeam(self):
-        self.click(self.discussTeam)
+    def click_backBtn(self):
+        self.click(self.backBtn)
+    def click_friendChatBtn(self):
+        self.click(self.friendChatBtn)
+    def click_selectFriend(self):
+        self.click(self.selectFriend)
+    def click_createNow(self):
+        self.click(self.createNow)
+    def click_fansChatBtn(self):
+        self.click(self.fansChatBtn)
+    def click_fansBackBtn(self):
+        self.click(self.fansBackBtn)
+    def click_groupCover(self):
+        self.click(self.groupCover)
+    def click_groupName(self):
+        self.click(self.groupNameBtn)
+    def click_groupVerify(self):
+        self.click(self.groupVerify)
     def click_nextStep(self):
         self.click(self.nextStep)
-    def click_chooseFriend(self):
-        self.click(self.chooseFriend)
-    def click_chooseFriendDo(self):
-        self.click(self.chooseFriendDo)
-
-    def click_recordTeam(self):
-        self.click(self.recordTeam)
-    def click_choiceGroupPhoto(self):
-        self.click(self.choiceGroupPhoto)
-    def click_recordTeamSuccess(self):
-        self.click(self.recordTeamSuccess)
-    def input_tearmName(self,text):
-        self.input(self.teamName,text)
-    def input_introTeam(self,text):
-        self.input(self.introTeam,text)
-
-    def waitAndfind_createdDiscussTeam(self):
-        if self.waitLoading(self.createdDiscussTeam, t=2) == True:
-            return True
-        else:
-            return False
+    def click_groupNameBackBtn(self):
+        self.click(self.groupNameBackBtn)
+    def click_yesBtn(self):
+        self.click(self.yesBtn)
+    def tapScreen(self, x, y):
+        self.tapOperat(x, y)
+    def input_groupName(self,text):
+        self.input(self.groupNameBox,text)

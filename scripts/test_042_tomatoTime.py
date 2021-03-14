@@ -16,18 +16,17 @@ class Test_tomatoTime():
     #当我在测试完的时候我要对测试有一个销毁的过程比如说关闭浏览器，那么我们就写在tearDown当中
     def teardown(self):
         self.driver.quit()
-    #判断元素是否在当前页面内
-
 
     def test_tomatoTimeLess(self):
         with allure.step('进入更多页'):
-            self.page.more().click_more()
+            self.page.shouye().click_mainMoreBtn()
         with allure.step('点击自律工具'):
-            self.page.timing().click_studyTools()
+            time.sleep(2)
+            self.page.more().click_studyToolBtn()
         with allure.step('点击普通计时'):
             self.page.timing().click_normalTiming()
         with allure.step('点击番茄学习'):
-            self.page.more().click_tomato()
+            self.page.timing().click_tomatoTiming()
         with allure.step('填写学习内容'):
             self.page.timing().input_learningTargetBox(12345)
         with allure.step('点击开始学习'):
@@ -38,31 +37,5 @@ class Test_tomatoTime():
             self.page.tomato_timing().click_timingEndYes()
         with allure.step('点击后退'):
             self.page.timing().click_back()
-            self.page.timing().click_back()
         with allure.step('判断跳到更多页'):
-            assert self.page.more().waitAndfind_more() == True
-
-    # def test_tomatoTimeEnough(self):
-    #     with allure.step('完成番茄计时点击结束'):
-    #         with allure.step('进入更多页'):
-    #             self.page.more().click_more()
-    #         with allure.step('点击自律工具'):
-    #             self.page.timing().click_studyTools()
-    #         with allure.step('点击普通计时'):
-    #             self.page.timing().click_normalTiming()
-    #         with allure.step('点击番茄学习'):
-    #             self.page.more().click_tomato()
-    #         with allure.step('填写学习内容'):
-    #             self.page.timing().input_learningTargetBox(12345)
-    #         with allure.step('点击开始学习'):
-    #             self.page.timing().click_startLearningBtn()
-    #         with allure.step('等待计时结束弹出结束弹窗'):
-    #             time.sleep(1500)
-    #         with allure.step('点击我知道了'):
-    #             self.page.timing().click_timingDialog()
-    #         with allure.step('点击确定'):
-    #             self.page.timing().click_timingTomatoDone()
-    #        with allure.step('点击后退'):
-    #             self.page.timing().click_back()
-    #         with allure.step('判断到了完成页面'):
-    #             assert self.page.timing().waitAndfind_timingEndSuccess() == True
+            assert self.page.shouye().check_friendCircle() == True

@@ -6,12 +6,13 @@ class Activity(BaseAction):
     # 活动页面元素------------------------------------------------------------------------
     # 后退按钮
     backBtn = By.ID, 'com.huiian.timing:id/activity_banner_back_arrow_iv'
-
-
+    # Live关闭按钮
+    closeLive = By.ID, 'com.huiian.timing:id/iv_close'
     def click_back(self):
         self.click(self.backBtn)
-
-
+    def click_closeLive(self):
+        self.click(self.closeLive)
+    def check_backBtn(self):
+        return self.is_feature_exist(self.backBtn)
     def tapScreen(self,x,y):
-        L = self.getSize()
-        self.driver.tap([(L[0]*x,L[1]*y)],1)
+        self.tapOperat(x,y)

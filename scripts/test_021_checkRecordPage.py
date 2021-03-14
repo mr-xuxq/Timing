@@ -22,12 +22,12 @@ class Test_checkRecordPage():
     #长视频列表页浏览测试用例
     def test_checkRecordPage(self):
         with allure.step('进入道友聊天页'):
-            self.page.message().click_messageFriend()
+            self.page.shouye().click_friendIcon()
         with allure.step('点击说话就拍按钮'):
-            self.page.video_record().click_speakBtn()
+            self.page.friend_chat().click_recordBtn()
         with allure.step('点击确定按钮'):
-            if self.page.friend_chat().check_yesToRecordBtn() == True:
-                self.page.friend_chat().click_yesToRecordBtn()
+            if self.page.video_record().check_openCamera() == True:
+                self.page.video_record().click_openCamera()
                 time.sleep(3)
                 self.page.video_record().click_startRecord()
             else:
@@ -88,5 +88,3 @@ class Test_checkRecordPage():
                     assert False
             with allure.step('断言：成功进入录制状态'):
                 assert self.page.video_record().check_readyToSpeak() == True
-
-
