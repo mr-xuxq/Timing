@@ -1,0 +1,142 @@
+{
+  "uid" : "7f2d5c526bd8d8c8",
+  "name" : "test_loginByQQ",
+  "fullName" : "test_003_loginByQQ.Test_loginByQQ#test_loginByQQ",
+  "historyId" : "add77ff9628445763fbdb805500be90f",
+  "time" : {
+    "start" : 1614227223081,
+    "stop" : 1614227302807,
+    "duration" : 79726
+  },
+  "status" : "broken",
+  "statusMessage" : "selenium.common.exceptions.TimeoutException: Message:",
+  "statusTrace" : "self = <scripts.test_003_loginByQQ.Test_loginByQQ object at 0x0000023FC1338BB0>\n\n    def test_loginByQQ(self):\n        with allure.step('点击同意服务协议'):\n            self.page.login().click_agree_login()\n        with allure.step('点击QQ登录'):\n            self.page.login().click_QQ_login()\n        with allure.step('点击qq授权'):\n            time.sleep(8)\n            self.page.more().simpleTap(0.502, 0.833)\n            self.page.more().simpleTap(0.502, 0.865)\n            #self.page.login().click_QQ_agree()\n        with allure.step('第一次进入，点击我知道了'):\n            time.sleep(8)\n            self.page.login().tapScreen(0.5,0.6)\n        with allure.step('检查是否跳到首页'):\n>           self.page.more().click_more()\n\ntest_003_loginByQQ.py:39: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n..\\Pages\\personal_information\\more_page.py:46: in click_more\n    self.click(self.moreBtn)\n..\\base\\base_action.py:27: in click\n    self.find_element(feature).click()\n..\\base\\base_action.py:22: in find_element\n    element = WebDriverWait(self.driver, timeout, poll).until(lambda x: x.find_element(feature_by, feature_value))\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <selenium.webdriver.support.wait.WebDriverWait (session=\"5dc6f500-9588-47aa-a80b-4862fe4827e2\")>\nmethod = <function BaseAction.find_element.<locals>.<lambda> at 0x0000023FC12ECB80>\nmessage = ''\n\n    def until(self, method, message=''):\n        \"\"\"Calls the method provided with the driver as an argument until the \\\n        return value is not False.\"\"\"\n        screen = None\n        stacktrace = None\n    \n        end_time = time.time() + self._timeout\n        while True:\n            try:\n                value = method(self._driver)\n                if value:\n                    return value\n            except self._ignored_exceptions as exc:\n                screen = getattr(exc, 'screen', None)\n                stacktrace = getattr(exc, 'stacktrace', None)\n            time.sleep(self._poll)\n            if time.time() > end_time:\n                break\n>       raise TimeoutException(message, screen, stacktrace)\nE       selenium.common.exceptions.TimeoutException: Message:\n\nc:\\python38\\lib\\site-packages\\selenium\\webdriver\\support\\wait.py:80: TimeoutException",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "selenium.common.exceptions.TimeoutException: Message:",
+    "statusTrace" : "self = <scripts.test_003_loginByQQ.Test_loginByQQ object at 0x0000023FC1338BB0>\n\n    def test_loginByQQ(self):\n        with allure.step('点击同意服务协议'):\n            self.page.login().click_agree_login()\n        with allure.step('点击QQ登录'):\n            self.page.login().click_QQ_login()\n        with allure.step('点击qq授权'):\n            time.sleep(8)\n            self.page.more().simpleTap(0.502, 0.833)\n            self.page.more().simpleTap(0.502, 0.865)\n            #self.page.login().click_QQ_agree()\n        with allure.step('第一次进入，点击我知道了'):\n            time.sleep(8)\n            self.page.login().tapScreen(0.5,0.6)\n        with allure.step('检查是否跳到首页'):\n>           self.page.more().click_more()\n\ntest_003_loginByQQ.py:39: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n..\\Pages\\personal_information\\more_page.py:46: in click_more\n    self.click(self.moreBtn)\n..\\base\\base_action.py:27: in click\n    self.find_element(feature).click()\n..\\base\\base_action.py:22: in find_element\n    element = WebDriverWait(self.driver, timeout, poll).until(lambda x: x.find_element(feature_by, feature_value))\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <selenium.webdriver.support.wait.WebDriverWait (session=\"5dc6f500-9588-47aa-a80b-4862fe4827e2\")>\nmethod = <function BaseAction.find_element.<locals>.<lambda> at 0x0000023FC12ECB80>\nmessage = ''\n\n    def until(self, method, message=''):\n        \"\"\"Calls the method provided with the driver as an argument until the \\\n        return value is not False.\"\"\"\n        screen = None\n        stacktrace = None\n    \n        end_time = time.time() + self._timeout\n        while True:\n            try:\n                value = method(self._driver)\n                if value:\n                    return value\n            except self._ignored_exceptions as exc:\n                screen = getattr(exc, 'screen', None)\n                stacktrace = getattr(exc, 'stacktrace', None)\n            time.sleep(self._poll)\n            if time.time() > end_time:\n                break\n>       raise TimeoutException(message, screen, stacktrace)\nE       selenium.common.exceptions.TimeoutException: Message:\n\nc:\\python38\\lib\\site-packages\\selenium\\webdriver\\support\\wait.py:80: TimeoutException",
+    "steps" : [ {
+      "name" : "点击同意服务协议",
+      "time" : {
+        "start" : 1614227223081,
+        "stop" : 1614227230259,
+        "duration" : 7178
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "点击QQ登录",
+      "time" : {
+        "start" : 1614227230259,
+        "stop" : 1614227234476,
+        "duration" : 4217
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "点击qq授权",
+      "time" : {
+        "start" : 1614227234477,
+        "stop" : 1614227242537,
+        "duration" : 8060
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "第一次进入，点击我知道了",
+      "time" : {
+        "start" : 1614227242537,
+        "stop" : 1614227250559,
+        "duration" : 8022
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "检查是否跳到首页",
+      "time" : {
+        "start" : 1614227250559,
+        "stop" : 1614227302807,
+        "duration" : 52248
+      },
+      "status" : "broken",
+      "statusMessage" : "selenium.common.exceptions.TimeoutException: Message: \n\n",
+      "statusTrace" : "  File \"D:\\Jenkins\\workspace\\Timing\\scripts\\test_003_loginByQQ.py\", line 39, in test_loginByQQ\n    self.page.more().click_more()\n  File \"D:\\Jenkins\\workspace\\Timing\\Pages\\personal_information\\more_page.py\", line 46, in click_more\n    self.click(self.moreBtn)\n  File \"D:\\Jenkins\\workspace\\Timing\\base\\base_action.py\", line 27, in click\n    self.find_element(feature).click()\n  File \"D:\\Jenkins\\workspace\\Timing\\base\\base_action.py\", line 22, in find_element\n    element = WebDriverWait(self.driver, timeout, poll).until(lambda x: x.find_element(feature_by, feature_value))\n  File \"c:\\python38\\lib\\site-packages\\selenium\\webdriver\\support\\wait.py\", line 80, in until\n    raise TimeoutException(message, screen, stacktrace)\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 0,
+    "hasContent" : true,
+    "stepsCount" : 5
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_003_loginByQQ"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_loginByQQ"
+  }, {
+    "name" : "host",
+    "value" : "WINDOWS-49AO44L"
+  }, {
+    "name" : "thread",
+    "value" : "7156-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_003_loginByQQ"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7f2d5c526bd8d8c8.json",
+  "parameterValues" : [ ]
+}

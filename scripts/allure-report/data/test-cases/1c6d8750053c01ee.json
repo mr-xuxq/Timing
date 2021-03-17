@@ -1,0 +1,202 @@
+{
+  "uid" : "1c6d8750053c01ee",
+  "name" : "test_loginByCaptcha",
+  "fullName" : "test_002_loginByCaptcha.Test_loginByCaptcha#test_loginByCaptcha",
+  "historyId" : "2c4c0ff60efde21ca19a24ee615ea1aa",
+  "time" : {
+    "start" : 1614160846930,
+    "stop" : 1614160931628,
+    "duration" : 84698
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert False == True\n  +False\n  -True",
+  "statusTrace" : "self = <scripts.test_002_loginByCaptcha.Test_loginByCaptcha object at 0x0000024316F950D0>\n\n    def test_loginByCaptcha(self):\n        with allure.step('点击同意服务协议'):\n            self.page.login().click_agree_login()\n        with allure.step('点击手机号登录'):\n            self.page.login().click_phone_login()\n        with allure.step('输入手机号'):\n            self.page.login_phone().input_phone(str(phone))\n        with allure.step('点击获取验证码按钮'):\n            self.page.login_phone().click_getCaptcha()\n            time.sleep(2)\n        with allure.step('正式服数据库拿验证码'):\n            captcha = pd.read_sql('select captcha FROM t_captcha WHERE phone = \"' + str(phone) + '\" order by postTime desc',engine)\n            captcha = captcha.iloc[0, 0]\n        with allure.step('输入验证码'):\n            self.page.login_phone_captcha().input_captcha(str(captcha))\n        with allure.step('点击完成'):\n            self.page.login_phone_captcha().click_loginBtn()\n        with allure.step('第一次进入，点击我知道了'):\n            time.sleep(8)\n            self.page.login().tapScreen(0.5,0.6)\n        with allure.step('断言:登录成功'):\n>           assert self.page.shouye().check_shouye() == True\nE           assert False == True\nE             +False\nE             -True\n\ntest_002_loginByCaptcha.py:51: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert False == True\n  +False\n  -True",
+    "statusTrace" : "self = <scripts.test_002_loginByCaptcha.Test_loginByCaptcha object at 0x0000024316F950D0>\n\n    def test_loginByCaptcha(self):\n        with allure.step('点击同意服务协议'):\n            self.page.login().click_agree_login()\n        with allure.step('点击手机号登录'):\n            self.page.login().click_phone_login()\n        with allure.step('输入手机号'):\n            self.page.login_phone().input_phone(str(phone))\n        with allure.step('点击获取验证码按钮'):\n            self.page.login_phone().click_getCaptcha()\n            time.sleep(2)\n        with allure.step('正式服数据库拿验证码'):\n            captcha = pd.read_sql('select captcha FROM t_captcha WHERE phone = \"' + str(phone) + '\" order by postTime desc',engine)\n            captcha = captcha.iloc[0, 0]\n        with allure.step('输入验证码'):\n            self.page.login_phone_captcha().input_captcha(str(captcha))\n        with allure.step('点击完成'):\n            self.page.login_phone_captcha().click_loginBtn()\n        with allure.step('第一次进入，点击我知道了'):\n            time.sleep(8)\n            self.page.login().tapScreen(0.5,0.6)\n        with allure.step('断言:登录成功'):\n>           assert self.page.shouye().check_shouye() == True\nE           assert False == True\nE             +False\nE             -True\n\ntest_002_loginByCaptcha.py:51: AssertionError",
+    "steps" : [ {
+      "name" : "点击同意服务协议",
+      "time" : {
+        "start" : 1614160846930,
+        "stop" : 1614160852106,
+        "duration" : 5176
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "点击手机号登录",
+      "time" : {
+        "start" : 1614160852107,
+        "stop" : 1614160856283,
+        "duration" : 4176
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "输入手机号",
+      "time" : {
+        "start" : 1614160856283,
+        "stop" : 1614160861313,
+        "duration" : 5030
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "点击获取验证码按钮",
+      "time" : {
+        "start" : 1614160861313,
+        "stop" : 1614160864043,
+        "duration" : 2730
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "正式服数据库拿验证码",
+      "time" : {
+        "start" : 1614160864043,
+        "stop" : 1614160864445,
+        "duration" : 402
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "输入验证码",
+      "time" : {
+        "start" : 1614160864445,
+        "stop" : 1614160869894,
+        "duration" : 5449
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "点击完成",
+      "time" : {
+        "start" : 1614160869894,
+        "stop" : 1614160870545,
+        "duration" : 651
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "第一次进入，点击我知道了",
+      "time" : {
+        "start" : 1614160870546,
+        "stop" : 1614160878586,
+        "duration" : 8040
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "断言:登录成功",
+      "time" : {
+        "start" : 1614160878586,
+        "stop" : 1614160931626,
+        "duration" : 53040
+      },
+      "status" : "failed",
+      "statusMessage" : "AssertionError: assert False == True\n  +False\n  -True\n",
+      "statusTrace" : "  File \"D:\\Jenkins\\workspace\\Timing\\scripts\\test_002_loginByCaptcha.py\", line 51, in test_loginByCaptcha\n    assert self.page.shouye().check_shouye() == True\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 0,
+    "hasContent" : true,
+    "stepsCount" : 9
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_002_loginByCaptcha"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_loginByCaptcha"
+  }, {
+    "name" : "host",
+    "value" : "WINDOWS-49AO44L"
+  }, {
+    "name" : "thread",
+    "value" : "2924-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_002_loginByCaptcha"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1c6d8750053c01ee.json",
+  "parameterValues" : [ ]
+}

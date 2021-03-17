@@ -1,12 +1,60 @@
 [ {
-  "buildOrder" : 87,
-  "reportUrl" : "http://localhost:8080/job/Timing/87/allure",
+  "buildOrder" : 94,
+  "reportUrl" : "http://localhost:8080/job/Timing/94/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "failed" : 0,
+    "broken" : 0,
+    "skipped" : 0,
+    "passed" : 24,
+    "unknown" : 0,
+    "total" : 24
+  }
+}, {
+  "buildOrder" : 93,
+  "reportUrl" : "http://localhost:8080/job/Timing/93/allure",
   "reportName" : "AllureReport",
   "data" : {
     "failed" : 1,
-    "broken" : 13,
+    "broken" : 1,
     "skipped" : 0,
-    "passed" : 10,
+    "passed" : 22,
+    "unknown" : 0,
+    "total" : 24
+  }
+}, {
+  "buildOrder" : 92,
+  "reportUrl" : "http://localhost:8080/job/Timing/92/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "failed" : 0,
+    "broken" : 1,
+    "skipped" : 0,
+    "passed" : 23,
+    "unknown" : 0,
+    "total" : 24
+  }
+}, {
+  "buildOrder" : 90,
+  "reportUrl" : "http://localhost:8080/job/Timing/90/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "failed" : 0,
+    "broken" : 0,
+    "skipped" : 0,
+    "passed" : 24,
+    "unknown" : 0,
+    "total" : 24
+  }
+}, {
+  "buildOrder" : 89,
+  "reportUrl" : "http://localhost:8080/job/Timing/89/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "failed" : 0,
+    "broken" : 0,
+    "skipped" : 0,
+    "passed" : 24,
     "unknown" : 0,
     "total" : 24
   }
@@ -187,54 +235,6 @@
     "broken" : 1,
     "skipped" : 0,
     "passed" : 21,
-    "unknown" : 0,
-    "total" : 22
-  }
-}, {
-  "buildOrder" : 67,
-  "reportUrl" : "http://localhost:8080/job/Timing/67/allure",
-  "reportName" : "AllureReport",
-  "data" : {
-    "failed" : 0,
-    "broken" : 7,
-    "skipped" : 0,
-    "passed" : 15,
-    "unknown" : 0,
-    "total" : 22
-  }
-}, {
-  "buildOrder" : 66,
-  "reportUrl" : "http://localhost:8080/job/Timing/66/allure",
-  "reportName" : "AllureReport",
-  "data" : {
-    "failed" : 1,
-    "broken" : 2,
-    "skipped" : 0,
-    "passed" : 19,
-    "unknown" : 0,
-    "total" : 22
-  }
-}, {
-  "buildOrder" : 65,
-  "reportUrl" : "http://localhost:8080/job/Timing/65/allure",
-  "reportName" : "AllureReport",
-  "data" : {
-    "failed" : 1,
-    "broken" : 4,
-    "skipped" : 0,
-    "passed" : 17,
-    "unknown" : 0,
-    "total" : 22
-  }
-}, {
-  "buildOrder" : 63,
-  "reportUrl" : "http://localhost:8080/job/Timing/63/allure",
-  "reportName" : "AllureReport",
-  "data" : {
-    "failed" : 1,
-    "broken" : 3,
-    "skipped" : 0,
-    "passed" : 18,
     "unknown" : 0,
     "total" : 22
   }
