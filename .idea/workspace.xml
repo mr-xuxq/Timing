@@ -20,12 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aa5a3a5f-17f0-46b5-98e3-9b8131a33e9c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Api/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Api/base_api.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Api/login.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/爬虫/爬虫草稿.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/辅助测试脚本/树洞测试.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/辅助测试脚本/数据库数据导出.py" beforeDir="false" afterPath="$PROJECT_DIR$/辅助测试脚本/数据库数据导出.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/账号相关/注册账号.py" beforeDir="false" afterPath="$PROJECT_DIR$/账号相关/注册账号.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/辅助测试脚本/测试录制视频时的脚本.py" beforeDir="false" afterPath="$PROJECT_DIR$/辅助测试脚本/测试录制视频时的脚本.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,7 +50,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Timing备份-最新代码" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -72,7 +69,7 @@
       <recent name="D:\Jenkins\workspace\Timing\手机群控" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.数据库数据导出">
+  <component name="RunManager" selected="Python.树洞测试">
     <configuration name="爬虫草稿" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Timing" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -95,7 +92,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="数据库数据导出" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="树洞测试" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Timing" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -108,7 +105,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/辅助测试脚本/数据库数据导出.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/辅助测试脚本/树洞测试.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -139,7 +136,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="测试录制视频时的脚本" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Timing" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -147,12 +144,78 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/界面可视化" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/辅助测试脚本" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/界面可视化/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/辅助测试脚本/测试录制视频时的脚本.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="注册账号" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Timing" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/账号相关" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/账号相关/注册账号.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="树洞测试" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Timing" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/辅助测试脚本" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/辅助测试脚本/树洞测试.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="数据库数据导出" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Timing" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/辅助测试脚本" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/辅助测试脚本/数据库数据导出.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -163,10 +226,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.数据库数据导出" />
+        <item itemvalue="Python.树洞测试" />
         <item itemvalue="Python.爬虫草稿" />
         <item itemvalue="Python.Crawling_watermelon" />
-        <item itemvalue="Python.main" />
       </list>
     </recent_temporary>
   </component>
@@ -183,6 +245,8 @@
       <workItem from="1608867625302" duration="602000" />
       <workItem from="1608868326250" duration="331000" />
       <workItem from="1608873021998" duration="5685000" />
+      <workItem from="1615969311393" duration="4766000" />
+      <workItem from="1616037463662" duration="5292000" />
     </task>
     <servers />
   </component>
@@ -202,22 +266,30 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1877" height="348" key="GridCell.Tab.0.bottom" timestamp="1608882641792">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="2660" y="359" key="FileChooserDialogImpl" timestamp="1615981746147">
+      <screen x="1920" y="84" width="1920" height="1040" />
+    </state>
+    <state x="2660" y="359" key="FileChooserDialogImpl/1920.84.1920.1040/0.0.1920.1040@1920.84.1920.1040" timestamp="1615981746147" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1616079610402">
+      <screen x="1920" y="84" width="1920" height="1040" />
     </state>
     <state width="1877" height="348" key="GridCell.Tab.0.bottom/1920.84.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1608882641792" />
-    <state width="1877" height="348" key="GridCell.Tab.0.center" timestamp="1608882641792">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/1920.84.1920.1040/0.0.1920.1040@1920.84.1920.1040" timestamp="1616079610402" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1616079610401">
+      <screen x="1920" y="84" width="1920" height="1040" />
     </state>
     <state width="1877" height="348" key="GridCell.Tab.0.center/1920.84.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1608882641792" />
-    <state width="1877" height="348" key="GridCell.Tab.0.left" timestamp="1608882641792">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center/1920.84.1920.1040/0.0.1920.1040@1920.84.1920.1040" timestamp="1616079610401" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1616079610401">
+      <screen x="1920" y="84" width="1920" height="1040" />
     </state>
     <state width="1877" height="348" key="GridCell.Tab.0.left/1920.84.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1608882641792" />
-    <state width="1877" height="348" key="GridCell.Tab.0.right" timestamp="1608882641792">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left/1920.84.1920.1040/0.0.1920.1040@1920.84.1920.1040" timestamp="1616079610401" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1616079610401">
+      <screen x="1920" y="84" width="1920" height="1040" />
     </state>
     <state width="1877" height="348" key="GridCell.Tab.0.right/1920.84.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1608882641792" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/1920.84.1920.1040/0.0.1920.1040@1920.84.1920.1040" timestamp="1616079610401" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1608882641793">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -240,7 +312,7 @@
     <state x="461" y="164" key="SettingsEditor/1920.84.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1608879088490" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Timing$.coverage" NAME="数据库数据导出 Coverage Results" MODIFIED="1608882347700" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/辅助测试脚本" />
+    <SUITE FILE_PATH="coverage/Timing$.coverage" NAME="树洞测试 Coverage Results" MODIFIED="1616065326325" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/辅助测试脚本" />
     <SUITE FILE_PATH="coverage/Timing$Crawling_watermelon.coverage" NAME="Crawling_watermelon Coverage Results" MODIFIED="1608876726096" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/爬虫" />
     <SUITE FILE_PATH="coverage/Timing$main.coverage" NAME="main Coverage Results" MODIFIED="1608876707200" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/界面可视化" />
   </component>

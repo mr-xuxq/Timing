@@ -3,10 +3,6 @@ import time,allure,pytest,os,random
 import pandas as pd
 from sqlalchemy import create_engine
 from appium import webdriver
-phone = 10000001000
-nickName = 100
-password = 111111
-# 此处填入服务器连接
 
 desired_caps = {
     'platformName': 'Android',

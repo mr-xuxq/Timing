@@ -8,7 +8,7 @@ phone = 10000001000
 nickName = 100
 password = 111111
 # 此处填入服务器连接
-
+engine = create_engine('mysql+pymysql://timing_read_only:db_only_hsyt21@rr-bp12u85w22spt5976do.mysql.rds.aliyuncs.com:3306/timing?charset=utf8')
 
 desired_caps = {
     'platformName': 'Android',
@@ -33,6 +33,8 @@ class Register():
         Y2 = int(l[1] * y2)
         driver.swipe(X1, Y1, X2, Y2, t)
     def registerAccount(self):
+        # 勾选协议'
+        driver.find_element_by_id("com.huiian.timing:id/iv_check").click()
         # 点击手机号登录'
         driver.find_element_by_id("com.huiian.timing:id/ll_lbp").click()
         # 查询尚未注册的手机号并填入
@@ -112,5 +114,5 @@ class Register():
 
 
 if __name__ == '__main__':
-    for k in range(1,40):
+    for k in range(1,2):
         Register().registerAccount()
