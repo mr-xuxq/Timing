@@ -1,0 +1,142 @@
+{
+  "uid" : "ccc6a365da9cbd55",
+  "name" : "test_loginByCaptcha",
+  "fullName" : "test_002_loginByCaptcha.Test_loginByCaptcha#test_loginByCaptcha",
+  "historyId" : "2c4c0ff60efde21ca19a24ee615ea1aa",
+  "time" : {
+    "start" : 1616079708435,
+    "stop" : 1616079726119,
+    "duration" : 17684
+  },
+  "status" : "broken",
+  "statusMessage" : "NameError: name 'engine' is not defined",
+  "statusTrace" : "self = <scripts.test_002_loginByCaptcha.Test_loginByCaptcha object at 0x0000013F16EB60A0>\n\n    def test_loginByCaptcha(self):\n        with allure.step('点击同意服务协议'):\n            self.page.login().click_agree_login()\n        with allure.step('点击手机号登录'):\n            self.page.login().click_phone_login()\n        with allure.step('输入手机号'):\n            self.page.login_phone().input_phone(str(phone))\n        with allure.step('点击获取验证码按钮'):\n            self.page.login_phone().click_getCaptcha()\n            time.sleep(2)\n        with allure.step('正式服数据库拿验证码'):\n>           captcha = pd.read_sql('select captcha FROM t_captcha WHERE phone = \"' + str(phone) + '\" order by postTime desc',engine)\nE           NameError: name 'engine' is not defined\n\ntest_002_loginByCaptcha.py:38: NameError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "NameError: name 'engine' is not defined",
+    "statusTrace" : "self = <scripts.test_002_loginByCaptcha.Test_loginByCaptcha object at 0x0000013F16EB60A0>\n\n    def test_loginByCaptcha(self):\n        with allure.step('点击同意服务协议'):\n            self.page.login().click_agree_login()\n        with allure.step('点击手机号登录'):\n            self.page.login().click_phone_login()\n        with allure.step('输入手机号'):\n            self.page.login_phone().input_phone(str(phone))\n        with allure.step('点击获取验证码按钮'):\n            self.page.login_phone().click_getCaptcha()\n            time.sleep(2)\n        with allure.step('正式服数据库拿验证码'):\n>           captcha = pd.read_sql('select captcha FROM t_captcha WHERE phone = \"' + str(phone) + '\" order by postTime desc',engine)\nE           NameError: name 'engine' is not defined\n\ntest_002_loginByCaptcha.py:38: NameError",
+    "steps" : [ {
+      "name" : "点击同意服务协议",
+      "time" : {
+        "start" : 1616079708436,
+        "stop" : 1616079714236,
+        "duration" : 5800
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "点击手机号登录",
+      "time" : {
+        "start" : 1616079714236,
+        "stop" : 1616079718401,
+        "duration" : 4165
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "输入手机号",
+      "time" : {
+        "start" : 1616079718401,
+        "stop" : 1616079723374,
+        "duration" : 4973
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "点击获取验证码按钮",
+      "time" : {
+        "start" : 1616079723375,
+        "stop" : 1616079726118,
+        "duration" : 2743
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "正式服数据库拿验证码",
+      "time" : {
+        "start" : 1616079726118,
+        "stop" : 1616079726118,
+        "duration" : 0
+      },
+      "status" : "broken",
+      "statusMessage" : "NameError: name 'engine' is not defined\n",
+      "statusTrace" : "  File \"D:\\Jenkins\\workspace\\Timing\\scripts\\test_002_loginByCaptcha.py\", line 38, in test_loginByCaptcha\n    captcha = pd.read_sql('select captcha FROM t_captcha WHERE phone = \"' + str(phone) + '\" order by postTime desc',engine)\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 5,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_002_loginByCaptcha"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_loginByCaptcha"
+  }, {
+    "name" : "host",
+    "value" : "WINDOWS-49AO44L"
+  }, {
+    "name" : "thread",
+    "value" : "10772-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_002_loginByCaptcha"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ccc6a365da9cbd55.json",
+  "parameterValues" : [ ]
+}

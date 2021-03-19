@@ -1,0 +1,211 @@
+{
+  "uid" : "ff34dfc4df853ee2",
+  "name" : "test_friendTimeEnough",
+  "fullName" : "test_046_friendTime.Test_friendTime#test_friendTimeEnough",
+  "historyId" : "a0ba2d73cab4badd7d27b95a77cb9b91",
+  "time" : {
+    "start" : 1614149572411,
+    "stop" : 1614149651515,
+    "duration" : 79104
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "结伴计时足一分钟点击结束",
+      "time" : {
+        "start" : 1614149572411,
+        "stop" : 1614149651515,
+        "duration" : 79104
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "进入更多页",
+        "time" : {
+          "start" : 1614149572411,
+          "stop" : 1614149576764,
+          "duration" : 4353
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "点击道友结伴",
+        "time" : {
+          "start" : 1614149576765,
+          "stop" : 1614149578723,
+          "duration" : 1958
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "输入学习内容",
+        "time" : {
+          "start" : 1614149578723,
+          "stop" : 1614149586258,
+          "duration" : 7535
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "点击开始学习按钮",
+        "time" : {
+          "start" : 1614149586259,
+          "stop" : 1614149586902,
+          "duration" : 643
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "计时超过60s",
+        "time" : {
+          "start" : 1614149586902,
+          "stop" : 1614149646903,
+          "duration" : 60001
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "点击结束学习",
+        "time" : {
+          "start" : 1614149646903,
+          "stop" : 1614149647505,
+          "duration" : 602
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "确认结束学习",
+        "time" : {
+          "start" : 1614149647506,
+          "stop" : 1614149648511,
+          "duration" : 1005
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "点击去打卡按钮",
+        "time" : {
+          "start" : 1614149648511,
+          "stop" : 1614149650946,
+          "duration" : 2435
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      }, {
+        "name" : "判断是否有计时总结",
+        "time" : {
+          "start" : 1614149650946,
+          "stop" : 1614149651515,
+          "duration" : 569
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 9,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 10,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_046_friendTime"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_friendTime"
+  }, {
+    "name" : "host",
+    "value" : "WINDOWS-49AO44L"
+  }, {
+    "name" : "thread",
+    "value" : "1752-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_046_friendTime"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ff34dfc4df853ee2.json",
+  "parameterValues" : [ ]
+}

@@ -4,7 +4,7 @@ from base.base_action import BaseAction
 
 class Shouye(BaseAction):
     # 【道友圈按钮】
-    friendCircleBtn = By.ID, 'com.huiian.timing:id/iv_main_friend_feed'
+    friendCircleBtn = By.ID, 'com.huiian.timing:id/layout_friend_feed'
     # 【搜索按钮】
     searchBtn = By.ID, 'com.huiian.timing:id/iv_main_search'
     # 首页【更多按钮】
@@ -12,7 +12,7 @@ class Shouye(BaseAction):
     # 【约个学习局按钮】
     studyDeskBtn = By.ID, 'com.huiian.timing:id/layout_study_desk'
     # 【邀请道友按钮】
-    inviteFriendBtn = By.ID, 'com.huiian.timing:id/layout_invite_friend'
+    inviteFriendBtn = By.ID, 'com.huiian.timing:id/iv_main_invite_friend'
     # 【消息页第一个Channel】
     channel = By.ID, 'com.huiian.timing:id/cl_content'
     # 【道友标签】
