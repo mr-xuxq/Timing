@@ -8,8 +8,8 @@ class Firend_timing(BaseAction):
     # 计时页面元素------------------------------------------------------------------------
     # 学习内容输入框
     friendTimeBox = By.ID, 'com.huiian.timing:id/et_title'
-    # 开始学习按钮
-    beginTimeBtn = By.ID, 'com.huiian.timing:id/tv_btn_bg'
+    # 创建按钮
+    beginTimeBtn = By.ID, 'com.huiian.timing:id/create_room_btn'
     # 结束学习按钮
     endTimeBtn = By.ID, 'com.huiian.timing:id/tv_study'
     # 结束学习确定按钮
@@ -18,6 +18,8 @@ class Firend_timing(BaseAction):
     gotoDaka = By.ID, 'com.huiian.timing:id/tv_goto_daka'
     # 计时总结栏
     finshTime = By.ID, 'com.huiian.timing:id/total_duration_tv'
+    # 创建房间按钮
+    creatRoom = By.ID, 'com.huiian.timing:id/createRoom'
 
     def click_beginTimeBtn(self):
         self.click(self.beginTimeBtn)
@@ -27,6 +29,8 @@ class Firend_timing(BaseAction):
         self.click(self.endTimeYesBtn)
     def click_gotoDaka(self):
         self.click(self.gotoDaka)
+    def click_creatRoom(self):
+        self.click(self.creatRoom)
     def press_back(self):
         self.press_back()
 

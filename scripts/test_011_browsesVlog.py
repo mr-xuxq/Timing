@@ -23,6 +23,8 @@ class Test_browsesVlog():
     def test_browsesVlog(self):
         with allure.step('点击进入发现页'):
             self.page.shouye().click_friendCircle()
+            time.sleep(2)
+            self.page.discover().tapScreen(0.21,0.07)
         with allure.step('点击sVlog标题'):
             if self.page.discover().check_sVlogAuthor() == True:
                 self.page.discover().click_sVlogGif()

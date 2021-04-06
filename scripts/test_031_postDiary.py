@@ -39,7 +39,7 @@ class Test_postDiary():
             self.page.select_cover().click_next()
             time.sleep(15)
         with allure.step('刷新页面'):
-            self.page.discover().tapScreen(0.8,0.06)
+            self.page.discover().tapScreen(0.72,0.07)
             self.page.match_friend().click_backBtn()
         with allure.step('断言:发布成功'):
             if self.page.follow().check_deleteDiaryBtn() == True:

@@ -20,10 +20,13 @@ class Test_friendTime():
     def test_friendTimeLess(self):
         with allure.step('点击结伴学习'):
             self.page.shouye().click_startStudyBtn()
-        with allure.step('输入学习内容'):
-            time.sleep(3)
-            self.page.firend_timing().input_friendTimeBox(12345)
-        with allure.step('点击开始学习按钮'):
+        # with allure.step('输入学习内容'):
+        #     time.sleep(3)
+        #     self.page.firend_timing().input_friendTimeBox(12345)
+        with allure.step('点击创建房间按钮'):
+            time.sleep(1)
+            self.page.firend_timing().tapScreen(0.5,0.815)
+        with allure.step('点击创建按钮'):
             self.page.firend_timing().click_beginTimeBtn()
         with allure.step('点击结束学习'):
             self.page.firend_timing().click_endTimeBtn()
@@ -35,10 +38,13 @@ class Test_friendTime():
     def test_friendTimeEnough(self):
         with allure.step('点击结伴学习'):
             self.page.shouye().click_startStudyBtn()
-        with allure.step('输入学习内容'):
-            time.sleep(3)
-            self.page.firend_timing().input_friendTimeBox(12345)
-        with allure.step('点击开始学习按钮'):
+        # with allure.step('输入学习内容'):
+        #     time.sleep(3)
+        #     self.page.firend_timing().input_friendTimeBox(12345)
+        with allure.step('点击创建房间按钮'):
+            time.sleep(1)
+            self.page.firend_timing().tapScreen(0.5,0.815)
+        with allure.step('点击创建按钮'):
             self.page.firend_timing().click_beginTimeBtn()
         with allure.step('计时超过70s'):
             time.sleep(70)

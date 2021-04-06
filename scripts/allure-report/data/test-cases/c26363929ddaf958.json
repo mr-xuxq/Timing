@@ -1,0 +1,127 @@
+{
+  "uid" : "c26363929ddaf958",
+  "name" : "test_loginByQQ",
+  "fullName" : "test_003_loginByQQ.Test_loginByQQ#test_loginByQQ",
+  "historyId" : "add77ff9628445763fbdb805500be90f",
+  "time" : {
+    "start" : 1616577420931,
+    "stop" : 1616577488116,
+    "duration" : 67185
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert False == True\n  +False\n  -True",
+  "statusTrace" : "self = <scripts.test_003_loginByQQ.Test_loginByQQ object at 0x00000257F39C0430>\n\n    def test_loginByQQ(self):\n        with allure.step('点击同意服务协议'):\n            self.page.login().click_agree_login()\n        with allure.step('点击QQ登录'):\n            self.page.login().click_QQ_login()\n        with allure.step('点击qq授权'):\n            time.sleep(5)\n            self.page.more().tapScreen(0.502, 0.833)\n            self.page.more().tapScreen(0.502, 0.865)\n        with allure.step('断言:看到学习圈按钮-->登录成功'):\n>           assert self.page.shouye().check_friendCircle() == True\nE           assert False == True\nE             +False\nE             -True\n\ntest_003_loginByQQ.py:34: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert False == True\n  +False\n  -True",
+    "statusTrace" : "self = <scripts.test_003_loginByQQ.Test_loginByQQ object at 0x00000257F39C0430>\n\n    def test_loginByQQ(self):\n        with allure.step('点击同意服务协议'):\n            self.page.login().click_agree_login()\n        with allure.step('点击QQ登录'):\n            self.page.login().click_QQ_login()\n        with allure.step('点击qq授权'):\n            time.sleep(5)\n            self.page.more().tapScreen(0.502, 0.833)\n            self.page.more().tapScreen(0.502, 0.865)\n        with allure.step('断言:看到学习圈按钮-->登录成功'):\n>           assert self.page.shouye().check_friendCircle() == True\nE           assert False == True\nE             +False\nE             -True\n\ntest_003_loginByQQ.py:34: AssertionError",
+    "steps" : [ {
+      "name" : "点击同意服务协议",
+      "time" : {
+        "start" : 1616577420931,
+        "stop" : 1616577426364,
+        "duration" : 5433
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "点击QQ登录",
+      "time" : {
+        "start" : 1616577426364,
+        "stop" : 1616577430541,
+        "duration" : 4177
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "点击qq授权",
+      "time" : {
+        "start" : 1616577430541,
+        "stop" : 1616577435604,
+        "duration" : 5063
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "断言:看到学习圈按钮-->登录成功",
+      "time" : {
+        "start" : 1616577435604,
+        "stop" : 1616577488116,
+        "duration" : 52512
+      },
+      "status" : "failed",
+      "statusMessage" : "AssertionError: assert False == True\n  +False\n  -True\n",
+      "statusTrace" : "  File \"D:\\Jenkins\\workspace\\Timing\\scripts\\test_003_loginByQQ.py\", line 34, in test_loginByQQ\n    assert self.page.shouye().check_friendCircle() == True\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_003_loginByQQ"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_loginByQQ"
+  }, {
+    "name" : "host",
+    "value" : "WINDOWS-49AO44L"
+  }, {
+    "name" : "thread",
+    "value" : "11152-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_003_loginByQQ"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c26363929ddaf958.json",
+  "parameterValues" : [ ]
+}

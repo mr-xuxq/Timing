@@ -1,0 +1,262 @@
+{
+  "uid" : "d1dee1000e77210f",
+  "name" : "test_farmTimeEnough",
+  "fullName" : "test_045_farmTime.Test_farmTime#test_farmTimeEnough",
+  "historyId" : "83e7a98a72427850375ea2e15365c3ff",
+  "time" : {
+    "start" : 1615020937968,
+    "stop" : 1615021113909,
+    "duration" : 175941
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert False == True\n  +False\n  -True",
+  "statusTrace" : "self = <scripts.test_045_farmTime.Test_farmTime object at 0x00000244C73B35E0>\n\n    def test_farmTimeEnough(self):\n        with allure.step('进入更多页'):\n            self.page.more().click_more()\n        with allure.step('点击自律工具'):\n            self.page.timing().click_studyTools()\n        with allure.step('点击农场学习'):\n            self.page.timing().click_farmTiming()\n        with allure.step('输入学习内容'):\n            time.sleep(3)\n            self.page.timing().input_learningTargetBox(12345)\n        with allure.step('点击设置按钮'):\n            self.page.timing().click_timeSettingBtn()\n        with allure.step('设置学习时长'):\n            time.sleep(3)\n            self.page.more().swipeByTime()\n        with allure.step('点击设置完成按钮'):\n            self.page.timing().click_studySettingsuccessBtn()\n        with allure.step('点击开始学习'):\n            self.page.timing().click_startLearningBtn()\n        with allure.step('判断时间到了结束弹窗'):\n            time.sleep(55)\n        with allure.step('点击我知道了'):\n            self.page.farm_timing().click_timingDialog()\n        with allure.step('点击结束'):\n            time.sleep(1)\n            self.page.farm_timing().tapScreen(0.500,0.948)\n        with allure.step('点击确定'):\n            self.page.farm_timing().click_timingEndConfirmRight()\n        with allure.step('判断跳转到完成页面'):\n>           assert self.page.farm_timing().check_timingEndSuccess() == True\nE           assert False == True\nE             +False\nE             -True\n\ntest_045_farmTime.py:77: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert False == True\n  +False\n  -True",
+    "statusTrace" : "self = <scripts.test_045_farmTime.Test_farmTime object at 0x00000244C73B35E0>\n\n    def test_farmTimeEnough(self):\n        with allure.step('进入更多页'):\n            self.page.more().click_more()\n        with allure.step('点击自律工具'):\n            self.page.timing().click_studyTools()\n        with allure.step('点击农场学习'):\n            self.page.timing().click_farmTiming()\n        with allure.step('输入学习内容'):\n            time.sleep(3)\n            self.page.timing().input_learningTargetBox(12345)\n        with allure.step('点击设置按钮'):\n            self.page.timing().click_timeSettingBtn()\n        with allure.step('设置学习时长'):\n            time.sleep(3)\n            self.page.more().swipeByTime()\n        with allure.step('点击设置完成按钮'):\n            self.page.timing().click_studySettingsuccessBtn()\n        with allure.step('点击开始学习'):\n            self.page.timing().click_startLearningBtn()\n        with allure.step('判断时间到了结束弹窗'):\n            time.sleep(55)\n        with allure.step('点击我知道了'):\n            self.page.farm_timing().click_timingDialog()\n        with allure.step('点击结束'):\n            time.sleep(1)\n            self.page.farm_timing().tapScreen(0.500,0.948)\n        with allure.step('点击确定'):\n            self.page.farm_timing().click_timingEndConfirmRight()\n        with allure.step('判断跳转到完成页面'):\n>           assert self.page.farm_timing().check_timingEndSuccess() == True\nE           assert False == True\nE             +False\nE             -True\n\ntest_045_farmTime.py:77: AssertionError",
+    "steps" : [ {
+      "name" : "进入更多页",
+      "time" : {
+        "start" : 1615020937968,
+        "stop" : 1615020973171,
+        "duration" : 35203
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "点击自律工具",
+      "time" : {
+        "start" : 1615020973171,
+        "stop" : 1615020977464,
+        "duration" : 4293
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "点击农场学习",
+      "time" : {
+        "start" : 1615020977464,
+        "stop" : 1615020977796,
+        "duration" : 332
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "输入学习内容",
+      "time" : {
+        "start" : 1615020977796,
+        "stop" : 1615020985410,
+        "duration" : 7614
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "点击设置按钮",
+      "time" : {
+        "start" : 1615020985410,
+        "stop" : 1615020986062,
+        "duration" : 652
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "设置学习时长",
+      "time" : {
+        "start" : 1615020986062,
+        "stop" : 1615020989313,
+        "duration" : 3251
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "点击设置完成按钮",
+      "time" : {
+        "start" : 1615020989313,
+        "stop" : 1615020993421,
+        "duration" : 4108
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "点击开始学习",
+      "time" : {
+        "start" : 1615020993421,
+        "stop" : 1615020994497,
+        "duration" : 1076
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "判断时间到了结束弹窗",
+      "time" : {
+        "start" : 1615020994497,
+        "stop" : 1615021049497,
+        "duration" : 55000
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "点击我知道了",
+      "time" : {
+        "start" : 1615021049497,
+        "stop" : 1615021058033,
+        "duration" : 8536
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "点击结束",
+      "time" : {
+        "start" : 1615021058034,
+        "stop" : 1615021059072,
+        "duration" : 1038
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "点击确定",
+      "time" : {
+        "start" : 1615021059072,
+        "stop" : 1615021062765,
+        "duration" : 3693
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "判断跳转到完成页面",
+      "time" : {
+        "start" : 1615021062765,
+        "stop" : 1615021113909,
+        "duration" : 51144
+      },
+      "status" : "failed",
+      "statusMessage" : "AssertionError: assert False == True\n  +False\n  -True\n",
+      "statusTrace" : "  File \"D:\\Jenkins\\workspace\\Timing\\scripts\\test_045_farmTime.py\", line 77, in test_farmTimeEnough\n    assert self.page.farm_timing().check_timingEndSuccess() == True\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 13,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_045_farmTime"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_farmTime"
+  }, {
+    "name" : "host",
+    "value" : "WINDOWS-49AO44L"
+  }, {
+    "name" : "thread",
+    "value" : "20912-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_045_farmTime"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d1dee1000e77210f.json",
+  "parameterValues" : [ ]
+}

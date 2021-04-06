@@ -1,0 +1,727 @@
+{
+  "uid" : "b3aa042cc1e62cbd",
+  "name" : "test_friendTimeLess",
+  "fullName" : "test_046_friendTime.Test_friendTime#test_friendTimeLess",
+  "historyId" : "a07f0b8cafafc81571f0a1425253d81b",
+  "time" : {
+    "start" : 1617368405015,
+    "stop" : 1617368418244,
+    "duration" : 13229
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "点击结伴学习",
+      "time" : {
+        "start" : 1617368405015,
+        "stop" : 1617368410519,
+        "duration" : 5504
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "点击创建房间按钮",
+      "time" : {
+        "start" : 1617368410519,
+        "stop" : 1617368411543,
+        "duration" : 1024
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "点击创建按钮",
+      "time" : {
+        "start" : 1617368411543,
+        "stop" : 1617368412791,
+        "duration" : 1248
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "点击结束学习",
+      "time" : {
+        "start" : 1617368412791,
+        "stop" : 1617368416426,
+        "duration" : 3635
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "确认结束学习",
+      "time" : {
+        "start" : 1617368416426,
+        "stop" : 1617368417337,
+        "duration" : 911
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "判断跳到首页",
+      "time" : {
+        "start" : 1617368417337,
+        "stop" : 1617368418244,
+        "duration" : 907
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_046_friendTime"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_friendTime"
+  }, {
+    "name" : "host",
+    "value" : "WINDOWS-49AO44L"
+  }, {
+    "name" : "thread",
+    "value" : "4876-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_046_friendTime"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "3108654be0d14950",
+      "status" : "passed",
+      "time" : {
+        "start" : 1617365236402,
+        "stop" : 1617365247059,
+        "duration" : 10657
+      }
+    }, {
+      "uid" : "21f37eed0faf2996",
+      "status" : "passed",
+      "time" : {
+        "start" : 1617362561385,
+        "stop" : 1617362572022,
+        "duration" : 10637
+      }
+    }, {
+      "uid" : "70dec1dba28c035f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1617348388687,
+        "stop" : 1617348401380,
+        "duration" : 12693
+      }
+    }, {
+      "uid" : "3d853e78fe666fc1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1617278744301,
+        "stop" : 1617278755549,
+        "duration" : 11248
+      }
+    }, {
+      "uid" : "84f9a8be98a5782d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1617276354659,
+        "stop" : 1617276410906,
+        "duration" : 56247
+      }
+    }, {
+      "uid" : "2a7032bdd8452c57",
+      "status" : "passed",
+      "time" : {
+        "start" : 1617105702386,
+        "stop" : 1617105714414,
+        "duration" : 12028
+      }
+    }, {
+      "uid" : "4b1e300fc5d5f1db",
+      "status" : "passed",
+      "time" : {
+        "start" : 1617009316952,
+        "stop" : 1617009328927,
+        "duration" : 11975
+      }
+    }, {
+      "uid" : "44d71561f182af71",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616937784436,
+        "stop" : 1616937795316,
+        "duration" : 10880
+      }
+    }, {
+      "uid" : "db8d521fc35ebf76",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616933938638,
+        "stop" : 1616933949768,
+        "duration" : 11130
+      }
+    }, {
+      "uid" : "e3e8511baa800a8e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616602409150,
+        "stop" : 1616602421215,
+        "duration" : 12065
+      }
+    }, {
+      "uid" : "c619dd9d673cb0c4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616598021745,
+        "stop" : 1616598034543,
+        "duration" : 12798
+      }
+    }, {
+      "uid" : "e741c57ba692ac00",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1616596857257,
+        "stop" : 1616596916505,
+        "duration" : 59248
+      }
+    }, {
+      "uid" : "1c605df41433bf6a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616585596239,
+        "stop" : 1616585607952,
+        "duration" : 11713
+      }
+    }, {
+      "uid" : "3acd28404e9ab491",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1616578410269,
+        "stop" : 1616578470954,
+        "duration" : 60685
+      }
+    }, {
+      "uid" : "bfa9160a1aa2b7a3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616143000324,
+        "stop" : 1616143019678,
+        "duration" : 19354
+      }
+    }, {
+      "uid" : "da8fde6f5f23fe98",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616139006884,
+        "stop" : 1616139024667,
+        "duration" : 17783
+      }
+    }, {
+      "uid" : "c2de1c919be1610d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1616123037594,
+        "stop" : 1616123054359,
+        "duration" : 16765
+      }
+    }, {
+      "uid" : "8f782daf90134905",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False == True\n  +False\n  -True",
+      "time" : {
+        "start" : 1616080840114,
+        "stop" : 1616080906558,
+        "duration" : 66444
+      }
+    }, {
+      "uid" : "abf1f1aac505a1d5",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: An element could not be located on the page using the given search parameters.",
+      "time" : {
+        "start" : 1615550732799,
+        "stop" : 1615550746945,
+        "duration" : 14146
+      }
+    }, {
+      "uid" : "ff5dd39b7c0a8311",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615517121113,
+        "stop" : 1615517137460,
+        "duration" : 16347
+      }
+    }, {
+      "uid" : "87275232aacf2727",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615470059031,
+        "stop" : 1615470075629,
+        "duration" : 16598
+      }
+    }, {
+      "uid" : "a81398b0f23bdfad",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615467437087,
+        "stop" : 1615467453577,
+        "duration" : 16490
+      }
+    }, {
+      "uid" : "ed70e395ebb3aa2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615456481180,
+        "stop" : 1615456498397,
+        "duration" : 17217
+      }
+    }, {
+      "uid" : "a892f278e79744cf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615431057278,
+        "stop" : 1615431075311,
+        "duration" : 18033
+      }
+    }, {
+      "uid" : "c79a5d66c4d8b939",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615032110257,
+        "stop" : 1615032129049,
+        "duration" : 18792
+      }
+    }, {
+      "uid" : "633147d0404f1c89",
+      "status" : "passed",
+      "time" : {
+        "start" : 1615021116815,
+        "stop" : 1615021137401,
+        "duration" : 20586
+      }
+    }, {
+      "uid" : "19441e923a4d90e2",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+      "time" : {
+        "start" : 1615016447136,
+        "stop" : 1615016498220,
+        "duration" : 51084
+      }
+    }, {
+      "uid" : "7b8ddd87bfe36f4b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614627323759,
+        "stop" : 1614627354850,
+        "duration" : 31091
+      }
+    }, {
+      "uid" : "8d053a8ff3f79011",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614614150967,
+        "stop" : 1614614179366,
+        "duration" : 28399
+      }
+    }, {
+      "uid" : "4acabfcff680df8e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614611790056,
+        "stop" : 1614611809454,
+        "duration" : 19398
+      }
+    }, {
+      "uid" : "11fe75da574e898b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614609657732,
+        "stop" : 1614609676155,
+        "duration" : 18423
+      }
+    }, {
+      "uid" : "1ba57070637087be",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614606401082,
+        "stop" : 1614606422120,
+        "duration" : 21038
+      }
+    }, {
+      "uid" : "5ab19601cb95bfc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614331703294,
+        "stop" : 1614331725204,
+        "duration" : 21910
+      }
+    }, {
+      "uid" : "b818ef8ee50c3c52",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614321938486,
+        "stop" : 1614321960073,
+        "duration" : 21587
+      }
+    }, {
+      "uid" : "b1e3ceb2f18ad191",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614317337297,
+        "stop" : 1614317358577,
+        "duration" : 21280
+      }
+    }, {
+      "uid" : "ef96c57ae59f92",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614315992109,
+        "stop" : 1614316013851,
+        "duration" : 21742
+      }
+    }, {
+      "uid" : "c3cd12780a514ddc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614264941463,
+        "stop" : 1614264973197,
+        "duration" : 31734
+      }
+    }, {
+      "uid" : "46afa13461b0e5fe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614262021572,
+        "stop" : 1614262046769,
+        "duration" : 25197
+      }
+    }, {
+      "uid" : "c891c758673b67b2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614260489874,
+        "stop" : 1614260510898,
+        "duration" : 21024
+      }
+    }, {
+      "uid" : "fbc407ee69dc4084",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614258628150,
+        "stop" : 1614258649311,
+        "duration" : 21161
+      }
+    }, {
+      "uid" : "cfa93c20a41eae08",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614228335696,
+        "stop" : 1614228357175,
+        "duration" : 21479
+      }
+    }, {
+      "uid" : "90aef5a416788a77",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614169168922,
+        "stop" : 1614169187393,
+        "duration" : 18471
+      }
+    }, {
+      "uid" : "da0abe5ca9cd472",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614166733957,
+        "stop" : 1614166762673,
+        "duration" : 28716
+      }
+    }, {
+      "uid" : "80c82c05c31a9e9a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614162090174,
+        "stop" : 1614162108819,
+        "duration" : 18645
+      }
+    }, {
+      "uid" : "cdd560b4e274041b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614149550712,
+        "stop" : 1614149569660,
+        "duration" : 18948
+      }
+    }, {
+      "uid" : "4962dda63192530d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614143323401,
+        "stop" : 1614143352966,
+        "duration" : 29565
+      }
+    }, {
+      "uid" : "1d2777260c300c54",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614072523774,
+        "stop" : 1614072545666,
+        "duration" : 21892
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 2,
+        "skipped" : 0,
+        "passed" : 45,
+        "unknown" : 0,
+        "total" : 47
+      },
+      "items" : [ {
+        "uid" : "ab83bd0e305add34",
+        "reportUrl" : "http://localhost:8080/job/Timing/117/allure/#testresult/ab83bd0e305add34",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617365236402,
+          "stop" : 1617365247059,
+          "duration" : 10657
+        }
+      }, {
+        "uid" : "88a2cfd944cc87e4",
+        "reportUrl" : "http://localhost:8080/job/Timing/116/allure/#testresult/88a2cfd944cc87e4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617362561385,
+          "stop" : 1617362572022,
+          "duration" : 10637
+        }
+      }, {
+        "uid" : "ab214d5089462bb3",
+        "reportUrl" : "http://localhost:8080/job/Timing/115/allure/#testresult/ab214d5089462bb3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617348388687,
+          "stop" : 1617348401380,
+          "duration" : 12693
+        }
+      }, {
+        "uid" : "46bf678f1aeb90f1",
+        "reportUrl" : "http://localhost:8080/job/Timing/114/allure/#testresult/46bf678f1aeb90f1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617278744301,
+          "stop" : 1617278755549,
+          "duration" : 11248
+        }
+      }, {
+        "uid" : "34b5f8414687be94",
+        "reportUrl" : "http://localhost:8080/job/Timing/113/allure/#testresult/34b5f8414687be94",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617276354659,
+          "stop" : 1617276410906,
+          "duration" : 56247
+        }
+      }, {
+        "uid" : "a0f20167580d26c8",
+        "reportUrl" : "http://localhost:8080/job/Timing/112/allure/#testresult/a0f20167580d26c8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617105702386,
+          "stop" : 1617105714414,
+          "duration" : 12028
+        }
+      }, {
+        "uid" : "87b4bfe11642e9d5",
+        "reportUrl" : "http://localhost:8080/job/Timing/111/allure/#testresult/87b4bfe11642e9d5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1617009316952,
+          "stop" : 1617009328927,
+          "duration" : 11975
+        }
+      }, {
+        "uid" : "c7e8ef7f98572b40",
+        "reportUrl" : "http://localhost:8080/job/Timing/110/allure/#testresult/c7e8ef7f98572b40",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616937784436,
+          "stop" : 1616937795316,
+          "duration" : 10880
+        }
+      }, {
+        "uid" : "aa45dd1a10734d15",
+        "reportUrl" : "http://localhost:8080/job/Timing/107/allure/#testresult/aa45dd1a10734d15",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616933938638,
+          "stop" : 1616933949768,
+          "duration" : 11130
+        }
+      }, {
+        "uid" : "b496a5c0f27b0555",
+        "reportUrl" : "http://localhost:8080/job/Timing/106/allure/#testresult/b496a5c0f27b0555",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616602409150,
+          "stop" : 1616602421215,
+          "duration" : 12065
+        }
+      }, {
+        "uid" : "642e8033e003388",
+        "reportUrl" : "http://localhost:8080/job/Timing/105/allure/#testresult/642e8033e003388",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616598021745,
+          "stop" : 1616598034543,
+          "duration" : 12798
+        }
+      }, {
+        "uid" : "45bc83bb368e7191",
+        "reportUrl" : "http://localhost:8080/job/Timing/104/allure/#testresult/45bc83bb368e7191",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+        "time" : {
+          "start" : 1616596857257,
+          "stop" : 1616596916505,
+          "duration" : 59248
+        }
+      }, {
+        "uid" : "b9f83b30578da421",
+        "reportUrl" : "http://localhost:8080/job/Timing/103/allure/#testresult/b9f83b30578da421",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616585596239,
+          "stop" : 1616585607952,
+          "duration" : 11713
+        }
+      }, {
+        "uid" : "6d513a5ca3716904",
+        "reportUrl" : "http://localhost:8080/job/Timing/101/allure/#testresult/6d513a5ca3716904",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+        "time" : {
+          "start" : 1616578410269,
+          "stop" : 1616578470954,
+          "duration" : 60685
+        }
+      }, {
+        "uid" : "2e8f04cedcf92b20",
+        "reportUrl" : "http://localhost:8080/job/Timing/100/allure/#testresult/2e8f04cedcf92b20",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616143000324,
+          "stop" : 1616143019678,
+          "duration" : 19354
+        }
+      }, {
+        "uid" : "fa061c8f3737d3f5",
+        "reportUrl" : "http://localhost:8080/job/Timing/99/allure/#testresult/fa061c8f3737d3f5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616139006884,
+          "stop" : 1616139024667,
+          "duration" : 17783
+        }
+      }, {
+        "uid" : "d7dd61b810d4cca1",
+        "reportUrl" : "http://localhost:8080/job/Timing/98/allure/#testresult/d7dd61b810d4cca1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1616123037594,
+          "stop" : 1616123054359,
+          "duration" : 16765
+        }
+      }, {
+        "uid" : "8b82face557816a8",
+        "reportUrl" : "http://localhost:8080/job/Timing/94/allure/#testresult/8b82face557816a8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615967940498,
+          "stop" : 1615967957549,
+          "duration" : 17051
+        }
+      }, {
+        "uid" : "cef820ada8e65c4f",
+        "reportUrl" : "http://localhost:8080/job/Timing/93/allure/#testresult/cef820ada8e65c4f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615946478325,
+          "stop" : 1615946504459,
+          "duration" : 26134
+        }
+      }, {
+        "uid" : "f820b431ac154257",
+        "reportUrl" : "http://localhost:8080/job/Timing/92/allure/#testresult/f820b431ac154257",
+        "status" : "passed",
+        "time" : {
+          "start" : 1615897890608,
+          "stop" : 1615897907661,
+          "duration" : 17053
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "b3aa042cc1e62cbd.json",
+  "parameterValues" : [ ]
+}
