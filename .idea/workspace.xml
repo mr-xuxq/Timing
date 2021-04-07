@@ -20,10 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aa5a3a5f-17f0-46b5-98e3-9b8131a33e9c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/辅助测试脚本/树洞测试.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/账号相关/注册账号.py" beforeDir="false" afterPath="$PROJECT_DIR$/账号相关/注册账号.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/辅助测试脚本/测试录制视频时的脚本.py" beforeDir="false" afterPath="$PROJECT_DIR$/辅助测试脚本/测试录制视频时的脚本.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Api/base_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/Api/base_api.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +67,7 @@
       <recent name="D:\Jenkins\workspace\Timing\手机群控" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.树洞测试">
+  <component name="RunManager" selected="Python.Crawling_watermelon">
     <configuration name="爬虫草稿" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Timing" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -92,28 +90,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="树洞测试" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Timing" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/辅助测试脚本" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/辅助测试脚本/树洞测试.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="Crawling_watermelon" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Timing" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -128,6 +104,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/爬虫/Crawling_watermelon.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="树洞测试" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Timing" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/辅助测试脚本" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/辅助测试脚本/树洞测试.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -226,7 +224,6 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.树洞测试" />
         <item itemvalue="Python.爬虫草稿" />
         <item itemvalue="Python.Crawling_watermelon" />
       </list>
@@ -247,6 +244,7 @@
       <workItem from="1608873021998" duration="5685000" />
       <workItem from="1615969311393" duration="4766000" />
       <workItem from="1616037463662" duration="5292000" />
+      <workItem from="1617693493855" duration="119000" />
     </task>
     <servers />
   </component>

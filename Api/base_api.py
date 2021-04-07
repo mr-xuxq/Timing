@@ -2,7 +2,6 @@ import requests
 import unittest
 import json
 
-
 class BaseRequest():
     def send_post(self, url, data):
         '''
